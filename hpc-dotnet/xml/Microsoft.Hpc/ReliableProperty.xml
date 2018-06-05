@@ -1,0 +1,151 @@
+﻿<Type Name="ReliableProperty" FullName="Microsoft.Hpc.ReliableProperty">
+  <TypeSignature Language="C#" Value="public class ReliableProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ReliableProperty extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.ReliableProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Class ReliableProperty" />
+  <TypeSignature Language="F#" Value="type ReliableProperty = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReliableProperty (string name, Type valueType, bool readOnly = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Type valueType, bool readOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ReliableProperty.#ctor(System.String,System.Type,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, valueType As Type, Optional readOnly As Boolean = false)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.ReliableProperty : string * Type * bool -&gt; Microsoft.Hpc.ReliableProperty" Usage="new Microsoft.Hpc.ReliableProperty (name, valueType, readOnly)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="valueType" Type="System.Type" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="valueType">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReliableProperty (string name, Type valueType, string parentName, bool readOnly = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Type valueType, string parentName, bool readOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ReliableProperty.#ctor(System.String,System.Type,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, valueType As Type, parentName As String, Optional readOnly As Boolean = false)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.ReliableProperty : string * Type * string * bool -&gt; Microsoft.Hpc.ReliableProperty" Usage="new Microsoft.Hpc.ReliableProperty (name, valueType, parentName, readOnly)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="valueType" Type="System.Type" />
+        <Parameter Name="parentName" Type="System.String" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="valueType">To be added.</param>
+        <param name="parentName">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.ReliableProperty.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.ReliableProperty.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentName">
+      <MemberSignature Language="C#" Value="public string ParentName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ParentName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.ReliableProperty.ParentName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentName As String" />
+      <MemberSignature Language="F#" Value="member this.ParentName : string with get, set" Usage="Microsoft.Hpc.ReliableProperty.ParentName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public bool ReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.ReliableProperty.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ReadOnly : bool with get, set" Usage="Microsoft.Hpc.ReliableProperty.ReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueType">
+      <MemberSignature Language="C#" Value="public Type ValueType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ValueType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.ReliableProperty.ValueType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ValueType As Type" />
+      <MemberSignature Language="F#" Value="member this.ValueType : Type with get, set" Usage="Microsoft.Hpc.ReliableProperty.ValueType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,171 @@
+﻿<Type Name="IBrokerEntry" FullName="Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry">
+  <TypeSignature Language="C#" Value="public interface IBrokerEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBrokerEntry" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBrokerEntry" />
+  <TypeSignature Language="F#" Value="type IBrokerEntry = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attach">
+      <MemberSignature Language="C#" Value="public void Attach ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Attach() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.Attach" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Attach ()" />
+      <MemberSignature Language="F#" Value="abstract member Attach : unit -&gt; unit" Usage="iBrokerEntry.Attach " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Auth">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization Auth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization Auth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.Auth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Auth As BrokerAuthorization" />
+      <MemberSignature Language="F#" Value="member this.Auth : Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization" Usage="Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.Auth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrokerFinished">
+      <MemberSignature Language="C#" Value="event EventHandler BrokerFinished;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler BrokerFinished" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.BrokerFinished" />
+      <MemberSignature Language="VB.NET" Value="Event BrokerFinished As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.BrokerFinished : EventHandler " Usage="member this.BrokerFinished : System.EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task Close (bool cleanData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task Close(bool cleanData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.Close(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Close (cleanData As Boolean) As Task" />
+      <MemberSignature Language="F#" Value="abstract member Close : bool -&gt; System.Threading.Tasks.Task" Usage="iBrokerEntry.Close cleanData" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cleanData" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="cleanData">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFrontendForInprocessBroker">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Interface.IBrokerFrontend GetFrontendForInprocessBroker (Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback callbackInstance);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Session.Interface.IBrokerFrontend GetFrontendForInprocessBroker(class Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback callbackInstance) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.GetFrontendForInprocessBroker(Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFrontendForInprocessBroker (callbackInstance As IResponseServiceCallback) As IBrokerFrontend" />
+      <MemberSignature Language="F#" Value="abstract member GetFrontendForInprocessBroker : Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback -&gt; Microsoft.Hpc.Scheduler.Session.Interface.IBrokerFrontend" Usage="iBrokerEntry.GetFrontendForInprocessBroker callbackInstance" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Interface.IBrokerFrontend</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callbackInstance" Type="Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback" />
+      </Parameters>
+      <Docs>
+        <param name="callbackInstance">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Run">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Interface.BrokerInitializationResult Run (Microsoft.Hpc.Scheduler.Session.Internal.SessionStartInfoContract startInfo, Microsoft.Hpc.Scheduler.Session.Internal.BrokerStartInfo brokerInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Session.Interface.BrokerInitializationResult Run(class Microsoft.Hpc.Scheduler.Session.Internal.SessionStartInfoContract startInfo, class Microsoft.Hpc.Scheduler.Session.Internal.BrokerStartInfo brokerInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.Run(Microsoft.Hpc.Scheduler.Session.Internal.SessionStartInfoContract,Microsoft.Hpc.Scheduler.Session.Internal.BrokerStartInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Run (startInfo As SessionStartInfoContract, brokerInfo As BrokerStartInfo) As BrokerInitializationResult" />
+      <MemberSignature Language="F#" Value="abstract member Run : Microsoft.Hpc.Scheduler.Session.Internal.SessionStartInfoContract * Microsoft.Hpc.Scheduler.Session.Internal.BrokerStartInfo -&gt; Microsoft.Hpc.Scheduler.Session.Interface.BrokerInitializationResult" Usage="iBrokerEntry.Run (startInfo, brokerInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Interface.BrokerInitializationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.Internal.SessionStartInfoContract" />
+        <Parameter Name="brokerInfo" Type="Microsoft.Hpc.Scheduler.Session.Internal.BrokerStartInfo" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="brokerInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionId">
+      <MemberSignature Language="C#" Value="public int SessionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SessionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.SessionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionId As Integer" />
+      <MemberSignature Language="F#" Value="member this.SessionId : int" Usage="Microsoft.Hpc.Scheduler.Session.Interface.IBrokerEntry.SessionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,106 @@
+﻿<Type Name="ISchedulerCore" FullName="Microsoft.Hpc.Scheduler.ISchedulerCore">
+  <TypeSignature Language="C#" Value="public interface ISchedulerCore" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerCore" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerCore" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerCore" />
+  <TypeSignature Language="F#" Value="type ISchedulerCore = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("D13525E7-E7E9-4fcb-B97C-2FFAA3F09CCF")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Provides information about a core on a node such as its state and the task currently running on it.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerCore.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerCore.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier that uniquely identifies the core.</summary>
+        <value>The identifier that uniquely identifies the core.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobId">
+      <MemberSignature Language="C#" Value="public int JobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 JobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerCore.JobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.JobId : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerCore.JobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier of the job running on the core.</summary>
+        <value>The identifier of the job running on the core; otherwise, zero.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.SchedulerCoreState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.SchedulerCoreState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerCore.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As SchedulerCoreState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Hpc.Scheduler.SchedulerCoreState" Usage="Microsoft.Hpc.Scheduler.ISchedulerCore.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.SchedulerCoreState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the state of the core.</summary>
+        <value>The state of the core. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.SchedulerCoreState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ITaskId TaskId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.ITaskId TaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerCore.TaskId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskId As ITaskId" />
+      <MemberSignature Language="F#" Value="member this.TaskId : Microsoft.Hpc.Scheduler.Properties.ITaskId" Usage="Microsoft.Hpc.Scheduler.ISchedulerCore.TaskId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ITaskId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier of the task running on the core.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.Properties.ITaskId"></see> object that contains the identifiers that uniquely identify the task running on the core. The identifiers are zero if there is no task running on the core.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

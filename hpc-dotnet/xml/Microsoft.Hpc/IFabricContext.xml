@@ -1,0 +1,154 @@
+﻿<Type Name="IFabricContext" FullName="Microsoft.Hpc.IFabricContext">
+  <TypeSignature Language="C#" Value="public interface IFabricContext" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFabricContext" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.IFabricContext" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFabricContext" />
+  <TypeSignature Language="F#" Value="type IFabricContext = interface" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConnectionString">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.EndpointsConnectionString ConnectionString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.EndpointsConnectionString ConnectionString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.IFabricContext.ConnectionString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionString As EndpointsConnectionString" />
+      <MemberSignature Language="F#" Value="member this.ConnectionString : Microsoft.Hpc.EndpointsConnectionString" Usage="Microsoft.Hpc.IFabricContext.ConnectionString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.EndpointsConnectionString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNodesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;string&gt;&gt; GetNodesAsync (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;string&gt;&gt; GetNodesAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IFabricContext.GetNodesAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNodesAsync (token As CancellationToken) As Task(Of IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member GetNodesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;string&gt;&gt;" Usage="iFabricContext.GetNodesAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.HpcContextOwner Owner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.HpcContextOwner Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.IFabricContext.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As HpcContextOwner" />
+      <MemberSignature Language="F#" Value="member this.Owner : Microsoft.Hpc.HpcContextOwner" Usage="Microsoft.Hpc.IFabricContext.Owner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.HpcContextOwner</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Registry">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.IRegistry Registry { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.IRegistry Registry" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.IFabricContext.Registry" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Registry As IRegistry" />
+      <MemberSignature Language="F#" Value="member this.Registry : Microsoft.Hpc.IRegistry" Usage="Microsoft.Hpc.IFabricContext.Registry" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IRegistry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolveSingletonServicePrimaryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; ResolveSingletonServicePrimaryAsync (string serviceName, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; ResolveSingletonServicePrimaryAsync(string serviceName, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IFabricContext.ResolveSingletonServicePrimaryAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ResolveSingletonServicePrimaryAsync (serviceName As String, token As CancellationToken) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member ResolveSingletonServicePrimaryAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iFabricContext.ResolveSingletonServicePrimaryAsync (serviceName, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolveStatelessServiceNodesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;string&gt;&gt; ResolveStatelessServiceNodesAsync (string serviceName, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;string&gt;&gt; ResolveStatelessServiceNodesAsync(string serviceName, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IFabricContext.ResolveStatelessServiceNodesAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ResolveStatelessServiceNodesAsync (serviceName As String, token As CancellationToken) As Task(Of IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member ResolveStatelessServiceNodesAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;string&gt;&gt;" Usage="iFabricContext.ResolveStatelessServiceNodesAsync (serviceName, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

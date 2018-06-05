@@ -1,0 +1,88 @@
+﻿<Type Name="HpcAzureTraceListener" FullName="Microsoft.Hpc.Azure.Common.HpcAzureTraceListener">
+  <TypeSignature Language="C#" Value="public class HpcAzureTraceListener : Microsoft.Hpc.Azure.Common.RollingListener" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HpcAzureTraceListener extends Microsoft.Hpc.Azure.Common.RollingListener" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.Common.HpcAzureTraceListener" />
+  <TypeSignature Language="VB.NET" Value="Public Class HpcAzureTraceListener&#xA;Inherits RollingListener" />
+  <TypeSignature Language="F#" Value="type HpcAzureTraceListener = class&#xA;    inherit RollingListener" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Azure.Common.RollingListener</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HpcAzureTraceListener (string initializeData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string initializeData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.HpcAzureTraceListener.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (initializeData As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.Common.HpcAzureTraceListener : string -&gt; Microsoft.Hpc.Azure.Common.HpcAzureTraceListener" Usage="new Microsoft.Hpc.Azure.Common.HpcAzureTraceListener initializeData" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="initializeData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="initializeData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseTraceListener">
+      <MemberSignature Language="C#" Value="protected override void CloseTraceListener (System.Diagnostics.TraceListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void CloseTraceListener(class System.Diagnostics.TraceListener listener) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.HpcAzureTraceListener.CloseTraceListener(System.Diagnostics.TraceListener)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CloseTraceListener (listener As TraceListener)" />
+      <MemberSignature Language="F#" Value="override this.CloseTraceListener : System.Diagnostics.TraceListener -&gt; unit" Usage="hpcAzureTraceListener.CloseTraceListener listener" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="System.Diagnostics.TraceListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTraceListener">
+      <MemberSignature Language="C#" Value="protected override System.Diagnostics.TraceListener OpenTraceListener (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Diagnostics.TraceListener OpenTraceListener(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.HpcAzureTraceListener.OpenTraceListener(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OpenTraceListener (path As String) As TraceListener" />
+      <MemberSignature Language="F#" Value="override this.OpenTraceListener : string -&gt; System.Diagnostics.TraceListener" Usage="hpcAzureTraceListener.OpenTraceListener path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.TraceListener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

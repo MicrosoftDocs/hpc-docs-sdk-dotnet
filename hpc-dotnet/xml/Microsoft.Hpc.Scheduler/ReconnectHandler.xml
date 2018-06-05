@@ -1,0 +1,27 @@
+﻿<Type Name="ReconnectHandler" FullName="Microsoft.Hpc.Scheduler.ReconnectHandler">
+  <TypeSignature Language="C#" Value="public delegate void ReconnectHandler(object sender, ConnectionEventArg msg);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReconnectHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ReconnectHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ReconnectHandler(sender As Object, msg As ConnectionEventArg)" />
+  <TypeSignature Language="F#" Value="type ReconnectHandler = delegate of obj * ConnectionEventArg -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="msg" Type="Microsoft.Hpc.Scheduler.ConnectionEventArg" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="msg">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

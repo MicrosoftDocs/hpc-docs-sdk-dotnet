@@ -1,0 +1,230 @@
+﻿<Type Name="SchedulerStoreHelpers" FullName="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers">
+  <TypeSignature Language="C#" Value="public class SchedulerStoreHelpers" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SchedulerStoreHelpers extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers" />
+  <TypeSignature Language="VB.NET" Value="Public Class SchedulerStoreHelpers" />
+  <TypeSignature Language="F#" Value="type SchedulerStoreHelpers = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchedulerStoreHelpers ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOrUpdateSpecialTask">
+      <MemberSignature Language="C#" Value="public static void AddOrUpdateSpecialTask (Microsoft.Hpc.Scheduler.Store.IClusterJob clusterJob, string prepareTaskCmd, string releaseTaskCmd);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddOrUpdateSpecialTask(class Microsoft.Hpc.Scheduler.Store.IClusterJob clusterJob, string prepareTaskCmd, string releaseTaskCmd) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.AddOrUpdateSpecialTask(Microsoft.Hpc.Scheduler.Store.IClusterJob,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub AddOrUpdateSpecialTask (clusterJob As IClusterJob, prepareTaskCmd As String, releaseTaskCmd As String)" />
+      <MemberSignature Language="F#" Value="static member AddOrUpdateSpecialTask : Microsoft.Hpc.Scheduler.Store.IClusterJob * string * string -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.AddOrUpdateSpecialTask (clusterJob, prepareTaskCmd, releaseTaskCmd)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clusterJob" Type="Microsoft.Hpc.Scheduler.Store.IClusterJob" />
+        <Parameter Name="prepareTaskCmd" Type="System.String" />
+        <Parameter Name="releaseTaskCmd" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="clusterJob">To be added.</param>
+        <param name="prepareTaskCmd">To be added.</param>
+        <param name="releaseTaskCmd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginJobModify">
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginJobModify (AsyncCallback callback, object param, Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, int jobId, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] changedProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginJobModify(class System.AsyncCallback callback, object param, class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, int32 jobId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] changedProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.BeginJobModify(System.AsyncCallback,System.Object,Microsoft.Hpc.Scheduler.Store.ISchedulerStore,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BeginJobModify (callback As AsyncCallback, param As Object, store As ISchedulerStore, jobId As Integer, changedProps As StoreProperty()) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="static member BeginJobModify : AsyncCallback * obj * Microsoft.Hpc.Scheduler.Store.ISchedulerStore * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; IAsyncResult" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.BeginJobModify (callback, param, store, jobId, changedProps)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="changedProps" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="store">To be added.</param>
+        <param name="jobId">To be added.</param>
+        <param name="changedProps">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanPropBeSet">
+      <MemberSignature Language="C#" Value="public static bool CanPropBeSet (Microsoft.Hpc.Scheduler.Properties.JobState state, Microsoft.Hpc.Scheduler.Properties.PropertyId pid, out bool needsProfileChecking);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CanPropBeSet(valuetype Microsoft.Hpc.Scheduler.Properties.JobState state, class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, [out] bool&amp; needsProfileChecking) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.CanPropBeSet(Microsoft.Hpc.Scheduler.Properties.JobState,Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CanPropBeSet (state As JobState, pid As PropertyId, ByRef needsProfileChecking As Boolean) As Boolean" />
+      <MemberSignature Language="F#" Value="static member CanPropBeSet : Microsoft.Hpc.Scheduler.Properties.JobState * Microsoft.Hpc.Scheduler.Properties.PropertyId *  -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.CanPropBeSet (state, pid, needsProfileChecking)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="needsProfileChecking" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="needsProfileChecking">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndJobModify">
+      <MemberSignature Language="C#" Value="public static void EndJobModify (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EndJobModify(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.EndJobModify(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub EndJobModify (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="static member EndJobModify : IAsyncResult -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.EndJobModify result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConfigurableJobState">
+      <MemberSignature Language="C#" Value="public static bool IsConfigurableJobState (Microsoft.Hpc.Scheduler.Properties.JobState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsConfigurableJobState(valuetype Microsoft.Hpc.Scheduler.Properties.JobState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.IsConfigurableJobState(Microsoft.Hpc.Scheduler.Properties.JobState)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsConfigurableJobState (state As JobState) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsConfigurableJobState : Microsoft.Hpc.Scheduler.Properties.JobState -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.IsConfigurableJobState state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobModify">
+      <MemberSignature Language="C#" Value="public static void JobModify (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, int jobId, params Microsoft.Hpc.Scheduler.Properties.StoreProperty[] changedProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void JobModify(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, int32 jobId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] changedProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.JobModify(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub JobModify (store As ISchedulerStore, jobId As Integer, ParamArray changedProps As StoreProperty())" />
+      <MemberSignature Language="F#" Value="static member JobModify : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.JobModify (store, jobId, changedProps)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="changedProps" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="jobId">To be added.</param>
+        <param name="changedProps">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomGpuPropertyIfNeeded">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.StoreProperty[] UpdateCustomGpuPropertyIfNeeded (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] changedProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] UpdateCustomGpuPropertyIfNeeded(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] changedProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.UpdateCustomGpuPropertyIfNeeded(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UpdateCustomGpuPropertyIfNeeded (store As ISchedulerStore, changedProps As StoreProperty()) As StoreProperty()" />
+      <MemberSignature Language="F#" Value="static member UpdateCustomGpuPropertyIfNeeded : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStoreHelpers.UpdateCustomGpuPropertyIfNeeded (store, changedProps)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="changedProps" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="changedProps">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

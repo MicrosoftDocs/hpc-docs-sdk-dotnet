@@ -1,0 +1,41 @@
+﻿<Type Name="IUpdateWatcher&lt;T&gt;" FullName="Microsoft.Hpc.WindowsRegistry.IUpdateWatcher&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IUpdateWatcher&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUpdateWatcher`1&lt;T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.WindowsRegistry.IUpdateWatcher`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUpdateWatcher(Of T)" />
+  <TypeSignature Language="F#" Value="type IUpdateWatcher&lt;'T&gt; = interface" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InstanceUpdated">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;T&gt;&gt; InstanceUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.RegistryValueChangedArgs`1&lt;!T&gt;&gt; InstanceUpdated" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.WindowsRegistry.IUpdateWatcher`1.InstanceUpdated" />
+      <MemberSignature Language="VB.NET" Value="Event InstanceUpdated As EventHandler(Of RegistryValueChangedArgs(Of T)) " />
+      <MemberSignature Language="F#" Value="member this.InstanceUpdated : EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;'T&gt;&gt; " Usage="member this.InstanceUpdated : System.EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;'T&gt;&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;T&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

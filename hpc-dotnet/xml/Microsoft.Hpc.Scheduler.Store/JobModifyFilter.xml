@@ -1,0 +1,36 @@
+﻿<Type Name="JobModifyFilter" FullName="Microsoft.Hpc.Scheduler.Store.JobModifyFilter">
+  <TypeSignature Language="C#" Value="public delegate bool JobModifyFilter(int jobId, int profileId, UserPrivilege privilege, JobState state, IEnumerable&lt;StoreProperty&gt; props, out string errorMessage);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobModifyFilter extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.JobModifyFilter" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Function JobModifyFilter(jobId As Integer, profileId As Integer, privilege As UserPrivilege, state As JobState, props As IEnumerable(Of StoreProperty), ByRef errorMessage As String) As Boolean " />
+  <TypeSignature Language="F#" Value="type JobModifyFilter = delegate of int * int * UserPrivilege * JobState * seq&lt;StoreProperty&gt; *  -&gt; bool" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="jobId" Type="System.Int32" />
+    <Parameter Name="profileId" Type="System.Int32" />
+    <Parameter Name="privilege" Type="Microsoft.Hpc.Scheduler.Properties.UserPrivilege" />
+    <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+    <Parameter Name="props" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" />
+    <Parameter Name="errorMessage" Type="System.String&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Boolean</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="jobId">To be added.</param>
+    <param name="profileId">To be added.</param>
+    <param name="privilege">To be added.</param>
+    <param name="state">To be added.</param>
+    <param name="props">To be added.</param>
+    <param name="errorMessage">To be added.</param>
+    <summary>To be added.</summary>
+    <returns>To be added.</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

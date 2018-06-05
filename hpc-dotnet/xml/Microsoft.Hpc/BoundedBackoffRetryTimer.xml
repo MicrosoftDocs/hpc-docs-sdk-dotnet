@@ -1,0 +1,67 @@
+﻿<Type Name="BoundedBackoffRetryTimer" FullName="Microsoft.Hpc.BoundedBackoffRetryTimer">
+  <TypeSignature Language="C#" Value="public abstract class BoundedBackoffRetryTimer : Microsoft.Hpc.RetryWaitTimer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BoundedBackoffRetryTimer extends Microsoft.Hpc.RetryWaitTimer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.BoundedBackoffRetryTimer" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BoundedBackoffRetryTimer&#xA;Inherits RetryWaitTimer" />
+  <TypeSignature Language="F#" Value="type BoundedBackoffRetryTimer = class&#xA;    inherit RetryWaitTimer" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.RetryWaitTimer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BoundedBackoffRetryTimer (int initialWait, int waitUpperBound);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(int32 initialWait, int32 waitUpperBound) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.BoundedBackoffRetryTimer.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (initialWait As Integer, waitUpperBound As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.BoundedBackoffRetryTimer : int * int -&gt; Microsoft.Hpc.BoundedBackoffRetryTimer" Usage="new Microsoft.Hpc.BoundedBackoffRetryTimer (initialWait, waitUpperBound)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="initialWait" Type="System.Int32" />
+        <Parameter Name="waitUpperBound" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="initialWait">To be added.</param>
+        <param name="waitUpperBound">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBackOffValue">
+      <MemberSignature Language="C#" Value="protected abstract int GetBackOffValue (int currentValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance int32 GetBackOffValue(int32 currentValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.BoundedBackoffRetryTimer.GetBackOffValue(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function GetBackOffValue (currentValue As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member GetBackOffValue : int -&gt; int" Usage="boundedBackoffRetryTimer.GetBackOffValue currentValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="currentValue" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="currentValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

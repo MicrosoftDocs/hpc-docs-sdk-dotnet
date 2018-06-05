@@ -1,0 +1,333 @@
+﻿<Type Name="AADAuthUtil" FullName="Microsoft.Hpc.AADAuthUtil.AADAuthUtil">
+  <TypeSignature Language="C#" Value="public static class AADAuthUtil" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AADAuthUtil extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.AADAuthUtil.AADAuthUtil" />
+  <TypeSignature Language="VB.NET" Value="Public Module AADAuthUtil" />
+  <TypeSignature Language="F#" Value="type AADAuthUtil = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcquireAADJwtTokenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; AcquireAADJwtTokenAsync (string resourceId, string authority, string clientId, string rediretUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; AcquireAADJwtTokenAsync(string resourceId, string authority, string clientId, string rediretUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.AcquireAADJwtTokenAsync(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireAADJwtTokenAsync (resourceId As String, authority As String, clientId As String, rediretUri As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member AcquireAADJwtTokenAsync : string * string * string * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.AcquireAADJwtTokenAsync (resourceId, authority, clientId, rediretUri)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AADAuthUtil.AADAuthUtil/&lt;AcquireAADJwtTokenAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="authority" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="rediretUri" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId">To be added.</param>
+        <param name="authority">To be added.</param>
+        <param name="clientId">To be added.</param>
+        <param name="rediretUri">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcquireAADJwtTokenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; AcquireAADJwtTokenAsync (string appId, string authrority, string resource, System.Security.Cryptography.X509Certificates.X509Certificate2 cert, string cacheFile = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; AcquireAADJwtTokenAsync(string appId, string authrority, string resource, class System.Security.Cryptography.X509Certificates.X509Certificate2 cert, string cacheFile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.AcquireAADJwtTokenAsync(System.String,System.String,System.String,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireAADJwtTokenAsync (appId As String, authrority As String, resource As String, cert As X509Certificate2, Optional cacheFile As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member AcquireAADJwtTokenAsync : string * string * string * System.Security.Cryptography.X509Certificates.X509Certificate2 * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.AcquireAADJwtTokenAsync (appId, authrority, resource, cert, cacheFile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AADAuthUtil.AADAuthUtil/&lt;AcquireAADJwtTokenAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="appId" Type="System.String" />
+        <Parameter Name="authrority" Type="System.String" />
+        <Parameter Name="resource" Type="System.String" />
+        <Parameter Name="cert" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" />
+        <Parameter Name="cacheFile" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="appId">To be added.</param>
+        <param name="authrority">To be added.</param>
+        <param name="resource">To be added.</param>
+        <param name="cert">To be added.</param>
+        <param name="cacheFile">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcquireAADJwtTokenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; AcquireAADJwtTokenAsync (string resourceId, string authority, string clientId, string userName, System.Security.SecureString password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; AcquireAADJwtTokenAsync(string resourceId, string authority, string clientId, string userName, class System.Security.SecureString password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.AcquireAADJwtTokenAsync(System.String,System.String,System.String,System.String,System.Security.SecureString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireAADJwtTokenAsync (resourceId As String, authority As String, clientId As String, userName As String, password As SecureString) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member AcquireAADJwtTokenAsync : string * string * string * string * System.Security.SecureString -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.AcquireAADJwtTokenAsync (resourceId, authority, clientId, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AADAuthUtil.AADAuthUtil/&lt;AcquireAADJwtTokenAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="authority" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.Security.SecureString" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId">To be added.</param>
+        <param name="authority">To be added.</param>
+        <param name="clientId">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSecurityIdentifierFromAadPrincipal">
+      <MemberSignature Language="C#" Value="public static System.Security.Principal.SecurityIdentifier GenerateSecurityIdentifierFromAadPrincipal (this System.Security.Principal.IPrincipal principal, Microsoft.Hpc.IHpcContext hpcContext = null, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.SecurityIdentifier GenerateSecurityIdentifierFromAadPrincipal(class System.Security.Principal.IPrincipal principal, class Microsoft.Hpc.IHpcContext hpcContext, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GenerateSecurityIdentifierFromAadPrincipal(System.Security.Principal.IPrincipal,Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GenerateSecurityIdentifierFromAadPrincipal (principal As IPrincipal, Optional hpcContext As IHpcContext = null, Optional aadInfoNode As String = null) As SecurityIdentifier" />
+      <MemberSignature Language="F#" Value="static member GenerateSecurityIdentifierFromAadPrincipal : System.Security.Principal.IPrincipal * Microsoft.Hpc.IHpcContext * string -&gt; System.Security.Principal.SecurityIdentifier" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GenerateSecurityIdentifierFromAadPrincipal (principal, hpcContext, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="principal" Type="System.Security.Principal.IPrincipal" RefType="this" />
+        <Parameter Name="hpcContext" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="principal">To be added.</param>
+        <param name="hpcContext">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSidByOid">
+      <MemberSignature Language="C#" Value="public static string GenerateSidByOid (string oid);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateSidByOid(string oid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GenerateSidByOid(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenerateSidByOid (oid As String) As String" />
+      <MemberSignature Language="F#" Value="static member GenerateSidByOid : string -&gt; string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GenerateSidByOid oid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oid" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="oid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADJwtTokenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADJwtTokenAsync (this Microsoft.Hpc.IHpcContext context, string userName, string password, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADJwtTokenAsync(class Microsoft.Hpc.IHpcContext context, string userName, string password, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GetAADJwtTokenAsync(Microsoft.Hpc.IHpcContext,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADJwtTokenAsync (context As IHpcContext, userName As String, password As String, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADJwtTokenAsync : Microsoft.Hpc.IHpcContext * string * string * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GetAADJwtTokenAsync (context, userName, password, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AADAuthUtil.AADAuthUtil/&lt;GetAADJwtTokenAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADJwtTokenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADJwtTokenAsync (string serviceResourceId, string authority, string clientId, string redirectUri, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADJwtTokenAsync(string serviceResourceId, string authority, string clientId, string redirectUri, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GetAADJwtTokenAsync(System.String,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAADJwtTokenAsync (serviceResourceId As String, authority As String, clientId As String, redirectUri As String, userName As String, password As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADJwtTokenAsync : string * string * string * string * string * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GetAADJwtTokenAsync (serviceResourceId, authority, clientId, redirectUri, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AADAuthUtil.AADAuthUtil/&lt;GetAADJwtTokenAsync&gt;d__10))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceResourceId" Type="System.String" />
+        <Parameter Name="authority" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="redirectUri" Type="System.String" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceResourceId">To be added.</param>
+        <param name="authority">To be added.</param>
+        <param name="clientId">To be added.</param>
+        <param name="redirectUri">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADJwtTokenFromExAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADJwtTokenFromExAsync (System.ServiceModel.FaultException ex, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADJwtTokenFromExAsync(class System.ServiceModel.FaultException ex, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GetAADJwtTokenFromExAsync(System.ServiceModel.FaultException,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAADJwtTokenFromExAsync (ex As FaultException, userName As String, password As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADJwtTokenFromExAsync : System.ServiceModel.FaultException * string * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.GetAADJwtTokenFromExAsync (ex, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AADAuthUtil.AADAuthUtil/&lt;GetAADJwtTokenFromExAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ex" Type="System.ServiceModel.FaultException" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ex">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAADAuthenticationException">
+      <MemberSignature Language="C#" Value="public static bool IsAADAuthenticationException (this System.ServiceModel.FaultException ex);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsAADAuthenticationException(class System.ServiceModel.FaultException ex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.IsAADAuthenticationException(System.ServiceModel.FaultException)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsAADAuthenticationException (ex As FaultException) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsAADAuthenticationException : System.ServiceModel.FaultException -&gt; bool" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.IsAADAuthenticationException ex" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ex" Type="System.ServiceModel.FaultException" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="ex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveTokenCache">
+      <MemberSignature Language="C#" Value="public static void RemoveTokenCache ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RemoveTokenCache() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthUtil.RemoveTokenCache" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveTokenCache ()" />
+      <MemberSignature Language="F#" Value="static member RemoveTokenCache : unit -&gt; unit" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthUtil.RemoveTokenCache " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

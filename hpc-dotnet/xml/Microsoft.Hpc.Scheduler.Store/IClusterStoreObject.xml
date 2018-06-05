@@ -1,0 +1,198 @@
+﻿<Type Name="IClusterStoreObject" FullName="Microsoft.Hpc.Scheduler.Store.IClusterStoreObject">
+  <TypeSignature Language="C#" Value="public interface IClusterStoreObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClusterStoreObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClusterStoreObject" />
+  <TypeSignature Language="F#" Value="type IClusterStoreObject = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAllProps">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRow GetAllProps ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRow GetAllProps() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.GetAllProps" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAllProps () As PropertyRow" />
+      <MemberSignature Language="F#" Value="abstract member GetAllProps : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRow" Usage="iClusterStoreObject.GetAllProps " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRow</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProps">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRow GetProps (params Microsoft.Hpc.Scheduler.Properties.PropertyId[] propertyIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRow GetProps(class Microsoft.Hpc.Scheduler.Properties.PropertyId[] propertyIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.GetProps(Microsoft.Hpc.Scheduler.Properties.PropertyId[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProps (ParamArray propertyIds As PropertyId()) As PropertyRow" />
+      <MemberSignature Language="F#" Value="abstract member GetProps : Microsoft.Hpc.Scheduler.Properties.PropertyId[] -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRow" Usage="iClusterStoreObject.GetProps propertyIds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyIds" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="propertyIds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropsByName">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRow GetPropsByName (params string[] propertyNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRow GetPropsByName(string[] propertyNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.GetPropsByName(System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPropsByName (ParamArray propertyNames As String()) As PropertyRow" />
+      <MemberSignature Language="F#" Value="abstract member GetPropsByName : string[] -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRow" Usage="iClusterStoreObject.GetPropsByName propertyNames" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyNames" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="propertyNames">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistToXml">
+      <MemberSignature Language="C#" Value="public void PersistToXml (System.Xml.XmlWriter writer, Microsoft.Hpc.Scheduler.Store.XmlExportOptions flags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PersistToXml(class System.Xml.XmlWriter writer, valuetype Microsoft.Hpc.Scheduler.Store.XmlExportOptions flags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.PersistToXml(System.Xml.XmlWriter,Microsoft.Hpc.Scheduler.Store.XmlExportOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PersistToXml (writer As XmlWriter, flags As XmlExportOptions)" />
+      <MemberSignature Language="F#" Value="abstract member PersistToXml : System.Xml.XmlWriter * Microsoft.Hpc.Scheduler.Store.XmlExportOptions -&gt; unit" Usage="iClusterStoreObject.PersistToXml (writer, flags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Xml.XmlWriter" />
+        <Parameter Name="flags" Type="Microsoft.Hpc.Scheduler.Store.XmlExportOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer">To be added.</param>
+        <param name="flags">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreFromXml">
+      <MemberSignature Language="C#" Value="public void RestoreFromXml (System.Xml.XmlReader reader, Microsoft.Hpc.Scheduler.Store.XmlImportOptions flags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RestoreFromXml(class System.Xml.XmlReader reader, valuetype Microsoft.Hpc.Scheduler.Store.XmlImportOptions flags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.RestoreFromXml(System.Xml.XmlReader,Microsoft.Hpc.Scheduler.Store.XmlImportOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RestoreFromXml (reader As XmlReader, flags As XmlImportOptions)" />
+      <MemberSignature Language="F#" Value="abstract member RestoreFromXml : System.Xml.XmlReader * Microsoft.Hpc.Scheduler.Store.XmlImportOptions -&gt; unit" Usage="iClusterStoreObject.RestoreFromXml (reader, flags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Xml.XmlReader" />
+        <Parameter Name="flags" Type="Microsoft.Hpc.Scheduler.Store.XmlImportOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader">To be added.</param>
+        <param name="flags">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProps">
+      <MemberSignature Language="C#" Value="public void SetProps (params Microsoft.Hpc.Scheduler.Properties.StoreProperty[] properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProps(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterStoreObject.SetProps(Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetProps (ParamArray properties As StoreProperty())" />
+      <MemberSignature Language="F#" Value="abstract member SetProps : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="iClusterStoreObject.SetProps properties" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

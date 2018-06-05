@@ -1,0 +1,27 @@
+﻿<Type Name="NodeStateHandler" FullName="Microsoft.Hpc.Scheduler.NodeStateHandler">
+  <TypeSignature Language="C#" Value="public delegate void NodeStateHandler(object sender, NodeStateEventArg arg);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed NodeStateHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.NodeStateHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub NodeStateHandler(sender As Object, arg As NodeStateEventArg)" />
+  <TypeSignature Language="F#" Value="type NodeStateHandler = delegate of obj * NodeStateEventArg -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.NodeStateEventArg" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="arg">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

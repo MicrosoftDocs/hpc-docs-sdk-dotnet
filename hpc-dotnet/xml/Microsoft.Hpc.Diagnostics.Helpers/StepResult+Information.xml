@@ -1,0 +1,107 @@
+﻿<Type Name="StepResult+Information" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Information">
+  <TypeSignature Language="C#" Value="public class StepResult.Information" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StepResult/Information extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.Information" />
+  <TypeSignature Language="F#" Value="type StepResult.Information = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an item in a bulleted list in the report for a diagnostic test run.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Information ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information" /> class without specifying the type or content of the bulleted list item.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Information (Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType type, string message, params object[] args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/InformationType type, string message, object[] args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information.#ctor(Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As StepResult.InformationType, message As String, ParamArray args As Object())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information : Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType * string * obj[] -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information (type, message, args)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+InformationType" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="type">A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType"></see> value that specifies the type of the bulleted list item.</param>
+        <param name="message">A string that specifies the text for the bulleted list item. The string can include placeholders such as {0}, {1}, or {2}. The diagnostic service replaces these placeholders with the objects that you specify in the args parameter.</param>
+        <param name="args">An array of objects that contain the content for the placeholders in the value of the message parameter.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information" /> class with the specified type and content.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the text for an item in a bulleted list in the report for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the text for the bulleted list item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/InformationType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As StepResult.InformationType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+InformationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the information type for an item in a bulleted list in the report for a diagnostic test run, such as warning or failure.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType"></see> value that specifies the information type for the bulleted list item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,106 @@
+﻿<Type Name="ISchedulerTaskCounters" FullName="Microsoft.Hpc.Scheduler.ISchedulerTaskCounters">
+  <TypeSignature Language="C#" Value="public interface ISchedulerTaskCounters" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerTaskCounters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerTaskCounters" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerTaskCounters" />
+  <TypeSignature Language="F#" Value="type ISchedulerTaskCounters = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("985D81B2-64FD-4e98-8270-0CB99155199F")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains counter data for the tasks that are running in the cluster.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="TotalCpuTime">
+      <MemberSignature Language="C#" Value="public long TotalCpuTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalCpuTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalCpuTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCpuTime As Long" />
+      <MemberSignature Language="F#" Value="member this.TotalCpuTime : int64" Usage="Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalCpuTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total CPU time used by all tasks that are running in the cluster.</summary>
+        <value>The total CPU time, in milliseconds.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalKernelTime">
+      <MemberSignature Language="C#" Value="public long TotalKernelTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalKernelTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalKernelTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalKernelTime As Long" />
+      <MemberSignature Language="F#" Value="member this.TotalKernelTime : int64" Usage="Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalKernelTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The elapsed execution time for kernel-mode instructions (the total time that all tasks that are running in the cluster have spent in kernel-mode).</summary>
+        <value>The total kernel-mode time, in milliseconds.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMemory">
+      <MemberSignature Language="C#" Value="public long TotalMemory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalMemory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalMemory" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMemory As Long" />
+      <MemberSignature Language="F#" Value="member this.TotalMemory : int64" Usage="Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalMemory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total memory used by all tasks that are running in the cluster.</summary>
+        <value>The total memory, in bytes, used by all tasks.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalUserTime">
+      <MemberSignature Language="C#" Value="public long TotalUserTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalUserTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalUserTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalUserTime As Long" />
+      <MemberSignature Language="F#" Value="member this.TotalUserTime : int64" Usage="Microsoft.Hpc.Scheduler.ISchedulerTaskCounters.TotalUserTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The elapsed execution time for user-mode instructions (the total time that all tasks that are running in the cluster have spent in user-mode).</summary>
+        <value>The total user-mode time, in milliseconds.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

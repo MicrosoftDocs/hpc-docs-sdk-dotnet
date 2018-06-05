@@ -1,0 +1,61 @@
+﻿<Type Name="ReadOnlyPropertyConverter" FullName="Microsoft.Hpc.Scheduler.Store.ReadOnlyPropertyConverter">
+  <TypeSignature Language="C#" Value="public abstract class ReadOnlyPropertyConverter : Microsoft.Hpc.Scheduler.Store.PropertyConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ReadOnlyPropertyConverter extends Microsoft.Hpc.Scheduler.Store.PropertyConverter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ReadOnlyPropertyConverter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ReadOnlyPropertyConverter&#xA;Inherits PropertyConverter" />
+  <TypeSignature Language="F#" Value="type ReadOnlyPropertyConverter = class&#xA;    inherit PropertyConverter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.Store.PropertyConverter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ReadOnlyPropertyConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ReadOnlyPropertyConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertSetProp">
+      <MemberSignature Language="C#" Value="public override Microsoft.Hpc.Scheduler.Properties.StoreProperty[] ConvertSetProp (Microsoft.Hpc.Scheduler.Properties.StoreProperty prop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] ConvertSetProp(class Microsoft.Hpc.Scheduler.Properties.StoreProperty prop) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ReadOnlyPropertyConverter.ConvertSetProp(Microsoft.Hpc.Scheduler.Properties.StoreProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertSetProp (prop As StoreProperty) As StoreProperty()" />
+      <MemberSignature Language="F#" Value="override this.ConvertSetProp : Microsoft.Hpc.Scheduler.Properties.StoreProperty -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" Usage="readOnlyPropertyConverter.ConvertSetProp prop" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="prop" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+      </Parameters>
+      <Docs>
+        <param name="prop">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+﻿<Type Name="AffinityMode" FullName="Microsoft.Hpc.Scheduler.Properties.AffinityMode">
+  <TypeSignature Language="C#" Value="public enum AffinityMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AffinityMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.AffinityMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AffinityMode" />
+  <TypeSignature Language="F#" Value="type AffinityMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the processor affinity settings that control the association between tasks and cores.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllJobs">
+      <MemberSignature Language="C#" Value="AllJobs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AffinityMode AllJobs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AffinityMode.AllJobs" />
+      <MemberSignature Language="VB.NET" Value="AllJobs" />
+      <MemberSignature Language="F#" Value="AllJobs = 0" Usage="Microsoft.Hpc.Scheduler.Properties.AffinityMode.AllJobs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AffinityMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Directs the HPC Node Manager Service to set the processor affinity for any task to which an entire node is not allocated. This setting is the best choice for jobs such as parameter sweeps and Service-Oriented Architecture (SOA) jobs, for which multiple instances of the application can run per node and for which you want these instances to be isolated from each other. This setting corresponds to the affinity behavior in Windows HPC Server 2008.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoJobs">
+      <MemberSignature Language="C#" Value="NoJobs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AffinityMode NoJobs = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AffinityMode.NoJobs" />
+      <MemberSignature Language="VB.NET" Value="NoJobs" />
+      <MemberSignature Language="F#" Value="NoJobs = 2" Usage="Microsoft.Hpc.Scheduler.Properties.AffinityMode.NoJobs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AffinityMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Directs the HPC Node Manager Service never to set processor affinity on any task. This setting is excellent choice if you are running MPI tasks and want to be sure that you can use the –affinity option for the mpiexec command even when jobs share nodes. This setting is also useful for applications that set their own processor affinity. This setting corresponds to the affinity behavior in Windows Compute Cluster Server 2003.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonExclusiveJobs">
+      <MemberSignature Language="C#" Value="NonExclusiveJobs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AffinityMode NonExclusiveJobs = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AffinityMode.NonExclusiveJobs" />
+      <MemberSignature Language="VB.NET" Value="NonExclusiveJobs" />
+      <MemberSignature Language="F#" Value="NonExclusiveJobs = 1" Usage="Microsoft.Hpc.Scheduler.Properties.AffinityMode.NonExclusiveJobs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AffinityMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Directs the HPC Node Manager Service not to set affinity on jobs that are marked as exclusive. This setting is the ideal choice for jobs that contain only one task, because this setting enables that task to take advantage of all cores on the nodes to which the task is assigned. This setting provides new affinity-setting behavior for Windows HPC Server 2008 SP1 and is the default setting for Windows HPC Server 2008 SP1, Windows HPC Server 2008 SP2, and Windows HPC Server 2008 R2, because this setting provides the generally preferred behavior for MPI tasks, which are most likely to be sensitive to affinitization. When you use this setting, MPI tasks in exclusive jobs can take advantage of the –affinity option of the mpiexec command even if the task is not allocated an entire node.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

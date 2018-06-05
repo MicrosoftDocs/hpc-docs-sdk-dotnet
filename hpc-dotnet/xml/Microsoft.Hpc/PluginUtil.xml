@@ -1,0 +1,58 @@
+﻿<Type Name="PluginUtil" FullName="Microsoft.Hpc.PluginUtil">
+  <TypeSignature Language="C#" Value="public static class PluginUtil" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PluginUtil extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.PluginUtil" />
+  <TypeSignature Language="VB.NET" Value="Public Class PluginUtil" />
+  <TypeSignature Language="F#" Value="type PluginUtil = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateInstances&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;T&gt; CreateInstances&lt;T&gt; (string name) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; CreateInstances&lt;class T&gt;(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.PluginUtil.CreateInstances``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Iterator Function CreateInstances(Of T As Class) (name As String) As IEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member CreateInstances : string -&gt; seq&lt;'T (requires 'T : null)&gt; (requires 'T : null)" Usage="Microsoft.Hpc.PluginUtil.CreateInstances name" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Hpc.PluginUtil/&lt;CreateInstances&gt;d__0`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

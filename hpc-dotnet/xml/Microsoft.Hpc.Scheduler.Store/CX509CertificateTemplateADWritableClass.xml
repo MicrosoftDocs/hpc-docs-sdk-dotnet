@@ -1,0 +1,185 @@
+﻿<Type Name="CX509CertificateTemplateADWritableClass" FullName="Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass">
+  <TypeSignature Language="C#" Value="public class CX509CertificateTemplateADWritableClass : Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CX509CertificateTemplateADWritableClass extends System.Object implements class Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritable, class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CX509CertificateTemplateADWritableClass&#xA;Implements CX509CertificateTemplateADWritable" />
+  <TypeSignature Language="F#" Value="type CX509CertificateTemplateADWritableClass = class&#xA;    interface IX509CertificateTemplateWritable&#xA;    interface CX509CertificateTemplateADWritable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8336E323-2E6A-4A04-937C-548F681839B3")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CX509CertificateTemplateADWritableClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Commit">
+      <MemberSignature Language="C#" Value="public virtual void Commit (Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags commitFlags, string strServerContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Commit([in]valuetype Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags commitFlags, [in]string strServerContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.Commit(Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Commit (commitFlags As CommitTemplateFlags, strServerContext As String)" />
+      <MemberSignature Language="F#" Value="abstract member Commit : Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags * string -&gt; unit&#xA;override this.Commit : Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags * string -&gt; unit" Usage="cX509CertificateTemplateADWritableClass.Commit (commitFlags, strServerContext)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Commit(Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commitFlags" Type="Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags" />
+        <Parameter Name="strServerContext" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="commitFlags">To be added.</param>
+        <param name="strServerContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public virtual void Initialize (Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate pValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate pValue) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.Initialize(Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Initialize (pValue As IX509CertificateTemplate)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate -&gt; unit&#xA;override this.Initialize : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate -&gt; unit" Usage="cX509CertificateTemplateADWritableClass.Initialize pValue" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Initialize(Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pValue" Type="Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate" />
+      </Parameters>
+      <Docs>
+        <param name="pValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual object this[Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty Property] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(valuetype Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.Item(Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Item(Property As EnrollmentTemplateProperty) As Object" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty) : obj with get, set" Usage="Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Item(Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty" />
+      </Parameters>
+      <Docs>
+        <param name="Property">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Template">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate Template { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate Template" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.Template" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Template As IX509CertificateTemplate" />
+      <MemberSignature Language="F#" Value="member this.Template : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate" Usage="Microsoft.Hpc.Scheduler.Store.CX509CertificateTemplateADWritableClass.Template" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Template</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,192 @@
+﻿<Type Name="IClusterTaskGroup" FullName="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup">
+  <TypeSignature Language="C#" Value="public interface IClusterTaskGroup : Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClusterTaskGroup implements class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClusterTaskGroup&#xA;Implements IClusterStoreObject" />
+  <TypeSignature Language="F#" Value="type IClusterTaskGroup = interface&#xA;    interface IClusterStoreObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.IClusterStoreObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddParent">
+      <MemberSignature Language="C#" Value="public void AddParent (Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup group);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddParent(class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.AddParent(Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddParent (group As IClusterTaskGroup)" />
+      <MemberSignature Language="F#" Value="abstract member AddParent : Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup -&gt; unit" Usage="iClusterTaskGroup.AddParent group" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateChild">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup CreateChild (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup CreateChild(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.CreateChild(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateChild (name As String) As IClusterTaskGroup" />
+      <MemberSignature Language="F#" Value="abstract member CreateChild : string -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup" Usage="iClusterTaskGroup.CreateChild name" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetChildren">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[] GetChildren ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[] GetChildren() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.GetChildren" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetChildren () As IClusterTaskGroup()" />
+      <MemberSignature Language="F#" Value="abstract member GetChildren : unit -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[]" Usage="iClusterTaskGroup.GetChildren " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParentIds">
+      <MemberSignature Language="C#" Value="public int[] GetParentIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32[] GetParentIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.GetParentIds" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetParentIds () As Integer()" />
+      <MemberSignature Language="F#" Value="abstract member GetParentIds : unit -&gt; int[]" Usage="iClusterTaskGroup.GetParentIds " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParents">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[] GetParents ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[] GetParents() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.GetParents" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetParents () As IClusterTaskGroup()" />
+      <MemberSignature Language="F#" Value="abstract member GetParents : unit -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[]" Usage="iClusterTaskGroup.GetParents " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCompleted">
+      <MemberSignature Language="C#" Value="public bool IsCompleted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCompleted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.IsCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsCompleted As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCompleted : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.IsCompleted" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentTasksFailedOrCancelled">
+      <MemberSignature Language="C#" Value="public bool ParentTasksFailedOrCancelled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ParentTasksFailedOrCancelled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.ParentTasksFailedOrCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentTasksFailedOrCancelled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ParentTasksFailedOrCancelled : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.ParentTasksFailedOrCancelled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TasksFailedOrCancelled">
+      <MemberSignature Language="C#" Value="public bool TasksFailedOrCancelled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TasksFailedOrCancelled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.TasksFailedOrCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Property TasksFailedOrCancelled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.TasksFailedOrCancelled : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup.TasksFailedOrCancelled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

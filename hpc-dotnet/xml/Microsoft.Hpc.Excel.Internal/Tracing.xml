@@ -1,0 +1,351 @@
+﻿<Type Name="Tracing" FullName="Microsoft.Hpc.Excel.Internal.Tracing">
+  <TypeSignature Language="C#" Value="public static class Tracing" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed Tracing extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.Internal.Tracing" />
+  <TypeSignature Language="VB.NET" Value="Public Class Tracing" />
+  <TypeSignature Language="F#" Value="type Tracing = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CanUseCrimson">
+      <MemberSignature Language="C#" Value="public static bool CanUseCrimson ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CanUseCrimson() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.CanUseCrimson" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CanUseCrimson () As Boolean" />
+      <MemberSignature Language="F#" Value="static member CanUseCrimson : unit -&gt; bool" Usage="Microsoft.Hpc.Excel.Internal.Tracing.CanUseCrimson " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventProvider">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Excel.Internal.HPCExcelEventProvider EventProvider { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Excel.Internal.HPCExcelEventProvider EventProvider" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.Internal.Tracing.EventProvider" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EventProvider As HPCExcelEventProvider" />
+      <MemberSignature Language="F#" Value="member this.EventProvider : Microsoft.Hpc.Excel.Internal.HPCExcelEventProvider" Usage="Microsoft.Hpc.Excel.Internal.Tracing.EventProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Excel.Internal.HPCExcelEventProvider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoaTrace">
+      <MemberSignature Language="C#" Value="public static void SoaTrace (Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SoaTrace(valuetype Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.SoaTrace(Microsoft.Hpc.Excel.Internal.XlTraceLevel,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SoaTrace (eventLevel As XlTraceLevel, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member SoaTrace : Microsoft.Hpc.Excel.Internal.XlTraceLevel * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.SoaTrace (eventLevel, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventLevel" Type="Microsoft.Hpc.Excel.Internal.XlTraceLevel" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="eventLevel">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoaTrace">
+      <MemberSignature Language="C#" Value="public static void SoaTrace (Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SoaTrace(valuetype Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.SoaTrace(Microsoft.Hpc.Excel.Internal.XlTraceLevel,Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SoaTrace (eventLevel As XlTraceLevel, componentName As Tracing.ComponentId, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member SoaTrace : Microsoft.Hpc.Excel.Internal.XlTraceLevel * Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.SoaTrace (eventLevel, componentName, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventLevel" Type="Microsoft.Hpc.Excel.Internal.XlTraceLevel" />
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="eventLevel">To be added.</param>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEvent">
+      <MemberSignature Language="C#" Value="public static void TraceEvent (Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, Microsoft.Hpc.Excel.Internal.EventWriterCallback eventWriter);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceEvent(valuetype Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, class Microsoft.Hpc.Excel.Internal.EventWriterCallback eventWriter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.TraceEvent(Microsoft.Hpc.Excel.Internal.XlTraceLevel,Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,Microsoft.Hpc.Excel.Internal.EventWriterCallback)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceEvent (eventLevel As XlTraceLevel, componentName As Tracing.ComponentId, message As String, eventWriter As EventWriterCallback)" />
+      <MemberSignature Language="F#" Value="static member TraceEvent : Microsoft.Hpc.Excel.Internal.XlTraceLevel * Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * Microsoft.Hpc.Excel.Internal.EventWriterCallback -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.TraceEvent (eventLevel, componentName, message, eventWriter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventLevel" Type="Microsoft.Hpc.Excel.Internal.XlTraceLevel" />
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="eventWriter" Type="Microsoft.Hpc.Excel.Internal.EventWriterCallback" />
+      </Parameters>
+      <Docs>
+        <param name="eventLevel">To be added.</param>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="eventWriter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEventLogEntry">
+      <MemberSignature Language="C#" Value="public static void TraceEventLogEntry (Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceEventLogEntry(valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, valuetype Microsoft.Hpc.Excel.Internal.XlTraceLevel eventLevel, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.TraceEventLogEntry(Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,Microsoft.Hpc.Excel.Internal.XlTraceLevel,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceEventLogEntry (componentName As Tracing.ComponentId, eventLevel As XlTraceLevel, message As String)" />
+      <MemberSignature Language="F#" Value="static member TraceEventLogEntry : Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * Microsoft.Hpc.Excel.Internal.XlTraceLevel * string -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.TraceEventLogEntry (componentName, eventLevel, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="eventLevel" Type="Microsoft.Hpc.Excel.Internal.XlTraceLevel" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="componentName">To be added.</param>
+        <param name="eventLevel">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteDebugTextCritical">
+      <MemberSignature Language="C#" Value="public static void WriteDebugTextCritical (Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteDebugTextCritical(valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextCritical(Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteDebugTextCritical (componentName As Tracing.ComponentId, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member WriteDebugTextCritical : Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextCritical (componentName, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteDebugTextError">
+      <MemberSignature Language="C#" Value="public static void WriteDebugTextError (Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteDebugTextError(valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextError(Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteDebugTextError (componentName As Tracing.ComponentId, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member WriteDebugTextError : Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextError (componentName, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteDebugTextInfo">
+      <MemberSignature Language="C#" Value="public static void WriteDebugTextInfo (Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteDebugTextInfo(valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextInfo(Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteDebugTextInfo (componentName As Tracing.ComponentId, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member WriteDebugTextInfo : Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextInfo (componentName, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteDebugTextVerbose">
+      <MemberSignature Language="C#" Value="public static void WriteDebugTextVerbose (Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteDebugTextVerbose(valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextVerbose(Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteDebugTextVerbose (componentName As Tracing.ComponentId, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member WriteDebugTextVerbose : Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextVerbose (componentName, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteDebugTextWarning">
+      <MemberSignature Language="C#" Value="public static void WriteDebugTextWarning (Microsoft.Hpc.Excel.Internal.Tracing.ComponentId componentName, string message, params object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteDebugTextWarning(valuetype Microsoft.Hpc.Excel.Internal.Tracing/ComponentId componentName, string message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextWarning(Microsoft.Hpc.Excel.Internal.Tracing.ComponentId,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteDebugTextWarning (componentName As Tracing.ComponentId, message As String, ParamArray parameters As Object())" />
+      <MemberSignature Language="F#" Value="static member WriteDebugTextWarning : Microsoft.Hpc.Excel.Internal.Tracing.ComponentId * string * obj[] -&gt; unit" Usage="Microsoft.Hpc.Excel.Internal.Tracing.WriteDebugTextWarning (componentName, message, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel.Internal</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="componentName" Type="Microsoft.Hpc.Excel.Internal.Tracing+ComponentId" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="componentName">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,515 @@
+﻿<Type Name="RetryManager" FullName="Microsoft.Hpc.RetryManager">
+  <TypeSignature Language="C#" Value="public class RetryManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RetryManager extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.RetryManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class RetryManager" />
+  <TypeSignature Language="F#" Value="type RetryManager = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetryManager (Microsoft.Hpc.RetryWaitTimer waitTimer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.RetryWaitTimer waitTimer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.#ctor(Microsoft.Hpc.RetryWaitTimer)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (waitTimer As RetryWaitTimer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.RetryManager : Microsoft.Hpc.RetryWaitTimer -&gt; Microsoft.Hpc.RetryManager" Usage="new Microsoft.Hpc.RetryManager waitTimer" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="waitTimer" Type="Microsoft.Hpc.RetryWaitTimer" />
+      </Parameters>
+      <Docs>
+        <param name="waitTimer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetryManager (Microsoft.Hpc.RetryWaitTimer waitTimer, int maxRetries);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.RetryWaitTimer waitTimer, int32 maxRetries) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.#ctor(Microsoft.Hpc.RetryWaitTimer,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (waitTimer As RetryWaitTimer, maxRetries As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.RetryManager : Microsoft.Hpc.RetryWaitTimer * int -&gt; Microsoft.Hpc.RetryManager" Usage="new Microsoft.Hpc.RetryManager (waitTimer, maxRetries)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="waitTimer" Type="Microsoft.Hpc.RetryWaitTimer" />
+        <Parameter Name="maxRetries" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="waitTimer">To be added.</param>
+        <param name="maxRetries">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetryManager (Microsoft.Hpc.RetryWaitTimer waitTimer, int maxRetries, int totalTimeLimit);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.RetryWaitTimer waitTimer, int32 maxRetries, int32 totalTimeLimit) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.#ctor(Microsoft.Hpc.RetryWaitTimer,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (waitTimer As RetryWaitTimer, maxRetries As Integer, totalTimeLimit As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.RetryManager : Microsoft.Hpc.RetryWaitTimer * int * int -&gt; Microsoft.Hpc.RetryManager" Usage="new Microsoft.Hpc.RetryManager (waitTimer, maxRetries, totalTimeLimit)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="waitTimer" Type="Microsoft.Hpc.RetryWaitTimer" />
+        <Parameter Name="maxRetries" Type="System.Int32" />
+        <Parameter Name="totalTimeLimit" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="waitTimer">To be added.</param>
+        <param name="maxRetries">To be added.</param>
+        <param name="totalTimeLimit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AwaitForNextAttempt">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AwaitForNextAttempt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task AwaitForNextAttempt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.AwaitForNextAttempt" />
+      <MemberSignature Language="VB.NET" Value="Public Function AwaitForNextAttempt () As Task" />
+      <MemberSignature Language="F#" Value="member this.AwaitForNextAttempt : unit -&gt; System.Threading.Tasks.Task" Usage="retryManager.AwaitForNextAttempt " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RetryManager/&lt;AwaitForNextAttempt&gt;d__29))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AwaitForNextAttempt">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AwaitForNextAttempt (System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task AwaitForNextAttempt(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.AwaitForNextAttempt(System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="member this.AwaitForNextAttempt : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="retryManager.AwaitForNextAttempt cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RetryManager/&lt;AwaitForNextAttempt&gt;d__30))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AwaitSimulateNextAttempt">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AwaitSimulateNextAttempt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task AwaitSimulateNextAttempt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.AwaitSimulateNextAttempt" />
+      <MemberSignature Language="VB.NET" Value="Public Function AwaitSimulateNextAttempt () As Task" />
+      <MemberSignature Language="F#" Value="member this.AwaitSimulateNextAttempt : unit -&gt; System.Threading.Tasks.Task" Usage="retryManager.AwaitSimulateNextAttempt " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RetryManager/&lt;AwaitSimulateNextAttempt&gt;d__28))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElaspsedWaitTime">
+      <MemberSignature Language="C#" Value="public int ElaspsedWaitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ElaspsedWaitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.RetryManager.ElaspsedWaitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElaspsedWaitTime As Integer" />
+      <MemberSignature Language="F#" Value="member this.ElaspsedWaitTime : int" Usage="Microsoft.Hpc.RetryManager.ElaspsedWaitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttemptsLeft">
+      <MemberSignature Language="C#" Value="public bool HasAttemptsLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttemptsLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.RetryManager.HasAttemptsLeft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttemptsLeft As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasAttemptsLeft : bool" Usage="Microsoft.Hpc.RetryManager.HasAttemptsLeft" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InfiniteRetries">
+      <MemberSignature Language="C#" Value="public const int InfiniteRetries = -1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 InfiniteRetries = (-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.RetryManager.InfiniteRetries" />
+      <MemberSignature Language="VB.NET" Value="Public Const InfiniteRetries As Integer  = -1" />
+      <MemberSignature Language="F#" Value="val mutable InfiniteRetries : int" Usage="Microsoft.Hpc.RetryManager.InfiniteRetries" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeWithRetryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task InvokeWithRetryAsync (Func&lt;System.Threading.Tasks.Task&gt; action, Func&lt;Exception,bool&gt; exPredicate, System.Threading.CancellationToken cancellationToken = null, string menberName = &quot;&quot;, string sourceFilePath = &quot;&quot;, int sourceLineNumber = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task InvokeWithRetryAsync(class System.Func`1&lt;class System.Threading.Tasks.Task&gt; action, class System.Func`2&lt;class System.Exception, bool&gt; exPredicate, valuetype System.Threading.CancellationToken cancellationToken, string menberName, string sourceFilePath, int32 sourceLineNumber) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.InvokeWithRetryAsync(System.Func{System.Threading.Tasks.Task},System.Func{System.Exception,System.Boolean},System.Threading.CancellationToken,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="F#" Value="member this.InvokeWithRetryAsync : Func&lt;System.Threading.Tasks.Task&gt; * Func&lt;Exception, bool&gt; * System.Threading.CancellationToken * string * string * int -&gt; System.Threading.Tasks.Task" Usage="retryManager.InvokeWithRetryAsync (action, exPredicate, cancellationToken, menberName, sourceFilePath, sourceLineNumber)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RetryManager/&lt;InvokeWithRetryAsync&gt;d__34))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="System.Func&lt;System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="exPredicate" Type="System.Func&lt;System.Exception,System.Boolean&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="menberName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerMemberName</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="sourceFilePath" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerFilePath</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="sourceLineNumber" Type="System.Int32">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerLineNumber</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <param name="exPredicate">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <param name="menberName">To be added.</param>
+        <param name="sourceFilePath">To be added.</param>
+        <param name="sourceLineNumber">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeWithRetryAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;T&gt; InvokeWithRetryAsync&lt;T&gt; (Func&lt;System.Threading.Tasks.Task&lt;T&gt;&gt; function, Func&lt;Exception,bool&gt; exPredicate, System.Threading.CancellationToken cancellationToken = null, string menberName = &quot;&quot;, string sourceFilePath = &quot;&quot;, int sourceLineNumber = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!T&gt; InvokeWithRetryAsync&lt;T&gt;(class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!T&gt;&gt; function, class System.Func`2&lt;class System.Exception, bool&gt; exPredicate, valuetype System.Threading.CancellationToken cancellationToken, string menberName, string sourceFilePath, int32 sourceLineNumber) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.InvokeWithRetryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Func{System.Exception,System.Boolean},System.Threading.CancellationToken,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="F#" Value="member this.InvokeWithRetryAsync : Func&lt;System.Threading.Tasks.Task&lt;'T&gt;&gt; * Func&lt;Exception, bool&gt; * System.Threading.CancellationToken * string * string * int -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="retryManager.InvokeWithRetryAsync (function, exPredicate, cancellationToken, menberName, sourceFilePath, sourceLineNumber)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RetryManager/&lt;InvokeWithRetryAsync&gt;d__33`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="function" Type="System.Func&lt;System.Threading.Tasks.Task&lt;T&gt;&gt;" />
+        <Parameter Name="exPredicate" Type="System.Func&lt;System.Exception,System.Boolean&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="menberName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerMemberName</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="sourceFilePath" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerFilePath</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="sourceLineNumber" Type="System.Int32">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerLineNumber</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="function">To be added.</param>
+        <param name="exPredicate">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <param name="menberName">To be added.</param>
+        <param name="sourceFilePath">To be added.</param>
+        <param name="sourceLineNumber">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxRetryCount">
+      <MemberSignature Language="C#" Value="public int MaxRetryCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxRetryCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.RetryManager.MaxRetryCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxRetryCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxRetryCount : int with get, set" Usage="Microsoft.Hpc.RetryManager.MaxRetryCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextWaitTime">
+      <MemberSignature Language="C#" Value="public int NextWaitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NextWaitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.RetryManager.NextWaitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NextWaitTime As Integer" />
+      <MemberSignature Language="F#" Value="member this.NextWaitTime : int" Usage="Microsoft.Hpc.RetryManager.NextWaitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reset() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="F#" Value="member this.Reset : unit -&gt; unit" Usage="retryManager.Reset " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryCount">
+      <MemberSignature Language="C#" Value="public int RetryCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RetryCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.RetryManager.RetryCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetryCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.RetryCount : int" Usage="Microsoft.Hpc.RetryManager.RetryCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryOnceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task RetryOnceAsync (Action action, TimeSpan waitSpan, Func&lt;Exception,bool&gt; retryPredicate);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RetryOnceAsync(class System.Action action, valuetype System.TimeSpan waitSpan, class System.Func`2&lt;class System.Exception, bool&gt; retryPredicate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.RetryOnceAsync(System.Action,System.TimeSpan,System.Func{System.Exception,System.Boolean})" />
+      <MemberSignature Language="F#" Value="static member RetryOnceAsync : Action * TimeSpan * Func&lt;Exception, bool&gt; -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.RetryManager.RetryOnceAsync (action, waitSpan, retryPredicate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RetryManager/&lt;RetryOnceAsync&gt;d__35))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="System.Action" />
+        <Parameter Name="waitSpan" Type="System.TimeSpan" />
+        <Parameter Name="retryPredicate" Type="System.Func&lt;System.Exception,System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <param name="waitSpan">To be added.</param>
+        <param name="retryPredicate">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimulateNextAttempt">
+      <MemberSignature Language="C#" Value="public void SimulateNextAttempt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SimulateNextAttempt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.SimulateNextAttempt" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SimulateNextAttempt ()" />
+      <MemberSignature Language="F#" Value="member this.SimulateNextAttempt : unit -&gt; unit" Usage="retryManager.SimulateNextAttempt " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalTimeLimit">
+      <MemberSignature Language="C#" Value="public int TotalTimeLimit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalTimeLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.RetryManager.TotalTimeLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalTimeLimit As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalTimeLimit : int with get, set" Usage="Microsoft.Hpc.RetryManager.TotalTimeLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForNextAttempt">
+      <MemberSignature Language="C#" Value="public void WaitForNextAttempt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WaitForNextAttempt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RetryManager.WaitForNextAttempt" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WaitForNextAttempt ()" />
+      <MemberSignature Language="F#" Value="member this.WaitForNextAttempt : unit -&gt; unit" Usage="retryManager.WaitForNextAttempt " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

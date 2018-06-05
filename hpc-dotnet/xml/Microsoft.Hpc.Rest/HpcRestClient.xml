@@ -1,0 +1,302 @@
+﻿<Type Name="HpcRestClient" FullName="Microsoft.Hpc.Rest.HpcRestClient">
+  <TypeSignature Language="C#" Value="public abstract class HpcRestClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit HpcRestClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Rest.HpcRestClient" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class HpcRestClient" />
+  <TypeSignature Language="F#" Value="type HpcRestClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected HpcRestClient (Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcRestClient.#ctor(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (context As IHpcContext)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Rest.HpcRestClient : Microsoft.Hpc.IHpcContext -&gt; Microsoft.Hpc.Rest.HpcRestClient" Usage="new Microsoft.Hpc.Rest.HpcRestClient context" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected HpcRestClient (string restNode);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string restNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcRestClient.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (restNode As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Rest.HpcRestClient : string -&gt; Microsoft.Hpc.Rest.HpcRestClient" Usage="new Microsoft.Hpc.Rest.HpcRestClient restNode" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="restNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="restNode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiRoot">
+      <MemberSignature Language="C#" Value="protected abstract string ApiRoot { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiRoot" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcRestClient.ApiRoot" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property ApiRoot As String" />
+      <MemberSignature Language="F#" Value="member this.ApiRoot : string" Usage="Microsoft.Hpc.Rest.HpcRestClient.ApiRoot" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="protected Microsoft.Hpc.IHpcContext Context { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.IHpcContext Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcRestClient.Context" />
+      <MemberSignature Language="VB.NET" Value="Protected Property Context As IHpcContext" />
+      <MemberSignature Language="F#" Value="member this.Context : Microsoft.Hpc.IHpcContext with get, set" Usage="Microsoft.Hpc.Rest.HpcRestClient.Context" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultHttpClientFactory">
+      <MemberSignature Language="C#" Value="protected static System.Net.Http.HttpClient DefaultHttpClientFactory ();" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig class System.Net.Http.HttpClient DefaultHttpClientFactory() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcRestClient.DefaultHttpClientFactory" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function DefaultHttpClientFactory () As HttpClient" />
+      <MemberSignature Language="F#" Value="static member DefaultHttpClientFactory : unit -&gt; System.Net.Http.HttpClient" Usage="Microsoft.Hpc.Rest.HpcRestClient.DefaultHttpClientFactory " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.HttpClient</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApiRoute">
+      <MemberSignature Language="C#" Value="protected string GetApiRoute (string routeTemplate, params string[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance string GetApiRoute(string routeTemplate, string[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcRestClient.GetApiRoute(System.String,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetApiRoute (routeTemplate As String, ParamArray parameters As String()) As String" />
+      <MemberSignature Language="F#" Value="member this.GetApiRoute : string * string[] -&gt; string" Usage="hpcRestClient.GetApiRoute (routeTemplate, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="routeTemplate" Type="System.String" />
+        <Parameter Name="parameters" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="routeTemplate">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHttpApiCallAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="protected System.Threading.Tasks.Task&lt;T&gt; GetHttpApiCallAsync&lt;T&gt; (System.Threading.CancellationToken cancellationToken, string routeString, params string[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Threading.Tasks.Task`1&lt;!!T&gt; GetHttpApiCallAsync&lt;T&gt;(valuetype System.Threading.CancellationToken cancellationToken, string routeString, string[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcRestClient.GetHttpApiCallAsync``1(System.Threading.CancellationToken,System.String,System.String[])" />
+      <MemberSignature Language="F#" Value="member this.GetHttpApiCallAsync : System.Threading.CancellationToken * string * string[] -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="hpcRestClient.GetHttpApiCallAsync (cancellationToken, routeString, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Rest.HpcRestClient/&lt;GetHttpApiCallAsync&gt;d__16`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="routeString" Type="System.String" />
+        <Parameter Name="parameters" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="cancellationToken">To be added.</param>
+        <param name="routeString">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostHttpApiCallAsync&lt;TOut,TIn&gt;">
+      <MemberSignature Language="C#" Value="protected System.Threading.Tasks.Task&lt;TOut&gt; PostHttpApiCallAsync&lt;TOut,TIn&gt; (System.Threading.CancellationToken cancellationToken, string routeString, TIn value, params string[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Threading.Tasks.Task`1&lt;!!TOut&gt; PostHttpApiCallAsync&lt;TOut, TIn&gt;(valuetype System.Threading.CancellationToken cancellationToken, string routeString, !!TIn value, string[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcRestClient.PostHttpApiCallAsync``2(System.Threading.CancellationToken,System.String,``1,System.String[])" />
+      <MemberSignature Language="F#" Value="member this.PostHttpApiCallAsync : System.Threading.CancellationToken * string * 'In * string[] -&gt; System.Threading.Tasks.Task&lt;'Out&gt;" Usage="hpcRestClient.PostHttpApiCallAsync (cancellationToken, routeString, value, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Rest.HpcRestClient/&lt;PostHttpApiCallAsync&gt;d__17`2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;TOut&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TOut" />
+        <TypeParameter Name="TIn" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="routeString" Type="System.String" />
+        <Parameter Name="value" Type="TIn" />
+        <Parameter Name="parameters" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TOut">To be added.</typeparam>
+        <typeparam name="TIn">To be added.</typeparam>
+        <param name="cancellationToken">To be added.</param>
+        <param name="routeString">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestClient">
+      <MemberSignature Language="C#" Value="protected abstract System.Net.Http.HttpClient RestClient { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Http.HttpClient RestClient" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcRestClient.RestClient" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property RestClient As HttpClient" />
+      <MemberSignature Language="F#" Value="member this.RestClient : System.Net.Http.HttpClient" Usage="Microsoft.Hpc.Rest.HpcRestClient.RestClient" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.HttpClient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestClientName">
+      <MemberSignature Language="C#" Value="protected abstract string RestClientName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RestClientName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcRestClient.RestClientName" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property RestClientName As String" />
+      <MemberSignature Language="F#" Value="member this.RestClientName : string" Usage="Microsoft.Hpc.Rest.HpcRestClient.RestClientName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestNode">
+      <MemberSignature Language="C#" Value="protected string RestNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RestNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcRestClient.RestNode" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property RestNode As String" />
+      <MemberSignature Language="F#" Value="member this.RestNode : string" Usage="Microsoft.Hpc.Rest.HpcRestClient.RestNode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

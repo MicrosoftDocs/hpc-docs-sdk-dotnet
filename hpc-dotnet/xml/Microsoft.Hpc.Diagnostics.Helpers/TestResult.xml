@@ -1,0 +1,267 @@
+﻿<Type Name="TestResult" FullName="Microsoft.Hpc.Diagnostics.Helpers.TestResult">
+  <TypeSignature Language="C#" Value="public class TestResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TestResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class TestResult" />
+  <TypeSignature Language="F#" Value="type TestResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contains a set of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> objects that store information about the results of a diagnostic test run.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TestResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> class without specifying a name of the test result.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TestResult (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.TestResult : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.TestResult" Usage="new Microsoft.Hpc.Diagnostics.Helpers.TestResult name" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">A string that contains the name for the new <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> class with the specified name.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeSerializeFromFile">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Diagnostics.Helpers.TestResult DeSerializeFromFile (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Diagnostics.Helpers.TestResult DeSerializeFromFile(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.DeSerializeFromFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeSerializeFromFile (fileName As String) As TestResult" />
+      <MemberSignature Language="F#" Value="static member DeSerializeFromFile : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.TestResult" Usage="Microsoft.Hpc.Diagnostics.Helpers.TestResult.DeSerializeFromFile fileName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.TestResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">A string that contains the file name (with or without an absolute or relative path) of the TestStepResult XML file that you want to deserialize.</param>
+        <summary>Deserializes the XML in the specified file and creates a <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object with property values that match the information in the file.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object with property values that match the information in the specified TestStepResult XML file.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeSerializeFromString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Diagnostics.Helpers.TestResult DeSerializeFromString (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Diagnostics.Helpers.TestResult DeSerializeFromString(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.DeSerializeFromString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeSerializeFromString (value As String) As TestResult" />
+      <MemberSignature Language="F#" Value="static member DeSerializeFromString : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.TestResult" Usage="Microsoft.Hpc.Diagnostics.Helpers.TestResult.DeSerializeFromString value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.TestResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">A string that contains the TestStepResult XML that you want to deserialize.</param>
+        <summary>Deserializes the XML in the specified string and creates a <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object with property values that match the information in the string.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object with property values that match the information in the specified TestStepResult XML.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSimpleResultSummary">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Diagnostics.Helpers.StepResult GenerateSimpleResultSummary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Diagnostics.Helpers.StepResult GenerateSimpleResultSummary() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.GenerateSimpleResultSummary" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenerateSimpleResultSummary () As StepResult" />
+      <MemberSignature Language="F#" Value="member this.GenerateSimpleResultSummary : unit -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult" Usage="testResult.GenerateSimpleResultSummary " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object with information that summarizes the results that are contained by the other <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> objects in the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object that contains information that summarizes the results contained by the other <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> objects in the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.TestResult.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.TestResult.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the name for the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the name for the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StepResults">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt; StepResults { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt; StepResults" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.TestResult.StepResults" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StepResults As List(Of StepResult)" />
+      <MemberSignature Language="F#" Value="member this.StepResults : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;" Usage="Microsoft.Hpc.Diagnostics.Helpers.TestResult.StepResults" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("StepResults", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> objects that the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object contains.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> that contains the list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> objects that the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object contains.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Summary">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Diagnostics.Helpers.StepResult Summary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Diagnostics.Helpers.StepResult Summary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.TestResult.Summary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Summary As StepResult" />
+      <MemberSignature Language="F#" Value="member this.Summary : Microsoft.Hpc.Diagnostics.Helpers.StepResult" Usage="Microsoft.Hpc.Diagnostics.Helpers.TestResult.Summary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlSerializeToFile">
+      <MemberSignature Language="C#" Value="public void XmlSerializeToFile (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void XmlSerializeToFile(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.XmlSerializeToFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XmlSerializeToFile (path As String)" />
+      <MemberSignature Language="F#" Value="member this.XmlSerializeToFile : string -&gt; unit" Usage="testResult.XmlSerializeToFile path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">String that specifies the name of the file in which to save the XML representation of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult"></see> object.</param>
+        <summary>Serializes the properties of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object into XML and saves the result in the specified file.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlSerializeToStandardOut">
+      <MemberSignature Language="C#" Value="public void XmlSerializeToStandardOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void XmlSerializeToStandardOut() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.XmlSerializeToStandardOut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XmlSerializeToStandardOut ()" />
+      <MemberSignature Language="F#" Value="member this.XmlSerializeToStandardOut : unit -&gt; unit" Usage="testResult.XmlSerializeToStandardOut " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Serializes the properties of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object into XML and sends the result to standard output.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlSerializeToStream">
+      <MemberSignature Language="C#" Value="public void XmlSerializeToStream (System.IO.Stream stm);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void XmlSerializeToStream(class System.IO.Stream stm) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.TestResult.XmlSerializeToStream(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XmlSerializeToStream (stm As Stream)" />
+      <MemberSignature Language="F#" Value="member this.XmlSerializeToStream : System.IO.Stream -&gt; unit" Usage="testResult.XmlSerializeToStream stm" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stm" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="stm">An object that derives from the abstract <see cref="System.IO.Stream"></see> class that specifies the stream you want to use to save the XML result. The following classes derive from <see cref="System.IO.Stream"></see>:<see cref="T:System.IO.BufferedStream"></see><see cref="T:System.IO.FileStream"></see><see cref="T:System.IO.MemoryStream"></see><see cref="T:System.Net.Sockets.NetworkStream"></see><see cref="T:System.Security.Cryptography.CryptoStream"></see></param>
+        <summary>Serializes the properties of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.TestResult" /> object into XML and saves the result by using the specified <see cref="System.IO.Stream" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,145 @@
+﻿<Type Name="BatchRegistryExtension" FullName="Microsoft.Hpc.BatchRegistryExtension">
+  <TypeSignature Language="C#" Value="public static class BatchRegistryExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BatchRegistryExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.BatchRegistryExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module BatchRegistryExtension" />
+  <TypeSignature Language="F#" Value="type BatchRegistryExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetBatchAADClientAppIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetBatchAADClientAppIdAsync (this Microsoft.Hpc.IHpcContext context, string batchNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetBatchAADClientAppIdAsync(class Microsoft.Hpc.IHpcContext context, string batchNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.BatchRegistryExtension.GetBatchAADClientAppIdAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBatchAADClientAppIdAsync (context As IHpcContext, Optional batchNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetBatchAADClientAppIdAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.BatchRegistryExtension.GetBatchAADClientAppIdAsync (context, batchNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.BatchRegistryExtension/&lt;GetBatchAADClientAppIdAsync&gt;d__2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="batchNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="batchNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBatchAADClientAppKeyAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetBatchAADClientAppKeyAsync (this Microsoft.Hpc.IHpcContext context, string batchNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetBatchAADClientAppKeyAsync(class Microsoft.Hpc.IHpcContext context, string batchNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.BatchRegistryExtension.GetBatchAADClientAppKeyAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBatchAADClientAppKeyAsync (context As IHpcContext, Optional batchNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetBatchAADClientAppKeyAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.BatchRegistryExtension.GetBatchAADClientAppKeyAsync (context, batchNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.BatchRegistryExtension/&lt;GetBatchAADClientAppKeyAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="batchNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="batchNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBatchAADInstanceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetBatchAADInstanceAsync (this Microsoft.Hpc.IHpcContext context, string batchNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetBatchAADInstanceAsync(class Microsoft.Hpc.IHpcContext context, string batchNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.BatchRegistryExtension.GetBatchAADInstanceAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBatchAADInstanceAsync (context As IHpcContext, Optional batchNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetBatchAADInstanceAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.BatchRegistryExtension.GetBatchAADInstanceAsync (context, batchNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.BatchRegistryExtension/&lt;GetBatchAADInstanceAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="batchNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="batchNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBatchAADTenantIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetBatchAADTenantIdAsync (this Microsoft.Hpc.IHpcContext context, string batchNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetBatchAADTenantIdAsync(class Microsoft.Hpc.IHpcContext context, string batchNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.BatchRegistryExtension.GetBatchAADTenantIdAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBatchAADTenantIdAsync (context As IHpcContext, Optional batchNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetBatchAADTenantIdAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.BatchRegistryExtension.GetBatchAADTenantIdAsync (context, batchNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.BatchRegistryExtension/&lt;GetBatchAADTenantIdAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="batchNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="batchNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

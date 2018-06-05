@@ -1,0 +1,766 @@
+﻿<Type Name="IFileStagingClientAsync" FullName="Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync">
+  <TypeSignature Language="C#" Value="public interface IFileStagingClientAsync" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileStagingClientAsync" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileStagingClientAsync" />
+  <TypeSignature Language="F#" Value="type IFileStagingClientAsync = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Name="IFileStaging", Namespace="http://hpc.microsoft.com/filestaging/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCopyDirectoryFromBlob">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCopyDirectoryFromBlob (string blobUrlPrefix, string sas, string destDir, System.Collections.Generic.List&lt;string&gt; filePatterns, bool recursive, bool overwrite, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCopyDirectoryFromBlob(string blobUrlPrefix, string sas, string destDir, class System.Collections.Generic.List`1&lt;string&gt; filePatterns, bool recursive, bool overwrite, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginCopyDirectoryFromBlob(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCopyDirectoryFromBlob (blobUrlPrefix As String, sas As String, destDir As String, filePatterns As List(Of String), recursive As Boolean, overwrite As Boolean, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCopyDirectoryFromBlob : string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginCopyDirectoryFromBlob (blobUrlPrefix, sas, destDir, filePatterns, recursive, overwrite, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/CopyDirectoryFromBlob", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/CopyDirectoryFromBlobResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrlPrefix" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="destDir" Type="System.String" />
+        <Parameter Name="filePatterns" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrlPrefix">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="destDir">To be added.</param>
+        <param name="filePatterns">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCopyDirectoryToBlob">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCopyDirectoryToBlob (string blobUrlPrefix, string sas, string sourceDir, System.Collections.Generic.List&lt;string&gt; filePatterns, bool recursive, bool overwrite, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCopyDirectoryToBlob(string blobUrlPrefix, string sas, string sourceDir, class System.Collections.Generic.List`1&lt;string&gt; filePatterns, bool recursive, bool overwrite, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginCopyDirectoryToBlob(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCopyDirectoryToBlob (blobUrlPrefix As String, sas As String, sourceDir As String, filePatterns As List(Of String), recursive As Boolean, overwrite As Boolean, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCopyDirectoryToBlob : string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginCopyDirectoryToBlob (blobUrlPrefix, sas, sourceDir, filePatterns, recursive, overwrite, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/CopyDirectoryToBlob", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/CopyDirectoryToBlobResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrlPrefix" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="sourceDir" Type="System.String" />
+        <Parameter Name="filePatterns" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrlPrefix">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="sourceDir">To be added.</param>
+        <param name="filePatterns">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCopyFileFromBlob">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCopyFileFromBlob (string blobUrl, string sas, string destFilePath, bool overwrite, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCopyFileFromBlob(string blobUrl, string sas, string destFilePath, bool overwrite, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginCopyFileFromBlob(System.String,System.String,System.String,System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCopyFileFromBlob (blobUrl As String, sas As String, destFilePath As String, overwrite As Boolean, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCopyFileFromBlob : string * string * string * bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginCopyFileFromBlob (blobUrl, sas, destFilePath, overwrite, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/CopyFileFromBlob", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/CopyFileFromBlobResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrl" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="destFilePath" Type="System.String" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrl">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="destFilePath">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCopyFileToBlob">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCopyFileToBlob (string blobUrl, string sas, string sourceFilePath, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCopyFileToBlob(string blobUrl, string sas, string sourceFilePath, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginCopyFileToBlob(System.String,System.String,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCopyFileToBlob (blobUrl As String, sas As String, sourceFilePath As String, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCopyFileToBlob : string * string * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginCopyFileToBlob (blobUrl, sas, sourceFilePath, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/CopyFileToBlob", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/CopyFileToBlobResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrl" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="sourceFilePath" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrl">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="sourceFilePath">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteDirectory">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginDeleteDirectory (bool recursive, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginDeleteDirectory(bool recursive, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginDeleteDirectory(System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginDeleteDirectory (recursive As Boolean, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginDeleteDirectory : bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginDeleteDirectory (recursive, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/DeleteDirectory", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/DeleteDirectoryResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="recursive">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteFile">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginDeleteFile (AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginDeleteFile(class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginDeleteFile(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginDeleteFile (callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginDeleteFile : AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginDeleteFile (callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/DeleteFile", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/DeleteFileResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGenerateSASForBlob">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGenerateSASForBlob (string blobName, Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions permissions, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginGenerateSASForBlob(string blobName, valuetype Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions permissions, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginGenerateSASForBlob(System.String,Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGenerateSASForBlob (blobName As String, permissions As SharedAccessBlobPermissions, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginGenerateSASForBlob : string * Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginGenerateSASForBlob (blobName, permissions, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/GenerateSASForBlob", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/GenerateSASForBlobResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobName" Type="System.String" />
+        <Parameter Name="permissions" Type="Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blobName">To be added.</param>
+        <param name="permissions">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGetContainerUrl">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetContainerUrl (AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginGetContainerUrl(class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginGetContainerUrl(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGetContainerUrl (callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginGetContainerUrl : AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginGetContainerUrl (callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/GetContainerUrl", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/GetContainerUrlResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGetDirectories">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetDirectories (string searchPattern, System.IO.SearchOption searchOption, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginGetDirectories(string searchPattern, valuetype System.IO.SearchOption searchOption, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginGetDirectories(System.String,System.IO.SearchOption,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="F#" Value="abstract member BeginGetDirectories : string * System.IO.SearchOption * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginGetDirectories (searchPattern, searchOption, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/GetDirectories", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/GetDirectoriesResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchPattern" Type="System.String" />
+        <Parameter Name="searchOption" Type="System.IO.SearchOption" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="searchPattern">To be added.</param>
+        <param name="searchOption">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGetFiles">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetFiles (string searchPattern, System.IO.SearchOption searchOption, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginGetFiles(string searchPattern, valuetype System.IO.SearchOption searchOption, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginGetFiles(System.String,System.IO.SearchOption,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="F#" Value="abstract member BeginGetFiles : string * System.IO.SearchOption * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginGetFiles (searchPattern, searchOption, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/GetFiles", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/GetFilesResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchPattern" Type="System.String" />
+        <Parameter Name="searchOption" Type="System.IO.SearchOption" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="searchPattern">To be added.</param>
+        <param name="searchOption">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginReadFile">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginReadFile (AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginReadFile(class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginReadFile(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginReadFile (callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginReadFile : AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginReadFile (callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/ReadFile", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/ReadFileResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginWriteFile">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginWriteFile (System.IO.Stream contents, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginWriteFile(class System.IO.Stream contents, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.BeginWriteFile(System.IO.Stream,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginWriteFile (contents As Stream, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginWriteFile : System.IO.Stream * AsyncCallback * obj -&gt; IAsyncResult" Usage="iFileStagingClientAsync.BeginWriteFile (contents, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Azure.FileStaging.InternalFaultDetail))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/IFileStaging/WriteFile", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/IFileStaging/WriteFileResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="System.IO.Stream" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCopyDirectoryFromBlob">
+      <MemberSignature Language="C#" Value="public void EndCopyDirectoryFromBlob (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCopyDirectoryFromBlob(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndCopyDirectoryFromBlob(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndCopyDirectoryFromBlob (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndCopyDirectoryFromBlob : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndCopyDirectoryFromBlob result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCopyDirectoryToBlob">
+      <MemberSignature Language="C#" Value="public void EndCopyDirectoryToBlob (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCopyDirectoryToBlob(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndCopyDirectoryToBlob(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndCopyDirectoryToBlob (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndCopyDirectoryToBlob : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndCopyDirectoryToBlob result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCopyFileFromBlob">
+      <MemberSignature Language="C#" Value="public void EndCopyFileFromBlob (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCopyFileFromBlob(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndCopyFileFromBlob(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndCopyFileFromBlob (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndCopyFileFromBlob : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndCopyFileFromBlob result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCopyFileToBlob">
+      <MemberSignature Language="C#" Value="public void EndCopyFileToBlob (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCopyFileToBlob(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndCopyFileToBlob(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndCopyFileToBlob (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndCopyFileToBlob : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndCopyFileToBlob result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDeleteDirectory">
+      <MemberSignature Language="C#" Value="public void EndDeleteDirectory (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDeleteDirectory(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndDeleteDirectory(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDeleteDirectory (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndDeleteDirectory : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndDeleteDirectory result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDeleteFile">
+      <MemberSignature Language="C#" Value="public void EndDeleteFile (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDeleteFile(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndDeleteFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDeleteFile (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndDeleteFile : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndDeleteFile result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGenerateSASForBlob">
+      <MemberSignature Language="C#" Value="public string EndGenerateSASForBlob (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndGenerateSASForBlob(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndGenerateSASForBlob(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGenerateSASForBlob (result As IAsyncResult) As String" />
+      <MemberSignature Language="F#" Value="abstract member EndGenerateSASForBlob : IAsyncResult -&gt; string" Usage="iFileStagingClientAsync.EndGenerateSASForBlob result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGetContainerUrl">
+      <MemberSignature Language="C#" Value="public string EndGetContainerUrl (out string sas, IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndGetContainerUrl([out] string&amp; sas, class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndGetContainerUrl(System.String@,System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGetContainerUrl (ByRef sas As String, result As IAsyncResult) As String" />
+      <MemberSignature Language="F#" Value="abstract member EndGetContainerUrl :  * IAsyncResult -&gt; string" Usage="iFileStagingClientAsync.EndGetContainerUrl (sas, result)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sas" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="sas">To be added.</param>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGetDirectories">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[] EndGetDirectories (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[] EndGetDirectories(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndGetDirectories(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGetDirectories (result As IAsyncResult) As ClusterDirectoryInfo()" />
+      <MemberSignature Language="F#" Value="abstract member EndGetDirectories : IAsyncResult -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]" Usage="iFileStagingClientAsync.EndGetDirectories result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGetFiles">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[] EndGetFiles (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[] EndGetFiles(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndGetFiles(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGetFiles (result As IAsyncResult) As ClusterFileInfo()" />
+      <MemberSignature Language="F#" Value="abstract member EndGetFiles : IAsyncResult -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]" Usage="iFileStagingClientAsync.EndGetFiles result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndReadFile">
+      <MemberSignature Language="C#" Value="public System.IO.Stream EndReadFile (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IO.Stream EndReadFile(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndReadFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndReadFile (result As IAsyncResult) As Stream" />
+      <MemberSignature Language="F#" Value="abstract member EndReadFile : IAsyncResult -&gt; System.IO.Stream" Usage="iFileStagingClientAsync.EndReadFile result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndWriteFile">
+      <MemberSignature Language="C#" Value="public void EndWriteFile (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndWriteFile(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync.EndWriteFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndWriteFile (result As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndWriteFile : IAsyncResult -&gt; unit" Usage="iFileStagingClientAsync.EndWriteFile result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

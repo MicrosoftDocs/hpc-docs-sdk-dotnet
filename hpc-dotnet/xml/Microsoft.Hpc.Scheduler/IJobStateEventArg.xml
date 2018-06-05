@@ -1,0 +1,86 @@
+﻿<Type Name="IJobStateEventArg" FullName="Microsoft.Hpc.Scheduler.IJobStateEventArg">
+  <TypeSignature Language="C#" Value="public interface IJobStateEventArg" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IJobStateEventArg" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.IJobStateEventArg" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IJobStateEventArg" />
+  <TypeSignature Language="F#" Value="type IJobStateEventArg = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("337c8713-e312-4c69-b023-dec2dd6b381f")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the arguments that are passed to your event handler when the state of the job changes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="JobId">
+      <MemberSignature Language="C#" Value="public int JobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 JobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IJobStateEventArg.JobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.JobId : int" Usage="Microsoft.Hpc.Scheduler.IJobStateEventArg.JobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier of the job whose state has changed.</summary>
+        <value>The job identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewState">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobState NewState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobState NewState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IJobStateEventArg.NewState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As JobState" />
+      <MemberSignature Language="F#" Value="member this.NewState : Microsoft.Hpc.Scheduler.Properties.JobState" Usage="Microsoft.Hpc.Scheduler.IJobStateEventArg.NewState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the state of the job.</summary>
+        <value>The state of the job. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousState">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobState PreviousState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobState PreviousState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IJobStateEventArg.PreviousState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousState As JobState" />
+      <MemberSignature Language="F#" Value="member this.PreviousState : Microsoft.Hpc.Scheduler.Properties.JobState" Usage="Microsoft.Hpc.Scheduler.IJobStateEventArg.PreviousState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the previous state of the job.</summary>
+        <value>The previous state of the job. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

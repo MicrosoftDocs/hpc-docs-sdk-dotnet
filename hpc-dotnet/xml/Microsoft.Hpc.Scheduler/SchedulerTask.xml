@@ -1,0 +1,1743 @@
+﻿<Type Name="SchedulerTask" FullName="Microsoft.Hpc.Scheduler.SchedulerTask">
+  <TypeSignature Language="C#" Value="public class SchedulerTask : Microsoft.Hpc.Scheduler.SchedulerObjectBase, Microsoft.Hpc.Scheduler.ISchedulerTask, Microsoft.Hpc.Scheduler.ISchedulerTaskV2, Microsoft.Hpc.Scheduler.ISchedulerTaskV3, Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1, Microsoft.Hpc.Scheduler.ISchedulerTaskV4, Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1, Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SchedulerTask extends Microsoft.Hpc.Scheduler.SchedulerObjectBase implements class Microsoft.Hpc.Scheduler.ISchedulerTask, class Microsoft.Hpc.Scheduler.ISchedulerTaskV2, class Microsoft.Hpc.Scheduler.ISchedulerTaskV3, class Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1, class Microsoft.Hpc.Scheduler.ISchedulerTaskV4, class Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1, class Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.SchedulerTask" />
+  <TypeSignature Language="VB.NET" Value="Public Class SchedulerTask&#xA;Inherits SchedulerObjectBase&#xA;Implements ISchedulerTask, ISchedulerTaskV2, ISchedulerTaskV3, ISchedulerTaskV3SP1, ISchedulerTaskV4, ISchedulerTaskV4SP1, ISchedulerTaskV4SP3" />
+  <TypeSignature Language="F#" Value="type SchedulerTask = class&#xA;    inherit SchedulerObjectBase&#xA;    interface ISchedulerTask&#xA;    interface ISchedulerTaskV2&#xA;    interface ISchedulerTaskV3&#xA;    interface ISchedulerTaskV3SP1&#xA;    interface ISchedulerTaskV4&#xA;    interface ISchedulerTaskV4SP1&#xA;    interface ISchedulerTaskV4SP3" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.SchedulerObjectBase</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTask</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTaskV2</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTaskV3</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTaskV4</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("3F3E4C6A-4400-4E60-A974-0F4D6F34CE53")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a task.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected internal SchedulerTask ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes of new instance of the <see cref="T:Microsoft.Hpc.Scheduler.SchedulerTask" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_changeProps">
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; _changeProps;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Collections.Generic.Dictionary`2&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; _changeProps" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerTask._changeProps" />
+      <MemberSignature Language="VB.NET" Value="Protected _changeProps As Dictionary(Of PropertyId, StoreProperty) " />
+      <MemberSignature Language="F#" Value="val mutable _changeProps : System.Collections.Generic.Dictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId, Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" Usage="Microsoft.Hpc.Scheduler.SchedulerTask._changeProps" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_task">
+      <MemberSignature Language="C#" Value="protected Microsoft.Hpc.Scheduler.Store.IClusterTask _task;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.Hpc.Scheduler.Store.IClusterTask _task" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerTask._task" />
+      <MemberSignature Language="VB.NET" Value="Protected _task As IClusterTask " />
+      <MemberSignature Language="F#" Value="val mutable _task : Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="Microsoft.Hpc.Scheduler.SchedulerTask._task" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The internal task object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedCoreIds">
+      <MemberSignature Language="C#" Value="public string AllocatedCoreIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AllocatedCoreIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.AllocatedCoreIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocatedCoreIds As String" />
+      <MemberSignature Language="F#" Value="member this.AllocatedCoreIds : string" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.AllocatedCoreIds" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.AllocatedCoreIds</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.AllocatedCoreIds</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.AllocatedCoreIds</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.AllocatedCoreIds</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.AllocatedCoreIds</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.AllocatedCoreIds</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection AllocatedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.IStringCollection AllocatedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.AllocatedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocatedNodes As IStringCollection" />
+      <MemberSignature Language="F#" Value="member this.AllocatedNodes : Microsoft.Hpc.Scheduler.IStringCollection" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.AllocatedNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.AllocatedNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.AllocatedNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.AllocatedNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.AllocatedNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.AllocatedNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.AllocatedNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.AllocatedNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the names of the nodes that have been allocated to run the task or have run the task.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.IStringCollection"></see> interface that contains the names of the nodes that have been allocated to run the task or have run the task.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeTime">
+      <MemberSignature Language="C#" Value="public DateTime ChangeTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ChangeTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ChangeTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.ChangeTime : DateTime" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ChangeTime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ChangeTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.ChangeTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.ChangeTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.ChangeTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.ChangeTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ChangeTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ChangeTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The last time that the user or server changed a property of the task.</summary>
+        <value>The date and time that the task was last touched.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandLine">
+      <MemberSignature Language="C#" Value="public string CommandLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CommandLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.CommandLine" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandLine As String" />
+      <MemberSignature Language="F#" Value="member this.CommandLine : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.CommandLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.CommandLine</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.CommandLine</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.CommandLine</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.CommandLine</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.CommandLine</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.CommandLine</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.CommandLine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the command line for the task.</summary>
+        <value>The command line. The command is limited to 480 characters.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Commit">
+      <MemberSignature Language="C#" Value="public void Commit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Commit() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.Commit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Commit ()" />
+      <MemberSignature Language="F#" Value="abstract member Commit : unit -&gt; unit&#xA;override this.Commit : unit -&gt; unit" Usage="schedulerTask.Commit " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.Commit</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.Commit</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.Commit</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.Commit</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.Commit</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.Commit</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.Commit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Commits the local task changes to the server.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTime">
+      <MemberSignature Language="C#" Value="public DateTime CreateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.CreateTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.CreateTime : DateTime" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.CreateTime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.CreateTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.CreateTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.CreateTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.CreateTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.CreateTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.CreateTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.CreateTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the date and time when the task was created.</summary>
+        <value>The task creation time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DependsOn">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection DependsOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.IStringCollection DependsOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.DependsOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DependsOn As IStringCollection" />
+      <MemberSignature Language="F#" Value="member this.DependsOn : Microsoft.Hpc.Scheduler.IStringCollection with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.DependsOn" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.DependsOn</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.DependsOn</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.DependsOn</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.DependsOn</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.DependsOn</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.DependsOn</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.DependsOn</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the dependent tasks.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.IStringCollection"></see> interface that contains a collection of task names.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedUserBlob">
+      <MemberSignature Language="C#" Value="public byte[] EncryptedUserBlob { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] EncryptedUserBlob" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.EncryptedUserBlob" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedUserBlob As Byte()" />
+      <MemberSignature Language="F#" Value="member this.EncryptedUserBlob : byte[] with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.EncryptedUserBlob" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.EncryptedUserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.EncryptedUserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.EncryptedUserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.EncryptedUserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.EncryptedUserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.EncryptedUserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.EncryptedUserBlob</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The encrypted user blob.</summary>
+        <value>A byte array that contains the encrypted blob. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.EndTime : DateTime" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.EndTime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.EndTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.EndTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.EndTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.EndTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.EndTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.EndTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.EndTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the date and time that the task ended.</summary>
+        <value>The time the task ended.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndValue">
+      <MemberSignature Language="C#" Value="public int EndValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.EndValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.EndValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.EndValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.EndValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.EndValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.EndValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.EndValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.EndValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.EndValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.EndValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the ending value for a parametric task.</summary>
+        <value>The ending value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvironmentVariables">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.INameValueCollection EnvironmentVariables { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.INameValueCollection EnvironmentVariables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.EnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnvironmentVariables As INameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.EnvironmentVariables : Microsoft.Hpc.Scheduler.INameValueCollection" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.EnvironmentVariables" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.EnvironmentVariables</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.EnvironmentVariables</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.EnvironmentVariables</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.EnvironmentVariables</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.EnvironmentVariables</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.EnvironmentVariables</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.EnvironmentVariables</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the environment variables that were set for the task.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.INameValueCollection"></see> interface that contains the collection of variables. Each item in the collection is an <see cref="T:Microsoft.Hpc.Scheduler.INameValue"></see> interface that contains the variable name and value. The collection is empty if no variables have been set.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="F#" Value="member this.ErrorMessage : string" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ErrorMessage" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ErrorMessage</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.ErrorMessage</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.ErrorMessage</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.ErrorMessage</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.ErrorMessage</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ErrorMessage</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ErrorMessage</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the task-related error message or task cancellation message.</summary>
+        <value>The message.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionFailureRetryCount">
+      <MemberSignature Language="C#" Value="public int ExecutionFailureRetryCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExecutionFailureRetryCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ExecutionFailureRetryCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionFailureRetryCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.ExecutionFailureRetryCount : int" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ExecutionFailureRetryCount" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ExecutionFailureRetryCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ExecutionFailureRetryCount</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public int ExitCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : int" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ExitCode" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ExitCode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.ExitCode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.ExitCode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.ExitCode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.ExitCode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ExitCode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ExitCode</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the exit code that the task set.</summary>
+        <value>The exit code.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitIfPossible">
+      <MemberSignature Language="C#" Value="public bool ExitIfPossible { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExitIfPossible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ExitIfPossible" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitIfPossible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ExitIfPossible : bool" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ExitIfPossible" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ExitIfPossible</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ExitIfPossible</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ExitIfPossible</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailJobOnFailure">
+      <MemberSignature Language="C#" Value="public bool FailJobOnFailure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FailJobOnFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.FailJobOnFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailJobOnFailure As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FailJobOnFailure : bool with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.FailJobOnFailure" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.FailJobOnFailure</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.FailJobOnFailure</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.FailJobOnFailure</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.FailJobOnFailure</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.FailJobOnFailure</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailJobOnFailureCount">
+      <MemberSignature Language="C#" Value="public int FailJobOnFailureCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FailJobOnFailureCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.FailJobOnFailureCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailJobOnFailureCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.FailJobOnFailureCount : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.FailJobOnFailureCount" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.FailJobOnFailureCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.FailJobOnFailureCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.FailJobOnFailureCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.FailJobOnFailureCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.FailJobOnFailureCount</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCounters">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerTaskCounters GetCounters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerTaskCounters GetCounters() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.GetCounters" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCounters () As ISchedulerTaskCounters" />
+      <MemberSignature Language="F#" Value="abstract member GetCounters : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerTaskCounters&#xA;override this.GetCounters : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerTaskCounters" Usage="schedulerTask.GetCounters " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.GetCounters</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.GetCounters</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.GetCounters</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.GetCounters</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.GetCounters</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.GetCounters</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.GetCounters</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerTaskCounters</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves counter data for the task.</summary>
+        <returns>An <see cref="T:Microsoft.Hpc.Scheduler.ISchedulerTaskCounters"></see> interface that contains the counter data.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.INameValueCollection GetCustomProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.INameValueCollection GetCustomProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.GetCustomProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCustomProperties () As INameValueCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetCustomProperties : unit -&gt; Microsoft.Hpc.Scheduler.INameValueCollection&#xA;override this.GetCustomProperties : unit -&gt; Microsoft.Hpc.Scheduler.INameValueCollection" Usage="schedulerTask.GetCustomProperties " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.GetCustomProperties</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.GetCustomProperties</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.GetCustomProperties</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.GetCustomProperties</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.GetCustomProperties</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.GetCustomProperties</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.GetCustomProperties</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves the application-defined properties that were added to the task.</summary>
+        <returns>An <see cref="T:Microsoft.Hpc.Scheduler.INameValueCollection"></see> object that contains the collection of properties. Each item in the collection is a <see cref="T:Microsoft.Hpc.Scheduler.INameValue"></see> object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropertyIds">
+      <MemberSignature Language="C#" Value="protected internal override Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetPropertyIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetPropertyIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.GetPropertyIds" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Function GetPropertyIds () As PropertyId()" />
+      <MemberSignature Language="F#" Value="override this.GetPropertyIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="schedulerTask.GetPropertyIds " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasRuntime">
+      <MemberSignature Language="C#" Value="public bool HasRuntime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasRuntime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.HasRuntime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasRuntime As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasRuntime : bool" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.HasRuntime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.HasRuntime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.HasRuntime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.HasRuntime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.HasRuntime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.HasRuntime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.HasRuntime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.HasRuntime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the task has set the <see cref="P:Microsoft.Hpc.Scheduler.SchedulerTask.Runtime" /> task property.</summary>
+        <value>Is true if the task specifies a runtime limit; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementValue">
+      <MemberSignature Language="C#" Value="public int IncrementValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IncrementValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.IncrementValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncrementValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.IncrementValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.IncrementValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.IncrementValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.IncrementValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.IncrementValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.IncrementValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.IncrementValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.IncrementValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.IncrementValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the number by which to increment the instance value for a parametric task.</summary>
+        <value>The increment value used to calculate the next instance value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitFromTask">
+      <MemberSignature Language="C#" Value="protected internal void InitFromTask (Microsoft.Hpc.Scheduler.Store.IClusterTask task, Microsoft.Hpc.Scheduler.Properties.PropertyId[] propIds);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance void InitFromTask(class Microsoft.Hpc.Scheduler.Store.IClusterTask task, class Microsoft.Hpc.Scheduler.Properties.PropertyId[] propIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.InitFromTask(Microsoft.Hpc.Scheduler.Store.IClusterTask,Microsoft.Hpc.Scheduler.Properties.PropertyId[])" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub InitFromTask (task As IClusterTask, propIds As PropertyId())" />
+      <MemberSignature Language="F#" Value="member this.InitFromTask : Microsoft.Hpc.Scheduler.Store.IClusterTask * Microsoft.Hpc.Scheduler.Properties.PropertyId[] -&gt; unit" Usage="schedulerTask.InitFromTask (task, propIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="task" Type="Microsoft.Hpc.Scheduler.Store.IClusterTask" />
+        <Parameter Name="propIds" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId[]" />
+      </Parameters>
+      <Docs>
+        <param name="task">To be added.</param>
+        <param name="propIds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExclusive">
+      <MemberSignature Language="C#" Value="public bool IsExclusive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExclusive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.IsExclusive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExclusive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExclusive : bool with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.IsExclusive" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.IsExclusive</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.IsExclusive</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.IsExclusive</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.IsExclusive</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.IsExclusive</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.IsExclusive</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.IsExclusive</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether other tasks from the job can run on the node at the same time as this task.</summary>
+        <value>Is true if other tasks from the same job cannot run on the node; otherwise, false. The default is false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsParametric">
+      <MemberSignature Language="C#" Value="public bool IsParametric { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsParametric" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.IsParametric" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsParametric As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsParametric : bool with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.IsParametric" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.IsParametric</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.IsParametric</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.IsParametric</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.IsParametric</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.IsParametric</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.IsParametric</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.IsParametric</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Please use the 'Type' property instead")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the task is a parametric task.</summary>
+        <value>Is true if the task is a parametric task; otherwise, false. The default is false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRerunnable">
+      <MemberSignature Language="C#" Value="public bool IsRerunnable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRerunnable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.IsRerunnable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRerunnable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRerunnable : bool with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.IsRerunnable" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.IsRerunnable</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.IsRerunnable</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.IsRerunnable</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.IsRerunnable</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.IsRerunnable</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.IsRerunnable</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.IsRerunnable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the task can run again after a failure.</summary>
+        <value>Is true if the task can run again after a failure; otherwise, false. The default is true.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsServiceConcluded">
+      <MemberSignature Language="C#" Value="public bool IsServiceConcluded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsServiceConcluded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.IsServiceConcluded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsServiceConcluded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsServiceConcluded : bool" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.IsServiceConcluded" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.IsServiceConcluded</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.IsServiceConcluded</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.IsServiceConcluded</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.IsServiceConcluded</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.IsServiceConcluded</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.IsServiceConcluded</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNumberOfCores">
+      <MemberSignature Language="C#" Value="public int MaximumNumberOfCores { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNumberOfCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.MaximumNumberOfCores" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNumberOfCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumNumberOfCores : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.MaximumNumberOfCores" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.MaximumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.MaximumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.MaximumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.MaximumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.MaximumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.MaximumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.MaximumNumberOfCores</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the maximum number of cores that the scheduler may allocate for the task.</summary>
+        <value>The maximum number of cores. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNumberOfNodes">
+      <MemberSignature Language="C#" Value="public int MaximumNumberOfNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNumberOfNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.MaximumNumberOfNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNumberOfNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumNumberOfNodes : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.MaximumNumberOfNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.MaximumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.MaximumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.MaximumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.MaximumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.MaximumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.MaximumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.MaximumNumberOfNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the maximum number of nodes that the scheduler may allocate for the task.</summary>
+        <value>The maximum number of nodes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNumberOfSockets">
+      <MemberSignature Language="C#" Value="public int MaximumNumberOfSockets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNumberOfSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.MaximumNumberOfSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNumberOfSockets As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumNumberOfSockets : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.MaximumNumberOfSockets" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.MaximumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.MaximumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.MaximumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.MaximumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.MaximumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.MaximumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.MaximumNumberOfSockets</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the maximum number of sockets that the scheduler may allocate for the task.</summary>
+        <value>The maximum number of sockets.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumNumberOfCores">
+      <MemberSignature Language="C#" Value="public int MinimumNumberOfCores { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumNumberOfCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.MinimumNumberOfCores" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumNumberOfCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumNumberOfCores : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.MinimumNumberOfCores" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.MinimumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.MinimumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.MinimumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.MinimumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.MinimumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.MinimumNumberOfCores</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.MinimumNumberOfCores</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the minimum number of cores that the task requires to run.</summary>
+        <value>The minimum number of cores.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumNumberOfNodes">
+      <MemberSignature Language="C#" Value="public int MinimumNumberOfNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumNumberOfNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.MinimumNumberOfNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumNumberOfNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumNumberOfNodes : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.MinimumNumberOfNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.MinimumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.MinimumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.MinimumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.MinimumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.MinimumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.MinimumNumberOfNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.MinimumNumberOfNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the minimum number of nodes that the task requires to run.</summary>
+        <value>The minimum number of nodes. The default is 1.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumNumberOfSockets">
+      <MemberSignature Language="C#" Value="public int MinimumNumberOfSockets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumNumberOfSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.MinimumNumberOfSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumNumberOfSockets As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumNumberOfSockets : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.MinimumNumberOfSockets" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.MinimumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.MinimumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.MinimumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.MinimumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.MinimumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.MinimumNumberOfSockets</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.MinimumNumberOfSockets</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the minimum number of sockets that the task requires to run.</summary>
+        <value>The minimum number of sockets. The default is 1.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.Name" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.Name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.Name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.Name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.Name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.Name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.Name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the display name of the task.</summary>
+        <value>The display name. The name is limited to 80 characters.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Output">
+      <MemberSignature Language="C#" Value="public string Output { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Output" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.Output" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Output As String" />
+      <MemberSignature Language="F#" Value="member this.Output : string" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.Output" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.Output</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.Output</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.Output</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.Output</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.Output</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.Output</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.Output</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the output generated by the command.</summary>
+        <value>The output from the command.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobId">
+      <MemberSignature Language="C#" Value="public int ParentJobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ParentJobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ParentJobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentJobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ParentJobId : int" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ParentJobId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ParentJobId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.ParentJobId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.ParentJobId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.ParentJobId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.ParentJobId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ParentJobId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ParentJobId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier of the parent job.</summary>
+        <value>The identifier of the parent job.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousState">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskState PreviousState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.TaskState PreviousState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.PreviousState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousState As TaskState" />
+      <MemberSignature Language="F#" Value="member this.PreviousState : Microsoft.Hpc.Scheduler.Properties.TaskState" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.PreviousState" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.PreviousState</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.PreviousState</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.PreviousState</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.PreviousState</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.PreviousState</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.PreviousState</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.PreviousState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the previous state of the task.</summary>
+        <value>The previous state of the job. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public void Refresh ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
+      <MemberSignature Language="F#" Value="abstract member Refresh : unit -&gt; unit&#xA;override this.Refresh : unit -&gt; unit" Usage="schedulerTask.Refresh " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.Refresh</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.Refresh</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.Refresh</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.Refresh</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.Refresh</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.Refresh</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.Refresh</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Refreshes this copy of the task with the contents from the server.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNodeGroup">
+      <MemberSignature Language="C#" Value="public string RequestedNodeGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequestedNodeGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.RequestedNodeGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedNodeGroup As String" />
+      <MemberSignature Language="F#" Value="member this.RequestedNodeGroup : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.RequestedNodeGroup" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.RequestedNodeGroup</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequeueCount">
+      <MemberSignature Language="C#" Value="public int RequeueCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RequeueCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.RequeueCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequeueCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.RequeueCount : int" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.RequeueCount" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.RequeueCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.RequeueCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.RequeueCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.RequeueCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.RequeueCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.RequeueCount</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.RequeueCount</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of times that the task has been queued again.</summary>
+        <value>The number of times that the task has been queued again.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection RequiredNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.IStringCollection RequiredNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.RequiredNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequiredNodes As IStringCollection" />
+      <MemberSignature Language="F#" Value="member this.RequiredNodes : Microsoft.Hpc.Scheduler.IStringCollection with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.RequiredNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.RequiredNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.RequiredNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.RequiredNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.RequiredNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.RequiredNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.RequiredNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.RequiredNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the list of required nodes for the task.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.IStringCollection"></see> interface that contains a collection of node names. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Runtime">
+      <MemberSignature Language="C#" Value="public int Runtime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Runtime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.Runtime" />
+      <MemberSignature Language="VB.NET" Value="Public Property Runtime As Integer" />
+      <MemberSignature Language="F#" Value="member this.Runtime : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.Runtime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.Runtime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.Runtime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.Runtime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.Runtime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.Runtime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.Runtime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.Runtime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the run-time limit for the task.</summary>
+        <value>The run-time limit for the task, in seconds.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceConclude">
+      <MemberSignature Language="C#" Value="public void ServiceConclude (bool cancelSubTasks);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ServiceConclude(bool cancelSubTasks) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.ServiceConclude(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ServiceConclude (cancelSubTasks As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member ServiceConclude : bool -&gt; unit&#xA;override this.ServiceConclude : bool -&gt; unit" Usage="schedulerTask.ServiceConclude cancelSubTasks" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.ServiceConclude(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.ServiceConclude(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.ServiceConclude(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.ServiceConclude(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ServiceConclude(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ServiceConclude(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancelSubTasks" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="cancelSubTasks">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCustomProperty">
+      <MemberSignature Language="C#" Value="public void SetCustomProperty (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCustomProperty(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.SetCustomProperty(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCustomProperty (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetCustomProperty : string * string -&gt; unit&#xA;override this.SetCustomProperty : string * string -&gt; unit" Usage="schedulerTask.SetCustomProperty (name, value)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.SetCustomProperty(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.SetCustomProperty(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.SetCustomProperty(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.SetCustomProperty(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.SetCustomProperty(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.SetCustomProperty(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.SetCustomProperty(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">The property name. The name is limited to 80 characters.</param>
+        <param name="value">The property value as a string. The name is limited to 1,024 characters.</param>
+        <summary>Sets an application-defined property on the task.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnvironmentVariable">
+      <MemberSignature Language="C#" Value="public void SetEnvironmentVariable (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetEnvironmentVariable(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerTask.SetEnvironmentVariable(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnvironmentVariable (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetEnvironmentVariable : string * string -&gt; unit&#xA;override this.SetEnvironmentVariable : string * string -&gt; unit" Usage="schedulerTask.SetEnvironmentVariable (name, value)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTask.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of the variable.</param>
+        <param name="value">The string value of the variable. If null or an empty string, the variable is deleted.</param>
+        <summary>Sets a task-specific environment variable.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.StartTime : DateTime" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.StartTime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.StartTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.StartTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.StartTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.StartTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.StartTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.StartTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.StartTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the date and time that the task started running.</summary>
+        <value>The task start time. The value is in Coordinated Universal Time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartValue">
+      <MemberSignature Language="C#" Value="public int StartValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StartValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.StartValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.StartValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.StartValue" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.StartValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.StartValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.StartValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.StartValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.StartValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.StartValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.StartValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the starting instance value for a parametric task.</summary>
+        <value>The starting instance value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.TaskState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As TaskState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Hpc.Scheduler.Properties.TaskState" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.State" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.State</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.State</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.State</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.State</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.State</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.State</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.State</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the state of the task.</summary>
+        <value>The state of the task. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StdErrFilePath">
+      <MemberSignature Language="C#" Value="public string StdErrFilePath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StdErrFilePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.StdErrFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Property StdErrFilePath As String" />
+      <MemberSignature Language="F#" Value="member this.StdErrFilePath : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.StdErrFilePath" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.StdErrFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.StdErrFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.StdErrFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.StdErrFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.StdErrFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.StdErrFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.StdErrFilePath</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the path to which the server redirects standard error.</summary>
+        <value>The file to which standard error is redirected.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StdInFilePath">
+      <MemberSignature Language="C#" Value="public string StdInFilePath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StdInFilePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.StdInFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Property StdInFilePath As String" />
+      <MemberSignature Language="F#" Value="member this.StdInFilePath : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.StdInFilePath" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.StdInFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.StdInFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.StdInFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.StdInFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.StdInFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.StdInFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.StdInFilePath</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the path from which the server redirects standard input.</summary>
+        <value>The file from which standard input is redirected.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StdOutFilePath">
+      <MemberSignature Language="C#" Value="public string StdOutFilePath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StdOutFilePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.StdOutFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Property StdOutFilePath As String" />
+      <MemberSignature Language="F#" Value="member this.StdOutFilePath : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.StdOutFilePath" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.StdOutFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.StdOutFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.StdOutFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.StdOutFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.StdOutFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.StdOutFilePath</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.StdOutFilePath</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the path to which the server redirects standard output.</summary>
+        <value>The file to which standard output is redirected.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTime">
+      <MemberSignature Language="C#" Value="public DateTime SubmitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SubmitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.SubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmitTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.SubmitTime : DateTime" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.SubmitTime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.SubmitTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.SubmitTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.SubmitTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.SubmitTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.SubmitTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.SubmitTime</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.SubmitTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the time that the task was submitted.</summary>
+        <value>The time the task was submitted.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskId TaskId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.TaskId TaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.TaskId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskId As TaskId" />
+      <MemberSignature Language="F#" Value="member this.TaskId : Microsoft.Hpc.Scheduler.Properties.TaskId" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.TaskId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.TaskId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.TaskId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.TaskId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.TaskId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.TaskId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.TaskId</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.TaskId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifiers that uniquely identify the task.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId"></see> object that contains the identifiers that uniquely identify the task.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.TaskType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As TaskType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Scheduler.Properties.TaskType with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.Type" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.Type</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.Type</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.Type</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.Type</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.Type</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.Type</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserBlob">
+      <MemberSignature Language="C#" Value="public string UserBlob { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserBlob" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.UserBlob" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserBlob As String" />
+      <MemberSignature Language="F#" Value="member this.UserBlob : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.UserBlob" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.UserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.UserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.UserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.UserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.UserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.UserBlob</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.UserBlob</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the user data associated with the task.</summary>
+        <value>The user data associated with the task. The resulting encrypted data is limited to 8,000 bytes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidExitCodes">
+      <MemberSignature Language="C#" Value="public string ValidExitCodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ValidExitCodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.ValidExitCodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ValidExitCodes As String" />
+      <MemberSignature Language="F#" Value="member this.ValidExitCodes : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.ValidExitCodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.ValidExitCodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.ValidExitCodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.ValidExitCodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.ValidExitCodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkDirectory">
+      <MemberSignature Language="C#" Value="public string WorkDirectory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkDirectory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerTask.WorkDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkDirectory As String" />
+      <MemberSignature Language="F#" Value="member this.WorkDirectory : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerTask.WorkDirectory" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTask.WorkDirectory</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV2.WorkDirectory</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3.WorkDirectory</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV3SP1.WorkDirectory</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4.WorkDirectory</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP1.WorkDirectory</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerTaskV4SP3.WorkDirectory</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the directory in which to start the task.</summary>
+        <value>The absolute path to the startup directory.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,107 @@
+﻿<Type Name="StepResult+Node" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Node">
+  <TypeSignature Language="C#" Value="public class StepResult.Node" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StepResult/Node extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.Node" />
+  <TypeSignature Language="F#" Value="type StepResult.Node = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a node in an HPC cluster on which the RunStep stage of a diagnostic test should run or on which a diagnostic test failed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Node ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node" /> class without specifying the name of the node.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Node (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node name" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">A string that specifies the name of the node on which the RunStep stage of the diagnostic test should run or on which the diagnostic test failed.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node" /> class for the node with the specified name.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the name of the node on which the RunStep stage of the diagnostic test should run or on which the diagnostic test failed.</summary>
+        <value>A <see cref="T:System.String"></see> object the contains the name of the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter&gt; Parameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Parameter&gt; Parameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node.Parameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parameters As List(Of StepResult.Parameter)" />
+      <MemberSignature Language="F#" Value="member this.Parameters : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node.Parameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("Parameters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Parameter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter" /> objects that represent the parameters and values that the diagnostic service should use when the diagnostic service runs the RunStep command on the node.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that represents a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter"></see> objects that represent the parameters and values that the diagnostic service should use to run the RunStep command on the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

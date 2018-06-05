@@ -1,0 +1,101 @@
+﻿<Type Name="ITaskId" FullName="Microsoft.Hpc.Scheduler.Properties.ITaskId">
+  <TypeSignature Language="C#" Value="public interface ITaskId" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITaskId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.ITaskId" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITaskId" />
+  <TypeSignature Language="F#" Value="type ITaskId = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("D38CDF30-B8EB-42aa-A9AB-B6176CCD565F")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains the identifiers that uniquely identify the task.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InstanceId">
+      <MemberSignature Language="C#" Value="public int InstanceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InstanceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.ITaskId.InstanceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceId As Integer" />
+      <MemberSignature Language="F#" Value="member this.InstanceId : int" Usage="Microsoft.Hpc.Scheduler.Properties.ITaskId.InstanceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the instance identifier of a parametric task.</summary>
+        <value>The instance identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTaskId">
+      <MemberSignature Language="C#" Value="public int JobTaskId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 JobTaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.ITaskId.JobTaskId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobTaskId As Integer" />
+      <MemberSignature Language="F#" Value="member this.JobTaskId : int" Usage="Microsoft.Hpc.Scheduler.Properties.ITaskId.JobTaskId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the sequential identifier that identifies the task in the job.</summary>
+        <value>The display task identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobId">
+      <MemberSignature Language="C#" Value="public int ParentJobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ParentJobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.ITaskId.ParentJobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentJobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ParentJobId : int" Usage="Microsoft.Hpc.Scheduler.Properties.ITaskId.ParentJobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier that identifies the parent job.</summary>
+        <value>The identifier for the parent job.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

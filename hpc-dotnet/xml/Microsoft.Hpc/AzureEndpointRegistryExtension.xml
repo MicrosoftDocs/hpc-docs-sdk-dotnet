@@ -1,0 +1,110 @@
+﻿<Type Name="AzureEndpointRegistryExtension" FullName="Microsoft.Hpc.AzureEndpointRegistryExtension">
+  <TypeSignature Language="C#" Value="public static class AzureEndpointRegistryExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AzureEndpointRegistryExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.AzureEndpointRegistryExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module AzureEndpointRegistryExtension" />
+  <TypeSignature Language="F#" Value="type AzureEndpointRegistryExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAzureEndpointStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureEndpointStringAsync (this Microsoft.Hpc.IHpcContext context, string endpoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureEndpointStringAsync(class Microsoft.Hpc.IHpcContext context, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AzureEndpointRegistryExtension.GetAzureEndpointStringAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureEndpointStringAsync (context As IHpcContext, endpoint As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureEndpointStringAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AzureEndpointRegistryExtension.GetAzureEndpointStringAsync (context, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AzureEndpointRegistryExtension/&lt;GetAzureEndpointStringAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="endpoint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureEnvironmentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureEnvironmentAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureEnvironmentAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AzureEndpointRegistryExtension.GetAzureEnvironmentAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureEnvironmentAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureEnvironmentAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AzureEndpointRegistryExtension.GetAzureEnvironmentAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AzureEndpointRegistryExtension/&lt;GetAzureEnvironmentAsync&gt;d__6))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureStorageEndpointSuffixAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureStorageEndpointSuffixAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureStorageEndpointSuffixAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AzureEndpointRegistryExtension.GetAzureStorageEndpointSuffixAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureStorageEndpointSuffixAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureStorageEndpointSuffixAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AzureEndpointRegistryExtension.GetAzureStorageEndpointSuffixAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AzureEndpointRegistryExtension/&lt;GetAzureStorageEndpointSuffixAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,62 @@
+﻿<Type Name="ExceptionWrapper" FullName="Microsoft.Hpc.ExceptionWrapper">
+  <TypeSignature Language="C#" Value="public class ExceptionWrapper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExceptionWrapper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.ExceptionWrapper" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExceptionWrapper" />
+  <TypeSignature Language="F#" Value="type ExceptionWrapper = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExceptionWrapper (Exception e);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Exception e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ExceptionWrapper.#ctor(System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (e As Exception)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.ExceptionWrapper : Exception -&gt; Microsoft.Hpc.ExceptionWrapper" Usage="new Microsoft.Hpc.ExceptionWrapper e" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="e" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeserializeException">
+      <MemberSignature Language="C#" Value="public Exception DeserializeException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Exception DeserializeException() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ExceptionWrapper.DeserializeException" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeserializeException () As Exception" />
+      <MemberSignature Language="F#" Value="member this.DeserializeException : unit -&gt; Exception" Usage="exceptionWrapper.DeserializeException " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

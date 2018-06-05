@@ -1,0 +1,115 @@
+﻿<Type Name="StepResult+ResultCode" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode">
+  <TypeSignature Language="C#" Value="public enum StepResult.ResultCode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable sealed StepResult/ResultCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StepResult.ResultCode" />
+  <TypeSignature Language="F#" Value="type StepResult.ResultCode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the overall result of a diagnostic test run. The result appears in the State column for a test result in HPC Cluster Manager.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Complete">
+      <MemberSignature Language="C#" Value="Complete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode Complete = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Complete" />
+      <MemberSignature Language="VB.NET" Value="Complete" />
+      <MemberSignature Language="F#" Value="Complete = 6" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Complete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Indicates that the test run completed. This value is appropriate for diagnostic tests that do not have criteria for failure or success. This enumeration member represents a value of 6.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failure">
+      <MemberSignature Language="C#" Value="Failure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode Failure = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Failure" />
+      <MemberSignature Language="VB.NET" Value="Failure" />
+      <MemberSignature Language="F#" Value="Failure = 4" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Failure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that the diagnostic test ran, but the results met the criteria of the diagnostic test for failure. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoResult">
+      <MemberSignature Language="C#" Value="NoResult" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode NoResult = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.NoResult" />
+      <MemberSignature Language="VB.NET" Value="NoResult" />
+      <MemberSignature Language="F#" Value="NoResult = 0" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.NoResult" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the diagnostic test had no result. This value is the default value, and it is appropriate when you want to create a PreStepResult.xml file to provide the results of the PreStep stage of the test to the RunStep stage, which is a transition that occurs before the main part of the diagnostic test runs. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Success">
+      <MemberSignature Language="C#" Value="Success" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode Success = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Success" />
+      <MemberSignature Language="VB.NET" Value="Success" />
+      <MemberSignature Language="F#" Value="Success = 2" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Success" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the results the test run met the criteria of the diagnostic test for success. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Warning">
+      <MemberSignature Language="C#" Value="Warning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode Warning = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Warning" />
+      <MemberSignature Language="VB.NET" Value="Warning" />
+      <MemberSignature Language="F#" Value="Warning = 3" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Warning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Indicates that the test ran, but the results met the criteria of the diagnostic test for a warning. This enumeration member represents a value of 3.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

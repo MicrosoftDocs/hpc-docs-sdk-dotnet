@@ -1,0 +1,134 @@
+﻿<Type Name="GenericServiceClient" FullName="Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient">
+  <TypeSignature Language="C#" Value="public class GenericServiceClient : System.ServiceModel.ClientBase&lt;Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync&gt;, Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GenericServiceClient extends System.ServiceModel.ClientBase`1&lt;class Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync&gt; implements class Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class GenericServiceClient&#xA;Inherits ClientBase(Of IGenericServiceAsync)&#xA;Implements IGenericServiceAsync" />
+  <TypeSignature Language="F#" Value="type GenericServiceClient = class&#xA;    inherit ClientBase&lt;IGenericServiceAsync&gt;&#xA;    interface IGenericServiceAsync" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ServiceModel.ClientBase&lt;Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GenericServiceClient (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ServiceModel.Channels.Binding binding, class System.ServiceModel.EndpointAddress remoteAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient : System.ServiceModel.Channels.Binding * System.ServiceModel.EndpointAddress -&gt; Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient" Usage="new Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient (binding, remoteAddress)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="remoteAddress" Type="System.ServiceModel.EndpointAddress" />
+      </Parameters>
+      <Docs>
+        <param name="binding">To be added.</param>
+        <param name="remoteAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGenericOperation">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGenericOperation (string args, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginGenericOperation(string args, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient.BeginGenericOperation(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGenericOperation (args As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginGenericOperation : string * AsyncCallback * obj -&gt; IAsyncResult&#xA;override this.BeginGenericOperation : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="genericServiceClient.BeginGenericOperation (args, callback, state)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync.BeginGenericOperation(System.String,System.AsyncCallback,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGenericOperation">
+      <MemberSignature Language="C#" Value="public string EndGenericOperation (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndGenericOperation(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient.EndGenericOperation(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGenericOperation (result As IAsyncResult) As String" />
+      <MemberSignature Language="F#" Value="abstract member EndGenericOperation : IAsyncResult -&gt; string&#xA;override this.EndGenericOperation : IAsyncResult -&gt; string" Usage="genericServiceClient.EndGenericOperation result" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync.EndGenericOperation(System.IAsyncResult)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenericOperation">
+      <MemberSignature Language="C#" Value="public string GenericOperation (string args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenericOperation(string args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.GenericServiceClient.GenericOperation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenericOperation (args As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member GenericOperation : string -&gt; string&#xA;override this.GenericOperation : string -&gt; string" Usage="genericServiceClient.GenericOperation args" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync.GenericOperation(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

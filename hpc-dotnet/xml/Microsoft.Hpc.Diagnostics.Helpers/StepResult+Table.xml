@@ -1,0 +1,266 @@
+﻿<Type Name="StepResult+Table" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Table">
+  <TypeSignature Language="C#" Value="public class StepResult.Table" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StepResult/Table extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.Table" />
+  <TypeSignature Language="F#" Value="type StepResult.Table = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a table in the report for a diagnostic test run.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Table ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" /> class without specifying a name, description, or columns for the table.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Table (string description);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string description) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (description As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table description" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="description">A string that specifies a description for the table.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" /> class with the specified description.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Table (string name, string description, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column&gt; columns);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string description, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Column&gt; columns) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, description As String, columns As IEnumerable(Of StepResult.Column))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table : string * string * seq&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column&gt; -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table (name, description, columns)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="columns" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Column&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">A string that specifies the name of the table.</param>
+        <param name="description">A string that specifies a description for the table.</param>
+        <param name="columns">A collection of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column"></see> objects that specifies the columns for the table.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" /> class with the specified name, description, and columns.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Table (string name, string description, System.Collections.Generic.IEnumerable&lt;string&gt; columnNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string description, class System.Collections.Generic.IEnumerable`1&lt;string&gt; columnNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, description As String, columnNames As IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table : string * string * seq&lt;string&gt; -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table (name, description, columnNames)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="columnNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">A string that specifies the name of the table.</param>
+        <param name="description">A string that specifies a description for the table.</param>
+        <param name="columnNames">A collection of <see cref="T:System.String"></see> objects that specifies the column names for the table.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table" /> class with the specified name, description, and column names.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRow">
+      <MemberSignature Language="C#" Value="public void AddRow (System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem&gt; items);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRow(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/RowItem&gt; items) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.AddRow(System.Collections.Generic.IEnumerable{Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRow (items As IEnumerable(Of StepResult.RowItem))" />
+      <MemberSignature Language="F#" Value="member this.AddRow : seq&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem&gt; -&gt; unit" Usage="table.AddRow items" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="items" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+RowItem&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="items">A collection of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem"></see> objects that specifies the entries for the row.</param>
+        <summary>Adds a new row to a table in the report for a diagnostic test run, by using the specified items for the entries in the row.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRow">
+      <MemberSignature Language="C#" Value="public void AddRow (System.Collections.Generic.IEnumerable&lt;string&gt; values);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRow(class System.Collections.Generic.IEnumerable`1&lt;string&gt; values) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.AddRow(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRow (values As IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="member this.AddRow : seq&lt;string&gt; -&gt; unit" Usage="table.AddRow values" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="values">A collection of <see cref="T:System.String"></see> objects that specifies the values to use as entries for the row.</param>
+        <summary>Adds a new row to a table in the report for a diagnostic test run, by using the specified values for the entries in the row.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Columns">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column&gt; Columns { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Column&gt; Columns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Columns" />
+      <MemberSignature Language="VB.NET" Value="Public Property Columns As List(Of StepResult.Column)" />
+      <MemberSignature Language="F#" Value="member this.Columns : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Columns" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Column&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the set of columns in the table.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Column"></see> objects that correspond to the columns in the table.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the description of a table in the report for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the description.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the name of a table in the report for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the name of the table.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rows">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row&gt; Rows { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Row&gt; Rows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Rows" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rows As List(Of StepResult.Row)" />
+      <MemberSignature Language="F#" Value="member this.Rows : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Rows" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the set of rows in the table.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row"></see> objects that correspond to the rows in the table.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public string Tags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As String" />
+      <MemberSignature Language="F#" Value="member this.Tags : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the tags for a table in the report for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.String"></see> that contains the tags.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

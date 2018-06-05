@@ -1,0 +1,175 @@
+﻿<Type Name="ResourceUsage" FullName="Microsoft.ComputeCluster.ResourceUsage">
+  <TypeSignature Language="C#" Value="public sealed class ResourceUsage : Microsoft.ComputeCluster.IResourceUsage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ResourceUsage extends System.Object implements class Microsoft.ComputeCluster.IResourceUsage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.ResourceUsage" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ResourceUsage&#xA;Implements IResourceUsage" />
+  <TypeSignature Language="F#" Value="type ResourceUsage = class&#xA;    interface IResourceUsage" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.ComputeCluster.IResourceUsage</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("FB666ABC-BE14-4094-840B-5CF4A89DAD24")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourceUsage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.ResourceUsage.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.INameValueCollection AllocatedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ComputeCluster.INameValueCollection AllocatedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ResourceUsage.AllocatedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocatedNodes As INameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.AllocatedNodes : Microsoft.ComputeCluster.INameValueCollection" Usage="Microsoft.ComputeCluster.ResourceUsage.AllocatedNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.IResourceUsage.AllocatedNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelProcessorTime">
+      <MemberSignature Language="C#" Value="public long KernelProcessorTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 KernelProcessorTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ResourceUsage.KernelProcessorTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property KernelProcessorTime As Long" />
+      <MemberSignature Language="F#" Value="member this.KernelProcessorTime : int64 with get, set" Usage="Microsoft.ComputeCluster.ResourceUsage.KernelProcessorTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfProcesses">
+      <MemberSignature Language="C#" Value="public int NumberOfProcesses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfProcesses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ResourceUsage.NumberOfProcesses" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfProcesses As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfProcesses : int with get, set" Usage="Microsoft.ComputeCluster.ResourceUsage.NumberOfProcesses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processes">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IClusterEnumerable Processes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ComputeCluster.IClusterEnumerable Processes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ResourceUsage.Processes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Processes As IClusterEnumerable" />
+      <MemberSignature Language="F#" Value="member this.Processes : Microsoft.ComputeCluster.IClusterEnumerable with get, set" Usage="Microsoft.ComputeCluster.ResourceUsage.Processes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IClusterEnumerable</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserProcessorTime">
+      <MemberSignature Language="C#" Value="public long UserProcessorTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 UserProcessorTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ResourceUsage.UserProcessorTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserProcessorTime As Long" />
+      <MemberSignature Language="F#" Value="member this.UserProcessorTime : int64 with get, set" Usage="Microsoft.ComputeCluster.ResourceUsage.UserProcessorTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingSet">
+      <MemberSignature Language="C#" Value="public int WorkingSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WorkingSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ResourceUsage.WorkingSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkingSet As Integer" />
+      <MemberSignature Language="F#" Value="member this.WorkingSet : int with get, set" Usage="Microsoft.ComputeCluster.ResourceUsage.WorkingSet" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

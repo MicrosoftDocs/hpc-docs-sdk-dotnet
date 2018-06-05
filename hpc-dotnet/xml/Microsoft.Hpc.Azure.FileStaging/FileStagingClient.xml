@@ -1,0 +1,394 @@
+﻿<Type Name="FileStagingClient" FullName="Microsoft.Hpc.Azure.FileStaging.FileStagingClient">
+  <TypeSignature Language="C#" Value="public class FileStagingClient : System.ServiceModel.ClientBase&lt;Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync&gt;, Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileStagingClient extends System.ServiceModel.ClientBase`1&lt;class Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync&gt; implements class Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.FileStaging.FileStagingClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileStagingClient&#xA;Inherits ClientBase(Of IFileStagingClientAsync)&#xA;Implements IFileStagingClient" />
+  <TypeSignature Language="F#" Value="type FileStagingClient = class&#xA;    inherit ClientBase&lt;IFileStagingClientAsync&gt;&#xA;    interface IFileStagingClient" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ServiceModel.ClientBase&lt;Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClientAsync</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileStagingClient (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress endpoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ServiceModel.Channels.Binding binding, class System.ServiceModel.EndpointAddress endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.FileStaging.FileStagingClient : System.ServiceModel.Channels.Binding * System.ServiceModel.EndpointAddress -&gt; Microsoft.Hpc.Azure.FileStaging.FileStagingClient" Usage="new Microsoft.Hpc.Azure.FileStaging.FileStagingClient (binding, endpoint)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="endpoint" Type="System.ServiceModel.EndpointAddress" />
+      </Parameters>
+      <Docs>
+        <param name="binding">To be added.</param>
+        <param name="endpoint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyDirectoryFromBlob">
+      <MemberSignature Language="C#" Value="public void CopyDirectoryFromBlob (string blobUrlPrefix, string sas, string destDir, System.Collections.Generic.List&lt;string&gt; filePatterns, bool recursive, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyDirectoryFromBlob(string blobUrlPrefix, string sas, string destDir, class System.Collections.Generic.List`1&lt;string&gt; filePatterns, bool recursive, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.CopyDirectoryFromBlob(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyDirectoryFromBlob (blobUrlPrefix As String, sas As String, destDir As String, filePatterns As List(Of String), recursive As Boolean, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CopyDirectoryFromBlob : string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool -&gt; unit&#xA;override this.CopyDirectoryFromBlob : string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool -&gt; unit" Usage="fileStagingClient.CopyDirectoryFromBlob (blobUrlPrefix, sas, destDir, filePatterns, recursive, overwrite)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.CopyDirectoryFromBlob(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrlPrefix" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="destDir" Type="System.String" />
+        <Parameter Name="filePatterns" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrlPrefix">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="destDir">To be added.</param>
+        <param name="filePatterns">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyDirectoryToBlob">
+      <MemberSignature Language="C#" Value="public void CopyDirectoryToBlob (string blobUrlPrefix, string sas, string sourceDir, System.Collections.Generic.List&lt;string&gt; filePatterns, bool recursive, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyDirectoryToBlob(string blobUrlPrefix, string sas, string sourceDir, class System.Collections.Generic.List`1&lt;string&gt; filePatterns, bool recursive, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.CopyDirectoryToBlob(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyDirectoryToBlob (blobUrlPrefix As String, sas As String, sourceDir As String, filePatterns As List(Of String), recursive As Boolean, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CopyDirectoryToBlob : string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool -&gt; unit&#xA;override this.CopyDirectoryToBlob : string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool -&gt; unit" Usage="fileStagingClient.CopyDirectoryToBlob (blobUrlPrefix, sas, sourceDir, filePatterns, recursive, overwrite)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.CopyDirectoryToBlob(System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrlPrefix" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="sourceDir" Type="System.String" />
+        <Parameter Name="filePatterns" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrlPrefix">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="sourceDir">To be added.</param>
+        <param name="filePatterns">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFileFromBlob">
+      <MemberSignature Language="C#" Value="public void CopyFileFromBlob (string blobUrl, string sas, string destFilePath, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyFileFromBlob(string blobUrl, string sas, string destFilePath, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.CopyFileFromBlob(System.String,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyFileFromBlob (blobUrl As String, sas As String, destFilePath As String, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CopyFileFromBlob : string * string * string * bool -&gt; unit&#xA;override this.CopyFileFromBlob : string * string * string * bool -&gt; unit" Usage="fileStagingClient.CopyFileFromBlob (blobUrl, sas, destFilePath, overwrite)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.CopyFileFromBlob(System.String,System.String,System.String,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrl" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="destFilePath" Type="System.String" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrl">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="destFilePath">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFileToBlob">
+      <MemberSignature Language="C#" Value="public void CopyFileToBlob (string blobUrl, string sas, string sourceFilePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyFileToBlob(string blobUrl, string sas, string sourceFilePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.CopyFileToBlob(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyFileToBlob (blobUrl As String, sas As String, sourceFilePath As String)" />
+      <MemberSignature Language="F#" Value="abstract member CopyFileToBlob : string * string * string -&gt; unit&#xA;override this.CopyFileToBlob : string * string * string -&gt; unit" Usage="fileStagingClient.CopyFileToBlob (blobUrl, sas, sourceFilePath)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.CopyFileToBlob(System.String,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobUrl" Type="System.String" />
+        <Parameter Name="sas" Type="System.String" />
+        <Parameter Name="sourceFilePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="blobUrl">To be added.</param>
+        <param name="sas">To be added.</param>
+        <param name="sourceFilePath">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDirectory">
+      <MemberSignature Language="C#" Value="public void DeleteDirectory (bool recursive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteDirectory(bool recursive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.DeleteDirectory(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteDirectory (recursive As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteDirectory : bool -&gt; unit&#xA;override this.DeleteDirectory : bool -&gt; unit" Usage="fileStagingClient.DeleteDirectory recursive" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.DeleteDirectory(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recursive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="recursive">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteFile">
+      <MemberSignature Language="C#" Value="public void DeleteFile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteFile() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.DeleteFile" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteFile ()" />
+      <MemberSignature Language="F#" Value="abstract member DeleteFile : unit -&gt; unit&#xA;override this.DeleteFile : unit -&gt; unit" Usage="fileStagingClient.DeleteFile " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.DeleteFile</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSASForBlob">
+      <MemberSignature Language="C#" Value="public string GenerateSASForBlob (string blobName, Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions permissions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenerateSASForBlob(string blobName, valuetype Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions permissions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.GenerateSASForBlob(System.String,Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenerateSASForBlob (blobName As String, permissions As SharedAccessBlobPermissions) As String" />
+      <MemberSignature Language="F#" Value="abstract member GenerateSASForBlob : string * Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions -&gt; string&#xA;override this.GenerateSASForBlob : string * Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions -&gt; string" Usage="fileStagingClient.GenerateSASForBlob (blobName, permissions)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.GenerateSASForBlob(System.String,Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blobName" Type="System.String" />
+        <Parameter Name="permissions" Type="Microsoft.WindowsAzure.Storage.Blob.SharedAccessBlobPermissions" />
+      </Parameters>
+      <Docs>
+        <param name="blobName">To be added.</param>
+        <param name="permissions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContainerUrl">
+      <MemberSignature Language="C#" Value="public string GetContainerUrl (out string sas);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetContainerUrl([out] string&amp; sas) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.GetContainerUrl(System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContainerUrl (ByRef sas As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member GetContainerUrl :  -&gt; string&#xA;override this.GetContainerUrl :  -&gt; string" Usage="fileStagingClient.GetContainerUrl sas" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.GetContainerUrl(System.String@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sas" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="sas">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDirectories">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[] GetDirectories (string searchPattern, System.IO.SearchOption searchOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[] GetDirectories(string searchPattern, valuetype System.IO.SearchOption searchOption) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.GetDirectories(System.String,System.IO.SearchOption)" />
+      <MemberSignature Language="F#" Value="abstract member GetDirectories : string * System.IO.SearchOption -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]&#xA;override this.GetDirectories : string * System.IO.SearchOption -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]" Usage="fileStagingClient.GetDirectories (searchPattern, searchOption)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.GetDirectories(System.String,System.IO.SearchOption)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchPattern" Type="System.String" />
+        <Parameter Name="searchOption" Type="System.IO.SearchOption" />
+      </Parameters>
+      <Docs>
+        <param name="searchPattern">To be added.</param>
+        <param name="searchOption">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFiles">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[] GetFiles (string searchPattern, System.IO.SearchOption searchOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[] GetFiles(string searchPattern, valuetype System.IO.SearchOption searchOption) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.GetFiles(System.String,System.IO.SearchOption)" />
+      <MemberSignature Language="F#" Value="abstract member GetFiles : string * System.IO.SearchOption -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]&#xA;override this.GetFiles : string * System.IO.SearchOption -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]" Usage="fileStagingClient.GetFiles (searchPattern, searchOption)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.GetFiles(System.String,System.IO.SearchOption)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchPattern" Type="System.String" />
+        <Parameter Name="searchOption" Type="System.IO.SearchOption" />
+      </Parameters>
+      <Docs>
+        <param name="searchPattern">To be added.</param>
+        <param name="searchOption">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadFile">
+      <MemberSignature Language="C#" Value="public System.IO.Stream ReadFile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IO.Stream ReadFile() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.ReadFile" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReadFile () As Stream" />
+      <MemberSignature Language="F#" Value="abstract member ReadFile : unit -&gt; System.IO.Stream&#xA;override this.ReadFile : unit -&gt; System.IO.Stream" Usage="fileStagingClient.ReadFile " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.ReadFile</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteFile">
+      <MemberSignature Language="C#" Value="public void WriteFile (System.IO.Stream contents);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteFile(class System.IO.Stream contents) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.FileStagingClient.WriteFile(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteFile (contents As Stream)" />
+      <MemberSignature Language="F#" Value="abstract member WriteFile : System.IO.Stream -&gt; unit&#xA;override this.WriteFile : System.IO.Stream -&gt; unit" Usage="fileStagingClient.WriteFile contents" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Azure.FileStaging.Client.IFileStagingClient.WriteFile(System.IO.Stream)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

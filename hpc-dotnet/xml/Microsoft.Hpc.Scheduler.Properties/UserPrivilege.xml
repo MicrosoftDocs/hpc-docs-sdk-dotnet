@@ -1,0 +1,126 @@
+﻿<Type Name="UserPrivilege" FullName="Microsoft.Hpc.Scheduler.Properties.UserPrivilege">
+  <TypeSignature Language="C#" Value="public enum UserPrivilege" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UserPrivilege extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.UserPrivilege" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UserPrivilege" />
+  <TypeSignature Language="F#" Value="type UserPrivilege = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Obsolete("Deprecated in HPC Pack 2012 with Service Pack 1 (SP1).  Use the UserRoles enumeration instead.")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("FC865149-5068-4561-AB00-9BF8CEE7EC40")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Indicates to which group the user belongs.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccessDenied">
+      <MemberSignature Language="C#" Value="AccessDenied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.UserPrivilege AccessDenied = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.UserPrivilege.AccessDenied" />
+      <MemberSignature Language="VB.NET" Value="AccessDenied" />
+      <MemberSignature Language="F#" Value="AccessDenied = 0" Usage="Microsoft.Hpc.Scheduler.Properties.UserPrivilege.AccessDenied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.UserPrivilege</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The user has no access privileges (the user does not belong to the Administrators group or Users group). This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Admin">
+      <MemberSignature Language="C#" Value="Admin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.UserPrivilege Admin = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.UserPrivilege.Admin" />
+      <MemberSignature Language="VB.NET" Value="Admin" />
+      <MemberSignature Language="F#" Value="Admin = 2" Usage="Microsoft.Hpc.Scheduler.Properties.UserPrivilege.Admin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.UserPrivilege</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The user belongs to the Administrators group on the head node. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobAdministrator">
+      <MemberSignature Language="C#" Value="JobAdministrator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.UserPrivilege JobAdministrator = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.UserPrivilege.JobAdministrator" />
+      <MemberSignature Language="VB.NET" Value="JobAdministrator" />
+      <MemberSignature Language="F#" Value="JobAdministrator = 8" Usage="Microsoft.Hpc.Scheduler.Properties.UserPrivilege.JobAdministrator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.UserPrivilege</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobOperator">
+      <MemberSignature Language="C#" Value="JobOperator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.UserPrivilege JobOperator = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.UserPrivilege.JobOperator" />
+      <MemberSignature Language="VB.NET" Value="JobOperator" />
+      <MemberSignature Language="F#" Value="JobOperator = 4" Usage="Microsoft.Hpc.Scheduler.Properties.UserPrivilege.JobOperator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.UserPrivilege</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="User" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.UserPrivilege User = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.UserPrivilege.User" />
+      <MemberSignature Language="VB.NET" Value="User" />
+      <MemberSignature Language="F#" Value="User = 1" Usage="Microsoft.Hpc.Scheduler.Properties.UserPrivilege.User" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.UserPrivilege</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The user belongs to the Users group on the head node. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

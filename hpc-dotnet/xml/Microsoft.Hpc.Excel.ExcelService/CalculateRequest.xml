@@ -1,0 +1,144 @@
+﻿<Type Name="CalculateRequest" FullName="Microsoft.Hpc.Excel.ExcelService.CalculateRequest">
+  <TypeSignature Language="C#" Value="public class CalculateRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalculateRequest extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ExcelService.CalculateRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalculateRequest" />
+  <TypeSignature Language="F#" Value="type CalculateRequest = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("System.ServiceModel", "3.0.0.0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ServiceModel.MessageContract(IsWrapped=true, WrapperName="Calculate", WrapperNamespace="http://tempuri.org/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a request to the built-in Excel SOA service to perform the calculation in a specified macro for an Excel workbook using the specified input.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalculateRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.CalculateRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateRequest" /> class without specifying the macro in the Excel workbook to call or the input for that macro.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalculateRequest (string macroName, byte[] inputs, Nullable&lt;DateTime&gt; lastSaveDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string macroName, unsigned int8[] inputs, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastSaveDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.CalculateRequest.#ctor(System.String,System.Byte[],System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (macroName As String, inputs As Byte(), lastSaveDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Excel.ExcelService.CalculateRequest : string * byte[] * Nullable&lt;DateTime&gt; -&gt; Microsoft.Hpc.Excel.ExcelService.CalculateRequest" Usage="new Microsoft.Hpc.Excel.ExcelService.CalculateRequest (macroName, inputs, lastSaveDate)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="macroName" Type="System.String" />
+        <Parameter Name="inputs" Type="System.Byte[]" />
+        <Parameter Name="lastSaveDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="macroName">To be added.</param>
+        <param name="inputs">To be added.</param>
+        <param name="lastSaveDate">To be added.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateRequest" /> class without the specified values for the name of the macro in the Excel workbook that should perform the calculation, the input for that macro, and the date that the Excel workbook was last saved.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="inputs">
+      <MemberSignature Language="C#" Value="public byte[] inputs;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int8[] inputs" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Excel.ExcelService.CalculateRequest.inputs" />
+      <MemberSignature Language="VB.NET" Value="Public inputs As Byte() " />
+      <MemberSignature Language="F#" Value="val mutable inputs : byte[]" Usage="Microsoft.Hpc.Excel.ExcelService.CalculateRequest.inputs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.MessageBodyMember(Namespace="http://tempuri.org/", Order=1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Contains an array of bytes that is a serialized form of a <see cref="T:Microsoft.Hpc.Excel.WorkItem" /> object that represents the values for the parameters that you want to pass as input to the macro that performs the calculation.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lastSaveDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; lastSaveDate;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastSaveDate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Excel.ExcelService.CalculateRequest.lastSaveDate" />
+      <MemberSignature Language="VB.NET" Value="Public lastSaveDate As Nullable(Of DateTime) " />
+      <MemberSignature Language="F#" Value="val mutable lastSaveDate : Nullable&lt;DateTime&gt;" Usage="Microsoft.Hpc.Excel.ExcelService.CalculateRequest.lastSaveDate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.MessageBodyMember(Namespace="http://tempuri.org/", Order=2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Contains a <see cref="T:System.DateTime" /> structure that specifies the date and time that the Excel Workbook should have most recently been saved in order for the calculation to proceed, or null if the calculation should proceed regardless of the date and the time that the Excel workbook was last saved.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="macroName">
+      <MemberSignature Language="C#" Value="public string macroName;" />
+      <MemberSignature Language="ILAsm" Value=".field public string macroName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Excel.ExcelService.CalculateRequest.macroName" />
+      <MemberSignature Language="VB.NET" Value="Public macroName As String " />
+      <MemberSignature Language="F#" Value="val mutable macroName : string" Usage="Microsoft.Hpc.Excel.ExcelService.CalculateRequest.macroName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.MessageBodyMember(Namespace="http://tempuri.org/", Order=0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Contains a string that specifies the name of the macro in an Excel workbook that the built-in Excel SOA service should use to perform the requested calculation.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

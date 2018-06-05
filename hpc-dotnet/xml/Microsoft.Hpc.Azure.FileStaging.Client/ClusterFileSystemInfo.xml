@@ -1,0 +1,337 @@
+﻿<Type Name="ClusterFileSystemInfo" FullName="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo">
+  <TypeSignature Language="C#" Value="public abstract class ClusterFileSystemInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ClusterFileSystemInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ClusterFileSystemInfo" />
+  <TypeSignature Language="F#" Value="type ClusterFileSystemInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClusterFileSystemInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClusterFileSystemInfo (System.IO.FileSystemInfo info);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.FileSystemInfo info) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.#ctor(System.IO.FileSystemInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (info As FileSystemInfo)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo : System.IO.FileSystemInfo -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo" Usage="new Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo info" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="info" Type="System.IO.FileSystemInfo" />
+      </Parameters>
+      <Docs>
+        <param name="info">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attributes">
+      <MemberSignature Language="C#" Value="public System.IO.FileAttributes Attributes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.IO.FileAttributes Attributes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Attributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Attributes As FileAttributes" />
+      <MemberSignature Language="F#" Value="member this.Attributes : System.IO.FileAttributes with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Attributes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IO.FileAttributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.CreationTime : DateTime with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.CreationTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTimeUtc">
+      <MemberSignature Language="C#" Value="public DateTime CreationTimeUtc { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTimeUtc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.CreationTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationTimeUtc As DateTime" />
+      <MemberSignature Language="F#" Value="member this.CreationTimeUtc : DateTime with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.CreationTimeUtc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public abstract bool Exists { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Exists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Exists" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property Exists As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Exists : bool with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Exists" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Extension">
+      <MemberSignature Language="C#" Value="public string Extension { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Extension" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Extension" />
+      <MemberSignature Language="VB.NET" Value="Public Property Extension As String" />
+      <MemberSignature Language="F#" Value="member this.Extension : string with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Extension" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public virtual string FullName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property FullName As String" />
+      <MemberSignature Language="F#" Value="member this.FullName : string with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.FullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAccessTime">
+      <MemberSignature Language="C#" Value="public DateTime LastAccessTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastAccessTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastAccessTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastAccessTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.LastAccessTime : DateTime with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastAccessTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAccessTimeUtc">
+      <MemberSignature Language="C#" Value="public DateTime LastAccessTimeUtc { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastAccessTimeUtc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastAccessTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastAccessTimeUtc As DateTime" />
+      <MemberSignature Language="F#" Value="member this.LastAccessTimeUtc : DateTime with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastAccessTimeUtc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastWriteTime">
+      <MemberSignature Language="C#" Value="public DateTime LastWriteTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastWriteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastWriteTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastWriteTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.LastWriteTime : DateTime with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastWriteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastWriteTimeUtc">
+      <MemberSignature Language="C#" Value="public DateTime LastWriteTimeUtc { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastWriteTimeUtc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastWriteTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastWriteTimeUtc As DateTime" />
+      <MemberSignature Language="F#" Value="member this.LastWriteTimeUtc : DateTime with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.LastWriteTimeUtc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public abstract string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Name" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileSystemInfo.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

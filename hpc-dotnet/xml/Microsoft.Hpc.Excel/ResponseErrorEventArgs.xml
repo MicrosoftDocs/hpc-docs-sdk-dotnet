@@ -1,0 +1,61 @@
+﻿<Type Name="ResponseErrorEventArgs" FullName="Microsoft.Hpc.Excel.ResponseErrorEventArgs">
+  <TypeSignature Language="C#" Value="public class ResponseErrorEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResponseErrorEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ResponseErrorEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResponseErrorEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type ResponseErrorEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contains data about errors that occurred in getting responses from the HPC cluster for calculation requests.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResponseErrorEventArgs (Exception ex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Exception ex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ResponseErrorEventArgs.#ctor(System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ex As Exception)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Excel.ResponseErrorEventArgs : Exception -&gt; Microsoft.Hpc.Excel.ResponseErrorEventArgs" Usage="new Microsoft.Hpc.Excel.ResponseErrorEventArgs ex" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="ex" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="ex">To be added.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ResponseErrorEventArgs" /> class with the specified exception.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseException">
+      <MemberSignature Language="C#" Value="public Exception ResponseException { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Exception ResponseException" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ResponseErrorEventArgs.ResponseException" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseException As Exception" />
+      <MemberSignature Language="F#" Value="member this.ResponseException : Exception" Usage="Microsoft.Hpc.Excel.ResponseErrorEventArgs.ResponseException" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the exception that the response handler received from the broker.</summary>
+        <value>A <see cref="T:System.Exception"></see> object that represents the exception that the response handler received from the broker.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

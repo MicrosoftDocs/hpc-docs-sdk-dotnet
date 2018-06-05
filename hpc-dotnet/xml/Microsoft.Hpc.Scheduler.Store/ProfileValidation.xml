@@ -1,0 +1,93 @@
+﻿<Type Name="ProfileValidation" FullName="Microsoft.Hpc.Scheduler.Store.ProfileValidation">
+  <TypeSignature Language="C#" Value="public class ProfileValidation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProfileValidation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ProfileValidation" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProfileValidation" />
+  <TypeSignature Language="F#" Value="type ProfileValidation = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProfileValidation (bool isInSchedulerProc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isInSchedulerProc) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ProfileValidation.#ctor(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (isInSchedulerProc As Boolean)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.ProfileValidation : bool -&gt; Microsoft.Hpc.Scheduler.Store.ProfileValidation" Usage="new Microsoft.Hpc.Scheduler.Store.ProfileValidation isInSchedulerProc" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="isInSchedulerProc" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isInSchedulerProc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateItem">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CallResult ValidateItem (Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery query, Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Store.CallResult ValidateItem(class Microsoft.Hpc.Scheduler.Store.ProfileValidation/IProfileItemQuery query, class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ProfileValidation.ValidateItem(Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery,Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateItem (query As ProfileValidation.IProfileItemQuery, item As ClusterJobProfileItem) As CallResult" />
+      <MemberSignature Language="F#" Value="member this.ValidateItem : Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery * Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem -&gt; Microsoft.Hpc.Scheduler.Store.CallResult" Usage="profileValidation.ValidateItem (query, item)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CallResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="query" Type="Microsoft.Hpc.Scheduler.Store.ProfileValidation+IProfileItemQuery" />
+        <Parameter Name="item" Type="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" />
+      </Parameters>
+      <Docs>
+        <param name="query">To be added.</param>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CallResult ValidateItems (Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery query, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem&gt; items);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Store.CallResult ValidateItems(class Microsoft.Hpc.Scheduler.Store.ProfileValidation/IProfileItemQuery query, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem&gt; items) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ProfileValidation.ValidateItems(Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery,System.Collections.Generic.IEnumerable{Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem})" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateItems (query As ProfileValidation.IProfileItemQuery, items As IEnumerable(Of ClusterJobProfileItem)) As CallResult" />
+      <MemberSignature Language="F#" Value="member this.ValidateItems : Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery * seq&lt;Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem&gt; -&gt; Microsoft.Hpc.Scheduler.Store.CallResult" Usage="profileValidation.ValidateItems (query, items)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CallResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="query" Type="Microsoft.Hpc.Scheduler.Store.ProfileValidation+IProfileItemQuery" />
+        <Parameter Name="items" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="query">To be added.</param>
+        <param name="items">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

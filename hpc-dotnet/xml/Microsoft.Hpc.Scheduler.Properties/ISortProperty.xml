@@ -1,0 +1,71 @@
+﻿<Type Name="ISortProperty" FullName="Microsoft.Hpc.Scheduler.Properties.ISortProperty">
+  <TypeSignature Language="C#" Value="public interface ISortProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISortProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.ISortProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISortProperty" />
+  <TypeSignature Language="F#" Value="type ISortProperty = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8037A4AD-AD6E-4522-A24A-43A23422739F")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>An opaque interface that defines a property on which the lists of jobs, tasks, or nodes are sorted.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.ISortProperty.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Id : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.ISortProperty.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves a property object that identifies the property used to sort the returned list.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that uniquely identifies the property used to sort the returned list. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Order">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder Order { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.SortProperty/SortOrder Order" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.ISortProperty.Order" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Order As SortProperty.SortOrder" />
+      <MemberSignature Language="F#" Value="member this.Order : Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder" Usage="Microsoft.Hpc.Scheduler.Properties.ISortProperty.Order" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SortProperty+SortOrder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the sort order in which the objects are returned.</summary>
+        <value>The sort order in which the objects are returned (for example, ascending or descending). For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

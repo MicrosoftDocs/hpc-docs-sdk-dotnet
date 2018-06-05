@@ -1,0 +1,232 @@
+﻿<Type Name="StoreTransaction" FullName="Microsoft.Hpc.Scheduler.Store.StoreTransaction">
+  <TypeSignature Language="C#" Value="public class StoreTransaction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit StoreTransaction extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.StoreTransaction" />
+  <TypeSignature Language="VB.NET" Value="Public Class StoreTransaction" />
+  <TypeSignature Language="F#" Value="type StoreTransaction = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StoreTransaction (int threadId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 threadId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (threadId As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.StoreTransaction : int -&gt; Microsoft.Hpc.Scheduler.Store.StoreTransaction" Usage="new Microsoft.Hpc.Scheduler.Store.StoreTransaction threadId" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="threadId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="threadId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem&gt; Items { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Store.StoreTransaction/TransactionItem&gt; Items" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.Items" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As List(Of StoreTransaction.TransactionItem)" />
+      <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem&gt;" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.Items" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Store.StoreTransaction+TransactionItem&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduleJob">
+      <MemberSignature Language="C#" Value="public void ScheduleJob (int resourceId, int jobId, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScheduleJob(int32 resourceId, int32 jobId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.ScheduleJob(System.Int32,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScheduleJob (resourceId As Integer, jobId As Integer, jobProperties As StoreProperty())" />
+      <MemberSignature Language="F#" Value="member this.ScheduleJob : int * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="storeTransaction.ScheduleJob (resourceId, jobId, jobProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.Int32" />
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="jobProperties" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId">To be added.</param>
+        <param name="jobId">To be added.</param>
+        <param name="jobProperties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduleJobOnPhantomResource">
+      <MemberSignature Language="C#" Value="public void ScheduleJobOnPhantomResource (int jobId, int nodeId, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] phantomResourceProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScheduleJobOnPhantomResource(int32 jobId, int32 nodeId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] phantomResourceProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.ScheduleJobOnPhantomResource(System.Int32,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScheduleJobOnPhantomResource (jobId As Integer, nodeId As Integer, phantomResourceProperties As StoreProperty())" />
+      <MemberSignature Language="F#" Value="member this.ScheduleJobOnPhantomResource : int * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="storeTransaction.ScheduleJobOnPhantomResource (jobId, nodeId, phantomResourceProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="nodeId" Type="System.Int32" />
+        <Parameter Name="phantomResourceProperties" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="nodeId">To be added.</param>
+        <param name="phantomResourceProperties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetObjectProps">
+      <MemberSignature Language="C#" Value="public void SetObjectProps (Microsoft.Hpc.Scheduler.Properties.ObjectType obType, int itemId, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetObjectProps(valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType obType, int32 itemId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.SetObjectProps(Microsoft.Hpc.Scheduler.Properties.ObjectType,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetObjectProps (obType As ObjectType, itemId As Integer, props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="member this.SetObjectProps : Microsoft.Hpc.Scheduler.Properties.ObjectType * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="storeTransaction.SetObjectProps (obType, itemId, props)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obType" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+        <Parameter Name="itemId" Type="System.Int32" />
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="obType">To be added.</param>
+        <param name="itemId">To be added.</param>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortItems">
+      <MemberSignature Language="C#" Value="public void SortItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SortItems() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.SortItems" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SortItems ()" />
+      <MemberSignature Language="F#" Value="member this.SortItems : unit -&gt; unit" Usage="storeTransaction.SortItems " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public int ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : int" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="storeTransaction.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateTaskNodeStats">
+      <MemberSignature Language="C#" Value="public void UpdateTaskNodeStats (int nodeId, int jobId, int taskId, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateTaskNodeStats(int32 nodeId, int32 jobId, int32 taskId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.UpdateTaskNodeStats(System.Int32,System.Int32,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateTaskNodeStats (nodeId As Integer, jobId As Integer, taskId As Integer, props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="member this.UpdateTaskNodeStats : int * int * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="storeTransaction.UpdateTaskNodeStats (nodeId, jobId, taskId, props)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Int32" />
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskId" Type="System.Int32" />
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <param name="jobId">To be added.</param>
+        <param name="taskId">To be added.</param>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

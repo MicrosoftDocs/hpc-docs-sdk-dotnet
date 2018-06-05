@@ -1,0 +1,137 @@
+﻿<Type Name="Utility" FullName="Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility">
+  <TypeSignature Language="C#" Value="public static class Utility" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Utility extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility" />
+  <TypeSignature Language="VB.NET" Value="Public Class Utility" />
+  <TypeSignature Language="F#" Value="type Utility = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="TranslateFaultException">
+      <MemberSignature Language="C#" Value="public static Exception TranslateFaultException (System.ServiceModel.FaultException&lt;Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault&gt; faultException);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Exception TranslateFaultException(class System.ServiceModel.FaultException`1&lt;class Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault&gt; faultException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.TranslateFaultException(System.ServiceModel.FaultException{Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranslateFaultException (faultException As FaultException(Of DataFault)) As Exception" />
+      <MemberSignature Language="F#" Value="static member TranslateFaultException : System.ServiceModel.FaultException&lt;Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault&gt; -&gt; Exception" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.TranslateFaultException faultException" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="faultException" Type="System.ServiceModel.FaultException&lt;Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="faultException">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateDataClientId">
+      <MemberSignature Language="C#" Value="public static void ValidateDataClientId (string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ValidateDataClientId(string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateDataClientId(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ValidateDataClientId (dataClientId As String)" />
+      <MemberSignature Language="F#" Value="static member ValidateDataClientId : string -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateDataClientId dataClientId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateDataServerInfo">
+      <MemberSignature Language="C#" Value="public static void ValidateDataServerInfo (Microsoft.Hpc.Scheduler.Session.Data.Internal.DataServerInfo dsInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ValidateDataServerInfo(class Microsoft.Hpc.Scheduler.Session.Data.Internal.DataServerInfo dsInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateDataServerInfo(Microsoft.Hpc.Scheduler.Session.Data.Internal.DataServerInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ValidateDataServerInfo (dsInfo As DataServerInfo)" />
+      <MemberSignature Language="F#" Value="static member ValidateDataServerInfo : Microsoft.Hpc.Scheduler.Session.Data.Internal.DataServerInfo -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateDataServerInfo dsInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dsInfo" Type="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataServerInfo" />
+      </Parameters>
+      <Docs>
+        <param name="dsInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateHeadNode">
+      <MemberSignature Language="C#" Value="public static void ValidateHeadNode (string headNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ValidateHeadNode(string headNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateHeadNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ValidateHeadNode (headNode As String)" />
+      <MemberSignature Language="F#" Value="static member ValidateHeadNode : string -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateHeadNode headNode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateSessionId">
+      <MemberSignature Language="C#" Value="public static void ValidateSessionId (int sessionId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ValidateSessionId(int32 sessionId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateSessionId(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ValidateSessionId (sessionId As Integer)" />
+      <MemberSignature Language="F#" Value="static member ValidateSessionId : int -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.Utility.ValidateSessionId sessionId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sessionId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sessionId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,27 @@
+﻿<Type Name="TaskStateHandler" FullName="Microsoft.Hpc.Scheduler.TaskStateHandler">
+  <TypeSignature Language="C#" Value="public delegate void TaskStateHandler(object sender, TaskStateEventArg arg);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskStateHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.TaskStateHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub TaskStateHandler(sender As Object, arg As TaskStateEventArg)" />
+  <TypeSignature Language="F#" Value="type TaskStateHandler = delegate of obj * TaskStateEventArg -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.TaskStateEventArg" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="arg">To be added.</param>
+    <summary>Defines the delegate to implement when you subscribe to the <see cref="E:Microsoft.Hpc.Scheduler.ISchedulerJob.OnTaskState" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

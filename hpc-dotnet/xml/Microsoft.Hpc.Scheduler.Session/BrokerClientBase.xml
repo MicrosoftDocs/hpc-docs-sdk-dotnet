@@ -1,0 +1,189 @@
+﻿<Type Name="BrokerClientBase" FullName="Microsoft.Hpc.Scheduler.Session.BrokerClientBase">
+  <TypeSignature Language="C#" Value="public abstract class BrokerClientBase : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BrokerClientBase extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.BrokerClientBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BrokerClientBase&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type BrokerClientBase = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BrokerClientBase (string clientId, Microsoft.Hpc.Scheduler.Session.SessionBase session);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string clientId, class Microsoft.Hpc.Scheduler.Session.SessionBase session) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.#ctor(System.String,Microsoft.Hpc.Scheduler.Session.SessionBase)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (clientId As String, session As SessionBase)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClientBase : string * Microsoft.Hpc.Scheduler.Session.SessionBase -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClientBase" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClientBase (clientId, session)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+      </Parameters>
+      <Docs>
+        <param name="clientId">To be added.</param>
+        <param name="session">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="clientId">
+      <MemberSignature Language="C#" Value="protected string clientId;" />
+      <MemberSignature Language="ILAsm" Value=".field family string clientId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.clientId" />
+      <MemberSignature Language="VB.NET" Value="Protected clientId As String " />
+      <MemberSignature Language="F#" Value="val mutable clientId : string" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClientBase.clientId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="brokerClientBase.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected abstract void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit" Usage="brokerClientBase.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="operations">
+      <MemberSignature Language="C#" Value="protected System.ServiceModel.Description.OperationDescriptionCollection operations;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.ServiceModel.Description.OperationDescriptionCollection operations" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.operations" />
+      <MemberSignature Language="VB.NET" Value="Protected operations As OperationDescriptionCollection " />
+      <MemberSignature Language="F#" Value="val mutable operations : System.ServiceModel.Description.OperationDescriptionCollection" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClientBase.operations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Description.OperationDescriptionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="session">
+      <MemberSignature Language="C#" Value="protected Microsoft.Hpc.Scheduler.Session.SessionBase session;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.Hpc.Scheduler.Session.SessionBase session" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.session" />
+      <MemberSignature Language="VB.NET" Value="Protected session As SessionBase " />
+      <MemberSignature Language="F#" Value="val mutable session : Microsoft.Hpc.Scheduler.Session.SessionBase" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClientBase.session" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.SessionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="transportScheme">
+      <MemberSignature Language="C#" Value="protected Microsoft.Hpc.Scheduler.Session.TransportScheme transportScheme;" />
+      <MemberSignature Language="ILAsm" Value=".field family valuetype Microsoft.Hpc.Scheduler.Session.TransportScheme transportScheme" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.transportScheme" />
+      <MemberSignature Language="VB.NET" Value="Protected transportScheme As TransportScheme " />
+      <MemberSignature Language="F#" Value="val mutable transportScheme : Microsoft.Hpc.Scheduler.Session.TransportScheme" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClientBase.transportScheme" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.TransportScheme</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransportScheme">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.TransportScheme TransportScheme { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Session.TransportScheme TransportScheme" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.BrokerClientBase.TransportScheme" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TransportScheme As TransportScheme" />
+      <MemberSignature Language="F#" Value="member this.TransportScheme : Microsoft.Hpc.Scheduler.Session.TransportScheme" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClientBase.TransportScheme" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.TransportScheme</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

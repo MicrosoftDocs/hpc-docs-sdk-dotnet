@@ -1,0 +1,58 @@
+﻿<Type Name="PropertyError" FullName="Microsoft.Hpc.Scheduler.Properties.PropertyError">
+  <TypeSignature Language="C#" Value="public enum PropertyError" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PropertyError extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PropertyError" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PropertyError" />
+  <TypeSignature Language="F#" Value="type PropertyError = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the types of errors that can occur when retrieving properties for a rowset.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NotFound">
+      <MemberSignature Language="C#" Value="NotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PropertyError NotFound = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PropertyError.NotFound" />
+      <MemberSignature Language="VB.NET" Value="NotFound" />
+      <MemberSignature Language="F#" Value="NotFound = 0" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyError.NotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyError</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The property was not found. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionDenied">
+      <MemberSignature Language="C#" Value="PermissionDenied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PropertyError PermissionDenied = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PropertyError.PermissionDenied" />
+      <MemberSignature Language="VB.NET" Value="PermissionDenied" />
+      <MemberSignature Language="F#" Value="PermissionDenied = 1" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyError.PermissionDenied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyError</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The user does not have permission to access the property. For example, trying to access the password property. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

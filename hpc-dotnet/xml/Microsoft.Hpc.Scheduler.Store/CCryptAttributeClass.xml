@@ -1,0 +1,176 @@
+﻿<Type Name="CCryptAttributeClass" FullName="Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass">
+  <TypeSignature Language="C#" Value="public class CCryptAttributeClass : Microsoft.Hpc.Scheduler.Store.CCryptAttribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CCryptAttributeClass extends System.Object implements class Microsoft.Hpc.Scheduler.Store.CCryptAttribute, class Microsoft.Hpc.Scheduler.Store.ICryptAttribute" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CCryptAttributeClass&#xA;Implements CCryptAttribute" />
+  <TypeSignature Language="F#" Value="type CCryptAttributeClass = class&#xA;    interface ICryptAttribute&#xA;    interface CCryptAttribute" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.CCryptAttribute</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("884E202C-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CCryptAttributeClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeFromObjectId">
+      <MemberSignature Language="C#" Value="public virtual void InitializeFromObjectId (Microsoft.Hpc.Scheduler.Store.CObjectId pObjectId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeFromObjectId([in]class Microsoft.Hpc.Scheduler.Store.CObjectId pObjectId) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.InitializeFromObjectId(Microsoft.Hpc.Scheduler.Store.CObjectId)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub InitializeFromObjectId (pObjectId As CObjectId)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeFromObjectId : Microsoft.Hpc.Scheduler.Store.CObjectId -&gt; unit&#xA;override this.InitializeFromObjectId : Microsoft.Hpc.Scheduler.Store.CObjectId -&gt; unit" Usage="cCryptAttributeClass.InitializeFromObjectId pObjectId" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.ICryptAttribute.InitializeFromObjectId(Microsoft.Hpc.Scheduler.Store.CObjectId)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pObjectId" Type="Microsoft.Hpc.Scheduler.Store.CObjectId" />
+      </Parameters>
+      <Docs>
+        <param name="pObjectId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeFromValues">
+      <MemberSignature Language="C#" Value="public virtual void InitializeFromValues (Microsoft.Hpc.Scheduler.Store.CX509Attributes pAttributes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeFromValues([in]class Microsoft.Hpc.Scheduler.Store.CX509Attributes pAttributes) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.InitializeFromValues(Microsoft.Hpc.Scheduler.Store.CX509Attributes)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub InitializeFromValues (pAttributes As CX509Attributes)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeFromValues : Microsoft.Hpc.Scheduler.Store.CX509Attributes -&gt; unit&#xA;override this.InitializeFromValues : Microsoft.Hpc.Scheduler.Store.CX509Attributes -&gt; unit" Usage="cCryptAttributeClass.InitializeFromValues pAttributes" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.ICryptAttribute.InitializeFromValues(Microsoft.Hpc.Scheduler.Store.CX509Attributes)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pAttributes" Type="Microsoft.Hpc.Scheduler.Store.CX509Attributes" />
+      </Parameters>
+      <Docs>
+        <param name="pAttributes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectId">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.CObjectId ObjectId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.CObjectId ObjectId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.ObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ObjectId As CObjectId" />
+      <MemberSignature Language="F#" Value="member this.ObjectId : Microsoft.Hpc.Scheduler.Store.CObjectId" Usage="Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.ObjectId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.ICryptAttribute.ObjectId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CObjectId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.CX509Attributes Values { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.CX509Attributes Values" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.Values" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Values As CX509Attributes" />
+      <MemberSignature Language="F#" Value="member this.Values : Microsoft.Hpc.Scheduler.Store.CX509Attributes" Usage="Microsoft.Hpc.Scheduler.Store.CCryptAttributeClass.Values" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.ICryptAttribute.Values</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CX509Attributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

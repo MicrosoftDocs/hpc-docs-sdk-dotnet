@@ -1,0 +1,54 @@
+﻿<Type Name="ISchedulerNodeReachableEvents" FullName="Microsoft.Hpc.Scheduler.ISchedulerNodeReachableEvents">
+  <TypeSignature Language="C#" Value="public interface ISchedulerNodeReachableEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerNodeReachableEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerNodeReachableEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerNodeReachableEvents" />
+  <TypeSignature Language="F#" Value="type ISchedulerNodeReachableEvents = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("DFAE8BED-89B4-4536-8A2A-208C84CDF87A")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnNodeReachable">
+      <MemberSignature Language="C#" Value="public void OnNodeReachable (object sender, Microsoft.Hpc.Scheduler.NodeReachableEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnNodeReachable(object sender, class Microsoft.Hpc.Scheduler.NodeReachableEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerNodeReachableEvents.OnNodeReachable(System.Object,Microsoft.Hpc.Scheduler.NodeReachableEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnNodeReachable (sender As Object, arg As NodeReachableEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnNodeReachable : obj * Microsoft.Hpc.Scheduler.NodeReachableEventArg -&gt; unit" Usage="iSchedulerNodeReachableEvents.OnNodeReachable (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.NodeReachableEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1502 @@
+﻿<Type Name="IClusterService" FullName="Microsoft.ComputeCluster.IClusterService">
+  <TypeSignature Language="C#" Value="public interface IClusterService" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClusterService" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.IClusterService" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClusterService" />
+  <TypeSignature Language="F#" Value="type IClusterService = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddJob">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob AddJob (Microsoft.ComputeCluster.IJob job);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob AddJob(class Microsoft.ComputeCluster.IJob job) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.AddJob(Microsoft.ComputeCluster.IJob)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddJob (job As IJob) As IJob" />
+      <MemberSignature Language="F#" Value="abstract member AddJob : Microsoft.ComputeCluster.IJob -&gt; Microsoft.ComputeCluster.IJob" Usage="iClusterService.AddJob job" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.ComputeCluster.IJob" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddJobs">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob[] AddJobs (Microsoft.ComputeCluster.IJob[] jobs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob[] AddJobs(class Microsoft.ComputeCluster.IJob[] jobs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.AddJobs(Microsoft.ComputeCluster.IJob[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddJobs (jobs As IJob()) As IJob()" />
+      <MemberSignature Language="F#" Value="abstract member AddJobs : Microsoft.ComputeCluster.IJob[] -&gt; Microsoft.ComputeCluster.IJob[]" Usage="iClusterService.AddJobs jobs" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobs" Type="Microsoft.ComputeCluster.IJob[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobs">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTask">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask AddTask (int jobId, Microsoft.ComputeCluster.ITask task);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask AddTask(int32 jobId, class Microsoft.ComputeCluster.ITask task) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.AddTask(System.Int32,Microsoft.ComputeCluster.ITask)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddTask (jobId As Integer, task As ITask) As ITask" />
+      <MemberSignature Language="F#" Value="abstract member AddTask : int * Microsoft.ComputeCluster.ITask -&gt; Microsoft.ComputeCluster.ITask" Usage="iClusterService.AddTask (jobId, task)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="task" Type="Microsoft.ComputeCluster.ITask" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="task">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTasks">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask[] AddTasks (int jobId, Microsoft.ComputeCluster.ITask[] tasks);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask[] AddTasks(int32 jobId, class Microsoft.ComputeCluster.ITask[] tasks) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.AddTasks(System.Int32,Microsoft.ComputeCluster.ITask[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddTasks (jobId As Integer, tasks As ITask()) As ITask()" />
+      <MemberSignature Language="F#" Value="abstract member AddTasks : int * Microsoft.ComputeCluster.ITask[] -&gt; Microsoft.ComputeCluster.ITask[]" Usage="iClusterService.AddTasks (jobId, tasks)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="tasks" Type="Microsoft.ComputeCluster.ITask[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="tasks">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApproveNode">
+      <MemberSignature Language="C#" Value="public void ApproveNode (string nodeName, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApproveNode(string nodeName, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ApproveNode(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ApproveNode (nodeName As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member ApproveNode : string * bool -&gt; unit" Usage="iClusterService.ApproveNode (nodeName, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelJob">
+      <MemberSignature Language="C#" Value="public void CancelJob (int jobId, string message, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelJob(int32 jobId, string message, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.CancelJob(System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelJob (jobId As Integer, message As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CancelJob : int * string * bool -&gt; unit" Usage="iClusterService.CancelJob (jobId, message, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelJobs">
+      <MemberSignature Language="C#" Value="public void CancelJobs (int[] jobIds, string message, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelJobs(int32[] jobIds, string message, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.CancelJobs(System.Int32[],System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelJobs (jobIds As Integer(), message As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CancelJobs : int[] * string * bool -&gt; unit" Usage="iClusterService.CancelJobs (jobIds, message, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobIds" Type="System.Int32[]" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobIds">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelTask">
+      <MemberSignature Language="C#" Value="public void CancelTask (int jobId, int taskId, string message, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelTask(int32 jobId, int32 taskId, string message, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.CancelTask(System.Int32,System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelTask (jobId As Integer, taskId As Integer, message As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CancelTask : int * int * string * bool -&gt; unit" Usage="iClusterService.CancelTask (jobId, taskId, message, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="taskId">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelTasks">
+      <MemberSignature Language="C#" Value="public void CancelTasks (int jobId, int[] taskIds, string message, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelTasks(int32 jobId, int32[] taskIds, string message, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.CancelTasks(System.Int32,System.Int32[],System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelTasks (jobId As Integer, taskIds As Integer(), message As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CancelTasks : int * int[] * string * bool -&gt; unit" Usage="iClusterService.CancelTasks (jobId, taskIds, message, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskIds" Type="System.Int32[]" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="taskIds">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckAnyTask">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask CheckAnyTask (int jobId, byte[] timestamp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask CheckAnyTask(int32 jobId, unsigned int8[] timestamp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.CheckAnyTask(System.Int32,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function CheckAnyTask (jobId As Integer, timestamp As Byte()) As ITask" />
+      <MemberSignature Language="F#" Value="abstract member CheckAnyTask : int * byte[] -&gt; Microsoft.ComputeCluster.ITask" Usage="iClusterService.CheckAnyTask (jobId, timestamp)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="timestamp" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="timestamp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClusterCounter">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IClusterCounter ClusterCounter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ComputeCluster.IClusterCounter ClusterCounter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterService.ClusterCounter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClusterCounter As IClusterCounter" />
+      <MemberSignature Language="F#" Value="member this.ClusterCounter : Microsoft.ComputeCluster.IClusterCounter" Usage="Microsoft.ComputeCluster.IClusterService.ClusterCounter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IClusterCounter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCommand">
+      <MemberSignature Language="C#" Value="public void EndCommand (int commandId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCommand(int32 commandId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.EndCommand(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndCommand (commandId As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member EndCommand : int -&gt; unit" Usage="iClusterService.EndCommand commandId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="commandId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IExecutionResult[] ExecuteCommand (int commandId, Microsoft.ComputeCluster.ITask task, string userName, byte[] cachedCredentials, bool isAsynchronous, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IExecutionResult[] ExecuteCommand(int32 commandId, class Microsoft.ComputeCluster.ITask task, string userName, unsigned int8[] cachedCredentials, bool isAsynchronous, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ExecuteCommand(System.Int32,Microsoft.ComputeCluster.ITask,System.String,System.Byte[],System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExecuteCommand (commandId As Integer, task As ITask, userName As String, cachedCredentials As Byte(), isAsynchronous As Boolean, pageSize As Integer) As IExecutionResult()" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteCommand : int * Microsoft.ComputeCluster.ITask * string * byte[] * bool * int -&gt; Microsoft.ComputeCluster.IExecutionResult[]" Usage="iClusterService.ExecuteCommand (commandId, task, userName, cachedCredentials, isAsynchronous, pageSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IExecutionResult[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandId" Type="System.Int32" />
+        <Parameter Name="task" Type="Microsoft.ComputeCluster.ITask" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="cachedCredentials" Type="System.Byte[]" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="commandId">To be added.</param>
+        <param name="task">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="cachedCredentials">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IExecutionResult[] ExecuteCommand (int commandId, Microsoft.ComputeCluster.ITask task, string userName, string password, bool isAsynchronous, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IExecutionResult[] ExecuteCommand(int32 commandId, class Microsoft.ComputeCluster.ITask task, string userName, string password, bool isAsynchronous, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ExecuteCommand(System.Int32,Microsoft.ComputeCluster.ITask,System.String,System.String,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExecuteCommand (commandId As Integer, task As ITask, userName As String, password As String, isAsynchronous As Boolean, pageSize As Integer) As IExecutionResult()" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteCommand : int * Microsoft.ComputeCluster.ITask * string * string * bool * int -&gt; Microsoft.ComputeCluster.IExecutionResult[]" Usage="iClusterService.ExecuteCommand (commandId, task, userName, password, isAsynchronous, pageSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IExecutionResult[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandId" Type="System.Int32" />
+        <Parameter Name="task" Type="Microsoft.ComputeCluster.ITask" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="commandId">To be added.</param>
+        <param name="task">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachedCredentials">
+      <MemberSignature Language="C#" Value="public byte[] GetCachedCredentials (string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int8[] GetCachedCredentials(string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetCachedCredentials(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCachedCredentials (userName As String, password As String) As Byte()" />
+      <MemberSignature Language="F#" Value="abstract member GetCachedCredentials : string * string -&gt; byte[]" Usage="iClusterService.GetCachedCredentials (userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterEnvironmentVariables">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.INameValueCollection GetClusterEnvironmentVariables ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.INameValueCollection GetClusterEnvironmentVariables() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetClusterEnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetClusterEnvironmentVariables () As INameValueCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetClusterEnvironmentVariables : unit -&gt; Microsoft.ComputeCluster.INameValueCollection" Usage="iClusterService.GetClusterEnvironmentVariables " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterParameters">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.INameValueCollection GetClusterParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.INameValueCollection GetClusterParameters() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetClusterParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetClusterParameters () As INameValueCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetClusterParameters : unit -&gt; Microsoft.ComputeCluster.INameValueCollection" Usage="iClusterService.GetClusterParameters " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJob">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob GetJob (int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob GetJob(int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetJob(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJob (jobId As Integer) As IJob" />
+      <MemberSignature Language="F#" Value="abstract member GetJob : int -&gt; Microsoft.ComputeCluster.IJob" Usage="iClusterService.GetJob jobId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobCounter">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJobCounter GetJobCounter (int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJobCounter GetJobCounter(int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetJobCounter(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobCounter (jobId As Integer) As IJobCounter" />
+      <MemberSignature Language="F#" Value="abstract member GetJobCounter : int -&gt; Microsoft.ComputeCluster.IJobCounter" Usage="iClusterService.GetJobCounter jobId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJobCounter</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobResourceUsage">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IResourceUsage GetJobResourceUsage (int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IResourceUsage GetJobResourceUsage(int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetJobResourceUsage(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobResourceUsage (jobId As Integer) As IResourceUsage" />
+      <MemberSignature Language="F#" Value="abstract member GetJobResourceUsage : int -&gt; Microsoft.ComputeCluster.IResourceUsage" Usage="iClusterService.GetJobResourceUsage jobId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IResourceUsage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNewCommandId">
+      <MemberSignature Language="C#" Value="public int GetNewCommandId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetNewCommandId() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetNewCommandId" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNewCommandId () As Integer" />
+      <MemberSignature Language="F#" Value="abstract member GetNewCommandId : unit -&gt; int" Usage="iClusterService.GetNewCommandId " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNode">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.INode GetNode (string nodeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.INode GetNode(string nodeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNode (nodeName As String) As INode" />
+      <MemberSignature Language="F#" Value="abstract member GetNode : string -&gt; Microsoft.ComputeCluster.INode" Usage="iClusterService.GetNode nodeName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.INode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTask">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask GetTask (int jobId, int taskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask GetTask(int32 jobId, int32 taskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetTask(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTask (jobId As Integer, taskId As Integer) As ITask" />
+      <MemberSignature Language="F#" Value="abstract member GetTask : int * int -&gt; Microsoft.ComputeCluster.ITask" Usage="iClusterService.GetTask (jobId, taskId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="taskId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTaskResourceUsage">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IResourceUsage GetTaskResourceUsage (int jobId, int taskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IResourceUsage GetTaskResourceUsage(int32 jobId, int32 taskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.GetTaskResourceUsage(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTaskResourceUsage (jobId As Integer, taskId As Integer) As IResourceUsage" />
+      <MemberSignature Language="F#" Value="abstract member GetTaskResourceUsage : int * int -&gt; Microsoft.ComputeCluster.IResourceUsage" Usage="iClusterService.GetTaskResourceUsage (jobId, taskId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IResourceUsage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="taskId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInRole">
+      <MemberSignature Language="C#" Value="public bool IsInRole (string role);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsInRole(string role) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.IsInRole(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsInRole (role As String) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsInRole : string -&gt; bool" Usage="iClusterService.IsInRole role" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="role" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="role">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinNode">
+      <MemberSignature Language="C#" Value="public void JoinNode (string nodeName, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void JoinNode(string nodeName, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.JoinNode(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub JoinNode (nodeName As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member JoinNode : string * bool -&gt; unit" Usage="iClusterService.JoinNode (nodeName, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListJobs">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob[] ListJobs (string submittedBy, bool withTasks, byte[] timestamp, byte[] version, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob[] ListJobs(string submittedBy, bool withTasks, unsigned int8[] timestamp, unsigned int8[] version, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListJobs(System.String,System.Boolean,System.Byte[],System.Byte[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListJobs (submittedBy As String, withTasks As Boolean, timestamp As Byte(), version As Byte(), pageSize As Integer) As IJob()" />
+      <MemberSignature Language="F#" Value="abstract member ListJobs : string * bool * byte[] * byte[] * int -&gt; Microsoft.ComputeCluster.IJob[]" Usage="iClusterService.ListJobs (submittedBy, withTasks, timestamp, version, pageSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="submittedBy" Type="System.String" />
+        <Parameter Name="withTasks" Type="System.Boolean" />
+        <Parameter Name="timestamp" Type="System.Byte[]" />
+        <Parameter Name="version" Type="System.Byte[]" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="submittedBy">To be added.</param>
+        <param name="withTasks">To be added.</param>
+        <param name="timestamp">To be added.</param>
+        <param name="version">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListJobs">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob[] ListJobs (string submittedBy, Microsoft.ComputeCluster.JobStatus status, bool withTasks, byte[] timestamp, byte[] version, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob[] ListJobs(string submittedBy, valuetype Microsoft.ComputeCluster.JobStatus status, bool withTasks, unsigned int8[] timestamp, unsigned int8[] version, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListJobs(System.String,Microsoft.ComputeCluster.JobStatus,System.Boolean,System.Byte[],System.Byte[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListJobs (submittedBy As String, status As JobStatus, withTasks As Boolean, timestamp As Byte(), version As Byte(), pageSize As Integer) As IJob()" />
+      <MemberSignature Language="F#" Value="abstract member ListJobs : string * Microsoft.ComputeCluster.JobStatus * bool * byte[] * byte[] * int -&gt; Microsoft.ComputeCluster.IJob[]" Usage="iClusterService.ListJobs (submittedBy, status, withTasks, timestamp, version, pageSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="submittedBy" Type="System.String" />
+        <Parameter Name="status" Type="Microsoft.ComputeCluster.JobStatus" />
+        <Parameter Name="withTasks" Type="System.Boolean" />
+        <Parameter Name="timestamp" Type="System.Byte[]" />
+        <Parameter Name="version" Type="System.Byte[]" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="submittedBy">To be added.</param>
+        <param name="status">To be added.</param>
+        <param name="withTasks">To be added.</param>
+        <param name="timestamp">To be added.</param>
+        <param name="version">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListJobsOnNode">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob[] ListJobsOnNode (string nodeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob[] ListJobsOnNode(string nodeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListJobsOnNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListJobsOnNode (nodeName As String) As IJob()" />
+      <MemberSignature Language="F#" Value="abstract member ListJobsOnNode : string -&gt; Microsoft.ComputeCluster.IJob[]" Usage="iClusterService.ListJobsOnNode nodeName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.INode[] ListNodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.INode[] ListNodes() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListNodes () As INode()" />
+      <MemberSignature Language="F#" Value="abstract member ListNodes : unit -&gt; Microsoft.ComputeCluster.INode[]" Usage="iClusterService.ListNodes " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.INode[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListTasks">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask[] ListTasks (int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask[] ListTasks(int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListTasks(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListTasks (jobId As Integer) As ITask()" />
+      <MemberSignature Language="F#" Value="abstract member ListTasks : int -&gt; Microsoft.ComputeCluster.ITask[]" Usage="iClusterService.ListTasks jobId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListTasks">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask[] ListTasks (int jobId, byte[] timestamp, byte[] version, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask[] ListTasks(int32 jobId, unsigned int8[] timestamp, unsigned int8[] version, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListTasks(System.Int32,System.Byte[],System.Byte[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListTasks (jobId As Integer, timestamp As Byte(), version As Byte(), pageSize As Integer) As ITask()" />
+      <MemberSignature Language="F#" Value="abstract member ListTasks : int * byte[] * byte[] * int -&gt; Microsoft.ComputeCluster.ITask[]" Usage="iClusterService.ListTasks (jobId, timestamp, version, pageSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="timestamp" Type="System.Byte[]" />
+        <Parameter Name="version" Type="System.Byte[]" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="timestamp">To be added.</param>
+        <param name="version">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListTasksOnNode">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask[] ListTasksOnNode (string nodeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask[] ListTasksOnNode(string nodeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ListTasksOnNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListTasksOnNode (nodeName As String) As ITask()" />
+      <MemberSignature Language="F#" Value="abstract member ListTasksOnNode : string -&gt; Microsoft.ComputeCluster.ITask[]" Usage="iClusterService.ListTasksOnNode nodeName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyJob">
+      <MemberSignature Language="C#" Value="public void ModifyJob (int jobId, Microsoft.ComputeCluster.IJob newJob, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ModifyJob(int32 jobId, class Microsoft.ComputeCluster.IJob newJob, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ModifyJob(System.Int32,Microsoft.ComputeCluster.IJob,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ModifyJob (jobId As Integer, newJob As IJob, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member ModifyJob : int * Microsoft.ComputeCluster.IJob * bool -&gt; unit" Usage="iClusterService.ModifyJob (jobId, newJob, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="newJob" Type="Microsoft.ComputeCluster.IJob" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="newJob">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyJob">
+      <MemberSignature Language="C#" Value="public void ModifyJob (int jobId, string termName, string termValue, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ModifyJob(int32 jobId, string termName, string termValue, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ModifyJob(System.Int32,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ModifyJob (jobId As Integer, termName As String, termValue As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member ModifyJob : int * string * string * bool -&gt; unit" Usage="iClusterService.ModifyJob (jobId, termName, termValue, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="termName" Type="System.String" />
+        <Parameter Name="termValue" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="termName">To be added.</param>
+        <param name="termValue">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterService.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.ComputeCluster.IClusterService.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PauseNode">
+      <MemberSignature Language="C#" Value="public void PauseNode (string nodeName, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PauseNode(string nodeName, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.PauseNode(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PauseNode (nodeName As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member PauseNode : string * bool -&gt; unit" Usage="iClusterService.PauseNode (nodeName, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueJob">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob QueueJob (Microsoft.ComputeCluster.IJob job, string userName, byte[] cachedCredentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob QueueJob(class Microsoft.ComputeCluster.IJob job, string userName, unsigned int8[] cachedCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.QueueJob(Microsoft.ComputeCluster.IJob,System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueueJob (job As IJob, userName As String, cachedCredentials As Byte()) As IJob" />
+      <MemberSignature Language="F#" Value="abstract member QueueJob : Microsoft.ComputeCluster.IJob * string * byte[] -&gt; Microsoft.ComputeCluster.IJob" Usage="iClusterService.QueueJob (job, userName, cachedCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.ComputeCluster.IJob" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="cachedCredentials" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="cachedCredentials">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueJob">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob QueueJob (Microsoft.ComputeCluster.IJob job, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob QueueJob(class Microsoft.ComputeCluster.IJob job, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.QueueJob(Microsoft.ComputeCluster.IJob,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueueJob (job As IJob, userName As String, password As String) As IJob" />
+      <MemberSignature Language="F#" Value="abstract member QueueJob : Microsoft.ComputeCluster.IJob * string * string -&gt; Microsoft.ComputeCluster.IJob" Usage="iClusterService.QueueJob (job, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.ComputeCluster.IJob" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueJobs">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob[] QueueJobs (Microsoft.ComputeCluster.IJob[] jobs, string userName, byte[] cachedCredentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob[] QueueJobs(class Microsoft.ComputeCluster.IJob[] jobs, string userName, unsigned int8[] cachedCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.QueueJobs(Microsoft.ComputeCluster.IJob[],System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueueJobs (jobs As IJob(), userName As String, cachedCredentials As Byte()) As IJob()" />
+      <MemberSignature Language="F#" Value="abstract member QueueJobs : Microsoft.ComputeCluster.IJob[] * string * byte[] -&gt; Microsoft.ComputeCluster.IJob[]" Usage="iClusterService.QueueJobs (jobs, userName, cachedCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobs" Type="Microsoft.ComputeCluster.IJob[]" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="cachedCredentials" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobs">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="cachedCredentials">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueJobs">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IJob[] QueueJobs (Microsoft.ComputeCluster.IJob[] jobs, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IJob[] QueueJobs(class Microsoft.ComputeCluster.IJob[] jobs, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.QueueJobs(Microsoft.ComputeCluster.IJob[],System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueueJobs (jobs As IJob(), userName As String, password As String) As IJob()" />
+      <MemberSignature Language="F#" Value="abstract member QueueJobs : Microsoft.ComputeCluster.IJob[] * string * string -&gt; Microsoft.ComputeCluster.IJob[]" Usage="iClusterService.QueueJobs (jobs, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IJob[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobs" Type="Microsoft.ComputeCluster.IJob[]" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobs">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadExecutionResult">
+      <MemberSignature Language="C#" Value="public string ReadExecutionResult (int commandId, string nodeName, int start, int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ReadExecutionResult(int32 commandId, string nodeName, int32 start, int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ReadExecutionResult(System.Int32,System.String,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReadExecutionResult (commandId As Integer, nodeName As String, start As Integer, count As Integer) As String" />
+      <MemberSignature Language="F#" Value="abstract member ReadExecutionResult : int * string * int * int -&gt; string" Usage="iClusterService.ReadExecutionResult (commandId, nodeName, start, count)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandId" Type="System.Int32" />
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="start" Type="System.Int32" />
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="commandId">To be added.</param>
+        <param name="nodeName">To be added.</param>
+        <param name="start">To be added.</param>
+        <param name="count">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveNode">
+      <MemberSignature Language="C#" Value="public void RemoveNode (string nodeName, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveNode(string nodeName, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.RemoveNode(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveNode (nodeName As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveNode : string * bool -&gt; unit" Usage="iClusterService.RemoveNode (nodeName, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequeueJob">
+      <MemberSignature Language="C#" Value="public void RequeueJob (int jobId, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RequeueJob(int32 jobId, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.RequeueJob(System.Int32,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RequeueJob (jobId As Integer, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RequeueJob : int * bool -&gt; unit" Usage="iClusterService.RequeueJob (jobId, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequeueJobs">
+      <MemberSignature Language="C#" Value="public void RequeueJobs (int[] jobIds, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RequeueJobs(int32[] jobIds, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.RequeueJobs(System.Int32[],System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RequeueJobs (jobIds As Integer(), isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RequeueJobs : int[] * bool -&gt; unit" Usage="iClusterService.RequeueJobs (jobIds, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobIds" Type="System.Int32[]" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobIds">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequeueTask">
+      <MemberSignature Language="C#" Value="public void RequeueTask (int jobId, int taskId, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RequeueTask(int32 jobId, int32 taskId, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.RequeueTask(System.Int32,System.Int32,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RequeueTask (jobId As Integer, taskId As Integer, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RequeueTask : int * int * bool -&gt; unit" Usage="iClusterService.RequeueTask (jobId, taskId, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskId" Type="System.Int32" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="taskId">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequeueTasks">
+      <MemberSignature Language="C#" Value="public void RequeueTasks (int jobId, int[] taskIds, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RequeueTasks(int32 jobId, int32[] taskIds, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.RequeueTasks(System.Int32,System.Int32[],System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RequeueTasks (jobId As Integer, taskIds As Integer(), isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RequeueTasks : int * int[] * bool -&gt; unit" Usage="iClusterService.RequeueTasks (jobId, taskIds, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="taskIds" Type="System.Int32[]" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="taskIds">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResumeNode">
+      <MemberSignature Language="C#" Value="public void ResumeNode (string nodeName, bool isAsynchronous);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResumeNode(string nodeName, bool isAsynchronous) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.ResumeNode(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResumeNode (nodeName As String, isAsynchronous As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member ResumeNode : string * bool -&gt; unit" Usage="iClusterService.ResumeNode (nodeName, isAsynchronous)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="isAsynchronous" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <param name="isAsynchronous">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetClusterEnvironmentVariable">
+      <MemberSignature Language="C#" Value="public void SetClusterEnvironmentVariable (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetClusterEnvironmentVariable(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SetClusterEnvironmentVariable(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetClusterEnvironmentVariable (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetClusterEnvironmentVariable : string * string -&gt; unit" Usage="iClusterService.SetClusterEnvironmentVariable (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetClusterParameter">
+      <MemberSignature Language="C#" Value="public void SetClusterParameter (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetClusterParameter(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SetClusterParameter(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetClusterParameter (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetClusterParameter : string * string -&gt; unit" Usage="iClusterService.SetClusterParameter (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetJobCachedCredentials">
+      <MemberSignature Language="C#" Value="public void SetJobCachedCredentials (int jobId, string userName, byte[] cachedCredentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetJobCachedCredentials(int32 jobId, string userName, unsigned int8[] cachedCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SetJobCachedCredentials(System.Int32,System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetJobCachedCredentials (jobId As Integer, userName As String, cachedCredentials As Byte())" />
+      <MemberSignature Language="F#" Value="abstract member SetJobCachedCredentials : int * string * byte[] -&gt; unit" Usage="iClusterService.SetJobCachedCredentials (jobId, userName, cachedCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="cachedCredentials" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="cachedCredentials">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetJobCredentials">
+      <MemberSignature Language="C#" Value="public void SetJobCredentials (int jobId, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetJobCredentials(int32 jobId, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SetJobCredentials(System.Int32,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetJobCredentials (jobId As Integer, userName As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetJobCredentials : int * string * string -&gt; unit" Usage="iClusterService.SetJobCredentials (jobId, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJob">
+      <MemberSignature Language="C#" Value="public void SubmitJob (int jobId, string userName, byte[] cachedCredentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitJob(int32 jobId, string userName, unsigned int8[] cachedCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SubmitJob(System.Int32,System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitJob (jobId As Integer, userName As String, cachedCredentials As Byte())" />
+      <MemberSignature Language="F#" Value="abstract member SubmitJob : int * string * byte[] -&gt; unit" Usage="iClusterService.SubmitJob (jobId, userName, cachedCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="cachedCredentials" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="cachedCredentials">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJob">
+      <MemberSignature Language="C#" Value="public void SubmitJob (int jobId, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitJob(int32 jobId, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SubmitJob(System.Int32,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitJob (jobId As Integer, userName As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SubmitJob : int * string * string -&gt; unit" Usage="iClusterService.SubmitJob (jobId, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJobs">
+      <MemberSignature Language="C#" Value="public void SubmitJobs (int[] jobIds, string userName, byte[] cachedCredentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitJobs(int32[] jobIds, string userName, unsigned int8[] cachedCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SubmitJobs(System.Int32[],System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitJobs (jobIds As Integer(), userName As String, cachedCredentials As Byte())" />
+      <MemberSignature Language="F#" Value="abstract member SubmitJobs : int[] * string * byte[] -&gt; unit" Usage="iClusterService.SubmitJobs (jobIds, userName, cachedCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobIds" Type="System.Int32[]" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="cachedCredentials" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobIds">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="cachedCredentials">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJobs">
+      <MemberSignature Language="C#" Value="public void SubmitJobs (int[] jobIds, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitJobs(int32[] jobIds, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.SubmitJobs(System.Int32[],System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitJobs (jobIds As Integer(), userName As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SubmitJobs : int[] * string * string -&gt; unit" Usage="iClusterService.SubmitJobs (jobIds, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobIds" Type="System.Int32[]" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobIds">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.IExecutionResult[] WaitForCommand (int commandId, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.IExecutionResult[] WaitForCommand(int32 commandId, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterService.WaitForCommand(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WaitForCommand (commandId As Integer, pageSize As Integer) As IExecutionResult()" />
+      <MemberSignature Language="F#" Value="abstract member WaitForCommand : int * int -&gt; Microsoft.ComputeCluster.IExecutionResult[]" Usage="iClusterService.WaitForCommand (commandId, pageSize)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.IExecutionResult[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandId" Type="System.Int32" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="commandId">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

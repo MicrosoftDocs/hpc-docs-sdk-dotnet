@@ -1,0 +1,439 @@
+﻿<Type Name="ExcelClient" FullName="Microsoft.Hpc.Excel.ExcelClient">
+  <TypeSignature Language="C#" Value="public class ExcelClient : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ExcelClient extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ExcelClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExcelClient&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type ExcelClient = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents an engine that implements the partition, calculate, and merge model that Microsoft HPC Pack 2016 Services for Excel uses to run calculations in a workbook in parallel on an HPC cluster. The workbook must implement the callback macro framework.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcelClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelClient" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRun">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRun (bool executeLocally, AsyncCallback userCallback, object userStateInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRun(bool executeLocally, class System.AsyncCallback userCallback, object userStateInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.BeginRun(System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginRun (executeLocally As Boolean, userCallback As AsyncCallback, userStateInfo As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="member this.BeginRun : bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="excelClient.BeginRun (executeLocally, userCallback, userStateInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="executeLocally" Type="System.Boolean" />
+        <Parameter Name="userCallback" Type="System.AsyncCallback" />
+        <Parameter Name="userStateInfo" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="executeLocally">To be added.</param>
+        <param name="userCallback">To be added.</param>
+        <param name="userStateInfo">To be added.</param>
+        <summary>Starts a calculation asynchronously for the Excel workbook using the partition, calculate, and merge model that Microsoft HPC Pack 2016 Services for Excel uses to run calculations. The calculation runs on the HPC cluster with the head node that you specified when you called the <see cref="Overload:Microsoft.Hpc.Excel.ExcelClient.OpenSession" /> method, unless you specify that the calculation should run on the local computer.</summary>
+        <returns>An <see cref="T:System.IAsyncResult"></see> interface to an object that contains information about the status of the asynchronous calculation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public void Cancel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Cancel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel ()" />
+      <MemberSignature Language="F#" Value="member this.Cancel : unit -&gt; unit" Usage="excelClient.Cancel " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Cancels any currently running Excel calculations without closing the SOA session.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseSession">
+      <MemberSignature Language="C#" Value="public void CloseSession ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CloseSession() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.CloseSession" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CloseSession ()" />
+      <MemberSignature Language="F#" Value="member this.CloseSession : unit -&gt; unit" Usage="excelClient.CloseSession " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Closes the session that you opened by calling the <see cref="Overload:Microsoft.Hpc.Excel.ExcelClient.OpenSession" /> method subject to a default timeout period, and closes all instances of Excel that are running on the compute nodes.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseSession">
+      <MemberSignature Language="C#" Value="public void CloseSession (int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CloseSession(int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.CloseSession(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CloseSession (timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.CloseSession : int -&gt; unit" Usage="excelClient.CloseSession timeoutMilliseconds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>Closes the session that you opened by calling the <see cref="Overload:Microsoft.Hpc.Excel.ExcelClient.OpenSession" /> method subject to the specified timeout period, and closes all instances of Excel that are running on the compute nodes.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DependFiles">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; DependFiles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; DependFiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelClient.DependFiles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DependFiles As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.DependFiles : System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="Microsoft.Hpc.Excel.ExcelClient.DependFiles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="excelClient.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Releases all of the resources that the object allocated.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="excelClient.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Driver">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Excel.ExcelDriver Driver { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Excel.ExcelDriver Driver" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelClient.Driver" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Driver As ExcelDriver" />
+      <MemberSignature Language="F#" Value="member this.Driver : Microsoft.Hpc.Excel.ExcelDriver" Usage="Microsoft.Hpc.Excel.ExcelClient.Driver" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Excel.ExcelDriver</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> object that interacts with the currently open Excel workbook.</summary>
+        <value>The <see cref="T:Microsoft.Hpc.Excel.ExcelDriver"></see> object that interacts with the currently open Excel workbook.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRun">
+      <MemberSignature Language="C#" Value="public void EndRun (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRun(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.EndRun(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRun (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="member this.EndRun : IAsyncResult -&gt; unit" Usage="excelClient.EndRun asyncResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>Ends a asynchronous calculation from an Excel workbook on an HPC cluster that you began by calling the <see cref="M:Microsoft.Hpc.Excel.ExcelClient.BeginRun(System.Boolean,System.AsyncCallback,System.Object)" /> method.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorHandler">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Hpc.Excel.ResponseErrorEventArgs&gt; ErrorHandler;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Excel.ResponseErrorEventArgs&gt; ErrorHandler" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Excel.ExcelClient.ErrorHandler" />
+      <MemberSignature Language="VB.NET" Value="Public Event ErrorHandler As EventHandler(Of ResponseErrorEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ErrorHandler : EventHandler&lt;Microsoft.Hpc.Excel.ResponseErrorEventArgs&gt; " Usage="member this.ErrorHandler : System.EventHandler&lt;Microsoft.Hpc.Excel.ResponseErrorEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Excel.ResponseErrorEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An event that is raised when the response handler receives errors from the HPC cluster.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (Microsoft.Office.Interop.Excel.Workbook excelWorkbook);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Initialize(class Microsoft.Office.Interop.Excel.Workbook excelWorkbook) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.Initialize(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (excelWorkbook As Workbook)" />
+      <MemberSignature Language="F#" Value="member this.Initialize : Microsoft.Office.Interop.Excel.Workbook -&gt; unit" Usage="excelClient.Initialize excelWorkbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="excelWorkbook" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="excelWorkbook">To be added.</param>
+        <summary>Initializes the Excel SOA client by creating a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> class to interact with the Excel workbook that is represented by the specified <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (string localWorkbookPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Initialize(string localWorkbookPath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.Initialize(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (localWorkbookPath As String)" />
+      <MemberSignature Language="F#" Value="member this.Initialize : string -&gt; unit" Usage="excelClient.Initialize localWorkbookPath" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="localWorkbookPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="localWorkbookPath">To be added.</param>
+        <summary>Initializes the Excel SOA client by creating a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> class to interact with the Excel workbook located at the specified path.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MacroResource">
+      <MemberSignature Language="C#" Value="public string MacroResource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MacroResource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelClient.MacroResource" />
+      <MemberSignature Language="VB.NET" Value="Public Property MacroResource As String" />
+      <MemberSignature Language="F#" Value="member this.MacroResource : string with get, set" Usage="Microsoft.Hpc.Excel.ExcelClient.MacroResource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenSession">
+      <MemberSignature Language="C#" Value="public int OpenSession (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string remoteWorkbookPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 OpenSession(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string remoteWorkbookPath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.OpenSession(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenSession (startInfo As SessionStartInfo, remoteWorkbookPath As String) As Integer" />
+      <MemberSignature Language="F#" Value="member this.OpenSession : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * string -&gt; int" Usage="excelClient.OpenSession (startInfo, remoteWorkbookPath)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="remoteWorkbookPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="remoteWorkbookPath">To be added.</param>
+        <summary>Starts a new SOA session using the settings in the specified <see cref="T:Microsoft.Hpc.Scheduler.Session.SessionStartInfo" /> object to perform calculations from the specified Excel workbook on an HPC cluster.</summary>
+        <returns>An <see cref="T:System.Int32"></see> that specifies the identifier of the SOA session that the method created.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenSession">
+      <MemberSignature Language="C#" Value="public int OpenSession (string headNode, int minResources, int maxResources, Microsoft.Hpc.Scheduler.Session.SessionUnitType resourceType, string remoteWorkbookPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 OpenSession(string headNode, int32 minResources, int32 maxResources, valuetype Microsoft.Hpc.Scheduler.Session.SessionUnitType resourceType, string remoteWorkbookPath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.OpenSession(System.String,System.Int32,System.Int32,Microsoft.Hpc.Scheduler.Session.SessionUnitType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenSession (headNode As String, minResources As Integer, maxResources As Integer, resourceType As SessionUnitType, remoteWorkbookPath As String) As Integer" />
+      <MemberSignature Language="F#" Value="member this.OpenSession : string * int * int * Microsoft.Hpc.Scheduler.Session.SessionUnitType * string -&gt; int" Usage="excelClient.OpenSession (headNode, minResources, maxResources, resourceType, remoteWorkbookPath)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="minResources" Type="System.Int32" />
+        <Parameter Name="maxResources" Type="System.Int32" />
+        <Parameter Name="resourceType" Type="Microsoft.Hpc.Scheduler.Session.SessionUnitType" />
+        <Parameter Name="remoteWorkbookPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="minResources">To be added.</param>
+        <param name="maxResources">To be added.</param>
+        <param name="resourceType">To be added.</param>
+        <param name="remoteWorkbookPath">To be added.</param>
+        <summary>Starts a new SOA session using the specified resource settings to perform calculations from the specified Excel workbook on the HPC cluster with the specified head node.</summary>
+        <returns>An <see cref="T:System.Int32"></see> that specifies the identifier of the SOA session that the method created.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Run">
+      <MemberSignature Language="C#" Value="public void Run (bool executeLocally);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Run(bool executeLocally) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelClient.Run(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Run (executeLocally As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Run : bool -&gt; unit" Usage="excelClient.Run executeLocally" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="executeLocally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="executeLocally">To be added.</param>
+        <summary>Starts the calculation for the Excel workbook using the partition, calculate, and merge model that Microsoft HPC Pack 2016 Services for Excel uses to run calculations. The calculation runs on the HPC cluster with the head node that you specified when you called the <see cref="Overload:Microsoft.Hpc.Excel.ExcelClient.OpenSession" /> method, unless you specify that the calculation should run on the local computer.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public static readonly Version Version;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version Version" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Excel.ExcelClient.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Version As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable Version : Version" Usage="Microsoft.Hpc.Excel.ExcelClient.Version" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Represents the version of the Excel client.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

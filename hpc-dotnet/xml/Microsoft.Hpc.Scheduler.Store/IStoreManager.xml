@@ -1,0 +1,852 @@
+﻿<Type Name="IStoreManager" FullName="Microsoft.Hpc.Scheduler.Store.IStoreManager">
+  <TypeSignature Language="C#" Value="public interface IStoreManager" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStoreManager" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IStoreManager" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStoreManager" />
+  <TypeSignature Language="F#" Value="type IStoreManager = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterNode AddNode (Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterNode AddNode(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.AddNode(Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddNode (props As StoreProperty()) As IClusterNode" />
+      <MemberSignature Language="F#" Value="abstract member AddNode : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.IClusterNode" Usage="iStoreManager.AddNode props" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPhantomResourceToNode">
+      <MemberSignature Language="C#" Value="public int AddPhantomResourceToNode (int nodeId, Microsoft.Hpc.Scheduler.Properties.JobType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 AddPhantomResourceToNode(int32 nodeId, valuetype Microsoft.Hpc.Scheduler.Properties.JobType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.AddPhantomResourceToNode(System.Int32,Microsoft.Hpc.Scheduler.Properties.JobType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddPhantomResourceToNode (nodeId As Integer, type As JobType) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member AddPhantomResourceToNode : int * Microsoft.Hpc.Scheduler.Properties.JobType -&gt; int" Usage="iStoreManager.AddPhantomResourceToNode (nodeId, type)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Int32" />
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Properties.JobType" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterJobProfile CreateProfile (string profileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterJobProfile CreateProfile(string profileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.CreateProfile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateProfile (profileName As String) As IClusterJobProfile" />
+      <MemberSignature Language="F#" Value="abstract member CreateProfile : string -&gt; Microsoft.Hpc.Scheduler.Store.IClusterJobProfile" Usage="iStoreManager.CreateProfile profileName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterJobProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="profileName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterJobProfile CreateProfile (System.Xml.XmlReader reader, string profileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterJobProfile CreateProfile(class System.Xml.XmlReader reader, string profileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.CreateProfile(System.Xml.XmlReader,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateProfile (reader As XmlReader, profileName As String) As IClusterJobProfile" />
+      <MemberSignature Language="F#" Value="abstract member CreateProfile : System.Xml.XmlReader * string -&gt; Microsoft.Hpc.Scheduler.Store.IClusterJobProfile" Usage="iStoreManager.CreateProfile (reader, profileName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterJobProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Xml.XmlReader" />
+        <Parameter Name="profileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="reader">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteProfile">
+      <MemberSignature Language="C#" Value="public void DeleteProfile (int profileId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteProfile(int32 profileId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.DeleteProfile(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteProfile (profileId As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteProfile : int -&gt; unit" Usage="iStoreManager.DeleteProfile profileId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="profileId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationDefaults">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; GetConfigurationDefaults ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; GetConfigurationDefaults() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.GetConfigurationDefaults" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConfigurationDefaults () As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="abstract member GetConfigurationDefaults : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="iStoreManager.GetConfigurationDefaults " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationLimits">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string[]&gt; GetConfigurationLimits ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, string[]&gt; GetConfigurationLimits() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.GetConfigurationLimits" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConfigurationLimits () As Dictionary(Of String, String())" />
+      <MemberSignature Language="F#" Value="abstract member GetConfigurationLimits : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string[]&gt;" Usage="iStoreManager.GetConfigurationLimits " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; GetConfigurationSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; GetConfigurationSettings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.GetConfigurationSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConfigurationSettings () As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="abstract member GetConfigurationSettings : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="iStoreManager.GetConfigurationSettings " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEmailCredentialUser">
+      <MemberSignature Language="C#" Value="public string GetEmailCredentialUser ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetEmailCredentialUser() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.GetEmailCredentialUser" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEmailCredentialUser () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetEmailCredentialUser : unit -&gt; string" Usage="iStoreManager.GetEmailCredentialUser " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenGlobalTask">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTask OpenGlobalTask (int taskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTask OpenGlobalTask(int32 taskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.OpenGlobalTask(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenGlobalTask (taskId As Integer) As IClusterTask" />
+      <MemberSignature Language="F#" Value="abstract member OpenGlobalTask : int -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="iStoreManager.OpenGlobalTask taskId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenGlobalTaskEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenGlobalTaskEnumerator (Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions option);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenGlobalTaskEnumerator(valuetype Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions option) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.OpenGlobalTaskEnumerator(Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenGlobalTaskEnumerator (option As TaskRowSetOptions) As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenGlobalTaskEnumerator : Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iStoreManager.OpenGlobalTaskEnumerator option" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="option" Type="Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions" />
+      </Parameters>
+      <Docs>
+        <param name="option">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenGlobalTaskRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenGlobalTaskRowSet (Microsoft.Hpc.Scheduler.Store.RowSetType type, Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions option);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenGlobalTaskRowSet(valuetype Microsoft.Hpc.Scheduler.Store.RowSetType type, valuetype Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions option) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.OpenGlobalTaskRowSet(Microsoft.Hpc.Scheduler.Store.RowSetType,Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenGlobalTaskRowSet (type As RowSetType, option As TaskRowSetOptions) As ITaskRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenGlobalTaskRowSet : Microsoft.Hpc.Scheduler.Store.RowSetType * Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions -&gt; Microsoft.Hpc.Scheduler.Store.ITaskRowSet" Usage="iStoreManager.OpenGlobalTaskRowSet (type, option)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ITaskRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.RowSetType" />
+        <Parameter Name="option" Type="Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="option">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenJobHistoryEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenJobHistoryEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenJobHistoryEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.OpenJobHistoryEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenJobHistoryEnumerator () As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenJobHistoryEnumerator : unit -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iStoreManager.OpenJobHistoryEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenNodeHistoryEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenNodeHistoryEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenNodeHistoryEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.OpenNodeHistoryEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenNodeHistoryEnumerator () As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenNodeHistoryEnumerator : unit -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iStoreManager.OpenNodeHistoryEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PutNodeOnline">
+      <MemberSignature Language="C#" Value="public void PutNodeOnline (Guid nodeId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PutNodeOnline(valuetype System.Guid nodeId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.PutNodeOnline(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PutNodeOnline (nodeId As Guid)" />
+      <MemberSignature Language="F#" Value="abstract member PutNodeOnline : Guid -&gt; unit" Usage="iStoreManager.PutNodeOnline nodeId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PutNodesOnline">
+      <MemberSignature Language="C#" Value="public void PutNodesOnline (Guid[] nodeIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PutNodesOnline(valuetype System.Guid[] nodeIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.PutNodesOnline(System.Guid[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PutNodesOnline (nodeIds As Guid())" />
+      <MemberSignature Language="F#" Value="abstract member PutNodesOnline : Guid[] -&gt; unit" Usage="iStoreManager.PutNodesOnline nodeIds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeIds" Type="System.Guid[]" />
+      </Parameters>
+      <Docs>
+        <param name="nodeIds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterConfigChangeHandler">
+      <MemberSignature Language="C#" Value="public void RegisterConfigChangeHandler (Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterConfigChangeHandler(class Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RegisterConfigChangeHandler(Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterConfigChangeHandler (handler As ClusterConfigChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterConfigChangeHandler : Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate -&gt; unit" Usage="iStoreManager.RegisterConfigChangeHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterJobStateHandler">
+      <MemberSignature Language="C#" Value="public void RegisterJobStateHandler (Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterJobStateHandler(class Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RegisterJobStateHandler(Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterJobStateHandler (handler As JobStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterJobStateHandler : Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate -&gt; unit" Usage="iStoreManager.RegisterJobStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterJobStateHandlerEx">
+      <MemberSignature Language="C#" Value="public void RegisterJobStateHandlerEx (Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterJobStateHandlerEx(class Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RegisterJobStateHandlerEx(Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterJobStateHandlerEx (handler As JobStateChangeDelegateEx)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterJobStateHandlerEx : Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx -&gt; unit" Usage="iStoreManager.RegisterJobStateHandlerEx handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterNodeStateHandler">
+      <MemberSignature Language="C#" Value="public void RegisterNodeStateHandler (Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterNodeStateHandler(class Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RegisterNodeStateHandler(Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterNodeStateHandler (handler As NodeStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterNodeStateHandler : Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate -&gt; unit" Usage="iStoreManager.RegisterNodeStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterResourceStateHandler">
+      <MemberSignature Language="C#" Value="public void RegisterResourceStateHandler (Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterResourceStateHandler(class Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RegisterResourceStateHandler(Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterResourceStateHandler (handler As ResourceStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterResourceStateHandler : Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate -&gt; unit" Usage="iStoreManager.RegisterResourceStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterTaskStateHandler">
+      <MemberSignature Language="C#" Value="public void RegisterTaskStateHandler (Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterTaskStateHandler(class Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RegisterTaskStateHandler(Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterTaskStateHandler (handler As TaskStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterTaskStateHandler : Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate -&gt; unit" Usage="iStoreManager.RegisterTaskStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveNode">
+      <MemberSignature Language="C#" Value="public void RemoveNode (Guid nodeId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveNode(valuetype System.Guid nodeId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RemoveNode(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveNode (nodeId As Guid)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveNode : Guid -&gt; unit" Usage="iStoreManager.RemoveNode nodeId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemovePhantomResource">
+      <MemberSignature Language="C#" Value="public void RemovePhantomResource (int resourceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemovePhantomResource(int32 resourceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.RemovePhantomResource(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemovePhantomResource (resourceId As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RemovePhantomResource : int -&gt; unit" Usage="iStoreManager.RemovePhantomResource resourceId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetConfigurationSetting">
+      <MemberSignature Language="C#" Value="public void SetConfigurationSetting (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetConfigurationSetting(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.SetConfigurationSetting(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetConfigurationSetting (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetConfigurationSetting : string * string -&gt; unit" Usage="iStoreManager.SetConfigurationSetting (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDrainingNodesOffline">
+      <MemberSignature Language="C#" Value="public void SetDrainingNodesOffline ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDrainingNodesOffline() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.SetDrainingNodesOffline" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDrainingNodesOffline ()" />
+      <MemberSignature Language="F#" Value="abstract member SetDrainingNodesOffline : unit -&gt; unit" Usage="iStoreManager.SetDrainingNodesOffline " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEmailCredential">
+      <MemberSignature Language="C#" Value="public void SetEmailCredential (string username, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetEmailCredential(string username, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.SetEmailCredential(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEmailCredential (username As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetEmailCredential : string * string -&gt; unit" Usage="iStoreManager.SetEmailCredential (username, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="username" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="username">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TakeNodeOffline">
+      <MemberSignature Language="C#" Value="public void TakeNodeOffline (Guid nodeId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TakeNodeOffline(valuetype System.Guid nodeId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.TakeNodeOffline(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TakeNodeOffline (nodeId As Guid)" />
+      <MemberSignature Language="F#" Value="abstract member TakeNodeOffline : Guid -&gt; unit" Usage="iStoreManager.TakeNodeOffline nodeId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TakeNodeOffline">
+      <MemberSignature Language="C#" Value="public void TakeNodeOffline (Guid nodeId, bool force);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TakeNodeOffline(valuetype System.Guid nodeId, bool force) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.TakeNodeOffline(System.Guid,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TakeNodeOffline (nodeId As Guid, force As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member TakeNodeOffline : Guid * bool -&gt; unit" Usage="iStoreManager.TakeNodeOffline (nodeId, force)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Guid" />
+        <Parameter Name="force" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <param name="force">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TakeNodesOffline">
+      <MemberSignature Language="C#" Value="public void TakeNodesOffline (Guid[] nodeIds, bool force);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TakeNodesOffline(valuetype System.Guid[] nodeIds, bool force) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.TakeNodesOffline(System.Guid[],System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TakeNodesOffline (nodeIds As Guid(), force As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member TakeNodesOffline : Guid[] * bool -&gt; unit" Usage="iStoreManager.TakeNodesOffline (nodeIds, force)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeIds" Type="System.Guid[]" />
+        <Parameter Name="force" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="nodeIds">To be added.</param>
+        <param name="force">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRegisterConfigChangeHandler">
+      <MemberSignature Language="C#" Value="public void UnRegisterConfigChangeHandler (Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnRegisterConfigChangeHandler(class Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.UnRegisterConfigChangeHandler(Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnRegisterConfigChangeHandler (handler As ClusterConfigChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member UnRegisterConfigChangeHandler : Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate -&gt; unit" Usage="iStoreManager.UnRegisterConfigChangeHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRegisterJobStateHandler">
+      <MemberSignature Language="C#" Value="public void UnRegisterJobStateHandler (Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnRegisterJobStateHandler(class Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.UnRegisterJobStateHandler(Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnRegisterJobStateHandler (handler As JobStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member UnRegisterJobStateHandler : Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate -&gt; unit" Usage="iStoreManager.UnRegisterJobStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRegisterJobStateHandlerEx">
+      <MemberSignature Language="C#" Value="public void UnRegisterJobStateHandlerEx (Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnRegisterJobStateHandlerEx(class Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.UnRegisterJobStateHandlerEx(Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnRegisterJobStateHandlerEx (handler As JobStateChangeDelegateEx)" />
+      <MemberSignature Language="F#" Value="abstract member UnRegisterJobStateHandlerEx : Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx -&gt; unit" Usage="iStoreManager.UnRegisterJobStateHandlerEx handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRegisterNodeStateHandler">
+      <MemberSignature Language="C#" Value="public void UnRegisterNodeStateHandler (Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnRegisterNodeStateHandler(class Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.UnRegisterNodeStateHandler(Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnRegisterNodeStateHandler (handler As NodeStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member UnRegisterNodeStateHandler : Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate -&gt; unit" Usage="iStoreManager.UnRegisterNodeStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRegisterResourceStateHandler">
+      <MemberSignature Language="C#" Value="public void UnRegisterResourceStateHandler (Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnRegisterResourceStateHandler(class Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.UnRegisterResourceStateHandler(Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnRegisterResourceStateHandler (handler As ResourceStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member UnRegisterResourceStateHandler : Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate -&gt; unit" Usage="iStoreManager.UnRegisterResourceStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRegisterTaskStateHandler">
+      <MemberSignature Language="C#" Value="public void UnRegisterTaskStateHandler (Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnRegisterTaskStateHandler(class Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IStoreManager.UnRegisterTaskStateHandler(Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnRegisterTaskStateHandler (handler As TaskStateChangeDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member UnRegisterTaskStateHandler : Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate -&gt; unit" Usage="iStoreManager.UnRegisterTaskStateHandler handler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

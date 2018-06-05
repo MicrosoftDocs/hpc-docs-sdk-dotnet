@@ -1,0 +1,286 @@
+﻿<Type Name="PendingReason+ReasonCode" FullName="Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode">
+  <TypeSignature Language="C#" Value="public enum PendingReason.ReasonCode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable sealed PendingReason/ReasonCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PendingReason.ReasonCode" />
+  <TypeSignature Language="F#" Value="type PendingReason.ReasonCode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the possible reasons why the job or task has yet to start.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcitivationFilter">
+      <MemberSignature Language="C#" Value="AcitivationFilter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode AcitivationFilter = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.AcitivationFilter" />
+      <MemberSignature Language="VB.NET" Value="AcitivationFilter" />
+      <MemberSignature Language="F#" Value="AcitivationFilter = 6" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.AcitivationFilter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The activation filter which determines if the job can run failed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DependencyNotDone">
+      <MemberSignature Language="C#" Value="DependencyNotDone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode DependencyNotDone = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.DependencyNotDone" />
+      <MemberSignature Language="VB.NET" Value="DependencyNotDone" />
+      <MemberSignature Language="F#" Value="DependencyNotDone = 4" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.DependencyNotDone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A task on which this task is dependent is still running.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HeldByActivationFilter">
+      <MemberSignature Language="C#" Value="HeldByActivationFilter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode HeldByActivationFilter = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HeldByActivationFilter" />
+      <MemberSignature Language="VB.NET" Value="HeldByActivationFilter" />
+      <MemberSignature Language="F#" Value="HeldByActivationFilter = 8" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HeldByActivationFilter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HeldByAdmin">
+      <MemberSignature Language="C#" Value="HeldByAdmin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode HeldByAdmin = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HeldByAdmin" />
+      <MemberSignature Language="VB.NET" Value="HeldByAdmin" />
+      <MemberSignature Language="F#" Value="HeldByAdmin = 9" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HeldByAdmin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HeldByUser">
+      <MemberSignature Language="C#" Value="HeldByUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode HeldByUser = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HeldByUser" />
+      <MemberSignature Language="VB.NET" Value="HeldByUser" />
+      <MemberSignature Language="F#" Value="HeldByUser = 10" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HeldByUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HigherPriorityJob">
+      <MemberSignature Language="C#" Value="HigherPriorityJob" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode HigherPriorityJob = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HigherPriorityJob" />
+      <MemberSignature Language="VB.NET" Value="HigherPriorityJob" />
+      <MemberSignature Language="F#" Value="HigherPriorityJob = 2" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.HigherPriorityJob" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A higher priority job is running.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobSubmittedEarlier">
+      <MemberSignature Language="C#" Value="JobSubmittedEarlier" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode JobSubmittedEarlier = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.JobSubmittedEarlier" />
+      <MemberSignature Language="VB.NET" Value="JobSubmittedEarlier" />
+      <MemberSignature Language="F#" Value="JobSubmittedEarlier = 3" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.JobSubmittedEarlier" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>A job with the same priority is currently running.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoAvailableResourceInRequestedNodeGroup">
+      <MemberSignature Language="C#" Value="NoAvailableResourceInRequestedNodeGroup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode NoAvailableResourceInRequestedNodeGroup = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.NoAvailableResourceInRequestedNodeGroup" />
+      <MemberSignature Language="VB.NET" Value="NoAvailableResourceInRequestedNodeGroup" />
+      <MemberSignature Language="F#" Value="NoAvailableResourceInRequestedNodeGroup = 13" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.NoAvailableResourceInRequestedNodeGroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoBrokerNode">
+      <MemberSignature Language="C#" Value="NoBrokerNode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode NoBrokerNode = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.NoBrokerNode" />
+      <MemberSignature Language="VB.NET" Value="NoBrokerNode" />
+      <MemberSignature Language="F#" Value="NoBrokerNode = 7" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.NoBrokerNode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>The node is not configured to run broker jobs.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The job is not pending.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotEnoughResource">
+      <MemberSignature Language="C#" Value="NotEnoughResource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode NotEnoughResource = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.NotEnoughResource" />
+      <MemberSignature Language="VB.NET" Value="NotEnoughResource" />
+      <MemberSignature Language="F#" Value="NotEnoughResource = 1" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.NotEnoughResource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>There are not enough resources to run the job at this time.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobsCanceledOrFailed">
+      <MemberSignature Language="C#" Value="ParentJobsCanceledOrFailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode ParentJobsCanceledOrFailed = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.ParentJobsCanceledOrFailed" />
+      <MemberSignature Language="VB.NET" Value="ParentJobsCanceledOrFailed" />
+      <MemberSignature Language="F#" Value="ParentJobsCanceledOrFailed = 11" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.ParentJobsCanceledOrFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobsNotfinished">
+      <MemberSignature Language="C#" Value="ParentJobsNotfinished" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode ParentJobsNotfinished = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.ParentJobsNotfinished" />
+      <MemberSignature Language="VB.NET" Value="ParentJobsNotfinished" />
+      <MemberSignature Language="F#" Value="ParentJobsNotfinished = 12" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.ParentJobsNotfinished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredNodesNotAvailable">
+      <MemberSignature Language="C#" Value="RequiredNodesNotAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode RequiredNodesNotAvailable = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.RequiredNodesNotAvailable" />
+      <MemberSignature Language="VB.NET" Value="RequiredNodesNotAvailable" />
+      <MemberSignature Language="F#" Value="RequiredNodesNotAvailable = 5" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode.RequiredNodesNotAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The nodes required to run the job are not available.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

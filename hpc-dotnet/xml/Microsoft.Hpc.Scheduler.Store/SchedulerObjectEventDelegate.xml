@@ -1,0 +1,29 @@
+﻿<Type Name="SchedulerObjectEventDelegate" FullName="Microsoft.Hpc.Scheduler.Store.SchedulerObjectEventDelegate">
+  <TypeSignature Language="C#" Value="public delegate void SchedulerObjectEventDelegate(int id, EventType eventType, StoreProperty[] props);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SchedulerObjectEventDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.SchedulerObjectEventDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SchedulerObjectEventDelegate(id As Integer, eventType As EventType, props As StoreProperty())" />
+  <TypeSignature Language="F#" Value="type SchedulerObjectEventDelegate = delegate of int * EventType * StoreProperty[] -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="id" Type="System.Int32" />
+    <Parameter Name="eventType" Type="Microsoft.Hpc.Scheduler.Properties.EventType" />
+    <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="id">To be added.</param>
+    <param name="eventType">To be added.</param>
+    <param name="props">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

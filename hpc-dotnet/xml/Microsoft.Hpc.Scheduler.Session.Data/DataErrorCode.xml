@@ -1,0 +1,709 @@
+﻿<Type Name="DataErrorCode" FullName="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode">
+  <TypeSignature Language="C#" Value="public static class DataErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed DataErrorCode extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Class DataErrorCode" />
+  <TypeSignature Language="F#" Value="type DataErrorCode = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.SOAFaultCodeCategory Category (int errorCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.Scheduler.Session.SOAFaultCodeCategory Category(int32 errorCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Category(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Category (errorCode As Integer) As SOAFaultCodeCategory" />
+      <MemberSignature Language="F#" Value="static member Category : int -&gt; Microsoft.Hpc.Scheduler.Session.SOAFaultCodeCategory" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Category errorCode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.SOAFaultCodeCategory</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="errorCode" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="errorCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectDataServiceFailure">
+      <MemberSignature Language="C#" Value="public const int ConnectDataServiceFailure = 102760455;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 ConnectDataServiceFailure = (102760455)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.ConnectDataServiceFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Const ConnectDataServiceFailure As Integer  = 102760455" />
+      <MemberSignature Language="F#" Value="val mutable ConnectDataServiceFailure : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.ConnectDataServiceFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760455</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectDataServiceTimeout">
+      <MemberSignature Language="C#" Value="public const int ConnectDataServiceTimeout = 102760456;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 ConnectDataServiceTimeout = (102760456)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.ConnectDataServiceTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Const ConnectDataServiceTimeout As Integer  = 102760456" />
+      <MemberSignature Language="F#" Value="val mutable ConnectDataServiceTimeout : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.ConnectDataServiceTimeout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760456</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientAlreadyExists">
+      <MemberSignature Language="C#" Value="public const int DataClientAlreadyExists = 103809028;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientAlreadyExists = (103809028)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientAlreadyExists" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientAlreadyExists As Integer  = 103809028" />
+      <MemberSignature Language="F#" Value="val mutable DataClientAlreadyExists : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientAlreadyExists" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809028</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientBeingCreated">
+      <MemberSignature Language="C#" Value="public const int DataClientBeingCreated = 103809031;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientBeingCreated = (103809031)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientBeingCreated" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientBeingCreated As Integer  = 103809031" />
+      <MemberSignature Language="F#" Value="val mutable DataClientBeingCreated : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientBeingCreated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809031</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientBusy">
+      <MemberSignature Language="C#" Value="public const int DataClientBusy = 103809030;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientBusy = (103809030)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientBusy" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientBusy As Integer  = 103809030" />
+      <MemberSignature Language="F#" Value="val mutable DataClientBusy : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809030</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientDeleted">
+      <MemberSignature Language="C#" Value="public const int DataClientDeleted = 103809037;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientDeleted = (103809037)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientDeleted" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientDeleted As Integer  = 103809037" />
+      <MemberSignature Language="F#" Value="val mutable DataClientDeleted : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientDeleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809037</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientDisposed">
+      <MemberSignature Language="C#" Value="public const int DataClientDisposed = 103809033;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientDisposed = (103809033)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientDisposed" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientDisposed As Integer  = 103809033" />
+      <MemberSignature Language="F#" Value="val mutable DataClientDisposed : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientDisposed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809033</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientIdInvalid">
+      <MemberSignature Language="C#" Value="public const int DataClientIdInvalid = 103809026;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientIdInvalid = (103809026)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientIdInvalid" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientIdInvalid As Integer  = 103809026" />
+      <MemberSignature Language="F#" Value="val mutable DataClientIdInvalid : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientIdInvalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809026</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientIdTooLong">
+      <MemberSignature Language="C#" Value="public const int DataClientIdTooLong = 103809025;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientIdTooLong = (103809025)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientIdTooLong" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientIdTooLong As Integer  = 103809025" />
+      <MemberSignature Language="F#" Value="val mutable DataClientIdTooLong : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientIdTooLong" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809025</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientLifeCycleSet">
+      <MemberSignature Language="C#" Value="public const int DataClientLifeCycleSet = 103809036;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientLifeCycleSet = (103809036)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientLifeCycleSet" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientLifeCycleSet As Integer  = 103809036" />
+      <MemberSignature Language="F#" Value="val mutable DataClientLifeCycleSet : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientLifeCycleSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809036</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientNotFound">
+      <MemberSignature Language="C#" Value="public const int DataClientNotFound = 103809029;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientNotFound = (103809029)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientNotFound As Integer  = 103809029" />
+      <MemberSignature Language="F#" Value="val mutable DataClientNotFound : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809029</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientNotWritable">
+      <MemberSignature Language="C#" Value="public const int DataClientNotWritable = 103809032;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientNotWritable = (103809032)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientNotWritable" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientNotWritable As Integer  = 103809032" />
+      <MemberSignature Language="F#" Value="val mutable DataClientNotWritable : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientNotWritable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809032</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataClientReadOnly">
+      <MemberSignature Language="C#" Value="public const int DataClientReadOnly = 103809035;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataClientReadOnly = (103809035)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataClientReadOnly As Integer  = 103809035" />
+      <MemberSignature Language="F#" Value="val mutable DataClientReadOnly : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataClientReadOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809035</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataFeatureNotSupported">
+      <MemberSignature Language="C#" Value="public const int DataFeatureNotSupported = 102760453;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataFeatureNotSupported = (102760453)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataFeatureNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataFeatureNotSupported As Integer  = 102760453" />
+      <MemberSignature Language="F#" Value="val mutable DataFeatureNotSupported : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataFeatureNotSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760453</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataInconsistent">
+      <MemberSignature Language="C#" Value="public const int DataInconsistent = 101711875;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataInconsistent = (101711875)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataInconsistent" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataInconsistent As Integer  = 101711875" />
+      <MemberSignature Language="F#" Value="val mutable DataInconsistent : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataInconsistent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>101711875</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataMaxSizeExceeded">
+      <MemberSignature Language="C#" Value="public const int DataMaxSizeExceeded = 103809027;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataMaxSizeExceeded = (103809027)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataMaxSizeExceeded" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataMaxSizeExceeded As Integer  = 103809027" />
+      <MemberSignature Language="F#" Value="val mutable DataMaxSizeExceeded : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataMaxSizeExceeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809027</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataNoPermission">
+      <MemberSignature Language="C#" Value="public const int DataNoPermission = 103809039;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataNoPermission = (103809039)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataNoPermission" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataNoPermission As Integer  = 103809039" />
+      <MemberSignature Language="F#" Value="val mutable DataNoPermission : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataNoPermission" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809039</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataRetry">
+      <MemberSignature Language="C#" Value="public const int DataRetry = 101711876;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataRetry = (101711876)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataRetry" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataRetry As Integer  = 101711876" />
+      <MemberSignature Language="F#" Value="val mutable DataRetry : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataRetry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>101711876</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataServerBadAddress">
+      <MemberSignature Language="C#" Value="public const int DataServerBadAddress = 102760454;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataServerBadAddress = (102760454)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerBadAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataServerBadAddress As Integer  = 102760454" />
+      <MemberSignature Language="F#" Value="val mutable DataServerBadAddress : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerBadAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760454</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataServerForAzureBurstMisconfigured">
+      <MemberSignature Language="C#" Value="public const int DataServerForAzureBurstMisconfigured = 102760457;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataServerForAzureBurstMisconfigured = (102760457)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerForAzureBurstMisconfigured" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataServerForAzureBurstMisconfigured As Integer  = 102760457" />
+      <MemberSignature Language="F#" Value="val mutable DataServerForAzureBurstMisconfigured : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerForAzureBurstMisconfigured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760457</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataServerMisconfigured">
+      <MemberSignature Language="C#" Value="public const int DataServerMisconfigured = 102760450;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataServerMisconfigured = (102760450)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerMisconfigured" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataServerMisconfigured As Integer  = 102760450" />
+      <MemberSignature Language="F#" Value="val mutable DataServerMisconfigured : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerMisconfigured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760450</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataServerNoSpace">
+      <MemberSignature Language="C#" Value="public const int DataServerNoSpace = 101711874;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataServerNoSpace = (101711874)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerNoSpace" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataServerNoSpace As Integer  = 101711874" />
+      <MemberSignature Language="F#" Value="val mutable DataServerNoSpace : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerNoSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>101711874</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataServerUnreachable">
+      <MemberSignature Language="C#" Value="public const int DataServerUnreachable = 101711873;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataServerUnreachable = (101711873)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerUnreachable" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataServerUnreachable As Integer  = 101711873" />
+      <MemberSignature Language="F#" Value="val mutable DataServerUnreachable : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerUnreachable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>101711873</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataServerUnsupported">
+      <MemberSignature Language="C#" Value="public const int DataServerUnsupported = 102760449;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataServerUnsupported = (102760449)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerUnsupported" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataServerUnsupported As Integer  = 102760449" />
+      <MemberSignature Language="F#" Value="val mutable DataServerUnsupported : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataServerUnsupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760449</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataTransferToAzureFailed">
+      <MemberSignature Language="C#" Value="public const int DataTransferToAzureFailed = 101711877;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataTransferToAzureFailed = (101711877)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataTransferToAzureFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataTransferToAzureFailed As Integer  = 101711877" />
+      <MemberSignature Language="F#" Value="val mutable DataTransferToAzureFailed : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataTransferToAzureFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>101711877</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataTypeMismatch">
+      <MemberSignature Language="C#" Value="public const int DataTypeMismatch = 103809034;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataTypeMismatch = (103809034)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataTypeMismatch" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataTypeMismatch As Integer  = 103809034" />
+      <MemberSignature Language="F#" Value="val mutable DataTypeMismatch : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataTypeMismatch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809034</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataVersionUnsupported">
+      <MemberSignature Language="C#" Value="public const int DataVersionUnsupported = 102760451;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DataVersionUnsupported = (102760451)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataVersionUnsupported" />
+      <MemberSignature Language="VB.NET" Value="Public Const DataVersionUnsupported As Integer  = 102760451" />
+      <MemberSignature Language="F#" Value="val mutable DataVersionUnsupported : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.DataVersionUnsupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760451</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidAllowedUser">
+      <MemberSignature Language="C#" Value="public const int InvalidAllowedUser = 103809040;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 InvalidAllowedUser = (103809040)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.InvalidAllowedUser" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidAllowedUser As Integer  = 103809040" />
+      <MemberSignature Language="F#" Value="val mutable InvalidAllowedUser : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.InvalidAllowedUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809040</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public static string Name (int errorCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Name(int32 errorCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Name(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Name (errorCode As Integer) As String" />
+      <MemberSignature Language="F#" Value="static member Name : int -&gt; string" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Name errorCode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="errorCode" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="errorCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoDataAvailable">
+      <MemberSignature Language="C#" Value="public const int NoDataAvailable = 103809038;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 NoDataAvailable = (103809038)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.NoDataAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Const NoDataAvailable As Integer  = 103809038" />
+      <MemberSignature Language="F#" Value="val mutable NoDataAvailable : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.NoDataAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>103809038</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoDataServerConfigured">
+      <MemberSignature Language="C#" Value="public const int NoDataServerConfigured = 102760452;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 NoDataServerConfigured = (102760452)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.NoDataServerConfigured" />
+      <MemberSignature Language="VB.NET" Value="Public Const NoDataServerConfigured As Integer  = 102760452" />
+      <MemberSignature Language="F#" Value="val mutable NoDataServerConfigured : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.NoDataServerConfigured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>102760452</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Success">
+      <MemberSignature Language="C#" Value="public const int Success = 0;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 Success = (0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Success" />
+      <MemberSignature Language="VB.NET" Value="Public Const Success As Integer  = 0" />
+      <MemberSignature Language="F#" Value="val mutable Success : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Success" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="public const int Unknown = 251658240;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 Unknown = (251658240)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Public Const Unknown As Integer  = 251658240" />
+      <MemberSignature Language="F#" Value="val mutable Unknown : int" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataErrorCode.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>251658240</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

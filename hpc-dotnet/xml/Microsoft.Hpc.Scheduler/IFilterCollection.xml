@@ -1,0 +1,221 @@
+﻿<Type Name="IFilterCollection" FullName="Microsoft.Hpc.Scheduler.IFilterCollection">
+  <TypeSignature Language="C#" Value="public interface IFilterCollection : Microsoft.Hpc.Scheduler.ISchedulerCollection, System.Collections.Generic.ICollection&lt;Microsoft.Hpc.Scheduler.Properties.FilterProperty&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.FilterProperty&gt;, System.Collections.ICollection" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFilterCollection implements class Microsoft.Hpc.Scheduler.ISchedulerCollection, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Hpc.Scheduler.Properties.FilterProperty&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.FilterProperty&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.IFilterCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFilterCollection&#xA;Implements ICollection, ICollection(Of FilterProperty), IEnumerable(Of FilterProperty), ISchedulerCollection" />
+  <TypeSignature Language="F#" Value="type IFilterCollection = interface&#xA;    interface ISchedulerCollection&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ICollection&lt;FilterProperty&gt;&#xA;    interface seq&lt;FilterProperty&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerCollection</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;Microsoft.Hpc.Scheduler.Properties.FilterProperty&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.FilterProperty&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.ICollection</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("ef89423b-f79b-466f-8127-bdab910ae6c1")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a collection of filter property objects used to filter the results when retrieving jobs, task, and nodes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, Microsoft.Hpc.Scheduler.Properties.PropertyId propId, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, class Microsoft.Hpc.Scheduler.Properties.PropertyId propId, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IFilterCollection.Add(Microsoft.Hpc.Scheduler.Properties.FilterOperator,Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (operation As FilterOperator, propId As PropertyId, value As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Hpc.Scheduler.Properties.FilterOperator * Microsoft.Hpc.Scheduler.Properties.PropertyId * obj -&gt; unit" Usage="iFilterCollection.Add (operation, propId, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operation" Type="Microsoft.Hpc.Scheduler.Properties.FilterOperator" />
+        <Parameter Name="propId" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="operation">The operator to use when comparing the specified value to the object's property value. For a list of possible operators, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterOperator"></see> enumeration.</param>
+        <param name="propId">A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that uniquely identifies the property whose value you want to compare.</param>
+        <param name="value">The value to use in the comparison.</param>
+        <summary>Adds a filter to the collection using the specified operator, property identifier object, and value.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, Microsoft.Hpc.Scheduler.PropId propertyId, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, valuetype Microsoft.Hpc.Scheduler.PropId propertyId, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IFilterCollection.Add(Microsoft.Hpc.Scheduler.Properties.FilterOperator,Microsoft.Hpc.Scheduler.PropId,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (operation As FilterOperator, propertyId As PropId, value As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Hpc.Scheduler.Properties.FilterOperator * Microsoft.Hpc.Scheduler.PropId * obj -&gt; unit" Usage="iFilterCollection.Add (operation, propertyId, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operation" Type="Microsoft.Hpc.Scheduler.Properties.FilterOperator" />
+        <Parameter Name="propertyId" Type="Microsoft.Hpc.Scheduler.PropId" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="operation">The operator to use when comparing the specified value to the object's property value. For a list of possible operators, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterOperator"></see> enumeration.</param>
+        <param name="propertyId">An identifier that uniquely identifies the property whose value you want to compare. For possible property identifiers, see the <see cref="T:Microsoft.Hpc.Scheduler.PropId"></see> enumeration.</param>
+        <param name="value">The value to use in the comparison.</param>
+        <summary>Adds a filter to the collection using the specified operator, property identifier, and value.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IFilterCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="iFilterCollection.Clear " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerCollection.Clear</InterfaceMember>
+        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes all filters from the collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IFilterCollection.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Hpc.Scheduler.IFilterCollection.Count" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCollection.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of items in the collection.</summary>
+        <value>The number of items.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IFilterCollection.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="iFilterCollection.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISchedulerCollection.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>An enumerator that you can use to enumerate the items in the collection.</summary>
+        <returns>An <see cref="T:System.Collections.IEnumerator"></see> interface that you use to enumerate the filters in the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFilters">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.FilterProperty[] GetFilters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.FilterProperty[] GetFilters() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IFilterCollection.GetFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFilters () As FilterProperty()" />
+      <MemberSignature Language="F#" Value="abstract member GetFilters : unit -&gt; Microsoft.Hpc.Scheduler.Properties.FilterProperty[]" Usage="iFilterCollection.GetFilters " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Gets an array of the filters from the collection.</summary>
+        <returns>An array of <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterProperty"></see> objects that define the filters in the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.FilterProperty this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.FilterProperty Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IFilterCollection.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As FilterProperty" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Hpc.Scheduler.Properties.FilterProperty" Usage="Microsoft.Hpc.Scheduler.IFilterCollection.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the item to retrieve from the collection.</param>
+        <summary>Retrieves the specified item from the collection.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterProperty"></see> object that defines the filter.
+</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

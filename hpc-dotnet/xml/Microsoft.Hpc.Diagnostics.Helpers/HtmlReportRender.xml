@@ -1,0 +1,423 @@
+﻿<Type Name="HtmlReportRender" FullName="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender">
+  <TypeSignature Language="C#" Value="public class HtmlReportRender" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HtmlReportRender extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender" />
+  <TypeSignature Language="VB.NET" Value="Public Class HtmlReportRender" />
+  <TypeSignature Language="F#" Value="type HtmlReportRender = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HtmlReportRender ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateExpander">
+      <MemberSignature Language="C#" Value="protected static string CreateExpander (bool disableExpander, string linkName, bool defaultExpanded);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string CreateExpander(bool disableExpander, string linkName, bool defaultExpanded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.CreateExpander(System.Boolean,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function CreateExpander (disableExpander As Boolean, linkName As String, defaultExpanded As Boolean) As String" />
+      <MemberSignature Language="F#" Value="static member CreateExpander : bool * string * bool -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.CreateExpander (disableExpander, linkName, defaultExpanded)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disableExpander" Type="System.Boolean" />
+        <Parameter Name="linkName" Type="System.String" />
+        <Parameter Name="defaultExpanded" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disableExpander">To be added.</param>
+        <param name="linkName">To be added.</param>
+        <param name="defaultExpanded">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateBullet">
+      <MemberSignature Language="C#" Value="protected static string GenerateBullet (Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information bullet);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateBullet(class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Information bullet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateBullet(Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GenerateBullet (bullet As StepResult.Information) As String" />
+      <MemberSignature Language="F#" Value="static member GenerateBullet : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateBullet bullet" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bullet" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Information" />
+      </Parameters>
+      <Docs>
+        <param name="bullet">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateBullets">
+      <MemberSignature Language="C#" Value="protected static string GenerateBullets (Microsoft.Hpc.Diagnostics.Helpers.StepResult section);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateBullets(class Microsoft.Hpc.Diagnostics.Helpers.StepResult section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateBullets(Microsoft.Hpc.Diagnostics.Helpers.StepResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GenerateBullets (section As StepResult) As String" />
+      <MemberSignature Language="F#" Value="static member GenerateBullets : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateBullets section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateHtmlReport">
+      <MemberSignature Language="C#" Value="public static string GenerateHtmlReport (Microsoft.Hpc.Diagnostics.Helpers.TestResult testResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateHtmlReport(class Microsoft.Hpc.Diagnostics.Helpers.TestResult testResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateHtmlReport(Microsoft.Hpc.Diagnostics.Helpers.TestResult)" />
+      <MemberSignature Language="F#" Value="static member GenerateHtmlReport : Microsoft.Hpc.Diagnostics.Helpers.TestResult -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateHtmlReport testResult" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="testResult" Type="Microsoft.Hpc.Diagnostics.Helpers.TestResult" />
+      </Parameters>
+      <Docs>
+        <param name="testResult">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateHtmlReport">
+      <MemberSignature Language="C#" Value="public static string GenerateHtmlReport (Microsoft.Hpc.Diagnostics.Helpers.TestResult testResult, string htmlFileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateHtmlReport(class Microsoft.Hpc.Diagnostics.Helpers.TestResult testResult, string htmlFileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateHtmlReport(Microsoft.Hpc.Diagnostics.Helpers.TestResult,System.String)" />
+      <MemberSignature Language="F#" Value="static member GenerateHtmlReport : Microsoft.Hpc.Diagnostics.Helpers.TestResult * string -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateHtmlReport (testResult, htmlFileName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="testResult" Type="Microsoft.Hpc.Diagnostics.Helpers.TestResult" />
+        <Parameter Name="htmlFileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="testResult">To be added.</param>
+        <param name="htmlFileName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GeneratePostStepResult">
+      <MemberSignature Language="C#" Value="public static void GeneratePostStepResult (Microsoft.Hpc.Diagnostics.Helpers.TestResult testResult, string xmlFileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void GeneratePostStepResult(class Microsoft.Hpc.Diagnostics.Helpers.TestResult testResult, string xmlFileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GeneratePostStepResult(Microsoft.Hpc.Diagnostics.Helpers.TestResult,System.String)" />
+      <MemberSignature Language="F#" Value="static member GeneratePostStepResult : Microsoft.Hpc.Diagnostics.Helpers.TestResult * string -&gt; unit" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GeneratePostStepResult (testResult, xmlFileName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="testResult" Type="Microsoft.Hpc.Diagnostics.Helpers.TestResult" />
+        <Parameter Name="xmlFileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="testResult">To be added.</param>
+        <param name="xmlFileName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateRows">
+      <MemberSignature Language="C#" Value="protected static string GenerateRows (Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table table);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateRows(class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Table table) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateRows(Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table)" />
+      <MemberSignature Language="F#" Value="static member GenerateRows : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateRows table" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="table" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Table" />
+      </Parameters>
+      <Docs>
+        <param name="table">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateStepResultHtml">
+      <MemberSignature Language="C#" Value="protected static string GenerateStepResultHtml (Microsoft.Hpc.Diagnostics.Helpers.StepResult section);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateStepResultHtml(class Microsoft.Hpc.Diagnostics.Helpers.StepResult section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateStepResultHtml(Microsoft.Hpc.Diagnostics.Helpers.StepResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GenerateStepResultHtml (section As StepResult) As String" />
+      <MemberSignature Language="F#" Value="static member GenerateStepResultHtml : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateStepResultHtml section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateTable">
+      <MemberSignature Language="C#" Value="protected static string GenerateTable (Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table table);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateTable(class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Table table) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateTable(Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table)" />
+      <MemberSignature Language="F#" Value="static member GenerateTable : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateTable table" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="table" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Table" />
+      </Parameters>
+      <Docs>
+        <param name="table">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateTables">
+      <MemberSignature Language="C#" Value="protected static string GenerateTables (Microsoft.Hpc.Diagnostics.Helpers.StepResult section);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateTables(class Microsoft.Hpc.Diagnostics.Helpers.StepResult section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateTables(Microsoft.Hpc.Diagnostics.Helpers.StepResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GenerateTables (section As StepResult) As String" />
+      <MemberSignature Language="F#" Value="static member GenerateTables : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GenerateTables section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultIconOfExpand">
+      <MemberSignature Language="C#" Value="protected static string GetDefaultIconOfExpand (bool defaultExpand);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GetDefaultIconOfExpand(bool defaultExpand) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetDefaultIconOfExpand(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetDefaultIconOfExpand (defaultExpand As Boolean) As String" />
+      <MemberSignature Language="F#" Value="static member GetDefaultIconOfExpand : bool -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetDefaultIconOfExpand defaultExpand" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="defaultExpand" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="defaultExpand">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultVisibilityString">
+      <MemberSignature Language="C#" Value="protected static string GetDefaultVisibilityString (bool defaultExpand);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GetDefaultVisibilityString(bool defaultExpand) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetDefaultVisibilityString(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetDefaultVisibilityString (defaultExpand As Boolean) As String" />
+      <MemberSignature Language="F#" Value="static member GetDefaultVisibilityString : bool -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetDefaultVisibilityString defaultExpand" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="defaultExpand" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="defaultExpand">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStringOfResult">
+      <MemberSignature Language="C#" Value="protected static string GetStringOfResult (Microsoft.Hpc.Diagnostics.Helpers.StepResult section);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GetStringOfResult(class Microsoft.Hpc.Diagnostics.Helpers.StepResult section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStringOfResult(Microsoft.Hpc.Diagnostics.Helpers.StepResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetStringOfResult (section As StepResult) As String" />
+      <MemberSignature Language="F#" Value="static member GetStringOfResult : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStringOfResult section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStringOfResult">
+      <MemberSignature Language="C#" Value="protected static string GetStringOfResult (Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode code);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GetStringOfResult(valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode code) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStringOfResult(Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetStringOfResult (code As StepResult.ResultCode) As String" />
+      <MemberSignature Language="F#" Value="static member GetStringOfResult : Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStringOfResult code" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="code" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode" />
+      </Parameters>
+      <Docs>
+        <param name="code">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStyleOfResult">
+      <MemberSignature Language="C#" Value="protected static string GetStyleOfResult (Microsoft.Hpc.Diagnostics.Helpers.StepResult section);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GetStyleOfResult(class Microsoft.Hpc.Diagnostics.Helpers.StepResult section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStyleOfResult(Microsoft.Hpc.Diagnostics.Helpers.StepResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetStyleOfResult (section As StepResult) As String" />
+      <MemberSignature Language="F#" Value="static member GetStyleOfResult : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStyleOfResult section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStyleOfResult">
+      <MemberSignature Language="C#" Value="protected static string GetStyleOfResult (Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode code);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GetStyleOfResult(valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode code) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStyleOfResult(Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GetStyleOfResult (code As StepResult.ResultCode) As String" />
+      <MemberSignature Language="F#" Value="static member GetStyleOfResult : Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode -&gt; string" Usage="Microsoft.Hpc.Diagnostics.Helpers.HtmlReportRender.GetStyleOfResult code" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="code" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode" />
+      </Parameters>
+      <Docs>
+        <param name="code">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,602 @@
+﻿<Type Name="ISchedulerAdapterInternal" FullName="Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal">
+  <TypeSignature Language="C#" Value="public interface ISchedulerAdapterInternal" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerAdapterInternal" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerAdapterInternal" />
+  <TypeSignature Language="F#" Value="type ISchedulerAdapterInternal = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Namespace="http://hpc.microsoft.com")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DumpEventLog">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; DumpEventLog (string targetFolder, string logName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; DumpEventLog(string targetFolder, string logName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.DumpEventLog(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DumpEventLog (targetFolder As String, logName As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member DumpEventLog : string * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iSchedulerAdapterInternal.DumpEventLog (targetFolder, logName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetFolder" Type="System.String" />
+        <Parameter Name="logName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="targetFolder">To be added.</param>
+        <param name="logName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailJob">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task FailJob (int jobid, string reason);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task FailJob(int32 jobid, string reason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.FailJob(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FailJob (jobid As Integer, reason As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member FailJob : int * string -&gt; System.Threading.Tasks.Task" Usage="iSchedulerAdapterInternal.FailJob (jobid, reason)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+        <Parameter Name="reason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <param name="reason">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllSessionId">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;int&gt;&gt; GetAllSessionId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;int32&gt;&gt; GetAllSessionId() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetAllSessionId" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAllSessionId () As Task(Of List(Of Integer))" />
+      <MemberSignature Language="F#" Value="abstract member GetAllSessionId : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;int&gt;&gt;" Usage="iSchedulerAdapterInternal.GetAllSessionId " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.Int32&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBrokerNodeName">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt; GetBrokerNodeName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; GetBrokerNodeName() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetBrokerNodeName" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBrokerNodeName () As Task(Of List(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member GetBrokerNodeName : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt;" Usage="iSchedulerAdapterInternal.GetBrokerNodeName " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobAllocatedNodeName">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Tuple&lt;string,bool&gt;&gt;&gt; GetJobAllocatedNodeName (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;class System.Tuple`2&lt;string, bool&gt;&gt;&gt; GetJobAllocatedNodeName(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetJobAllocatedNodeName(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobAllocatedNodeName (jobid As Integer) As Task(Of List(Of Tuple(Of String, Boolean)))" />
+      <MemberSignature Language="F#" Value="abstract member GetJobAllocatedNodeName : int -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string * bool&gt;&gt;" Usage="iSchedulerAdapterInternal.GetJobAllocatedNodeName jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.Tuple&lt;System.String,System.Boolean&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobCustomizedProperties">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;string,string&gt;&gt; GetJobCustomizedProperties (int jobid, string[] propNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.Dictionary`2&lt;string, string&gt;&gt; GetJobCustomizedProperties(int32 jobid, string[] propNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetJobCustomizedProperties(System.Int32,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobCustomizedProperties (jobid As Integer, propNames As String()) As Task(Of Dictionary(Of String, String))" />
+      <MemberSignature Language="F#" Value="abstract member GetJobCustomizedProperties : int * string[] -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;string, string&gt;&gt;" Usage="iSchedulerAdapterInternal.GetJobCustomizedProperties (jobid, propNames)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+        <Parameter Name="propNames" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <param name="propNames">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobOwnerSID">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetJobOwnerSID (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetJobOwnerSID(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetJobOwnerSID(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobOwnerSID (jobid As Integer) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetJobOwnerSID : int -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iSchedulerAdapterInternal.GetJobOwnerSID jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobRequeueCount">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;int&gt; GetJobRequeueCount (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;int32&gt; GetJobRequeueCount(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetJobRequeueCount(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobRequeueCount (jobid As Integer) As Task(Of Integer)" />
+      <MemberSignature Language="F#" Value="abstract member GetJobRequeueCount : int -&gt; System.Threading.Tasks.Task&lt;int&gt;" Usage="iSchedulerAdapterInternal.GetJobRequeueCount jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobTemlpateACL">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetJobTemlpateACL (string jobTemplate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetJobTemlpateACL(string jobTemplate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetJobTemlpateACL(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobTemlpateACL (jobTemplate As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetJobTemlpateACL : string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iSchedulerAdapterInternal.GetJobTemlpateACL jobTemplate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobTemplate" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobTemplate">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNonTerminatedSession">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;int,int&gt;&gt; GetNonTerminatedSession ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.Dictionary`2&lt;int32, int32&gt;&gt; GetNonTerminatedSession() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetNonTerminatedSession" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNonTerminatedSession () As Task(Of Dictionary(Of Integer, Integer))" />
+      <MemberSignature Language="F#" Value="abstract member GetNonTerminatedSession : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;int, int&gt;&gt;" Usage="iSchedulerAdapterInternal.GetNonTerminatedSession " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;System.Int32,System.Int32&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecoverInfoFromJob">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo&gt; GetRecoverInfoFromJob (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo&gt; GetRecoverInfoFromJob(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetRecoverInfoFromJob(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRecoverInfoFromJob (jobid As Integer) As Task(Of BrokerRecoverInfo)" />
+      <MemberSignature Language="F#" Value="abstract member GetRecoverInfoFromJob : int -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo&gt;" Usage="iSchedulerAdapterInternal.GetRecoverInfoFromJob jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecoverInfoFromJobs">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo[]&gt; GetRecoverInfoFromJobs (string machineName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo[]&gt; GetRecoverInfoFromJobs(string machineName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetRecoverInfoFromJobs(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRecoverInfoFromJobs (machineName As String) As Task(Of BrokerRecoverInfo())" />
+      <MemberSignature Language="F#" Value="abstract member GetRecoverInfoFromJobs : string -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo[]&gt;" Usage="iSchedulerAdapterInternal.GetRecoverInfoFromJobs machineName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.BrokerRecoverInfo[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="machineName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="machineName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSessionBrokerNodeName">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetSessionBrokerNodeName (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetSessionBrokerNodeName(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetSessionBrokerNodeName(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSessionBrokerNodeName (jobid As Integer) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetSessionBrokerNodeName : int -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iSchedulerAdapterInternal.GetSessionBrokerNodeName jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTaskAllocatedNodeName">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Tuple&lt;string,bool&gt;&gt;&gt; GetTaskAllocatedNodeName (int jobid, int taskid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;class System.Tuple`2&lt;string, bool&gt;&gt;&gt; GetTaskAllocatedNodeName(int32 jobid, int32 taskid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.GetTaskAllocatedNodeName(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTaskAllocatedNodeName (jobid As Integer, taskid As Integer) As Task(Of List(Of Tuple(Of String, Boolean)))" />
+      <MemberSignature Language="F#" Value="abstract member GetTaskAllocatedNodeName : int * int -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string * bool&gt;&gt;" Usage="iSchedulerAdapterInternal.GetTaskAllocatedNodeName (jobid, taskid)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.Tuple&lt;System.String,System.Boolean&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+        <Parameter Name="taskid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <param name="taskid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDiagTraceEnabled">
+      <MemberSignature Language="C#" Value="public bool IsDiagTraceEnabled (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDiagTraceEnabled(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.IsDiagTraceEnabled(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsDiagTraceEnabled (jobid As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsDiagTraceEnabled : int -&gt; bool" Usage="iSchedulerAdapterInternal.IsDiagTraceEnabled jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValidJob">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; IsValidJob (int jobid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; IsValidJob(int32 jobid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.IsValidJob(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsValidJob (jobid As Integer) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member IsValidJob : int -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iSchedulerAdapterInternal.IsValidJob jobid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetJobProgressMessage">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetJobProgressMessage (int jobid, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetJobProgressMessage(int32 jobid, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.SetJobProgressMessage(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetJobProgressMessage (jobid As Integer, message As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member SetJobProgressMessage : int * string -&gt; System.Threading.Tasks.Task" Usage="iSchedulerAdapterInternal.SetJobProgressMessage (jobid, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateBrokerInfo">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; UpdateBrokerInfo (int jobid, System.Collections.Generic.Dictionary&lt;string,object&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; UpdateBrokerInfo(int32 jobid, class System.Collections.Generic.Dictionary`2&lt;string, object&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISchedulerAdapterInternal.UpdateBrokerInfo(System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Function UpdateBrokerInfo (jobid As Integer, properties As Dictionary(Of String, Object)) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateBrokerInfo : int * System.Collections.Generic.Dictionary&lt;string, obj&gt; -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iSchedulerAdapterInternal.UpdateBrokerInfo (jobid, properties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.Internal.SessionFault), Action="http://hpc.microsoft.com/session/SessionFault")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobid" Type="System.Int32" />
+        <Parameter Name="properties" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="jobid">To be added.</param>
+        <param name="properties">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,153 @@
+﻿<Type Name="ThreadPrincipalMessageHeader" FullName="Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader">
+  <TypeSignature Language="C#" Value="public class ThreadPrincipalMessageHeader : System.ServiceModel.Channels.MessageHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ThreadPrincipalMessageHeader extends System.ServiceModel.Channels.MessageHeader" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader" />
+  <TypeSignature Language="VB.NET" Value="Public Class ThreadPrincipalMessageHeader&#xA;Inherits MessageHeader" />
+  <TypeSignature Language="F#" Value="type ThreadPrincipalMessageHeader = class&#xA;    inherit MessageHeader" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ServiceModel.Channels.MessageHeader</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ThreadPrincipalMessageHeader (Microsoft.Hpc.ServiceAsClientPrincipalProvider provider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.ServiceAsClientPrincipalProvider provider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.#ctor(Microsoft.Hpc.ServiceAsClientPrincipalProvider)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (provider As ServiceAsClientPrincipalProvider)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader : Microsoft.Hpc.ServiceAsClientPrincipalProvider -&gt; Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader" Usage="new Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader provider" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="provider" Type="Microsoft.Hpc.ServiceAsClientPrincipalProvider" />
+      </Parameters>
+      <Docs>
+        <param name="provider">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeserializePrincipal">
+      <MemberSignature Language="C#" Value="public static System.Security.Principal.IPrincipal DeserializePrincipal (string str);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.IPrincipal DeserializePrincipal(string str) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.DeserializePrincipal(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeserializePrincipal (str As String) As IPrincipal" />
+      <MemberSignature Language="F#" Value="static member DeserializePrincipal : string -&gt; System.Security.Principal.IPrincipal" Usage="Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.DeserializePrincipal str" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.IPrincipal</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public override string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Namespace">
+      <MemberSignature Language="C#" Value="public override string Namespace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Namespace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.Namespace" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Namespace As String" />
+      <MemberSignature Language="F#" Value="member this.Namespace : string" Usage="Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.Namespace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnWriteHeaderContents">
+      <MemberSignature Language="C#" Value="protected override void OnWriteHeaderContents (System.Xml.XmlDictionaryWriter writer, System.ServiceModel.Channels.MessageVersion messageVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnWriteHeaderContents(class System.Xml.XmlDictionaryWriter writer, class System.ServiceModel.Channels.MessageVersion messageVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.OnWriteHeaderContents(System.Xml.XmlDictionaryWriter,System.ServiceModel.Channels.MessageVersion)" />
+      <MemberSignature Language="F#" Value="override this.OnWriteHeaderContents : System.Xml.XmlDictionaryWriter * System.ServiceModel.Channels.MessageVersion -&gt; unit" Usage="threadPrincipalMessageHeader.OnWriteHeaderContents (writer, messageVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Xml.XmlDictionaryWriter" />
+        <Parameter Name="messageVersion" Type="System.ServiceModel.Channels.MessageVersion" />
+      </Parameters>
+      <Docs>
+        <param name="writer">To be added.</param>
+        <param name="messageVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadHeader">
+      <MemberSignature Language="C#" Value="public static System.Security.Principal.IPrincipal ReadHeader (System.ServiceModel.Channels.Message request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.IPrincipal ReadHeader(class System.ServiceModel.Channels.Message request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.ReadHeader(System.ServiceModel.Channels.Message)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadHeader (request As Message) As IPrincipal" />
+      <MemberSignature Language="F#" Value="static member ReadHeader : System.ServiceModel.Channels.Message -&gt; System.Security.Principal.IPrincipal" Usage="Microsoft.Hpc.Scheduler.Store.ThreadPrincipalMessageHeader.ReadHeader request" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.IPrincipal</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.ServiceModel.Channels.Message" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

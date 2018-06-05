@@ -1,0 +1,150 @@
+﻿<Type Name="DataFault" FullName="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault">
+  <TypeSignature Language="C#" Value="public class DataFault" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DataFault extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault" />
+  <TypeSignature Language="VB.NET" Value="Public Class DataFault" />
+  <TypeSignature Language="F#" Value="type DataFault = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract(Namespace="http://hpc.microsoft.com/dataservice/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DataFault (int faultCode, string reason, params object[] context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 faultCode, string reason, object[] context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.#ctor(System.Int32,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (faultCode As Integer, reason As String, ParamArray context As Object())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault : int * string * obj[] -&gt; Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault" Usage="new Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault (faultCode, reason, context)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="faultCode" Type="System.Int32" />
+        <Parameter Name="reason" Type="System.String" />
+        <Parameter Name="context" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="faultCode">To be added.</param>
+        <param name="reason">To be added.</param>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Action">
+      <MemberSignature Language="C#" Value="public const string Action;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Action" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Action" />
+      <MemberSignature Language="VB.NET" Value="Public Const Action As String " />
+      <MemberSignature Language="F#" Value="val mutable Action : string" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Action" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Code">
+      <MemberSignature Language="C#" Value="public int Code { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Code" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Code" />
+      <MemberSignature Language="VB.NET" Value="Public Property Code As Integer" />
+      <MemberSignature Language="F#" Value="member this.Code : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Code" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public object[] Context { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object[] Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Context" />
+      <MemberSignature Language="VB.NET" Value="Public Property Context As Object()" />
+      <MemberSignature Language="F#" Value="member this.Context : obj[] with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Context" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reason">
+      <MemberSignature Language="C#" Value="public string Reason { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Reason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Reason" />
+      <MemberSignature Language="VB.NET" Value="Public Property Reason As String" />
+      <MemberSignature Language="F#" Value="member this.Reason : string with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataFault.Reason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

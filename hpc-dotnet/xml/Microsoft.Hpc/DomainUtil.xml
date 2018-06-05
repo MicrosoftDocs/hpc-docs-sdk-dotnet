@@ -1,0 +1,140 @@
+﻿<Type Name="DomainUtil" FullName="Microsoft.Hpc.DomainUtil">
+  <TypeSignature Language="C#" Value="public static class DomainUtil" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DomainUtil extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.DomainUtil" />
+  <TypeSignature Language="VB.NET" Value="Public Class DomainUtil" />
+  <TypeSignature Language="F#" Value="type DomainUtil = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorSuccess">
+      <MemberSignature Language="C#" Value="public const int ErrorSuccess = 0;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 ErrorSuccess = (0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.DomainUtil.ErrorSuccess" />
+      <MemberSignature Language="VB.NET" Value="Public Const ErrorSuccess As Integer  = 0" />
+      <MemberSignature Language="F#" Value="val mutable ErrorSuccess : int" Usage="Microsoft.Hpc.DomainUtil.ErrorSuccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInDomain">
+      <MemberSignature Language="C#" Value="public static bool IsInDomain ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInDomain() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.DomainUtil.IsInDomain" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsInDomain () As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsInDomain : unit -&gt; bool" Usage="Microsoft.Hpc.DomainUtil.IsInDomain " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LookupAccountName">
+      <MemberSignature Language="C#" Value="public static System.Security.Principal.SecurityIdentifier LookupAccountName (string systemName, string accountName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.SecurityIdentifier LookupAccountName(string systemName, string accountName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.DomainUtil.LookupAccountName(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LookupAccountName (systemName As String, accountName As String) As SecurityIdentifier" />
+      <MemberSignature Language="F#" Value="static member LookupAccountName : string * string -&gt; System.Security.Principal.SecurityIdentifier" Usage="Microsoft.Hpc.DomainUtil.LookupAccountName (systemName, accountName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="systemName" Type="System.String" />
+        <Parameter Name="accountName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="systemName">To be added.</param>
+        <param name="accountName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetApiBufferFree">
+      <MemberSignature Language="C#" Value="public static int NetApiBufferFree (IntPtr Buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig pinvokeimpl (&quot;Netapi32.dll&quot; as &quot;NetApiBufferFree&quot; winapi)int32 NetApiBufferFree(native int Buffer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.DomainUtil.NetApiBufferFree(System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NetApiBufferFree (Buffer As IntPtr) As Integer" />
+      <MemberSignature Language="F#" Value="static member NetApiBufferFree : nativeint -&gt; int" Usage="Microsoft.Hpc.DomainUtil.NetApiBufferFree Buffer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Buffer" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="Buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetGetJoinInformation">
+      <MemberSignature Language="C#" Value="public static int NetGetJoinInformation (string server, out IntPtr domain, out Microsoft.Hpc.DomainUtil.NetJoinStatus status);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig pinvokeimpl (&quot;Netapi32.dll&quot; as &quot;NetGetJoinInformation&quot; unicode winapi lasterr)int32 NetGetJoinInformation(string server, [out] native int&amp; domain, [out] valuetype Microsoft.Hpc.DomainUtil/NetJoinStatus&amp; status) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.DomainUtil.NetGetJoinInformation(System.String,System.IntPtr@,Microsoft.Hpc.DomainUtil.NetJoinStatus@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NetGetJoinInformation (server As String, ByRef domain As IntPtr, ByRef status As DomainUtil.NetJoinStatus) As Integer" />
+      <MemberSignature Language="F#" Value="static member NetGetJoinInformation : string *  *  -&gt; int" Usage="Microsoft.Hpc.DomainUtil.NetGetJoinInformation (server, domain, status)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="server" Type="System.String" />
+        <Parameter Name="domain" Type="System.IntPtr&amp;" RefType="out" />
+        <Parameter Name="status" Type="Microsoft.Hpc.DomainUtil+NetJoinStatus&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="server">To be added.</param>
+        <param name="domain">To be added.</param>
+        <param name="status">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,129 @@
+﻿<Type Name="IRemoteCommandEvents" FullName="Microsoft.Hpc.Scheduler.IRemoteCommandEvents">
+  <TypeSignature Language="C#" Value="public interface IRemoteCommandEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRemoteCommandEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.IRemoteCommandEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRemoteCommandEvents" />
+  <TypeSignature Language="F#" Value="type IRemoteCommandEvents = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("9ce35cdf-a433-4e02-b226-5d2c2143adbd")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the interface that COM applications implement to handle events raised by the <see cref="T:Microsoft.Hpc.Scheduler.IRemoteCommand" /> object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnCommandJobState">
+      <MemberSignature Language="C#" Value="public void OnCommandJobState (object sender, Microsoft.Hpc.Scheduler.JobStateEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnCommandJobState(object sender, class Microsoft.Hpc.Scheduler.JobStateEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IRemoteCommandEvents.OnCommandJobState(System.Object,Microsoft.Hpc.Scheduler.JobStateEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCommandJobState (sender As Object, arg As JobStateEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnCommandJobState : obj * Microsoft.Hpc.Scheduler.JobStateEventArg -&gt; unit" Usage="iRemoteCommandEvents.OnCommandJobState (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.JobStateEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The command object that sent the event.</param>
+        <param name="arg">A <see cref="T:Microsoft.Hpc.Scheduler.JobStateEventArg"></see> object that contains the event properties.</param>
+        <summary>Is called each time the state of the job that contains the command changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandOutput">
+      <MemberSignature Language="C#" Value="public void OnCommandOutput (object sender, Microsoft.Hpc.Scheduler.CommandOutputEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnCommandOutput(object sender, class Microsoft.Hpc.Scheduler.CommandOutputEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IRemoteCommandEvents.OnCommandOutput(System.Object,Microsoft.Hpc.Scheduler.CommandOutputEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCommandOutput (sender As Object, arg As CommandOutputEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnCommandOutput : obj * Microsoft.Hpc.Scheduler.CommandOutputEventArg -&gt; unit" Usage="iRemoteCommandEvents.OnCommandOutput (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.CommandOutputEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The command object that sent the event.</param>
+        <param name="arg">A <see cref="T:Microsoft.Hpc.Scheduler.CommandOutputEventArg"></see> object that contains the event properties.</param>
+        <summary>Is called each time the command generates a line of output.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandRawOutput">
+      <MemberSignature Language="C#" Value="public void OnCommandRawOutput (object sender, Microsoft.Hpc.Scheduler.CommandRawOutputEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnCommandRawOutput(object sender, class Microsoft.Hpc.Scheduler.CommandRawOutputEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IRemoteCommandEvents.OnCommandRawOutput(System.Object,Microsoft.Hpc.Scheduler.CommandRawOutputEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCommandRawOutput (sender As Object, arg As CommandRawOutputEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnCommandRawOutput : obj * Microsoft.Hpc.Scheduler.CommandRawOutputEventArg -&gt; unit" Usage="iRemoteCommandEvents.OnCommandRawOutput (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.CommandRawOutputEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The command object that sent the event.</param>
+        <param name="arg">A <see cref="T:Microsoft.Hpc.Scheduler.CommandRawOutputEventArg"></see> object that contains the event properties.</param>
+        <summary>Is called each time the command generates output. The output is not encoded and is returned as a byte blob. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandTaskState">
+      <MemberSignature Language="C#" Value="public void OnCommandTaskState (object sender, Microsoft.Hpc.Scheduler.CommandTaskStateEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnCommandTaskState(object sender, class Microsoft.Hpc.Scheduler.CommandTaskStateEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IRemoteCommandEvents.OnCommandTaskState(System.Object,Microsoft.Hpc.Scheduler.CommandTaskStateEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCommandTaskState (sender As Object, arg As CommandTaskStateEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnCommandTaskState : obj * Microsoft.Hpc.Scheduler.CommandTaskStateEventArg -&gt; unit" Usage="iRemoteCommandEvents.OnCommandTaskState (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.CommandTaskStateEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The command object that sent the event.</param>
+        <param name="arg">A <see cref="T:Microsoft.Hpc.Scheduler.CommandTaskStateEventArg"></see> object that contains the event properties.</param>
+        <summary>Is called each time the state of the command changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

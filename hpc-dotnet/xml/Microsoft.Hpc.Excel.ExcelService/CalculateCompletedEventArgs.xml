@@ -1,0 +1,74 @@
+﻿<Type Name="CalculateCompletedEventArgs" FullName="Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class CalculateCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalculateCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalculateCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="F#" Value="type CalculateCompletedEventArgs = class&#xA;    inherit AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("System.ServiceModel", "3.0.0.0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalculateCompletedEventArgs (object[] results, Exception exception, bool cancelled, object userState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object[] results, class System.Exception exception, bool cancelled, object userState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs.#ctor(System.Object[],System.Exception,System.Boolean,System.Object)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs : obj[] * Exception * bool * obj -&gt; Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs" Usage="new Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs (results, exception, cancelled, userState)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="results" Type="System.Object[]" />
+        <Parameter Name="exception" Type="System.Exception" />
+        <Parameter Name="cancelled" Type="System.Boolean" />
+        <Parameter Name="userState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="results">To be added.</param>
+        <param name="exception">To be added.</param>
+        <param name="cancelled">To be added.</param>
+        <param name="userState">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Excel.ExcelService.CalculateResponse Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Excel.ExcelService.CalculateResponse Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CalculateResponse" />
+      <MemberSignature Language="F#" Value="member this.Result : Microsoft.Hpc.Excel.ExcelService.CalculateResponse" Usage="Microsoft.Hpc.Excel.ExcelService.CalculateCompletedEventArgs.Result" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Excel.ExcelService.CalculateResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

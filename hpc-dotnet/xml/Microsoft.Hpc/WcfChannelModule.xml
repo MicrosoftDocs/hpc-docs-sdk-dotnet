@@ -1,0 +1,756 @@
+﻿<Type Name="WcfChannelModule" FullName="Microsoft.Hpc.WcfChannelModule">
+  <TypeSignature Language="C#" Value="public static class WcfChannelModule" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WcfChannelModule extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.WcfChannelModule" />
+  <TypeSignature Language="VB.NET" Value="Public Module WcfChannelModule" />
+  <TypeSignature Language="F#" Value="type WcfChannelModule = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CheckWcfProxyHealth">
+      <MemberSignature Language="C#" Value="public static bool CheckWcfProxyHealth (object wcfProxyObj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CheckWcfProxyHealth(object wcfProxyObj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CheckWcfProxyHealth(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CheckWcfProxyHealth (wcfProxyObj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="static member CheckWcfProxyHealth : obj -&gt; bool" Usage="Microsoft.Hpc.WcfChannelModule.CheckWcfProxyHealth wcfProxyObj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="wcfProxyObj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="wcfProxyObj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearWcfChannelFactoryCache">
+      <MemberSignature Language="C#" Value="public static void ClearWcfChannelFactoryCache ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClearWcfChannelFactoryCache() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.ClearWcfChannelFactoryCache" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearWcfChannelFactoryCache ()" />
+      <MemberSignature Language="F#" Value="static member ClearWcfChannelFactoryCache : unit -&gt; unit" Usage="Microsoft.Hpc.WcfChannelModule.ClearWcfChannelFactoryCache " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateInternalWcfProxyAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;T&gt; CreateInternalWcfProxyAsync&lt;T&gt; (string endPointStr, Microsoft.Hpc.IHpcContext context, Microsoft.Hpc.EndpointBehaviorBase behavior = null) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; CreateInternalWcfProxyAsync&lt;class T&gt;(string endPointStr, class Microsoft.Hpc.IHpcContext context, class Microsoft.Hpc.EndpointBehaviorBase behavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateInternalWcfProxyAsync``1(System.String,Microsoft.Hpc.IHpcContext,Microsoft.Hpc.EndpointBehaviorBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateInternalWcfProxyAsync(Of T As Class) (endPointStr As String, context As IHpcContext, Optional behavior As EndpointBehaviorBase = null) As Task(Of T)" />
+      <MemberSignature Language="F#" Value="static member CreateInternalWcfProxyAsync : string * Microsoft.Hpc.IHpcContext * Microsoft.Hpc.EndpointBehaviorBase -&gt; System.Threading.Tasks.Task&lt;'T (requires 'T : null)&gt; (requires 'T : null)" Usage="Microsoft.Hpc.WcfChannelModule.CreateInternalWcfProxyAsync (endPointStr, context, behavior)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;CreateInternalWcfProxyAsync&gt;d__20`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="endPointStr" Type="System.String" />
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="behavior" Type="Microsoft.Hpc.EndpointBehaviorBase" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="endPointStr">To be added.</param>
+        <param name="context">To be added.</param>
+        <param name="behavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateInternalWcfProxyAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;T&gt; CreateInternalWcfProxyAsync&lt;T&gt; (Uri uri, Microsoft.Hpc.IHpcContext context, Microsoft.Hpc.EndpointBehaviorBase behavior = null) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; CreateInternalWcfProxyAsync&lt;class T&gt;(class System.Uri uri, class Microsoft.Hpc.IHpcContext context, class Microsoft.Hpc.EndpointBehaviorBase behavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateInternalWcfProxyAsync``1(System.Uri,Microsoft.Hpc.IHpcContext,Microsoft.Hpc.EndpointBehaviorBase)" />
+      <MemberSignature Language="F#" Value="static member CreateInternalWcfProxyAsync : Uri * Microsoft.Hpc.IHpcContext * Microsoft.Hpc.EndpointBehaviorBase -&gt; System.Threading.Tasks.Task&lt;'T (requires 'T : null)&gt; (requires 'T : null)" Usage="Microsoft.Hpc.WcfChannelModule.CreateInternalWcfProxyAsync (uri, context, behavior)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;CreateInternalWcfProxyAsync&gt;d__21`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="uri" Type="System.Uri" />
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="behavior" Type="Microsoft.Hpc.EndpointBehaviorBase" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="uri">To be added.</param>
+        <param name="context">To be added.</param>
+        <param name="behavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWcfChannel&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.ServiceHost CreateWcfChannel&lt;T&gt; (object singletonInstance, System.ServiceModel.Channels.Binding binding, string address, string thumbPrint = null, System.ServiceModel.ServiceAuthorizationManager authorizationManager = null, System.ServiceModel.Description.PrincipalPermissionMode permissionMode = System.ServiceModel.Description.PrincipalPermissionMode.UseWindowsGroups, System.ServiceModel.Description.ServiceThrottlingBehavior throttlingBehavior = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.ServiceHost CreateWcfChannel&lt;T&gt;(object singletonInstance, class System.ServiceModel.Channels.Binding binding, string address, string thumbPrint, class System.ServiceModel.ServiceAuthorizationManager authorizationManager, valuetype System.ServiceModel.Description.PrincipalPermissionMode permissionMode, class System.ServiceModel.Description.ServiceThrottlingBehavior throttlingBehavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateWcfChannel``1(System.Object,System.ServiceModel.Channels.Binding,System.String,System.String,System.ServiceModel.ServiceAuthorizationManager,System.ServiceModel.Description.PrincipalPermissionMode,System.ServiceModel.Description.ServiceThrottlingBehavior)" />
+      <MemberSignature Language="F#" Value="static member CreateWcfChannel : obj * System.ServiceModel.Channels.Binding * string * string * System.ServiceModel.ServiceAuthorizationManager * System.ServiceModel.Description.PrincipalPermissionMode * System.ServiceModel.Description.ServiceThrottlingBehavior -&gt; System.ServiceModel.ServiceHost" Usage="Microsoft.Hpc.WcfChannelModule.CreateWcfChannel (singletonInstance, binding, address, thumbPrint, authorizationManager, permissionMode, throttlingBehavior)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.ServiceHost</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="thumbPrint" Type="System.String" />
+        <Parameter Name="authorizationManager" Type="System.ServiceModel.ServiceAuthorizationManager" />
+        <Parameter Name="permissionMode" Type="System.ServiceModel.Description.PrincipalPermissionMode" />
+        <Parameter Name="throttlingBehavior" Type="System.ServiceModel.Description.ServiceThrottlingBehavior" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="singletonInstance">To be added.</param>
+        <param name="binding">To be added.</param>
+        <param name="address">To be added.</param>
+        <param name="thumbPrint">To be added.</param>
+        <param name="authorizationManager">To be added.</param>
+        <param name="permissionMode">To be added.</param>
+        <param name="throttlingBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWcfChannel&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.ServiceHost CreateWcfChannel&lt;T&gt; (object singletonInstance, System.ServiceModel.Channels.Binding binding, Uri address, string thumbPrint = null, System.ServiceModel.ServiceAuthorizationManager authorizationManager = null, System.ServiceModel.Description.PrincipalPermissionMode permissionMode = System.ServiceModel.Description.PrincipalPermissionMode.UseWindowsGroups, System.ServiceModel.Description.ServiceThrottlingBehavior throttlingBehavior = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.ServiceHost CreateWcfChannel&lt;T&gt;(object singletonInstance, class System.ServiceModel.Channels.Binding binding, class System.Uri address, string thumbPrint, class System.ServiceModel.ServiceAuthorizationManager authorizationManager, valuetype System.ServiceModel.Description.PrincipalPermissionMode permissionMode, class System.ServiceModel.Description.ServiceThrottlingBehavior throttlingBehavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateWcfChannel``1(System.Object,System.ServiceModel.Channels.Binding,System.Uri,System.String,System.ServiceModel.ServiceAuthorizationManager,System.ServiceModel.Description.PrincipalPermissionMode,System.ServiceModel.Description.ServiceThrottlingBehavior)" />
+      <MemberSignature Language="F#" Value="static member CreateWcfChannel : obj * System.ServiceModel.Channels.Binding * Uri * string * System.ServiceModel.ServiceAuthorizationManager * System.ServiceModel.Description.PrincipalPermissionMode * System.ServiceModel.Description.ServiceThrottlingBehavior -&gt; System.ServiceModel.ServiceHost" Usage="Microsoft.Hpc.WcfChannelModule.CreateWcfChannel (singletonInstance, binding, address, thumbPrint, authorizationManager, permissionMode, throttlingBehavior)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.ServiceHost</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="address" Type="System.Uri" />
+        <Parameter Name="thumbPrint" Type="System.String" />
+        <Parameter Name="authorizationManager" Type="System.ServiceModel.ServiceAuthorizationManager" />
+        <Parameter Name="permissionMode" Type="System.ServiceModel.Description.PrincipalPermissionMode" />
+        <Parameter Name="throttlingBehavior" Type="System.ServiceModel.Description.ServiceThrottlingBehavior" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="singletonInstance">To be added.</param>
+        <param name="binding">To be added.</param>
+        <param name="address">To be added.</param>
+        <param name="thumbPrint">To be added.</param>
+        <param name="authorizationManager">To be added.</param>
+        <param name="permissionMode">To be added.</param>
+        <param name="throttlingBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWcfProxy&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T CreateWcfProxy&lt;T&gt; (string endPointStr) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T CreateWcfProxy&lt;class T&gt;(string endPointStr) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateWcfProxy``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateWcfProxy(Of T As Class) (endPointStr As String) As T" />
+      <MemberSignature Language="F#" Value="static member CreateWcfProxy : string -&gt; 'T (requires 'T : null)" Usage="Microsoft.Hpc.WcfChannelModule.CreateWcfProxy endPointStr" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="endPointStr" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="endPointStr">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWcfProxy&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T CreateWcfProxy&lt;T&gt; (Uri uri) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T CreateWcfProxy&lt;class T&gt;(class System.Uri uri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateWcfProxy``1(System.Uri)" />
+      <MemberSignature Language="F#" Value="static member CreateWcfProxy : Uri -&gt; 'T (requires 'T : null)" Usage="Microsoft.Hpc.WcfChannelModule.CreateWcfProxy uri" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="uri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="uri">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWcfProxy&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T CreateWcfProxy&lt;T&gt; (System.ServiceModel.EndpointAddress endpointAddress, Microsoft.Hpc.EndpointBehaviorBase behavior = null) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T CreateWcfProxy&lt;class T&gt;(class System.ServiceModel.EndpointAddress endpointAddress, class Microsoft.Hpc.EndpointBehaviorBase behavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.CreateWcfProxy``1(System.ServiceModel.EndpointAddress,Microsoft.Hpc.EndpointBehaviorBase)" />
+      <MemberSignature Language="F#" Value="static member CreateWcfProxy : System.ServiceModel.EndpointAddress * Microsoft.Hpc.EndpointBehaviorBase -&gt; 'T (requires 'T : null)" Usage="Microsoft.Hpc.WcfChannelModule.CreateWcfProxy (endpointAddress, behavior)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="endpointAddress" Type="System.ServiceModel.EndpointAddress" />
+        <Parameter Name="behavior" Type="Microsoft.Hpc.EndpointBehaviorBase" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="endpointAddress">To be added.</param>
+        <param name="behavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultBasicHttpBindingFactory">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.BasicHttpBinding DefaultBasicHttpBindingFactory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.BasicHttpBinding DefaultBasicHttpBindingFactory() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.DefaultBasicHttpBindingFactory" />
+      <MemberSignature Language="VB.NET" Value="Public Function DefaultBasicHttpBindingFactory () As BasicHttpBinding" />
+      <MemberSignature Language="F#" Value="static member DefaultBasicHttpBindingFactory : unit -&gt; System.ServiceModel.BasicHttpBinding" Usage="Microsoft.Hpc.WcfChannelModule.DefaultBasicHttpBindingFactory " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.BasicHttpBinding</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultNetTcpBindingFactory">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.NetTcpBinding DefaultNetTcpBindingFactory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.NetTcpBinding DefaultNetTcpBindingFactory() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.DefaultNetTcpBindingFactory" />
+      <MemberSignature Language="VB.NET" Value="Public Function DefaultNetTcpBindingFactory () As NetTcpBinding" />
+      <MemberSignature Language="F#" Value="static member DefaultNetTcpBindingFactory : unit -&gt; System.ServiceModel.NetTcpBinding" Usage="Microsoft.Hpc.WcfChannelModule.DefaultNetTcpBindingFactory " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.NetTcpBinding</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultServiceThrottlingBehavior">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.Description.ServiceThrottlingBehavior DefaultServiceThrottlingBehavior ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.Description.ServiceThrottlingBehavior DefaultServiceThrottlingBehavior() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.DefaultServiceThrottlingBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Function DefaultServiceThrottlingBehavior () As ServiceThrottlingBehavior" />
+      <MemberSignature Language="F#" Value="static member DefaultServiceThrottlingBehavior : unit -&gt; System.ServiceModel.Description.ServiceThrottlingBehavior" Usage="Microsoft.Hpc.WcfChannelModule.DefaultServiceThrottlingBehavior " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Description.ServiceThrottlingBehavior</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisposeWcfProxy">
+      <MemberSignature Language="C#" Value="public static void DisposeWcfProxy (object wcfProxyObj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DisposeWcfProxy(object wcfProxyObj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.DisposeWcfProxy(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisposeWcfProxy (wcfProxyObj As Object)" />
+      <MemberSignature Language="F#" Value="static member DisposeWcfProxy : obj -&gt; unit" Usage="Microsoft.Hpc.WcfChannelModule.DisposeWcfProxy wcfProxyObj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="wcfProxyObj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="wcfProxyObj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCertDnsIdentityName">
+      <MemberSignature Language="C#" Value="public static string GetCertDnsIdentityName (string thumbPrint, System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCertDnsIdentityName(string thumbPrint, valuetype System.Security.Cryptography.X509Certificates.StoreName storeName, valuetype System.Security.Cryptography.X509Certificates.StoreLocation storeLocation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.GetCertDnsIdentityName(System.String,System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation)" />
+      <MemberSignature Language="F#" Value="static member GetCertDnsIdentityName : string * System.Security.Cryptography.X509Certificates.StoreName * System.Security.Cryptography.X509Certificates.StoreLocation -&gt; string" Usage="Microsoft.Hpc.WcfChannelModule.GetCertDnsIdentityName (thumbPrint, storeName, storeLocation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="thumbPrint" Type="System.String" />
+        <Parameter Name="storeName" Type="System.Security.Cryptography.X509Certificates.StoreName" />
+        <Parameter Name="storeLocation" Type="System.Security.Cryptography.X509Certificates.StoreLocation" />
+      </Parameters>
+      <Docs>
+        <param name="thumbPrint">To be added.</param>
+        <param name="storeName">To be added.</param>
+        <param name="storeLocation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWcfServiceUriString">
+      <MemberSignature Language="C#" Value="public static string GetWcfServiceUriString (string host, int port, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetWcfServiceUriString(string host, int32 port, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.GetWcfServiceUriString(System.String,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetWcfServiceUriString (host As String, port As Integer, serviceName As String) As String" />
+      <MemberSignature Language="F#" Value="static member GetWcfServiceUriString : string * int * string -&gt; string" Usage="Microsoft.Hpc.WcfChannelModule.GetWcfServiceUriString (host, port, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="host" Type="System.String" />
+        <Parameter Name="port" Type="System.Int32" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="host">To be added.</param>
+        <param name="port">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHpcAadIdentity">
+      <MemberSignature Language="C#" Value="public static bool IsHpcAadIdentity (this System.Security.Principal.IIdentity identity, Microsoft.Hpc.IHpcContext context = null, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsHpcAadIdentity(class System.Security.Principal.IIdentity identity, class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.IsHpcAadIdentity(System.Security.Principal.IIdentity,Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsHpcAadIdentity (identity As IIdentity, Optional context As IHpcContext = null, Optional aadInfoNode As String = null) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsHpcAadIdentity : System.Security.Principal.IIdentity * Microsoft.Hpc.IHpcContext * string -&gt; bool" Usage="Microsoft.Hpc.WcfChannelModule.IsHpcAadIdentity (identity, context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="identity" Type="System.Security.Principal.IIdentity" RefType="this" />
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="identity">To be added.</param>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHpcAadPrincipal">
+      <MemberSignature Language="C#" Value="public static bool IsHpcAadPrincipal (this System.Security.Principal.IPrincipal principal, Microsoft.Hpc.IHpcContext context = null, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsHpcAadPrincipal(class System.Security.Principal.IPrincipal principal, class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.IsHpcAadPrincipal(System.Security.Principal.IPrincipal,Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsHpcAadPrincipal (principal As IPrincipal, Optional context As IHpcContext = null, Optional aadInfoNode As String = null) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsHpcAadPrincipal : System.Security.Principal.IPrincipal * Microsoft.Hpc.IHpcContext * string -&gt; bool" Usage="Microsoft.Hpc.WcfChannelModule.IsHpcAadPrincipal (principal, context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="principal" Type="System.Security.Principal.IPrincipal" RefType="this" />
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="principal">To be added.</param>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsX509Identity">
+      <MemberSignature Language="C#" Value="public static bool IsX509Identity (System.Security.Principal.IIdentity identity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsX509Identity(class System.Security.Principal.IIdentity identity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.IsX509Identity(System.Security.Principal.IIdentity)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsX509Identity (identity As IIdentity) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsX509Identity : System.Security.Principal.IIdentity -&gt; bool" Usage="Microsoft.Hpc.WcfChannelModule.IsX509Identity identity" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="identity" Type="System.Security.Principal.IIdentity" />
+      </Parameters>
+      <Docs>
+        <param name="identity">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetTcpBindingWithCertFactory">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.NetTcpBinding NetTcpBindingWithCertFactory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.NetTcpBinding NetTcpBindingWithCertFactory() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.NetTcpBindingWithCertFactory" />
+      <MemberSignature Language="VB.NET" Value="Public Function NetTcpBindingWithCertFactory () As NetTcpBinding" />
+      <MemberSignature Language="F#" Value="static member NetTcpBindingWithCertFactory : unit -&gt; System.ServiceModel.NetTcpBinding" Usage="Microsoft.Hpc.WcfChannelModule.NetTcpBindingWithCertFactory " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.NetTcpBinding</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupInternalWcfChannelAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt; SetupInternalWcfChannelAsync&lt;T&gt; (Microsoft.Hpc.IHpcContext context, object singletonInstance, string serviceUri, System.ServiceModel.ServiceAuthorizationManager manager = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ServiceHost&gt; SetupInternalWcfChannelAsync&lt;T&gt;(class Microsoft.Hpc.IHpcContext context, object singletonInstance, string serviceUri, class System.ServiceModel.ServiceAuthorizationManager manager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.SetupInternalWcfChannelAsync``1(Microsoft.Hpc.IHpcContext,System.Object,System.String,System.ServiceModel.ServiceAuthorizationManager)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetupInternalWcfChannelAsync(Of T) (context As IHpcContext, singletonInstance As Object, serviceUri As String, Optional manager As ServiceAuthorizationManager = null) As Task(Of ServiceHost)" />
+      <MemberSignature Language="F#" Value="static member SetupInternalWcfChannelAsync : Microsoft.Hpc.IHpcContext * obj * string * System.ServiceModel.ServiceAuthorizationManager -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;" Usage="Microsoft.Hpc.WcfChannelModule.SetupInternalWcfChannelAsync (context, singletonInstance, serviceUri, manager)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;SetupInternalWcfChannelAsync&gt;d__16`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="serviceUri" Type="System.String" />
+        <Parameter Name="manager" Type="System.ServiceModel.ServiceAuthorizationManager" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="context">To be added.</param>
+        <param name="singletonInstance">To be added.</param>
+        <param name="serviceUri">To be added.</param>
+        <param name="manager">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupInternalWcfChannelAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt; SetupInternalWcfChannelAsync&lt;T&gt; (Microsoft.Hpc.IHpcContext context, object singletonInstance, int servicePort, string serviceName, System.ServiceModel.ServiceAuthorizationManager manager = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ServiceHost&gt; SetupInternalWcfChannelAsync&lt;T&gt;(class Microsoft.Hpc.IHpcContext context, object singletonInstance, int32 servicePort, string serviceName, class System.ServiceModel.ServiceAuthorizationManager manager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.SetupInternalWcfChannelAsync``1(Microsoft.Hpc.IHpcContext,System.Object,System.Int32,System.String,System.ServiceModel.ServiceAuthorizationManager)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetupInternalWcfChannelAsync(Of T) (context As IHpcContext, singletonInstance As Object, servicePort As Integer, serviceName As String, Optional manager As ServiceAuthorizationManager = null) As Task(Of ServiceHost)" />
+      <MemberSignature Language="F#" Value="static member SetupInternalWcfChannelAsync : Microsoft.Hpc.IHpcContext * obj * int * string * System.ServiceModel.ServiceAuthorizationManager -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;" Usage="Microsoft.Hpc.WcfChannelModule.SetupInternalWcfChannelAsync (context, singletonInstance, servicePort, serviceName, manager)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;SetupInternalWcfChannelAsync&gt;d__17`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="servicePort" Type="System.Int32" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="manager" Type="System.ServiceModel.ServiceAuthorizationManager" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="context">To be added.</param>
+        <param name="singletonInstance">To be added.</param>
+        <param name="servicePort">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="manager">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupManagementWcfChannelAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt; SetupManagementWcfChannelAsync&lt;T&gt; (object singletonInstance, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ServiceHost&gt; SetupManagementWcfChannelAsync&lt;T&gt;(object singletonInstance, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.SetupManagementWcfChannelAsync``1(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetupManagementWcfChannelAsync(Of T) (singletonInstance As Object, serviceName As String) As Task(Of ServiceHost)" />
+      <MemberSignature Language="F#" Value="static member SetupManagementWcfChannelAsync : obj * string -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;" Usage="Microsoft.Hpc.WcfChannelModule.SetupManagementWcfChannelAsync (singletonInstance, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;SetupManagementWcfChannelAsync&gt;d__19`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="singletonInstance">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupWcfChannelAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt; SetupWcfChannelAsync&lt;T&gt; (object singletonInstance, int servicePort, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ServiceHost&gt; SetupWcfChannelAsync&lt;T&gt;(object singletonInstance, int32 servicePort, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.SetupWcfChannelAsync``1(System.Object,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetupWcfChannelAsync(Of T) (singletonInstance As Object, servicePort As Integer, serviceName As String) As Task(Of ServiceHost)" />
+      <MemberSignature Language="F#" Value="static member SetupWcfChannelAsync : obj * int * string -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;" Usage="Microsoft.Hpc.WcfChannelModule.SetupWcfChannelAsync (singletonInstance, servicePort, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;SetupWcfChannelAsync&gt;d__18`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="servicePort" Type="System.Int32" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="singletonInstance">To be added.</param>
+        <param name="servicePort">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupWcfChannelAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt; SetupWcfChannelAsync&lt;T&gt; (object singletonInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.ServiceAuthorizationManager authorizationManager, System.ServiceModel.Description.PrincipalPermissionMode permissionMode, System.ServiceModel.Description.ServiceThrottlingBehavior throttlingBehavior, string address);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ServiceHost&gt; SetupWcfChannelAsync&lt;T&gt;(object singletonInstance, class System.ServiceModel.Channels.Binding binding, class System.ServiceModel.ServiceAuthorizationManager authorizationManager, valuetype System.ServiceModel.Description.PrincipalPermissionMode permissionMode, class System.ServiceModel.Description.ServiceThrottlingBehavior throttlingBehavior, string address) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WcfChannelModule.SetupWcfChannelAsync``1(System.Object,System.ServiceModel.Channels.Binding,System.ServiceModel.ServiceAuthorizationManager,System.ServiceModel.Description.PrincipalPermissionMode,System.ServiceModel.Description.ServiceThrottlingBehavior,System.String)" />
+      <MemberSignature Language="F#" Value="static member SetupWcfChannelAsync : obj * System.ServiceModel.Channels.Binding * System.ServiceModel.ServiceAuthorizationManager * System.ServiceModel.Description.PrincipalPermissionMode * System.ServiceModel.Description.ServiceThrottlingBehavior * string -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;" Usage="Microsoft.Hpc.WcfChannelModule.SetupWcfChannelAsync (singletonInstance, binding, authorizationManager, permissionMode, throttlingBehavior, address)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.WcfChannelModule/&lt;SetupWcfChannelAsync&gt;d__15`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="singletonInstance" Type="System.Object" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="authorizationManager" Type="System.ServiceModel.ServiceAuthorizationManager" />
+        <Parameter Name="permissionMode" Type="System.ServiceModel.Description.PrincipalPermissionMode" />
+        <Parameter Name="throttlingBehavior" Type="System.ServiceModel.Description.ServiceThrottlingBehavior" />
+        <Parameter Name="address" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="singletonInstance">To be added.</param>
+        <param name="binding">To be added.</param>
+        <param name="authorizationManager">To be added.</param>
+        <param name="permissionMode">To be added.</param>
+        <param name="throttlingBehavior">To be added.</param>
+        <param name="address">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

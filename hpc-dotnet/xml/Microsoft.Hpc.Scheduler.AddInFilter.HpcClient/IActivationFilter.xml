@@ -1,0 +1,81 @@
+﻿<Type Name="IActivationFilter" FullName="Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.IActivationFilter">
+  <TypeSignature Language="C#" Value="public interface IActivationFilter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IActivationFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.IActivationFilter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IActivationFilter" />
+  <TypeSignature Language="F#" Value="type IActivationFilter = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FilterActivation">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ActivationFilterResponse FilterActivation (System.IO.Stream jobXml, int schedulerPass, int jobIndex, bool backfill, int resourceCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ActivationFilterResponse FilterActivation(class System.IO.Stream jobXml, int32 schedulerPass, int32 jobIndex, bool backfill, int32 resourceCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.IActivationFilter.FilterActivation(System.IO.Stream,System.Int32,System.Int32,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FilterActivation (jobXml As Stream, schedulerPass As Integer, jobIndex As Integer, backfill As Boolean, resourceCount As Integer) As ActivationFilterResponse" />
+      <MemberSignature Language="F#" Value="abstract member FilterActivation : System.IO.Stream * int * int * bool * int -&gt; Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ActivationFilterResponse" Usage="iActivationFilter.FilterActivation (jobXml, schedulerPass, jobIndex, backfill, resourceCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ActivationFilterResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="schedulerPass" Type="System.Int32" />
+        <Parameter Name="jobIndex" Type="System.Int32" />
+        <Parameter Name="backfill" Type="System.Boolean" />
+        <Parameter Name="resourceCount" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="schedulerPass">To be added.</param>
+        <param name="jobIndex">To be added.</param>
+        <param name="backfill">To be added.</param>
+        <param name="resourceCount">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevertActivation">
+      <MemberSignature Language="C#" Value="public void RevertActivation (System.IO.Stream jobXml, int schedulerPass, int jobIndex, bool backfill, int resourceCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevertActivation(class System.IO.Stream jobXml, int32 schedulerPass, int32 jobIndex, bool backfill, int32 resourceCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.IActivationFilter.RevertActivation(System.IO.Stream,System.Int32,System.Int32,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RevertActivation (jobXml As Stream, schedulerPass As Integer, jobIndex As Integer, backfill As Boolean, resourceCount As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RevertActivation : System.IO.Stream * int * int * bool * int -&gt; unit" Usage="iActivationFilter.RevertActivation (jobXml, schedulerPass, jobIndex, backfill, resourceCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="schedulerPass" Type="System.Int32" />
+        <Parameter Name="jobIndex" Type="System.Int32" />
+        <Parameter Name="backfill" Type="System.Boolean" />
+        <Parameter Name="resourceCount" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="schedulerPass">To be added.</param>
+        <param name="jobIndex">To be added.</param>
+        <param name="backfill">To be added.</param>
+        <param name="resourceCount">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

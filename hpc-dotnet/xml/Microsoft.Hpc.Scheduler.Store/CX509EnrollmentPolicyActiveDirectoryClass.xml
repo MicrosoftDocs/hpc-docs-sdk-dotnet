@@ -1,0 +1,757 @@
+﻿<Type Name="CX509EnrollmentPolicyActiveDirectoryClass" FullName="Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass">
+  <TypeSignature Language="C#" Value="public class CX509EnrollmentPolicyActiveDirectoryClass : Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CX509EnrollmentPolicyActiveDirectoryClass extends System.Object implements class Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectory, class Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CX509EnrollmentPolicyActiveDirectoryClass&#xA;Implements CX509EnrollmentPolicyActiveDirectory" />
+  <TypeSignature Language="F#" Value="type CX509EnrollmentPolicyActiveDirectoryClass = class&#xA;    interface IX509EnrollmentPolicyServer&#xA;    interface CX509EnrollmentPolicyActiveDirectory" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectory</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("91F39027-217F-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CX509EnrollmentPolicyActiveDirectoryClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cost">
+      <MemberSignature Language="C#" Value="public virtual uint Cost { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Cost" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.Cost" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Cost As UInteger" />
+      <MemberSignature Language="F#" Value="member this.Cost : uint32 with get, set" Usage="Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.Cost" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.Cost</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743830)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743830)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743830)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Export">
+      <MemberSignature Language="C#" Value="public virtual object Export (Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags exportFlags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Export([in]valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags exportFlags) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.Export(Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Export (exportFlags As X509EnrollmentPolicyExportFlags) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Export : Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags -&gt; obj&#xA;override this.Export : Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags -&gt; obj" Usage="cX509EnrollmentPolicyActiveDirectoryClass.Export exportFlags" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.Export(Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743829)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="exportFlags" Type="Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyExportFlags" />
+      </Parameters>
+      <Docs>
+        <param name="exportFlags">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllowUnTrustedCA">
+      <MemberSignature Language="C#" Value="public virtual bool GetAllowUnTrustedCA ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetAllowUnTrustedCA() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetAllowUnTrustedCA" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllowUnTrustedCA () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member GetAllowUnTrustedCA : unit -&gt; bool&#xA;override this.GetAllowUnTrustedCA : unit -&gt; bool" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetAllowUnTrustedCA " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetAllowUnTrustedCA</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAuthFlags">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags GetAuthFlags ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags GetAuthFlags() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetAuthFlags" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAuthFlags () As X509EnrollmentAuthFlags" />
+      <MemberSignature Language="F#" Value="abstract member GetAuthFlags : unit -&gt; Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags&#xA;override this.GetAuthFlags : unit -&gt; Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetAuthFlags " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetAuthFlags</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCacheDir">
+      <MemberSignature Language="C#" Value="public virtual string GetCacheDir ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetCacheDir() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetCacheDir" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCacheDir () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetCacheDir : unit -&gt; string&#xA;override this.GetCacheDir : unit -&gt; string" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetCacheDir " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetCacheDir</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachePath">
+      <MemberSignature Language="C#" Value="public virtual string GetCachePath ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetCachePath() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetCachePath" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCachePath () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetCachePath : unit -&gt; string&#xA;override this.GetCachePath : unit -&gt; string" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetCachePath " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetCachePath</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCAs">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities GetCAs ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities GetCAs() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetCAs" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCAs () As ICertificationAuthorities" />
+      <MemberSignature Language="F#" Value="abstract member GetCAs : unit -&gt; Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities&#xA;override this.GetCAs : unit -&gt; Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetCAs " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetCAs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCAsForTemplate">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities GetCAsForTemplate (Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate pTemplate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities GetCAsForTemplate([in]class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate pTemplate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetCAsForTemplate(Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCAsForTemplate (pTemplate As IX509CertificateTemplate) As ICertificationAuthorities" />
+      <MemberSignature Language="F#" Value="abstract member GetCAsForTemplate : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate -&gt; Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities&#xA;override this.GetCAsForTemplate : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate -&gt; Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetCAsForTemplate pTemplate" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetCAsForTemplate(Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ICertificationAuthorities</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pTemplate" Type="Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate" />
+      </Parameters>
+      <Docs>
+        <param name="pTemplate">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomOids">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.CObjectIds GetCustomOids ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.CObjectIds GetCustomOids() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetCustomOids" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCustomOids () As CObjectIds" />
+      <MemberSignature Language="F#" Value="abstract member GetCustomOids : unit -&gt; Microsoft.Hpc.Scheduler.Store.CObjectIds&#xA;override this.GetCustomOids : unit -&gt; Microsoft.Hpc.Scheduler.Store.CObjectIds" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetCustomOids " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetCustomOids</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CObjectIds</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFriendlyName">
+      <MemberSignature Language="C#" Value="public virtual string GetFriendlyName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetFriendlyName() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetFriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFriendlyName () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetFriendlyName : unit -&gt; string&#xA;override this.GetFriendlyName : unit -&gt; string" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetFriendlyName " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetFriendlyName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsDefaultCEP">
+      <MemberSignature Language="C#" Value="public virtual bool GetIsDefaultCEP ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetIsDefaultCEP() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetIsDefaultCEP" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIsDefaultCEP () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member GetIsDefaultCEP : unit -&gt; bool&#xA;override this.GetIsDefaultCEP : unit -&gt; bool" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetIsDefaultCEP " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetIsDefaultCEP</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLastUpdateTime">
+      <MemberSignature Language="C#" Value="public virtual DateTime GetLastUpdateTime ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime GetLastUpdateTime() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetLastUpdateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLastUpdateTime () As DateTime" />
+      <MemberSignature Language="F#" Value="abstract member GetLastUpdateTime : unit -&gt; DateTime&#xA;override this.GetLastUpdateTime : unit -&gt; DateTime" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetLastUpdateTime " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetLastUpdateTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNextUpdateTime">
+      <MemberSignature Language="C#" Value="public virtual DateTime GetNextUpdateTime ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime GetNextUpdateTime() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetNextUpdateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNextUpdateTime () As DateTime" />
+      <MemberSignature Language="F#" Value="abstract member GetNextUpdateTime : unit -&gt; DateTime&#xA;override this.GetNextUpdateTime : unit -&gt; DateTime" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetNextUpdateTime " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetNextUpdateTime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPolicyServerId">
+      <MemberSignature Language="C#" Value="public virtual string GetPolicyServerId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetPolicyServerId() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetPolicyServerId" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPolicyServerId () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetPolicyServerId : unit -&gt; string&#xA;override this.GetPolicyServerId : unit -&gt; string" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetPolicyServerId " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetPolicyServerId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPolicyServerUrl">
+      <MemberSignature Language="C#" Value="public virtual string GetPolicyServerUrl ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetPolicyServerUrl() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetPolicyServerUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPolicyServerUrl () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetPolicyServerUrl : unit -&gt; string&#xA;override this.GetPolicyServerUrl : unit -&gt; string" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetPolicyServerUrl " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetPolicyServerUrl</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplates">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplates GetTemplates ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplates GetTemplates() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetTemplates" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTemplates () As IX509CertificateTemplates" />
+      <MemberSignature Language="F#" Value="abstract member GetTemplates : unit -&gt; Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplates&#xA;override this.GetTemplates : unit -&gt; Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplates" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetTemplates " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetTemplates</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplates</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUseClientId">
+      <MemberSignature Language="C#" Value="public virtual bool GetUseClientId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetUseClientId() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.GetUseClientId" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUseClientId () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member GetUseClientId : unit -&gt; bool&#xA;override this.GetUseClientId : unit -&gt; bool" Usage="cX509EnrollmentPolicyActiveDirectoryClass.GetUseClientId " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.GetUseClientId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public virtual void Initialize (string bstrPolicyServerUrl, string bstrPolicyServerId, Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags AuthFlags, bool fIsUnTrusted, Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext Context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]string bstrPolicyServerUrl, [in]string bstrPolicyServerId, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags AuthFlags, [in]bool fIsUnTrusted, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext Context) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.Initialize(System.String,System.String,Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags,System.Boolean,Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Initialize (bstrPolicyServerUrl As String, bstrPolicyServerId As String, AuthFlags As X509EnrollmentAuthFlags, fIsUnTrusted As Boolean, Context As X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : string * string * Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags * bool * Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; unit&#xA;override this.Initialize : string * string * Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags * bool * Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; unit" Usage="cX509EnrollmentPolicyActiveDirectoryClass.Initialize (bstrPolicyServerUrl, bstrPolicyServerId, AuthFlags, fIsUnTrusted, Context)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.Initialize(System.String,System.String,Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags,System.Boolean,Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrPolicyServerUrl" Type="System.String" />
+        <Parameter Name="bstrPolicyServerId" Type="System.String" />
+        <Parameter Name="AuthFlags" Type="Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags" />
+        <Parameter Name="fIsUnTrusted" Type="System.Boolean" />
+        <Parameter Name="Context" Type="Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext" />
+      </Parameters>
+      <Docs>
+        <param name="bstrPolicyServerUrl">To be added.</param>
+        <param name="bstrPolicyServerId">To be added.</param>
+        <param name="AuthFlags">To be added.</param>
+        <param name="fIsUnTrusted">To be added.</param>
+        <param name="Context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeImport">
+      <MemberSignature Language="C#" Value="public virtual void InitializeImport (object val);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeImport([in]object val) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.InitializeImport(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub InitializeImport (val As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeImport : obj -&gt; unit&#xA;override this.InitializeImport : obj -&gt; unit" Usage="cX509EnrollmentPolicyActiveDirectoryClass.InitializeImport val" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.InitializeImport(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="val" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="val">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadPolicy">
+      <MemberSignature Language="C#" Value="public virtual void LoadPolicy (Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption option);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LoadPolicy([in]valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption option) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.LoadPolicy(Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub LoadPolicy (option As X509EnrollmentPolicyLoadOption)" />
+      <MemberSignature Language="F#" Value="abstract member LoadPolicy : Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption -&gt; unit&#xA;override this.LoadPolicy : Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption -&gt; unit" Usage="cX509EnrollmentPolicyActiveDirectoryClass.LoadPolicy option" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.LoadPolicy(Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="option" Type="Microsoft.Hpc.Scheduler.Store.X509EnrollmentPolicyLoadOption">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.InteropServices.ComAliasName("CERTENROLLLib.X509EnrollmentPolicyLoadOption")</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="option">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryChanges">
+      <MemberSignature Language="C#" Value="public virtual bool QueryChanges ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool QueryChanges() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.QueryChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function QueryChanges () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member QueryChanges : unit -&gt; bool&#xA;override this.QueryChanges : unit -&gt; bool" Usage="cX509EnrollmentPolicyActiveDirectoryClass.QueryChanges " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.QueryChanges</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCredential">
+      <MemberSignature Language="C#" Value="public virtual void SetCredential (int hWndParent, Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags flag, string strCredential, string strPassword);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCredential([in]int32 hWndParent, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags flag, [in]string strCredential, [in]string strPassword) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.SetCredential(System.Int32,Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetCredential (hWndParent As Integer, flag As X509EnrollmentAuthFlags, strCredential As String, strPassword As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetCredential : int * Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags * string * string -&gt; unit&#xA;override this.SetCredential : int * Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags * string * string -&gt; unit" Usage="cX509EnrollmentPolicyActiveDirectoryClass.SetCredential (hWndParent, flag, strCredential, strPassword)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.SetCredential(System.Int32,Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hWndParent" Type="System.Int32" />
+        <Parameter Name="flag" Type="Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags" />
+        <Parameter Name="strCredential" Type="System.String" />
+        <Parameter Name="strPassword" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="hWndParent">To be added.</param>
+        <param name="flag">To be added.</param>
+        <param name="strCredential">To be added.</param>
+        <param name="strPassword">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509EnrollmentPolicyActiveDirectoryClass.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
+      <MemberSignature Language="F#" Value="abstract member Validate : unit -&gt; unit&#xA;override this.Validate : unit -&gt; unit" Usage="cX509EnrollmentPolicyActiveDirectoryClass.Validate " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentPolicyServer.Validate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,112 @@
+﻿<Type Name="IExcelService" FullName="Microsoft.Hpc.Excel.ExcelService.IExcelService">
+  <TypeSignature Language="C#" Value="public interface IExcelService" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IExcelService" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ExcelService.IExcelService" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IExcelService" />
+  <TypeSignature Language="F#" Value="type IExcelService = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("System.ServiceModel", "3.0.0.0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(ConfigurationName="ExcelService.IExcelService")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the built-in service-oriented architecture (SOA) service for performing calculations in Excel workbooks using a Microsoft HPC server. This service is the service that the built-in client represented by the <see cref="T:Microsoft.Hpc.Excel.ExcelClient" /> class uses, and is also available for use by custom SOA clients.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCalculate">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCalculate (Microsoft.Hpc.Excel.ExcelService.CalculateRequest request, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCalculate(class Microsoft.Hpc.Excel.ExcelService.CalculateRequest request, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.IExcelService.BeginCalculate(Microsoft.Hpc.Excel.ExcelService.CalculateRequest,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCalculate (request As CalculateRequest, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCalculate : Microsoft.Hpc.Excel.ExcelService.CalculateRequest * AsyncCallback * obj -&gt; IAsyncResult" Usage="iExcelService.BeginCalculate (request, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://tempuri.org/IExcelService/Calculate", AsyncPattern=true, ReplyAction="http://tempuri.org/IExcelService/CalculateResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="Microsoft.Hpc.Excel.ExcelService.CalculateRequest" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>Begins a calculation in an Excel workbook requested by the specified <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateRequest" /> object on an HPC cluster asynchronously.</summary>
+        <returns>An <see cref="T:System.IAsyncResult"></see> interface to an object that contains information about the status of the asynchronous calculation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Calculate">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Excel.ExcelService.CalculateResponse Calculate (Microsoft.Hpc.Excel.ExcelService.CalculateRequest request);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Excel.ExcelService.CalculateResponse Calculate(class Microsoft.Hpc.Excel.ExcelService.CalculateRequest request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.IExcelService.Calculate(Microsoft.Hpc.Excel.ExcelService.CalculateRequest)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Calculate (request As CalculateRequest) As CalculateResponse" />
+      <MemberSignature Language="F#" Value="abstract member Calculate : Microsoft.Hpc.Excel.ExcelService.CalculateRequest -&gt; Microsoft.Hpc.Excel.ExcelService.CalculateResponse" Usage="iExcelService.Calculate request" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://tempuri.org/IExcelService/Calculate", ReplyAction="http://tempuri.org/IExcelService/CalculateResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Excel.ExcelService.CalculateResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="Microsoft.Hpc.Excel.ExcelService.CalculateRequest" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>Performs the calculation in an Excel workbook requested by the specified <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateRequest" /> object on an HPC cluster.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateResponse"></see> object that includes the results of the calculation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCalculate">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Excel.ExcelService.CalculateResponse EndCalculate (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Excel.ExcelService.CalculateResponse EndCalculate(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.IExcelService.EndCalculate(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndCalculate (result As IAsyncResult) As CalculateResponse" />
+      <MemberSignature Language="F#" Value="abstract member EndCalculate : IAsyncResult -&gt; Microsoft.Hpc.Excel.ExcelService.CalculateResponse" Usage="iExcelService.EndCalculate result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Excel.ExcelService.CalculateResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>Ends a asynchronous calculation from an Excel workbook on an HPC cluster that you began by calling <see cref="M:Microsoft.Hpc.Excel.ExcelService.IExcelService.BeginCalculate(Microsoft.Hpc.Excel.ExcelService.CalculateRequest,System.AsyncCallback,System.Object)" />.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateResponse"></see> that contains the result of the calculation from an Excel workbook.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,161 @@
+﻿<Type Name="IX509EnrollmentHelper" FullName="Microsoft.Hpc.Scheduler.Store.IX509EnrollmentHelper">
+  <TypeSignature Language="C#" Value="public interface IX509EnrollmentHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IX509EnrollmentHelper" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentHelper" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IX509EnrollmentHelper" />
+  <TypeSignature Language="F#" Value="type IX509EnrollmentHelper = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB351-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddEnrollmentServer">
+      <MemberSignature Language="C#" Value="public void AddEnrollmentServer (string strEnrollmentServerURI, Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags AuthFlags, string strCredential, string strPassword);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddEnrollmentServer([in]string strEnrollmentServerURI, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags AuthFlags, [in]string strCredential, [in]string strPassword) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentHelper.AddEnrollmentServer(System.String,Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddEnrollmentServer (strEnrollmentServerURI As String, AuthFlags As X509EnrollmentAuthFlags, strCredential As String, strPassword As String)" />
+      <MemberSignature Language="F#" Value="abstract member AddEnrollmentServer : string * Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags * string * string -&gt; unit" Usage="iX509EnrollmentHelper.AddEnrollmentServer (strEnrollmentServerURI, AuthFlags, strCredential, strPassword)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strEnrollmentServerURI" Type="System.String" />
+        <Parameter Name="AuthFlags" Type="Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags" />
+        <Parameter Name="strCredential" Type="System.String" />
+        <Parameter Name="strPassword" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="strEnrollmentServerURI">To be added.</param>
+        <param name="AuthFlags">To be added.</param>
+        <param name="strCredential">To be added.</param>
+        <param name="strPassword">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPolicyServer">
+      <MemberSignature Language="C#" Value="public void AddPolicyServer (string strEnrollmentPolicyServerURI, string strEnrollmentPolicyID, Microsoft.Hpc.Scheduler.Store.PolicyServerUrlFlags EnrollmentPolicyServerFlags, Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags AuthFlags, string strCredential, string strPassword);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddPolicyServer([in]string strEnrollmentPolicyServerURI, [in]string strEnrollmentPolicyID, [in]valuetype Microsoft.Hpc.Scheduler.Store.PolicyServerUrlFlags EnrollmentPolicyServerFlags, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags AuthFlags, [in]string strCredential, [in]string strPassword) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentHelper.AddPolicyServer(System.String,System.String,Microsoft.Hpc.Scheduler.Store.PolicyServerUrlFlags,Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPolicyServer (strEnrollmentPolicyServerURI As String, strEnrollmentPolicyID As String, EnrollmentPolicyServerFlags As PolicyServerUrlFlags, AuthFlags As X509EnrollmentAuthFlags, strCredential As String, strPassword As String)" />
+      <MemberSignature Language="F#" Value="abstract member AddPolicyServer : string * string * Microsoft.Hpc.Scheduler.Store.PolicyServerUrlFlags * Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags * string * string -&gt; unit" Usage="iX509EnrollmentHelper.AddPolicyServer (strEnrollmentPolicyServerURI, strEnrollmentPolicyID, EnrollmentPolicyServerFlags, AuthFlags, strCredential, strPassword)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strEnrollmentPolicyServerURI" Type="System.String" />
+        <Parameter Name="strEnrollmentPolicyID" Type="System.String" />
+        <Parameter Name="EnrollmentPolicyServerFlags" Type="Microsoft.Hpc.Scheduler.Store.PolicyServerUrlFlags" />
+        <Parameter Name="AuthFlags" Type="Microsoft.Hpc.Scheduler.Store.X509EnrollmentAuthFlags" />
+        <Parameter Name="strCredential" Type="System.String" />
+        <Parameter Name="strPassword" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="strEnrollmentPolicyServerURI">To be added.</param>
+        <param name="strEnrollmentPolicyID">To be added.</param>
+        <param name="EnrollmentPolicyServerFlags">To be added.</param>
+        <param name="AuthFlags">To be added.</param>
+        <param name="strCredential">To be added.</param>
+        <param name="strPassword">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enroll">
+      <MemberSignature Language="C#" Value="public string Enroll (string strEnrollmentPolicyServerURI, string strTemplateName, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, Microsoft.Hpc.Scheduler.Store.WebEnrollmentFlags enrollFlags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Enroll([in]string strEnrollmentPolicyServerURI, [in]string strTemplateName, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]valuetype Microsoft.Hpc.Scheduler.Store.WebEnrollmentFlags enrollFlags) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentHelper.Enroll(System.String,System.String,Microsoft.Hpc.Scheduler.Store.EncodingType,Microsoft.Hpc.Scheduler.Store.WebEnrollmentFlags)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Enroll (strEnrollmentPolicyServerURI As String, strTemplateName As String, Encoding As EncodingType, enrollFlags As WebEnrollmentFlags) As String" />
+      <MemberSignature Language="F#" Value="abstract member Enroll : string * string * Microsoft.Hpc.Scheduler.Store.EncodingType * Microsoft.Hpc.Scheduler.Store.WebEnrollmentFlags -&gt; string" Usage="iX509EnrollmentHelper.Enroll (strEnrollmentPolicyServerURI, strTemplateName, Encoding, enrollFlags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strEnrollmentPolicyServerURI" Type="System.String" />
+        <Parameter Name="strTemplateName" Type="System.String" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="enrollFlags" Type="Microsoft.Hpc.Scheduler.Store.WebEnrollmentFlags" />
+      </Parameters>
+      <Docs>
+        <param name="strEnrollmentPolicyServerURI">To be added.</param>
+        <param name="strTemplateName">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="enrollFlags">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext Context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]valuetype Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext Context) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509EnrollmentHelper.Initialize(Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (Context As X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; unit" Usage="iX509EnrollmentHelper.Initialize Context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Context" Type="Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext" />
+      </Parameters>
+      <Docs>
+        <param name="Context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

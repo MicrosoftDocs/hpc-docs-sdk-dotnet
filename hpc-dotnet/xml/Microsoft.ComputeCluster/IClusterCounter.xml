@@ -1,0 +1,570 @@
+﻿<Type Name="IClusterCounter" FullName="Microsoft.ComputeCluster.IClusterCounter">
+  <TypeSignature Language="C#" Value="public interface IClusterCounter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClusterCounter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.IClusterCounter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClusterCounter" />
+  <TypeSignature Language="F#" Value="type IClusterCounter = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("9770EF9C-F6F8-40cb-9C4E-B8B3B910083E")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.ComputeCluster.IClusterCounter counter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class Microsoft.ComputeCluster.IClusterCounter counter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IClusterCounter.Equals(Microsoft.ComputeCluster.IClusterCounter)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (counter As IClusterCounter) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Equals : Microsoft.ComputeCluster.IClusterCounter -&gt; bool" Usage="iClusterCounter.Equals counter" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="counter" Type="Microsoft.ComputeCluster.IClusterCounter" />
+      </Parameters>
+      <Docs>
+        <param name="counter">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfBusyProcessors">
+      <MemberSignature Language="C#" Value="public int NumberOfBusyProcessors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfBusyProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfBusyProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfBusyProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfBusyProcessors : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfBusyProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfCancelledJobs">
+      <MemberSignature Language="C#" Value="public int NumberOfCancelledJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfCancelledJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfCancelledJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfCancelledJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfCancelledJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfCancelledJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfCancelledTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfCancelledTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfCancelledTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfCancelledTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfCancelledTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfCancelledTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfCancelledTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfFailedJobs">
+      <MemberSignature Language="C#" Value="public int NumberOfFailedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfFailedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfFailedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfFailedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfFailedJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfFailedJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfFailedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfFailedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfFailedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfFailedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfFailedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfFailedTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfFailedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfFinishedJobs">
+      <MemberSignature Language="C#" Value="public int NumberOfFinishedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfFinishedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfFinishedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfFinishedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfFinishedJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfFinishedJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfFinishedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfFinishedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfFinishedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfFinishedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfFinishedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfFinishedTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfFinishedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfIdleNodes">
+      <MemberSignature Language="C#" Value="public int NumberOfIdleNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfIdleNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfIdleNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfIdleNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfIdleNodes : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfIdleNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfIdleProcessors">
+      <MemberSignature Language="C#" Value="public int NumberOfIdleProcessors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfIdleProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfIdleProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfIdleProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfIdleProcessors : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfIdleProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfNotSubmittedJobs">
+      <MemberSignature Language="C#" Value="public int NumberOfNotSubmittedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfNotSubmittedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfNotSubmittedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfNotSubmittedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfNotSubmittedJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfNotSubmittedJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfNotSubmittedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfNotSubmittedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfNotSubmittedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfNotSubmittedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfNotSubmittedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfNotSubmittedTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfNotSubmittedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfPausedNodes">
+      <MemberSignature Language="C#" Value="public int NumberOfPausedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfPausedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfPausedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfPausedNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfPausedNodes : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfPausedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfPendingNodes">
+      <MemberSignature Language="C#" Value="public int NumberOfPendingNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfPendingNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfPendingNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfPendingNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfPendingNodes : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfPendingNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfPendingProcessors">
+      <MemberSignature Language="C#" Value="public int NumberOfPendingProcessors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfPendingProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfPendingProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfPendingProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfPendingProcessors : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfPendingProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfQueuedJobs">
+      <MemberSignature Language="C#" Value="public int NumberOfQueuedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfQueuedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfQueuedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfQueuedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfQueuedJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfQueuedJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfQueuedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfQueuedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfQueuedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfQueuedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfQueuedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfQueuedTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfQueuedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfReadyNodes">
+      <MemberSignature Language="C#" Value="public int NumberOfReadyNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfReadyNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfReadyNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfReadyNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfReadyNodes : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfReadyNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfRunningJobs">
+      <MemberSignature Language="C#" Value="public int NumberOfRunningJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfRunningJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfRunningJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfRunningJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfRunningJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfRunningJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfRunningTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfRunningTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfRunningTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfRunningTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfRunningTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfRunningTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfRunningTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfUnreachableNodes">
+      <MemberSignature Language="C#" Value="public int NumberOfUnreachableNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfUnreachableNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfUnreachableNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfUnreachableNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfUnreachableNodes : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfUnreachableNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfUnreachableProcessors">
+      <MemberSignature Language="C#" Value="public int NumberOfUnreachableProcessors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfUnreachableProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.NumberOfUnreachableProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfUnreachableProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfUnreachableProcessors : int" Usage="Microsoft.ComputeCluster.IClusterCounter.NumberOfUnreachableProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public byte[] Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As Byte()" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : byte[]" Usage="Microsoft.ComputeCluster.IClusterCounter.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalNumberOfJobs">
+      <MemberSignature Language="C#" Value="public int TotalNumberOfJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalNumberOfJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalNumberOfJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalNumberOfJobs : int" Usage="Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalNumberOfNodes">
+      <MemberSignature Language="C#" Value="public int TotalNumberOfNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalNumberOfNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalNumberOfNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalNumberOfNodes : int" Usage="Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalNumberOfProcessors">
+      <MemberSignature Language="C#" Value="public int TotalNumberOfProcessors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalNumberOfProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalNumberOfProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalNumberOfProcessors : int" Usage="Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalNumberOfTasks">
+      <MemberSignature Language="C#" Value="public int TotalNumberOfTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalNumberOfTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalNumberOfTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalNumberOfTasks : int" Usage="Microsoft.ComputeCluster.IClusterCounter.TotalNumberOfTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

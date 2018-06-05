@@ -1,0 +1,107 @@
+﻿<Type Name="PropertyRowSet" FullName="Microsoft.Hpc.Scheduler.Properties.PropertyRowSet">
+  <TypeSignature Language="C#" Value="public class PropertyRowSet" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PropertyRowSet extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet" />
+  <TypeSignature Language="VB.NET" Value="Public Class PropertyRowSet" />
+  <TypeSignature Language="F#" Value="type PropertyRowSet = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a rowset object that you can use to retrieve the properties of one or more objects in the rowset.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertyRowSet (Microsoft.Hpc.Scheduler.Properties.PropertyId[] pids, Microsoft.Hpc.Scheduler.Properties.PropertyRow[] rows);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Properties.PropertyId[] pids, class Microsoft.Hpc.Scheduler.Properties.PropertyRow[] rows) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.#ctor(Microsoft.Hpc.Scheduler.Properties.PropertyId[],Microsoft.Hpc.Scheduler.Properties.PropertyRow[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pids As PropertyId(), rows As PropertyRow())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.PropertyRowSet : Microsoft.Hpc.Scheduler.Properties.PropertyId[] * Microsoft.Hpc.Scheduler.Properties.PropertyRow[] -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRowSet" Usage="new Microsoft.Hpc.Scheduler.Properties.PropertyRowSet (pids, rows)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pids" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId[]" />
+        <Parameter Name="rows" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow[]" />
+      </Parameters>
+      <Docs>
+        <param name="pids">An array of <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> objects that identify the properties that the rowset will contain.</param>
+        <param name="rows">An array of <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyRow"></see> objects that contain the rows of objects that the rowset will contain.</param>
+        <summary>Initializes a new instance of this class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRow this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyRow Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As PropertyRow" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Hpc.Scheduler.Properties.PropertyRow" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">A zero-based index to the row in the rowset that you want to retrieve.</param>
+        <summary>Retrieves the specified row from the rowset.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyRow"></see> object that contains the specified row from the rowset.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public int Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
+      <MemberSignature Language="F#" Value="member this.Length : int" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of rows in the rowset.</summary>
+        <value>The number of rows in the rowset.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rows">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRow[] Rows { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyRow[] Rows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.Rows" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rows As PropertyRow()" />
+      <MemberSignature Language="F#" Value="member this.Rows : Microsoft.Hpc.Scheduler.Properties.PropertyRow[] with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyRowSet.Rows" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRow[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the rows from the rowset.</summary>
+        <value>An array of <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyRow"></see> objects that contain the rows in the rowset.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

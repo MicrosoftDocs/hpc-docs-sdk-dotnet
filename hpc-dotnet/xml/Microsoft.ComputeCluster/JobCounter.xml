@@ -1,0 +1,191 @@
+﻿<Type Name="JobCounter" FullName="Microsoft.ComputeCluster.JobCounter">
+  <TypeSignature Language="C#" Value="public sealed class JobCounter : Microsoft.ComputeCluster.IJobCounter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit JobCounter extends System.Object implements class Microsoft.ComputeCluster.IJobCounter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.JobCounter" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class JobCounter&#xA;Implements IJobCounter" />
+  <TypeSignature Language="F#" Value="type JobCounter = class&#xA;    interface IJobCounter" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.ComputeCluster.IJobCounter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8BF38748-1FF4-49e5-BC1F-6833C6FC879D")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobCounter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.JobCounter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobCounter (Microsoft.ComputeCluster.Job job);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.ComputeCluster.Job job) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.JobCounter.#ctor(Microsoft.ComputeCluster.Job)" />
+      <MemberSignature Language="F#" Value="new Microsoft.ComputeCluster.JobCounter : Microsoft.ComputeCluster.Job -&gt; Microsoft.ComputeCluster.JobCounter" Usage="new Microsoft.ComputeCluster.JobCounter job" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.ComputeCluster.Job" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfCancelledTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfCancelledTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfCancelledTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.JobCounter.NumberOfCancelledTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfCancelledTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfCancelledTasks : int with get, set" Usage="Microsoft.ComputeCluster.JobCounter.NumberOfCancelledTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfFailedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfFailedTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfFailedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.JobCounter.NumberOfFailedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfFailedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfFailedTasks : int with get, set" Usage="Microsoft.ComputeCluster.JobCounter.NumberOfFailedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfFinishedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfFinishedTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfFinishedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.JobCounter.NumberOfFinishedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfFinishedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfFinishedTasks : int with get, set" Usage="Microsoft.ComputeCluster.JobCounter.NumberOfFinishedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfNotSubmittedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfNotSubmittedTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfNotSubmittedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.JobCounter.NumberOfNotSubmittedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfNotSubmittedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfNotSubmittedTasks : int with get, set" Usage="Microsoft.ComputeCluster.JobCounter.NumberOfNotSubmittedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfQueuedTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfQueuedTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfQueuedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.JobCounter.NumberOfQueuedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfQueuedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfQueuedTasks : int with get, set" Usage="Microsoft.ComputeCluster.JobCounter.NumberOfQueuedTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfRunningTasks">
+      <MemberSignature Language="C#" Value="public int NumberOfRunningTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfRunningTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.JobCounter.NumberOfRunningTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfRunningTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfRunningTasks : int with get, set" Usage="Microsoft.ComputeCluster.JobCounter.NumberOfRunningTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,84 @@
+﻿<Type Name="CX509MachineEnrollmentFactoryClass" FullName="Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactoryClass">
+  <TypeSignature Language="C#" Value="public class CX509MachineEnrollmentFactoryClass : Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CX509MachineEnrollmentFactoryClass extends System.Object implements class Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactory, class Microsoft.Hpc.Scheduler.Store.IX509MachineEnrollmentFactory" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactoryClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CX509MachineEnrollmentFactoryClass&#xA;Implements CX509MachineEnrollmentFactory" />
+  <TypeSignature Language="F#" Value="type CX509MachineEnrollmentFactoryClass = class&#xA;    interface IX509MachineEnrollmentFactory&#xA;    interface CX509MachineEnrollmentFactory" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactory</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("884E2051-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CX509MachineEnrollmentFactoryClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactoryClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateObject">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Store.CX509EnrollmentHelper CreateObject (string strProgID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.CX509EnrollmentHelper CreateObject([in]string strProgID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX509MachineEnrollmentFactoryClass.CreateObject(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateObject (strProgID As String) As CX509EnrollmentHelper" />
+      <MemberSignature Language="F#" Value="abstract member CreateObject : string -&gt; Microsoft.Hpc.Scheduler.Store.CX509EnrollmentHelper&#xA;override this.CreateObject : string -&gt; Microsoft.Hpc.Scheduler.Store.CX509EnrollmentHelper" Usage="cX509MachineEnrollmentFactoryClass.CreateObject strProgID" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509MachineEnrollmentFactory.CreateObject(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CX509EnrollmentHelper</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strProgID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="strProgID">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

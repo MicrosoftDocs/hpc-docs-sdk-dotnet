@@ -1,0 +1,123 @@
+﻿<Type Name="SchedulerCoreState" FullName="Microsoft.Hpc.Scheduler.SchedulerCoreState">
+  <TypeSignature Language="C#" Value="public enum SchedulerCoreState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SchedulerCoreState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.SchedulerCoreState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SchedulerCoreState" />
+  <TypeSignature Language="F#" Value="type SchedulerCoreState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("CEBF8417-6664-4c4a-A1EE-101F924CFE21")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the state of a core on a node in the cluster.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Busy">
+      <MemberSignature Language="C#" Value="Busy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.SchedulerCoreState Busy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerCoreState.Busy" />
+      <MemberSignature Language="VB.NET" Value="Busy" />
+      <MemberSignature Language="F#" Value="Busy = 2" Usage="Microsoft.Hpc.Scheduler.SchedulerCoreState.Busy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.SchedulerCoreState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The core is running a job or task. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Draining">
+      <MemberSignature Language="C#" Value="Draining" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.SchedulerCoreState Draining = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerCoreState.Draining" />
+      <MemberSignature Language="VB.NET" Value="Draining" />
+      <MemberSignature Language="F#" Value="Draining = 3" Usage="Microsoft.Hpc.Scheduler.SchedulerCoreState.Draining" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.SchedulerCoreState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The core is running a job but is marked to be taken offline after the current job finishes. This enumeration member represents a value of 3.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Idle">
+      <MemberSignature Language="C#" Value="Idle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.SchedulerCoreState Idle = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerCoreState.Idle" />
+      <MemberSignature Language="VB.NET" Value="Idle" />
+      <MemberSignature Language="F#" Value="Idle = 1" Usage="Microsoft.Hpc.Scheduler.SchedulerCoreState.Idle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.SchedulerCoreState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The core is idle and ready to run a job. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="Offline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.SchedulerCoreState Offline = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerCoreState.Offline" />
+      <MemberSignature Language="VB.NET" Value="Offline" />
+      <MemberSignature Language="F#" Value="Offline = 0" Usage="Microsoft.Hpc.Scheduler.SchedulerCoreState.Offline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.SchedulerCoreState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The core is offline. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved">
+      <MemberSignature Language="C#" Value="Reserved" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.SchedulerCoreState Reserved = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerCoreState.Reserved" />
+      <MemberSignature Language="VB.NET" Value="Reserved" />
+      <MemberSignature Language="F#" Value="Reserved = 4" Usage="Microsoft.Hpc.Scheduler.SchedulerCoreState.Reserved" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.SchedulerCoreState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The core is reserved for a job. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,97 @@
+﻿<Type Name="StepResult+Row" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row">
+  <TypeSignature Language="C#" Value="public class StepResult.Row" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StepResult/Row extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.Row" />
+  <TypeSignature Language="F#" Value="type StepResult.Row = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a row in a table in the report for a diagnostic test run.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Row ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row" /> class without specifying any of the entries for the row.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Row (System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem&gt; items);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/RowItem&gt; items) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (items As IEnumerable(Of StepResult.RowItem))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row : seq&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem&gt; -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row items" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="items" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+RowItem&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="items">A collection of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem"></see> objects to use as the entries in the cells of the row.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row" /> class by using the specified collection of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem" /> objects to set the entries for the row.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Row (System.Collections.Generic.IEnumerable&lt;string&gt; values);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;string&gt; values) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.#ctor(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (values As IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row : seq&lt;string&gt; -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row values" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="values">A collection of strings to use as the entries in the cells of the row.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row" /> class by using the specified collection of strings to set the entries for the row.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem&gt; Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/RowItem&gt; Items" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As List(Of StepResult.RowItem)" />
+      <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.Items" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+RowItem&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the set of entries in the cells of the row.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> that represents the entries in the cells of the row.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

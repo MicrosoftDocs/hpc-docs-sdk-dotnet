@@ -1,0 +1,237 @@
+﻿<Type Name="HpcBatchRestClient" FullName="Microsoft.Hpc.Rest.HpcBatchRestClient">
+  <TypeSignature Language="C#" Value="public class HpcBatchRestClient : Microsoft.Hpc.Rest.HpcRestClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HpcBatchRestClient extends Microsoft.Hpc.Rest.HpcRestClient" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Rest.HpcBatchRestClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class HpcBatchRestClient&#xA;Inherits HpcRestClient" />
+  <TypeSignature Language="F#" Value="type HpcBatchRestClient = class&#xA;    inherit HpcRestClient" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Rest.HpcRestClient</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HpcBatchRestClient (Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcBatchRestClient.#ctor(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (context As IHpcContext)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Rest.HpcBatchRestClient : Microsoft.Hpc.IHpcContext -&gt; Microsoft.Hpc.Rest.HpcBatchRestClient" Usage="new Microsoft.Hpc.Rest.HpcBatchRestClient context" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HpcBatchRestClient (string restNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string restNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcBatchRestClient.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (restNode As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Rest.HpcBatchRestClient : string -&gt; Microsoft.Hpc.Rest.HpcBatchRestClient" Usage="new Microsoft.Hpc.Rest.HpcBatchRestClient restNode" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="restNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="restNode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiRoot">
+      <MemberSignature Language="C#" Value="protected override sealed string ApiRoot { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiRoot" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcBatchRestClient.ApiRoot" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable ReadOnly Property ApiRoot As String" />
+      <MemberSignature Language="F#" Value="member this.ApiRoot : string" Usage="Microsoft.Hpc.Rest.HpcBatchRestClient.ApiRoot" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAadClientAppIdAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetAadClientAppIdAsync (System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetAadClientAppIdAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcBatchRestClient.GetAadClientAppIdAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAadClientAppIdAsync (Optional token As CancellationToken = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="member this.GetAadClientAppIdAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="hpcBatchRestClient.GetAadClientAppIdAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Rest.HpcBatchRestClient/&lt;GetAadClientAppIdAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAadClientAppKeyAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetAadClientAppKeyAsync (System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetAadClientAppKeyAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcBatchRestClient.GetAadClientAppKeyAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAadClientAppKeyAsync (Optional token As CancellationToken = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="member this.GetAadClientAppKeyAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="hpcBatchRestClient.GetAadClientAppKeyAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Rest.HpcBatchRestClient/&lt;GetAadClientAppKeyAsync&gt;d__12))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAadInstanceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetAadInstanceAsync (System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetAadInstanceAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcBatchRestClient.GetAadInstanceAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAadInstanceAsync (Optional token As CancellationToken = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="member this.GetAadInstanceAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="hpcBatchRestClient.GetAadInstanceAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Rest.HpcBatchRestClient/&lt;GetAadInstanceAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAadTenantIdAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetAadTenantIdAsync (System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetAadTenantIdAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Rest.HpcBatchRestClient.GetAadTenantIdAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAadTenantIdAsync (Optional token As CancellationToken = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="member this.GetAadTenantIdAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="hpcBatchRestClient.GetAadTenantIdAsync token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Rest.HpcBatchRestClient/&lt;GetAadTenantIdAsync&gt;d__10))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestClient">
+      <MemberSignature Language="C#" Value="protected override sealed System.Net.Http.HttpClient RestClient { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Http.HttpClient RestClient" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcBatchRestClient.RestClient" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable ReadOnly Property RestClient As HttpClient" />
+      <MemberSignature Language="F#" Value="member this.RestClient : System.Net.Http.HttpClient" Usage="Microsoft.Hpc.Rest.HpcBatchRestClient.RestClient" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.HttpClient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestClientName">
+      <MemberSignature Language="C#" Value="protected override sealed string RestClientName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RestClientName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Rest.HpcBatchRestClient.RestClientName" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable ReadOnly Property RestClientName As String" />
+      <MemberSignature Language="F#" Value="member this.RestClientName : string" Usage="Microsoft.Hpc.Rest.HpcBatchRestClient.RestClientName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

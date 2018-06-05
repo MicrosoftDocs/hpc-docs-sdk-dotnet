@@ -1,0 +1,510 @@
+﻿<Type Name="ICspInformation" FullName="Microsoft.Hpc.Scheduler.Store.ICspInformation">
+  <TypeSignature Language="C#" Value="public interface ICspInformation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICspInformation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ICspInformation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICspInformation" />
+  <TypeSignature Language="F#" Value="type ICspInformation = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB307-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CspAlgorithms">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ICspAlgorithms CspAlgorithms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.ICspAlgorithms CspAlgorithms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.CspAlgorithms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CspAlgorithms As ICspAlgorithms" />
+      <MemberSignature Language="F#" Value="member this.CspAlgorithms : Microsoft.Hpc.Scheduler.Store.ICspAlgorithms" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.CspAlgorithms" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ICspAlgorithms</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCspStatusFromOperations">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CCspStatus GetCspStatusFromOperations (Microsoft.Hpc.Scheduler.Store.CObjectId pAlgorithm, Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags Operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.CCspStatus GetCspStatusFromOperations([in]class Microsoft.Hpc.Scheduler.Store.CObjectId pAlgorithm, [in]valuetype Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags Operations) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformation.GetCspStatusFromOperations(Microsoft.Hpc.Scheduler.Store.CObjectId,Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCspStatusFromOperations (pAlgorithm As CObjectId, Operations As AlgorithmOperationFlags) As CCspStatus" />
+      <MemberSignature Language="F#" Value="abstract member GetCspStatusFromOperations : Microsoft.Hpc.Scheduler.Store.CObjectId * Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags -&gt; Microsoft.Hpc.Scheduler.Store.CCspStatus" Usage="iCspInformation.GetCspStatusFromOperations (pAlgorithm, Operations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CCspStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pAlgorithm" Type="Microsoft.Hpc.Scheduler.Store.CObjectId" />
+        <Parameter Name="Operations" Type="Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags" />
+      </Parameters>
+      <Docs>
+        <param name="pAlgorithm">To be added.</param>
+        <param name="Operations">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultSecurityDescriptor">
+      <MemberSignature Language="C#" Value="public string GetDefaultSecurityDescriptor (bool MachineContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetDefaultSecurityDescriptor([in]bool MachineContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformation.GetDefaultSecurityDescriptor(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDefaultSecurityDescriptor (MachineContext As Boolean) As String" />
+      <MemberSignature Language="F#" Value="abstract member GetDefaultSecurityDescriptor : bool -&gt; string" Usage="iCspInformation.GetDefaultSecurityDescriptor MachineContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MachineContext" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="MachineContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasHardwareRandomNumberGenerator">
+      <MemberSignature Language="C#" Value="public bool HasHardwareRandomNumberGenerator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasHardwareRandomNumberGenerator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.HasHardwareRandomNumberGenerator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasHardwareRandomNumberGenerator As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasHardwareRandomNumberGenerator : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.HasHardwareRandomNumberGenerator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeFromName">
+      <MemberSignature Language="C#" Value="public void InitializeFromName (string strName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeFromName([in]string strName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformation.InitializeFromName(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeFromName (strName As String)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeFromName : string -&gt; unit" Usage="iCspInformation.InitializeFromName strName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="strName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeFromType">
+      <MemberSignature Language="C#" Value="public void InitializeFromType (Microsoft.Hpc.Scheduler.Store.X509ProviderType Type, Microsoft.Hpc.Scheduler.Store.CObjectId pAlgorithm, bool MachineContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeFromType([in]valuetype Microsoft.Hpc.Scheduler.Store.X509ProviderType Type, [in]class Microsoft.Hpc.Scheduler.Store.CObjectId pAlgorithm, [in]bool MachineContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformation.InitializeFromType(Microsoft.Hpc.Scheduler.Store.X509ProviderType,Microsoft.Hpc.Scheduler.Store.CObjectId,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeFromType (Type As X509ProviderType, pAlgorithm As CObjectId, MachineContext As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeFromType : Microsoft.Hpc.Scheduler.Store.X509ProviderType * Microsoft.Hpc.Scheduler.Store.CObjectId * bool -&gt; unit" Usage="iCspInformation.InitializeFromType (Type, pAlgorithm, MachineContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Hpc.Scheduler.Store.X509ProviderType" />
+        <Parameter Name="pAlgorithm" Type="Microsoft.Hpc.Scheduler.Store.CObjectId" />
+        <Parameter Name="MachineContext" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <param name="pAlgorithm">To be added.</param>
+        <param name="MachineContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHardwareDevice">
+      <MemberSignature Language="C#" Value="public bool IsHardwareDevice { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsHardwareDevice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.IsHardwareDevice" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsHardwareDevice As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsHardwareDevice : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.IsHardwareDevice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRemovable">
+      <MemberSignature Language="C#" Value="public bool IsRemovable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRemovable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.IsRemovable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRemovable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRemovable : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.IsRemovable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSmartCard">
+      <MemberSignature Language="C#" Value="public bool IsSmartCard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSmartCard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.IsSmartCard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSmartCard As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSmartCard : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.IsSmartCard" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSoftwareDevice">
+      <MemberSignature Language="C#" Value="public bool IsSoftwareDevice { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSoftwareDevice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.IsSoftwareDevice" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSoftwareDevice As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSoftwareDevice : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.IsSoftwareDevice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeySpec">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.X509KeySpec KeySpec { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Store.X509KeySpec KeySpec" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.KeySpec" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeySpec As X509KeySpec" />
+      <MemberSignature Language="F#" Value="member this.KeySpec : Microsoft.Hpc.Scheduler.Store.X509KeySpec" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.KeySpec" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.X509KeySpec</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyCsp">
+      <MemberSignature Language="C#" Value="public bool LegacyCsp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LegacyCsp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.LegacyCsp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegacyCsp As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LegacyCsp : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.LegacyCsp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxKeyContainerNameLength">
+      <MemberSignature Language="C#" Value="public int MaxKeyContainerNameLength { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxKeyContainerNameLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.MaxKeyContainerNameLength" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxKeyContainerNameLength As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxKeyContainerNameLength : int" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.MaxKeyContainerNameLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.X509ProviderType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Store.X509ProviderType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As X509ProviderType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Scheduler.Store.X509ProviderType" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.X509ProviderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Valid">
+      <MemberSignature Language="C#" Value="public bool Valid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Valid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.Valid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Valid As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Valid : bool" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.Valid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public int Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformation.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As Integer" />
+      <MemberSignature Language="F#" Value="member this.Version : int" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformation.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

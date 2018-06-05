@@ -1,0 +1,103 @@
+﻿<Type Name="BlobTransferFileTransferEntryCheckPoint" FullName="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint">
+  <TypeSignature Language="C#" Value="public class BlobTransferFileTransferEntryCheckPoint" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BlobTransferFileTransferEntryCheckPoint extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint" />
+  <TypeSignature Language="VB.NET" Value="Public Class BlobTransferFileTransferEntryCheckPoint" />
+  <TypeSignature Language="F#" Value="type BlobTransferFileTransferEntryCheckPoint = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferFileTransferEntryCheckPoint (long entryTransferOffset, System.Collections.Generic.List&lt;long&gt; uploadWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 entryTransferOffset, class System.Collections.Generic.List`1&lt;int64&gt; uploadWindow) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.#ctor(System.Int64,System.Collections.Generic.List{System.Int64})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (entryTransferOffset As Long, uploadWindow As List(Of Long))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint : int64 * System.Collections.Generic.List&lt;int64&gt; -&gt; Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint" Usage="new Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint (entryTransferOffset, uploadWindow)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="entryTransferOffset" Type="System.Int64" />
+        <Parameter Name="uploadWindow" Type="System.Collections.Generic.List&lt;System.Int64&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="entryTransferOffset">To be added.</param>
+        <param name="uploadWindow">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntryTransferOffset">
+      <MemberSignature Language="C#" Value="public long EntryTransferOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 EntryTransferOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.EntryTransferOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntryTransferOffset As Long" />
+      <MemberSignature Language="F#" Value="member this.EntryTransferOffset : int64" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.EntryTransferOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxUploadWindowLength">
+      <MemberSignature Language="C#" Value="public const int MaxUploadWindowLength = 128;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxUploadWindowLength = (128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.MaxUploadWindowLength" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxUploadWindowLength As Integer  = 128" />
+      <MemberSignature Language="F#" Value="val mutable MaxUploadWindowLength : int" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.MaxUploadWindowLength" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UploadWindow">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;long&gt; UploadWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;int64&gt; UploadWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.UploadWindow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UploadWindow As List(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.UploadWindow : System.Collections.Generic.List&lt;int64&gt;" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint.UploadWindow" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

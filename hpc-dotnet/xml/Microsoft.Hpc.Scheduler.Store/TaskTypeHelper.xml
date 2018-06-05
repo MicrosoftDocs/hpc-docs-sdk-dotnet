@@ -1,0 +1,407 @@
+﻿<Type Name="TaskTypeHelper" FullName="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper">
+  <TypeSignature Language="C#" Value="public static class TaskTypeHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed TaskTypeHelper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskTypeHelper" />
+  <TypeSignature Language="F#" Value="type TaskTypeHelper = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetDisplayName">
+      <MemberSignature Language="C#" Value="public static string GetDisplayName (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetDisplayName(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetDisplayName(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member GetDisplayName : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetDisplayName taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInstanceValueForId">
+      <MemberSignature Language="C#" Value="public static int GetInstanceValueForId (int start, int inc, int instanceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetInstanceValueForId(int32 start, int32 inc, int32 instanceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetInstanceValueForId(System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetInstanceValueForId (start As Integer, inc As Integer, instanceId As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetInstanceValueForId : int * int * int -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetInstanceValueForId (start, inc, instanceId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="System.Int32" />
+        <Parameter Name="inc" Type="System.Int32" />
+        <Parameter Name="instanceId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="inc">To be added.</param>
+        <param name="instanceId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParametricCount">
+      <MemberSignature Language="C#" Value="public static int GetParametricCount (int start, int end, int inc);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetParametricCount(int32 start, int32 end, int32 inc) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetParametricCount(System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetParametricCount (start As Integer, end As Integer, inc As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetParametricCount : int * int * int -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetParametricCount (start, end, inc)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="System.Int32" />
+        <Parameter Name="end" Type="System.Int32" />
+        <Parameter Name="inc" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="inc">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRestrictedProperties">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.StoreProperty[] GetRestrictedProperties (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] GetRestrictedProperties(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetRestrictedProperties(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member GetRestrictedProperties : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetRestrictedProperties taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRuntimeLimit">
+      <MemberSignature Language="C#" Value="public static Nullable&lt;int&gt; GetRuntimeLimit (Microsoft.Hpc.Scheduler.Properties.TaskType taskType, Microsoft.Hpc.Scheduler.Store.ISchedulerStore store);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;int32&gt; GetRuntimeLimit(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType, class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetRuntimeLimit(Microsoft.Hpc.Scheduler.Properties.TaskType,Microsoft.Hpc.Scheduler.Store.ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member GetRuntimeLimit : Microsoft.Hpc.Scheduler.Properties.TaskType * Microsoft.Hpc.Scheduler.Store.ISchedulerStore -&gt; Nullable&lt;int&gt;" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetRuntimeLimit (taskType, store)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <param name="store">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRuntimeLimit">
+      <MemberSignature Language="C#" Value="public static Nullable&lt;int&gt; GetRuntimeLimit (Microsoft.Hpc.Scheduler.Properties.TaskType taskType, System.Collections.Generic.Dictionary&lt;string,string&gt; configSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;int32&gt; GetRuntimeLimit(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType, class System.Collections.Generic.Dictionary`2&lt;string, string&gt; configSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetRuntimeLimit(Microsoft.Hpc.Scheduler.Properties.TaskType,System.Collections.Generic.Dictionary{System.String,System.String})" />
+      <MemberSignature Language="F#" Value="static member GetRuntimeLimit : Microsoft.Hpc.Scheduler.Properties.TaskType * System.Collections.Generic.Dictionary&lt;string, string&gt; -&gt; Nullable&lt;int&gt;" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetRuntimeLimit (taskType, configSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+        <Parameter Name="configSettings" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <param name="configSettings">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTypeAndVerifyProps">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.TaskType GetTypeAndVerifyProps (System.Collections.Generic.IDictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; userProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.Scheduler.Properties.TaskType GetTypeAndVerifyProps(class System.Collections.Generic.IDictionary`2&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; userProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetTypeAndVerifyProps(System.Collections.Generic.IDictionary{Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetTypeAndVerifyProps (userProps As IDictionary(Of PropertyId, StoreProperty)) As TaskType" />
+      <MemberSignature Language="F#" Value="static member GetTypeAndVerifyProps : System.Collections.Generic.IDictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId, Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; -&gt; Microsoft.Hpc.Scheduler.Properties.TaskType" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetTypeAndVerifyProps userProps" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userProps" Type="System.Collections.Generic.IDictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="userProps">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTypeAndVerifyProps">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.TaskType GetTypeAndVerifyProps (System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; userProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.Scheduler.Properties.TaskType GetTypeAndVerifyProps(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; userProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetTypeAndVerifyProps(System.Collections.Generic.IEnumerable{Microsoft.Hpc.Scheduler.Properties.StoreProperty})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetTypeAndVerifyProps (userProps As IEnumerable(Of StoreProperty)) As TaskType" />
+      <MemberSignature Language="F#" Value="static member GetTypeAndVerifyProps : seq&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; -&gt; Microsoft.Hpc.Scheduler.Properties.TaskType" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.GetTypeAndVerifyProps userProps" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userProps" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="userProps">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFixedResource">
+      <MemberSignature Language="C#" Value="public static bool IsFixedResource (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsFixedResource(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsFixedResource(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member IsFixedResource : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsFixedResource taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsGroupable">
+      <MemberSignature Language="C#" Value="public static bool IsGroupable (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsGroupable(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsGroupable(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member IsGroupable : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsGroupable taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsParametric">
+      <MemberSignature Language="C#" Value="public static bool IsParametric (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParametric(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsParametric(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member IsParametric : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsParametric taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsParametric">
+      <MemberSignature Language="C#" Value="public static bool IsParametric (Microsoft.Hpc.Scheduler.Properties.TaskType taskType, Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.ParametricTaskCriteria criteria);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParametric(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType, valuetype Microsoft.Hpc.Scheduler.Store.TaskTypeHelper/ParametricTaskCriteria criteria) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsParametric(Microsoft.Hpc.Scheduler.Properties.TaskType,Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.ParametricTaskCriteria)" />
+      <MemberSignature Language="F#" Value="static member IsParametric : Microsoft.Hpc.Scheduler.Properties.TaskType * Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.ParametricTaskCriteria -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.IsParametric (taskType, criteria)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+        <Parameter Name="criteria" Type="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper+ParametricTaskCriteria" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <param name="criteria">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MayAddAfterJobSubmission">
+      <MemberSignature Language="C#" Value="public static bool MayAddAfterJobSubmission (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool MayAddAfterJobSubmission(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.MayAddAfterJobSubmission(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member MayAddAfterJobSubmission : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.MayAddAfterJobSubmission taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MayRequeue">
+      <MemberSignature Language="C#" Value="public static bool MayRequeue (Microsoft.Hpc.Scheduler.Properties.TaskType taskType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool MayRequeue(valuetype Microsoft.Hpc.Scheduler.Properties.TaskType taskType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.MayRequeue(Microsoft.Hpc.Scheduler.Properties.TaskType)" />
+      <MemberSignature Language="F#" Value="static member MayRequeue : Microsoft.Hpc.Scheduler.Properties.TaskType -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.MayRequeue taskType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskType" Type="Microsoft.Hpc.Scheduler.Properties.TaskType" />
+      </Parameters>
+      <Docs>
+        <param name="taskType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParametricRecordLimit">
+      <MemberSignature Language="C#" Value="public const int ParametricRecordLimit = 1000000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 ParametricRecordLimit = (1000000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.ParametricRecordLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Const ParametricRecordLimit As Integer  = 1000000" />
+      <MemberSignature Language="F#" Value="val mutable ParametricRecordLimit : int" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.ParametricRecordLimit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PerformParametricExpansion">
+      <MemberSignature Language="C#" Value="public static string PerformParametricExpansion (string parametricString, string subValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string PerformParametricExpansion(string parametricString, string subValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.PerformParametricExpansion(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PerformParametricExpansion (parametricString As String, subValue As String) As String" />
+      <MemberSignature Language="F#" Value="static member PerformParametricExpansion : string * string -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.TaskTypeHelper.PerformParametricExpansion (parametricString, subValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parametricString" Type="System.String" />
+        <Parameter Name="subValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parametricString">To be added.</param>
+        <param name="subValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

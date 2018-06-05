@@ -1,0 +1,275 @@
+﻿<Type Name="FilterOperator" FullName="Microsoft.Hpc.Scheduler.Properties.FilterOperator">
+  <TypeSignature Language="C#" Value="public enum FilterOperator" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FilterOperator extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.FilterOperator" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FilterOperator" />
+  <TypeSignature Language="F#" Value="type FilterOperator = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("923DF81C-82BE-4D3B-BBC0-D01DF5EDC510")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the operators that you can use to compare a property value to a filter value.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equal">
+      <MemberSignature Language="C#" Value="Equal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator Equal = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.Equal" />
+      <MemberSignature Language="VB.NET" Value="Equal" />
+      <MemberSignature Language="F#" Value="Equal = 4" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.Equal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value equals the filter value. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GreaterThan">
+      <MemberSignature Language="C#" Value="GreaterThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator GreaterThan = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.GreaterThan" />
+      <MemberSignature Language="VB.NET" Value="GreaterThan" />
+      <MemberSignature Language="F#" Value="GreaterThan = 0" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.GreaterThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is greater than the filter value. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="GreaterThanOrEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator GreaterThanOrEqual = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.GreaterThanOrEqual" />
+      <MemberSignature Language="VB.NET" Value="GreaterThanOrEqual" />
+      <MemberSignature Language="F#" Value="GreaterThanOrEqual = 1" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.GreaterThanOrEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is greater than or equal to the filter value. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HasBitSet">
+      <MemberSignature Language="C#" Value="HasBitSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator HasBitSet = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.HasBitSet" />
+      <MemberSignature Language="VB.NET" Value="HasBitSet" />
+      <MemberSignature Language="F#" Value="HasBitSet = 6" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.HasBitSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value has one or more bits set. For example, you can use this operator to test if the state of the job is failed or canceled by using the bitwise OR to set the filter value to both states. This enumeration member represents a value of 6.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HasExclusiveBitSet">
+      <MemberSignature Language="C#" Value="HasExclusiveBitSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator HasExclusiveBitSet = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.HasExclusiveBitSet" />
+      <MemberSignature Language="VB.NET" Value="HasExclusiveBitSet" />
+      <MemberSignature Language="F#" Value="HasExclusiveBitSet = 10" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.HasExclusiveBitSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value has a single bit set. This enumeration member represents a value of 10.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HasNoBitSet">
+      <MemberSignature Language="C#" Value="HasNoBitSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator HasNoBitSet = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.HasNoBitSet" />
+      <MemberSignature Language="VB.NET" Value="HasNoBitSet" />
+      <MemberSignature Language="F#" Value="HasNoBitSet = 7" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.HasNoBitSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value has no bits set. This enumeration member represents a value of 7.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="In">
+      <MemberSignature Language="C#" Value="In" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator In = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.In" />
+      <MemberSignature Language="VB.NET" Value="In" />
+      <MemberSignature Language="F#" Value="In = 11" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.In" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotNull">
+      <MemberSignature Language="C#" Value="IsNotNull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator IsNotNull = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.IsNotNull" />
+      <MemberSignature Language="VB.NET" Value="IsNotNull" />
+      <MemberSignature Language="F#" Value="IsNotNull = 9" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.IsNotNull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is not null. This enumeration member represents a value of 9.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNull">
+      <MemberSignature Language="C#" Value="IsNull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator IsNull = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.IsNull" />
+      <MemberSignature Language="VB.NET" Value="IsNull" />
+      <MemberSignature Language="F#" Value="IsNull = 8" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.IsNull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is null. This enumeration member represents a value of 8.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LessThan">
+      <MemberSignature Language="C#" Value="LessThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator LessThan = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.LessThan" />
+      <MemberSignature Language="VB.NET" Value="LessThan" />
+      <MemberSignature Language="F#" Value="LessThan = 2" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.LessThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is less than the filter value. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LessThanOrEqual">
+      <MemberSignature Language="C#" Value="LessThanOrEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator LessThanOrEqual = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.LessThanOrEqual" />
+      <MemberSignature Language="VB.NET" Value="LessThanOrEqual" />
+      <MemberSignature Language="F#" Value="LessThanOrEqual = 3" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.LessThanOrEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is less than or equal to the filter value. This enumeration member represents a value of 3.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotEqual">
+      <MemberSignature Language="C#" Value="NotEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator NotEqual = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.NotEqual" />
+      <MemberSignature Language="VB.NET" Value="NotEqual" />
+      <MemberSignature Language="F#" Value="NotEqual = 5" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.NotEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Include the object in the result if the property value is not equal to the filter value. This enumeration member represents a value of 5.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StartWith">
+      <MemberSignature Language="C#" Value="StartWith" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator StartWith = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FilterOperator.StartWith" />
+      <MemberSignature Language="VB.NET" Value="StartWith" />
+      <MemberSignature Language="F#" Value="StartWith = 12" Usage="Microsoft.Hpc.Scheduler.Properties.FilterOperator.StartWith" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

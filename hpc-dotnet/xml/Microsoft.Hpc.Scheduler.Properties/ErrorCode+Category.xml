@@ -1,0 +1,115 @@
+﻿<Type Name="ErrorCode+Category" FullName="Microsoft.Hpc.Scheduler.Properties.ErrorCode+Category">
+  <TypeSignature Language="C#" Value="public enum ErrorCode.Category" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ErrorCode/Category extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ErrorCode.Category" />
+  <TypeSignature Language="F#" Value="type ErrorCode.Category = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the category of errors into which the <see cref="T:Microsoft.Hpc.Scheduler.Properties.ErrorCode" /> codes are grouped.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExecutionError">
+      <MemberSignature Language="C#" Value="ExecutionError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ErrorCode/Category ExecutionError = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.ExecutionError" />
+      <MemberSignature Language="VB.NET" Value="ExecutionError" />
+      <MemberSignature Language="F#" Value="ExecutionError = 3" Usage="Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.ExecutionError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ErrorCode+Category</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The error occurred while executing the job or task. This enumeration member represents a value of 3.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationError">
+      <MemberSignature Language="C#" Value="OperationError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ErrorCode/Category OperationError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.OperationError" />
+      <MemberSignature Language="VB.NET" Value="OperationError" />
+      <MemberSignature Language="F#" Value="OperationError = 0" Usage="Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.OperationError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ErrorCode+Category</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>An error occurred while performing an operation (for example, the user tried to delete a job template but they do not have permissions to delete templates). This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ErrorCode/Category Other = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberSignature Language="F#" Value="Other = 4" Usage="Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ErrorCode+Category</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Includes errors related to starting service or broker jobs. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceAssignmentError">
+      <MemberSignature Language="C#" Value="ResourceAssignmentError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ErrorCode/Category ResourceAssignmentError = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.ResourceAssignmentError" />
+      <MemberSignature Language="VB.NET" Value="ResourceAssignmentError" />
+      <MemberSignature Language="F#" Value="ResourceAssignmentError = 2" Usage="Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.ResourceAssignmentError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ErrorCode+Category</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The error occurred while assigning resources to the job or task. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidationError">
+      <MemberSignature Language="C#" Value="ValidationError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ErrorCode/Category ValidationError = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.ValidationError" />
+      <MemberSignature Language="VB.NET" Value="ValidationError" />
+      <MemberSignature Language="F#" Value="ValidationError = 1" Usage="Microsoft.Hpc.Scheduler.Properties.ErrorCode.Category.ValidationError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ErrorCode+Category</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The error occurred while validating the job or task before it ran. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

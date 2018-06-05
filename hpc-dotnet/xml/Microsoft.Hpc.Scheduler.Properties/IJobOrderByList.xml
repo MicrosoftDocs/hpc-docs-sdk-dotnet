@@ -1,0 +1,87 @@
+﻿<Type Name="IJobOrderByList" FullName="Microsoft.Hpc.Scheduler.Properties.IJobOrderByList">
+  <TypeSignature Language="C#" Value="public interface IJobOrderByList : System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.JobOrderBy&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IJobOrderByList implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.JobOrderBy&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.IJobOrderByList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IJobOrderByList&#xA;Implements IEnumerable(Of JobOrderBy)" />
+  <TypeSignature Language="F#" Value="type IJobOrderByList = interface&#xA;    interface seq&lt;JobOrderBy&gt;&#xA;    interface IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.JobOrderBy&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Contains a list of <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobOrderBy" /> objects.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.IJobOrderByList Add (Microsoft.Hpc.Scheduler.Properties.JobOrderBy orderBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.IJobOrderByList Add(class Microsoft.Hpc.Scheduler.Properties.JobOrderBy orderBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.IJobOrderByList.Add(Microsoft.Hpc.Scheduler.Properties.JobOrderBy)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (orderBy As JobOrderBy) As IJobOrderByList" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Hpc.Scheduler.Properties.JobOrderBy -&gt; Microsoft.Hpc.Scheduler.Properties.IJobOrderByList" Usage="iJobOrderByList.Add orderBy" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.IJobOrderByList</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="orderBy" Type="Microsoft.Hpc.Scheduler.Properties.JobOrderBy" />
+      </Parameters>
+      <Docs>
+        <param name="orderBy">A <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobOrderBy"></see> object to add to the list.</param>
+        <summary>Adds a <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobOrderBy" /> object to the list.</summary>
+        <returns>An <see cref="T:Microsoft.Hpc.Scheduler.Properties.IJobOrderByList"></see> interface.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.IJobOrderByList.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Hpc.Scheduler.Properties.IJobOrderByList.Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of items in the list.</summary>
+        <value>The number of items in the list.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToInt">
+      <MemberSignature Language="C#" Value="public int ToInt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 ToInt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.IJobOrderByList.ToInt" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToInt () As Integer" />
+      <MemberSignature Language="F#" Value="abstract member ToInt : unit -&gt; int" Usage="iJobOrderByList.ToInt " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Converts the object to an integer.</summary>
+        <returns>An integer that represented the converted list.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

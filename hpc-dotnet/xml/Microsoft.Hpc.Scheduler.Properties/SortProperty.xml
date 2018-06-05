@@ -1,0 +1,124 @@
+﻿<Type Name="SortProperty" FullName="Microsoft.Hpc.Scheduler.Properties.SortProperty">
+  <TypeSignature Language="C#" Value="public class SortProperty : Microsoft.Hpc.Scheduler.Properties.ISortProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SortProperty extends System.Object implements class Microsoft.Hpc.Scheduler.Properties.ISortProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.SortProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Class SortProperty&#xA;Implements ISortProperty" />
+  <TypeSignature Language="F#" Value="type SortProperty = class&#xA;    interface ISortProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Properties.ISortProperty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("CD2EF552-A818-4BDB-A4E6-B30A821CDCDD")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a property on which the lists of jobs, tasks, or nodes are sorted.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SortProperty (Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder order, Microsoft.Hpc.Scheduler.Properties.PropertyId propId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.SortProperty/SortOrder order, class Microsoft.Hpc.Scheduler.Properties.PropertyId propId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.SortProperty.#ctor(Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder,Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (order As SortProperty.SortOrder, propId As PropertyId)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.SortProperty : Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder * Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; Microsoft.Hpc.Scheduler.Properties.SortProperty" Usage="new Microsoft.Hpc.Scheduler.Properties.SortProperty (order, propId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="order" Type="Microsoft.Hpc.Scheduler.Properties.SortProperty+SortOrder" />
+        <Parameter Name="propId" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="order">The order in which the results are sorted (for example, ascending or descending). For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder"></see> enumeration.</param>
+        <param name="propId">A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies the property used to sort the results.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.SortProperty.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Id : Microsoft.Hpc.Scheduler.Properties.PropertyId with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.SortProperty.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the identifier of the property used to sort the results.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies the property used to sort the results.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Order">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder Order { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.SortProperty/SortOrder Order" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.SortProperty.Order" />
+      <MemberSignature Language="VB.NET" Value="Public Property Order As SortProperty.SortOrder" />
+      <MemberSignature Language="F#" Value="member this.Order : Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.SortProperty.Order" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SortProperty+SortOrder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the order in which the results are sorted.</summary>
+        <value>The order in which the results are sorted (for example, ascending or descending). For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.SortProperty.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="sortProperty.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves a formatted string that represents the object.</summary>
+        <returns>A formatted string that represents the object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

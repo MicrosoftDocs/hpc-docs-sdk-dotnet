@@ -1,0 +1,165 @@
+﻿<Type Name="BrokerConfigurations" FullName="Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations">
+  <TypeSignature Language="C#" Value="public class BrokerConfigurations : System.Configuration.ConfigurationSectionGroup" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BrokerConfigurations extends System.Configuration.ConfigurationSectionGroup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations" />
+  <TypeSignature Language="VB.NET" Value="Public Class BrokerConfigurations&#xA;Inherits ConfigurationSectionGroup" />
+  <TypeSignature Language="F#" Value="type BrokerConfigurations = class&#xA;    inherit ConfigurationSectionGroup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Configuration.ConfigurationSectionGroup</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerConfigurations ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomBroker">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Configuration.CustomBrokerRegistration CustomBroker { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Session.Configuration.CustomBrokerRegistration CustomBroker" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.CustomBroker" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomBroker As CustomBrokerRegistration" />
+      <MemberSignature Language="F#" Value="member this.CustomBroker : Microsoft.Hpc.Scheduler.Session.Configuration.CustomBrokerRegistration with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.CustomBroker" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Configuration.CustomBrokerRegistration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSectionGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations GetSectionGroup (System.Configuration.Configuration config);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations GetSectionGroup(class System.Configuration.Configuration config) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.GetSectionGroup(System.Configuration.Configuration)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetSectionGroup (config As Configuration) As BrokerConfigurations" />
+      <MemberSignature Language="F#" Value="static member GetSectionGroup : System.Configuration.Configuration -&gt; Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.GetSectionGroup config" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="config" Type="System.Configuration.Configuration" />
+      </Parameters>
+      <Docs>
+        <param name="config">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadBalancing">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration LoadBalancing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration LoadBalancing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.LoadBalancing" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoadBalancing As LoadBalancingConfiguration" />
+      <MemberSignature Language="F#" Value="member this.LoadBalancing : Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.LoadBalancing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Monitor">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Configuration.BrokerMonitorConfiguration Monitor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Session.Configuration.BrokerMonitorConfiguration Monitor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.Monitor" />
+      <MemberSignature Language="VB.NET" Value="Public Property Monitor As BrokerMonitorConfiguration" />
+      <MemberSignature Language="F#" Value="member this.Monitor : Microsoft.Hpc.Scheduler.Session.Configuration.BrokerMonitorConfiguration with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.Monitor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Configuration.BrokerMonitorConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Services">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Configuration.BrokerServicesConfiguration Services { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Session.Configuration.BrokerServicesConfiguration Services" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.Services" />
+      <MemberSignature Language="VB.NET" Value="Public Property Services As BrokerServicesConfiguration" />
+      <MemberSignature Language="F#" Value="member this.Services : Microsoft.Hpc.Scheduler.Session.Configuration.BrokerServicesConfiguration with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.Services" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Configuration.BrokerServicesConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public bool Validate (out string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Validate([out] string&amp; errorMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.BrokerConfigurations.Validate(System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Validate (ByRef errorMessage As String) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Validate :  -&gt; bool" Usage="brokerConfigurations.Validate errorMessage" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="errorMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="errorMessage">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

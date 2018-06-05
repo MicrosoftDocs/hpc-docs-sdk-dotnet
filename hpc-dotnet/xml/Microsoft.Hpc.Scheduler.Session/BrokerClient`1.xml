@@ -1,0 +1,1141 @@
+﻿<Type Name="BrokerClient&lt;TContract&gt;" FullName="Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;TContract&gt;">
+  <TypeSignature Language="C#" Value="public class BrokerClient&lt;TContract&gt; : Microsoft.Hpc.Scheduler.Session.BrokerClientBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BrokerClient`1&lt;TContract&gt; extends Microsoft.Hpc.Scheduler.Session.BrokerClientBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.BrokerClient`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class BrokerClient(Of TContract)&#xA;Inherits BrokerClientBase" />
+  <TypeSignature Language="F#" Value="type BrokerClient&lt;'Contract&gt; = class&#xA;    inherit BrokerClientBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TContract" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.Session.BrokerClientBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TContract">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerClient (Microsoft.Hpc.Scheduler.Session.SessionBase session);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Session.SessionBase session) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.#ctor(Microsoft.Hpc.Scheduler.Session.SessionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (session As SessionBase)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; : Microsoft.Hpc.Scheduler.Session.SessionBase -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; session" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+      </Parameters>
+      <Docs>
+        <param name="session">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerClient (Microsoft.Hpc.Scheduler.Session.SessionBase session, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Session.SessionBase session, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.#ctor(Microsoft.Hpc.Scheduler.Session.SessionBase,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; : Microsoft.Hpc.Scheduler.Session.SessionBase * System.ServiceModel.Channels.Binding -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; (session, binding)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="session">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerClient (Microsoft.Hpc.Scheduler.Session.SessionBase session, string bindingConfigName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Session.SessionBase session, string bindingConfigName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.#ctor(Microsoft.Hpc.Scheduler.Session.SessionBase,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (session As SessionBase, bindingConfigName As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; : Microsoft.Hpc.Scheduler.Session.SessionBase * string -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; (session, bindingConfigName)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+        <Parameter Name="bindingConfigName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="session">To be added.</param>
+        <param name="bindingConfigName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerClient (string clientid, Microsoft.Hpc.Scheduler.Session.SessionBase session);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string clientid, class Microsoft.Hpc.Scheduler.Session.SessionBase session) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.#ctor(System.String,Microsoft.Hpc.Scheduler.Session.SessionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (clientid As String, session As SessionBase)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; : string * Microsoft.Hpc.Scheduler.Session.SessionBase -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; (clientid, session)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="clientid" Type="System.String" />
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+      </Parameters>
+      <Docs>
+        <param name="clientid">To be added.</param>
+        <param name="session">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerClient (string clientid, Microsoft.Hpc.Scheduler.Session.SessionBase session, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string clientid, class Microsoft.Hpc.Scheduler.Session.SessionBase session, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.#ctor(System.String,Microsoft.Hpc.Scheduler.Session.SessionBase,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; : string * Microsoft.Hpc.Scheduler.Session.SessionBase * System.ServiceModel.Channels.Binding -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; (clientid, session, binding)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="clientid" Type="System.String" />
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="clientid">To be added.</param>
+        <param name="session">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerClient (string clientid, Microsoft.Hpc.Scheduler.Session.SessionBase session, string bindingConfigName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string clientid, class Microsoft.Hpc.Scheduler.Session.SessionBase session, string bindingConfigName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.#ctor(System.String,Microsoft.Hpc.Scheduler.Session.SessionBase,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (clientid As String, session As SessionBase, bindingConfigName As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; : string * Microsoft.Hpc.Scheduler.Session.SessionBase * string -&gt; Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;" Usage="new Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt; (clientid, session, bindingConfigName)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="clientid" Type="System.String" />
+        <Parameter Name="session" Type="Microsoft.Hpc.Scheduler.Session.SessionBase" />
+        <Parameter Name="bindingConfigName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="clientid">To be added.</param>
+        <param name="session">To be added.</param>
+        <param name="bindingConfigName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Behaviors">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.BrokerClientBehaviors Behaviors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Session.BrokerClientBehaviors Behaviors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Behaviors" />
+      <MemberSignature Language="VB.NET" Value="Public Property Behaviors As BrokerClientBehaviors" />
+      <MemberSignature Language="F#" Value="member this.Behaviors : Microsoft.Hpc.Scheduler.Session.BrokerClientBehaviors with get, set" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;.Behaviors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.BrokerClientBehaviors</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="F#" Value="member this.Close : unit -&gt; unit" Usage="brokerClient.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (bool purge);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close(bool purge) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Close(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (purge As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Close : bool -&gt; unit" Usage="brokerClient.Close purge" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="purge" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="purge">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (bool purge, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close(bool purge, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Close(System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (purge As Boolean, timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.Close : bool * int -&gt; unit" Usage="brokerClient.Close (purge, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="purge" Type="System.Boolean" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="purge">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="brokerClient.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRequests">
+      <MemberSignature Language="C#" Value="public void EndRequests ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRequests() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.EndRequests" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRequests ()" />
+      <MemberSignature Language="F#" Value="member this.EndRequests : unit -&gt; unit" Usage="brokerClient.EndRequests " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRequests">
+      <MemberSignature Language="C#" Value="public void EndRequests (int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRequests(int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.EndRequests(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRequests (timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.EndRequests : int -&gt; unit" Usage="brokerClient.EndRequests timeoutMilliseconds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~BrokerClient`1 ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="brokerClient.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public void Flush ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Flush() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Flush" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Flush ()" />
+      <MemberSignature Language="F#" Value="member this.Flush : unit -&gt; unit" Usage="brokerClient.Flush " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public void Flush (int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Flush(int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.Flush(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Flush (timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.Flush : int -&gt; unit" Usage="brokerClient.Flush timeoutMilliseconds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResponses">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;object&gt; GetResponses ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator`1&lt;object&gt; GetResponses() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.GetResponses" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetResponses () As BrokerResponseEnumerator(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.GetResponses : unit -&gt; Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;obj&gt;" Usage="brokerClient.GetResponses " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResponses">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;object&gt; GetResponses (int waitTimeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator`1&lt;object&gt; GetResponses(int32 waitTimeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.GetResponses(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetResponses (waitTimeoutMilliseconds As Integer) As BrokerResponseEnumerator(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.GetResponses : int -&gt; Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;obj&gt;" Usage="brokerClient.GetResponses waitTimeoutMilliseconds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitTimeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="waitTimeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResponses&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;TMessage&gt; GetResponses&lt;TMessage&gt; ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator`1&lt;!!TMessage&gt; GetResponses&lt;TMessage&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.GetResponses``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetResponses(Of TMessage) () As BrokerResponseEnumerator(Of TMessage)" />
+      <MemberSignature Language="F#" Value="member this.GetResponses : unit -&gt; Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;'Message&gt;" Usage="brokerClient.GetResponses " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;TMessage&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResponses&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;TMessage&gt; GetResponses&lt;TMessage&gt; (int waitTimeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator`1&lt;!!TMessage&gt; GetResponses&lt;TMessage&gt;(int32 waitTimeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.GetResponses``1(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetResponses(Of TMessage) (waitTimeoutMilliseconds As Integer) As BrokerResponseEnumerator(Of TMessage)" />
+      <MemberSignature Language="F#" Value="member this.GetResponses : int -&gt; Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;'Message&gt;" Usage="brokerClient.GetResponses waitTimeoutMilliseconds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;TMessage&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="waitTimeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="waitTimeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResponses&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;TMessage&gt; GetResponses&lt;TMessage&gt; (string action, string replyAction, int waitTimeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator`1&lt;!!TMessage&gt; GetResponses&lt;TMessage&gt;(string action, string replyAction, int32 waitTimeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.GetResponses``1(System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetResponses(Of TMessage) (action As String, replyAction As String, waitTimeoutMilliseconds As Integer) As BrokerResponseEnumerator(Of TMessage)" />
+      <MemberSignature Language="F#" Value="member this.GetResponses : string * string * int -&gt; Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;'Message&gt;" Usage="brokerClient.GetResponses (action, replyAction, waitTimeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.BrokerResponseEnumerator&lt;TMessage&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="action" Type="System.String" />
+        <Parameter Name="replyAction" Type="System.String" />
+        <Parameter Name="waitTimeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="action">To be added.</param>
+        <param name="replyAction">To be added.</param>
+        <param name="waitTimeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.Interface.BrokerClientStatus GetStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Hpc.Scheduler.Session.Interface.BrokerClientStatus GetStatus() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.GetStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStatus () As BrokerClientStatus" />
+      <MemberSignature Language="F#" Value="member this.GetStatus : unit -&gt; Microsoft.Hpc.Scheduler.Session.Interface.BrokerClientStatus" Usage="brokerClient.GetStatus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Interface.BrokerClientStatus</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestsCount">
+      <MemberSignature Language="C#" Value="public int RequestsCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RequestsCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.RequestsCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestsCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.RequestsCount : int" Usage="Microsoft.Hpc.Scheduler.Session.BrokerClient&lt;'Contract&gt;.RequestsCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message -&gt; unit" Usage="brokerClient.SendRequest request" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj -&gt; unit" Usage="brokerClient.SendRequest (request, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, System.Xml.UniqueId messageId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, class System.Xml.UniqueId messageId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Xml.UniqueId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, messageId As UniqueId)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * System.Xml.UniqueId -&gt; unit" Usage="brokerClient.SendRequest (request, messageId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="messageId" Type="System.Xml.UniqueId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="messageId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, int sendTimeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, int32 sendTimeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, sendTimeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * int -&gt; unit" Usage="brokerClient.SendRequest (request, userData, sendTimeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="sendTimeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="sendTimeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, string action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, string action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, action As String)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * string -&gt; unit" Usage="brokerClient.SendRequest (request, userData, action)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="action" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="action">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, System.Xml.UniqueId messageId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, class System.Xml.UniqueId messageId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.Xml.UniqueId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, messageId As UniqueId)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * System.Xml.UniqueId -&gt; unit" Usage="brokerClient.SendRequest (request, userData, messageId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="messageId" Type="System.Xml.UniqueId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="messageId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, int sendTimeoutMilliseconds, System.Xml.UniqueId messageId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, int32 sendTimeoutMilliseconds, class System.Xml.UniqueId messageId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.Int32,System.Xml.UniqueId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, sendTimeoutMilliseconds As Integer, messageId As UniqueId)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * int * System.Xml.UniqueId -&gt; unit" Usage="brokerClient.SendRequest (request, userData, sendTimeoutMilliseconds, messageId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="sendTimeoutMilliseconds" Type="System.Int32" />
+        <Parameter Name="messageId" Type="System.Xml.UniqueId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="sendTimeoutMilliseconds">To be added.</param>
+        <param name="messageId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, string action, int sendTimeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, string action, int32 sendTimeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, action As String, sendTimeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * string * int -&gt; unit" Usage="brokerClient.SendRequest (request, userData, action, sendTimeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="action" Type="System.String" />
+        <Parameter Name="sendTimeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="action">To be added.</param>
+        <param name="sendTimeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, string action, System.Xml.UniqueId messageId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, string action, class System.Xml.UniqueId messageId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.String,System.Xml.UniqueId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, action As String, messageId As UniqueId)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * string * System.Xml.UniqueId -&gt; unit" Usage="brokerClient.SendRequest (request, userData, action, messageId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="action" Type="System.String" />
+        <Parameter Name="messageId" Type="System.Xml.UniqueId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="action">To be added.</param>
+        <param name="messageId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SendRequest&lt;TMessage&gt; (TMessage request, object userData, string action, int sendTimeoutMilliseconds, System.Xml.UniqueId messageId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendRequest&lt;TMessage&gt;(!!TMessage request, object userData, string action, int32 sendTimeoutMilliseconds, class System.Xml.UniqueId messageId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1(``0,System.Object,System.String,System.Int32,System.Xml.UniqueId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendRequest(Of TMessage) (request As TMessage, userData As Object, action As String, sendTimeoutMilliseconds As Integer, messageId As UniqueId)" />
+      <MemberSignature Language="F#" Value="member this.SendRequest : 'Message * obj * string * int * System.Xml.UniqueId -&gt; unit" Usage="brokerClient.SendRequest (request, userData, action, sendTimeoutMilliseconds, messageId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="request" Type="TMessage" />
+        <Parameter Name="userData" Type="System.Object" />
+        <Parameter Name="action" Type="System.String" />
+        <Parameter Name="sendTimeoutMilliseconds" Type="System.Int32" />
+        <Parameter Name="messageId" Type="System.Xml.UniqueId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="request">To be added.</param>
+        <param name="userData">To be added.</param>
+        <param name="action">To be added.</param>
+        <param name="sendTimeoutMilliseconds">To be added.</param>
+        <param name="messageId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler (Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;object&gt; callback);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler(class Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler`1&lt;object&gt; callback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler(Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler (callback As BrokerResponseHandler(Of Object))" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;obj&gt; -&gt; unit" Usage="brokerClient.SetResponseHandler callback" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler (Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;object&gt; callback, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler(class Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler`1&lt;object&gt; callback, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler(Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler{System.Object},System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler (callback As BrokerResponseHandler(Of Object), timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;obj&gt; * int -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;System.Object&gt;" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler (Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;object&gt; callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler(class Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler`1&lt;object&gt; callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler(Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler{System.Object},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler (callback As BrokerResponseStateHandler(Of Object), state As Object)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;obj&gt; * obj -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;System.Object&gt;" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler (Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;object&gt; callback, object state, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler(class Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler`1&lt;object&gt; callback, object state, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler(Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler{System.Object},System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler (callback As BrokerResponseStateHandler(Of Object), state As Object, timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;obj&gt; * obj * int -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, state, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;System.Object&gt;" />
+        <Parameter Name="state" Type="System.Object" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler&lt;TMessage&gt; (Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;TMessage&gt; callback);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler&lt;TMessage&gt;(class Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler`1&lt;!!TMessage&gt; callback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler``1(Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler{``0})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler(Of TMessage) (callback As BrokerResponseHandler(Of TMessage))" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;'Message&gt; -&gt; unit" Usage="brokerClient.SetResponseHandler callback" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;TMessage&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="callback">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler&lt;TMessage&gt; (Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;TMessage&gt; callback, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler&lt;TMessage&gt;(class Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler`1&lt;!!TMessage&gt; callback, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler``1(Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler{``0},System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler(Of TMessage) (callback As BrokerResponseHandler(Of TMessage), timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;'Message&gt; * int -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;TMessage&gt;" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="callback">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler&lt;TMessage&gt; (Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;TMessage&gt; callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler&lt;TMessage&gt;(class Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler`1&lt;!!TMessage&gt; callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler``1(Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler{``0},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler(Of TMessage) (callback As BrokerResponseStateHandler(Of TMessage), state As Object)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;'Message&gt; * obj -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;TMessage&gt;" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler&lt;TMessage&gt; (Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;TMessage&gt; callback, object state, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler&lt;TMessage&gt;(class Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler`1&lt;!!TMessage&gt; callback, object state, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler``1(Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler{``0},System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler(Of TMessage) (callback As BrokerResponseStateHandler(Of TMessage), state As Object, timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;'Message&gt; * obj * int -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, state, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;TMessage&gt;" />
+        <Parameter Name="state" Type="System.Object" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler&lt;TMessage&gt; (Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;TMessage&gt; callback, string action, string replyAction, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler&lt;TMessage&gt;(class Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler`1&lt;!!TMessage&gt; callback, string action, string replyAction, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler``1(Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler{``0},System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler(Of TMessage) (callback As BrokerResponseHandler(Of TMessage), action As String, replyAction As String, timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;'Message&gt; * string * string * int -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, action, replyAction, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseHandler&lt;TMessage&gt;" />
+        <Parameter Name="action" Type="System.String" />
+        <Parameter Name="replyAction" Type="System.String" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="callback">To be added.</param>
+        <param name="action">To be added.</param>
+        <param name="replyAction">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResponseHandler&lt;TMessage&gt;">
+      <MemberSignature Language="C#" Value="public void SetResponseHandler&lt;TMessage&gt; (Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;TMessage&gt; callback, string action, string replyAction, object state, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResponseHandler&lt;TMessage&gt;(class Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler`1&lt;!!TMessage&gt; callback, string action, string replyAction, object state, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SetResponseHandler``1(Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler{``0},System.String,System.String,System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResponseHandler(Of TMessage) (callback As BrokerResponseStateHandler(Of TMessage), action As String, replyAction As String, state As Object, timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.SetResponseHandler : Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;'Message&gt; * string * string * obj * int -&gt; unit" Usage="brokerClient.SetResponseHandler (callback, action, replyAction, state, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TMessage" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="callback" Type="Microsoft.Hpc.Scheduler.Session.BrokerResponseStateHandler&lt;TMessage&gt;" />
+        <Parameter Name="action" Type="System.String" />
+        <Parameter Name="replyAction" Type="System.String" />
+        <Parameter Name="state" Type="System.Object" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TMessage">To be added.</typeparam>
+        <param name="callback">To be added.</param>
+        <param name="action">To be added.</param>
+        <param name="replyAction">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+﻿<Type Name="PriorityBias" FullName="Microsoft.Hpc.Scheduler.Properties.PriorityBias">
+  <TypeSignature Language="C#" Value="public enum PriorityBias" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PriorityBias extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PriorityBias" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PriorityBias" />
+  <TypeSignature Language="F#" Value="type PriorityBias = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines how additional resources are allocated to jobs when the scheduling mode is set to <see cref="F:Microsoft.Hpc.Scheduler.Properties.SchedulingMode.Balanced" />. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HighBias">
+      <MemberSignature Language="C#" Value="HighBias" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PriorityBias HighBias = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PriorityBias.HighBias" />
+      <MemberSignature Language="VB.NET" Value="HighBias" />
+      <MemberSignature Language="F#" Value="HighBias = 2" Usage="Microsoft.Hpc.Scheduler.Properties.PriorityBias.HighBias" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PriorityBias</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Specifies that jobs in a given priority range are given ten times the share of the additional resources than the jobs in the next range below the given priority range.  This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MediumBias">
+      <MemberSignature Language="C#" Value="MediumBias" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PriorityBias MediumBias = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PriorityBias.MediumBias" />
+      <MemberSignature Language="VB.NET" Value="MediumBias" />
+      <MemberSignature Language="F#" Value="MediumBias = 1" Usage="Microsoft.Hpc.Scheduler.Properties.PriorityBias.MediumBias" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PriorityBias</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that jobs in a given priority range are given twice the share of the additional resources than the jobs in the next range below the given priority range. The priority ranges are Highest, Above Normal, Normal, Below Normal, and Lowest. This value is the default. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoBias">
+      <MemberSignature Language="C#" Value="NoBias" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PriorityBias NoBias = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PriorityBias.NoBias" />
+      <MemberSignature Language="VB.NET" Value="NoBias" />
+      <MemberSignature Language="F#" Value="NoBias = 0" Usage="Microsoft.Hpc.Scheduler.Properties.PriorityBias.NoBias" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PriorityBias</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the additional resources are allocated equally across the job queue. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

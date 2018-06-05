@@ -1,0 +1,29 @@
+﻿<Type Name="JobStateChangeDelegate" FullName="Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate">
+  <TypeSignature Language="C#" Value="public delegate void JobStateChangeDelegate(int jobId, JobState prevState, JobState newState);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobStateChangeDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub JobStateChangeDelegate(jobId As Integer, prevState As JobState, newState As JobState)" />
+  <TypeSignature Language="F#" Value="type JobStateChangeDelegate = delegate of int * JobState * JobState -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="jobId" Type="System.Int32" />
+    <Parameter Name="prevState" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+    <Parameter Name="newState" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="jobId">To be added.</param>
+    <param name="prevState">To be added.</param>
+    <param name="newState">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

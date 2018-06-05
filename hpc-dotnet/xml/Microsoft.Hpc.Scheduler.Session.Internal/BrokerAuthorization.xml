@@ -1,0 +1,194 @@
+﻿<Type Name="BrokerAuthorization" FullName="Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization">
+  <TypeSignature Language="C#" Value="public class BrokerAuthorization : System.Runtime.Serialization.ISerializable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit BrokerAuthorization extends System.Object implements class System.Runtime.Serialization.ISerializable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization" />
+  <TypeSignature Language="VB.NET" Value="Public Class BrokerAuthorization&#xA;Implements ISerializable" />
+  <TypeSignature Language="F#" Value="type BrokerAuthorization = class&#xA;    interface ISerializable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Runtime.Serialization.ISerializable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerAuthorization (System.Security.Principal.SecurityIdentifier allowedUser);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Security.Principal.SecurityIdentifier allowedUser) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.#ctor(System.Security.Principal.SecurityIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (allowedUser As SecurityIdentifier)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization : System.Security.Principal.SecurityIdentifier -&gt; Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization" Usage="new Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization allowedUser" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="allowedUser" Type="System.Security.Principal.SecurityIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="allowedUser">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BrokerAuthorization (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization" Usage="new Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization (info, context)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
+      </Parameters>
+      <Docs>
+        <param name="info">To be added.</param>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BrokerAuthorization (string sddl, int desiredAccess, int genericRead, int genericWrite, int genericExecute, int genericAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string sddl, int32 desiredAccess, int32 genericRead, int32 genericWrite, int32 genericExecute, int32 genericAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (sddl As String, desiredAccess As Integer, genericRead As Integer, genericWrite As Integer, genericExecute As Integer, genericAll As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization : string * int * int * int * int * int -&gt; Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization" Usage="new Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization (sddl, desiredAccess, genericRead, genericWrite, genericExecute, genericAll)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="sddl" Type="System.String" />
+        <Parameter Name="desiredAccess" Type="System.Int32" />
+        <Parameter Name="genericRead" Type="System.Int32" />
+        <Parameter Name="genericWrite" Type="System.Int32" />
+        <Parameter Name="genericExecute" Type="System.Int32" />
+        <Parameter Name="genericAll" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sddl">To be added.</param>
+        <param name="desiredAccess">To be added.</param>
+        <param name="genericRead">To be added.</param>
+        <param name="genericWrite">To be added.</param>
+        <param name="genericExecute">To be added.</param>
+        <param name="genericAll">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckAccess">
+      <MemberSignature Language="C#" Value="public bool CheckAccess ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CheckAccess() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.CheckAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Function CheckAccess () As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CheckAccess : unit -&gt; bool" Usage="brokerAuthorization.CheckAccess " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckAccess">
+      <MemberSignature Language="C#" Value="public virtual bool CheckAccess (System.Security.Principal.WindowsIdentity user);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CheckAccess(class System.Security.Principal.WindowsIdentity user) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.CheckAccess(System.Security.Principal.WindowsIdentity)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckAccess (user As WindowsIdentity) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member CheckAccess : System.Security.Principal.WindowsIdentity -&gt; bool&#xA;override this.CheckAccess : System.Security.Principal.WindowsIdentity -&gt; bool" Usage="brokerAuthorization.CheckAccess user" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="user" Type="System.Security.Principal.WindowsIdentity" />
+      </Parameters>
+      <Docs>
+        <param name="user">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckAccess">
+      <MemberSignature Language="C#" Value="public virtual bool CheckAccess (System.ServiceModel.ServiceSecurityContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CheckAccess(class System.ServiceModel.ServiceSecurityContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.CheckAccess(System.ServiceModel.ServiceSecurityContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckAccess (context As ServiceSecurityContext) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member CheckAccess : System.ServiceModel.ServiceSecurityContext -&gt; bool&#xA;override this.CheckAccess : System.ServiceModel.ServiceSecurityContext -&gt; bool" Usage="brokerAuthorization.CheckAccess context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="System.ServiceModel.ServiceSecurityContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectData">
+      <MemberSignature Language="C#" Value="public virtual void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetObjectData(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.BrokerAuthorization.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub GetObjectData (info As SerializationInfo, context As StreamingContext)" />
+      <MemberSignature Language="F#" Value="abstract member GetObjectData : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; unit&#xA;override this.GetObjectData : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; unit" Usage="brokerAuthorization.GetObjectData (info, context)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
+      </Parameters>
+      <Docs>
+        <param name="info">To be added.</param>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

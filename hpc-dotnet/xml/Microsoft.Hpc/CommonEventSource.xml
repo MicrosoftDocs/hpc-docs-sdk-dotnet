@@ -1,0 +1,358 @@
+﻿<Type Name="CommonEventSource" FullName="Microsoft.Hpc.CommonEventSource">
+  <TypeSignature Language="C#" Value="public sealed class CommonEventSource : System.Diagnostics.Tracing.EventSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CommonEventSource extends System.Diagnostics.Tracing.EventSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.CommonEventSource" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CommonEventSource&#xA;Inherits EventSource" />
+  <TypeSignature Language="F#" Value="type CommonEventSource = class&#xA;    inherit EventSource" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Diagnostics.Tracing.EventSource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Diagnostics.Tracing.EventSource(Name="Microsoft-HpcApplication-HpcCommon")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Current">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Hpc.CommonEventSource Current;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Hpc.CommonEventSource Current" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.CommonEventSource.Current" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Current As CommonEventSource " />
+      <MemberSignature Language="F#" Value=" staticval mutable Current : Microsoft.Hpc.CommonEventSource" Usage="Microsoft.Hpc.CommonEventSource.Current" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.CommonEventSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorInstallPerformanceCounter">
+      <MemberSignature Language="C#" Value="public void ErrorInstallPerformanceCounter (string category, Exception ex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ErrorInstallPerformanceCounter(string category, class System.Exception ex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.ErrorInstallPerformanceCounter(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ErrorInstallPerformanceCounter (category As String, ex As Exception)" />
+      <MemberSignature Language="F#" Value="member this.ErrorInstallPerformanceCounter : string * Exception -&gt; unit" Usage="commonEventSource.ErrorInstallPerformanceCounter (category, ex)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10003, Keywords=3, Level=System.Diagnostics.Tracing.EventLevel.Error, Message="Exception while setup performance category {0}, ex {1}")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="ex" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="category">To be added.</param>
+        <param name="ex">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstalledPerformanceCounter">
+      <MemberSignature Language="C#" Value="public void InstalledPerformanceCounter (string category);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InstalledPerformanceCounter(string category) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.InstalledPerformanceCounter(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InstalledPerformanceCounter (category As String)" />
+      <MemberSignature Language="F#" Value="member this.InstalledPerformanceCounter : string -&gt; unit" Usage="commonEventSource.InstalledPerformanceCounter category" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10004, Keywords=3, Level=System.Diagnostics.Tracing.EventLevel.Informational, Message="Installed performance counter category {0}")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="category" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="category">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public void Message (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Message(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.Message(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Message (message As String)" />
+      <MemberSignature Language="F#" Value="member this.Message : string -&gt; unit" Usage="commonEventSource.Message message" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10001, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Informational, Message="{0}")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public void Message (string message, params object[] args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Message(string message, object[] args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.Message(System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Message (message As String, ParamArray args As Object())" />
+      <MemberSignature Language="F#" Value="member this.Message : string * obj[] -&gt; unit" Usage="commonEventSource.Message (message, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.NonEvent</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCancelTriggered">
+      <MemberSignature Language="C#" Value="public void OnCancelTriggered ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnCancelTriggered() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.OnCancelTriggered" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCancelTriggered ()" />
+      <MemberSignature Language="F#" Value="member this.OnCancelTriggered : unit -&gt; unit" Usage="commonEventSource.OnCancelTriggered " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10010, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Critical, Message="Cancel triggered")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnChangeRole">
+      <MemberSignature Language="C#" Value="public void OnChangeRole (string newRole);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnChangeRole(string newRole) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.OnChangeRole(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnChangeRole (newRole As String)" />
+      <MemberSignature Language="F#" Value="member this.OnChangeRole : string -&gt; unit" Usage="commonEventSource.OnChangeRole newRole" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10006, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Critical, Message="Replica role changed to {0}")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newRole" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="newRole">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCloseService">
+      <MemberSignature Language="C#" Value="public void OnCloseService ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnCloseService() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.OnCloseService" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCloseService ()" />
+      <MemberSignature Language="F#" Value="member this.OnCloseService : unit -&gt; unit" Usage="commonEventSource.OnCloseService " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10007, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Critical, Message="Service is closed")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateListeners">
+      <MemberSignature Language="C#" Value="public void OnCreateListeners ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnCreateListeners() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.OnCreateListeners" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnCreateListeners ()" />
+      <MemberSignature Language="F#" Value="member this.OnCreateListeners : unit -&gt; unit" Usage="commonEventSource.OnCreateListeners " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10009, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Critical, Message="Create listeners")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnOpenService">
+      <MemberSignature Language="C#" Value="public void OnOpenService ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnOpenService() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.OnOpenService" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnOpenService ()" />
+      <MemberSignature Language="F#" Value="member this.OnOpenService : unit -&gt; unit" Usage="commonEventSource.OnOpenService " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10008, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Critical, Message="Service is opened")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegistryNonNotification&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public void RegistryNonNotification&lt;T&gt; (bool cached, T oldValue, bool exist, T newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RegistryNonNotification&lt;T&gt;(bool cached, !!T oldValue, bool exist, !!T newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.RegistryNonNotification``1(System.Boolean,``0,System.Boolean,``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegistryNonNotification(Of T) (cached As Boolean, oldValue As T, exist As Boolean, newValue As T)" />
+      <MemberSignature Language="F#" Value="member this.RegistryNonNotification : bool * 'T * bool * 'T -&gt; unit" Usage="commonEventSource.RegistryNonNotification (cached, oldValue, exist, newValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10002, Keywords=2, Level=System.Diagnostics.Tracing.EventLevel.Informational, Message="Registry monitored a non-notification event. cached {0}, oldValue {1}, exist {2} newValue {3}")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="cached" Type="System.Boolean" />
+        <Parameter Name="oldValue" Type="T" />
+        <Parameter Name="exist" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="cached">To be added.</param>
+        <param name="oldValue">To be added.</param>
+        <param name="exist">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceAborted">
+      <MemberSignature Language="C#" Value="public void ServiceAborted ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ServiceAborted() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.CommonEventSource.ServiceAborted" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ServiceAborted ()" />
+      <MemberSignature Language="F#" Value="member this.ServiceAborted : unit -&gt; unit" Usage="commonEventSource.ServiceAborted " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Tracing.Event(10005, Keywords=1, Level=System.Diagnostics.Tracing.EventLevel.Critical, Message="Service aborted")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

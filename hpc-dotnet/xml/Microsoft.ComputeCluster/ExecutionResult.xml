@@ -1,0 +1,223 @@
+﻿<Type Name="ExecutionResult" FullName="Microsoft.ComputeCluster.ExecutionResult">
+  <TypeSignature Language="C#" Value="public class ExecutionResult : Microsoft.ComputeCluster.IExecutionResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExecutionResult extends System.Object implements class Microsoft.ComputeCluster.IExecutionResult" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.ExecutionResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExecutionResult&#xA;Implements IExecutionResult" />
+  <TypeSignature Language="F#" Value="type ExecutionResult = class&#xA;    interface IExecutionResult" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.ComputeCluster.IExecutionResult</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CLSCompliant(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("D076DBB0-B77C-43d5-91D6-D7872CADC3C6")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExecutionResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.ExecutionResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExecutionResult (int id, string nodeName, int exitCode, string output, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 id, string nodeName, int32 exitCode, string output, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.ExecutionResult.#ctor(System.Int32,System.String,System.Int32,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As Integer, nodeName As String, exitCode As Integer, output As String, pageSize As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.ComputeCluster.ExecutionResult : int * string * int * string * int -&gt; Microsoft.ComputeCluster.ExecutionResult" Usage="new Microsoft.ComputeCluster.ExecutionResult (id, nodeName, exitCode, output, pageSize)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="exitCode" Type="System.Int32" />
+        <Parameter Name="output" Type="System.String" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="nodeName">To be added.</param>
+        <param name="exitCode">To be added.</param>
+        <param name="output">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandId">
+      <MemberSignature Language="C#" Value="public int CommandId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CommandId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.CommandId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandId As Integer" />
+      <MemberSignature Language="F#" Value="member this.CommandId : int with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.CommandId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public int ExitCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExitCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : int with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.ExitCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumLength">
+      <MemberSignature Language="C#" Value="public int MaximumLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.MaximumLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumLength As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumLength : int with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.MaximumLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeName">
+      <MemberSignature Language="C#" Value="public string NodeName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NodeName As String" />
+      <MemberSignature Language="F#" Value="member this.NodeName : string with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.NodeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Output">
+      <MemberSignature Language="C#" Value="public string Output { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Output" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.Output" />
+      <MemberSignature Language="VB.NET" Value="Public Property Output As String" />
+      <MemberSignature Language="F#" Value="member this.Output : string with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.Output" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="F#" Value="member this.PageSize : int with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.PageSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public int Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.ExecutionResult.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As Integer" />
+      <MemberSignature Language="F#" Value="member this.Start : int with get, set" Usage="Microsoft.ComputeCluster.ExecutionResult.Start" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

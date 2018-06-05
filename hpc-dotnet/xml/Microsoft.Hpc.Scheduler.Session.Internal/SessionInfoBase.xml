@@ -1,0 +1,270 @@
+﻿<Type Name="SessionInfoBase" FullName="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase">
+  <TypeSignature Language="C#" Value="public abstract class SessionInfoBase : Microsoft.Hpc.Scheduler.Session.Interface.IConnectionInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SessionInfoBase extends System.Object implements class Microsoft.Hpc.Scheduler.Session.Interface.IConnectionInfo" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SessionInfoBase&#xA;Implements IConnectionInfo" />
+  <TypeSignature Language="F#" Value="type SessionInfoBase = class&#xA;    interface IConnectionInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Session.Interface.IConnectionInfo</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SessionInfoBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Headnode">
+      <MemberSignature Language="C#" Value="public string Headnode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Headnode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Headnode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Headnode As String" />
+      <MemberSignature Language="F#" Value="member this.Headnode : string with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Headnode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public abstract int Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Id" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAadOrLocalUser">
+      <MemberSignature Language="C#" Value="public bool IsAadOrLocalUser { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAadOrLocalUser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.IsAadOrLocalUser" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAadOrLocalUser As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsAadOrLocalUser : bool" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.IsAadOrLocalUser" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Session.Interface.IConnectionInfo.IsAadOrLocalUser</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalUser">
+      <MemberSignature Language="C#" Value="public virtual bool LocalUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LocalUser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.LocalUser" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property LocalUser As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LocalUser : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.LocalUser" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Secure">
+      <MemberSignature Language="C#" Value="public abstract bool Secure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Secure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Secure" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property Secure As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Secure : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Secure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceOperationTimeout">
+      <MemberSignature Language="C#" Value="public abstract int ServiceOperationTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ServiceOperationTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.ServiceOperationTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property ServiceOperationTimeout As Integer" />
+      <MemberSignature Language="F#" Value="member this.ServiceOperationTimeout : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.ServiceOperationTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceVersion">
+      <MemberSignature Language="C#" Value="public abstract Version ServiceVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version ServiceVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.ServiceVersion" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property ServiceVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.ServiceVersion : Version with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.ServiceVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransportScheme">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.Hpc.Scheduler.Session.TransportScheme TransportScheme { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Session.TransportScheme TransportScheme" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.TransportScheme" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property TransportScheme As TransportScheme" />
+      <MemberSignature Language="F#" Value="member this.TransportScheme : Microsoft.Hpc.Scheduler.Session.TransportScheme with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.TransportScheme" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Session.Interface.IConnectionInfo.TransportScheme</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.TransportScheme</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseAad">
+      <MemberSignature Language="C#" Value="public bool UseAad { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseAad" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.UseAad" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseAad As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseAad : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.UseAad" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Session.Interface.IConnectionInfo.UseAad</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInprocessBroker">
+      <MemberSignature Language="C#" Value="public abstract bool UseInprocessBroker { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseInprocessBroker" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.UseInprocessBroker" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Property UseInprocessBroker As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseInprocessBroker : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.UseInprocessBroker" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Username">
+      <MemberSignature Language="C#" Value="public string Username { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Username" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Username" />
+      <MemberSignature Language="VB.NET" Value="Public Property Username As String" />
+      <MemberSignature Language="F#" Value="member this.Username : string with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoBase.Username" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

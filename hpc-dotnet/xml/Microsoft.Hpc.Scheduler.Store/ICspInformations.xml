@@ -1,0 +1,380 @@
+﻿<Type Name="ICspInformations" FullName="Microsoft.Hpc.Scheduler.Store.ICspInformations">
+  <TypeSignature Language="C#" Value="public interface ICspInformations : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICspInformations implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ICspInformations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICspInformations&#xA;Implements IEnumerable" />
+  <TypeSignature Language="F#" Value="type ICspInformations = interface&#xA;    interface IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB308-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Hpc.Scheduler.Store.CCspInformation pVal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add([in]class Microsoft.Hpc.Scheduler.Store.CCspInformation pVal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.Add(Microsoft.Hpc.Scheduler.Store.CCspInformation)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (pVal As CCspInformation)" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Hpc.Scheduler.Store.CCspInformation -&gt; unit" Usage="iCspInformations.Add pVal" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pVal" Type="Microsoft.Hpc.Scheduler.Store.CCspInformation" />
+      </Parameters>
+      <Docs>
+        <param name="pVal">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAvailableCsps">
+      <MemberSignature Language="C#" Value="public void AddAvailableCsps ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddAvailableCsps() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.AddAvailableCsps" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddAvailableCsps ()" />
+      <MemberSignature Language="F#" Value="abstract member AddAvailableCsps : unit -&gt; unit" Usage="iCspInformations.AddAvailableCsps " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="iCspInformations.Clear " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformations.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformations.Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCspStatusesFromOperations">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ICspStatuses GetCspStatusesFromOperations (Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags Operations, Microsoft.Hpc.Scheduler.Store.CCspInformation pCspInformation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ICspStatuses GetCspStatusesFromOperations([in]valuetype Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags Operations, [in]class Microsoft.Hpc.Scheduler.Store.CCspInformation pCspInformation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.GetCspStatusesFromOperations(Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags,Microsoft.Hpc.Scheduler.Store.CCspInformation)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCspStatusesFromOperations (Operations As AlgorithmOperationFlags, pCspInformation As CCspInformation) As ICspStatuses" />
+      <MemberSignature Language="F#" Value="abstract member GetCspStatusesFromOperations : Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags * Microsoft.Hpc.Scheduler.Store.CCspInformation -&gt; Microsoft.Hpc.Scheduler.Store.ICspStatuses" Usage="iCspInformations.GetCspStatusesFromOperations (Operations, pCspInformation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ICspStatuses</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Operations" Type="Microsoft.Hpc.Scheduler.Store.AlgorithmOperationFlags" />
+        <Parameter Name="pCspInformation" Type="Microsoft.Hpc.Scheduler.Store.CCspInformation" />
+      </Parameters>
+      <Docs>
+        <param name="Operations">To be added.</param>
+        <param name="pCspInformation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCspStatusFromProviderName">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CCspStatus GetCspStatusFromProviderName (string strProviderName, Microsoft.Hpc.Scheduler.Store.X509KeySpec LegacyKeySpec);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.CCspStatus GetCspStatusFromProviderName([in]string strProviderName, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509KeySpec LegacyKeySpec) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.GetCspStatusFromProviderName(System.String,Microsoft.Hpc.Scheduler.Store.X509KeySpec)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCspStatusFromProviderName (strProviderName As String, LegacyKeySpec As X509KeySpec) As CCspStatus" />
+      <MemberSignature Language="F#" Value="abstract member GetCspStatusFromProviderName : string * Microsoft.Hpc.Scheduler.Store.X509KeySpec -&gt; Microsoft.Hpc.Scheduler.Store.CCspStatus" Usage="iCspInformations.GetCspStatusFromProviderName (strProviderName, LegacyKeySpec)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CCspStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strProviderName" Type="System.String" />
+        <Parameter Name="LegacyKeySpec" Type="Microsoft.Hpc.Scheduler.Store.X509KeySpec" />
+      </Parameters>
+      <Docs>
+        <param name="strProviderName">To be added.</param>
+        <param name="LegacyKeySpec">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEncryptionCspAlgorithms">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ICspAlgorithms GetEncryptionCspAlgorithms (Microsoft.Hpc.Scheduler.Store.CCspInformation pCspInformation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ICspAlgorithms GetEncryptionCspAlgorithms([in]class Microsoft.Hpc.Scheduler.Store.CCspInformation pCspInformation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.GetEncryptionCspAlgorithms(Microsoft.Hpc.Scheduler.Store.CCspInformation)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEncryptionCspAlgorithms (pCspInformation As CCspInformation) As ICspAlgorithms" />
+      <MemberSignature Language="F#" Value="abstract member GetEncryptionCspAlgorithms : Microsoft.Hpc.Scheduler.Store.CCspInformation -&gt; Microsoft.Hpc.Scheduler.Store.ICspAlgorithms" Usage="iCspInformations.GetEncryptionCspAlgorithms pCspInformation" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ICspAlgorithms</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pCspInformation" Type="Microsoft.Hpc.Scheduler.Store.CCspInformation" />
+      </Parameters>
+      <Docs>
+        <param name="pCspInformation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="iCspInformations.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashAlgorithms">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CObjectIds GetHashAlgorithms (Microsoft.Hpc.Scheduler.Store.CCspInformation pCspInformation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.CObjectIds GetHashAlgorithms([in]class Microsoft.Hpc.Scheduler.Store.CCspInformation pCspInformation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.GetHashAlgorithms(Microsoft.Hpc.Scheduler.Store.CCspInformation)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHashAlgorithms (pCspInformation As CCspInformation) As CObjectIds" />
+      <MemberSignature Language="F#" Value="abstract member GetHashAlgorithms : Microsoft.Hpc.Scheduler.Store.CCspInformation -&gt; Microsoft.Hpc.Scheduler.Store.CObjectIds" Usage="iCspInformations.GetHashAlgorithms pCspInformation" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CObjectIds</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pCspInformation" Type="Microsoft.Hpc.Scheduler.Store.CCspInformation" />
+      </Parameters>
+      <Docs>
+        <param name="pCspInformation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CCspInformation this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.CCspInformation Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformations.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As CCspInformation" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Hpc.Scheduler.Store.CCspInformation" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformations.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CCspInformation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CCspInformation this[string strName] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.CCspInformation Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICspInformations.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(strName As String) As CCspInformation" />
+      <MemberSignature Language="F#" Value="member this.Item(string) : Microsoft.Hpc.Scheduler.Store.CCspInformation" Usage="Microsoft.Hpc.Scheduler.Store.ICspInformations.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CCspInformation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="strName">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICspInformations.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member Remove : int -&gt; unit" Usage="iCspInformations.Remove Index" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

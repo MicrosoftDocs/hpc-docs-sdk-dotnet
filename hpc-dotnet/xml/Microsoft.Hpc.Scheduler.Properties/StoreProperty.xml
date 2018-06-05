@@ -1,0 +1,170 @@
+﻿<Type Name="StoreProperty" FullName="Microsoft.Hpc.Scheduler.Properties.StoreProperty">
+  <TypeSignature Language="C#" Value="public class StoreProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit StoreProperty extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Class StoreProperty" />
+  <TypeSignature Language="F#" Value="type StoreProperty = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.KnownType(typeof(System.Collections.Generic.List`1&lt;Microsoft.Hpc.Scheduler.Properties.NetworkInfo&gt;))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Hpc.Scheduler.Properties.GpuInfo[]))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a store property.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StoreProperty ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.StoreProperty.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Constructors for initializing an empty instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StoreProperty" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StoreProperty (Microsoft.Hpc.Scheduler.Properties.PropertyId propId, object propValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Properties.PropertyId propId, object propValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.StoreProperty.#ctor(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propId As PropertyId, propValue As Object)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.StoreProperty : Microsoft.Hpc.Scheduler.Properties.PropertyId * obj -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty" Usage="new Microsoft.Hpc.Scheduler.Properties.StoreProperty (propId, propValue)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propId" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="propValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propId">A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies the property.</param>
+        <param name="propValue">The value of the property.</param>
+        <summary>Constructors for initializing a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StoreProperty" /> class using the specified property identifier and value.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StoreProperty (string propName, object propValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string propName, object propValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.StoreProperty.#ctor(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propName As String, propValue As Object)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.StoreProperty : string * obj -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty" Usage="new Microsoft.Hpc.Scheduler.Properties.StoreProperty (propName, propValue)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propName" Type="System.String" />
+        <Parameter Name="propValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propName">The name of the property.</param>
+        <param name="propValue">The value of the property.</param>
+        <summary>Constructors for initializing a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StoreProperty" /> class using the specified property name and value.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.StoreProperty.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Id : Microsoft.Hpc.Scheduler.Properties.PropertyId with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.StoreProperty.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the property identifier.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies the property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropName">
+      <MemberSignature Language="C#" Value="public string PropName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PropName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.StoreProperty.PropName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropName As String" />
+      <MemberSignature Language="F#" Value="member this.PropName : string" Usage="Microsoft.Hpc.Scheduler.Properties.StoreProperty.PropName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the name of the property.</summary>
+        <value>The name of the property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.StoreProperty.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="storeProperty.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>A string that represents the property.</summary>
+        <returns>A string that represents the property.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.StoreProperty.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.StoreProperty.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the value of the property.</summary>
+        <value>The value of the property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

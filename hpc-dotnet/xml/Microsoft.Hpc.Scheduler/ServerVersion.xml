@@ -1,0 +1,220 @@
+﻿<Type Name="ServerVersion" FullName="Microsoft.Hpc.Scheduler.ServerVersion">
+  <TypeSignature Language="C#" Value="public class ServerVersion : Microsoft.Hpc.Scheduler.IServerVersion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServerVersion extends System.Object implements class Microsoft.Hpc.Scheduler.IServerVersion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ServerVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServerVersion&#xA;Implements IServerVersion" />
+  <TypeSignature Language="F#" Value="type ServerVersion = class&#xA;    interface IServerVersion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.IServerVersion</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("352F26D5-F0AD-491e-8585-55B59D03CDAC")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains the file version information for the HPC server assembly.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerVersion (Version ver);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Version ver) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ServerVersion.#ctor(System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ver As Version)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.ServerVersion : Version -&gt; Microsoft.Hpc.Scheduler.ServerVersion" Usage="new Microsoft.Hpc.Scheduler.ServerVersion ver" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="ver" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="ver">A <see cref="T:System.Version"></see> object used to initialize the contents of this class. </param>
+        <summary>Initializes a new instance of this class using the specified <see cref="T:System.Version" /> object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerVersion (int major, int minor, int build, int revision);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 major, int32 minor, int32 build, int32 revision) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ServerVersion.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (major As Integer, minor As Integer, build As Integer, revision As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.ServerVersion : int * int * int * int -&gt; Microsoft.Hpc.Scheduler.ServerVersion" Usage="new Microsoft.Hpc.Scheduler.ServerVersion (major, minor, build, revision)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="major" Type="System.Int32" />
+        <Parameter Name="minor" Type="System.Int32" />
+        <Parameter Name="build" Type="System.Int32" />
+        <Parameter Name="revision" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="major">The major number.</param>
+        <param name="minor">The minor number.</param>
+        <param name="build">The build number or -1 if not defined.</param>
+        <param name="revision">The revision number or -1 if not defined.</param>
+        <summary>Initializes a new instance of this class using the specified version components.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Build">
+      <MemberSignature Language="C#" Value="public int Build { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Build" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ServerVersion.Build" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Build As Integer" />
+      <MemberSignature Language="F#" Value="member this.Build : int" Usage="Microsoft.Hpc.Scheduler.ServerVersion.Build" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IServerVersion.Build</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the build component of the version number.</summary>
+        <value>The build number. Is -1 if undefined.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Major">
+      <MemberSignature Language="C#" Value="public int Major { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Major" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ServerVersion.Major" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Major As Integer" />
+      <MemberSignature Language="F#" Value="member this.Major : int" Usage="Microsoft.Hpc.Scheduler.ServerVersion.Major" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IServerVersion.Major</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the major component of the version number.</summary>
+        <value>The major number.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorRevision">
+      <MemberSignature Language="C#" Value="public short MajorRevision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 MajorRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ServerVersion.MajorRevision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MajorRevision As Short" />
+      <MemberSignature Language="F#" Value="member this.MajorRevision : int16" Usage="Microsoft.Hpc.Scheduler.ServerVersion.MajorRevision" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IServerVersion.MajorRevision</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the high 16 bits of the <see cref="P:Microsoft.Hpc.Scheduler.ServerVersion.Revision" /> number.</summary>
+        <value>The major revision number.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Minor">
+      <MemberSignature Language="C#" Value="public int Minor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Minor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ServerVersion.Minor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Minor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Minor : int" Usage="Microsoft.Hpc.Scheduler.ServerVersion.Minor" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IServerVersion.Minor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minor component of the version number.</summary>
+        <value>The minor number.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorRevision">
+      <MemberSignature Language="C#" Value="public short MinorRevision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 MinorRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ServerVersion.MinorRevision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinorRevision As Short" />
+      <MemberSignature Language="F#" Value="member this.MinorRevision : int16" Usage="Microsoft.Hpc.Scheduler.ServerVersion.MinorRevision" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IServerVersion.MinorRevision</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the low 16 bits of the <see cref="P:Microsoft.Hpc.Scheduler.ServerVersion.Revision" /> number.</summary>
+        <value>The minor revision number.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Revision">
+      <MemberSignature Language="C#" Value="public int Revision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Revision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ServerVersion.Revision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Revision As Integer" />
+      <MemberSignature Language="F#" Value="member this.Revision : int" Usage="Microsoft.Hpc.Scheduler.ServerVersion.Revision" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IServerVersion.Revision</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the revision component of the version number.</summary>
+        <value>The revision number. Is -1 if undefined.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

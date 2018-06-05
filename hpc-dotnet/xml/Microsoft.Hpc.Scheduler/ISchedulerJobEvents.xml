@@ -1,0 +1,79 @@
+﻿<Type Name="ISchedulerJobEvents" FullName="Microsoft.Hpc.Scheduler.ISchedulerJobEvents">
+  <TypeSignature Language="C#" Value="public interface ISchedulerJobEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerJobEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerJobEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerJobEvents" />
+  <TypeSignature Language="F#" Value="type ISchedulerJobEvents = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("47956563-23c2-4270-80c8-91a3b369acb7")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the interface that COM applications implement to handle events raised by the <see cref="T:Microsoft.Hpc.Scheduler.ISchedulerJob" /> object. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnJobState">
+      <MemberSignature Language="C#" Value="public void OnJobState (object sender, Microsoft.Hpc.Scheduler.JobStateEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnJobState(object sender, class Microsoft.Hpc.Scheduler.JobStateEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerJobEvents.OnJobState(System.Object,Microsoft.Hpc.Scheduler.JobStateEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnJobState (sender As Object, arg As JobStateEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnJobState : obj * Microsoft.Hpc.Scheduler.JobStateEventArg -&gt; unit" Usage="iSchedulerJobEvents.OnJobState (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.JobStateEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The job object that sent the event.</param>
+        <param name="arg">An <see cref="T:Microsoft.Hpc.Scheduler.JobStateEventArg"></see> object that contains the event properties.</param>
+        <summary>Is called when the state of the job changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnTaskState">
+      <MemberSignature Language="C#" Value="public void OnTaskState (object sender, Microsoft.Hpc.Scheduler.TaskStateEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnTaskState(object sender, class Microsoft.Hpc.Scheduler.TaskStateEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerJobEvents.OnTaskState(System.Object,Microsoft.Hpc.Scheduler.TaskStateEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnTaskState (sender As Object, arg As TaskStateEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnTaskState : obj * Microsoft.Hpc.Scheduler.TaskStateEventArg -&gt; unit" Usage="iSchedulerJobEvents.OnTaskState (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.TaskStateEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">The job object that sent the event.</param>
+        <param name="arg">An <see cref="T:Microsoft.Hpc.Scheduler.TaskStateEventArg"></see> object that contains the event properties.</param>
+        <summary>Is called when the state of a task in the job changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

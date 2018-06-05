@@ -1,0 +1,214 @@
+﻿<Type Name="AddInFilterBase" FullName="Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase">
+  <TypeSignature Language="C#" Value="public abstract class AddInFilterBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AddInFilterBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AddInFilterBase" />
+  <TypeSignature Language="F#" Value="type AddInFilterBase = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AddInFilterBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterActivation">
+      <MemberSignature Language="C#" Value="public abstract int FilterActivation (System.IO.Stream jobXml, int schedulerPass, int jobIndex, bool backfill, int resourceCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 FilterActivation(class System.IO.Stream jobXml, int32 schedulerPass, int32 jobIndex, bool backfill, int32 resourceCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.FilterActivation(System.IO.Stream,System.Int32,System.Int32,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function FilterActivation (jobXml As Stream, schedulerPass As Integer, jobIndex As Integer, backfill As Boolean, resourceCount As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member FilterActivation : System.IO.Stream * int * int * bool * int -&gt; int" Usage="addInFilterBase.FilterActivation (jobXml, schedulerPass, jobIndex, backfill, resourceCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="schedulerPass" Type="System.Int32" />
+        <Parameter Name="jobIndex" Type="System.Int32" />
+        <Parameter Name="backfill" Type="System.Boolean" />
+        <Parameter Name="resourceCount" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="schedulerPass">To be added.</param>
+        <param name="jobIndex">To be added.</param>
+        <param name="backfill">To be added.</param>
+        <param name="resourceCount">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterSubmission">
+      <MemberSignature Language="C#" Value="public abstract int FilterSubmission (System.IO.Stream jobXmlIn, out System.IO.Stream jobXmlModified);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 FilterSubmission(class System.IO.Stream jobXmlIn, [out] class System.IO.Stream&amp; jobXmlModified) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.FilterSubmission(System.IO.Stream,System.IO.Stream@)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function FilterSubmission (jobXmlIn As Stream, ByRef jobXmlModified As Stream) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member FilterSubmission : System.IO.Stream *  -&gt; int" Usage="addInFilterBase.FilterSubmission (jobXmlIn, jobXmlModified)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXmlIn" Type="System.IO.Stream" />
+        <Parameter Name="jobXmlModified" Type="System.IO.Stream&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="jobXmlIn">To be added.</param>
+        <param name="jobXmlModified">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadFilter">
+      <MemberSignature Language="C#" Value="public abstract void LoadFilter (string filterFile, out byte[] loadData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LoadFilter(string filterFile, [out] unsigned int8[]&amp; loadData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.LoadFilter(System.String,System.Byte[]@)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub LoadFilter (filterFile As String, ByRef loadData As Byte())" />
+      <MemberSignature Language="F#" Value="abstract member LoadFilter : string *  -&gt; unit" Usage="addInFilterBase.LoadFilter (filterFile, loadData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filterFile" Type="System.String" />
+        <Parameter Name="loadData" Type="System.Byte[]&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="filterFile">To be added.</param>
+        <param name="loadData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnFilterLoad">
+      <MemberSignature Language="C#" Value="public abstract void OnFilterLoad ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnFilterLoad() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.OnFilterLoad" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub OnFilterLoad ()" />
+      <MemberSignature Language="F#" Value="abstract member OnFilterLoad : unit -&gt; unit" Usage="addInFilterBase.OnFilterLoad " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnFilterUnload">
+      <MemberSignature Language="C#" Value="public abstract void OnFilterUnload ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnFilterUnload() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.OnFilterUnload" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub OnFilterUnload ()" />
+      <MemberSignature Language="F#" Value="abstract member OnFilterUnload : unit -&gt; unit" Usage="addInFilterBase.OnFilterUnload " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevertActivation">
+      <MemberSignature Language="C#" Value="public abstract void RevertActivation (System.IO.Stream jobXml, int schedulerPass, int jobIndex, bool backfill, int resourceCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevertActivation(class System.IO.Stream jobXml, int32 schedulerPass, int32 jobIndex, bool backfill, int32 resourceCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.RevertActivation(System.IO.Stream,System.Int32,System.Int32,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub RevertActivation (jobXml As Stream, schedulerPass As Integer, jobIndex As Integer, backfill As Boolean, resourceCount As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RevertActivation : System.IO.Stream * int * int * bool * int -&gt; unit" Usage="addInFilterBase.RevertActivation (jobXml, schedulerPass, jobIndex, backfill, resourceCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="schedulerPass" Type="System.Int32" />
+        <Parameter Name="jobIndex" Type="System.Int32" />
+        <Parameter Name="backfill" Type="System.Boolean" />
+        <Parameter Name="resourceCount" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="schedulerPass">To be added.</param>
+        <param name="jobIndex">To be added.</param>
+        <param name="backfill">To be added.</param>
+        <param name="resourceCount">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevertSubmission">
+      <MemberSignature Language="C#" Value="public abstract void RevertSubmission (System.IO.Stream jobXml);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevertSubmission(class System.IO.Stream jobXml) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.AddInFilterBase.RevertSubmission(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub RevertSubmission (jobXml As Stream)" />
+      <MemberSignature Language="F#" Value="abstract member RevertSubmission : System.IO.Stream -&gt; unit" Usage="addInFilterBase.RevertSubmission jobXml" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,190 @@
+﻿<Type Name="ISchedulerNotifyAsync" FullName="Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync">
+  <TypeSignature Language="C#" Value="public interface ISchedulerNotifyAsync" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerNotifyAsync" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerNotifyAsync" />
+  <TypeSignature Language="F#" Value="type ISchedulerNotifyAsync = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Namespace="http://hpc.microsoft.com")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginJobStateChanged">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginJobStateChanged (Microsoft.Hpc.Scheduler.Properties.JobState jobState, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginJobStateChanged(valuetype Microsoft.Hpc.Scheduler.Properties.JobState jobState, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync.BeginJobStateChanged(Microsoft.Hpc.Scheduler.Properties.JobState,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="F#" Value="abstract member BeginJobStateChanged : Microsoft.Hpc.Scheduler.Properties.JobState * AsyncCallback * obj -&gt; IAsyncResult" Usage="iSchedulerNotifyAsync.BeginJobStateChanged (jobState, callback, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(AsyncPattern=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobState" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="jobState">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginTaskStateChanged">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginTaskStateChanged (System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; taskInfoList, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginTaskStateChanged(class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; taskInfoList, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync.BeginTaskStateChanged(System.Collections.Generic.List{Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginTaskStateChanged (taskInfoList As List(Of TaskInfo), callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginTaskStateChanged : System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="iSchedulerNotifyAsync.BeginTaskStateChanged (taskInfoList, callback, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(AsyncPattern=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskInfoList" Type="System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt;" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="taskInfoList">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndJobStateChanged">
+      <MemberSignature Language="C#" Value="public void EndJobStateChanged (IAsyncResult ar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndJobStateChanged(class System.IAsyncResult ar) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync.EndJobStateChanged(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndJobStateChanged (ar As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndJobStateChanged : IAsyncResult -&gt; unit" Usage="iSchedulerNotifyAsync.EndJobStateChanged ar" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ar" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="ar">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTaskStateChanged">
+      <MemberSignature Language="C#" Value="public void EndTaskStateChanged (IAsyncResult ar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndTaskStateChanged(class System.IAsyncResult ar) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync.EndTaskStateChanged(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndTaskStateChanged (ar As IAsyncResult)" />
+      <MemberSignature Language="F#" Value="abstract member EndTaskStateChanged : IAsyncResult -&gt; unit" Usage="iSchedulerNotifyAsync.EndTaskStateChanged ar" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ar" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="ar">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobStateChanged">
+      <MemberSignature Language="C#" Value="public void JobStateChanged (Microsoft.Hpc.Scheduler.Properties.JobState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void JobStateChanged(valuetype Microsoft.Hpc.Scheduler.Properties.JobState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync.JobStateChanged(Microsoft.Hpc.Scheduler.Properties.JobState)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub JobStateChanged (state As JobState)" />
+      <MemberSignature Language="F#" Value="abstract member JobStateChanged : Microsoft.Hpc.Scheduler.Properties.JobState -&gt; unit" Usage="iSchedulerNotifyAsync.JobStateChanged state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskStateChanged">
+      <MemberSignature Language="C#" Value="public void TaskStateChanged (System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; taskInfoList);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TaskStateChanged(class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; taskInfoList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotifyAsync.TaskStateChanged(System.Collections.Generic.List{Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TaskStateChanged (taskInfoList As List(Of TaskInfo))" />
+      <MemberSignature Language="F#" Value="abstract member TaskStateChanged : System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; -&gt; unit" Usage="iSchedulerNotifyAsync.TaskStateChanged taskInfoList" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskInfoList" Type="System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="taskInfoList">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

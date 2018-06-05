@@ -1,0 +1,27 @@
+﻿<Type Name="CommandOutputHandler" FullName="Microsoft.Hpc.Scheduler.CommandOutputHandler">
+  <TypeSignature Language="C#" Value="public delegate void CommandOutputHandler(object sender, CommandOutputEventArg arg);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CommandOutputHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.CommandOutputHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub CommandOutputHandler(sender As Object, arg As CommandOutputEventArg)" />
+  <TypeSignature Language="F#" Value="type CommandOutputHandler = delegate of obj * CommandOutputEventArg -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.CommandOutputEventArg" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="arg">To be added.</param>
+    <summary>Defines the delegate to implement when you subscribe to the <see cref="E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandOutput" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

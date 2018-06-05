@@ -1,0 +1,552 @@
+﻿<Type Name="BlobTransferManager" FullName="Microsoft.Hpc.Azure.DataMovement.BlobTransferManager">
+  <TypeSignature Language="C#" Value="public sealed class BlobTransferManager : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BlobTransferManager extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BlobTransferManager&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type BlobTransferManager = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferManager (Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.#ctor(Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (options As BlobTransferOptions)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.DataMovement.BlobTransferManager : Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions -&gt; Microsoft.Hpc.Azure.DataMovement.BlobTransferManager" Usage="new Microsoft.Hpc.Azure.DataMovement.BlobTransferManager options" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="options" Type="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelWork">
+      <MemberSignature Language="C#" Value="public void CancelWork ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CancelWork() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.CancelWork" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelWork ()" />
+      <MemberSignature Language="F#" Value="member this.CancelWork : unit -&gt; unit" Usage="blobTransferManager.CancelWork " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelWorkAndWaitForCompletion">
+      <MemberSignature Language="C#" Value="public void CancelWorkAndWaitForCompletion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CancelWorkAndWaitForCompletion() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.CancelWorkAndWaitForCompletion" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelWorkAndWaitForCompletion ()" />
+      <MemberSignature Language="F#" Value="member this.CancelWorkAndWaitForCompletion : unit -&gt; unit" Usage="blobTransferManager.CancelWorkAndWaitForCompletion " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="blobTransferManager.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~BlobTransferManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="blobTransferManager.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalCopySpeedUpdated">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; GlobalCopySpeedUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; GlobalCopySpeedUpdated" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.GlobalCopySpeedUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Event GlobalCopySpeedUpdated As EventHandler(Of BlobTransferManagerEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.GlobalCopySpeedUpdated : EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; " Usage="member this.GlobalCopySpeedUpdated : System.EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalDownloadSpeedUpdated">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; GlobalDownloadSpeedUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; GlobalDownloadSpeedUpdated" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.GlobalDownloadSpeedUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Event GlobalDownloadSpeedUpdated As EventHandler(Of BlobTransferManagerEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.GlobalDownloadSpeedUpdated : EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; " Usage="member this.GlobalDownloadSpeedUpdated : System.EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUploadSpeedUpdated">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; GlobalUploadSpeedUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; GlobalUploadSpeedUpdated" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.GlobalUploadSpeedUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Event GlobalUploadSpeedUpdated As EventHandler(Of BlobTransferManagerEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.GlobalUploadSpeedUpdated : EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; " Usage="member this.GlobalUploadSpeedUpdated : System.EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Azure.DataMovement.BlobTransferManagerEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueBlobCopy">
+      <MemberSignature Language="C#" Value="public void QueueBlobCopy (Microsoft.WindowsAzure.Storage.Blob.ICloudBlob sourceBlob, Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, Action&lt;object&gt; startCallback, Action&lt;object,double,double&gt; progressCallback, Action&lt;object,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueBlobCopy(class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob sourceBlob, class Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, float64, float64&gt; progressCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueBlobCopy(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer,System.String,System.Action{System.Object},System.Action{System.Object,System.Double,System.Double},System.Action{System.Object,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueBlobCopy (sourceBlob As ICloudBlob, destinationContainer As CloudBlobContainer, destinationBlobName As String, startCallback As Action(Of Object), progressCallback As Action(Of Object, Double, Double), finishCallback As Action(Of Object, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueBlobCopy : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob * Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer * string * Action&lt;obj&gt; * Action&lt;obj, double, double&gt; * Action&lt;obj, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueBlobCopy (sourceBlob, destinationContainer, destinationBlobName, startCallback, progressCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceBlob" Type="Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
+        <Parameter Name="destinationContainer" Type="Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer" />
+        <Parameter Name="destinationBlobName" Type="System.String" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="progressCallback" Type="System.Action&lt;System.Object,System.Double,System.Double&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sourceBlob">To be added.</param>
+        <param name="destinationContainer">To be added.</param>
+        <param name="destinationBlobName">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueBlobCopy">
+      <MemberSignature Language="C#" Value="public void QueueBlobCopy (Uri sourceUri, Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, Action&lt;object&gt; startCallback, Action&lt;object,double,double&gt; progressCallback, Action&lt;object,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueBlobCopy(class System.Uri sourceUri, class Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, float64, float64&gt; progressCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueBlobCopy(System.Uri,Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer,System.String,System.Action{System.Object},System.Action{System.Object,System.Double,System.Double},System.Action{System.Object,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueBlobCopy (sourceUri As Uri, destinationContainer As CloudBlobContainer, destinationBlobName As String, startCallback As Action(Of Object), progressCallback As Action(Of Object, Double, Double), finishCallback As Action(Of Object, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueBlobCopy : Uri * Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer * string * Action&lt;obj&gt; * Action&lt;obj, double, double&gt; * Action&lt;obj, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueBlobCopy (sourceUri, destinationContainer, destinationBlobName, startCallback, progressCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceUri" Type="System.Uri" />
+        <Parameter Name="destinationContainer" Type="Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer" />
+        <Parameter Name="destinationBlobName" Type="System.String" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="progressCallback" Type="System.Action&lt;System.Object,System.Double,System.Double&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sourceUri">To be added.</param>
+        <param name="destinationContainer">To be added.</param>
+        <param name="destinationBlobName">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueBlobStartCopy">
+      <MemberSignature Language="C#" Value="public void QueueBlobStartCopy (Microsoft.WindowsAzure.Storage.Blob.ICloudBlob sourceBlob, Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, Action&lt;object&gt; startCallback, Action&lt;object,string,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueBlobStartCopy(class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob sourceBlob, class Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, string, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueBlobStartCopy(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer,System.String,System.Action{System.Object},System.Action{System.Object,System.String,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueBlobStartCopy (sourceBlob As ICloudBlob, destinationContainer As CloudBlobContainer, destinationBlobName As String, startCallback As Action(Of Object), finishCallback As Action(Of Object, String, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueBlobStartCopy : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob * Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer * string * Action&lt;obj&gt; * Action&lt;obj, string, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueBlobStartCopy (sourceBlob, destinationContainer, destinationBlobName, startCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceBlob" Type="Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
+        <Parameter Name="destinationContainer" Type="Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer" />
+        <Parameter Name="destinationBlobName" Type="System.String" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.String,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sourceBlob">To be added.</param>
+        <param name="destinationContainer">To be added.</param>
+        <param name="destinationBlobName">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueBlobStartCopy">
+      <MemberSignature Language="C#" Value="public void QueueBlobStartCopy (Uri sourceUri, Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, Action&lt;object&gt; startCallback, Action&lt;object,string,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueBlobStartCopy(class System.Uri sourceUri, class Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer destinationContainer, string destinationBlobName, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, string, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueBlobStartCopy(System.Uri,Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer,System.String,System.Action{System.Object},System.Action{System.Object,System.String,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueBlobStartCopy (sourceUri As Uri, destinationContainer As CloudBlobContainer, destinationBlobName As String, startCallback As Action(Of Object), finishCallback As Action(Of Object, String, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueBlobStartCopy : Uri * Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer * string * Action&lt;obj&gt; * Action&lt;obj, string, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueBlobStartCopy (sourceUri, destinationContainer, destinationBlobName, startCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceUri" Type="System.Uri" />
+        <Parameter Name="destinationContainer" Type="Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer" />
+        <Parameter Name="destinationBlobName" Type="System.String" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.String,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sourceUri">To be added.</param>
+        <param name="destinationContainer">To be added.</param>
+        <param name="destinationBlobName">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueuedItemsCount">
+      <MemberSignature Language="C#" Value="public int QueuedItemsCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueuedItemsCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueuedItemsCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueuedItemsCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueuedItemsCount : int" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueuedItemsCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueDownload">
+      <MemberSignature Language="C#" Value="public void QueueDownload (Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, System.IO.Stream outputStream, bool checkMd5, Action&lt;object&gt; startCallback, Action&lt;object,double,double&gt; progressCallback, Action&lt;object,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueDownload(class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, class System.IO.Stream outputStream, bool checkMd5, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, float64, float64&gt; progressCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueDownload(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,System.IO.Stream,System.Boolean,System.Action{System.Object},System.Action{System.Object,System.Double,System.Double},System.Action{System.Object,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueDownload (blob As ICloudBlob, outputStream As Stream, checkMd5 As Boolean, startCallback As Action(Of Object), progressCallback As Action(Of Object, Double, Double), finishCallback As Action(Of Object, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueDownload : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob * System.IO.Stream * bool * Action&lt;obj&gt; * Action&lt;obj, double, double&gt; * Action&lt;obj, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueDownload (blob, outputStream, checkMd5, startCallback, progressCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blob" Type="Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
+        <Parameter Name="outputStream" Type="System.IO.Stream" />
+        <Parameter Name="checkMd5" Type="System.Boolean" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="progressCallback" Type="System.Action&lt;System.Object,System.Double,System.Double&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blob">To be added.</param>
+        <param name="outputStream">To be added.</param>
+        <param name="checkMd5">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueDownload">
+      <MemberSignature Language="C#" Value="public void QueueDownload (Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, string fileName, bool checkMd5, Action&lt;object&gt; startCallback, Action&lt;object,double,double&gt; progressCallback, Action&lt;object,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueDownload(class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, string fileName, bool checkMd5, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, float64, float64&gt; progressCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueDownload(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,System.String,System.Boolean,System.Action{System.Object},System.Action{System.Object,System.Double,System.Double},System.Action{System.Object,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueDownload (blob As ICloudBlob, fileName As String, checkMd5 As Boolean, startCallback As Action(Of Object), progressCallback As Action(Of Object, Double, Double), finishCallback As Action(Of Object, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueDownload : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob * string * bool * Action&lt;obj&gt; * Action&lt;obj, double, double&gt; * Action&lt;obj, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueDownload (blob, fileName, checkMd5, startCallback, progressCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blob" Type="Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="checkMd5" Type="System.Boolean" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="progressCallback" Type="System.Action&lt;System.Object,System.Double,System.Double&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blob">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="checkMd5">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueRecursiveTransfer">
+      <MemberSignature Language="C#" Value="public void QueueRecursiveTransfer (string sourceLocation, string destinationLocation, Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions options, Action&lt;object&gt; startCallback, Action&lt;object,Exception&gt; finishCallback, Action&lt;object,Microsoft.Hpc.Azure.DataMovement.EntryData&gt; startFileCallback, Action&lt;object,Microsoft.Hpc.Azure.DataMovement.EntryData,double,double&gt; progressFileCallback, Action&lt;object,Microsoft.Hpc.Azure.DataMovement.EntryData,Exception&gt; finishFileCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueRecursiveTransfer(string sourceLocation, string destinationLocation, class Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions options, class System.Action`1&lt;object&gt; startCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, class System.Action`2&lt;object, class Microsoft.Hpc.Azure.DataMovement.EntryData&gt; startFileCallback, class System.Action`4&lt;object, class Microsoft.Hpc.Azure.DataMovement.EntryData, float64, float64&gt; progressFileCallback, class System.Action`3&lt;object, class Microsoft.Hpc.Azure.DataMovement.EntryData, class System.Exception&gt; finishFileCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueRecursiveTransfer(System.String,System.String,Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions,System.Action{System.Object},System.Action{System.Object,System.Exception},System.Action{System.Object,Microsoft.Hpc.Azure.DataMovement.EntryData},System.Action{System.Object,Microsoft.Hpc.Azure.DataMovement.EntryData,System.Double,System.Double},System.Action{System.Object,Microsoft.Hpc.Azure.DataMovement.EntryData,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueRecursiveTransfer (sourceLocation As String, destinationLocation As String, options As BlobTransferRecursiveTransferOptions, startCallback As Action(Of Object), finishCallback As Action(Of Object, Exception), startFileCallback As Action(Of Object, EntryData), progressFileCallback As Action(Of Object, EntryData, Double, Double), finishFileCallback As Action(Of Object, EntryData, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueRecursiveTransfer : string * string * Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions * Action&lt;obj&gt; * Action&lt;obj, Exception&gt; * Action&lt;obj, Microsoft.Hpc.Azure.DataMovement.EntryData&gt; * Action&lt;obj, Microsoft.Hpc.Azure.DataMovement.EntryData, double, double&gt; * Action&lt;obj, Microsoft.Hpc.Azure.DataMovement.EntryData, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueRecursiveTransfer (sourceLocation, destinationLocation, options, startCallback, finishCallback, startFileCallback, progressFileCallback, finishFileCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceLocation" Type="System.String" />
+        <Parameter Name="destinationLocation" Type="System.String" />
+        <Parameter Name="options" Type="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="startFileCallback" Type="System.Action&lt;System.Object,Microsoft.Hpc.Azure.DataMovement.EntryData&gt;" />
+        <Parameter Name="progressFileCallback" Type="System.Action&lt;System.Object,Microsoft.Hpc.Azure.DataMovement.EntryData,System.Double,System.Double&gt;" />
+        <Parameter Name="finishFileCallback" Type="System.Action&lt;System.Object,Microsoft.Hpc.Azure.DataMovement.EntryData,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="sourceLocation">To be added.</param>
+        <param name="destinationLocation">To be added.</param>
+        <param name="options">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="startFileCallback">To be added.</param>
+        <param name="progressFileCallback">To be added.</param>
+        <param name="finishFileCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueUpload">
+      <MemberSignature Language="C#" Value="public void QueueUpload (Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, System.IO.Stream inputStream, Action&lt;object&gt; startCallback, Action&lt;object,double,double&gt; progressCallback, Action&lt;object,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueUpload(class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, class System.IO.Stream inputStream, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, float64, float64&gt; progressCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueUpload(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,System.IO.Stream,System.Action{System.Object},System.Action{System.Object,System.Double,System.Double},System.Action{System.Object,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueUpload (blob As ICloudBlob, inputStream As Stream, startCallback As Action(Of Object), progressCallback As Action(Of Object, Double, Double), finishCallback As Action(Of Object, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueUpload : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob * System.IO.Stream * Action&lt;obj&gt; * Action&lt;obj, double, double&gt; * Action&lt;obj, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueUpload (blob, inputStream, startCallback, progressCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blob" Type="Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="progressCallback" Type="System.Action&lt;System.Object,System.Double,System.Double&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blob">To be added.</param>
+        <param name="inputStream">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueUpload">
+      <MemberSignature Language="C#" Value="public void QueueUpload (Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, string fileName, Action&lt;object&gt; startCallback, Action&lt;object,double,double&gt; progressCallback, Action&lt;object,Exception&gt; finishCallback, object userData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QueueUpload(class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob blob, string fileName, class System.Action`1&lt;object&gt; startCallback, class System.Action`3&lt;object, float64, float64&gt; progressCallback, class System.Action`2&lt;object, class System.Exception&gt; finishCallback, object userData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.QueueUpload(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,System.String,System.Action{System.Object},System.Action{System.Object,System.Double,System.Double},System.Action{System.Object,System.Exception},System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub QueueUpload (blob As ICloudBlob, fileName As String, startCallback As Action(Of Object), progressCallback As Action(Of Object, Double, Double), finishCallback As Action(Of Object, Exception), userData As Object)" />
+      <MemberSignature Language="F#" Value="member this.QueueUpload : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob * string * Action&lt;obj&gt; * Action&lt;obj, double, double&gt; * Action&lt;obj, Exception&gt; * obj -&gt; unit" Usage="blobTransferManager.QueueUpload (blob, fileName, startCallback, progressCallback, finishCallback, userData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="blob" Type="Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="startCallback" Type="System.Action&lt;System.Object&gt;" />
+        <Parameter Name="progressCallback" Type="System.Action&lt;System.Object,System.Double,System.Double&gt;" />
+        <Parameter Name="finishCallback" Type="System.Action&lt;System.Object,System.Exception&gt;" />
+        <Parameter Name="userData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="blob">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="startCallback">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <param name="finishCallback">To be added.</param>
+        <param name="userData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForCompletion">
+      <MemberSignature Language="C#" Value="public void WaitForCompletion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WaitForCompletion() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferManager.WaitForCompletion" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WaitForCompletion ()" />
+      <MemberSignature Language="F#" Value="member this.WaitForCompletion : unit -&gt; unit" Usage="blobTransferManager.WaitForCompletion " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

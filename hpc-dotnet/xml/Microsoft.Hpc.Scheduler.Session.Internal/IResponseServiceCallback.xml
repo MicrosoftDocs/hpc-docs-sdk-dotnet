@@ -1,0 +1,119 @@
+﻿<Type Name="IResponseServiceCallback" FullName="Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback">
+  <TypeSignature Language="C#" Value="public interface IResponseServiceCallback" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IResponseServiceCallback" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IResponseServiceCallback" />
+  <TypeSignature Language="F#" Value="type IResponseServiceCallback = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Name="ResponseServiceCallback", Namespace="http://hpc.microsoft.com")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit" Usage="iResponseServiceCallback.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendBrokerDownSignal">
+      <MemberSignature Language="C#" Value="public void SendBrokerDownSignal (bool isBrokerNodeDown);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendBrokerDownSignal(bool isBrokerNodeDown) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback.SendBrokerDownSignal(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendBrokerDownSignal (isBrokerNodeDown As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member SendBrokerDownSignal : bool -&gt; unit" Usage="iResponseServiceCallback.SendBrokerDownSignal isBrokerNodeDown" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isBrokerNodeDown" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isBrokerNodeDown">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendResponse">
+      <MemberSignature Language="C#" Value="public void SendResponse (System.ServiceModel.Channels.Message m);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendResponse(class System.ServiceModel.Channels.Message m) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback.SendResponse(System.ServiceModel.Channels.Message)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendResponse (m As Message)" />
+      <MemberSignature Language="F#" Value="abstract member SendResponse : System.ServiceModel.Channels.Message -&gt; unit" Usage="iResponseServiceCallback.SendResponse m" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="*", IsOneWay=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="m" Type="System.ServiceModel.Channels.Message" />
+      </Parameters>
+      <Docs>
+        <param name="m">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendResponse">
+      <MemberSignature Language="C#" Value="public void SendResponse (System.ServiceModel.Channels.Message m, string clientData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendResponse(class System.ServiceModel.Channels.Message m, string clientData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.IResponseServiceCallback.SendResponse(System.ServiceModel.Channels.Message,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendResponse (m As Message, clientData As String)" />
+      <MemberSignature Language="F#" Value="abstract member SendResponse : System.ServiceModel.Channels.Message * string -&gt; unit" Usage="iResponseServiceCallback.SendResponse (m, clientData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="m" Type="System.ServiceModel.Channels.Message" />
+        <Parameter Name="clientData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="m">To be added.</param>
+        <param name="clientData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

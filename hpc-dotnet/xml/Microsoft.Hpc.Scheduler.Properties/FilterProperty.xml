@@ -1,0 +1,163 @@
+﻿<Type Name="FilterProperty" FullName="Microsoft.Hpc.Scheduler.Properties.FilterProperty">
+  <TypeSignature Language="C#" Value="public class FilterProperty : Microsoft.Hpc.Scheduler.Properties.IFilterProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FilterProperty extends System.Object implements class Microsoft.Hpc.Scheduler.Properties.IFilterProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.FilterProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Class FilterProperty&#xA;Implements IFilterProperty" />
+  <TypeSignature Language="F#" Value="type FilterProperty = class&#xA;    interface IFilterProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Properties.IFilterProperty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("EA602C99-B32A-4A48-AD45-988F2914B2C7")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a filter to use for filtering lists of jobs, tasks, or nodes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FilterProperty ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.FilterProperty.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes an empty instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterProperty" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FilterProperty (Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, Microsoft.Hpc.Scheduler.Properties.StoreProperty jobProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, class Microsoft.Hpc.Scheduler.Properties.StoreProperty jobProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.FilterProperty.#ctor(Microsoft.Hpc.Scheduler.Properties.FilterOperator,Microsoft.Hpc.Scheduler.Properties.StoreProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (operation As FilterOperator, jobProperty As StoreProperty)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.FilterProperty : Microsoft.Hpc.Scheduler.Properties.FilterOperator * Microsoft.Hpc.Scheduler.Properties.StoreProperty -&gt; Microsoft.Hpc.Scheduler.Properties.FilterProperty" Usage="new Microsoft.Hpc.Scheduler.Properties.FilterProperty (operation, jobProperty)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="operation" Type="Microsoft.Hpc.Scheduler.Properties.FilterOperator" />
+        <Parameter Name="jobProperty" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+      </Parameters>
+      <Docs>
+        <param name="operation">The operator to use when comparing the filter value to the property value. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterOperator"></see> enumeration.</param>
+        <param name="jobProperty">The property and property value used to filter the objects. For details, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StoreProperty"></see> class.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterProperty" /> class using the specified operator and property object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FilterProperty (Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, Microsoft.Hpc.Scheduler.Properties.PropertyId propertyId, object valueFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator operation, class Microsoft.Hpc.Scheduler.Properties.PropertyId propertyId, object valueFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.FilterProperty.#ctor(Microsoft.Hpc.Scheduler.Properties.FilterOperator,Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Object)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.FilterProperty : Microsoft.Hpc.Scheduler.Properties.FilterOperator * Microsoft.Hpc.Scheduler.Properties.PropertyId * obj -&gt; Microsoft.Hpc.Scheduler.Properties.FilterProperty" Usage="new Microsoft.Hpc.Scheduler.Properties.FilterProperty (operation, propertyId, valueFilter)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="operation" Type="Microsoft.Hpc.Scheduler.Properties.FilterOperator" />
+        <Parameter Name="propertyId" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="valueFilter" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="operation">The operator to use when comparing the filter value to the property value. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterOperator"></see> enumeration.</param>
+        <param name="propertyId">The identifier of the property on which to filter the objects.</param>
+        <param name="valueFilter">The filter value used to compare to the property value.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterProperty" /> class using the specified operator, property identifier, and property value.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.FilterOperator Operator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.FilterOperator Operator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.FilterProperty.Operator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Operator As FilterOperator" />
+      <MemberSignature Language="F#" Value="member this.Operator : Microsoft.Hpc.Scheduler.Properties.FilterOperator with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.FilterProperty.Operator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterOperator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the operator to use when comparing the filter value to the property value.</summary>
+        <value>The operator used when comparing the filter value to the property value. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.FilterOperator"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Property">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.StoreProperty Property { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.StoreProperty Property" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.FilterProperty.Property" />
+      <MemberSignature Language="VB.NET" Value="Public Property Property As StoreProperty" />
+      <MemberSignature Language="F#" Value="member this.Property : Microsoft.Hpc.Scheduler.Properties.StoreProperty with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.FilterProperty.Property" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the property and property value used to filter the jobs, tasks, or nodes.</summary>
+        <value>The property and property value used to filter the objects. For details, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StoreProperty"></see> class.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.FilterProperty.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="filterProperty.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves a formatted string that represents the object.</summary>
+        <returns>A formatted string that represents the object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

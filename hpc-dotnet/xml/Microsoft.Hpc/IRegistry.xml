@@ -1,0 +1,232 @@
+﻿<Type Name="IRegistry" FullName="Microsoft.Hpc.IRegistry">
+  <TypeSignature Language="C#" Value="public interface IRegistry" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegistry" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.IRegistry" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegistry" />
+  <TypeSignature Language="F#" Value="type IRegistry = interface" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeleteValueAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteValueAsync (string key, string name, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteValueAsync(string key, string name, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.DeleteValueAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteValueAsync (key As String, name As String, token As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member DeleteValueAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iRegistry.DeleteValueAsync (key, name, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRegistryProperties">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;string,string&gt;&gt; GetRegistryProperties (System.Collections.Generic.IList&lt;string&gt; propertyNames, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IDictionary`2&lt;string, string&gt;&gt; GetRegistryProperties(class System.Collections.Generic.IList`1&lt;string&gt; propertyNames, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.GetRegistryProperties(System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRegistryProperties (propertyNames As IList(Of String), token As CancellationToken) As Task(Of IDictionary(Of String, String))" />
+      <MemberSignature Language="F#" Value="abstract member GetRegistryProperties : System.Collections.Generic.IList&lt;string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;string, string&gt;&gt;" Usage="iRegistry.GetRegistryProperties (propertyNames, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyNames" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="propertyNames">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;object&gt; GetValueAsync (string key, string name, System.Threading.CancellationToken token, object defaultValue = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;object&gt; GetValueAsync(string key, string name, valuetype System.Threading.CancellationToken token, object defaultValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.GetValueAsync(System.String,System.String,System.Threading.CancellationToken,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValueAsync (key As String, name As String, token As CancellationToken, Optional defaultValue As Object = null) As Task(Of Object)" />
+      <MemberSignature Language="F#" Value="abstract member GetValueAsync : string * string * System.Threading.CancellationToken * obj -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="iRegistry.GetValueAsync (key, name, token, defaultValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+        <Parameter Name="defaultValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="token">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;T&gt; GetValueAsync&lt;T&gt; (string key, string name, System.Threading.CancellationToken token, T defaultValue = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; GetValueAsync&lt;T&gt;(string key, string name, valuetype System.Threading.CancellationToken token, !!T defaultValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.GetValueAsync``1(System.String,System.String,System.Threading.CancellationToken,``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValueAsync(Of T) (key As String, name As String, token As CancellationToken, Optional defaultValue As T = null) As Task(Of T)" />
+      <MemberSignature Language="F#" Value="abstract member GetValueAsync : string * string * System.Threading.CancellationToken * 'T -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="iRegistry.GetValueAsync (key, name, token, defaultValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+        <Parameter Name="defaultValue" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="key">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="token">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MonitorRegistryKeyAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task MonitorRegistryKeyAsync&lt;T&gt; (string key, string name, TimeSpan checkPeriod, EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;T&gt;&gt; callback, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task MonitorRegistryKeyAsync&lt;T&gt;(string key, string name, valuetype System.TimeSpan checkPeriod, class System.EventHandler`1&lt;class Microsoft.Hpc.RegistryValueChangedArgs`1&lt;!!T&gt;&gt; callback, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.MonitorRegistryKeyAsync``1(System.String,System.String,System.TimeSpan,System.EventHandler{Microsoft.Hpc.RegistryValueChangedArgs{``0}},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function MonitorRegistryKeyAsync(Of T) (key As String, name As String, checkPeriod As TimeSpan, callback As EventHandler(Of RegistryValueChangedArgs(Of T)), token As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member MonitorRegistryKeyAsync : string * string * TimeSpan * EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;'T&gt;&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iRegistry.MonitorRegistryKeyAsync (key, name, checkPeriod, callback, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="checkPeriod" Type="System.TimeSpan" />
+        <Parameter Name="callback" Type="System.EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;T&gt;&gt;" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="key">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="checkPeriod">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRegistryProperties">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetRegistryProperties (System.Collections.Generic.IDictionary&lt;string,object&gt; properties, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetRegistryProperties(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; properties, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.SetRegistryProperties(System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetRegistryProperties (properties As IDictionary(Of String, Object), token As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member SetRegistryProperties : System.Collections.Generic.IDictionary&lt;string, obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iRegistry.SetRegistryProperties (properties, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetValueAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetValueAsync&lt;T&gt; (string key, string name, T value, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetValueAsync&lt;T&gt;(string key, string name, !!T value, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IRegistry.SetValueAsync``1(System.String,System.String,``0,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetValueAsync(Of T) (key As String, name As String, value As T, token As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member SetValueAsync : string * string * 'T * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iRegistry.SetValueAsync (key, name, value, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="T" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="key">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

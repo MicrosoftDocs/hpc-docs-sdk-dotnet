@@ -1,0 +1,115 @@
+﻿<Type Name="IGenericServiceAsync" FullName="Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync">
+  <TypeSignature Language="C#" Value="public interface IGenericServiceAsync" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericServiceAsync" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericServiceAsync" />
+  <TypeSignature Language="F#" Value="type IGenericServiceAsync = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Name="IGenericService", Namespace="http://hpc.microsoft.com/GenericService")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginGenericOperation">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGenericOperation (string args, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginGenericOperation(string args, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync.BeginGenericOperation(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGenericOperation (args As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginGenericOperation : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="iGenericServiceAsync.BeginGenericOperation (args, callback, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/GenericService/IGenericService/GenericOperation", AsyncPattern=true, ReplyAction="http://hpc.microsoft.com/GenericService/IGenericService/GenericOperationResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGenericOperation">
+      <MemberSignature Language="C#" Value="public string EndGenericOperation (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndGenericOperation(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync.EndGenericOperation(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGenericOperation (result As IAsyncResult) As String" />
+      <MemberSignature Language="F#" Value="abstract member EndGenericOperation : IAsyncResult -&gt; string" Usage="iGenericServiceAsync.EndGenericOperation result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenericOperation">
+      <MemberSignature Language="C#" Value="public string GenericOperation (string args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenericOperation(string args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericServiceAsync.GenericOperation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenericOperation (args As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member GenericOperation : string -&gt; string" Usage="iGenericServiceAsync.GenericOperation args" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.RetryOperationError), Action="http://hpc.microsoft.com/session/RetryOperationError")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.AuthenticationFailure), Action="http://hpc.microsoft.com/session/AuthenticationFailure")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/GenericService/IGenericService/GenericOperation", ReplyAction="http://hpc.microsoft.com/GenericService/IGenericService/GenericOperationResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

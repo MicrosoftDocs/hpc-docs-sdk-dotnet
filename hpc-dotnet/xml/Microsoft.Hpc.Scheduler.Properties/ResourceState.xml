@@ -1,0 +1,329 @@
+﻿<Type Name="ResourceState" FullName="Microsoft.Hpc.Scheduler.Properties.ResourceState">
+  <TypeSignature Language="C#" Value="public enum ResourceState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResourceState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.ResourceState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResourceState" />
+  <TypeSignature Language="F#" Value="type ResourceState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the states of a core.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState All = int32(8191)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="F#" Value="All = 8191" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>8191</MemberValue>
+      <Docs>
+        <summary>A mask that represent all state values.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseJob">
+      <MemberSignature Language="C#" Value="CloseJob" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState CloseJob = int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.CloseJob" />
+      <MemberSignature Language="VB.NET" Value="CloseJob" />
+      <MemberSignature Language="F#" Value="CloseJob = 4096" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.CloseJob" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>The core is in the process of closing the job (all tasks have finished running).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseTask">
+      <MemberSignature Language="C#" Value="CloseTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState CloseTask = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.CloseTask" />
+      <MemberSignature Language="VB.NET" Value="CloseTask" />
+      <MemberSignature Language="F#" Value="CloseTask = 512" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.CloseTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>The core is in the process of closing the task (the task finished running).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseTaskDispatched">
+      <MemberSignature Language="C#" Value="CloseTaskDispatched" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState CloseTaskDispatched = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.CloseTaskDispatched" />
+      <MemberSignature Language="VB.NET" Value="CloseTaskDispatched" />
+      <MemberSignature Language="F#" Value="CloseTaskDispatched = 1024" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.CloseTaskDispatched" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>Sent a request to the core to close the task.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Idle">
+      <MemberSignature Language="C#" Value="Idle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState Idle = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.Idle" />
+      <MemberSignature Language="VB.NET" Value="Idle" />
+      <MemberSignature Language="F#" Value="Idle = 1" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.Idle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The core is idle and ready to run a job.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobScheduled">
+      <MemberSignature Language="C#" Value="JobScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState JobScheduled = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.JobScheduled" />
+      <MemberSignature Language="VB.NET" Value="JobScheduled" />
+      <MemberSignature Language="F#" Value="JobScheduled = 4" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.JobScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A job is scheduled on the core but is not yet running tasks.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTaskDispatched">
+      <MemberSignature Language="C#" Value="JobTaskDispatched" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState JobTaskDispatched = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.JobTaskDispatched" />
+      <MemberSignature Language="VB.NET" Value="JobTaskDispatched" />
+      <MemberSignature Language="F#" Value="JobTaskDispatched = 128" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.JobTaskDispatched" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>Sent a request to the core to run the job. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTaskScheduled">
+      <MemberSignature Language="C#" Value="JobTaskScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState JobTaskScheduled = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.JobTaskScheduled" />
+      <MemberSignature Language="VB.NET" Value="JobTaskScheduled" />
+      <MemberSignature Language="F#" Value="JobTaskScheduled = 32" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.JobTaskScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>Scheduled the core to run the job.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NA">
+      <MemberSignature Language="C#" Value="NA" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState NA = int32(2147483647)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.NA" />
+      <MemberSignature Language="VB.NET" Value="NA" />
+      <MemberSignature Language="F#" Value="NA = 2147483647" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.NA" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2147483647</MemberValue>
+      <Docs>
+        <summary>Unknown state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="Offline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState Offline = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.Offline" />
+      <MemberSignature Language="VB.NET" Value="Offline" />
+      <MemberSignature Language="F#" Value="Offline = 0" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.Offline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The core is offline.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyForTask">
+      <MemberSignature Language="C#" Value="ReadyForTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState ReadyForTask = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.ReadyForTask" />
+      <MemberSignature Language="VB.NET" Value="ReadyForTask" />
+      <MemberSignature Language="F#" Value="ReadyForTask = 8" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.ReadyForTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>The core ready and waiting for a task to run.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduledReserve">
+      <MemberSignature Language="C#" Value="ScheduledReserve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState ScheduledReserve = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.ScheduledReserve" />
+      <MemberSignature Language="VB.NET" Value="ScheduledReserve" />
+      <MemberSignature Language="F#" Value="ScheduledReserve = 2" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.ScheduledReserve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The core is reserved to run a job sometime in the future.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskClosed">
+      <MemberSignature Language="C#" Value="TaskClosed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState TaskClosed = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskClosed" />
+      <MemberSignature Language="VB.NET" Value="TaskClosed" />
+      <MemberSignature Language="F#" Value="TaskClosed = 2048" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskClosed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>The task is closed on the core.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskDispatched">
+      <MemberSignature Language="C#" Value="TaskDispatched" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState TaskDispatched = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskDispatched" />
+      <MemberSignature Language="VB.NET" Value="TaskDispatched" />
+      <MemberSignature Language="F#" Value="TaskDispatched = 64" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskDispatched" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>Sent a request to the core to run the task.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskRunning">
+      <MemberSignature Language="C#" Value="TaskRunning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState TaskRunning = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskRunning" />
+      <MemberSignature Language="VB.NET" Value="TaskRunning" />
+      <MemberSignature Language="F#" Value="TaskRunning = 256" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskRunning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>The core is running the task.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskScheduled">
+      <MemberSignature Language="C#" Value="TaskScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.ResourceState TaskScheduled = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskScheduled" />
+      <MemberSignature Language="VB.NET" Value="TaskScheduled" />
+      <MemberSignature Language="F#" Value="TaskScheduled = 16" Usage="Microsoft.Hpc.Scheduler.Properties.ResourceState.TaskScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ResourceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Scheduled the core to run the task.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
