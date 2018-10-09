@@ -1,0 +1,152 @@
+﻿<Type Name="NetworkInfo" FullName="Microsoft.Hpc.Scheduler.Properties.NetworkInfo">
+  <TypeSignature Language="C#" Value="public class NetworkInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NetworkInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.NetworkInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class NetworkInfo" />
+  <TypeSignature Language="F#" Value="type NetworkInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NetworkInfo (string name, string ip, string mac, bool supportRDMA = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string ip, string mac, bool supportRDMA) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.NetworkInfo.#ctor(System.String,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, ip As String, mac As String, Optional supportRDMA As Boolean = false)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.NetworkInfo : string * string * string * bool -&gt; Microsoft.Hpc.Scheduler.Properties.NetworkInfo" Usage="new Microsoft.Hpc.Scheduler.Properties.NetworkInfo (name, ip, mac, supportRDMA)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="ip" Type="System.String" />
+        <Parameter Name="mac" Type="System.String" />
+        <Parameter Name="supportRDMA" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="ip">To be added.</param>
+        <param name="mac">To be added.</param>
+        <param name="supportRDMA">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IpAddress">
+      <MemberSignature Language="C#" Value="public string IpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.NetworkInfo.IpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property IpAddress As String" />
+      <MemberSignature Language="F#" Value="member this.IpAddress : string with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.NetworkInfo.IpAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MacAddress">
+      <MemberSignature Language="C#" Value="public string MacAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MacAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.NetworkInfo.MacAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property MacAddress As String" />
+      <MemberSignature Language="F#" Value="member this.MacAddress : string with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.NetworkInfo.MacAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.NetworkInfo.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.NetworkInfo.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportRDMA">
+      <MemberSignature Language="C#" Value="public bool SupportRDMA { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportRDMA" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.NetworkInfo.SupportRDMA" />
+      <MemberSignature Language="VB.NET" Value="Public Property SupportRDMA As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportRDMA : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.NetworkInfo.SupportRDMA" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

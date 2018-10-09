@@ -1,0 +1,191 @@
+﻿<Type Name="EndpointsConnectionString" FullName="Microsoft.Hpc.EndpointsConnectionString">
+  <TypeSignature Language="C#" Value="public struct EndpointsConnectionString" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit EndpointsConnectionString extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.EndpointsConnectionString" />
+  <TypeSignature Language="VB.NET" Value="Public Structure EndpointsConnectionString" />
+  <TypeSignature Language="F#" Value="type EndpointsConnectionString = struct" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EndpointsConnectionString (System.Collections.Generic.IEnumerable&lt;string&gt; nodes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;string&gt; nodes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.EndpointsConnectionString.#ctor(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (nodes As IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.EndpointsConnectionString : seq&lt;string&gt; -&gt; Microsoft.Hpc.EndpointsConnectionString" Usage="new Microsoft.Hpc.EndpointsConnectionString nodes" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="nodes" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="nodes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionString">
+      <MemberSignature Language="C#" Value="public string ConnectionString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.EndpointsConnectionString.ConnectionString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionString As String" />
+      <MemberSignature Language="F#" Value="member this.ConnectionString : string" Usage="Microsoft.Hpc.EndpointsConnectionString.ConnectionString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delimiter">
+      <MemberSignature Language="C#" Value="public const string Delimiter;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Delimiter" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.EndpointsConnectionString.Delimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Const Delimiter As String " />
+      <MemberSignature Language="F#" Value="val mutable Delimiter : string" Usage="Microsoft.Hpc.EndpointsConnectionString.Delimiter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndPoints">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; EndPoints { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; EndPoints" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.EndpointsConnectionString.EndPoints" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndPoints As IEnumerable(Of String)" />
+      <MemberSignature Language="F#" Value="member this.EndPoints : seq&lt;string&gt;" Usage="Microsoft.Hpc.EndpointsConnectionString.EndPoints" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsGateway">
+      <MemberSignature Language="C#" Value="public bool IsGateway { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsGateway" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.EndpointsConnectionString.IsGateway" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGateway As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsGateway : bool" Usage="Microsoft.Hpc.EndpointsConnectionString.IsGateway" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadFromEnvVarsOrWindowsRegistry">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.EndpointsConnectionString LoadFromEnvVarsOrWindowsRegistry ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.EndpointsConnectionString LoadFromEnvVarsOrWindowsRegistry() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.EndpointsConnectionString.LoadFromEnvVarsOrWindowsRegistry" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadFromEnvVarsOrWindowsRegistry () As EndpointsConnectionString" />
+      <MemberSignature Language="F#" Value="static member LoadFromEnvVarsOrWindowsRegistry : unit -&gt; Microsoft.Hpc.EndpointsConnectionString" Usage="Microsoft.Hpc.EndpointsConnectionString.LoadFromEnvVarsOrWindowsRegistry " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.EndpointsConnectionString</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParseConnectionString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.EndpointsConnectionString ParseConnectionString (string connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.EndpointsConnectionString ParseConnectionString(string connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.EndpointsConnectionString.ParseConnectionString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ParseConnectionString (connectionString As String) As EndpointsConnectionString" />
+      <MemberSignature Language="F#" Value="static member ParseConnectionString : string -&gt; Microsoft.Hpc.EndpointsConnectionString" Usage="Microsoft.Hpc.EndpointsConnectionString.ParseConnectionString connectionString" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.EndpointsConnectionString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryParseConnectionString">
+      <MemberSignature Language="C#" Value="public static bool TryParseConnectionString (string connectionString, out Microsoft.Hpc.EndpointsConnectionString endpointsConnectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParseConnectionString(string connectionString, [out] valuetype Microsoft.Hpc.EndpointsConnectionString&amp; endpointsConnectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.EndpointsConnectionString.TryParseConnectionString(System.String,Microsoft.Hpc.EndpointsConnectionString@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryParseConnectionString (connectionString As String, ByRef endpointsConnectionString As EndpointsConnectionString) As Boolean" />
+      <MemberSignature Language="F#" Value="static member TryParseConnectionString : string *  -&gt; bool" Usage="Microsoft.Hpc.EndpointsConnectionString.TryParseConnectionString (connectionString, endpointsConnectionString)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="endpointsConnectionString" Type="Microsoft.Hpc.EndpointsConnectionString&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="endpointsConnectionString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

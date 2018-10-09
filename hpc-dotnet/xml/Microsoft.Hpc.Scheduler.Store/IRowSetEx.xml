@@ -1,0 +1,124 @@
+﻿<Type Name="IRowSetEx" FullName="Microsoft.Hpc.Scheduler.Store.IRowSetEx">
+  <TypeSignature Language="C#" Value="public interface IRowSetEx : IDisposable, Microsoft.Hpc.Scheduler.Store.IRowSet, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyRow&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRowSetEx implements class Microsoft.Hpc.Scheduler.Store.IRowSet, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyRow&gt;, class System.Collections.IEnumerable, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IRowSetEx" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRowSetEx&#xA;Implements IDisposable, IEnumerable(Of PropertyRow), IRowSet" />
+  <TypeSignature Language="F#" Value="type IRowSetEx = interface&#xA;    interface IRowSet&#xA;    interface seq&lt;PropertyRow&gt;&#xA;    interface IEnumerable&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.IRowSet</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyRow&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetRows">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRow[] GetRows (int firstRow, int lastRow, bool defineBoundary, out int rowCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRow[] GetRows(int32 firstRow, int32 lastRow, bool defineBoundary, [out] int32&amp; rowCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IRowSetEx.GetRows(System.Int32,System.Int32,System.Boolean,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRows (firstRow As Integer, lastRow As Integer, defineBoundary As Boolean, ByRef rowCount As Integer) As PropertyRow()" />
+      <MemberSignature Language="F#" Value="abstract member GetRows : int * int * bool *  -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRow[]" Usage="iRowSetEx.GetRows (firstRow, lastRow, defineBoundary, rowCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRow[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="firstRow" Type="System.Int32" />
+        <Parameter Name="lastRow" Type="System.Int32" />
+        <Parameter Name="defineBoundary" Type="System.Boolean" />
+        <Parameter Name="rowCount" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="firstRow">To be added.</param>
+        <param name="lastRow">To be added.</param>
+        <param name="defineBoundary">To be added.</param>
+        <param name="rowCount">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalidate">
+      <MemberSignature Language="C#" Value="public void Invalidate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Invalidate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IRowSetEx.Invalidate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
+      <MemberSignature Language="F#" Value="abstract member Invalidate : unit -&gt; unit" Usage="iRowSetEx.Invalidate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFrozenColumns">
+      <MemberSignature Language="C#" Value="public void SetFrozenColumns (Microsoft.Hpc.Scheduler.Properties.PropertyId[] columnIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetFrozenColumns(class Microsoft.Hpc.Scheduler.Properties.PropertyId[] columnIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IRowSetEx.SetFrozenColumns(Microsoft.Hpc.Scheduler.Properties.PropertyId[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetFrozenColumns (columnIds As PropertyId())" />
+      <MemberSignature Language="F#" Value="abstract member SetFrozenColumns : Microsoft.Hpc.Scheduler.Properties.PropertyId[] -&gt; unit" Usage="iRowSetEx.SetFrozenColumns columnIds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="columnIds" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId[]" />
+      </Parameters>
+      <Docs>
+        <param name="columnIds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTop">
+      <MemberSignature Language="C#" Value="public void SetTop (int top);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetTop(int32 top) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IRowSetEx.SetTop(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetTop (top As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member SetTop : int -&gt; unit" Usage="iRowSetEx.SetTop top" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="top" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="top">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

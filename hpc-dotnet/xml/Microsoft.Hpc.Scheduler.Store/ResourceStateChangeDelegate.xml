@@ -1,0 +1,29 @@
+﻿<Type Name="ResourceStateChangeDelegate" FullName="Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate">
+  <TypeSignature Language="C#" Value="public delegate void ResourceStateChangeDelegate(int resourceId, ResourceState prevState, ResourceState newState);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResourceStateChangeDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ResourceStateChangeDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ResourceStateChangeDelegate(resourceId As Integer, prevState As ResourceState, newState As ResourceState)" />
+  <TypeSignature Language="F#" Value="type ResourceStateChangeDelegate = delegate of int * ResourceState * ResourceState -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="resourceId" Type="System.Int32" />
+    <Parameter Name="prevState" Type="Microsoft.Hpc.Scheduler.Properties.ResourceState" />
+    <Parameter Name="newState" Type="Microsoft.Hpc.Scheduler.Properties.ResourceState" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="resourceId">To be added.</param>
+    <param name="prevState">To be added.</param>
+    <param name="newState">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

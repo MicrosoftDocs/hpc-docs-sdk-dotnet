@@ -1,0 +1,163 @@
+﻿<Type Name="SslCertBindingHelper" FullName="Microsoft.Hpc.SslCertBindingHelper">
+  <TypeSignature Language="C#" Value="public static class SslCertBindingHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SslCertBindingHelper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.SslCertBindingHelper" />
+  <TypeSignature Language="VB.NET" Value="Public Class SslCertBindingHelper" />
+  <TypeSignature Language="F#" Value="type SslCertBindingHelper = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PublicSslPort">
+      <MemberSignature Language="C#" Value="public static string PublicSslPort { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string PublicSslPort" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.SslCertBindingHelper.PublicSslPort" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PublicSslPort As String" />
+      <MemberSignature Language="F#" Value="member this.PublicSslPort : string" Usage="Microsoft.Hpc.SslCertBindingHelper.PublicSslPort" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveIpPortSslCertBindingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task RemoveIpPortSslCertBindingAsync (string ipport);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RemoveIpPortSslCertBindingAsync(string ipport) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SslCertBindingHelper.RemoveIpPortSslCertBindingAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RemoveIpPortSslCertBindingAsync (ipport As String) As Task" />
+      <MemberSignature Language="F#" Value="static member RemoveIpPortSslCertBindingAsync : string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.SslCertBindingHelper.RemoveIpPortSslCertBindingAsync ipport" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.SslCertBindingHelper/&lt;RemoveIpPortSslCertBindingAsync&gt;d__10))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ipport" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ipport">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIpPortSslCertBindingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetIpPortSslCertBindingAsync (string ipport, string appId, string thumbprint);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetIpPortSslCertBindingAsync(string ipport, string appId, string thumbprint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SslCertBindingHelper.SetIpPortSslCertBindingAsync(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SetIpPortSslCertBindingAsync (ipport As String, appId As String, thumbprint As String) As Task" />
+      <MemberSignature Language="F#" Value="static member SetIpPortSslCertBindingAsync : string * string * string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.SslCertBindingHelper.SetIpPortSslCertBindingAsync (ipport, appId, thumbprint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.SslCertBindingHelper/&lt;SetIpPortSslCertBindingAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ipport" Type="System.String" />
+        <Parameter Name="appId" Type="System.String" />
+        <Parameter Name="thumbprint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ipport">To be added.</param>
+        <param name="appId">To be added.</param>
+        <param name="thumbprint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SslCertInternalCommunicationAppId">
+      <MemberSignature Language="C#" Value="public static string SslCertInternalCommunicationAppId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string SslCertInternalCommunicationAppId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.SslCertBindingHelper.SslCertInternalCommunicationAppId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SslCertInternalCommunicationAppId As String" />
+      <MemberSignature Language="F#" Value="member this.SslCertInternalCommunicationAppId : string" Usage="Microsoft.Hpc.SslCertBindingHelper.SslCertInternalCommunicationAppId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SslCertMgmtAppId">
+      <MemberSignature Language="C#" Value="public static string SslCertMgmtAppId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string SslCertMgmtAppId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.SslCertBindingHelper.SslCertMgmtAppId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SslCertMgmtAppId As String" />
+      <MemberSignature Language="F#" Value="member this.SslCertMgmtAppId : string" Usage="Microsoft.Hpc.SslCertBindingHelper.SslCertMgmtAppId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SslCertMgmtIpPort">
+      <MemberSignature Language="C#" Value="public static string SslCertMgmtIpPort { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string SslCertMgmtIpPort" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.SslCertBindingHelper.SslCertMgmtIpPort" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SslCertMgmtIpPort As String" />
+      <MemberSignature Language="F#" Value="member this.SslCertMgmtIpPort : string" Usage="Microsoft.Hpc.SslCertBindingHelper.SslCertMgmtIpPort" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

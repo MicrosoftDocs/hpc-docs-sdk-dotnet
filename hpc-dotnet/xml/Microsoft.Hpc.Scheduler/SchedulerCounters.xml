@@ -1,0 +1,742 @@
+﻿<Type Name="SchedulerCounters" FullName="Microsoft.Hpc.Scheduler.SchedulerCounters">
+  <TypeSignature Language="C#" Value="public class SchedulerCounters : Microsoft.Hpc.Scheduler.ISchedulerCounters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SchedulerCounters extends System.Object implements class Microsoft.Hpc.Scheduler.ISchedulerCounters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.SchedulerCounters" />
+  <TypeSignature Language="VB.NET" Value="Public Class SchedulerCounters&#xA;Implements ISchedulerCounters" />
+  <TypeSignature Language="F#" Value="type SchedulerCounters = class&#xA;    interface ISchedulerCounters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISchedulerCounters</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("256241B2-42E8-41fc-AEFB-365CAC3EF7A8")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines counter information for the cluster.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchedulerCounters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerCounters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new, empty instance of this class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusyCores">
+      <MemberSignature Language="C#" Value="public int BusyCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BusyCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.BusyCores" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BusyCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.BusyCores : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.BusyCores" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.BusyCores</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores that are busy running tasks.</summary>
+        <value>The number of cores that are busy running tasks.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanceledJobs">
+      <MemberSignature Language="C#" Value="public int CanceledJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CanceledJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.CanceledJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanceledJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.CanceledJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.CanceledJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.CanceledJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number jobs that have been canceled.</summary>
+        <value>The number jobs that have been canceled.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanceledTasks">
+      <MemberSignature Language="C#" Value="public int CanceledTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CanceledTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.CanceledTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanceledTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.CanceledTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.CanceledTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.CanceledTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that have been canceled.</summary>
+        <value>The number of tasks that have been canceled.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelingJobs">
+      <MemberSignature Language="C#" Value="public int CancelingJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CancelingJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.CancelingJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CancelingJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.CancelingJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.CancelingJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.CancelingJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that are in the process of being canceled.</summary>
+        <value>The number of jobs that are in the process of being canceled.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelingTasks">
+      <MemberSignature Language="C#" Value="public int CancelingTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CancelingTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.CancelingTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CancelingTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.CancelingTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.CancelingTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.CancelingTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that are in the process of being canceled.</summary>
+        <value>The number of tasks that are in the process of being canceled.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfiguringJobs">
+      <MemberSignature Language="C#" Value="public int ConfiguringJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConfiguringJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.ConfiguringJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConfiguringJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.ConfiguringJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.ConfiguringJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.ConfiguringJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that are being configured.</summary>
+        <value>The number of jobs that are being configured.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfiguringTasks">
+      <MemberSignature Language="C#" Value="public int ConfiguringTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConfiguringTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.ConfiguringTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConfiguringTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.ConfiguringTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.ConfiguringTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.ConfiguringTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that are being configured.</summary>
+        <value>The number of tasks that are being configured.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrainingNodes">
+      <MemberSignature Language="C#" Value="public int DrainingNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DrainingNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.DrainingNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DrainingNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.DrainingNodes : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.DrainingNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.DrainingNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of nodes that are in the process of removing jobs from the node.</summary>
+        <value>The number of nodes that are in the process of removing jobs from the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedJobs">
+      <MemberSignature Language="C#" Value="public int FailedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FailedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.FailedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.FailedJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.FailedJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.FailedJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that failed.</summary>
+        <value>The number of jobs that failed.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedTasks">
+      <MemberSignature Language="C#" Value="public int FailedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FailedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.FailedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.FailedTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.FailedTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.FailedTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that failed.</summary>
+        <value>The number of tasks that failed.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishedJobs">
+      <MemberSignature Language="C#" Value="public int FinishedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FinishedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.FinishedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FinishedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.FinishedJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.FinishedJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.FinishedJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that have finished running successfully.</summary>
+        <value>The number of jobs that have finished running successfully.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishedTasks">
+      <MemberSignature Language="C#" Value="public int FinishedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FinishedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.FinishedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FinishedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.FinishedTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.FinishedTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.FinishedTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that have finished running successfully.</summary>
+        <value>The number of tasks that have finished running successfully.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishingJobs">
+      <MemberSignature Language="C#" Value="public int FinishingJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FinishingJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.FinishingJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FinishingJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.FinishingJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.FinishingJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.FinishingJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs for which the server is cleaning up the resources that were allocated to the job.</summary>
+        <value>The number of jobs for which the server is cleaning up the resources that were allocated to the job.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdleCores">
+      <MemberSignature Language="C#" Value="public int IdleCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IdleCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.IdleCores" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdleCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.IdleCores : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.IdleCores" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.IdleCores</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores that are not allocated to a job.</summary>
+        <value>Retrieves the number of cores that are not allocated to a job.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfflineCores">
+      <MemberSignature Language="C#" Value="public int OfflineCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OfflineCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.OfflineCores" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfflineCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.OfflineCores : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.OfflineCores" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.OfflineCores</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores that are offline.</summary>
+        <value>The number of cores that are offline.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfflineNodes">
+      <MemberSignature Language="C#" Value="public int OfflineNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OfflineNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.OfflineNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfflineNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.OfflineNodes : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.OfflineNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.OfflineNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of nodes that are offline.</summary>
+        <value>The number of nodes that are offline.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueuedJobs">
+      <MemberSignature Language="C#" Value="public int QueuedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueuedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.QueuedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueuedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueuedJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.QueuedJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.QueuedJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that are in the scheduling queue.</summary>
+        <value>The number of jobs that are in the scheduling queue.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueuedTasks">
+      <MemberSignature Language="C#" Value="public int QueuedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueuedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.QueuedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueuedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueuedTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.QueuedTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.QueuedTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that are in the scheduling queue.</summary>
+        <value>The number of tasks that are in the scheduling queue.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyNodes">
+      <MemberSignature Language="C#" Value="public int ReadyNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReadyNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.ReadyNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.ReadyNodes : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.ReadyNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.ReadyNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of nodes that are ready to run jobs.</summary>
+        <value>The number of nodes that are ready to run jobs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunningJobs">
+      <MemberSignature Language="C#" Value="public int RunningJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RunningJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.RunningJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RunningJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.RunningJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.RunningJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.RunningJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that are running.</summary>
+        <value>The number of jobs that are running.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunningTasks">
+      <MemberSignature Language="C#" Value="public int RunningTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RunningTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.RunningTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RunningTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.RunningTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.RunningTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.RunningTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that are running.</summary>
+        <value>The number of tasks that are running.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmittedJobs">
+      <MemberSignature Language="C#" Value="public int SubmittedJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SubmittedJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.SubmittedJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmittedJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.SubmittedJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.SubmittedJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.SubmittedJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs that have been submitted to the scheduling queue and are awaiting validation.</summary>
+        <value>The number of jobs that have been submitted to the scheduling queue and are awaiting validation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmittedTasks">
+      <MemberSignature Language="C#" Value="public int SubmittedTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SubmittedTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.SubmittedTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmittedTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.SubmittedTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.SubmittedTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.SubmittedTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of tasks that have been submitted to the scheduling queue and are awaiting validation.</summary>
+        <value>The number of tasks that have been submitted to the scheduling queue and are awaiting validation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCores">
+      <MemberSignature Language="C#" Value="public int TotalCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.TotalCores" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalCores : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.TotalCores" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.TotalCores</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total number of cores in the cluster.</summary>
+        <value>The total number of cores in the cluster.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalJobs">
+      <MemberSignature Language="C#" Value="public int TotalJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.TotalJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.TotalJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.TotalJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total number of jobs in the cluster.</summary>
+        <value>The total number of jobs in the cluster.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalNodes">
+      <MemberSignature Language="C#" Value="public int TotalNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.TotalNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalNodes : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.TotalNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.TotalNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total number of nodes in the cluster.</summary>
+        <value>The total number of nodes in the cluster.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalSockets">
+      <MemberSignature Language="C#" Value="public int TotalSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.TotalSockets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalSockets As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalSockets : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.TotalSockets" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.TotalSockets</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total number of sockets in the cluster.</summary>
+        <value>The total number of sockets in the cluster.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalTasks">
+      <MemberSignature Language="C#" Value="public int TotalTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.TotalTasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalTasks As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalTasks : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.TotalTasks" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.TotalTasks</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total number of tasks in the cluster.</summary>
+        <value>The total number of tasks in the cluster.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreachableNodes">
+      <MemberSignature Language="C#" Value="public int UnreachableNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UnreachableNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.UnreachableNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreachableNodes As Integer" />
+      <MemberSignature Language="F#" Value="member this.UnreachableNodes : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.UnreachableNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.UnreachableNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the total number of node in the cluster that are not reachable.</summary>
+        <value>The total number of node in the cluster that are not reachable.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidatingJobs">
+      <MemberSignature Language="C#" Value="public int ValidatingJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ValidatingJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerCounters.ValidatingJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValidatingJobs As Integer" />
+      <MemberSignature Language="F#" Value="member this.ValidatingJobs : int" Usage="Microsoft.Hpc.Scheduler.SchedulerCounters.ValidatingJobs" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISchedulerCounters.ValidatingJobs</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of jobs being validated.</summary>
+        <value>The number of jobs being validated.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

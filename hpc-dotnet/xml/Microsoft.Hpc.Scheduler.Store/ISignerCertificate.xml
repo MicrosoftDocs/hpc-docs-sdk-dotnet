@@ -1,0 +1,269 @@
+﻿<Type Name="ISignerCertificate" FullName="Microsoft.Hpc.Scheduler.Store.ISignerCertificate">
+  <TypeSignature Language="C#" Value="public interface ISignerCertificate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISignerCertificate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ISignerCertificate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISignerCertificate" />
+  <TypeSignature Language="F#" Value="type ISignerCertificate = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB33D-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (bool MachineContext, Microsoft.Hpc.Scheduler.Store.X509PrivateKeyVerify VerifyType, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strCertifcate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]bool MachineContext, [in]valuetype Microsoft.Hpc.Scheduler.Store.X509PrivateKeyVerify VerifyType, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strCertifcate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Initialize(System.Boolean,Microsoft.Hpc.Scheduler.Store.X509PrivateKeyVerify,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (MachineContext As Boolean, VerifyType As X509PrivateKeyVerify, Encoding As EncodingType, strCertifcate As String)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : bool * Microsoft.Hpc.Scheduler.Store.X509PrivateKeyVerify * Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iSignerCertificate.Initialize (MachineContext, VerifyType, Encoding, strCertifcate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MachineContext" Type="System.Boolean" />
+        <Parameter Name="VerifyType" Type="Microsoft.Hpc.Scheduler.Store.X509PrivateKeyVerify" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strCertifcate" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="MachineContext">To be added.</param>
+        <param name="VerifyType">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="strCertifcate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[Microsoft.Hpc.Scheduler.Store.EncodingType Encoding] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Encoding As EncodingType) As String" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Hpc.Scheduler.Store.EncodingType) : string" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentWindow">
+      <MemberSignature Language="C#" Value="public int ParentWindow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ParentWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.ParentWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentWindow As Integer" />
+      <MemberSignature Language="F#" Value="member this.ParentWindow : int with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.ParentWindow" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pin">
+      <MemberSignature Language="C#" Value="public string Pin { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Pin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Pin" />
+      <MemberSignature Language="VB.NET" Value="Public Property Pin As String" />
+      <MemberSignature Language="F#" Value="member this.Pin : string" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Pin" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateKey">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CX509PrivateKey PrivateKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.CX509PrivateKey PrivateKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.PrivateKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrivateKey As CX509PrivateKey" />
+      <MemberSignature Language="F#" Value="member this.PrivateKey : Microsoft.Hpc.Scheduler.Store.CX509PrivateKey" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.PrivateKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CX509PrivateKey</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IX509SignatureInformation SignatureInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.IX509SignatureInformation SignatureInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.SignatureInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignatureInformation As IX509SignatureInformation" />
+      <MemberSignature Language="F#" Value="member this.SignatureInformation : Microsoft.Hpc.Scheduler.Store.IX509SignatureInformation" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.SignatureInformation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IX509SignatureInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Silent">
+      <MemberSignature Language="C#" Value="public bool Silent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Silent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Silent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Silent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Silent : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.Silent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UIContextMessage">
+      <MemberSignature Language="C#" Value="public string UIContextMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UIContextMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ISignerCertificate.UIContextMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property UIContextMessage As String" />
+      <MemberSignature Language="F#" Value="member this.UIContextMessage : string with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ISignerCertificate.UIContextMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

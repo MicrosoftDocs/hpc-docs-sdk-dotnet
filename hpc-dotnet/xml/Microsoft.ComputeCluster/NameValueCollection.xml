@@ -1,0 +1,292 @@
+﻿<Type Name="NameValueCollection" FullName="Microsoft.ComputeCluster.NameValueCollection">
+  <TypeSignature Language="C#" Value="public sealed class NameValueCollection : Microsoft.ComputeCluster.INameValueCollection, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit NameValueCollection extends System.Object implements class Microsoft.ComputeCluster.INameValueCollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.NameValueCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NameValueCollection&#xA;Implements IEnumerable, INameValueCollection" />
+  <TypeSignature Language="F#" Value="type NameValueCollection = class&#xA;    interface INameValueCollection&#xA;    interface IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.ComputeCluster.INameValueCollection</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4260DE34-014D-4ea1-9E7F-95D5567E3EAA")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType("NameValueCollection", Namespace="http://www.microsoft.com/ComputeCluster/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NameValueCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (obj As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Add : obj -&gt; unit&#xA;override this.Add : obj -&gt; unit" Usage="nameValueCollection.Add obj" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.Add(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="nameValueCollection.Clear " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.Clear</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.INameValueCollection Clone ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.INameValueCollection Clone() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.Clone" />
+      <MemberSignature Language="VB.NET" Value="Public Function Clone () As INameValueCollection" />
+      <MemberSignature Language="F#" Value="abstract member Clone : unit -&gt; Microsoft.ComputeCluster.INameValueCollection&#xA;override this.Clone : unit -&gt; Microsoft.ComputeCluster.INameValueCollection" Usage="nameValueCollection.Clone " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.Clone</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.NameValueCollection.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.ComputeCluster.NameValueCollection.Count" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.INameValueCollection.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="nameValueCollection.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.GetEnumerator</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert">
+      <MemberSignature Language="C#" Value="public void Insert (int index, Microsoft.ComputeCluster.INameValue var);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert(int32 index, class Microsoft.ComputeCluster.INameValue var) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.Insert(System.Int32,Microsoft.ComputeCluster.INameValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, var As INameValue)" />
+      <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.ComputeCluster.INameValue -&gt; unit&#xA;override this.Insert : int * Microsoft.ComputeCluster.INameValue -&gt; unit" Usage="nameValueCollection.Insert (index, var)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.Insert(System.Int32,Microsoft.ComputeCluster.INameValue)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="var" Type="Microsoft.ComputeCluster.INameValue" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <param name="var">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.Remove(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (name As String)" />
+      <MemberSignature Language="F#" Value="abstract member Remove : string -&gt; unit&#xA;override this.Remove : string -&gt; unit" Usage="nameValueCollection.Remove name" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.Remove(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="nameValueCollection.RemoveAt index" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.RemoveAt(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Set">
+      <MemberSignature Language="C#" Value="public void Set (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Set(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.NameValueCollection.Set(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Set (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member Set : string * string -&gt; unit&#xA;override this.Set : string * string -&gt; unit" Usage="nameValueCollection.Set (name, value)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.INameValueCollection.Set(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,430 @@
+﻿<Type Name="ExcelDriver" FullName="Microsoft.Hpc.Excel.ExcelDriver">
+  <TypeSignature Language="C#" Value="public class ExcelDriver : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExcelDriver extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ExcelDriver" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExcelDriver&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type ExcelDriver = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Provides a wrapper around an instance of Excel that simplifies starting Excel and interacting with the component object model (COM) objects that represent items in Excel such as the application, workbook, and worksheets.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcelDriver ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> class without specifying the workbook or instance of Excel that the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> object should use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcelDriver (Microsoft.Office.Interop.Excel.Workbook workbook);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Office.Interop.Excel.Workbook workbook) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.#ctor(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Excel.ExcelDriver : Microsoft.Office.Interop.Excel.Workbook -&gt; Microsoft.Hpc.Excel.ExcelDriver" Usage="new Microsoft.Hpc.Excel.ExcelDriver workbook" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="workbook" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="workbook">To be added.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> class that uses the specified workbook and attaches to the associated Excel application.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="App">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application App { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application App" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelDriver.App" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property App As Application" />
+      <MemberSignature Language="F#" Value="member this.App : Microsoft.Office.Interop.Excel.Application" Usage="Microsoft.Hpc.Excel.ExcelDriver.App" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a reference to the <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> class uses for component object model (COM) interoperability with the running instance of Excel.</summary>
+        <value>The <see cref="T:Microsoft.Office.Interop.Excel.Application"></see> that the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver"></see> class uses for component object model (COM) interoperability with the running instance of Excel.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="excelDriver.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Releases all of the resources that the <see cref="T:Microsoft.Hpc.Excel.ExcelDriver" /> object used.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcelProcess">
+      <MemberSignature Language="C#" Value="public System.Diagnostics.Process ExcelProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Diagnostics.Process ExcelProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelDriver.ExcelProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExcelProcess As Process" />
+      <MemberSignature Language="F#" Value="member this.ExcelProcess : System.Diagnostics.Process" Usage="Microsoft.Hpc.Excel.ExcelDriver.ExcelProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.Process</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the <see cref="T:System.Diagnostics.Process" /> object that represents the process that is running Excel on the local computer.</summary>
+        <value>A <see cref="T:System.Diagnostics.Process"></see> object that represents the process that is running Excel on the local computer.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ExcelDriver ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="excelDriver.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBashedPopups">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Excel.PopupMessage[] GetBashedPopups ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Excel.PopupMessage[] GetBashedPopups() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.GetBashedPopups" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBashedPopups () As PopupMessage()" />
+      <MemberSignature Language="F#" Value="member this.GetBashedPopups : unit -&gt; Microsoft.Hpc.Excel.PopupMessage[]" Usage="excelDriver.GetBashedPopups " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Excel.PopupMessage[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Gets the <see cref="T:Microsoft.Hpc.Excel.PopupMessage" /> objects that represent the message boxes that the pop-up blocker dismissed, and clears the internal list of messages.</summary>
+        <returns>An array of <see cref="T:Microsoft.Hpc.Excel.PopupMessage"></see> objects that represent the message boxes that the pop-up blocker dismissed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCellValue">
+      <MemberSignature Language="C#" Value="public object GetCellValue (string cellReference);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetCellValue(string cellReference) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.GetCellValue(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCellValue (cellReference As String) As Object" />
+      <MemberSignature Language="F#" Value="member this.GetCellValue : string -&gt; obj" Usage="excelDriver.GetCellValue cellReference" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cellReference" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cellReference">To be added.</param>
+        <summary>Gets the values from one or more specified cells in the currently open workbook.</summary>
+        <returns>A <see cref="T:System.Object"></see> that represents the values in the specified cells.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LaunchExcelProcess">
+      <MemberSignature Language="C#" Value="public void LaunchExcelProcess ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void LaunchExcelProcess() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.LaunchExcelProcess" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LaunchExcelProcess ()" />
+      <MemberSignature Language="F#" Value="member this.LaunchExcelProcess : unit -&gt; unit" Usage="excelDriver.LaunchExcelProcess " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Starts a process running Excel and sets the <see cref="P:Microsoft.Hpc.Excel.ExcelDriver.App" /> and <see cref="P:Microsoft.Hpc.Excel.ExcelDriver.ExcelProcess" /> properties.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenReadOnly">
+      <MemberSignature Language="C#" Value="public bool OpenReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OpenReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelDriver.OpenReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property OpenReadOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.OpenReadOnly : bool with get, set" Usage="Microsoft.Hpc.Excel.ExcelDriver.OpenReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenWorkbook">
+      <MemberSignature Language="C#" Value="public void OpenWorkbook (string filePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OpenWorkbook(string filePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.OpenWorkbook(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenWorkbook (filePath As String)" />
+      <MemberSignature Language="F#" Value="member this.OpenWorkbook : string -&gt; unit" Usage="excelDriver.OpenWorkbook filePath" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">To be added.</param>
+        <summary>Opens the specified Excel workbook on the local computer.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenWorkbook">
+      <MemberSignature Language="C#" Value="public void OpenWorkbook (string filePath, Nullable&lt;DateTime&gt; lastSaveDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OpenWorkbook(string filePath, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastSaveDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.OpenWorkbook(System.String,System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenWorkbook (filePath As String, lastSaveDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="F#" Value="member this.OpenWorkbook : string * Nullable&lt;DateTime&gt; -&gt; unit" Usage="excelDriver.OpenWorkbook (filePath, lastSaveDate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" />
+        <Parameter Name="lastSaveDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">To be added.</param>
+        <param name="lastSaveDate">To be added.</param>
+        <summary>Opens the specified Excel workbook on the local computer if the date that the workbook was last saved matches the specified date.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenWorkbook">
+      <MemberSignature Language="C#" Value="public void OpenWorkbook (string filePath, bool updateLinks, string password, string writeResPassword, Nullable&lt;DateTime&gt; lastSaveDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OpenWorkbook(string filePath, bool updateLinks, string password, string writeResPassword, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastSaveDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.OpenWorkbook(System.String,System.Boolean,System.String,System.String,System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenWorkbook (filePath As String, updateLinks As Boolean, password As String, writeResPassword As String, lastSaveDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="F#" Value="member this.OpenWorkbook : string * bool * string * string * Nullable&lt;DateTime&gt; -&gt; unit" Usage="excelDriver.OpenWorkbook (filePath, updateLinks, password, writeResPassword, lastSaveDate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" />
+        <Parameter Name="updateLinks" Type="System.Boolean" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="writeResPassword" Type="System.String" />
+        <Parameter Name="lastSaveDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">To be added.</param>
+        <param name="updateLinks">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="writeResPassword">To be added.</param>
+        <param name="lastSaveDate">To be added.</param>
+        <summary>Opens the specified Excel workbook on the local computer if the date that the workbook was last saved matches the specified date, using the specified passwords if the workbook is protected or write-reserved.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunMacro">
+      <MemberSignature Language="C#" Value="public object RunMacro (string macroName, params object[] inputs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object RunMacro(string macroName, object[] inputs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.RunMacro(System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function RunMacro (macroName As String, ParamArray inputs As Object()) As Object" />
+      <MemberSignature Language="F#" Value="member this.RunMacro : string * obj[] -&gt; obj" Usage="excelDriver.RunMacro (macroName, inputs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="macroName" Type="System.String" />
+        <Parameter Name="inputs" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="macroName">To be added.</param>
+        <param name="inputs">To be added.</param>
+        <summary>Runs the specified macro with the specified input on the currently open Excel workbook.</summary>
+        <returns>A <see cref="T:System.Object"></see> object that represents the return value of the macro.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCellValue">
+      <MemberSignature Language="C#" Value="public void SetCellValue (string cellReference, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetCellValue(string cellReference, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelDriver.SetCellValue(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCellValue (cellReference As String, value As String)" />
+      <MemberSignature Language="F#" Value="member this.SetCellValue : string * string -&gt; unit" Usage="excelDriver.SetCellValue (cellReference, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cellReference" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cellReference">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Sets the values in one or more specified cells in the currently open workbook.</summary>
+        <returns>None.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sheets">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Sheets Sheets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Sheets Sheets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelDriver.Sheets" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sheets As Sheets" />
+      <MemberSignature Language="F#" Value="member this.Sheets : Microsoft.Office.Interop.Excel.Sheets with get, set" Usage="Microsoft.Hpc.Excel.ExcelDriver.Sheets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Sheets</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the collection of worksheets in the currently open workbook.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.Sheets"></see> object that represents the collection of worksheets in the currently open workbook.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Workbook">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook Workbook { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Workbook Workbook" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelDriver.Workbook" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Workbook As Workbook" />
+      <MemberSignature Language="F#" Value="member this.Workbook : Microsoft.Office.Interop.Excel.Workbook" Usage="Microsoft.Hpc.Excel.ExcelDriver.Workbook" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the currently open Excel workbook.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.Workbook"></see> object that represents the currently open Excel workbook.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Workbooks">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbooks Workbooks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Workbooks Workbooks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.ExcelDriver.Workbooks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Workbooks As Workbooks" />
+      <MemberSignature Language="F#" Value="member this.Workbooks : Microsoft.Office.Interop.Excel.Workbooks" Usage="Microsoft.Hpc.Excel.ExcelDriver.Workbooks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbooks</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

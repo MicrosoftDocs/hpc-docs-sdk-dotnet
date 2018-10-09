@@ -1,0 +1,457 @@
+﻿<Type Name="BlobTransferRecursiveTransferOptions" FullName="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions">
+  <TypeSignature Language="C#" Value="public class BlobTransferRecursiveTransferOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BlobTransferRecursiveTransferOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class BlobTransferRecursiveTransferOptions" />
+  <TypeSignature Language="F#" Value="type BlobTransferRecursiveTransferOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferRecursiveTransferOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeQueueCallback">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferBeforeQueueCallback BeforeQueueCallback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferBeforeQueueCallback BeforeQueueCallback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.BeforeQueueCallback" />
+      <MemberSignature Language="VB.NET" Value="Public Property BeforeQueueCallback As BlobTransferBeforeQueueCallback" />
+      <MemberSignature Language="F#" Value="member this.BeforeQueueCallback : Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferBeforeQueueCallback with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.BeforeQueueCallback" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferBeforeQueueCallback</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delimiter">
+      <MemberSignature Language="C#" Value="public Nullable&lt;char&gt; Delimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;char&gt; Delimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.Delimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Delimiter As Nullable(Of Char)" />
+      <MemberSignature Language="F#" Value="member this.Delimiter : Nullable&lt;char&gt; with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.Delimiter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Char&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestinationKey">
+      <MemberSignature Language="C#" Value="public string DestinationKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DestinationKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.DestinationKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property DestinationKey As String" />
+      <MemberSignature Language="F#" Value="member this.DestinationKey : string with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.DestinationKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestinationSAS">
+      <MemberSignature Language="C#" Value="public string DestinationSAS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DestinationSAS" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.DestinationSAS" />
+      <MemberSignature Language="VB.NET" Value="Public Property DestinationSAS As String" />
+      <MemberSignature Language="F#" Value="member this.DestinationSAS : string with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.DestinationSAS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadCheckMd5">
+      <MemberSignature Language="C#" Value="public bool DownloadCheckMd5 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DownloadCheckMd5" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.DownloadCheckMd5" />
+      <MemberSignature Language="VB.NET" Value="Public Property DownloadCheckMd5 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DownloadCheckMd5 : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.DownloadCheckMd5" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludedAttributes">
+      <MemberSignature Language="C#" Value="public System.IO.FileAttributes ExcludedAttributes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.IO.FileAttributes ExcludedAttributes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.ExcludedAttributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludedAttributes As FileAttributes" />
+      <MemberSignature Language="F#" Value="member this.ExcludedAttributes : System.IO.FileAttributes with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.ExcludedAttributes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.FileAttributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeNewer">
+      <MemberSignature Language="C#" Value="public bool ExcludeNewer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeNewer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.ExcludeNewer" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeNewer As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ExcludeNewer : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.ExcludeNewer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeOlder">
+      <MemberSignature Language="C#" Value="public bool ExcludeOlder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeOlder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.ExcludeOlder" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeOlder As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ExcludeOlder : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.ExcludeOlder" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FakeTransfer">
+      <MemberSignature Language="C#" Value="public bool FakeTransfer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FakeTransfer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.FakeTransfer" />
+      <MemberSignature Language="VB.NET" Value="Public Property FakeTransfer As Boolean" />
+      <MemberSignature Language="F#" Value="member this.FakeTransfer : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.FakeTransfer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilePatterns">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; FilePatterns { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; FilePatterns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.FilePatterns" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilePatterns As IEnumerable(Of String)" />
+      <MemberSignature Language="F#" Value="member this.FilePatterns : seq&lt;string&gt; with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.FilePatterns" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileTransferStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferStatus FileTransferStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferStatus FileTransferStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.FileTransferStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileTransferStatus As BlobTransferFileTransferStatus" />
+      <MemberSignature Language="F#" Value="member this.FileTransferStatus : Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferStatus with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.FileTransferStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludedAttributes">
+      <MemberSignature Language="C#" Value="public System.IO.FileAttributes IncludedAttributes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.IO.FileAttributes IncludedAttributes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.IncludedAttributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludedAttributes As FileAttributes" />
+      <MemberSignature Language="F#" Value="member this.IncludedAttributes : System.IO.FileAttributes with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.IncludedAttributes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.FileAttributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeepLastWriteTime">
+      <MemberSignature Language="C#" Value="public bool KeepLastWriteTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KeepLastWriteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.KeepLastWriteTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeepLastWriteTime As Boolean" />
+      <MemberSignature Language="F#" Value="member this.KeepLastWriteTime : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.KeepLastWriteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveFile">
+      <MemberSignature Language="C#" Value="public bool MoveFile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoveFile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.MoveFile" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoveFile As Boolean" />
+      <MemberSignature Language="F#" Value="member this.MoveFile : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.MoveFile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlyFilesWithArchiveBit">
+      <MemberSignature Language="C#" Value="public bool OnlyFilesWithArchiveBit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OnlyFilesWithArchiveBit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.OnlyFilesWithArchiveBit" />
+      <MemberSignature Language="VB.NET" Value="Public Property OnlyFilesWithArchiveBit As Boolean" />
+      <MemberSignature Language="F#" Value="member this.OnlyFilesWithArchiveBit : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.OnlyFilesWithArchiveBit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recursive">
+      <MemberSignature Language="C#" Value="public bool Recursive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Recursive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.Recursive" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recursive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Recursive : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.Recursive" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestartableMode">
+      <MemberSignature Language="C#" Value="public bool RestartableMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RestartableMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.RestartableMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property RestartableMode As Boolean" />
+      <MemberSignature Language="F#" Value="member this.RestartableMode : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.RestartableMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceKey">
+      <MemberSignature Language="C#" Value="public string SourceKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.SourceKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceKey As String" />
+      <MemberSignature Language="F#" Value="member this.SourceKey : string with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.SourceKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceSAS">
+      <MemberSignature Language="C#" Value="public string SourceSAS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceSAS" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.SourceSAS" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceSAS As String" />
+      <MemberSignature Language="F#" Value="member this.SourceSAS : string with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.SourceSAS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferSnapshots">
+      <MemberSignature Language="C#" Value="public bool TransferSnapshots { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TransferSnapshots" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.TransferSnapshots" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransferSnapshots As Boolean" />
+      <MemberSignature Language="F#" Value="member this.TransferSnapshots : bool with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.TransferSnapshots" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UploadBlobType">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.BlobType UploadBlobType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Storage.Blob.BlobType UploadBlobType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.UploadBlobType" />
+      <MemberSignature Language="VB.NET" Value="Public Property UploadBlobType As BlobType" />
+      <MemberSignature Language="F#" Value="member this.UploadBlobType : Microsoft.WindowsAzure.Storage.Blob.BlobType with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferRecursiveTransferOptions.UploadBlobType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.BlobType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

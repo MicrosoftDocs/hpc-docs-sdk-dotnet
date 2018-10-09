@@ -1,0 +1,371 @@
+﻿<Type Name="StorePropertyDescriptor" FullName="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor">
+  <TypeSignature Language="C#" Value="public class StorePropertyDescriptor : System.ComponentModel.PropertyDescriptor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit StorePropertyDescriptor extends System.ComponentModel.PropertyDescriptor" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor" />
+  <TypeSignature Language="VB.NET" Value="Public Class StorePropertyDescriptor&#xA;Inherits PropertyDescriptor" />
+  <TypeSignature Language="F#" Value="type StorePropertyDescriptor = class&#xA;    inherit PropertyDescriptor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.PropertyDescriptor</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StorePropertyDescriptor (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, string systemName, Microsoft.Hpc.Scheduler.Properties.ObjectType obType, string description);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, string systemName, valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType obType, string description) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.#ctor(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.String,Microsoft.Hpc.Scheduler.Properties.ObjectType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pid As PropertyId, systemName As String, obType As ObjectType, description As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor : Microsoft.Hpc.Scheduler.Properties.PropertyId * string * Microsoft.Hpc.Scheduler.Properties.ObjectType * string -&gt; Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor" Usage="new Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor (pid, systemName, obType, description)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="systemName" Type="System.String" />
+        <Parameter Name="obType" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="systemName">To be added.</param>
+        <param name="obType">To be added.</param>
+        <param name="description">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanResetValue">
+      <MemberSignature Language="C#" Value="public override bool CanResetValue (object component);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool CanResetValue(object component) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.CanResetValue(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function CanResetValue (component As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.CanResetValue : obj -&gt; bool" Usage="storePropertyDescriptor.CanResetValue component" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComponentType">
+      <MemberSignature Language="C#" Value="public override Type ComponentType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type ComponentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.ComponentType" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ComponentType As Type" />
+      <MemberSignature Language="F#" Value="member this.ComponentType : Type" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.ComponentType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public override string Description { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public override string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTypeForProperty">
+      <MemberSignature Language="C#" Value="public static Type GetTypeForProperty (Microsoft.Hpc.Scheduler.Properties.StorePropertyType PropType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Type GetTypeForProperty(valuetype Microsoft.Hpc.Scheduler.Properties.StorePropertyType PropType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.GetTypeForProperty(Microsoft.Hpc.Scheduler.Properties.StorePropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetTypeForProperty (PropType As StorePropertyType) As Type" />
+      <MemberSignature Language="F#" Value="static member GetTypeForProperty : Microsoft.Hpc.Scheduler.Properties.StorePropertyType -&gt; Type" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.GetTypeForProperty PropType" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PropType" Type="Microsoft.Hpc.Scheduler.Properties.StorePropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="PropType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValue">
+      <MemberSignature Language="C#" Value="public override object GetValue (object component);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object GetValue(object component) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.GetValue(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetValue (component As Object) As Object" />
+      <MemberSignature Language="F#" Value="override this.GetValue : obj -&gt; obj" Usage="storePropertyDescriptor.GetValue component" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadOnly">
+      <MemberSignature Language="C#" Value="public override bool IsReadOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.IsReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsReadOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.IsReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSortable">
+      <MemberSignature Language="C#" Value="public bool IsSortable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSortable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.IsSortable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSortable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSortable : bool" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.IsSortable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public override string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectType">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ObjectType ObjectType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType ObjectType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.ObjectType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObjectType As ObjectType" />
+      <MemberSignature Language="F#" Value="member this.ObjectType : Microsoft.Hpc.Scheduler.Properties.ObjectType" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.ObjectType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ObjectType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyType">
+      <MemberSignature Language="C#" Value="public override Type PropertyType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type PropertyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.PropertyType" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property PropertyType As Type" />
+      <MemberSignature Language="F#" Value="member this.PropertyType : Type" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.PropertyType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId PropId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyId PropId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.PropId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropId As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.PropId : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.PropId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetValue">
+      <MemberSignature Language="C#" Value="public override void ResetValue (object component);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ResetValue(object component) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.ResetValue(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ResetValue (component As Object)" />
+      <MemberSignature Language="F#" Value="override this.ResetValue : obj -&gt; unit" Usage="storePropertyDescriptor.ResetValue component" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetValue">
+      <MemberSignature Language="C#" Value="public override void SetValue (object component, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SetValue(object component, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.SetValue(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SetValue (component As Object, value As Object)" />
+      <MemberSignature Language="F#" Value="override this.SetValue : obj * obj -&gt; unit" Usage="storePropertyDescriptor.SetValue (component, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShouldSerializeValue">
+      <MemberSignature Language="C#" Value="public override bool ShouldSerializeValue (object component);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ShouldSerializeValue(object component) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StorePropertyDescriptor.ShouldSerializeValue(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ShouldSerializeValue (component As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.ShouldSerializeValue : obj -&gt; bool" Usage="storePropertyDescriptor.ShouldSerializeValue component" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

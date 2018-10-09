@@ -1,0 +1,107 @@
+﻿<Type Name="JobType" FullName="Microsoft.Hpc.Scheduler.Properties.JobType">
+  <TypeSignature Language="C#" Value="public enum JobType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.JobType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum JobType" />
+  <TypeSignature Language="F#" Value="type JobType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("E80BA82F-E71A-4D93-B9DB-B1F5B6E3E9AA")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the types of jobs that can run in the cluster.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Admin">
+      <MemberSignature Language="C#" Value="Admin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobType Admin = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobType.Admin" />
+      <MemberSignature Language="VB.NET" Value="Admin" />
+      <MemberSignature Language="F#" Value="Admin = 2" Usage="Microsoft.Hpc.Scheduler.Properties.JobType.Admin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A job that contains commands that run immediately (see <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.CreateCommand(System.String,Microsoft.Hpc.Scheduler.ICommandInfo,Microsoft.Hpc.Scheduler.IStringCollection)" />). This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Batch">
+      <MemberSignature Language="C#" Value="Batch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobType Batch = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobType.Batch" />
+      <MemberSignature Language="VB.NET" Value="Batch" />
+      <MemberSignature Language="F#" Value="Batch = 1" Usage="Microsoft.Hpc.Scheduler.Properties.JobType.Batch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A normally scheduled job (see <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.CreateJob" />). This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Broker">
+      <MemberSignature Language="C#" Value="Broker" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobType Broker = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobType.Broker" />
+      <MemberSignature Language="VB.NET" Value="Broker" />
+      <MemberSignature Language="F#" Value="Broker = 8" Usage="Microsoft.Hpc.Scheduler.Properties.JobType.Broker" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>A broker job that routes requests from a WCF client to a service (session) job. This enumeration member represents a value of 8.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Service">
+      <MemberSignature Language="C#" Value="Service" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobType Service = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobType.Service" />
+      <MemberSignature Language="VB.NET" Value="Service" />
+      <MemberSignature Language="F#" Value="Service = 4" Usage="Microsoft.Hpc.Scheduler.Properties.JobType.Service" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A service (session) job. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

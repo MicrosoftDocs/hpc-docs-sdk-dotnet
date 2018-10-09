@@ -1,0 +1,86 @@
+﻿<Type Name="ICommandInfo" FullName="Microsoft.Hpc.Scheduler.ICommandInfo">
+  <TypeSignature Language="C#" Value="public interface ICommandInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICommandInfo" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ICommandInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommandInfo" />
+  <TypeSignature Language="F#" Value="type ICommandInfo = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("03811174-809c-4143-b44c-bbaa1ad8de67")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines property values used by the command.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EnvironmentVariables">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.INameValueCollection EnvironmentVariables { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.INameValueCollection EnvironmentVariables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandInfo.EnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnvironmentVariables As INameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.EnvironmentVariables : Microsoft.Hpc.Scheduler.INameValueCollection" Usage="Microsoft.Hpc.Scheduler.ICommandInfo.EnvironmentVariables" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the environment variables used by the command.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.INameValueCollection"></see> interface that contains the collection of environment variables used by the command.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StdIn">
+      <MemberSignature Language="C#" Value="public string StdIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StdIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandInfo.StdIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StdIn As String" />
+      <MemberSignature Language="F#" Value="member this.StdIn : string" Usage="Microsoft.Hpc.Scheduler.ICommandInfo.StdIn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the path to the standard input file used by the command.</summary>
+        <value>The full path to the standard input file used by the command.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingDirectory">
+      <MemberSignature Language="C#" Value="public string WorkingDirectory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkingDirectory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandInfo.WorkingDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WorkingDirectory As String" />
+      <MemberSignature Language="F#" Value="member this.WorkingDirectory : string" Usage="Microsoft.Hpc.Scheduler.ICommandInfo.WorkingDirectory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the startup directory for the command.</summary>
+        <value>The full path to the startup directory.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

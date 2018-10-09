@@ -1,0 +1,264 @@
+﻿<Type Name="TaskId" FullName="Microsoft.Hpc.Scheduler.Properties.TaskId">
+  <TypeSignature Language="C#" Value="public class TaskId : Microsoft.Hpc.Scheduler.Properties.ITaskId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TaskId extends System.Object implements class Microsoft.Hpc.Scheduler.Properties.ITaskId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.TaskId" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskId&#xA;Implements ITaskId" />
+  <TypeSignature Language="F#" Value="type TaskId = class&#xA;    interface ITaskId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Properties.ITaskId</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("905104BE-C738-481c-AE52-285C3253870B")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains the identifiers that uniquely identify the task.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes an empty instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskId (int jobTaskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 jobTaskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (jobTaskId As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.TaskId : int -&gt; Microsoft.Hpc.Scheduler.Properties.TaskId" Usage="new Microsoft.Hpc.Scheduler.Properties.TaskId jobTaskId" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="jobTaskId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobTaskId">An identifier that identifies the task within the job.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId" /> class using the identifier that identifies the task within the job.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskId (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.TaskId : string -&gt; Microsoft.Hpc.Scheduler.Properties.TaskId" Usage="new Microsoft.Hpc.Scheduler.Properties.TaskId text" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">A string that contains the components of the task identifier in the form, ParentJobId.JobTaskId.InstanceId.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId" /> class using a string to identify the task identifiers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskId (int jobTaskId, int taskInstanceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 jobTaskId, int32 taskInstanceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (jobTaskId As Integer, taskInstanceId As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.TaskId : int * int -&gt; Microsoft.Hpc.Scheduler.Properties.TaskId" Usage="new Microsoft.Hpc.Scheduler.Properties.TaskId (jobTaskId, taskInstanceId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="jobTaskId" Type="System.Int32" />
+        <Parameter Name="taskInstanceId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobTaskId">An identifier that identifies the task within the job.</param>
+        <param name="taskInstanceId">An identifier that identifies the instance of a parametric task.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId" /> class using the identifiers for a parametric task.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskId (int parentJobId, int jobTaskId, int taskInstanceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 parentJobId, int32 jobTaskId, int32 taskInstanceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.#ctor(System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (parentJobId As Integer, jobTaskId As Integer, taskInstanceId As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.TaskId : int * int * int -&gt; Microsoft.Hpc.Scheduler.Properties.TaskId" Usage="new Microsoft.Hpc.Scheduler.Properties.TaskId (parentJobId, jobTaskId, taskInstanceId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="parentJobId" Type="System.Int32" />
+        <Parameter Name="jobTaskId" Type="System.Int32" />
+        <Parameter Name="taskInstanceId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="parentJobId">The identifier of the job to which the task belongs.</param>
+        <param name="jobTaskId">The identifier that identifies the task within the job.</param>
+        <param name="taskInstanceId">The instance identifier for a parametric task.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId" /> class using the job, task, and instance identifiers. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="taskId.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId"></see> object to compare with this object.</param>
+        <summary>Determines if this object is equal to the specified task identifier object.</summary>
+        <returns>Is true if the two <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskId"></see> objects are equal; otherwise, false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="taskId.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves the hash code for this object.</summary>
+        <returns>The hash code for this object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceId">
+      <MemberSignature Language="C#" Value="public int InstanceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InstanceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.TaskId.InstanceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property InstanceId As Integer" />
+      <MemberSignature Language="F#" Value="member this.InstanceId : int with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.TaskId.InstanceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the instance identifier of a parametric task.</summary>
+        <value>The instance identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTaskId">
+      <MemberSignature Language="C#" Value="public int JobTaskId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 JobTaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.TaskId.JobTaskId" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobTaskId As Integer" />
+      <MemberSignature Language="F#" Value="member this.JobTaskId : int with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.TaskId.JobTaskId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the sequential identifier of the task.</summary>
+        <value>The display task identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobId">
+      <MemberSignature Language="C#" Value="public int ParentJobId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ParentJobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.TaskId.ParentJobId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentJobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ParentJobId : int with get, set" Usage="Microsoft.Hpc.Scheduler.Properties.TaskId.ParentJobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier of the job to which the task belongs.</summary>
+        <value>The identifier of the parent job.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.TaskId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="taskId.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves a string that represents the object.</summary>
+        <returns>A string that represents the object. The string is in the form, ParentJobId.JobTaskId.InstanceId.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

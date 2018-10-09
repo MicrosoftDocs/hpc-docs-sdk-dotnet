@@ -1,0 +1,129 @@
+﻿<Type Name="TaskStateEventArg" FullName="Microsoft.Hpc.Scheduler.TaskStateEventArg">
+  <TypeSignature Language="C#" Value="public class TaskStateEventArg : EventArgs, Microsoft.Hpc.Scheduler.ITaskStateEventArg" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TaskStateEventArg extends System.EventArgs implements class Microsoft.Hpc.Scheduler.ITaskStateEventArg" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.TaskStateEventArg" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskStateEventArg&#xA;Inherits EventArgs&#xA;Implements ITaskStateEventArg" />
+  <TypeSignature Language="F#" Value="type TaskStateEventArg = class&#xA;    inherit EventArgs&#xA;    interface ITaskStateEventArg" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ITaskStateEventArg</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("6494eef8-f105-4ad6-90c5-9783b63a1f2c")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the arguments that are passed to your event handler when the state of a task in the job changes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="JobId">
+      <MemberSignature Language="C#" Value="public int JobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 JobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.TaskStateEventArg.JobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.JobId : int" Usage="Microsoft.Hpc.Scheduler.TaskStateEventArg.JobId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ITaskStateEventArg.JobId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier of the job that contains the task whose state has changed.</summary>
+        <value>The job identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewState">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskState NewState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.TaskState NewState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.TaskStateEventArg.NewState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As TaskState" />
+      <MemberSignature Language="F#" Value="member this.NewState : Microsoft.Hpc.Scheduler.Properties.TaskState" Usage="Microsoft.Hpc.Scheduler.TaskStateEventArg.NewState" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ITaskStateEventArg.NewState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the state of the task.</summary>
+        <value>The state of the task. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousState">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskState PreviousState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.TaskState PreviousState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.TaskStateEventArg.PreviousState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousState As TaskState" />
+      <MemberSignature Language="F#" Value="member this.PreviousState : Microsoft.Hpc.Scheduler.Properties.TaskState" Usage="Microsoft.Hpc.Scheduler.TaskStateEventArg.PreviousState" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ITaskStateEventArg.PreviousState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the previous state of the task.
+</summary>
+        <value>The previous state of the task. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.TaskState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ITaskId TaskId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.ITaskId TaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.TaskStateEventArg.TaskId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskId As ITaskId" />
+      <MemberSignature Language="F#" Value="member this.TaskId : Microsoft.Hpc.Scheduler.Properties.ITaskId" Usage="Microsoft.Hpc.Scheduler.TaskStateEventArg.TaskId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ITaskStateEventArg.TaskId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ITaskId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier that uniquely identifies the task in a job.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.Properties.ITaskId"></see> interface that uniquely identifies the task.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

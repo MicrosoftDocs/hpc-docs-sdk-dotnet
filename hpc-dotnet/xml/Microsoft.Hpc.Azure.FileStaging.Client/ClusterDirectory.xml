@@ -1,0 +1,198 @@
+﻿<Type Name="ClusterDirectory" FullName="Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory">
+  <TypeSignature Language="C#" Value="public class ClusterDirectory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ClusterDirectory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClusterDirectory" />
+  <TypeSignature Language="F#" Value="type ClusterDirectory = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClusterDirectory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFromNode">
+      <MemberSignature Language="C#" Value="public static void CopyFromNode (string connectionString, string targetNode, string path, string localDirPath, System.Collections.Generic.List&lt;string&gt; filePatterns, bool recursive, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CopyFromNode(string connectionString, string targetNode, string path, string localDirPath, class System.Collections.Generic.List`1&lt;string&gt; filePatterns, bool recursive, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.CopyFromNode(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub CopyFromNode (connectionString As String, targetNode As String, path As String, localDirPath As String, filePatterns As List(Of String), recursive As Boolean, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="static member CopyFromNode : string * string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.CopyFromNode (connectionString, targetNode, path, localDirPath, filePatterns, recursive, overwrite)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="localDirPath" Type="System.String" />
+        <Parameter Name="filePatterns" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="localDirPath">To be added.</param>
+        <param name="filePatterns">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyToNode">
+      <MemberSignature Language="C#" Value="public static void CopyToNode (string connectionString, string targetNode, string path, string localDirPath, System.Collections.Generic.List&lt;string&gt; filePatterns, bool recursive, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CopyToNode(string connectionString, string targetNode, string path, string localDirPath, class System.Collections.Generic.List`1&lt;string&gt; filePatterns, bool recursive, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.CopyToNode(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub CopyToNode (connectionString As String, targetNode As String, path As String, localDirPath As String, filePatterns As List(Of String), recursive As Boolean, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="static member CopyToNode : string * string * string * string * System.Collections.Generic.List&lt;string&gt; * bool * bool -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.CopyToNode (connectionString, targetNode, path, localDirPath, filePatterns, recursive, overwrite)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="localDirPath" Type="System.String" />
+        <Parameter Name="filePatterns" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="localDirPath">To be added.</param>
+        <param name="filePatterns">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static void Delete (string connectionString, string targetNode, string path, bool recursive);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(string connectionString, string targetNode, string path, bool recursive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.Delete(System.String,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Delete (connectionString As String, targetNode As String, path As String, recursive As Boolean)" />
+      <MemberSignature Language="F#" Value="static member Delete : string * string * string * bool -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.Delete (connectionString, targetNode, path, recursive)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="recursive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="recursive">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDirectories">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[] GetDirectories (string connectionString, string targetNode, string path, string searchPattern, System.IO.SearchOption searchOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[] GetDirectories(string connectionString, string targetNode, string path, string searchPattern, valuetype System.IO.SearchOption searchOption) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.GetDirectories(System.String,System.String,System.String,System.String,System.IO.SearchOption)" />
+      <MemberSignature Language="F#" Value="static member GetDirectories : string * string * string * string * System.IO.SearchOption -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.GetDirectories (connectionString, targetNode, path, searchPattern, searchOption)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectoryInfo[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="searchPattern" Type="System.String" />
+        <Parameter Name="searchOption" Type="System.IO.SearchOption" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="searchPattern">To be added.</param>
+        <param name="searchOption">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFiles">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[] GetFiles (string connectionString, string targetNode, string path, string searchPattern, System.IO.SearchOption searchOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[] GetFiles(string connectionString, string targetNode, string path, string searchPattern, valuetype System.IO.SearchOption searchOption) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.GetFiles(System.String,System.String,System.String,System.String,System.IO.SearchOption)" />
+      <MemberSignature Language="F#" Value="static member GetFiles : string * string * string * string * System.IO.SearchOption -&gt; Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterDirectory.GetFiles (connectionString, targetNode, path, searchPattern, searchOption)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.FileStaging.Client.ClusterFileInfo[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="searchPattern" Type="System.String" />
+        <Parameter Name="searchOption" Type="System.IO.SearchOption" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="searchPattern">To be added.</param>
+        <param name="searchOption">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

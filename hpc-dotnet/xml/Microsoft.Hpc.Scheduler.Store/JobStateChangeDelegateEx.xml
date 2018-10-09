@@ -1,0 +1,31 @@
+﻿<Type Name="JobStateChangeDelegateEx" FullName="Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx">
+  <TypeSignature Language="C#" Value="public delegate void JobStateChangeDelegateEx(int jobId, JobState prevState, JobState newState, StoreProperty[] contextualProps);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobStateChangeDelegateEx extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.JobStateChangeDelegateEx" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub JobStateChangeDelegateEx(jobId As Integer, prevState As JobState, newState As JobState, contextualProps As StoreProperty())" />
+  <TypeSignature Language="F#" Value="type JobStateChangeDelegateEx = delegate of int * JobState * JobState * StoreProperty[] -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="jobId" Type="System.Int32" />
+    <Parameter Name="prevState" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+    <Parameter Name="newState" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+    <Parameter Name="contextualProps" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="jobId">To be added.</param>
+    <param name="prevState">To be added.</param>
+    <param name="newState">To be added.</param>
+    <param name="contextualProps">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

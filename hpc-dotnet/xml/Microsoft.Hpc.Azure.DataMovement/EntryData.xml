@@ -1,0 +1,117 @@
+﻿<Type Name="EntryData" FullName="Microsoft.Hpc.Azure.DataMovement.EntryData">
+  <TypeSignature Language="C#" Value="public class EntryData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EntryData extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.DataMovement.EntryData" />
+  <TypeSignature Language="VB.NET" Value="Public Class EntryData" />
+  <TypeSignature Language="F#" Value="type EntryData = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EntryData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.EntryData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestinationBlob">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.ICloudBlob DestinationBlob { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob DestinationBlob" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.EntryData.DestinationBlob" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DestinationBlob As ICloudBlob" />
+      <MemberSignature Language="F#" Value="member this.DestinationBlob : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" Usage="Microsoft.Hpc.Azure.DataMovement.EntryData.DestinationBlob" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.ICloudBlob</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.EntryData.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.Hpc.Azure.DataMovement.EntryData.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceBlob">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.ICloudBlob SourceBlob { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob SourceBlob" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.EntryData.SourceBlob" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceBlob As ICloudBlob" />
+      <MemberSignature Language="F#" Value="member this.SourceBlob : Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" Usage="Microsoft.Hpc.Azure.DataMovement.EntryData.SourceBlob" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.ICloudBlob</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferEntry">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry TransferEntry { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry TransferEntry" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.EntryData.TransferEntry" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TransferEntry As BlobTransferFileTransferEntry" />
+      <MemberSignature Language="F#" Value="member this.TransferEntry : Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry" Usage="Microsoft.Hpc.Azure.DataMovement.EntryData.TransferEntry" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

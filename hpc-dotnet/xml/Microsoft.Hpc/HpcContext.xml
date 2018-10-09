@@ -1,0 +1,434 @@
+﻿<Type Name="HpcContext" FullName="Microsoft.Hpc.HpcContext">
+  <TypeSignature Language="C#" Value="public class HpcContext : IDisposable, Microsoft.Hpc.IHpcContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HpcContext extends System.Object implements class Microsoft.Hpc.IHpcContext, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.HpcContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class HpcContext&#xA;Implements IDisposable, IHpcContext" />
+  <TypeSignature Language="F#" Value="type HpcContext = class&#xA;    interface IHpcContext&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.IHpcContext</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsNtServiceContext">
+      <MemberSignature Language="C#" Value="public static void AsNtServiceContext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AsNtServiceContext() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.AsNtServiceContext" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub AsNtServiceContext ()" />
+      <MemberSignature Language="F#" Value="static member AsNtServiceContext : unit -&gt; unit" Usage="Microsoft.Hpc.HpcContext.AsNtServiceContext " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsServiceFabricContext">
+      <MemberSignature Language="C#" Value="public static void AsServiceFabricContext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AsServiceFabricContext() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.AsServiceFabricContext" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub AsServiceFabricContext ()" />
+      <MemberSignature Language="F#" Value="static member AsServiceFabricContext : unit -&gt; unit" Usage="Microsoft.Hpc.HpcContext.AsServiceFabricContext " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancellationToken">
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationToken CancellationToken { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Threading.CancellationToken CancellationToken" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.HpcContext.CancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CancellationToken As CancellationToken" />
+      <MemberSignature Language="F#" Value="member this.CancellationToken : System.Threading.CancellationToken" Usage="Microsoft.Hpc.HpcContext.CancellationToken" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.CancellationToken</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckIfHttps">
+      <MemberSignature Language="C#" Value="public static bool CheckIfHttps (string oldMultiFormatName, out string serverName, out int port);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CheckIfHttps(string oldMultiFormatName, [out] string&amp; serverName, [out] int32&amp; port) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.CheckIfHttps(System.String,System.String@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CheckIfHttps (oldMultiFormatName As String, ByRef serverName As String, ByRef port As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="static member CheckIfHttps : string *  *  -&gt; bool" Usage="Microsoft.Hpc.HpcContext.CheckIfHttps (oldMultiFormatName, serverName, port)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldMultiFormatName" Type="System.String" />
+        <Parameter Name="serverName" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="port" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="oldMultiFormatName">To be added.</param>
+        <param name="serverName">To be added.</param>
+        <param name="port">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAll">
+      <MemberSignature Language="C#" Value="public static void ClearAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClearAll() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.ClearAll" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ClearAll ()" />
+      <MemberSignature Language="F#" Value="static member ClearAll : unit -&gt; unit" Usage="Microsoft.Hpc.HpcContext.ClearAll " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="hpcContext.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool isDisposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool isDisposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (isDisposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="hpcContext.Dispose isDisposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isDisposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isDisposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FabricContext">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.IFabricContext FabricContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.IFabricContext FabricContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.HpcContext.FabricContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FabricContext As IFabricContext" />
+      <MemberSignature Language="F#" Value="member this.FabricContext : Microsoft.Hpc.IFabricContext" Usage="Microsoft.Hpc.HpcContext.FabricContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IFabricContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailOnFirstRetryFailure">
+      <MemberSignature Language="C#" Value="public static void FailOnFirstRetryFailure ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FailOnFirstRetryFailure() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.FailOnFirstRetryFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub FailOnFirstRetryFailure ()" />
+      <MemberSignature Language="F#" Value="static member FailOnFirstRetryFailure : unit -&gt; unit" Usage="Microsoft.Hpc.HpcContext.FailOnFirstRetryFailure " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.IHpcContext Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.IHpcContext Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Get () As IHpcContext" />
+      <MemberSignature Language="F#" Value="static member Get : unit -&gt; Microsoft.Hpc.IHpcContext" Usage="Microsoft.Hpc.HpcContext.Get " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.IHpcContext Get (Microsoft.Hpc.EndpointsConnectionString connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.IHpcContext Get(valuetype Microsoft.Hpc.EndpointsConnectionString connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.Get(Microsoft.Hpc.EndpointsConnectionString)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Get (connectionString As EndpointsConnectionString) As IHpcContext" />
+      <MemberSignature Language="F#" Value="static member Get : Microsoft.Hpc.EndpointsConnectionString -&gt; Microsoft.Hpc.IHpcContext" Usage="Microsoft.Hpc.HpcContext.Get connectionString" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="Microsoft.Hpc.EndpointsConnectionString" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.IHpcContext Get (string connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.IHpcContext Get(string connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.Get(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Get (connectionString As String) As IHpcContext" />
+      <MemberSignature Language="F#" Value="static member Get : string -&gt; Microsoft.Hpc.IHpcContext" Usage="Microsoft.Hpc.HpcContext.Get connectionString" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOrAdd">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.IHpcContext GetOrAdd (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.IHpcContext GetOrAdd(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.GetOrAdd(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetOrAdd (token As CancellationToken) As IHpcContext" />
+      <MemberSignature Language="F#" Value="static member GetOrAdd : System.Threading.CancellationToken -&gt; Microsoft.Hpc.IHpcContext" Usage="Microsoft.Hpc.HpcContext.GetOrAdd token" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOrAdd">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.IHpcContext GetOrAdd (Microsoft.Hpc.EndpointsConnectionString connectionString, System.Threading.CancellationToken token, bool isHpcService = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.IHpcContext GetOrAdd(valuetype Microsoft.Hpc.EndpointsConnectionString connectionString, valuetype System.Threading.CancellationToken token, bool isHpcService) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.GetOrAdd(Microsoft.Hpc.EndpointsConnectionString,System.Threading.CancellationToken,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetOrAdd (connectionString As EndpointsConnectionString, token As CancellationToken, Optional isHpcService As Boolean = false) As IHpcContext" />
+      <MemberSignature Language="F#" Value="static member GetOrAdd : Microsoft.Hpc.EndpointsConnectionString * System.Threading.CancellationToken * bool -&gt; Microsoft.Hpc.IHpcContext" Usage="Microsoft.Hpc.HpcContext.GetOrAdd (connectionString, token, isHpcService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="Microsoft.Hpc.EndpointsConnectionString" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+        <Parameter Name="isHpcService" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="token">To be added.</param>
+        <param name="isHpcService">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOrAdd">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.IHpcContext GetOrAdd (string connectionString, System.Threading.CancellationToken token, bool isHpcService = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.IHpcContext GetOrAdd(string connectionString, valuetype System.Threading.CancellationToken token, bool isHpcService) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContext.GetOrAdd(System.String,System.Threading.CancellationToken,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetOrAdd (connectionString As String, token As CancellationToken, Optional isHpcService As Boolean = false) As IHpcContext" />
+      <MemberSignature Language="F#" Value="static member GetOrAdd : string * System.Threading.CancellationToken * bool -&gt; Microsoft.Hpc.IHpcContext" Usage="Microsoft.Hpc.HpcContext.GetOrAdd (connectionString, token, isHpcService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IHpcContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+        <Parameter Name="isHpcService" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="token">To be added.</param>
+        <param name="isHpcService">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNtService">
+      <MemberSignature Language="C#" Value="public static bool IsNtService { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property bool IsNtService" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.HpcContext.IsNtService" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsNtService As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNtService : bool" Usage="Microsoft.Hpc.HpcContext.IsNtService" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotRetryPreviousRetryFailure">
+      <MemberSignature Language="C#" Value="public static bool NotRetryPreviousRetryFailure { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property bool NotRetryPreviousRetryFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.HpcContext.NotRetryPreviousRetryFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NotRetryPreviousRetryFailure As Boolean" />
+      <MemberSignature Language="F#" Value="member this.NotRetryPreviousRetryFailure : bool" Usage="Microsoft.Hpc.HpcContext.NotRetryPreviousRetryFailure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Registry">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.IRegistry Registry { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.IRegistry Registry" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.HpcContext.Registry" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Registry As IRegistry" />
+      <MemberSignature Language="F#" Value="member this.Registry : Microsoft.Hpc.IRegistry" Usage="Microsoft.Hpc.HpcContext.Registry" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.IHpcContext.Registry</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.IRegistry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

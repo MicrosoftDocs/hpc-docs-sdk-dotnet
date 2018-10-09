@@ -1,0 +1,58 @@
+﻿<Type Name="SchedulingMode" FullName="Microsoft.Hpc.Scheduler.Properties.SchedulingMode">
+  <TypeSignature Language="C#" Value="public enum SchedulingMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SchedulingMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.SchedulingMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SchedulingMode" />
+  <TypeSignature Language="F#" Value="type SchedulingMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines modes for optimizing resource allocation for large batch and Message Passing Interface (MPI) workloads or for service workloads.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Balanced">
+      <MemberSignature Language="C#" Value="Balanced" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.SchedulingMode Balanced = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.SchedulingMode.Balanced" />
+      <MemberSignature Language="VB.NET" Value="Balanced" />
+      <MemberSignature Language="F#" Value="Balanced = 1" Usage="Microsoft.Hpc.Scheduler.Properties.SchedulingMode.Balanced" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SchedulingMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that the HPC Job Scheduler Service should attempt to start all incoming jobs as soon as possible at their minimum resource requirements. After all the jobs in the queue have their minimum resources, the HPC Job Scheduler Service should allocate additional cluster resources to jobs based on their priority. The HPC Job Scheduler Service periodically rebalances resource allocation to fill idle resources, start new jobs, and adjust allocation according the <see cref="T:Microsoft.Hpc.Scheduler.Properties.PriorityBias" /> setting. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Queued">
+      <MemberSignature Language="C#" Value="Queued" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.SchedulingMode Queued = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.SchedulingMode.Queued" />
+      <MemberSignature Language="VB.NET" Value="Queued" />
+      <MemberSignature Language="F#" Value="Queued = 0" Usage="Microsoft.Hpc.Scheduler.Properties.SchedulingMode.Queued" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SchedulingMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the HPC Job Scheduler Service should start jobs in queue order, and attempt to allocate the maximum requested resources to running jobs. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

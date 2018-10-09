@@ -1,0 +1,904 @@
+﻿<Type Name="ClusterJobProfileItem" FullName="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem">
+  <TypeSignature Language="C#" Value="public class ClusterJobProfileItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable ClusterJobProfileItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClusterJobProfileItem" />
+  <TypeSignature Language="F#" Value="type ClusterJobProfileItem = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClusterJobProfileItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClusterJobProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.#ctor(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pid As PropertyId, readOnly As Boolean)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="new Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem (pid, readOnly)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoolDefaultValue">
+      <MemberSignature Language="C#" Value="public bool BoolDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BoolDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.BoolDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property BoolDefaultValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.BoolDefaultValue : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.BoolDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoolValues">
+      <MemberSignature Language="C#" Value="public bool[] BoolValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool[] BoolValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.BoolValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property BoolValues As Boolean()" />
+      <MemberSignature Language="F#" Value="member this.BoolValues : bool[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.BoolValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateBooleanProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateBooleanProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, bool defaultValue, params bool[] validValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateBooleanProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, bool defaultValue, bool[] validValues) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateBooleanProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,System.Boolean,System.Boolean[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateBooleanProfileItem (pid As PropertyId, readOnly As Boolean, defaultValue As Boolean, ParamArray validValues As Boolean()) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateBooleanProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * bool * bool[] -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateBooleanProfileItem (pid, readOnly, defaultValue, validValues)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultValue" Type="System.Boolean" />
+        <Parameter Name="validValues" Type="System.Boolean[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <param name="validValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDefaultItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateDefaultItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateDefaultItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateDefaultItem(Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateDefaultItem (pid As PropertyId) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateDefaultItem : Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateDefaultItem pid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEnumProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateEnumProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, int defaultEnum, params int[] validValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateEnumProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, int32 defaultEnum, int32[] validValues) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateEnumProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,System.Int32,System.Int32[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateEnumProfileItem (pid As PropertyId, readOnly As Boolean, defaultEnum As Integer, ParamArray validValues As Integer()) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateEnumProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * int * int[] -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateEnumProfileItem (pid, readOnly, defaultEnum, validValues)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultEnum" Type="System.Int32" />
+        <Parameter Name="validValues" Type="System.Int32[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultEnum">To be added.</param>
+        <param name="validValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateIntProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateIntProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, int defaultValue, int minValue, int maxValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateIntProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, int32 defaultValue, int32 minValue, int32 maxValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateIntProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateIntProfileItem (pid As PropertyId, readOnly As Boolean, defaultValue As Integer, minValue As Integer, maxValue As Integer) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateIntProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * int * int * int -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateIntProfileItem (pid, readOnly, defaultValue, minValue, maxValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultValue" Type="System.Int32" />
+        <Parameter Name="minValue" Type="System.Int32" />
+        <Parameter Name="maxValue" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <param name="minValue">To be added.</param>
+        <param name="maxValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJobOrderbyProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateJobOrderbyProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, Microsoft.Hpc.Scheduler.Properties.JobOrderByList defaultOrder);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateJobOrderbyProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, class Microsoft.Hpc.Scheduler.Properties.JobOrderByList defaultOrder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateJobOrderbyProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,Microsoft.Hpc.Scheduler.Properties.JobOrderByList)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateJobOrderbyProfileItem (pid As PropertyId, readOnly As Boolean, defaultOrder As JobOrderByList) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateJobOrderbyProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * Microsoft.Hpc.Scheduler.Properties.JobOrderByList -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateJobOrderbyProfileItem (pid, readOnly, defaultOrder)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultOrder" Type="Microsoft.Hpc.Scheduler.Properties.JobOrderByList" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultOrder">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateStringListProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateStringListProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, string[] defaultValues, string[] validValues, string[] requiredValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateStringListProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, string[] defaultValues, string[] validValues, string[] requiredValues) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateStringListProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,System.String[],System.String[],System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateStringListProfileItem (pid As PropertyId, readOnly As Boolean, defaultValues As String(), validValues As String(), requiredValues As String()) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateStringListProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * string[] * string[] * string[] -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateStringListProfileItem (pid, readOnly, defaultValues, validValues, requiredValues)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultValues" Type="System.String[]" />
+        <Parameter Name="validValues" Type="System.String[]" />
+        <Parameter Name="requiredValues" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultValues">To be added.</param>
+        <param name="validValues">To be added.</param>
+        <param name="requiredValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateStringProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateStringProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, string defaultString, params string[] validValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateStringProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, string defaultString, string[] validValues) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateStringProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,System.String,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateStringProfileItem (pid As PropertyId, readOnly As Boolean, defaultString As String, ParamArray validValues As String()) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateStringProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * string * string[] -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateStringProfileItem (pid, readOnly, defaultString, validValues)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultString" Type="System.String" />
+        <Parameter Name="validValues" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultString">To be added.</param>
+        <param name="validValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateStringProfileItem">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateStringProfileItem (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, string defaultString, string[] validValues, string[] requiredValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem CreateStringProfileItem(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, bool readOnly, string defaultString, string[] validValues, string[] requiredValues) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateStringProfileItem(Microsoft.Hpc.Scheduler.Properties.PropertyId,System.Boolean,System.String,System.String[],System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateStringProfileItem (pid As PropertyId, readOnly As Boolean, defaultString As String, validValues As String(), requiredValues As String()) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member CreateStringProfileItem : Microsoft.Hpc.Scheduler.Properties.PropertyId * bool * string * string[] * string[] -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.CreateStringProfileItem (pid, readOnly, defaultString, validValues, requiredValues)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+        <Parameter Name="defaultString" Type="System.String" />
+        <Parameter Name="validValues" Type="System.String[]" />
+        <Parameter Name="requiredValues" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="readOnly">To be added.</param>
+        <param name="defaultString">To be added.</param>
+        <param name="validValues">To be added.</param>
+        <param name="requiredValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultProfileId">
+      <MemberSignature Language="C#" Value="public const int DefaultProfileId = 1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DefaultProfileId = (1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.DefaultProfileId" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultProfileId As Integer  = 1" />
+      <MemberSignature Language="F#" Value="val mutable DefaultProfileId : int" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.DefaultProfileId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultProfileProperties">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt; DefaultProfileProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId&gt; DefaultProfileProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.DefaultProfileProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultProfileProperties As List(Of PropertyId)" />
+      <MemberSignature Language="F#" Value="member this.DefaultProfileProperties : System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.DefaultProfileProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumDefaultValue">
+      <MemberSignature Language="C#" Value="public int EnumDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EnumDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.EnumDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnumDefaultValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.EnumDefaultValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.EnumDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumValues">
+      <MemberSignature Language="C#" Value="public int[] EnumValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32[] EnumValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.EnumValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnumValues As Integer()" />
+      <MemberSignature Language="F#" Value="member this.EnumValues : int[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.EnumValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultProperty">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.StoreProperty GetDefaultProperty ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Properties.StoreProperty GetDefaultProperty() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.GetDefaultProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDefaultProperty () As StoreProperty" />
+      <MemberSignature Language="F#" Value="member this.GetDefaultProperty : unit -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty" Usage="clusterJobProfileItem.GetDefaultProperty " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntDefaultValue">
+      <MemberSignature Language="C#" Value="public int IntDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IntDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.IntDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntDefaultValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.IntDefaultValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.IntDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntMaxValue">
+      <MemberSignature Language="C#" Value="public int IntMaxValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IntMaxValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.IntMaxValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntMaxValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.IntMaxValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.IntMaxValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntMinValue">
+      <MemberSignature Language="C#" Value="public int IntMinValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IntMinValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.IntMinValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntMinValue As Integer" />
+      <MemberSignature Language="F#" Value="member this.IntMinValue : int with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.IntMinValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobNodeGroupOpDefaultValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp JobNodeGroupOpDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp JobNodeGroupOpDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.JobNodeGroupOpDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobNodeGroupOpDefaultValue As JobNodeGroupOp" />
+      <MemberSignature Language="F#" Value="member this.JobNodeGroupOpDefaultValue : Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.JobNodeGroupOpDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobNodeGroupOpValues">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp[] JobNodeGroupOpValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp[] JobNodeGroupOpValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.JobNodeGroupOpValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobNodeGroupOpValues As JobNodeGroupOp()" />
+      <MemberSignature Language="F#" Value="member this.JobNodeGroupOpValues : Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.JobNodeGroupOpValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobNodeGroupOp[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderbyDefaultValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobOrderByList OrderbyDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.JobOrderByList OrderbyDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.OrderbyDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrderbyDefaultValue As JobOrderByList" />
+      <MemberSignature Language="F#" Value="member this.OrderbyDefaultValue : Microsoft.Hpc.Scheduler.Properties.JobOrderByList with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.OrderbyDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobOrderByList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistToXml">
+      <MemberSignature Language="C#" Value="public void PersistToXml (System.Xml.XmlWriter writer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PersistToXml(class System.Xml.XmlWriter writer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PersistToXml(System.Xml.XmlWriter)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PersistToXml (writer As XmlWriter)" />
+      <MemberSignature Language="F#" Value="member this.PersistToXml : System.Xml.XmlWriter -&gt; unit" Usage="clusterJobProfileItem.PersistToXml writer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Xml.XmlWriter" />
+      </Parameters>
+      <Docs>
+        <param name="writer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PriorityDefaultValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobPriority PriorityDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobPriority PriorityDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PriorityDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property PriorityDefaultValue As JobPriority" />
+      <MemberSignature Language="F#" Value="member this.PriorityDefaultValue : Microsoft.Hpc.Scheduler.Properties.JobPriority with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PriorityDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PriorityValues">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobPriority[] PriorityValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobPriority[] PriorityValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PriorityValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property PriorityValues As JobPriority()" />
+      <MemberSignature Language="F#" Value="member this.PriorityValues : Microsoft.Hpc.Scheduler.Properties.JobPriority[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PriorityValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobPriority[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId PropId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyId PropId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PropId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropId As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.PropId : Microsoft.Hpc.Scheduler.Properties.PropertyId with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PropId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropName">
+      <MemberSignature Language="C#" Value="public string PropName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PropName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PropName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropName As String" />
+      <MemberSignature Language="F#" Value="member this.PropName : string" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.PropName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public bool ReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ReadOnly : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.ReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredStrings">
+      <MemberSignature Language="C#" Value="public string[] RequiredStrings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] RequiredStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.RequiredStrings" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequiredStrings As String()" />
+      <MemberSignature Language="F#" Value="member this.RequiredStrings : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.RequiredStrings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreFromXml">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem RestoreFromXml (System.Xml.XmlReader reader);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem RestoreFromXml(class System.Xml.XmlReader reader) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.RestoreFromXml(System.Xml.XmlReader)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RestoreFromXml (reader As XmlReader) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="static member RestoreFromXml : System.Xml.XmlReader -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.RestoreFromXml reader" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Xml.XmlReader" />
+      </Parameters>
+      <Docs>
+        <param name="reader">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringDefaultValue">
+      <MemberSignature Language="C#" Value="public string StringDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StringDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.StringDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property StringDefaultValue As String" />
+      <MemberSignature Language="F#" Value="member this.StringDefaultValue : string with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.StringDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringListDefaultValue">
+      <MemberSignature Language="C#" Value="public string[] StringListDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] StringListDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.StringListDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property StringListDefaultValue As String()" />
+      <MemberSignature Language="F#" Value="member this.StringListDefaultValue : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.StringListDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringValues">
+      <MemberSignature Language="C#" Value="public string[] StringValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] StringValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.StringValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property StringValues As String()" />
+      <MemberSignature Language="F#" Value="member this.StringValues : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.StringValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="clusterJobProfileItem.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TypeDefaultValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobType TypeDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobType TypeDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.TypeDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property TypeDefaultValue As JobType" />
+      <MemberSignature Language="F#" Value="member this.TypeDefaultValue : Microsoft.Hpc.Scheduler.Properties.JobType with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.TypeDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TypeValues">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobType[] TypeValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobType[] TypeValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.TypeValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property TypeValues As JobType()" />
+      <MemberSignature Language="F#" Value="member this.TypeValues : Microsoft.Hpc.Scheduler.Properties.JobType[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.TypeValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnitTypeDefaultValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobUnitType UnitTypeDefaultValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType UnitTypeDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.UnitTypeDefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnitTypeDefaultValue As JobUnitType" />
+      <MemberSignature Language="F#" Value="member this.UnitTypeDefaultValue : Microsoft.Hpc.Scheduler.Properties.JobUnitType with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.UnitTypeDefaultValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobUnitType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnitTypeValues">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobUnitType[] UnitTypeValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType[] UnitTypeValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.UnitTypeValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnitTypeValues As JobUnitType()" />
+      <MemberSignature Language="F#" Value="member this.UnitTypeValues : Microsoft.Hpc.Scheduler.Properties.JobUnitType[] with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem.UnitTypeValues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobUnitType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

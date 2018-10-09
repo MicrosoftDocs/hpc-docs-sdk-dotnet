@@ -1,0 +1,194 @@
+﻿<Type Name="IExcelClientV1" FullName="Microsoft.Hpc.Excel.Com.IExcelClientV1">
+  <TypeSignature Language="C#" Value="public interface IExcelClientV1" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IExcelClientV1" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.Com.IExcelClientV1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IExcelClientV1" />
+  <TypeSignature Language="F#" Value="type IExcelClientV1 = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0391C6BF-5891-43c9-A440-D365610B575C")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public void Cancel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cancel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Com.IExcelClientV1.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel ()" />
+      <MemberSignature Language="F#" Value="abstract member Cancel : unit -&gt; unit" Usage="iExcelClientV1.Cancel " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseSession">
+      <MemberSignature Language="C#" Value="public void CloseSession (object timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CloseSession(object timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Com.IExcelClientV1.CloseSession(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CloseSession (Optional timeoutMilliseconds As Object)" />
+      <MemberSignature Language="F#" Value="abstract member CloseSession : obj -&gt; unit" Usage="iExcelClientV1.CloseSession timeoutMilliseconds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeoutMilliseconds" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Com.IExcelClientV1.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit" Usage="iExcelClientV1.Dispose " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (Microsoft.Office.Interop.Excel.Workbook excelWorkbook);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize(class Microsoft.Office.Interop.Excel.Workbook excelWorkbook) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Com.IExcelClientV1.Initialize(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (excelWorkbook As Workbook)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : Microsoft.Office.Interop.Excel.Workbook -&gt; unit" Usage="iExcelClientV1.Initialize excelWorkbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="excelWorkbook" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="excelWorkbook">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenSession">
+      <MemberSignature Language="C#" Value="public int OpenSession (string headNode, string remoteWorkbookPath, object minResources, object maxResources, object resourceType, string jobTemplate, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 OpenSession(string headNode, string remoteWorkbookPath, object minResources, object maxResources, object resourceType, string jobTemplate, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Com.IExcelClientV1.OpenSession(System.String,System.String,System.Object,System.Object,System.Object,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenSession (headNode As String, remoteWorkbookPath As String, Optional minResources As Object, Optional maxResources As Object, Optional resourceType As Object, Optional jobTemplate As String, Optional serviceName As String) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member OpenSession : string * string * obj * obj * obj * string * string -&gt; int" Usage="iExcelClientV1.OpenSession (headNode, remoteWorkbookPath, minResources, maxResources, resourceType, jobTemplate, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="remoteWorkbookPath" Type="System.String" />
+        <Parameter Name="minResources" Type="System.Object" />
+        <Parameter Name="maxResources" Type="System.Object" />
+        <Parameter Name="resourceType" Type="System.Object" />
+        <Parameter Name="jobTemplate" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="remoteWorkbookPath">To be added.</param>
+        <param name="minResources">To be added.</param>
+        <param name="maxResources">To be added.</param>
+        <param name="resourceType">To be added.</param>
+        <param name="jobTemplate">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Run">
+      <MemberSignature Language="C#" Value="public void Run (bool executeLocally);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Run(bool executeLocally) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.Com.IExcelClientV1.Run(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Run (executeLocally As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Run : bool -&gt; unit" Usage="iExcelClientV1.Run executeLocally" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="executeLocally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="executeLocally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Excel.Com.IExcelClientV1.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
+      <MemberSignature Language="F#" Value="member this.Version : string" Usage="Microsoft.Hpc.Excel.Com.IExcelClientV1.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

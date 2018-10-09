@@ -1,0 +1,573 @@
+﻿<Type Name="DataClient" FullName="Microsoft.Hpc.Scheduler.Session.Data.DataClient">
+  <TypeSignature Language="C#" Value="public class DataClient : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataClient extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Data.DataClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class DataClient&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type DataClient = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="F#" Value="member this.Close : unit -&gt; unit" Usage="dataClient.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Create (string headNode, string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Create(string headNode, string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (headNode As String, dataClientId As String) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Create : string * string -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create (headNode, dataClientId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Create (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string dataClientId, bool likelyAccessInAzure);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Create(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string dataClientId, bool likelyAccessInAzure) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (startInfo As SessionStartInfo, dataClientId As String, likelyAccessInAzure As Boolean) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * string * bool -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create (startInfo, dataClientId, likelyAccessInAzure)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="dataClientId" Type="System.String" />
+        <Parameter Name="likelyAccessInAzure" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <param name="likelyAccessInAzure">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Create (string headNode, string dataClientId, string[] allowedUsers);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Create(string headNode, string dataClientId, string[] allowedUsers) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create(System.String,System.String,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (headNode As String, dataClientId As String, allowedUsers As String()) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Create : string * string * string[] -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create (headNode, dataClientId, allowedUsers)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="dataClientId" Type="System.String" />
+        <Parameter Name="allowedUsers" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <param name="allowedUsers">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Create (string headNode, string dataClientId, string[] allowedUsers, bool likelyAccessInAzure);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Create(string headNode, string dataClientId, string[] allowedUsers, bool likelyAccessInAzure) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create(System.String,System.String,System.String[],System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (headNode As String, dataClientId As String, allowedUsers As String(), likelyAccessInAzure As Boolean) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Create : string * string * string[] * bool -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Create (headNode, dataClientId, allowedUsers, likelyAccessInAzure)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="dataClientId" Type="System.String" />
+        <Parameter Name="allowedUsers" Type="System.String[]" />
+        <Parameter Name="likelyAccessInAzure" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <param name="allowedUsers">To be added.</param>
+        <param name="likelyAccessInAzure">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static void Delete (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Delete(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Delete (startInfo As SessionStartInfo, dataClientId As String)" />
+      <MemberSignature Language="F#" Value="static member Delete : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * string -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Delete (startInfo, dataClientId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static void Delete (string headNode, string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(string headNode, string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Delete(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Delete (headNode As String, dataClientId As String)" />
+      <MemberSignature Language="F#" Value="static member Delete : string * string -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Delete (headNode, dataClientId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="dataClient.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool dispose);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool dispose) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (dispose As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="dataClient.Dispose dispose" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dispose" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="dispose">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentMd5">
+      <MemberSignature Language="C#" Value="public string GetContentMd5 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetContentMd5() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.GetContentMd5" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContentMd5 () As String" />
+      <MemberSignature Language="F#" Value="member this.GetContentMd5 : unit -&gt; string" Usage="dataClient.GetContentMd5 " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStorePath">
+      <MemberSignature Language="C#" Value="public string GetStorePath ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetStorePath() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.GetStorePath" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStorePath () As String" />
+      <MemberSignature Language="F#" Value="member this.GetStorePath : unit -&gt; string" Usage="dataClient.GetStorePath " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("GetStorePath is obsolete.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Open (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Open(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Open(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Open (startInfo As SessionStartInfo, dataClientId As String) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Open : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * string -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Open (startInfo, dataClientId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Open (string headNode, string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Open(string headNode, string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Open(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Open (headNode As String, dataClientId As String) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Open : string * string -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Open (headNode, dataClientId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient Open (string headNode, string dataClientId, Microsoft.Hpc.Scheduler.Session.Data.Internal.DataLocation location);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient Open(string headNode, string dataClientId, valuetype Microsoft.Hpc.Scheduler.Session.Data.Internal.DataLocation location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.Open(System.String,System.String,Microsoft.Hpc.Scheduler.Session.Data.Internal.DataLocation)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Open (headNode As String, dataClientId As String, location As DataLocation) As DataClient" />
+      <MemberSignature Language="F#" Value="static member Open : string * string * Microsoft.Hpc.Scheduler.Session.Data.Internal.DataLocation -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.Data.DataClient.Open (headNode, dataClientId, location)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="dataClientId" Type="System.String" />
+        <Parameter Name="location" Type="Microsoft.Hpc.Scheduler.Session.Data.Internal.DataLocation" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="dataClientId">To be added.</param>
+        <param name="location">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadAll&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T ReadAll&lt;T&gt; ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T ReadAll&lt;T&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.ReadAll``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReadAll(Of T) () As T" />
+      <MemberSignature Language="F#" Value="member this.ReadAll : unit -&gt; 'T" Usage="dataClient.ReadAll " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadRawBytesAll">
+      <MemberSignature Language="C#" Value="public byte[] ReadRawBytesAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance unsigned int8[] ReadRawBytesAll() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.ReadRawBytesAll" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReadRawBytesAll () As Byte()" />
+      <MemberSignature Language="F#" Value="member this.ReadRawBytesAll : unit -&gt; byte[]" Usage="dataClient.ReadRawBytesAll " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDataLifeCycle">
+      <MemberSignature Language="C#" Value="public void SetDataLifeCycle (Microsoft.Hpc.Scheduler.Session.Data.DataLifeCycle lifeCycle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDataLifeCycle(class Microsoft.Hpc.Scheduler.Session.Data.DataLifeCycle lifeCycle) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.SetDataLifeCycle(Microsoft.Hpc.Scheduler.Session.Data.DataLifeCycle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDataLifeCycle (lifeCycle As DataLifeCycle)" />
+      <MemberSignature Language="F#" Value="member this.SetDataLifeCycle : Microsoft.Hpc.Scheduler.Session.Data.DataLifeCycle -&gt; unit" Usage="dataClient.SetDataLifeCycle lifeCycle" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lifeCycle" Type="Microsoft.Hpc.Scheduler.Session.Data.DataLifeCycle" />
+      </Parameters>
+      <Docs>
+        <param name="lifeCycle">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteAll&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public void WriteAll&lt;T&gt; (T data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteAll&lt;T&gt;(!!T data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.WriteAll``1(``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteAll(Of T) (data As T)" />
+      <MemberSignature Language="F#" Value="member this.WriteAll : 'T -&gt; unit" Usage="dataClient.WriteAll data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="data" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteAll&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public void WriteAll&lt;T&gt; (T data, bool compressible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteAll&lt;T&gt;(!!T data, bool compressible) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.WriteAll``1(``0,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteAll(Of T) (data As T, compressible As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.WriteAll : 'T * bool -&gt; unit" Usage="dataClient.WriteAll (data, compressible)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="data" Type="T" />
+        <Parameter Name="compressible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="data">To be added.</param>
+        <param name="compressible">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteRawBytesAll">
+      <MemberSignature Language="C#" Value="public void WriteRawBytesAll (byte[] dataBytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteRawBytesAll(unsigned int8[] dataBytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.WriteRawBytesAll(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteRawBytesAll (dataBytes As Byte())" />
+      <MemberSignature Language="F#" Value="member this.WriteRawBytesAll : byte[] -&gt; unit" Usage="dataClient.WriteRawBytesAll dataBytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dataBytes" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="dataBytes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteRawBytesAll">
+      <MemberSignature Language="C#" Value="public void WriteRawBytesAll (byte[] dataBytes, bool compressible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteRawBytesAll(unsigned int8[] dataBytes, bool compressible) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Data.DataClient.WriteRawBytesAll(System.Byte[],System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteRawBytesAll (dataBytes As Byte(), compressible As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.WriteRawBytesAll : byte[] * bool -&gt; unit" Usage="dataClient.WriteRawBytesAll (dataBytes, compressible)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dataBytes" Type="System.Byte[]" />
+        <Parameter Name="compressible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="dataBytes">To be added.</param>
+        <param name="compressible">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

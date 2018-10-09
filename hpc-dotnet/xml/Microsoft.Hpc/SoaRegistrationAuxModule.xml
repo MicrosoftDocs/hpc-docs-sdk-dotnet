@@ -1,0 +1,338 @@
+﻿<Type Name="SoaRegistrationAuxModule" FullName="Microsoft.Hpc.SoaRegistrationAuxModule">
+  <TypeSignature Language="C#" Value="public static class SoaRegistrationAuxModule" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SoaRegistrationAuxModule extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.SoaRegistrationAuxModule" />
+  <TypeSignature Language="VB.NET" Value="Public Module SoaRegistrationAuxModule" />
+  <TypeSignature Language="F#" Value="type SoaRegistrationAuxModule = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CalculateMd5Hash">
+      <MemberSignature Language="C#" Value="public static string CalculateMd5Hash (string input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string CalculateMd5Hash(string input) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.CalculateMd5Hash(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CalculateMd5Hash (input As String) As String" />
+      <MemberSignature Language="F#" Value="static member CalculateMd5Hash : string -&gt; string" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.CalculateMd5Hash input" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfigExtensionName">
+      <MemberSignature Language="C#" Value="public static string ConfigExtensionName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ConfigExtensionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.SoaRegistrationAuxModule.ConfigExtensionName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConfigExtensionName As String" />
+      <MemberSignature Language="F#" Value="member this.ConfigExtensionName : string" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.ConfigExtensionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportServiceRegistrationToFileAuxAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ExportServiceRegistrationToFileAuxAsync (Func&lt;string,Version,System.Threading.Tasks.Task&lt;string&gt;&gt; getServiceRegistrationAsync, string serviceName, Version serviceVersion, string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ExportServiceRegistrationToFileAuxAsync(class System.Func`3&lt;string, class System.Version, class System.Threading.Tasks.Task`1&lt;string&gt;&gt; getServiceRegistrationAsync, string serviceName, class System.Version serviceVersion, string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.ExportServiceRegistrationToFileAuxAsync(System.Func{System.String,System.Version,System.Threading.Tasks.Task{System.String}},System.String,System.Version,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExportServiceRegistrationToFileAuxAsync (getServiceRegistrationAsync As Func(Of String, Version, Task(Of String)), serviceName As String, serviceVersion As Version, fileName As String) As Task" />
+      <MemberSignature Language="F#" Value="static member ExportServiceRegistrationToFileAuxAsync : Func&lt;string, Version, System.Threading.Tasks.Task&lt;string&gt;&gt; * string * Version * string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.ExportServiceRegistrationToFileAuxAsync (getServiceRegistrationAsync, serviceName, serviceVersion, fileName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.SoaRegistrationAuxModule/&lt;ExportServiceRegistrationToFileAuxAsync&gt;d__10))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="getServiceRegistrationAsync" Type="System.Func&lt;System.String,System.Version,System.Threading.Tasks.Task&lt;System.String&gt;&gt;" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="getServiceRegistrationAsync">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportServiceRegistrationToTempFileAuxAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; ExportServiceRegistrationToTempFileAuxAsync (Func&lt;string,Version,System.Threading.Tasks.Task&lt;string&gt;&gt; getServiceRegistrationAsync, string serviceName, Version serviceVersion, string expectedMd5 = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; ExportServiceRegistrationToTempFileAuxAsync(class System.Func`3&lt;string, class System.Version, class System.Threading.Tasks.Task`1&lt;string&gt;&gt; getServiceRegistrationAsync, string serviceName, class System.Version serviceVersion, string expectedMd5) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.ExportServiceRegistrationToTempFileAuxAsync(System.Func{System.String,System.Version,System.Threading.Tasks.Task{System.String}},System.String,System.Version,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExportServiceRegistrationToTempFileAuxAsync (getServiceRegistrationAsync As Func(Of String, Version, Task(Of String)), serviceName As String, serviceVersion As Version, Optional expectedMd5 As String = &quot;&quot;) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member ExportServiceRegistrationToTempFileAuxAsync : Func&lt;string, Version, System.Threading.Tasks.Task&lt;string&gt;&gt; * string * Version * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.ExportServiceRegistrationToTempFileAuxAsync (getServiceRegistrationAsync, serviceName, serviceVersion, expectedMd5)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.SoaRegistrationAuxModule/&lt;ExportServiceRegistrationToTempFileAuxAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="getServiceRegistrationAsync" Type="System.Func&lt;System.String,System.Version,System.Threading.Tasks.Task&lt;System.String&gt;&gt;" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+        <Parameter Name="expectedMd5" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="getServiceRegistrationAsync">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <param name="expectedMd5">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRegistrationFileName">
+      <MemberSignature Language="C#" Value="public static string GetRegistrationFileName (string serviceName, Version serviceVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetRegistrationFileName(string serviceName, class System.Version serviceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.GetRegistrationFileName(System.String,System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRegistrationFileName (serviceName As String, serviceVersion As Version) As String" />
+      <MemberSignature Language="F#" Value="static member GetRegistrationFileName : string * Version -&gt; string" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.GetRegistrationFileName (serviceName, serviceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRegistrationName">
+      <MemberSignature Language="C#" Value="public static string GetRegistrationName (string serviceName, Version serviceVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetRegistrationName(string serviceName, class System.Version serviceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.GetRegistrationName(System.String,System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRegistrationName (serviceName As String, serviceVersion As Version) As String" />
+      <MemberSignature Language="F#" Value="static member GetRegistrationName : string * Version -&gt; string" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.GetRegistrationName (serviceName, serviceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceRegistrationPath">
+      <MemberSignature Language="C#" Value="public static string GetServiceRegistrationPath (string centralPath, string configFileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetServiceRegistrationPath(string centralPath, string configFileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.GetServiceRegistrationPath(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetServiceRegistrationPath (centralPath As String, configFileName As String) As String" />
+      <MemberSignature Language="F#" Value="static member GetServiceRegistrationPath : string * string -&gt; string" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.GetServiceRegistrationPath (centralPath, configFileName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="centralPath" Type="System.String" />
+        <Parameter Name="configFileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="centralPath">To be added.</param>
+        <param name="configFileName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceRegistrationTempFilePath">
+      <MemberSignature Language="C#" Value="public static string GetServiceRegistrationTempFilePath (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetServiceRegistrationTempFilePath(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.GetServiceRegistrationTempFilePath(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetServiceRegistrationTempFilePath (fileName As String) As String" />
+      <MemberSignature Language="F#" Value="static member GetServiceRegistrationTempFilePath : string -&gt; string" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.GetServiceRegistrationTempFilePath fileName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportServiceRegistrationFromFileAuxAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ImportServiceRegistrationFromFileAuxAsync (Func&lt;string,Version,string,System.Threading.Tasks.Task&gt; setServiceRegistrationAsync, string filePath, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ImportServiceRegistrationFromFileAuxAsync(class System.Func`4&lt;string, class System.Version, string, class System.Threading.Tasks.Task&gt; setServiceRegistrationAsync, string filePath, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.ImportServiceRegistrationFromFileAuxAsync(System.Func{System.String,System.Version,System.String,System.Threading.Tasks.Task},System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ImportServiceRegistrationFromFileAuxAsync (setServiceRegistrationAsync As Func(Of String, Version, String, Task), filePath As String, serviceName As String) As Task" />
+      <MemberSignature Language="F#" Value="static member ImportServiceRegistrationFromFileAuxAsync : Func&lt;string, Version, string, System.Threading.Tasks.Task&gt; * string * string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.ImportServiceRegistrationFromFileAuxAsync (setServiceRegistrationAsync, filePath, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.SoaRegistrationAuxModule/&lt;ImportServiceRegistrationFromFileAuxAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="setServiceRegistrationAsync" Type="System.Func&lt;System.String,System.Version,System.String,System.Threading.Tasks.Task&gt;" />
+        <Parameter Name="filePath" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="setServiceRegistrationAsync">To be added.</param>
+        <param name="filePath">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalFileExits">
+      <MemberSignature Language="C#" Value="public static bool InternalFileExits (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool InternalFileExits(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.InternalFileExits(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InternalFileExits (path As String) As Boolean" />
+      <MemberSignature Language="F#" Value="static member InternalFileExits : string -&gt; bool" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.InternalFileExits path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnAzure">
+      <MemberSignature Language="C#" Value="public static bool IsOnAzure { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property bool IsOnAzure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.SoaRegistrationAuxModule.IsOnAzure" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOnAzure As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOnAzure : bool" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.IsOnAzure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRegistrationStoreToken">
+      <MemberSignature Language="C#" Value="public static bool IsRegistrationStoreToken (string str);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsRegistrationStoreToken(string str) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.SoaRegistrationAuxModule.IsRegistrationStoreToken(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsRegistrationStoreToken (str As String) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsRegistrationStoreToken : string -&gt; bool" Usage="Microsoft.Hpc.SoaRegistrationAuxModule.IsRegistrationStoreToken str" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

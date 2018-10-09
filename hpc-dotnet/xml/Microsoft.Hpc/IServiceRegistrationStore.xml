@@ -1,0 +1,197 @@
+﻿<Type Name="IServiceRegistrationStore" FullName="Microsoft.Hpc.IServiceRegistrationStore">
+  <TypeSignature Language="C#" Value="public interface IServiceRegistrationStore" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceRegistrationStore" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.IServiceRegistrationStore" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IServiceRegistrationStore" />
+  <TypeSignature Language="F#" Value="type IServiceRegistrationStore = interface" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteAsync (string serviceName, Version serviceVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteAsync(string serviceName, class System.Version serviceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.DeleteAsync(System.String,System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync (serviceName As String, serviceVersion As Version) As Task" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : string * Version -&gt; System.Threading.Tasks.Task" Usage="iServiceRegistrationStore.DeleteAsync (serviceName, serviceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumerateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt; EnumerateAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; EnumerateAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.EnumerateAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function EnumerateAsync () As Task(Of List(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member EnumerateAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt;" Usage="iServiceRegistrationStore.EnumerateAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportToTempFileAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; ExportToTempFileAsync (string serviceName, Version serviceVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; ExportToTempFileAsync(string serviceName, class System.Version serviceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.ExportToTempFileAsync(System.String,System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExportToTempFileAsync (serviceName As String, serviceVersion As Version) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member ExportToTempFileAsync : string * Version -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iServiceRegistrationStore.ExportToTempFileAsync (serviceName, serviceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetAsync (string serviceName, Version serviceVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetAsync(string serviceName, class System.Version serviceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.GetAsync(System.String,System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (serviceName As String, serviceVersion As Version) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * Version -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iServiceRegistrationStore.GetAsync (serviceName, serviceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMd5Async">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetMd5Async (string serviceName, Version serviceVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetMd5Async(string serviceName, class System.Version serviceVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.GetMd5Async(System.String,System.Version)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetMd5Async (serviceName As String, serviceVersion As Version) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetMd5Async : string * Version -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iServiceRegistrationStore.GetMd5Async (serviceName, serviceVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportFromFileAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ImportFromFileAsync (string filePath, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task ImportFromFileAsync(string filePath, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.ImportFromFileAsync(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ImportFromFileAsync (filePath As String, serviceName As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member ImportFromFileAsync : string * string -&gt; System.Threading.Tasks.Task" Usage="iServiceRegistrationStore.ImportFromFileAsync (filePath, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetAsync (string serviceName, Version serviceVersion, string serviceRegistration);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetAsync(string serviceName, class System.Version serviceVersion, string serviceRegistration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.IServiceRegistrationStore.SetAsync(System.String,System.Version,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetAsync (serviceName As String, serviceVersion As Version, serviceRegistration As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member SetAsync : string * Version * string -&gt; System.Threading.Tasks.Task" Usage="iServiceRegistrationStore.SetAsync (serviceName, serviceVersion, serviceRegistration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="serviceVersion" Type="System.Version" />
+        <Parameter Name="serviceRegistration" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="serviceVersion">To be added.</param>
+        <param name="serviceRegistration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

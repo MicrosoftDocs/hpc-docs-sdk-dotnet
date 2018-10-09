@@ -1,0 +1,440 @@
+﻿<Type Name="RemoteCommand" FullName="Microsoft.Hpc.Scheduler.RemoteCommand">
+  <TypeSignature Language="C#" Value="public class RemoteCommand : IDisposable, Microsoft.Hpc.Scheduler.IRemoteCommand" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RemoteCommand extends System.Object implements class Microsoft.Hpc.Scheduler.IRemoteCommand, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.RemoteCommand" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoteCommand&#xA;Implements IDisposable, IRemoteCommand" />
+  <TypeSignature Language="F#" Value="type RemoteCommand = class&#xA;    interface IRemoteCommand&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.IRemoteCommand</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces(typeof(Microsoft.Hpc.Scheduler.IRemoteCommandEvents))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("c8c9c032-3c94-40e0-92f3-598920f00b57")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a command to run on one or more nodes in the cluster.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public void Cancel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cancel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.RemoteCommand.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel ()" />
+      <MemberSignature Language="F#" Value="abstract member Cancel : unit -&gt; unit&#xA;override this.Cancel : unit -&gt; unit" Usage="remoteCommand.Cancel " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IRemoteCommand.Cancel</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Cancels the command.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandLine">
+      <MemberSignature Language="C#" Value="public string CommandLine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CommandLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.RemoteCommand.CommandLine" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandLine As String" />
+      <MemberSignature Language="F#" Value="member this.CommandLine : string" Usage="Microsoft.Hpc.Scheduler.RemoteCommand.CommandLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IRemoteCommand.CommandLine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the command line to execute.</summary>
+        <value>The command line.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.RemoteCommand.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="remoteCommand.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Releases all unmanaged resources used by the command.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~RemoteCommand ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.RemoteCommand.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="remoteCommand.Finalize " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Frees resources before the object is reclaimed by garbage collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.RemoteCommand.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Hpc.Scheduler.RemoteCommand.Id" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IRemoteCommand.Id</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the command identifier that uniquely identifies the command in the scheduler.</summary>
+        <value>The identifier that uniquely identifies the command.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandJobState">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.JobStateEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandJobState;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.JobStateEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandJobState" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.Microsoft#Hpc#Scheduler#IRemoteCommand#OnCommandJobState" />
+      <MemberSignature Language="VB.NET" Value="Custom Event OnCommandJobState As EventHandler(Of JobStateEventArg) Implements Microsoft.Hpc.Scheduler.IRemoteCommand" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandJobState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.JobStateEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Explicit interface implementation for the <see cref="E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandJobState" /> event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandOutput">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.CommandOutputEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandOutput;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.CommandOutputEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandOutput" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.Microsoft#Hpc#Scheduler#IRemoteCommand#OnCommandOutput" />
+      <MemberSignature Language="VB.NET" Value="Custom Event OnCommandOutput As EventHandler(Of CommandOutputEventArg) Implements Microsoft.Hpc.Scheduler.IRemoteCommand" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandOutput</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.CommandOutputEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Explicit interface implementation for the <see cref="E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandOutput" /> event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandRawOutput">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.CommandRawOutputEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandRawOutput;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.CommandRawOutputEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandRawOutput" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.Microsoft#Hpc#Scheduler#IRemoteCommand#OnCommandRawOutput" />
+      <MemberSignature Language="VB.NET" Value="Custom Event OnCommandRawOutput As EventHandler(Of CommandRawOutputEventArg) Implements Microsoft.Hpc.Scheduler.IRemoteCommand" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandRawOutput</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.CommandRawOutputEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Explicit interface implementation for the <see cref="E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandRawOutput" /> event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandTaskState">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.CommandTaskStateEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandTaskState;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.CommandTaskStateEventArg&gt; Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandTaskState" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.Microsoft#Hpc#Scheduler#IRemoteCommand#OnCommandTaskState" />
+      <MemberSignature Language="VB.NET" Value="Custom Event OnCommandTaskState As EventHandler(Of CommandTaskStateEventArg) Implements Microsoft.Hpc.Scheduler.IRemoteCommand" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandTaskState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.CommandTaskStateEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Explicit interface implementation for the <see cref="E:Microsoft.Hpc.Scheduler.IRemoteCommand.OnCommandTaskState" /> event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeNames">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection NodeNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.IStringCollection NodeNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.RemoteCommand.NodeNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeNames As IStringCollection" />
+      <MemberSignature Language="F#" Value="member this.NodeNames : Microsoft.Hpc.Scheduler.IStringCollection" Usage="Microsoft.Hpc.Scheduler.RemoteCommand.NodeNames" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IRemoteCommand.NodeNames</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the collection of node names on which the command will run or has run.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.IStringCollection"></see> interface that contains the collection of node names.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandJobState">
+      <MemberSignature Language="C#" Value="public event Microsoft.Hpc.Scheduler.JobStateHandler OnCommandJobState;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Hpc.Scheduler.JobStateHandler OnCommandJobState" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.OnCommandJobState" />
+      <MemberSignature Language="VB.NET" Value="Public Event OnCommandJobState As JobStateHandler " />
+      <MemberSignature Language="F#" Value="member this.OnCommandJobState : Microsoft.Hpc.Scheduler.JobStateHandler " Usage="member this.OnCommandJobState : Microsoft.Hpc.Scheduler.JobStateHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.JobStateHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An event that is raised when the state of the job that contains the command changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandOutput">
+      <MemberSignature Language="C#" Value="public event Microsoft.Hpc.Scheduler.CommandOutputHandler OnCommandOutput;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Hpc.Scheduler.CommandOutputHandler OnCommandOutput" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.OnCommandOutput" />
+      <MemberSignature Language="VB.NET" Value="Public Event OnCommandOutput As CommandOutputHandler " />
+      <MemberSignature Language="F#" Value="member this.OnCommandOutput : Microsoft.Hpc.Scheduler.CommandOutputHandler " Usage="member this.OnCommandOutput : Microsoft.Hpc.Scheduler.CommandOutputHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.CommandOutputHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An event that is raised when the command generates a line of output.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandRawOutput">
+      <MemberSignature Language="C#" Value="public event Microsoft.Hpc.Scheduler.CommandRawOutputHandler OnCommandRawOutput;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Hpc.Scheduler.CommandRawOutputHandler OnCommandRawOutput" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.OnCommandRawOutput" />
+      <MemberSignature Language="VB.NET" Value="Public Event OnCommandRawOutput As CommandRawOutputHandler " />
+      <MemberSignature Language="F#" Value="member this.OnCommandRawOutput : Microsoft.Hpc.Scheduler.CommandRawOutputHandler " Usage="member this.OnCommandRawOutput : Microsoft.Hpc.Scheduler.CommandRawOutputHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.CommandRawOutputHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An event that is raised when the command generates output. The output is provided as a byte blob without encoding.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCommandTaskState">
+      <MemberSignature Language="C#" Value="public event Microsoft.Hpc.Scheduler.CommandTaskStateHandler OnCommandTaskState;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Hpc.Scheduler.CommandTaskStateHandler OnCommandTaskState" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.RemoteCommand.OnCommandTaskState" />
+      <MemberSignature Language="VB.NET" Value="Public Event OnCommandTaskState As CommandTaskStateHandler " />
+      <MemberSignature Language="F#" Value="member this.OnCommandTaskState : Microsoft.Hpc.Scheduler.CommandTaskStateHandler " Usage="member this.OnCommandTaskState : Microsoft.Hpc.Scheduler.CommandTaskStateHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.CommandTaskStateHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An event that is raised when the state of the command changes on a node.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputEncoding">
+      <MemberSignature Language="C#" Value="public System.Text.Encoding OutputEncoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encoding OutputEncoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.RemoteCommand.OutputEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutputEncoding As Encoding" />
+      <MemberSignature Language="F#" Value="member this.OutputEncoding : System.Text.Encoding with get, set" Usage="Microsoft.Hpc.Scheduler.RemoteCommand.OutputEncoding" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IRemoteCommand.OutputEncoding</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Text.Encoding</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the encoding to use on the output that the command generates.</summary>
+        <value>An <see cref="T:System.Text.Encoding"></see> object that specifies the encoding to apply to the output that is sent to your <see cref="T:Microsoft.Hpc.Scheduler.CommandOutputHandler"></see> event handler in response to an <see cref="E:Microsoft.Hpc.Scheduler.RemoteCommand.OnCommandOutput"></see> event. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProxyTaskId">
+      <MemberSignature Language="C#" Value="public int ProxyTaskId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProxyTaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.RemoteCommand.ProxyTaskId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProxyTaskId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProxyTaskId : int" Usage="Microsoft.Hpc.Scheduler.RemoteCommand.ProxyTaskId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IRemoteCommand.ProxyTaskId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the unique task identifier for the proxy task in a remote command job. The proxy task is the task that forwards the output and error streams from all of the nodes in a remote command to the client.</summary>
+        <value>An <see cref="T:System.Int32"></see> object that specifies the unique task identifier for the proxy task in a remote command job.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public void Start ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Start() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.RemoteCommand.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Start ()" />
+      <MemberSignature Language="F#" Value="abstract member Start : unit -&gt; unit&#xA;override this.Start : unit -&gt; unit" Usage="remoteCommand.Start " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IRemoteCommand.Start</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Runs the command. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartWithCredentials">
+      <MemberSignature Language="C#" Value="public void StartWithCredentials (string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StartWithCredentials(string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.RemoteCommand.StartWithCredentials(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub StartWithCredentials (userName As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member StartWithCredentials : string * string -&gt; unit&#xA;override this.StartWithCredentials : string * string -&gt; unit" Usage="remoteCommand.StartWithCredentials (userName, password)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IRemoteCommand.StartWithCredentials(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userName">The name of the RunAs user, in the form domain\username. The user name is limited to 80 characters.If this parameter is null, empty, or not valid, the service searches the credential cache for the credentials to use. If the cache contains the credentials for a single user, those credentials are used. However, if multiple credentials exist in the cache, the user is prompted for the credentials.</param>
+        <param name="password">The password for the RunAs user. The password is limited to 127 characters.If this parameter is null or empty, the method uses the cached password if cached; otherwise, the user is prompted for the password.
+</param>
+        <summary>Runs the command using the specified credentials.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

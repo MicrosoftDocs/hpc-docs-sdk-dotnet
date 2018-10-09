@@ -1,0 +1,96 @@
+﻿<Type Name="FailureReason" FullName="Microsoft.Hpc.Scheduler.Properties.FailureReason">
+  <TypeSignature Language="C#" Value="public enum FailureReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FailureReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.FailureReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FailureReason" />
+  <TypeSignature Language="F#" Value="type FailureReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the reasons for why a job can fail.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExecutionFailure">
+      <MemberSignature Language="C#" Value="ExecutionFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FailureReason ExecutionFailure = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FailureReason.ExecutionFailure" />
+      <MemberSignature Language="VB.NET" Value="ExecutionFailure" />
+      <MemberSignature Language="F#" Value="ExecutionFailure = 1" Usage="Microsoft.Hpc.Scheduler.Properties.FailureReason.ExecutionFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A task in the job does not exist or could not start. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FailureReason None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FailureReason.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Hpc.Scheduler.Properties.FailureReason.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The job did not fail. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Preempted">
+      <MemberSignature Language="C#" Value="Preempted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FailureReason Preempted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FailureReason.Preempted" />
+      <MemberSignature Language="VB.NET" Value="Preempted" />
+      <MemberSignature Language="F#" Value="Preempted = 3" Usage="Microsoft.Hpc.Scheduler.Properties.FailureReason.Preempted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The job was preempted by a higher priority job. This enumeration member represents a value of 3.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceFailure">
+      <MemberSignature Language="C#" Value="ResourceFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.FailureReason ResourceFailure = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.FailureReason.ResourceFailure" />
+      <MemberSignature Language="VB.NET" Value="ResourceFailure" />
+      <MemberSignature Language="F#" Value="ResourceFailure = 2" Usage="Microsoft.Hpc.Scheduler.Properties.FailureReason.ResourceFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The node failed. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

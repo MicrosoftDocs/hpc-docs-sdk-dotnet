@@ -1,0 +1,344 @@
+﻿<Type Name="SchedulerStore" FullName="Microsoft.Hpc.Scheduler.Store.SchedulerStore">
+  <TypeSignature Language="C#" Value="public static class SchedulerStore" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SchedulerStore extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.SchedulerStore" />
+  <TypeSignature Language="VB.NET" Value="Public Class SchedulerStore" />
+  <TypeSignature Language="F#" Value="type SchedulerStore = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ISchedulerStore Connect (string schedulerNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ISchedulerStore Connect(string schedulerNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.Connect(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Connect (schedulerNode As String) As ISchedulerStore" />
+      <MemberSignature Language="F#" Value="static member Connect : string -&gt; Microsoft.Hpc.Scheduler.Store.ISchedulerStore" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.Connect schedulerNode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("No use this sync method, instead use ConnectAsync")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ISchedulerStore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="schedulerNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="schedulerNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ISchedulerStore Connect (string schedulerNode, int port);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ISchedulerStore Connect(string schedulerNode, int32 port) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.Connect(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Connect (schedulerNode As String, port As Integer) As ISchedulerStore" />
+      <MemberSignature Language="F#" Value="static member Connect : string * int -&gt; Microsoft.Hpc.Scheduler.Store.ISchedulerStore" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.Connect (schedulerNode, port)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("No use this sync method, instead use ConnectAsync")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ISchedulerStore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="schedulerNode" Type="System.String" />
+        <Parameter Name="port" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="schedulerNode">To be added.</param>
+        <param name="port">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync (Microsoft.Hpc.Scheduler.Store.StoreConnectionContext context, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync(class Microsoft.Hpc.Scheduler.Store.StoreConnectionContext context, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync(Microsoft.Hpc.Scheduler.Store.StoreConnectionContext,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ConnectAsync (context As StoreConnectionContext, token As CancellationToken) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member ConnectAsync : Microsoft.Hpc.Scheduler.Store.StoreConnectionContext * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync (context, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Store.SchedulerStore/&lt;ConnectAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.Scheduler.Store.StoreConnectionContext" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync (string server, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync(string server, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ConnectAsync (server As String, token As CancellationToken) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member ConnectAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync (server, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Store.SchedulerStore/&lt;ConnectAsync&gt;d__2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="server" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="server">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync (Microsoft.Hpc.Scheduler.Store.StoreConnectionContext context, System.Threading.CancellationToken token, Microsoft.Hpc.Scheduler.Properties.ConnectMethod method);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync(class Microsoft.Hpc.Scheduler.Store.StoreConnectionContext context, valuetype System.Threading.CancellationToken token, valuetype Microsoft.Hpc.Scheduler.Properties.ConnectMethod method) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync(Microsoft.Hpc.Scheduler.Store.StoreConnectionContext,System.Threading.CancellationToken,Microsoft.Hpc.Scheduler.Properties.ConnectMethod)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ConnectAsync (context As StoreConnectionContext, token As CancellationToken, method As ConnectMethod) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member ConnectAsync : Microsoft.Hpc.Scheduler.Store.StoreConnectionContext * System.Threading.CancellationToken * Microsoft.Hpc.Scheduler.Properties.ConnectMethod -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync (context, token, method)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Store.SchedulerStore/&lt;ConnectAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.Scheduler.Store.StoreConnectionContext" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+        <Parameter Name="method" Type="Microsoft.Hpc.Scheduler.Properties.ConnectMethod" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="token">To be added.</param>
+        <param name="method">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync (string server, System.Threading.CancellationToken token, Microsoft.Hpc.Scheduler.Properties.ConnectMethod method);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; ConnectAsync(string server, valuetype System.Threading.CancellationToken token, valuetype Microsoft.Hpc.Scheduler.Properties.ConnectMethod method) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync(System.String,System.Threading.CancellationToken,Microsoft.Hpc.Scheduler.Properties.ConnectMethod)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ConnectAsync (server As String, token As CancellationToken, method As ConnectMethod) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member ConnectAsync : string * System.Threading.CancellationToken * Microsoft.Hpc.Scheduler.Properties.ConnectMethod -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.ConnectAsync (server, token, method)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Store.SchedulerStore/&lt;ConnectAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="server" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+        <Parameter Name="method" Type="Microsoft.Hpc.Scheduler.Properties.ConnectMethod" />
+      </Parameters>
+      <Docs>
+        <param name="server">To be added.</param>
+        <param name="token">To be added.</param>
+        <param name="method">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStandardPropertyDescriptors">
+      <MemberSignature Language="C#" Value="public static System.ComponentModel.PropertyDescriptor[] GetStandardPropertyDescriptors (Microsoft.Hpc.Scheduler.Properties.ObjectType typeMask, Microsoft.Hpc.Scheduler.Properties.PropertyId[] propIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ComponentModel.PropertyDescriptor[] GetStandardPropertyDescriptors(valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType typeMask, class Microsoft.Hpc.Scheduler.Properties.PropertyId[] propIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.GetStandardPropertyDescriptors(Microsoft.Hpc.Scheduler.Properties.ObjectType,Microsoft.Hpc.Scheduler.Properties.PropertyId[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetStandardPropertyDescriptors (typeMask As ObjectType, propIds As PropertyId()) As PropertyDescriptor()" />
+      <MemberSignature Language="F#" Value="static member GetStandardPropertyDescriptors : Microsoft.Hpc.Scheduler.Properties.ObjectType * Microsoft.Hpc.Scheduler.Properties.PropertyId[] -&gt; System.ComponentModel.PropertyDescriptor[]" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.GetStandardPropertyDescriptors (typeMask, propIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ComponentModel.PropertyDescriptor[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="typeMask" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+        <Parameter Name="propIds" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId[]" />
+      </Parameters>
+      <Docs>
+        <param name="typeMask">To be added.</param>
+        <param name="propIds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsGpuJob">
+      <MemberSignature Language="C#" Value="public static bool IsGpuJob (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsGpuJob(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.IsGpuJob(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsGpuJob (store As ISchedulerStore, jobId As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsGpuJob : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * int -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.IsGpuJob (store, jobId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Server">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ISchedulerStore Server (Microsoft.Hpc.Scheduler.Store.ISchedulerStoreInternal store, Microsoft.Hpc.Scheduler.Store.ConnectionToken connectionToken, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ISchedulerStore Server(class Microsoft.Hpc.Scheduler.Store.ISchedulerStoreInternal store, class Microsoft.Hpc.Scheduler.Store.ConnectionToken connectionToken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.Server(Microsoft.Hpc.Scheduler.Store.ISchedulerStoreInternal,Microsoft.Hpc.Scheduler.Store.ConnectionToken,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member Server : Microsoft.Hpc.Scheduler.Store.ISchedulerStoreInternal * Microsoft.Hpc.Scheduler.Store.ConnectionToken * System.Threading.CancellationToken -&gt; Microsoft.Hpc.Scheduler.Store.ISchedulerStore" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.Server (store, connectionToken, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ISchedulerStore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStoreInternal" />
+        <Parameter Name="connectionToken" Type="Microsoft.Hpc.Scheduler.Store.ConnectionToken" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="connectionToken">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceAsClient">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Store.ISchedulerStore ServiceAsClient (string schedulerNode, Microsoft.Hpc.ServiceAsClientIdentityProvider provider);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Store.ISchedulerStore ServiceAsClient(string schedulerNode, class Microsoft.Hpc.ServiceAsClientIdentityProvider provider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.ServiceAsClient(System.String,Microsoft.Hpc.ServiceAsClientIdentityProvider)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ServiceAsClient (schedulerNode As String, provider As ServiceAsClientIdentityProvider) As ISchedulerStore" />
+      <MemberSignature Language="F#" Value="static member ServiceAsClient : string * Microsoft.Hpc.ServiceAsClientIdentityProvider -&gt; Microsoft.Hpc.Scheduler.Store.ISchedulerStore" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.ServiceAsClient (schedulerNode, provider)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("No use this sync method, instead use ConnectAsync")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ISchedulerStore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="schedulerNode" Type="System.String" />
+        <Parameter Name="provider" Type="Microsoft.Hpc.ServiceAsClientIdentityProvider" />
+      </Parameters>
+      <Docs>
+        <param name="schedulerNode">To be added.</param>
+        <param name="provider">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetInterfaceMode">
+      <MemberSignature Language="C#" Value="public static void SetInterfaceMode (bool fConsole, IntPtr hwnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetInterfaceMode(bool fConsole, native int hwnd) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.SchedulerStore.SetInterfaceMode(System.Boolean,System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetInterfaceMode (fConsole As Boolean, hwnd As IntPtr)" />
+      <MemberSignature Language="F#" Value="static member SetInterfaceMode : bool * nativeint -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.SchedulerStore.SetInterfaceMode (fConsole, hwnd)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fConsole" Type="System.Boolean" />
+        <Parameter Name="hwnd" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="fConsole">To be added.</param>
+        <param name="hwnd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

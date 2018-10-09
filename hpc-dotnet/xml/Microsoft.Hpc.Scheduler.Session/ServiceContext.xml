@@ -1,0 +1,84 @@
+﻿<Type Name="ServiceContext" FullName="Microsoft.Hpc.Scheduler.Session.ServiceContext">
+  <TypeSignature Language="C#" Value="public static class ServiceContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed ServiceContext extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.ServiceContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceContext" />
+  <TypeSignature Language="F#" Value="type ServiceContext = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetDataClient">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.Data.DataClient GetDataClient (string dataClientId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.Data.DataClient GetDataClient(string dataClientId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ServiceContext.GetDataClient(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetDataClient (dataClientId As String) As DataClient" />
+      <MemberSignature Language="F#" Value="static member GetDataClient : string -&gt; Microsoft.Hpc.Scheduler.Session.Data.DataClient" Usage="Microsoft.Hpc.Scheduler.Session.ServiceContext.GetDataClient dataClientId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.Data.DataClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dataClientId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="dataClientId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Logger">
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.TraceSource Logger { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Diagnostics.TraceSource Logger" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.ServiceContext.Logger" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Logger As TraceSource" />
+      <MemberSignature Language="F#" Value="member this.Logger : System.Diagnostics.TraceSource" Usage="Microsoft.Hpc.Scheduler.Session.ServiceContext.Logger" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.TraceSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnExiting">
+      <MemberSignature Language="C#" Value="public static event EventHandler&lt;EventArgs&gt; OnExiting;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.EventArgs&gt; OnExiting" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.Session.ServiceContext.OnExiting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Custom Event OnExiting As EventHandler(Of EventArgs) " />
+      <MemberSignature Language="F#" Value="member this.OnExiting : EventHandler&lt;EventArgs&gt; " Usage="member this.OnExiting : System.EventHandler&lt;System.EventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;System.EventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

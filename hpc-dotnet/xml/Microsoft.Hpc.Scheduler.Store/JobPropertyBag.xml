@@ -1,0 +1,301 @@
+﻿<Type Name="JobPropertyBag" FullName="Microsoft.Hpc.Scheduler.Store.JobPropertyBag">
+  <TypeSignature Language="C#" Value="public class JobPropertyBag : Microsoft.Hpc.Scheduler.Store.PropertyBag" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobPropertyBag extends Microsoft.Hpc.Scheduler.Store.PropertyBag" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.JobPropertyBag" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobPropertyBag&#xA;Inherits PropertyBag" />
+  <TypeSignature Language="F#" Value="type JobPropertyBag = class&#xA;    inherit PropertyBag" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.Store.PropertyBag</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobPropertyBag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTask">
+      <MemberSignature Language="C#" Value="public void AddTask (Microsoft.Hpc.Scheduler.Store.TaskPropertyBag taskBag);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddTask(class Microsoft.Hpc.Scheduler.Store.TaskPropertyBag taskBag) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.AddTask(Microsoft.Hpc.Scheduler.Store.TaskPropertyBag)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddTask (taskBag As TaskPropertyBag)" />
+      <MemberSignature Language="F#" Value="member this.AddTask : Microsoft.Hpc.Scheduler.Store.TaskPropertyBag -&gt; unit" Usage="jobPropertyBag.AddTask taskBag" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskBag" Type="Microsoft.Hpc.Scheduler.Store.TaskPropertyBag" />
+      </Parameters>
+      <Docs>
+        <param name="taskBag">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FetchEnvironmentVariables">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; FetchEnvironmentVariables ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; FetchEnvironmentVariables() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.FetchEnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public Function FetchEnvironmentVariables () As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.FetchEnvironmentVariables : unit -&gt; System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="jobPropertyBag.FetchEnvironmentVariables " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FetchProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; FetchProperties (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; FetchProperties(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.FetchProperties(Microsoft.Hpc.Scheduler.Store.ISchedulerStore)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FetchProperties (store As ISchedulerStore) As IEnumerable(Of StoreProperty)" />
+      <MemberSignature Language="F#" Value="member this.FetchProperties : Microsoft.Hpc.Scheduler.Store.ISchedulerStore -&gt; seq&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" Usage="jobPropertyBag.FetchProperties store" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTaskDependencies">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int,int&gt;&gt; GetTaskDependencies ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, int32&gt;&gt; GetTaskDependencies() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.GetTaskDependencies" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTaskDependencies () As List(Of KeyValuePair(Of Integer, Integer))" />
+      <MemberSignature Language="F#" Value="member this.GetTaskDependencies : unit -&gt; System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int, int&gt;&gt;" Usage="jobPropertyBag.GetTaskDependencies " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Int32&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTasks">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Store.TaskPropertyBag&gt; GetTasks ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Store.TaskPropertyBag&gt; GetTasks() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.GetTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTasks () As IEnumerable(Of TaskPropertyBag)" />
+      <MemberSignature Language="F#" Value="member this.GetTasks : unit -&gt; seq&lt;Microsoft.Hpc.Scheduler.Store.TaskPropertyBag&gt;" Usage="jobPropertyBag.GetTasks " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Store.TaskPropertyBag&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadXML">
+      <MemberSignature Language="C#" Value="public void ReadXML (System.Xml.XmlReader reader, Microsoft.Hpc.Scheduler.Store.XmlImportOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReadXML(class System.Xml.XmlReader reader, valuetype Microsoft.Hpc.Scheduler.Store.XmlImportOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.ReadXML(System.Xml.XmlReader,Microsoft.Hpc.Scheduler.Store.XmlImportOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReadXML (reader As XmlReader, options As XmlImportOptions)" />
+      <MemberSignature Language="F#" Value="member this.ReadXML : System.Xml.XmlReader * Microsoft.Hpc.Scheduler.Store.XmlImportOptions -&gt; unit" Usage="jobPropertyBag.ReadXML (reader, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Xml.XmlReader" />
+        <Parameter Name="options" Type="Microsoft.Hpc.Scheduler.Store.XmlImportOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReconstructTaskGroups">
+      <MemberSignature Language="C#" Value="public static void ReconstructTaskGroups (Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup newRootGrp, System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int,int&gt;&gt; taskDependencies, System.Collections.Generic.Dictionary&lt;int,Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup&gt; taskGroupIdMapping);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReconstructTaskGroups(class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup newRootGrp, class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, int32&gt;&gt; taskDependencies, class System.Collections.Generic.Dictionary`2&lt;int32, class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup&gt; taskGroupIdMapping) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.ReconstructTaskGroups(Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int32,System.Int32}},System.Collections.Generic.Dictionary{System.Int32,Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ReconstructTaskGroups (newRootGrp As IClusterTaskGroup, taskDependencies As List(Of KeyValuePair(Of Integer, Integer)), taskGroupIdMapping As Dictionary(Of Integer, IClusterTaskGroup))" />
+      <MemberSignature Language="F#" Value="static member ReconstructTaskGroups : Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup * System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int, int&gt;&gt; * System.Collections.Generic.Dictionary&lt;int, Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup&gt; -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.JobPropertyBag.ReconstructTaskGroups (newRootGrp, taskDependencies, taskGroupIdMapping)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newRootGrp" Type="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup" />
+        <Parameter Name="taskDependencies" Type="System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Int32&gt;&gt;" />
+        <Parameter Name="taskGroupIdMapping" Type="System.Collections.Generic.Dictionary&lt;System.Int32,Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="newRootGrp">To be added.</param>
+        <param name="taskDependencies">To be added.</param>
+        <param name="taskGroupIdMapping">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReconstructTaskGroupsEx">
+      <MemberSignature Language="C#" Value="public static void ReconstructTaskGroupsEx (Microsoft.Hpc.Scheduler.Store.IClusterJob job, Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup newRootGrp, System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int,int&gt;&gt; taskDependencies, System.Collections.Generic.Dictionary&lt;int,int&gt; taskGroupIdMapping);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReconstructTaskGroupsEx(class Microsoft.Hpc.Scheduler.Store.IClusterJob job, class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup newRootGrp, class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, int32&gt;&gt; taskDependencies, class System.Collections.Generic.Dictionary`2&lt;int32, int32&gt; taskGroupIdMapping) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.ReconstructTaskGroupsEx(Microsoft.Hpc.Scheduler.Store.IClusterJob,Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int32,System.Int32}},System.Collections.Generic.Dictionary{System.Int32,System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ReconstructTaskGroupsEx (job As IClusterJob, newRootGrp As IClusterTaskGroup, taskDependencies As List(Of KeyValuePair(Of Integer, Integer)), taskGroupIdMapping As Dictionary(Of Integer, Integer))" />
+      <MemberSignature Language="F#" Value="static member ReconstructTaskGroupsEx : Microsoft.Hpc.Scheduler.Store.IClusterJob * Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup * System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int, int&gt;&gt; * System.Collections.Generic.Dictionary&lt;int, int&gt; -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.JobPropertyBag.ReconstructTaskGroupsEx (job, newRootGrp, taskDependencies, taskGroupIdMapping)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.Hpc.Scheduler.Store.IClusterJob" />
+        <Parameter Name="newRootGrp" Type="Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup" />
+        <Parameter Name="taskDependencies" Type="System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Int32&gt;&gt;" />
+        <Parameter Name="taskGroupIdMapping" Type="System.Collections.Generic.Dictionary&lt;System.Int32,System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <param name="newRootGrp">To be added.</param>
+        <param name="taskDependencies">To be added.</param>
+        <param name="taskGroupIdMapping">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnvironmentVariable">
+      <MemberSignature Language="C#" Value="public void SetEnvironmentVariable (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetEnvironmentVariable(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.SetEnvironmentVariable(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnvironmentVariable (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="member this.SetEnvironmentVariable : string * string -&gt; unit" Usage="jobPropertyBag.SetEnvironmentVariable (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnvironmentVariables">
+      <MemberSignature Language="C#" Value="public void SetEnvironmentVariables (System.Collections.Generic.Dictionary&lt;string,string&gt; vars);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetEnvironmentVariables(class System.Collections.Generic.Dictionary`2&lt;string, string&gt; vars) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.SetEnvironmentVariables(System.Collections.Generic.Dictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnvironmentVariables (vars As Dictionary(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.SetEnvironmentVariables : System.Collections.Generic.Dictionary&lt;string, string&gt; -&gt; unit" Usage="jobPropertyBag.SetEnvironmentVariables vars" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vars" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="vars">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteXml">
+      <MemberSignature Language="C#" Value="public void WriteXml (System.Xml.XmlWriter writer, Microsoft.Hpc.Scheduler.Store.XmlExportOptions flags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteXml(class System.Xml.XmlWriter writer, valuetype Microsoft.Hpc.Scheduler.Store.XmlExportOptions flags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobPropertyBag.WriteXml(System.Xml.XmlWriter,Microsoft.Hpc.Scheduler.Store.XmlExportOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteXml (writer As XmlWriter, flags As XmlExportOptions)" />
+      <MemberSignature Language="F#" Value="member this.WriteXml : System.Xml.XmlWriter * Microsoft.Hpc.Scheduler.Store.XmlExportOptions -&gt; unit" Usage="jobPropertyBag.WriteXml (writer, flags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Xml.XmlWriter" />
+        <Parameter Name="flags" Type="Microsoft.Hpc.Scheduler.Store.XmlExportOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer">To be added.</param>
+        <param name="flags">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

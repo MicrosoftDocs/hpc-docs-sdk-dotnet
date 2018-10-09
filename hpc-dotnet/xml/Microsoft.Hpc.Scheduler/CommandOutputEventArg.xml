@@ -1,0 +1,105 @@
+﻿<Type Name="CommandOutputEventArg" FullName="Microsoft.Hpc.Scheduler.CommandOutputEventArg">
+  <TypeSignature Language="C#" Value="public class CommandOutputEventArg : EventArgs, Microsoft.Hpc.Scheduler.ICommandOutputEventArg" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommandOutputEventArg extends System.EventArgs implements class Microsoft.Hpc.Scheduler.ICommandOutputEventArg" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.CommandOutputEventArg" />
+  <TypeSignature Language="VB.NET" Value="Public Class CommandOutputEventArg&#xA;Inherits EventArgs&#xA;Implements ICommandOutputEventArg" />
+  <TypeSignature Language="F#" Value="type CommandOutputEventArg = class&#xA;    inherit EventArgs&#xA;    interface ICommandOutputEventArg" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ICommandOutputEventArg</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("c20f07e6-fff9-42bb-bee6-47a025c74822")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the arguments that are passed to your event handler when the command generates a line of output on a node in the cluster.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.CommandOutputEventArg.Message" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string" Usage="Microsoft.Hpc.Scheduler.CommandOutputEventArg.Message" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ICommandOutputEventArg.Message</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the line of output from the command.</summary>
+        <value>The line of output. The <see cref="P:Microsoft.Hpc.Scheduler.CommandOutputEventArg.Type"></see> property determines whether the output is from the command or is the message text that describes why the command failed. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeName">
+      <MemberSignature Language="C#" Value="public string NodeName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.CommandOutputEventArg.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeName As String" />
+      <MemberSignature Language="F#" Value="member this.NodeName : string" Usage="Microsoft.Hpc.Scheduler.CommandOutputEventArg.NodeName" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ICommandOutputEventArg.NodeName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of the node that generated the output.</summary>
+        <value>The name of the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.CommandOutputType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.CommandOutputType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.CommandOutputEventArg.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As CommandOutputType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Scheduler.CommandOutputType" Usage="Microsoft.Hpc.Scheduler.CommandOutputEventArg.Type" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ICommandOutputEventArg.Type</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.CommandOutputType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the source of the output.</summary>
+        <value>The source of the output. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.CommandOutputType"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

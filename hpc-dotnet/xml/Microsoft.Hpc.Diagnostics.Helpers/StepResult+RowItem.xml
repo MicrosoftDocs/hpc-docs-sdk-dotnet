@@ -1,0 +1,82 @@
+﻿<Type Name="StepResult+RowItem" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+RowItem">
+  <TypeSignature Language="C#" Value="public class StepResult.RowItem" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StepResult/RowItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.RowItem" />
+  <TypeSignature Language="F#" Value="type StepResult.RowItem = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the entry in a cell in a table in the report for a diagnostic test run.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RowItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem" /> class without specifying the content of the cell.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RowItem (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">A string that specifies the content for the cell.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem" /> class with the specified content for the cell.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the entry in a cell in a table in the report for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.String"></see> that consists of the contents of the cell.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,86 @@
+﻿<Type Name="EventFormatter" FullName="Microsoft.Hpc.Scheduler.Store.EventFormatter">
+  <TypeSignature Language="C#" Value="public class EventFormatter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventFormatter extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.EventFormatter" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventFormatter" />
+  <TypeSignature Language="F#" Value="type EventFormatter = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventFormatter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.EventFormatter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deserialize">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.Packets.RowsetChangePacket Deserialize (System.IO.Stream serializationStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.Store.Packets/RowsetChangePacket Deserialize(class System.IO.Stream serializationStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.EventFormatter.Deserialize(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Deserialize (serializationStream As Stream) As Packets.RowsetChangePacket" />
+      <MemberSignature Language="F#" Value="member this.Deserialize : System.IO.Stream -&gt; Microsoft.Hpc.Scheduler.Store.Packets.RowsetChangePacket" Usage="eventFormatter.Deserialize serializationStream" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.Packets+RowsetChangePacket</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializationStream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="serializationStream">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream serializationStream, Microsoft.Hpc.Scheduler.Store.Packets.RowsetChangePacket packet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.IO.Stream serializationStream, class Microsoft.Hpc.Scheduler.Store.Packets/RowsetChangePacket packet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.EventFormatter.Serialize(System.IO.Stream,Microsoft.Hpc.Scheduler.Store.Packets.RowsetChangePacket)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Serialize (serializationStream As Stream, packet As Packets.RowsetChangePacket)" />
+      <MemberSignature Language="F#" Value="member this.Serialize : System.IO.Stream * Microsoft.Hpc.Scheduler.Store.Packets.RowsetChangePacket -&gt; unit" Usage="eventFormatter.Serialize (serializationStream, packet)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializationStream" Type="System.IO.Stream" />
+        <Parameter Name="packet" Type="Microsoft.Hpc.Scheduler.Store.Packets+RowsetChangePacket" />
+      </Parameters>
+      <Docs>
+        <param name="serializationStream">To be added.</param>
+        <param name="packet">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,225 @@
+﻿<Type Name="AADAuthMessageHeader" FullName="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader">
+  <TypeSignature Language="C#" Value="public class AADAuthMessageHeader : System.ServiceModel.Channels.MessageHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AADAuthMessageHeader extends System.ServiceModel.Channels.MessageHeader" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader" />
+  <TypeSignature Language="VB.NET" Value="Public Class AADAuthMessageHeader&#xA;Inherits MessageHeader" />
+  <TypeSignature Language="F#" Value="type AADAuthMessageHeader = class&#xA;    inherit MessageHeader" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ServiceModel.Channels.MessageHeader</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AADAuthMessageHeader (string customData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string customData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (customData As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader : string -&gt; Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader" Usage="new Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader customData" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="customData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="customData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AADOIDClaimType">
+      <MemberSignature Language="C#" Value="public static readonly string AADOIDClaimType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string AADOIDClaimType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.AADOIDClaimType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AADOIDClaimType As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable AADOIDClaimType : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.AADOIDClaimType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AADRoleClaimType">
+      <MemberSignature Language="C#" Value="public static readonly string AADRoleClaimType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string AADRoleClaimType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.AADRoleClaimType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AADRoleClaimType As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable AADRoleClaimType : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.AADRoleClaimType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomData">
+      <MemberSignature Language="C#" Value="public string CustomData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.CustomData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomData As String" />
+      <MemberSignature Language="F#" Value="member this.CustomData : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.CustomData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomHeaderName">
+      <MemberSignature Language="C#" Value="public static readonly string CustomHeaderName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string CustomHeaderName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.CustomHeaderName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CustomHeaderName As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable CustomHeaderName : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.CustomHeaderName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomHeaderNamespace">
+      <MemberSignature Language="C#" Value="public static readonly string CustomHeaderNamespace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string CustomHeaderNamespace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.CustomHeaderNamespace" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CustomHeaderNamespace As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable CustomHeaderNamespace : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.CustomHeaderNamespace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public override string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Namespace">
+      <MemberSignature Language="C#" Value="public override string Namespace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Namespace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.Namespace" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Namespace As String" />
+      <MemberSignature Language="F#" Value="member this.Namespace : string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.Namespace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnWriteHeaderContents">
+      <MemberSignature Language="C#" Value="protected override void OnWriteHeaderContents (System.Xml.XmlDictionaryWriter writer, System.ServiceModel.Channels.MessageVersion messageVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnWriteHeaderContents(class System.Xml.XmlDictionaryWriter writer, class System.ServiceModel.Channels.MessageVersion messageVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.OnWriteHeaderContents(System.Xml.XmlDictionaryWriter,System.ServiceModel.Channels.MessageVersion)" />
+      <MemberSignature Language="F#" Value="override this.OnWriteHeaderContents : System.Xml.XmlDictionaryWriter * System.ServiceModel.Channels.MessageVersion -&gt; unit" Usage="aADAuthMessageHeader.OnWriteHeaderContents (writer, messageVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Xml.XmlDictionaryWriter" />
+        <Parameter Name="messageVersion" Type="System.ServiceModel.Channels.MessageVersion" />
+      </Parameters>
+      <Docs>
+        <param name="writer">To be added.</param>
+        <param name="messageVersion">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadHeader">
+      <MemberSignature Language="C#" Value="public static string ReadHeader (System.ServiceModel.Channels.Message request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ReadHeader(class System.ServiceModel.Channels.Message request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.ReadHeader(System.ServiceModel.Channels.Message)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadHeader (request As Message) As String" />
+      <MemberSignature Language="F#" Value="static member ReadHeader : System.ServiceModel.Channels.Message -&gt; string" Usage="Microsoft.Hpc.AADAuthUtil.AADAuthMessageHeader.ReadHeader request" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.ServiceModel.Channels.Message" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

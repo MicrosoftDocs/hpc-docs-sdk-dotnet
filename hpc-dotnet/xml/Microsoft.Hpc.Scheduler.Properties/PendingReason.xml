@@ -1,0 +1,61 @@
+﻿<Type Name="PendingReason" FullName="Microsoft.Hpc.Scheduler.Properties.PendingReason">
+  <TypeSignature Language="C#" Value="public class PendingReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PendingReason extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PendingReason" />
+  <TypeSignature Language="VB.NET" Value="Public Class PendingReason" />
+  <TypeSignature Language="F#" Value="type PendingReason = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the possible reasons why the job or task has yet to start.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PendingReason ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PendingReason.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.PendingReason" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public static string ToString (Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode code);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToString(valuetype Microsoft.Hpc.Scheduler.Properties.PendingReason/ReasonCode code) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PendingReason.ToString(Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ToString (code As PendingReason.ReasonCode) As String" />
+      <MemberSignature Language="F#" Value="static member ToString : Microsoft.Hpc.Scheduler.Properties.PendingReason.ReasonCode -&gt; string" Usage="Microsoft.Hpc.Scheduler.Properties.PendingReason.ToString code" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="code" Type="Microsoft.Hpc.Scheduler.Properties.PendingReason+ReasonCode" />
+      </Parameters>
+      <Docs>
+        <param name="code">The reason that the job or task is pending.</param>
+        <summary>Writes a string that represents the pending reason.</summary>
+        <returns>A string that represents the pending reason.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

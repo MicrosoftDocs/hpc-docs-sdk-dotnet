@@ -1,0 +1,126 @@
+﻿<Type Name="ISchedulerNodeCounters" FullName="Microsoft.Hpc.Scheduler.ISchedulerNodeCounters">
+  <TypeSignature Language="C#" Value="public interface ISchedulerNodeCounters" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerNodeCounters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerNodeCounters" />
+  <TypeSignature Language="F#" Value="type ISchedulerNodeCounters = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4F4AF2FE-4EE2-4a7f-B546-398F6BAF40CA")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains counter data information for the node.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BusyCoreCount">
+      <MemberSignature Language="C#" Value="public int BusyCoreCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BusyCoreCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.BusyCoreCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BusyCoreCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.BusyCoreCount : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.BusyCoreCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores on the node that are busy processing jobs.</summary>
+        <value>The number of cores that are busy processing jobs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdleCoreCount">
+      <MemberSignature Language="C#" Value="public int IdleCoreCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IdleCoreCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.IdleCoreCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdleCoreCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.IdleCoreCount : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.IdleCoreCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores on the node that are idle.</summary>
+        <value>The number of cores that are idle.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfCores">
+      <MemberSignature Language="C#" Value="public int NumberOfCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.NumberOfCores" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfCores : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.NumberOfCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores on the node.</summary>
+        <value>The number of cores on the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfSockets">
+      <MemberSignature Language="C#" Value="public int NumberOfSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.NumberOfSockets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfSockets As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfSockets : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.NumberOfSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of sockets on the node.</summary>
+        <value>The number of sockets on the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfflineCoreCount">
+      <MemberSignature Language="C#" Value="public int OfflineCoreCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OfflineCoreCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.OfflineCoreCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfflineCoreCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.OfflineCoreCount : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNodeCounters.OfflineCoreCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores on the node that are offline.</summary>
+        <value>The number of cores that are offline.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

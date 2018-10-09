@@ -1,0 +1,251 @@
+﻿<Type Name="IX509AttributeCspProvider" FullName="Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider">
+  <TypeSignature Language="C#" Value="public interface IX509AttributeCspProvider : Microsoft.Hpc.Scheduler.Store.IX509Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IX509AttributeCspProvider implements class Microsoft.Hpc.Scheduler.Store.IX509Attribute" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IX509AttributeCspProvider&#xA;Implements IX509Attribute" />
+  <TypeSignature Language="F#" Value="type IX509AttributeCspProvider = interface&#xA;    interface IX509Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.IX509Attribute</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB32B-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (Microsoft.Hpc.Scheduler.Store.CObjectId pObjectId, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strEncodedData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]class Microsoft.Hpc.Scheduler.Store.CObjectId pObjectId, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strEncodedData) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.Initialize(Microsoft.Hpc.Scheduler.Store.CObjectId,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (pObjectId As CObjectId, Encoding As EncodingType, strEncodedData As String)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : Microsoft.Hpc.Scheduler.Store.CObjectId * Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iX509AttributeCspProvider.Initialize (pObjectId, Encoding, strEncodedData)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX509Attribute.Initialize(Microsoft.Hpc.Scheduler.Store.CObjectId,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pObjectId" Type="Microsoft.Hpc.Scheduler.Store.CObjectId" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strEncodedData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pObjectId">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="strEncodedData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeDecode">
+      <MemberSignature Language="C#" Value="public void InitializeDecode (Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strEncodedData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeDecode([in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strEncodedData) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.InitializeDecode(Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeDecode (Encoding As EncodingType, strEncodedData As String)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeDecode : Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iX509AttributeCspProvider.InitializeDecode (Encoding, strEncodedData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strEncodedData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Encoding">To be added.</param>
+        <param name="strEncodedData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeEncode">
+      <MemberSignature Language="C#" Value="public void InitializeEncode (Microsoft.Hpc.Scheduler.Store.X509KeySpec KeySpec, string strProviderName, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strSignature);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeEncode([in]valuetype Microsoft.Hpc.Scheduler.Store.X509KeySpec KeySpec, [in]string strProviderName, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strSignature) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.InitializeEncode(Microsoft.Hpc.Scheduler.Store.X509KeySpec,System.String,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeEncode (KeySpec As X509KeySpec, strProviderName As String, Encoding As EncodingType, strSignature As String)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeEncode : Microsoft.Hpc.Scheduler.Store.X509KeySpec * string * Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iX509AttributeCspProvider.InitializeEncode (KeySpec, strProviderName, Encoding, strSignature)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeySpec" Type="Microsoft.Hpc.Scheduler.Store.X509KeySpec" />
+        <Parameter Name="strProviderName" Type="System.String" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strSignature" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="KeySpec">To be added.</param>
+        <param name="strProviderName">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="strSignature">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[Microsoft.Hpc.Scheduler.Store.EncodingType Encoding] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Encoding As EncodingType) As String" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Hpc.Scheduler.Store.EncodingType) : string" Usage="Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX509Attribute.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeySpec">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.X509KeySpec KeySpec { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Store.X509KeySpec KeySpec" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.KeySpec" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeySpec As X509KeySpec" />
+      <MemberSignature Language="F#" Value="member this.KeySpec : Microsoft.Hpc.Scheduler.Store.X509KeySpec" Usage="Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.KeySpec" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.X509KeySpec</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CObjectId ObjectId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.CObjectId ObjectId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.ObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObjectId As CObjectId" />
+      <MemberSignature Language="F#" Value="member this.ObjectId : Microsoft.Hpc.Scheduler.Store.CObjectId" Usage="Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.ObjectId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX509Attribute.ObjectId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CObjectId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderName">
+      <MemberSignature Language="C#" Value="public string ProviderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProviderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.ProviderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderName As String" />
+      <MemberSignature Language="F#" Value="member this.ProviderName : string" Usage="Microsoft.Hpc.Scheduler.Store.IX509AttributeCspProvider.ProviderName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

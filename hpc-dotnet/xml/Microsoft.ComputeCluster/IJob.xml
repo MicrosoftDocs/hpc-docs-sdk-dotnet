@@ -1,0 +1,579 @@
+﻿<Type Name="IJob" FullName="Microsoft.ComputeCluster.IJob">
+  <TypeSignature Language="C#" Value="public interface IJob" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IJob" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.IJob" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IJob" />
+  <TypeSignature Language="F#" Value="type IJob = interface" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("FC9A09D9-8F40-4d6c-B6CF-C12CEA9FC57E")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddTask">
+      <MemberSignature Language="C#" Value="public void AddTask (Microsoft.ComputeCluster.ITask task);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddTask(class Microsoft.ComputeCluster.ITask task) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IJob.AddTask(Microsoft.ComputeCluster.ITask)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddTask (task As ITask)" />
+      <MemberSignature Language="F#" Value="abstract member AddTask : Microsoft.ComputeCluster.ITask -&gt; unit" Usage="iJob.AddTask task" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="task" Type="Microsoft.ComputeCluster.ITask" />
+      </Parameters>
+      <Docs>
+        <param name="task">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AskedNodes">
+      <MemberSignature Language="C#" Value="public string AskedNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AskedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.AskedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property AskedNodes As String" />
+      <MemberSignature Language="F#" Value="member this.AskedNodes : string with get, set" Usage="Microsoft.ComputeCluster.IJob.AskedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IJob.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="iJob.Clear " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTime">
+      <MemberSignature Language="C#" Value="public DateTime CreateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.CreateTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.CreateTime : DateTime" Usage="Microsoft.ComputeCluster.IJob.CreateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.EndTime : DateTime" Usage="Microsoft.ComputeCluster.IJob.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="F#" Value="member this.ErrorMessage : string" Usage="Microsoft.ComputeCluster.IJob.ErrorMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedJobTerms">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.NameValueCollection ExtendedJobTerms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ComputeCluster.NameValueCollection ExtendedJobTerms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.ExtendedJobTerms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedJobTerms As NameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.ExtendedJobTerms : Microsoft.ComputeCluster.NameValueCollection" Usage="Microsoft.ComputeCluster.IJob.ExtendedJobTerms" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.NameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IJob.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="iJob.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTask">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.ITask GetTask (int taskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ComputeCluster.ITask GetTask(int32 taskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IJob.GetTask(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTask (taskId As Integer) As ITask" />
+      <MemberSignature Language="F#" Value="abstract member GetTask : int -&gt; Microsoft.ComputeCluster.ITask" Usage="iJob.GetTask taskId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.ITask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.ComputeCluster.IJob.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBackfill">
+      <MemberSignature Language="C#" Value="public bool IsBackfill { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsBackfill" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.IsBackfill" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBackfill As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsBackfill : bool" Usage="Microsoft.ComputeCluster.IJob.IsBackfill" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExclusive">
+      <MemberSignature Language="C#" Value="public bool IsExclusive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExclusive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.IsExclusive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExclusive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExclusive : bool with get, set" Usage="Microsoft.ComputeCluster.IJob.IsExclusive" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNumberOfProcessors">
+      <MemberSignature Language="C#" Value="public int MaximumNumberOfProcessors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNumberOfProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.MaximumNumberOfProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNumberOfProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumNumberOfProcessors : int with get, set" Usage="Microsoft.ComputeCluster.IJob.MaximumNumberOfProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumNumberOfProcessors">
+      <MemberSignature Language="C#" Value="public int MinimumNumberOfProcessors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumNumberOfProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.MinimumNumberOfProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumNumberOfProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumNumberOfProcessors : int with get, set" Usage="Microsoft.ComputeCluster.IJob.MinimumNumberOfProcessors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.ComputeCluster.IJob.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.JobPriority Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.ComputeCluster.JobPriority Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As JobPriority" />
+      <MemberSignature Language="F#" Value="member this.Priority : Microsoft.ComputeCluster.JobPriority with get, set" Usage="Microsoft.ComputeCluster.IJob.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.JobPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Project">
+      <MemberSignature Language="C#" Value="public string Project { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Project" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.Project" />
+      <MemberSignature Language="VB.NET" Value="Public Property Project As String" />
+      <MemberSignature Language="F#" Value="member this.Project : string with get, set" Usage="Microsoft.ComputeCluster.IJob.Project" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Runtime">
+      <MemberSignature Language="C#" Value="public string Runtime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Runtime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.Runtime" />
+      <MemberSignature Language="VB.NET" Value="Public Property Runtime As String" />
+      <MemberSignature Language="F#" Value="member this.Runtime : string with get, set" Usage="Microsoft.ComputeCluster.IJob.Runtime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunUntilCanceled">
+      <MemberSignature Language="C#" Value="public bool RunUntilCanceled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RunUntilCanceled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.RunUntilCanceled" />
+      <MemberSignature Language="VB.NET" Value="Public Property RunUntilCanceled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.RunUntilCanceled : bool with get, set" Usage="Microsoft.ComputeCluster.IJob.RunUntilCanceled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedJobTerm">
+      <MemberSignature Language="C#" Value="public void SetExtendedJobTerm (string termName, string termValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetExtendedJobTerm(string termName, string termValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.IJob.SetExtendedJobTerm(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetExtendedJobTerm (termName As String, termValue As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetExtendedJobTerm : string * string -&gt; unit" Usage="iJob.SetExtendedJobTerm (termName, termValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="termName" Type="System.String" />
+        <Parameter Name="termValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="termName">To be added.</param>
+        <param name="termValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftwareLicense">
+      <MemberSignature Language="C#" Value="public string SoftwareLicense { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SoftwareLicense" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.SoftwareLicense" />
+      <MemberSignature Language="VB.NET" Value="Public Property SoftwareLicense As String" />
+      <MemberSignature Language="F#" Value="member this.SoftwareLicense : string with get, set" Usage="Microsoft.ComputeCluster.IJob.SoftwareLicense" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.StartTime : DateTime" Usage="Microsoft.ComputeCluster.IJob.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.JobStatus Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.ComputeCluster.JobStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As JobStatus" />
+      <MemberSignature Language="F#" Value="member this.Status : Microsoft.ComputeCluster.JobStatus" Usage="Microsoft.ComputeCluster.IJob.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.JobStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmittedBy">
+      <MemberSignature Language="C#" Value="public string SubmittedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubmittedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.SubmittedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmittedBy As String" />
+      <MemberSignature Language="F#" Value="member this.SubmittedBy : string" Usage="Microsoft.ComputeCluster.IJob.SubmittedBy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTime">
+      <MemberSignature Language="C#" Value="public DateTime SubmitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SubmitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.SubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmitTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.SubmitTime : DateTime" Usage="Microsoft.ComputeCluster.IJob.SubmitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskCount">
+      <MemberSignature Language="C#" Value="public int TaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.TaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.TaskCount : int" Usage="Microsoft.ComputeCluster.IJob.TaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="public string User { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string User" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.IJob.User" />
+      <MemberSignature Language="VB.NET" Value="Public Property User As String" />
+      <MemberSignature Language="F#" Value="member this.User : string with get, set" Usage="Microsoft.ComputeCluster.IJob.User" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

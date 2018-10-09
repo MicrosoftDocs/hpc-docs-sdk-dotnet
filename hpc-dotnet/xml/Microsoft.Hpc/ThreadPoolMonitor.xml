@@ -1,0 +1,86 @@
+﻿<Type Name="ThreadPoolMonitor" FullName="Microsoft.Hpc.ThreadPoolMonitor">
+  <TypeSignature Language="C#" Value="public class ThreadPoolMonitor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ThreadPoolMonitor extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.ThreadPoolMonitor" />
+  <TypeSignature Language="VB.NET" Value="Public Class ThreadPoolMonitor" />
+  <TypeSignature Language="F#" Value="type ThreadPoolMonitor = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public static void Start ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Start() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ThreadPoolMonitor.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Start ()" />
+      <MemberSignature Language="F#" Value="static member Start : unit -&gt; unit" Usage="Microsoft.Hpc.ThreadPoolMonitor.Start " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartOnlyInDebug">
+      <MemberSignature Language="C#" Value="public static void StartOnlyInDebug ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StartOnlyInDebug() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ThreadPoolMonitor.StartOnlyInDebug" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub StartOnlyInDebug ()" />
+      <MemberSignature Language="F#" Value="static member StartOnlyInDebug : unit -&gt; unit" Usage="Microsoft.Hpc.ThreadPoolMonitor.StartOnlyInDebug " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteThreadPoolStatus">
+      <MemberSignature Language="C#" Value="public void WriteThreadPoolStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteThreadPoolStatus() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ThreadPoolMonitor.WriteThreadPoolStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteThreadPoolStatus ()" />
+      <MemberSignature Language="F#" Value="member this.WriteThreadPoolStatus : unit -&gt; unit" Usage="threadPoolMonitor.WriteThreadPoolStatus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

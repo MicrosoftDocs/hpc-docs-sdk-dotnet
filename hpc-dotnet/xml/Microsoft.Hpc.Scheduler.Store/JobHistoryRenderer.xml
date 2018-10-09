@@ -1,0 +1,82 @@
+﻿<Type Name="JobHistoryRenderer" FullName="Microsoft.Hpc.Scheduler.Store.JobHistoryRenderer">
+  <TypeSignature Language="C#" Value="public class JobHistoryRenderer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobHistoryRenderer extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.JobHistoryRenderer" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobHistoryRenderer" />
+  <TypeSignature Language="F#" Value="type JobHistoryRenderer = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobHistoryRenderer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobHistoryRenderer.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Build">
+      <MemberSignature Language="C#" Value="public void Build (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, Microsoft.Hpc.Scheduler.Store.IClusterJob job);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Build(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, class Microsoft.Hpc.Scheduler.Store.IClusterJob job) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.JobHistoryRenderer.Build(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,Microsoft.Hpc.Scheduler.Store.IClusterJob)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Build (store As ISchedulerStore, job As IClusterJob)" />
+      <MemberSignature Language="F#" Value="member this.Build : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * Microsoft.Hpc.Scheduler.Store.IClusterJob -&gt; unit" Usage="jobHistoryRenderer.Build (store, job)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="job" Type="Microsoft.Hpc.Scheduler.Store.IClusterJob" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="job">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.JobHistoryRenderer.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As IEnumerable(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Result : seq&lt;string&gt;" Usage="Microsoft.Hpc.Scheduler.Store.JobHistoryRenderer.Result" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,196 @@
+﻿<Type Name="JobTemplateRights" FullName="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights">
+  <TypeSignature Language="C#" Value="public enum JobTemplateRights" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobTemplateRights extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights" />
+  <TypeSignature Language="VB.NET" Value="Public Enum JobTemplateRights" />
+  <TypeSignature Language="F#" Value="type JobTemplateRights = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the permissions that you can assign to a user for accessing and modifying a job template.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangePermissions">
+      <MemberSignature Language="C#" Value="ChangePermissions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights ChangePermissions = int32(262144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.ChangePermissions" />
+      <MemberSignature Language="VB.NET" Value="ChangePermissions" />
+      <MemberSignature Language="F#" Value="ChangePermissions = 262144" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.ChangePermissions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>262144</MemberValue>
+      <Docs>
+        <summary>Permission to change the security descriptor.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights Delete = int32(65536)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="F#" Value="Delete = 65536" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>65536</MemberValue>
+      <Docs>
+        <summary>Permission to delete the job template.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EditTemplate">
+      <MemberSignature Language="C#" Value="EditTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights EditTemplate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.EditTemplate" />
+      <MemberSignature Language="VB.NET" Value="EditTemplate" />
+      <MemberSignature Language="F#" Value="EditTemplate = 2" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.EditTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Permission to edit the job template.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Generic_All">
+      <MemberSignature Language="C#" Value="Generic_All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights Generic_All = int32(327686)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_All" />
+      <MemberSignature Language="VB.NET" Value="Generic_All" />
+      <MemberSignature Language="F#" Value="Generic_All = 327686" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>327686</MemberValue>
+      <Docs>
+        <summary>Permission to read, update, and apply the job template.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Generic_Execute">
+      <MemberSignature Language="C#" Value="Generic_Execute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights Generic_Execute = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_Execute" />
+      <MemberSignature Language="VB.NET" Value="Generic_Execute" />
+      <MemberSignature Language="F#" Value="Generic_Execute = 4" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_Execute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Permission to submit a job using the template.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Generic_Read">
+      <MemberSignature Language="C#" Value="Generic_Read" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights Generic_Read = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_Read" />
+      <MemberSignature Language="VB.NET" Value="Generic_Read" />
+      <MemberSignature Language="F#" Value="Generic_Read = 0" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_Read" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Permission to read the job template.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Generic_Write">
+      <MemberSignature Language="C#" Value="Generic_Write" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights Generic_Write = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_Write" />
+      <MemberSignature Language="VB.NET" Value="Generic_Write" />
+      <MemberSignature Language="F#" Value="Generic_Write = 2" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.Generic_Write" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Permission to update the job template.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Reserved.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJob">
+      <MemberSignature Language="C#" Value="SubmitJob" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobTemplateRights SubmitJob = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.SubmitJob" />
+      <MemberSignature Language="VB.NET" Value="SubmitJob" />
+      <MemberSignature Language="F#" Value="SubmitJob = 4" Usage="Microsoft.Hpc.Scheduler.Properties.JobTemplateRights.SubmitJob" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobTemplateRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Permission to submit a job using the template.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,242 @@
+﻿<Type Name="SortCollection" FullName="Microsoft.Hpc.Scheduler.SortCollection">
+  <TypeSignature Language="C#" Value="public class SortCollection : Microsoft.Hpc.Scheduler.SchedulerCollection&lt;Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;, Microsoft.Hpc.Scheduler.ISortCollection, System.Collections.Generic.ICollection&lt;Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;, System.Collections.ICollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SortCollection extends Microsoft.Hpc.Scheduler.SchedulerCollection`1&lt;class Microsoft.Hpc.Scheduler.Properties.SortProperty&gt; implements class Microsoft.Hpc.Scheduler.ISchedulerCollection, class Microsoft.Hpc.Scheduler.ISortCollection, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.SortCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class SortCollection&#xA;Inherits SchedulerCollection(Of SortProperty)&#xA;Implements ICollection, ICollection(Of SortProperty), IEnumerable(Of SortProperty), ISortCollection" />
+  <TypeSignature Language="F#" Value="type SortCollection = class&#xA;    inherit SchedulerCollection&lt;SortProperty&gt;&#xA;    interface ISortCollection&#xA;    interface ISchedulerCollection&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ICollection&lt;SortProperty&gt;&#xA;    interface seq&lt;SortProperty&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.SchedulerCollection&lt;Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Hpc.Scheduler.Properties.SortProperty</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ISortCollection</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.SortProperty&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.ICollection</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("39e4e48e-7f51-433d-ac20-8ac7c8eaa228")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a collection of sort property objects used to sort the results when retrieving jobs, task, and nodes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SortCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SortCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of this class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder order, Microsoft.Hpc.Scheduler.Properties.PropertyId propertyId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(valuetype Microsoft.Hpc.Scheduler.Properties.SortProperty/SortOrder order, class Microsoft.Hpc.Scheduler.Properties.PropertyId propertyId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SortCollection.Add(Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder,Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="F#" Value="override this.Add : Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder * Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; unit" Usage="sortCollection.Add (order, propertyId)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISortCollection.Add(Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder,Microsoft.Hpc.Scheduler.Properties.PropertyId)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="order" Type="Microsoft.Hpc.Scheduler.Properties.SortProperty+SortOrder" />
+        <Parameter Name="propertyId" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="order">The sort order in which the results are returned (for example, ascending or descending). For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder"></see> enumeration.</param>
+        <param name="propertyId">A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that uniquely identifies the property used to sort the results.</param>
+        <summary>Adds a sort item to the collection using the specified operator and property object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder order, Microsoft.Hpc.Scheduler.PropId propId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(valuetype Microsoft.Hpc.Scheduler.Properties.SortProperty/SortOrder order, valuetype Microsoft.Hpc.Scheduler.PropId propId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SortCollection.Add(Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder,Microsoft.Hpc.Scheduler.PropId)" />
+      <MemberSignature Language="F#" Value="override this.Add : Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder * Microsoft.Hpc.Scheduler.PropId -&gt; unit" Usage="sortCollection.Add (order, propId)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISortCollection.Add(Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder,Microsoft.Hpc.Scheduler.PropId)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="order" Type="Microsoft.Hpc.Scheduler.Properties.SortProperty+SortOrder" />
+        <Parameter Name="propId" Type="Microsoft.Hpc.Scheduler.PropId" />
+      </Parameters>
+      <Docs>
+        <param name="order">The sort order in which the results are returned (for example, ascending or descending). For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty.SortOrder"></see> enumeration.</param>
+        <param name="propId">An identifier that uniquely identifies the property used to sort the results. For possible values, see <see cref="T:Microsoft.Hpc.Scheduler.PropId"></see> enumeration.</param>
+        <summary>Adds a sort item to the collection using the specified operator and property identifier.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSorts">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.SortProperty[] GetSorts ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.SortProperty[] GetSorts() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SortCollection.GetSorts" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSorts () As SortProperty()" />
+      <MemberSignature Language="F#" Value="abstract member GetSorts : unit -&gt; Microsoft.Hpc.Scheduler.Properties.SortProperty[]&#xA;override this.GetSorts : unit -&gt; Microsoft.Hpc.Scheduler.Properties.SortProperty[]" Usage="sortCollection.GetSorts " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISortCollection.GetSorts</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SortProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Gets an array of the sort items from the collection.</summary>
+        <returns>An array of <see cref="T:Microsoft.Hpc.Scheduler.Properties.SortProperty"></see> objects that define the sort items in the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.ISortCollection.Clear">
+      <MemberSignature Language="C#" Value="void ISortCollection.Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Hpc.Scheduler.ISortCollection.Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SortCollection.Microsoft#Hpc#Scheduler#ISortCollection#Clear" />
+      <MemberSignature Language="VB.NET" Value="Sub Clear () Implements ISortCollection.Clear" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISortCollection.Clear</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.ISortCollection.Count">
+      <MemberSignature Language="C#" Value="int Microsoft.Hpc.Scheduler.ISortCollection.Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Hpc.Scheduler.ISortCollection.Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SortCollection.Microsoft#Hpc#Scheduler#ISortCollection#Count" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Count As Integer Implements ISortCollection.Count" />
+      <MemberSignature Language="F#" Usage="Microsoft.Hpc.Scheduler.SortCollection.Microsoft.Hpc.Scheduler.ISortCollection.Count" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISortCollection.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.ISortCollection.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator ISortCollection.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator Microsoft.Hpc.Scheduler.ISortCollection.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SortCollection.Microsoft#Hpc#Scheduler#ISortCollection#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements ISortCollection.GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.ISortCollection.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.ISortCollection.Item">
+      <MemberSignature Language="C#" Value="Microsoft.Hpc.Scheduler.Properties.SortProperty Microsoft.Hpc.Scheduler.ISortCollection.Item[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.SortProperty Microsoft.Hpc.Scheduler.ISortCollection.Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SortCollection.Microsoft#Hpc#Scheduler#ISortCollection#Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Item(index As Integer) As SortProperty Implements ISortCollection.Item" />
+      <MemberSignature Language="F#" Usage="Microsoft.Hpc.Scheduler.SortCollection.Microsoft.Hpc.Scheduler.ISortCollection.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.ISortCollection.Item(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SortProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

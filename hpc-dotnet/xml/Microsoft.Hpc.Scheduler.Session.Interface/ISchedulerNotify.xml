@@ -1,0 +1,81 @@
+﻿<Type Name="ISchedulerNotify" FullName="Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotify">
+  <TypeSignature Language="C#" Value="public interface ISchedulerNotify" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerNotify" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotify" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerNotify" />
+  <TypeSignature Language="F#" Value="type ISchedulerNotify = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Namespace="http://hpc.microsoft.com")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="JobStateChanged">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task JobStateChanged (Microsoft.Hpc.Scheduler.Properties.JobState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task JobStateChanged(valuetype Microsoft.Hpc.Scheduler.Properties.JobState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotify.JobStateChanged(Microsoft.Hpc.Scheduler.Properties.JobState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function JobStateChanged (state As JobState) As Task" />
+      <MemberSignature Language="F#" Value="abstract member JobStateChanged : Microsoft.Hpc.Scheduler.Properties.JobState -&gt; System.Threading.Tasks.Task" Usage="iSchedulerNotify.JobStateChanged state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskStateChanged">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task TaskStateChanged (System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; taskInfoList);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task TaskStateChanged(class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; taskInfoList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.ISchedulerNotify.TaskStateChanged(System.Collections.Generic.List{Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo})" />
+      <MemberSignature Language="VB.NET" Value="Public Function TaskStateChanged (taskInfoList As List(Of TaskInfo)) As Task" />
+      <MemberSignature Language="F#" Value="abstract member TaskStateChanged : System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt; -&gt; System.Threading.Tasks.Task" Usage="iSchedulerNotify.TaskStateChanged taskInfoList" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskInfoList" Type="System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Session.Interface.TaskInfo&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="taskInfoList">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

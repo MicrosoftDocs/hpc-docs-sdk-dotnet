@@ -1,0 +1,170 @@
+﻿<Type Name="AADServiceAuthorizationManager" FullName="Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager">
+  <TypeSignature Language="C#" Value="public class AADServiceAuthorizationManager : System.ServiceModel.ServiceAuthorizationManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AADServiceAuthorizationManager extends System.ServiceModel.ServiceAuthorizationManager" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class AADServiceAuthorizationManager&#xA;Inherits ServiceAuthorizationManager" />
+  <TypeSignature Language="F#" Value="type AADServiceAuthorizationManager = class&#xA;    inherit ServiceAuthorizationManager" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ServiceModel.ServiceAuthorizationManager</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AADServiceAuthorizationManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AADServiceAuthorizationManager (Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.#ctor(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (context As IHpcContext)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager : Microsoft.Hpc.IHpcContext -&gt; Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager" Usage="new Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager context" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AADServiceAuthorizationManager (string targetPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string targetPath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetPath As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager : string -&gt; Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager" Usage="new Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager targetPath" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="targetPath">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AADServiceAuthorizationManager (string targetPath, Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string targetPath, class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.#ctor(System.String,Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetPath As String, context As IHpcContext)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager : string * Microsoft.Hpc.IHpcContext -&gt; Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager" Usage="new Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager (targetPath, context)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetPath" Type="System.String" />
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" />
+      </Parameters>
+      <Docs>
+        <param name="targetPath">To be added.</param>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckAccessCore">
+      <MemberSignature Language="C#" Value="protected override bool CheckAccessCore (System.ServiceModel.OperationContext operationContext);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool CheckAccessCore(class System.ServiceModel.OperationContext operationContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.CheckAccessCore(System.ServiceModel.OperationContext)" />
+      <MemberSignature Language="F#" Value="override this.CheckAccessCore : System.ServiceModel.OperationContext -&gt; bool" Usage="aADServiceAuthorizationManager.CheckAccessCore operationContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operationContext" Type="System.ServiceModel.OperationContext" />
+      </Parameters>
+      <Docs>
+        <param name="operationContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckHeaderAccess">
+      <MemberSignature Language="C#" Value="public bool CheckHeaderAccess (string header);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CheckHeaderAccess(string header) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.CheckHeaderAccess(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CheckHeaderAccess (header As String) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CheckHeaderAccess : string -&gt; bool" Usage="aADServiceAuthorizationManager.CheckHeaderAccess header" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="header" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="header">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateJwtToken">
+      <MemberSignature Language="C#" Value="public System.Security.Claims.ClaimsPrincipal ValidateJwtToken (string jwtToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Security.Claims.ClaimsPrincipal ValidateJwtToken(string jwtToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.AADServiceAuthorizationManager.ValidateJwtToken(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateJwtToken (jwtToken As String) As ClaimsPrincipal" />
+      <MemberSignature Language="F#" Value="member this.ValidateJwtToken : string -&gt; System.Security.Claims.ClaimsPrincipal" Usage="aADServiceAuthorizationManager.ValidateJwtToken jwtToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Claims.ClaimsPrincipal</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jwtToken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jwtToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

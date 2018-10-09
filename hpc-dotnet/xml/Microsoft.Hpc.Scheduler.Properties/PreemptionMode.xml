@@ -1,0 +1,77 @@
+﻿<Type Name="PreemptionMode" FullName="Microsoft.Hpc.Scheduler.Properties.PreemptionMode">
+  <TypeSignature Language="C#" Value="public enum PreemptionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreemptionMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PreemptionMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreemptionMode" />
+  <TypeSignature Language="F#" Value="type PreemptionMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines when a higher priority job can preempt a lower priority job. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Graceful">
+      <MemberSignature Language="C#" Value="Graceful" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PreemptionMode Graceful = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PreemptionMode.Graceful" />
+      <MemberSignature Language="VB.NET" Value="Graceful" />
+      <MemberSignature Language="F#" Value="Graceful = 1" Usage="Microsoft.Hpc.Scheduler.Properties.PreemptionMode.Graceful" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PreemptionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A running job can be preempted only after the tasks that are currently running complete. Any remaining tasks in the job will not run. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Immediate">
+      <MemberSignature Language="C#" Value="Immediate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PreemptionMode Immediate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PreemptionMode.Immediate" />
+      <MemberSignature Language="VB.NET" Value="Immediate" />
+      <MemberSignature Language="F#" Value="Immediate = 2" Usage="Microsoft.Hpc.Scheduler.Properties.PreemptionMode.Immediate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PreemptionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A running job can be preempted immediately. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.PreemptionMode None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.PreemptionMode.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Hpc.Scheduler.Properties.PreemptionMode.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PreemptionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Running jobs cannot be preempted by higher priority jobs. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

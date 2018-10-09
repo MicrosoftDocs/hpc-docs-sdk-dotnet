@@ -1,0 +1,147 @@
+﻿<Type Name="IX509CertificateTemplateWritable" FullName="Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable">
+  <TypeSignature Language="C#" Value="public interface IX509CertificateTemplateWritable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IX509CertificateTemplateWritable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IX509CertificateTemplateWritable" />
+  <TypeSignature Language="F#" Value="type IX509CertificateTemplateWritable = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("F49466A7-395A-4E9E-B6E7-32B331600DC0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Commit">
+      <MemberSignature Language="C#" Value="public void Commit (Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags commitFlags, string strServerContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Commit([in]valuetype Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags commitFlags, [in]string strServerContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Commit(Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Commit (commitFlags As CommitTemplateFlags, strServerContext As String)" />
+      <MemberSignature Language="F#" Value="abstract member Commit : Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags * string -&gt; unit" Usage="iX509CertificateTemplateWritable.Commit (commitFlags, strServerContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commitFlags" Type="Microsoft.Hpc.Scheduler.Store.CommitTemplateFlags" />
+        <Parameter Name="strServerContext" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="commitFlags">To be added.</param>
+        <param name="strServerContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate pValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate pValue) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Initialize(Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (pValue As IX509CertificateTemplate)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate -&gt; unit" Usage="iX509CertificateTemplateWritable.Initialize pValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pValue" Type="Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate" />
+      </Parameters>
+      <Docs>
+        <param name="pValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty Property] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(valuetype Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Item(Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(Property As EnrollmentTemplateProperty) As Object" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty) : obj with get, set" Usage="Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="Microsoft.Hpc.Scheduler.Store.EnrollmentTemplateProperty" />
+      </Parameters>
+      <Docs>
+        <param name="Property">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Template">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate Template { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate Template" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Template" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Template As IX509CertificateTemplate" />
+      <MemberSignature Language="F#" Value="member this.Template : Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate" Usage="Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplateWritable.Template" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IX509CertificateTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

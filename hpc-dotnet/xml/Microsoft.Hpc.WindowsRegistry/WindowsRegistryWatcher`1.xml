@@ -1,0 +1,99 @@
+﻿<Type Name="WindowsRegistryWatcher&lt;T&gt;" FullName="Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public sealed class WindowsRegistryWatcher&lt;T&gt; : IDisposable, Microsoft.Hpc.WindowsRegistry.IUpdateWatcher&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WindowsRegistryWatcher`1&lt;T&gt; extends System.Object implements class Microsoft.Hpc.WindowsRegistry.IUpdateWatcher`1&lt;!T&gt;, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher`1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WindowsRegistryWatcher(Of T)&#xA;Implements IDisposable, IUpdateWatcher(Of T)" />
+  <TypeSignature Language="F#" Value="type WindowsRegistryWatcher&lt;'T&gt; = class&#xA;    interface IUpdateWatcher&lt;'T&gt;&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.WindowsRegistry.IUpdateWatcher&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WindowsRegistryWatcher (string key, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string key, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher`1.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (key As String, name As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher&lt;'T&gt; : string * string -&gt; Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher&lt;'T&gt;" Usage="new Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher&lt;'T&gt; (key, name)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher`1.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="windowsRegistryWatcher.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceUpdated">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;T&gt;&gt; InstanceUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.RegistryValueChangedArgs`1&lt;!T&gt;&gt; InstanceUpdated" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.WindowsRegistry.WindowsRegistryWatcher`1.InstanceUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Event InstanceUpdated As EventHandler(Of RegistryValueChangedArgs(Of T)) " />
+      <MemberSignature Language="F#" Value="member this.InstanceUpdated : EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;'T&gt;&gt; " Usage="member this.InstanceUpdated : System.EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;'T&gt;&gt; " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Hpc.WindowsRegistry.IUpdateWatcher`1.InstanceUpdated</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.RegistryValueChangedArgs&lt;T&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

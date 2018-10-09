@@ -1,0 +1,67 @@
+﻿<Type Name="ISubmissionFilter" FullName="Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ISubmissionFilter">
+  <TypeSignature Language="C#" Value="public interface ISubmissionFilter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISubmissionFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ISubmissionFilter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISubmissionFilter" />
+  <TypeSignature Language="F#" Value="type ISubmissionFilter = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FilterSubmission">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.SubmissionFilterResponse FilterSubmission (System.IO.Stream jobXml, out System.IO.Stream jobXmlModified);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.SubmissionFilterResponse FilterSubmission(class System.IO.Stream jobXml, [out] class System.IO.Stream&amp; jobXmlModified) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ISubmissionFilter.FilterSubmission(System.IO.Stream,System.IO.Stream@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FilterSubmission (jobXml As Stream, ByRef jobXmlModified As Stream) As SubmissionFilterResponse" />
+      <MemberSignature Language="F#" Value="abstract member FilterSubmission : System.IO.Stream *  -&gt; Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.SubmissionFilterResponse" Usage="iSubmissionFilter.FilterSubmission (jobXml, jobXmlModified)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.SubmissionFilterResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="jobXmlModified" Type="System.IO.Stream&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="jobXmlModified">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevertSubmission">
+      <MemberSignature Language="C#" Value="public void RevertSubmission (System.IO.Stream jobXml);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevertSubmission(class System.IO.Stream jobXml) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcClient.ISubmissionFilter.RevertSubmission(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RevertSubmission (jobXml As Stream)" />
+      <MemberSignature Language="F#" Value="abstract member RevertSubmission : System.IO.Stream -&gt; unit" Usage="iSubmissionFilter.RevertSubmission jobXml" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

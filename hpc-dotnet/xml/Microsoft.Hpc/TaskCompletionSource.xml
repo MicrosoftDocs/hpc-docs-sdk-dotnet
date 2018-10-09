@@ -1,0 +1,81 @@
+﻿<Type Name="TaskCompletionSource" FullName="Microsoft.Hpc.TaskCompletionSource">
+  <TypeSignature Language="C#" Value="public class TaskCompletionSource : System.Threading.Tasks.TaskCompletionSource&lt;object&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TaskCompletionSource extends System.Threading.Tasks.TaskCompletionSource`1&lt;object&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.TaskCompletionSource" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskCompletionSource&#xA;Inherits TaskCompletionSource(Of Object)" />
+  <TypeSignature Language="F#" Value="type TaskCompletionSource = class&#xA;    inherit TaskCompletionSource&lt;obj&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Threading.Tasks.TaskCompletionSource&lt;System.Object&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">System.Object</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskCompletionSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.TaskCompletionSource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetResult">
+      <MemberSignature Language="C#" Value="public void SetResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResult() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.TaskCompletionSource.SetResult" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetResult ()" />
+      <MemberSignature Language="F#" Value="override this.SetResult : unit -&gt; unit" Usage="taskCompletionSource.SetResult " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrySetResult">
+      <MemberSignature Language="C#" Value="public bool TrySetResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetResult() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.TaskCompletionSource.TrySetResult" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrySetResult () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.TrySetResult : unit -&gt; bool" Usage="taskCompletionSource.TrySetResult " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

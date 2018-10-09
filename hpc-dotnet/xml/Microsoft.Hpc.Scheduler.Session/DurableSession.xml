@@ -1,0 +1,318 @@
+﻿<Type Name="DurableSession" FullName="Microsoft.Hpc.Scheduler.Session.DurableSession">
+  <TypeSignature Language="C#" Value="public class DurableSession : Microsoft.Hpc.Scheduler.Session.SessionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DurableSession extends Microsoft.Hpc.Scheduler.Session.SessionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.DurableSession" />
+  <TypeSignature Language="VB.NET" Value="Public Class DurableSession&#xA;Inherits SessionBase" />
+  <TypeSignature Language="F#" Value="type DurableSession = class&#xA;    inherit SessionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.Session.SessionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AttachSession">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.DurableSession AttachSession (Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.DurableSession AttachSession(class Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSession(Microsoft.Hpc.Scheduler.Session.SessionAttachInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AttachSession (attachInfo As SessionAttachInfo) As DurableSession" />
+      <MemberSignature Language="F#" Value="static member AttachSession : Microsoft.Hpc.Scheduler.Session.SessionAttachInfo -&gt; Microsoft.Hpc.Scheduler.Session.DurableSession" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSession attachInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.DurableSession</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionAttachInfo" />
+      </Parameters>
+      <Docs>
+        <param name="attachInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachSession">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.DurableSession AttachSession (Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.DurableSession AttachSession(class Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSession(Microsoft.Hpc.Scheduler.Session.SessionAttachInfo,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="static member AttachSession : Microsoft.Hpc.Scheduler.Session.SessionAttachInfo * System.ServiceModel.Channels.Binding -&gt; Microsoft.Hpc.Scheduler.Session.DurableSession" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSession (attachInfo, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.DurableSession</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionAttachInfo" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="attachInfo">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachSessionAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt; AttachSessionAsync (Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Session.DurableSession&gt; AttachSessionAsync(class Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSessionAsync(Microsoft.Hpc.Scheduler.Session.SessionAttachInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AttachSessionAsync (attachInfo As SessionAttachInfo) As Task(Of DurableSession)" />
+      <MemberSignature Language="F#" Value="static member AttachSessionAsync : Microsoft.Hpc.Scheduler.Session.SessionAttachInfo -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSessionAsync attachInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.DurableSession/&lt;AttachSessionAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionAttachInfo" />
+      </Parameters>
+      <Docs>
+        <param name="attachInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachSessionAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt; AttachSessionAsync (Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Session.DurableSession&gt; AttachSessionAsync(class Microsoft.Hpc.Scheduler.Session.SessionAttachInfo attachInfo, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSessionAsync(Microsoft.Hpc.Scheduler.Session.SessionAttachInfo,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="static member AttachSessionAsync : Microsoft.Hpc.Scheduler.Session.SessionAttachInfo * System.ServiceModel.Channels.Binding -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.AttachSessionAsync (attachInfo, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.DurableSession/&lt;AttachSessionAsync&gt;d__8))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionAttachInfo" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="attachInfo">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateSession">
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginCreateSession (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginCreateSession(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.BeginCreateSession(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BeginCreateSession (startInfo As SessionStartInfo, callback As AsyncCallback, asyncState As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="static member BeginCreateSession : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * AsyncCallback * obj -&gt; IAsyncResult" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.BeginCreateSession (startInfo, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateSession">
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginCreateSession (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, System.ServiceModel.Channels.Binding binding, AsyncCallback callback, object asyncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginCreateSession(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, class System.ServiceModel.Channels.Binding binding, class System.AsyncCallback callback, object asyncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.BeginCreateSession(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.ServiceModel.Channels.Binding,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="F#" Value="static member BeginCreateSession : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * System.ServiceModel.Channels.Binding * AsyncCallback * obj -&gt; IAsyncResult" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.BeginCreateSession (startInfo, binding, callback, asyncState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="asyncState" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="binding">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="asyncState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSession">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.DurableSession CreateSession (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.DurableSession CreateSession(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSession(Microsoft.Hpc.Scheduler.Session.SessionStartInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateSession (startInfo As SessionStartInfo) As DurableSession" />
+      <MemberSignature Language="F#" Value="static member CreateSession : Microsoft.Hpc.Scheduler.Session.SessionStartInfo -&gt; Microsoft.Hpc.Scheduler.Session.DurableSession" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSession startInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.DurableSession</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSession">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.DurableSession CreateSession (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.DurableSession CreateSession(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSession(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="static member CreateSession : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * System.ServiceModel.Channels.Binding -&gt; Microsoft.Hpc.Scheduler.Session.DurableSession" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSession (startInfo, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.DurableSession</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSessionAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt; CreateSessionAsync (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Session.DurableSession&gt; CreateSessionAsync(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSessionAsync(Microsoft.Hpc.Scheduler.Session.SessionStartInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateSessionAsync (startInfo As SessionStartInfo) As Task(Of DurableSession)" />
+      <MemberSignature Language="F#" Value="static member CreateSessionAsync : Microsoft.Hpc.Scheduler.Session.SessionStartInfo -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSessionAsync startInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.DurableSession/&lt;CreateSessionAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSessionAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt; CreateSessionAsync (Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Session.DurableSession&gt; CreateSessionAsync(class Microsoft.Hpc.Scheduler.Session.SessionStartInfo startInfo, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSessionAsync(Microsoft.Hpc.Scheduler.Session.SessionStartInfo,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="static member CreateSessionAsync : Microsoft.Hpc.Scheduler.Session.SessionStartInfo * System.ServiceModel.Channels.Binding -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.CreateSessionAsync (startInfo, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.DurableSession/&lt;CreateSessionAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Session.DurableSession&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionStartInfo" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="startInfo">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCreateSession">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Session.DurableSession EndCreateSession (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Session.DurableSession EndCreateSession(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.DurableSession.EndCreateSession(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EndCreateSession (result As IAsyncResult) As DurableSession" />
+      <MemberSignature Language="F#" Value="static member EndCreateSession : IAsyncResult -&gt; Microsoft.Hpc.Scheduler.Session.DurableSession" Usage="Microsoft.Hpc.Scheduler.Session.DurableSession.EndCreateSession result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.DurableSession</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

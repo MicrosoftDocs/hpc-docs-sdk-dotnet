@@ -1,0 +1,104 @@
+﻿<Type Name="JobUnitType" FullName="Microsoft.Hpc.Scheduler.Properties.JobUnitType">
+  <TypeSignature Language="C#" Value="public enum JobUnitType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobUnitType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.JobUnitType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum JobUnitType" />
+  <TypeSignature Language="F#" Value="type JobUnitType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("90A57885-5870-4326-9EF2-6EFD7BFCEE97")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the hardware resources used to determine on which nodes the job can run.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Core">
+      <MemberSignature Language="C#" Value="Core" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType Core = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobUnitType.Core" />
+      <MemberSignature Language="VB.NET" Value="Core" />
+      <MemberSignature Language="F#" Value="Core = 0" Usage="Microsoft.Hpc.Scheduler.Properties.JobUnitType.Core" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobUnitType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Use cores to schedule the job. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Gpu">
+      <MemberSignature Language="C#" Value="Gpu" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType Gpu = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobUnitType.Gpu" />
+      <MemberSignature Language="VB.NET" Value="Gpu" />
+      <MemberSignature Language="F#" Value="Gpu = 3" Usage="Microsoft.Hpc.Scheduler.Properties.JobUnitType.Gpu" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobUnitType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Node">
+      <MemberSignature Language="C#" Value="Node" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType Node = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobUnitType.Node" />
+      <MemberSignature Language="VB.NET" Value="Node" />
+      <MemberSignature Language="F#" Value="Node = 2" Usage="Microsoft.Hpc.Scheduler.Properties.JobUnitType.Node" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobUnitType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Use nodes to schedule the job. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Socket">
+      <MemberSignature Language="C#" Value="Socket" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType Socket = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobUnitType.Socket" />
+      <MemberSignature Language="VB.NET" Value="Socket" />
+      <MemberSignature Language="F#" Value="Socket = 1" Usage="Microsoft.Hpc.Scheduler.Properties.JobUnitType.Socket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobUnitType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Use sockets to scheduler the job. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

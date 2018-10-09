@@ -1,0 +1,229 @@
+﻿<Type Name="BlobTransferOptions" FullName="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions">
+  <TypeSignature Language="C#" Value="public class BlobTransferOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BlobTransferOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class BlobTransferOptions" />
+  <TypeSignature Language="F#" Value="type BlobTransferOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendToClientRequestId">
+      <MemberSignature Language="C#" Value="public void AppendToClientRequestId (string postfix);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendToClientRequestId(string postfix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.AppendToClientRequestId(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AppendToClientRequestId (postfix As String)" />
+      <MemberSignature Language="F#" Value="member this.AppendToClientRequestId : string -&gt; unit" Usage="blobTransferOptions.AppendToClientRequestId postfix" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="postfix" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="postfix">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockSize">
+      <MemberSignature Language="C#" Value="public int BlockSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BlockSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.BlockSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockSize As Integer" />
+      <MemberSignature Language="F#" Value="member this.BlockSize : int with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.BlockSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Concurrency">
+      <MemberSignature Language="C#" Value="public int Concurrency { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Concurrency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.Concurrency" />
+      <MemberSignature Language="VB.NET" Value="Public Property Concurrency As Integer" />
+      <MemberSignature Language="F#" Value="member this.Concurrency : int with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.Concurrency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBlobRequestOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions GetBlobRequestOptions (Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation operation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions GetBlobRequestOptions(valuetype Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation operation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.GetBlobRequestOptions(Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBlobRequestOptions (operation As BlobRequestOperation) As BlobRequestOptions" />
+      <MemberSignature Language="F#" Value="member this.GetBlobRequestOptions : Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation -&gt; Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions" Usage="blobTransferOptions.GetBlobRequestOptions operation" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operation" Type="Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation" />
+      </Parameters>
+      <Docs>
+        <param name="operation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClientRequestId">
+      <MemberSignature Language="C#" Value="public string GetClientRequestId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetClientRequestId() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.GetClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetClientRequestId () As String" />
+      <MemberSignature Language="F#" Value="member this.GetClientRequestId : unit -&gt; string" Usage="blobTransferOptions.GetClientRequestId " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumCacheSize">
+      <MemberSignature Language="C#" Value="public long MaximumCacheSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 MaximumCacheSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.MaximumCacheSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumCacheSize As Long" />
+      <MemberSignature Language="F#" Value="member this.MaximumCacheSize : int64 with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.MaximumCacheSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OverwritePromptCallback">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferOverwritePromptCallback OverwritePromptCallback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferOverwritePromptCallback OverwritePromptCallback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.OverwritePromptCallback" />
+      <MemberSignature Language="VB.NET" Value="Public Property OverwritePromptCallback As BlobTransferOverwritePromptCallback" />
+      <MemberSignature Language="F#" Value="member this.OverwritePromptCallback : Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferOverwritePromptCallback with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.OverwritePromptCallback" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferOverwritePromptCallback</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetransferModifiedCallback">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferRetransferModifiedFileCallback RetransferModifiedCallback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferRetransferModifiedFileCallback RetransferModifiedCallback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.RetransferModifiedCallback" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetransferModifiedCallback As BlobTransferRetransferModifiedFileCallback" />
+      <MemberSignature Language="F#" Value="member this.RetransferModifiedCallback : Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferRetransferModifiedFileCallback with get, set" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.RetransferModifiedCallback" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferCallbacks.BlobTransferRetransferModifiedFileCallback</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBlobRequestOptions">
+      <MemberSignature Language="C#" Value="public void SetBlobRequestOptions (Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation operation, Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions blobRequestOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBlobRequestOptions(valuetype Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation operation, class Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions blobRequestOptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferOptions.SetBlobRequestOptions(Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation,Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions)" />
+      <MemberSignature Language="F#" Value="member this.SetBlobRequestOptions : Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation * Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions -&gt; unit" Usage="blobTransferOptions.SetBlobRequestOptions (operation, blobRequestOptions)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operation" Type="Microsoft.Hpc.Azure.DataMovement.BlobRequestOperation" />
+        <Parameter Name="blobRequestOptions" Type="Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions" />
+      </Parameters>
+      <Docs>
+        <param name="operation">To be added.</param>
+        <param name="blobRequestOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

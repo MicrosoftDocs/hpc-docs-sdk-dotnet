@@ -1,0 +1,71 @@
+﻿<Type Name="ISubmissionFilterInternal" FullName="Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ISubmissionFilterInternal">
+  <TypeSignature Language="C#" Value="public interface ISubmissionFilterInternal" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISubmissionFilterInternal" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ISubmissionFilterInternal" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISubmissionFilterInternal" />
+  <TypeSignature Language="F#" Value="type ISubmissionFilterInternal = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FilterSubmission">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.SubmissionFilterResponseInternal FilterSubmission (System.IO.Stream jobXml, out System.IO.Stream jobXmlModified, int executionTimeoutMillSecs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.SubmissionFilterResponseInternal FilterSubmission(class System.IO.Stream jobXml, [out] class System.IO.Stream&amp; jobXmlModified, int32 executionTimeoutMillSecs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ISubmissionFilterInternal.FilterSubmission(System.IO.Stream,System.IO.Stream@,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FilterSubmission (jobXml As Stream, ByRef jobXmlModified As Stream, executionTimeoutMillSecs As Integer) As SubmissionFilterResponseInternal" />
+      <MemberSignature Language="F#" Value="abstract member FilterSubmission : System.IO.Stream *  * int -&gt; Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.SubmissionFilterResponseInternal" Usage="iSubmissionFilterInternal.FilterSubmission (jobXml, jobXmlModified, executionTimeoutMillSecs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.SubmissionFilterResponseInternal</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="jobXmlModified" Type="System.IO.Stream&amp;" RefType="out" />
+        <Parameter Name="executionTimeoutMillSecs" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="jobXmlModified">To be added.</param>
+        <param name="executionTimeoutMillSecs">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevertSubmission">
+      <MemberSignature Language="C#" Value="public void RevertSubmission (System.IO.Stream jobXml, int executionTimeoutMillSecs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevertSubmission(class System.IO.Stream jobXml, int32 executionTimeoutMillSecs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ISubmissionFilterInternal.RevertSubmission(System.IO.Stream,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RevertSubmission (jobXml As Stream, executionTimeoutMillSecs As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RevertSubmission : System.IO.Stream * int -&gt; unit" Usage="iSubmissionFilterInternal.RevertSubmission (jobXml, executionTimeoutMillSecs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobXml" Type="System.IO.Stream" />
+        <Parameter Name="executionTimeoutMillSecs" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobXml">To be added.</param>
+        <param name="executionTimeoutMillSecs">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

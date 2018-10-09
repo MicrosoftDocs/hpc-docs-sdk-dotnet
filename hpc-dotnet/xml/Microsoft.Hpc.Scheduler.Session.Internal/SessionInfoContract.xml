@@ -1,0 +1,492 @@
+﻿<Type Name="SessionInfoContract" FullName="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract">
+  <TypeSignature Language="C#" Value="public class SessionInfoContract" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SessionInfoContract extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract" />
+  <TypeSignature Language="VB.NET" Value="Public Class SessionInfoContract" />
+  <TypeSignature Language="F#" Value="type SessionInfoContract = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract(Name="SessionInfo", Namespace="http://hpc.microsoft.com/SessionLauncher")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SessionInfoContract ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrokerEpr">
+      <MemberSignature Language="C#" Value="public string[] BrokerEpr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] BrokerEpr" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.BrokerEpr" />
+      <MemberSignature Language="VB.NET" Value="Public Property BrokerEpr As String()" />
+      <MemberSignature Language="F#" Value="member this.BrokerEpr : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.BrokerEpr" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrokerLauncherEpr">
+      <MemberSignature Language="C#" Value="public string BrokerLauncherEpr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BrokerLauncherEpr" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.BrokerLauncherEpr" />
+      <MemberSignature Language="VB.NET" Value="Public Property BrokerLauncherEpr As String" />
+      <MemberSignature Language="F#" Value="member this.BrokerLauncherEpr : string with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.BrokerLauncherEpr" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientBrokerHeartbeatInterval">
+      <MemberSignature Language="C#" Value="public int ClientBrokerHeartbeatInterval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ClientBrokerHeartbeatInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ClientBrokerHeartbeatInterval" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientBrokerHeartbeatInterval As Integer" />
+      <MemberSignature Language="F#" Value="member this.ClientBrokerHeartbeatInterval : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ClientBrokerHeartbeatInterval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientBrokerHeartbeatRetryCount">
+      <MemberSignature Language="C#" Value="public int ClientBrokerHeartbeatRetryCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ClientBrokerHeartbeatRetryCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ClientBrokerHeartbeatRetryCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientBrokerHeartbeatRetryCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.ClientBrokerHeartbeatRetryCount : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ClientBrokerHeartbeatRetryCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControllerEpr">
+      <MemberSignature Language="C#" Value="public string[] ControllerEpr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] ControllerEpr" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ControllerEpr" />
+      <MemberSignature Language="VB.NET" Value="Public Property ControllerEpr As String()" />
+      <MemberSignature Language="F#" Value="member this.ControllerEpr : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ControllerEpr" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Durable">
+      <MemberSignature Language="C#" Value="public bool Durable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Durable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.Durable" />
+      <MemberSignature Language="VB.NET" Value="Public Property Durable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Durable : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.Durable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobState">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobState JobState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobState JobState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.JobState" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobState As JobState" />
+      <MemberSignature Language="F#" Value="member this.JobState : Microsoft.Hpc.Scheduler.Properties.JobState with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.JobState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseEpr">
+      <MemberSignature Language="C#" Value="public string[] ResponseEpr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] ResponseEpr" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ResponseEpr" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseEpr As String()" />
+      <MemberSignature Language="F#" Value="member this.ResponseEpr : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ResponseEpr" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Secure">
+      <MemberSignature Language="C#" Value="public bool Secure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Secure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.Secure" />
+      <MemberSignature Language="VB.NET" Value="Public Property Secure As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Secure : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.Secure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerVersion">
+      <MemberSignature Language="C#" Value="public Version ServerVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version ServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServerVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.ServerVersion : Version with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ServerVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceOperationTimeout">
+      <MemberSignature Language="C#" Value="public int ServiceOperationTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ServiceOperationTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ServiceOperationTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceOperationTimeout As Integer" />
+      <MemberSignature Language="F#" Value="member this.ServiceOperationTimeout : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ServiceOperationTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceVersion">
+      <MemberSignature Language="C#" Value="public Version ServiceVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version ServiceVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ServiceVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.ServiceVersion : Version with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.ServiceVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionACL">
+      <MemberSignature Language="C#" Value="public string[] SessionACL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] SessionACL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.SessionACL" />
+      <MemberSignature Language="VB.NET" Value="Public Property SessionACL As String()" />
+      <MemberSignature Language="F#" Value="member this.SessionACL : string[] with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.SessionACL" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionOwner">
+      <MemberSignature Language="C#" Value="public string SessionOwner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SessionOwner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.SessionOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Property SessionOwner As String" />
+      <MemberSignature Language="F#" Value="member this.SessionOwner : string with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.SessionOwner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransportScheme">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Session.TransportScheme TransportScheme { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Session.TransportScheme TransportScheme" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.TransportScheme" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransportScheme As TransportScheme" />
+      <MemberSignature Language="F#" Value="member this.TransportScheme : Microsoft.Hpc.Scheduler.Session.TransportScheme with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.TransportScheme" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Session.TransportScheme</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseAad">
+      <MemberSignature Language="C#" Value="public bool UseAad { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseAad" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.UseAad" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseAad As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseAad : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.UseAad" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInprocessBroker">
+      <MemberSignature Language="C#" Value="public bool UseInprocessBroker { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseInprocessBroker" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.UseInprocessBroker" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseInprocessBroker As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseInprocessBroker : bool with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Internal.SessionInfoContract.UseInprocessBroker" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,318 @@
+﻿<Type Name="ICertPropertyRequestOriginator" FullName="Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator">
+  <TypeSignature Language="C#" Value="public interface ICertPropertyRequestOriginator : Microsoft.Hpc.Scheduler.Store.ICertProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICertPropertyRequestOriginator implements class Microsoft.Hpc.Scheduler.Store.ICertProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICertPropertyRequestOriginator&#xA;Implements ICertProperty" />
+  <TypeSignature Language="F#" Value="type ICertPropertyRequestOriginator = interface&#xA;    interface ICertProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.ICertProperty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB333-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize (string strRequestOriginator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize([in]string strRequestOriginator) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.Initialize(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (strRequestOriginator As String)" />
+      <MemberSignature Language="F#" Value="abstract member Initialize : string -&gt; unit" Usage="iCertPropertyRequestOriginator.Initialize strRequestOriginator" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strRequestOriginator" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="strRequestOriginator">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeDecode">
+      <MemberSignature Language="C#" Value="public void InitializeDecode (Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strEncodedData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeDecode([in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strEncodedData) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.InitializeDecode(Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeDecode (Encoding As EncodingType, strEncodedData As String)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeDecode : Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iCertPropertyRequestOriginator.InitializeDecode (Encoding, strEncodedData)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.ICertProperty.InitializeDecode(Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strEncodedData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Encoding">To be added.</param>
+        <param name="strEncodedData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeFromCertificate">
+      <MemberSignature Language="C#" Value="public void InitializeFromCertificate (bool MachineContext, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strCertificate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeFromCertificate([in]bool MachineContext, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strCertificate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.InitializeFromCertificate(System.Boolean,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeFromCertificate (MachineContext As Boolean, Encoding As EncodingType, strCertificate As String)" />
+      <MemberSignature Language="F#" Value="abstract member InitializeFromCertificate : bool * Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iCertPropertyRequestOriginator.InitializeFromCertificate (MachineContext, Encoding, strCertificate)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.ICertProperty.InitializeFromCertificate(System.Boolean,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MachineContext" Type="System.Boolean" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strCertificate" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="MachineContext">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="strCertificate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeFromLocalRequestOriginator">
+      <MemberSignature Language="C#" Value="public void InitializeFromLocalRequestOriginator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitializeFromLocalRequestOriginator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitializeFromLocalRequestOriginator ()" />
+      <MemberSignature Language="F#" Value="abstract member InitializeFromLocalRequestOriginator : unit -&gt; unit" Usage="iCertPropertyRequestOriginator.InitializeFromLocalRequestOriginator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[Microsoft.Hpc.Scheduler.Store.EncodingType Encoding] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Encoding As EncodingType) As String" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Hpc.Scheduler.Store.EncodingType) : string" Usage="Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.ICertProperty.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.CERTENROLL_PROPERTYID PropertyId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Store.CERTENROLL_PROPERTYID PropertyId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.PropertyId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyId As CERTENROLL_PROPERTYID" />
+      <MemberSignature Language="F#" Value="member this.PropertyId : Microsoft.Hpc.Scheduler.Store.CERTENROLL_PROPERTYID with get, set" Usage="Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.PropertyId" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.ICertProperty.PropertyId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.CERTENROLL_PROPERTYID</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveFromCertificate">
+      <MemberSignature Language="C#" Value="public void RemoveFromCertificate (bool MachineContext, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strCertificate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveFromCertificate([in]bool MachineContext, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strCertificate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.RemoveFromCertificate(System.Boolean,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveFromCertificate (MachineContext As Boolean, Encoding As EncodingType, strCertificate As String)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveFromCertificate : bool * Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iCertPropertyRequestOriginator.RemoveFromCertificate (MachineContext, Encoding, strCertificate)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.ICertProperty.RemoveFromCertificate(System.Boolean,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MachineContext" Type="System.Boolean" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strCertificate" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="MachineContext">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="strCertificate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestOriginator">
+      <MemberSignature Language="C#" Value="public string RequestOriginator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequestOriginator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.RequestOriginator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestOriginator As String" />
+      <MemberSignature Language="F#" Value="member this.RequestOriginator : string" Usage="Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.RequestOriginator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetValueOnCertificate">
+      <MemberSignature Language="C#" Value="public void SetValueOnCertificate (bool MachineContext, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, string strCertificate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetValueOnCertificate([in]bool MachineContext, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]string strCertificate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ICertPropertyRequestOriginator.SetValueOnCertificate(System.Boolean,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetValueOnCertificate (MachineContext As Boolean, Encoding As EncodingType, strCertificate As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetValueOnCertificate : bool * Microsoft.Hpc.Scheduler.Store.EncodingType * string -&gt; unit" Usage="iCertPropertyRequestOriginator.SetValueOnCertificate (MachineContext, Encoding, strCertificate)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.ICertProperty.SetValueOnCertificate(System.Boolean,Microsoft.Hpc.Scheduler.Store.EncodingType,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MachineContext" Type="System.Boolean" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="strCertificate" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="MachineContext">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="strCertificate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

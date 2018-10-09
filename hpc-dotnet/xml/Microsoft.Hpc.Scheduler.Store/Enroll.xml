@@ -1,0 +1,245 @@
+﻿<Type Name="Enroll" FullName="Microsoft.Hpc.Scheduler.Store.Enroll">
+  <TypeSignature Language="C#" Value="public class Enroll" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Enroll extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.Enroll" />
+  <TypeSignature Language="VB.NET" Value="Public Class Enroll" />
+  <TypeSignature Language="F#" Value="type Enroll = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Enroll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollToCertificate">
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 EnrollToCertificate (string templateName, Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext enrollmentContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 EnrollToCertificate(string templateName, valuetype Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext enrollmentContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToCertificate(System.String,Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EnrollToCertificate (templateName As String, enrollmentContext As X509CertificateEnrollmentContext) As X509Certificate2" />
+      <MemberSignature Language="F#" Value="static member EnrollToCertificate : string * Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToCertificate (templateName, enrollmentContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+        <Parameter Name="enrollmentContext" Type="Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <param name="enrollmentContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollToCertificateUserContext">
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 EnrollToCertificateUserContext (string templateName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 EnrollToCertificateUserContext(string templateName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToCertificateUserContext(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EnrollToCertificateUserContext (templateName As String) As X509Certificate2" />
+      <MemberSignature Language="F#" Value="static member EnrollToCertificateUserContext : string -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToCertificateUserContext templateName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollToPfx">
+      <MemberSignature Language="C#" Value="public static string EnrollToPfx (string templateName, string password, Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext enrollmentContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string EnrollToPfx(string templateName, string password, valuetype Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext enrollmentContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfx(System.String,System.String,Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EnrollToPfx (templateName As String, password As String, enrollmentContext As X509CertificateEnrollmentContext) As String" />
+      <MemberSignature Language="F#" Value="static member EnrollToPfx : string * string * Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfx (templateName, password, enrollmentContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="enrollmentContext" Type="Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="enrollmentContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollToPfxAsn1">
+      <MemberSignature Language="C#" Value="public static byte[] EnrollToPfxAsn1 (string templateName, string password, Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext enrollmentContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] EnrollToPfxAsn1(string templateName, string password, valuetype Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext enrollmentContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfxAsn1(System.String,System.String,Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EnrollToPfxAsn1 (templateName As String, password As String, enrollmentContext As X509CertificateEnrollmentContext) As Byte()" />
+      <MemberSignature Language="F#" Value="static member EnrollToPfxAsn1 : string * string * Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; byte[]" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfxAsn1 (templateName, password, enrollmentContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="enrollmentContext" Type="Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="enrollmentContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollToPfxAsn1UserContext">
+      <MemberSignature Language="C#" Value="public static byte[] EnrollToPfxAsn1UserContext (string templateName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] EnrollToPfxAsn1UserContext(string templateName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfxAsn1UserContext(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EnrollToPfxAsn1UserContext (templateName As String, password As String) As Byte()" />
+      <MemberSignature Language="F#" Value="static member EnrollToPfxAsn1UserContext : string * string -&gt; byte[]" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfxAsn1UserContext (templateName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollToPfxUserContext">
+      <MemberSignature Language="C#" Value="public static string EnrollToPfxUserContext (string templateName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string EnrollToPfxUserContext(string templateName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfxUserContext(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EnrollToPfxUserContext (templateName As String, password As String) As String" />
+      <MemberSignature Language="F#" Value="static member EnrollToPfxUserContext : string * string -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.EnrollToPfxUserContext (templateName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplateCommonName">
+      <MemberSignature Language="C#" Value="public static string GetTemplateCommonName (string templateFriendlyName, Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetTemplateCommonName(string templateFriendlyName, valuetype Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.GetTemplateCommonName(System.String,Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetTemplateCommonName (templateFriendlyName As String, context As X509CertificateEnrollmentContext) As String" />
+      <MemberSignature Language="F#" Value="static member GetTemplateCommonName : string * Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.GetTemplateCommonName (templateFriendlyName, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateFriendlyName" Type="System.String" />
+        <Parameter Name="context" Type="Microsoft.Hpc.Scheduler.Store.X509CertificateEnrollmentContext" />
+      </Parameters>
+      <Docs>
+        <param name="templateFriendlyName">To be added.</param>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplateCommonNameUserContext">
+      <MemberSignature Language="C#" Value="public static string GetTemplateCommonNameUserContext (string templateFriendlyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetTemplateCommonNameUserContext(string templateFriendlyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.Enroll.GetTemplateCommonNameUserContext(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetTemplateCommonNameUserContext (templateFriendlyName As String) As String" />
+      <MemberSignature Language="F#" Value="static member GetTemplateCommonNameUserContext : string -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.Enroll.GetTemplateCommonNameUserContext templateFriendlyName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateFriendlyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="templateFriendlyName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

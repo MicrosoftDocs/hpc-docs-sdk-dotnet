@@ -1,0 +1,114 @@
+﻿<Type Name="IClusterResource" FullName="Microsoft.Hpc.Scheduler.Store.IClusterResource">
+  <TypeSignature Language="C#" Value="public interface IClusterResource : Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClusterResource implements class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IClusterResource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClusterResource&#xA;Implements IClusterStoreObject" />
+  <TypeSignature Language="F#" Value="type IClusterResource = interface&#xA;    interface IClusterStoreObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.IClusterStoreObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClearJob">
+      <MemberSignature Language="C#" Value="public void ClearJob ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearJob() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterResource.ClearJob" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearJob ()" />
+      <MemberSignature Language="F#" Value="abstract member ClearJob : unit -&gt; unit" Usage="iClusterResource.ClearJob " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearReservedJob">
+      <MemberSignature Language="C#" Value="public void ClearReservedJob ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearReservedJob() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterResource.ClearReservedJob" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearReservedJob ()" />
+      <MemberSignature Language="F#" Value="abstract member ClearReservedJob : unit -&gt; unit" Usage="iClusterResource.ClearReservedJob " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReserveForJob">
+      <MemberSignature Language="C#" Value="public void ReserveForJob (int jobId, DateTime reserveLimitTime, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReserveForJob(int32 jobId, valuetype System.DateTime reserveLimitTime, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterResource.ReserveForJob(System.Int32,System.DateTime,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReserveForJob (jobId As Integer, reserveLimitTime As DateTime, jobProperties As StoreProperty())" />
+      <MemberSignature Language="F#" Value="abstract member ReserveForJob : int * DateTime * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="iClusterResource.ReserveForJob (jobId, reserveLimitTime, jobProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="reserveLimitTime" Type="System.DateTime" />
+        <Parameter Name="jobProperties" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="reserveLimitTime">To be added.</param>
+        <param name="jobProperties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduleJob">
+      <MemberSignature Language="C#" Value="public void ScheduleJob (int jobId, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScheduleJob(int32 jobId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterResource.ScheduleJob(System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScheduleJob (jobId As Integer, jobProperties As StoreProperty())" />
+      <MemberSignature Language="F#" Value="abstract member ScheduleJob : int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="iClusterResource.ScheduleJob (jobId, jobProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="jobProperties" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="jobProperties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

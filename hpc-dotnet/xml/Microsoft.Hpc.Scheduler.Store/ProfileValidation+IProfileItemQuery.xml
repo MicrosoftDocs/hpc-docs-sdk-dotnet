@@ -1,0 +1,42 @@
+﻿<Type Name="ProfileValidation+IProfileItemQuery" FullName="Microsoft.Hpc.Scheduler.Store.ProfileValidation+IProfileItemQuery">
+  <TypeSignature Language="C#" Value="public interface ProfileValidation.IProfileItemQuery" />
+  <TypeSignature Language="ILAsm" Value=".class nested public interface auto ansi abstract ProfileValidation/IProfileItemQuery" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ProfileValidation.IProfileItemQuery" />
+  <TypeSignature Language="F#" Value="type ProfileValidation.IProfileItemQuery = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetItemForValidation">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem GetItemForValidation (Microsoft.Hpc.Scheduler.Properties.PropertyId pid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem GetItemForValidation(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ProfileValidation.IProfileItemQuery.GetItemForValidation(Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetItemForValidation (pid As PropertyId) As ClusterJobProfileItem" />
+      <MemberSignature Language="F#" Value="abstract member GetItemForValidation : Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem" Usage="iProfileItemQuery.GetItemForValidation pid" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ClusterJobProfileItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

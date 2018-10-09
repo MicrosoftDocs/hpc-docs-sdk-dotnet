@@ -1,0 +1,54 @@
+﻿<Type Name="ISchedulerNodeEvents" FullName="Microsoft.Hpc.Scheduler.ISchedulerNodeEvents">
+  <TypeSignature Language="C#" Value="public interface ISchedulerNodeEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerNodeEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerNodeEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerNodeEvents" />
+  <TypeSignature Language="F#" Value="type ISchedulerNodeEvents = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8644EB2D-B177-43f7-8BB5-53C7D3ECB605")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnNodeState">
+      <MemberSignature Language="C#" Value="public void OnNodeState (object sender, Microsoft.Hpc.Scheduler.NodeStateEventArg arg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnNodeState(object sender, class Microsoft.Hpc.Scheduler.NodeStateEventArg arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerNodeEvents.OnNodeState(System.Object,Microsoft.Hpc.Scheduler.NodeStateEventArg)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnNodeState (sender As Object, arg As NodeStateEventArg)" />
+      <MemberSignature Language="F#" Value="abstract member OnNodeState : obj * Microsoft.Hpc.Scheduler.NodeStateEventArg -&gt; unit" Usage="iSchedulerNodeEvents.OnNodeState (sender, arg)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="arg" Type="Microsoft.Hpc.Scheduler.NodeStateEventArg" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

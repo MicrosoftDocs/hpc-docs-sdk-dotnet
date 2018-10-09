@@ -1,0 +1,293 @@
+﻿<Type Name="LoadBalancingConfiguration" FullName="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration">
+  <TypeSignature Language="C#" Value="public class LoadBalancingConfiguration : System.Configuration.ConfigurationSection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LoadBalancingConfiguration extends System.Configuration.ConfigurationSection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class LoadBalancingConfiguration&#xA;Inherits ConfigurationSection" />
+  <TypeSignature Language="F#" Value="type LoadBalancingConfiguration = class&#xA;    inherit ConfigurationSection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Configuration.ConfigurationSection</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LoadBalancingConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DispatcherCapacityInGrowShrink">
+      <MemberSignature Language="C#" Value="public int DispatcherCapacityInGrowShrink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DispatcherCapacityInGrowShrink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.DispatcherCapacityInGrowShrink" />
+      <MemberSignature Language="VB.NET" Value="Public Property DispatcherCapacityInGrowShrink As Integer" />
+      <MemberSignature Language="F#" Value="member this.DispatcherCapacityInGrowShrink : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.DispatcherCapacityInGrowShrink" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndpointNotFoundRetryCountLimit">
+      <MemberSignature Language="C#" Value="public int EndpointNotFoundRetryCountLimit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndpointNotFoundRetryCountLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.EndpointNotFoundRetryCountLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndpointNotFoundRetryCountLimit As Integer" />
+      <MemberSignature Language="F#" Value="member this.EndpointNotFoundRetryCountLimit : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.EndpointNotFoundRetryCountLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndpointNotFoundRetryPeriod">
+      <MemberSignature Language="C#" Value="public int EndpointNotFoundRetryPeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndpointNotFoundRetryPeriod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.EndpointNotFoundRetryPeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndpointNotFoundRetryPeriod As Integer" />
+      <MemberSignature Language="F#" Value="member this.EndpointNotFoundRetryPeriod : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.EndpointNotFoundRetryPeriod" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxConnectionCountPerAzureProxy">
+      <MemberSignature Language="C#" Value="public int MaxConnectionCountPerAzureProxy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxConnectionCountPerAzureProxy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.MaxConnectionCountPerAzureProxy" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxConnectionCountPerAzureProxy As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxConnectionCountPerAzureProxy : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.MaxConnectionCountPerAzureProxy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageResendLimit">
+      <MemberSignature Language="C#" Value="public int MessageResendLimit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MessageResendLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.MessageResendLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageResendLimit As Integer" />
+      <MemberSignature Language="F#" Value="member this.MessageResendLimit : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.MessageResendLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiEmissionDelayTime">
+      <MemberSignature Language="C#" Value="public int MultiEmissionDelayTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MultiEmissionDelayTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.MultiEmissionDelayTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiEmissionDelayTime As Integer" />
+      <MemberSignature Language="F#" Value="member this.MultiEmissionDelayTime : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.MultiEmissionDelayTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDeserializeUnrecognizedAttribute">
+      <MemberSignature Language="C#" Value="protected override bool OnDeserializeUnrecognizedAttribute (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnDeserializeUnrecognizedAttribute(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.OnDeserializeUnrecognizedAttribute(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnDeserializeUnrecognizedAttribute (name As String, value As String) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnDeserializeUnrecognizedAttribute : string * string -&gt; bool" Usage="loadBalancingConfiguration.OnDeserializeUnrecognizedAttribute (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDeserializeUnrecognizedElement">
+      <MemberSignature Language="C#" Value="protected override bool OnDeserializeUnrecognizedElement (string elementName, System.Xml.XmlReader reader);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnDeserializeUnrecognizedElement(string elementName, class System.Xml.XmlReader reader) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.OnDeserializeUnrecognizedElement(System.String,System.Xml.XmlReader)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnDeserializeUnrecognizedElement (elementName As String, reader As XmlReader) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnDeserializeUnrecognizedElement : string * System.Xml.XmlReader -&gt; bool" Usage="loadBalancingConfiguration.OnDeserializeUnrecognizedElement (elementName, reader)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="elementName" Type="System.String" />
+        <Parameter Name="reader" Type="System.Xml.XmlReader" />
+      </Parameters>
+      <Docs>
+        <param name="elementName">To be added.</param>
+        <param name="reader">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="protected override System.Configuration.ConfigurationPropertyCollection Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Configuration.ConfigurationPropertyCollection Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.Properties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property Properties As ConfigurationPropertyCollection" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Configuration.ConfigurationPropertyCollection" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.Properties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Configuration.ConfigurationPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceOperationTimeout">
+      <MemberSignature Language="C#" Value="public int ServiceOperationTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ServiceOperationTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.ServiceOperationTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceOperationTimeout As Integer" />
+      <MemberSignature Language="F#" Value="member this.ServiceOperationTimeout : int with get, set" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.ServiceOperationTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceRequestPrefetchCount">
+      <MemberSignature Language="C#" Value="public int ServiceRequestPrefetchCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ServiceRequestPrefetchCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.ServiceRequestPrefetchCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceRequestPrefetchCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.ServiceRequestPrefetchCount : int" Usage="Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.ServiceRequestPrefetchCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public bool Validate (out string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Validate([out] string&amp; errorMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Configuration.LoadBalancingConfiguration.Validate(System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Validate (ByRef errorMessage As String) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Validate :  -&gt; bool" Usage="loadBalancingConfiguration.Validate errorMessage" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="errorMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="errorMessage">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

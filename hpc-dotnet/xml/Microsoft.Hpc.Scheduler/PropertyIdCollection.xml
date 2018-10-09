@@ -1,0 +1,146 @@
+﻿<Type Name="PropertyIdCollection" FullName="Microsoft.Hpc.Scheduler.PropertyIdCollection">
+  <TypeSignature Language="C#" Value="public class PropertyIdCollection : Microsoft.Hpc.Scheduler.SchedulerCollection&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;, Microsoft.Hpc.Scheduler.IPropertyIdCollection, System.Collections.Generic.ICollection&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;, System.Collections.ICollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PropertyIdCollection extends Microsoft.Hpc.Scheduler.SchedulerCollection`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId&gt; implements class Microsoft.Hpc.Scheduler.IPropertyIdCollection, class Microsoft.Hpc.Scheduler.ISchedulerCollection, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.PropertyIdCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class PropertyIdCollection&#xA;Inherits SchedulerCollection(Of PropertyId)&#xA;Implements ICollection, ICollection(Of PropertyId), IEnumerable(Of PropertyId), IPropertyIdCollection" />
+  <TypeSignature Language="F#" Value="type PropertyIdCollection = class&#xA;    inherit SchedulerCollection&lt;PropertyId&gt;&#xA;    interface IPropertyIdCollection&#xA;    interface ISchedulerCollection&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ICollection&lt;PropertyId&gt;&#xA;    interface seq&lt;PropertyId&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.SchedulerCollection&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Hpc.Scheduler.Properties.PropertyId</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.IPropertyIdCollection</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.ICollection</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0224915A-84AF-4863-9316-30377139F236")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a collection of property identifiers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertyIdCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.PropertyIdCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of this class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPropertyId">
+      <MemberSignature Language="C#" Value="public void AddPropertyId (Microsoft.Hpc.Scheduler.Properties.PropertyId propertyId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddPropertyId(class Microsoft.Hpc.Scheduler.Properties.PropertyId propertyId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.PropertyIdCollection.AddPropertyId(Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="F#" Value="abstract member AddPropertyId : Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; unit&#xA;override this.AddPropertyId : Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; unit" Usage="propertyIdCollection.AddPropertyId propertyId" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IPropertyIdCollection.AddPropertyId(Microsoft.Hpc.Scheduler.Properties.PropertyId)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyId" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="propertyId">A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies the property to add to the collection.</param>
+        <summary>Adds a property identifier to the collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.PropertyIdCollection.GetIds" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetIds () As PropertyId()" />
+      <MemberSignature Language="F#" Value="abstract member GetIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]&#xA;override this.GetIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="propertyIdCollection.GetIds " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IPropertyIdCollection.GetIds</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves and array of property identifiers.</summary>
+        <returns>An array of <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> objects that identify the properties in the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IPropertyIdCollection.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IPropertyIdCollection.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator Microsoft.Hpc.Scheduler.IPropertyIdCollection.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.PropertyIdCollection.Microsoft#Hpc#Scheduler#IPropertyIdCollection#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IPropertyIdCollection.GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IPropertyIdCollection.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

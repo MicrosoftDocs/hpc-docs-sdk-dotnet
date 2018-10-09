@@ -1,0 +1,292 @@
+﻿<Type Name="AsyncResult" FullName="Microsoft.Hpc.Scheduler.Store.AsyncResult">
+  <TypeSignature Language="C#" Value="public class AsyncResult : IAsyncResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AsyncResult extends System.Object implements class System.IAsyncResult" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.AsyncResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class AsyncResult&#xA;Implements IAsyncResult" />
+  <TypeSignature Language="F#" Value="type AsyncResult = class&#xA;    interface IAsyncResult" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IAsyncResult</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AsyncResult (Microsoft.Hpc.Scheduler.Properties.ObjectType objectType, int objectId, int stateMask, AsyncCallback callback, object param);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType objectType, int32 objectId, int32 stateMask, class System.AsyncCallback callback, object param) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.AsyncResult.#ctor(Microsoft.Hpc.Scheduler.Properties.ObjectType,System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.AsyncResult : Microsoft.Hpc.Scheduler.Properties.ObjectType * int * int * AsyncCallback * obj -&gt; Microsoft.Hpc.Scheduler.Store.AsyncResult" Usage="new Microsoft.Hpc.Scheduler.Store.AsyncResult (objectType, objectId, stateMask, callback, param)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="objectType" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+        <Parameter Name="objectId" Type="System.Int32" />
+        <Parameter Name="stateMask" Type="System.Int32" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="objectType">To be added.</param>
+        <param name="objectId">To be added.</param>
+        <param name="stateMask">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsyncState">
+      <MemberSignature Language="C#" Value="public object AsyncState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object AsyncState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.AsyncState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsyncState As Object" />
+      <MemberSignature Language="F#" Value="member this.AsyncState : obj" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.AsyncState" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.IAsyncResult.AsyncState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsyncWaitHandle">
+      <MemberSignature Language="C#" Value="public System.Threading.WaitHandle AsyncWaitHandle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.WaitHandle AsyncWaitHandle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.AsyncWaitHandle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsyncWaitHandle As WaitHandle" />
+      <MemberSignature Language="F#" Value="member this.AsyncWaitHandle : System.Threading.WaitHandle" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.AsyncWaitHandle" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.IAsyncResult.AsyncWaitHandle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.WaitHandle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.AsyncResult.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="F#" Value="member this.Close : unit -&gt; unit" Usage="asyncResult.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompletedSynchronously">
+      <MemberSignature Language="C#" Value="public bool CompletedSynchronously { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CompletedSynchronously" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.CompletedSynchronously" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompletedSynchronously As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CompletedSynchronously : bool" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.CompletedSynchronously" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.IAsyncResult.CompletedSynchronously</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoesStateMatch">
+      <MemberSignature Language="C#" Value="public bool DoesStateMatch (Microsoft.Hpc.Scheduler.Properties.JobState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool DoesStateMatch(valuetype Microsoft.Hpc.Scheduler.Properties.JobState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.AsyncResult.DoesStateMatch(Microsoft.Hpc.Scheduler.Properties.JobState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DoesStateMatch (state As JobState) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DoesStateMatch : Microsoft.Hpc.Scheduler.Properties.JobState -&gt; bool" Usage="asyncResult.DoesStateMatch state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoesStateMatch">
+      <MemberSignature Language="C#" Value="public bool DoesStateMatch (Microsoft.Hpc.Scheduler.Properties.TaskState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool DoesStateMatch(valuetype Microsoft.Hpc.Scheduler.Properties.TaskState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.AsyncResult.DoesStateMatch(Microsoft.Hpc.Scheduler.Properties.TaskState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DoesStateMatch (state As TaskState) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DoesStateMatch : Microsoft.Hpc.Scheduler.Properties.TaskState -&gt; bool" Usage="asyncResult.DoesStateMatch state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Hpc.Scheduler.Properties.TaskState" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invoke">
+      <MemberSignature Language="C#" Value="public void Invoke ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Invoke() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.AsyncResult.Invoke" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Invoke ()" />
+      <MemberSignature Language="F#" Value="member this.Invoke : unit -&gt; unit" Usage="asyncResult.Invoke " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCompleted">
+      <MemberSignature Language="C#" Value="public bool IsCompleted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCompleted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.IsCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCompleted As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCompleted : bool" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.IsCompleted" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.IAsyncResult.IsCompleted</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobId">
+      <MemberSignature Language="C#" Value="public int JobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 JobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.JobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.JobId : int" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.JobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="objectType">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ObjectType objectType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType objectType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.objectType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property objectType As ObjectType" />
+      <MemberSignature Language="F#" Value="member this.objectType : Microsoft.Hpc.Scheduler.Properties.ObjectType" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.objectType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ObjectType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultState">
+      <MemberSignature Language="C#" Value="public int ResultState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ResultState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.AsyncResult.ResultState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResultState As Integer" />
+      <MemberSignature Language="F#" Value="member this.ResultState : int with get, set" Usage="Microsoft.Hpc.Scheduler.Store.AsyncResult.ResultState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

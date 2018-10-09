@@ -1,0 +1,29 @@
+﻿<Type Name="ClusterConfigChangeDelegate" FullName="Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate">
+  <TypeSignature Language="C#" Value="public delegate void ClusterConfigChangeDelegate(string paramName, string oldValue, string newValue);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClusterConfigChangeDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ClusterConfigChangeDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ClusterConfigChangeDelegate(paramName As String, oldValue As String, newValue As String)" />
+  <TypeSignature Language="F#" Value="type ClusterConfigChangeDelegate = delegate of string * string * string -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="paramName" Type="System.String" />
+    <Parameter Name="oldValue" Type="System.String" />
+    <Parameter Name="newValue" Type="System.String" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="paramName">To be added.</param>
+    <param name="oldValue">To be added.</param>
+    <param name="newValue">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

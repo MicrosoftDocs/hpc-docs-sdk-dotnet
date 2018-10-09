@@ -1,0 +1,506 @@
+﻿<Type Name="ISchedulerNode" FullName="Microsoft.Hpc.Scheduler.ISchedulerNode">
+  <TypeSignature Language="C#" Value="public interface ISchedulerNode" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerNode" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerNode" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerNode" />
+  <TypeSignature Language="F#" Value="type ISchedulerNode = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("551E917C-94E8-49CC-83F4-D60FC8E5640D")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains information about a compute node.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Availability">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.NodeAvailability Availability { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.NodeAvailability Availability" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.Availability" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Availability As NodeAvailability" />
+      <MemberSignature Language="F#" Value="member this.Availability : Microsoft.Hpc.Scheduler.Properties.NodeAvailability" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.Availability" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.NodeAvailability</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AzureLoadBalancerAddress">
+      <MemberSignature Language="C#" Value="public string AzureLoadBalancerAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AzureLoadBalancerAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.AzureLoadBalancerAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AzureLoadBalancerAddress As String" />
+      <MemberSignature Language="F#" Value="member this.AzureLoadBalancerAddress : string" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.AzureLoadBalancerAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AzureServiceName">
+      <MemberSignature Language="C#" Value="public string AzureServiceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AzureServiceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.AzureServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AzureServiceName As String" />
+      <MemberSignature Language="F#" Value="member this.AzureServiceName : string" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.AzureServiceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CpuSpeed">
+      <MemberSignature Language="C#" Value="public int CpuSpeed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CpuSpeed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.CpuSpeed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CpuSpeed As Integer" />
+      <MemberSignature Language="F#" Value="member this.CpuSpeed : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.CpuSpeed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the processor speed of the node.</summary>
+        <value>The processor speed, in MHz.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DnsSuffix">
+      <MemberSignature Language="C#" Value="public string DnsSuffix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DnsSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.DnsSuffix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DnsSuffix As String" />
+      <MemberSignature Language="F#" Value="member this.DnsSuffix : string" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.DnsSuffix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCores">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerCollection GetCores ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerCollection GetCores() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerNode.GetCores" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCores () As ISchedulerCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetCores : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerCollection" Usage="iSchedulerNode.GetCores " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves the core state information for each core on the node.</summary>
+        <returns>An <see cref="T:Microsoft.Hpc.Scheduler.ISchedulerCollection"></see> interface that contains a collection of <see cref="T:Microsoft.Hpc.Scheduler.ISchedulerCore"></see> interfaces.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCounters">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerNodeCounters GetCounters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerNodeCounters GetCounters() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerNode.GetCounters" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCounters () As ISchedulerNodeCounters" />
+      <MemberSignature Language="F#" Value="abstract member GetCounters : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerNodeCounters" Usage="iSchedulerNode.GetCounters " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerNodeCounters</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves the counter data for the node.</summary>
+        <returns>An <see cref="T:Microsoft.Hpc.Scheduler.ISchedulerNodeCounters"></see> interface that contains the counter data.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Guid">
+      <MemberSignature Language="C#" Value="public Guid Guid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Guid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.Guid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Guid As Guid" />
+      <MemberSignature Language="F#" Value="member this.Guid : Guid" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.Guid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the globally unique identifier that uniquely identifies the node in the system.</summary>
+        <value>The node's system identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the identifier that uniquely identifies the node in the cluster.</summary>
+        <value>The sequential identifier given to the node when it was added to the cluster.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobType">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobType JobType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.JobType JobType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.JobType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobType As JobType" />
+      <MemberSignature Language="F#" Value="member this.JobType : Microsoft.Hpc.Scheduler.Properties.JobType" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.JobType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the types of jobs that this node is configured to run.</summary>
+        <value>The types of jobs that this node can run. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobType"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.NodeLocation Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.NodeLocation Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As NodeLocation" />
+      <MemberSignature Language="F#" Value="member this.Location : Microsoft.Hpc.Scheduler.Properties.NodeLocation" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.Location" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.NodeLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemorySize">
+      <MemberSignature Language="C#" Value="public long MemorySize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 MemorySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.MemorySize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemorySize As Long" />
+      <MemberSignature Language="F#" Value="member this.MemorySize : int64" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.MemorySize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the size of memory.</summary>
+        <value>The size of memory, in bytes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToOffline">
+      <MemberSignature Language="C#" Value="public bool MoveToOffline { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoveToOffline" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.MoveToOffline" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoveToOffline As Boolean" />
+      <MemberSignature Language="F#" Value="member this.MoveToOffline : bool" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.MoveToOffline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether a user requested that the node go offline.</summary>
+        <value>Is true if the user has requested that the node go offline; otherwise false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the computer name of the node.</summary>
+        <value>The name of the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeGroups">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection NodeGroups { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.IStringCollection NodeGroups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.NodeGroups" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeGroups As IStringCollection" />
+      <MemberSignature Language="F#" Value="member this.NodeGroups : Microsoft.Hpc.Scheduler.IStringCollection" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.NodeGroups" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the node groups to which this node belongs.</summary>
+        <value>An <see cref="T:Microsoft.Hpc.Scheduler.IStringCollection"></see> interface that contains a collection of node group names.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfCores">
+      <MemberSignature Language="C#" Value="public int NumberOfCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.NumberOfCores" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfCores As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfCores : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.NumberOfCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of cores on the node.</summary>
+        <value>The number of cores.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfSockets">
+      <MemberSignature Language="C#" Value="public int NumberOfSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.NumberOfSockets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfSockets As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfSockets : int" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.NumberOfSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the number of sockets on the node.</summary>
+        <value>The number of sockets.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfflineTime">
+      <MemberSignature Language="C#" Value="public DateTime OfflineTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OfflineTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.OfflineTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfflineTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.OfflineTime : DateTime" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.OfflineTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the date and time that the node last went offline.</summary>
+        <value>The last time that the node went offline. The value is in Coordinated Universal Time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlineTime">
+      <MemberSignature Language="C#" Value="public DateTime OnlineTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OnlineTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.OnlineTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OnlineTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.OnlineTime : DateTime" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.OnlineTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the date and time that the node last came online.</summary>
+        <value>The last time that the node came online. The value is in Coordinated Universal Time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnNodeReachable">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.NodeReachableEventArg&gt; OnNodeReachable;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.NodeReachableEventArg&gt; OnNodeReachable" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.ISchedulerNode.OnNodeReachable" />
+      <MemberSignature Language="VB.NET" Value="Event OnNodeReachable As EventHandler(Of NodeReachableEventArg) " />
+      <MemberSignature Language="F#" Value="member this.OnNodeReachable : EventHandler&lt;Microsoft.Hpc.Scheduler.NodeReachableEventArg&gt; " Usage="member this.OnNodeReachable : System.EventHandler&lt;Microsoft.Hpc.Scheduler.NodeReachableEventArg&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.NodeReachableEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnNodeState">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.NodeStateEventArg&gt; OnNodeState;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.NodeStateEventArg&gt; OnNodeState" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.ISchedulerNode.OnNodeState" />
+      <MemberSignature Language="VB.NET" Value="Event OnNodeState As EventHandler(Of NodeStateEventArg) " />
+      <MemberSignature Language="F#" Value="member this.OnNodeState : EventHandler&lt;Microsoft.Hpc.Scheduler.NodeStateEventArg&gt; " Usage="member this.OnNodeState : System.EventHandler&lt;Microsoft.Hpc.Scheduler.NodeStateEventArg&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.NodeStateEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reachable">
+      <MemberSignature Language="C#" Value="public bool Reachable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Reachable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.Reachable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Reachable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Reachable : bool" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.Reachable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the server thinks the node is reachable.</summary>
+        <value>Is true if the node is reachable; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public void Refresh ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerNode.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
+      <MemberSignature Language="F#" Value="abstract member Refresh : unit -&gt; unit" Usage="iSchedulerNode.Refresh " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Refreshes this copy of the node object with the contents from the server.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.NodeState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.NodeState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerNode.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As NodeState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Hpc.Scheduler.Properties.NodeState" Usage="Microsoft.Hpc.Scheduler.ISchedulerNode.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.NodeState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the current state of the node.</summary>
+        <value>The state of the node. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.NodeState"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

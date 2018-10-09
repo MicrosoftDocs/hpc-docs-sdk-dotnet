@@ -1,0 +1,2596 @@
+﻿<Type Name="JobPropertyIds" FullName="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds">
+  <TypeSignature Language="C#" Value="public class JobPropertyIds" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit JobPropertyIds extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobPropertyIds" />
+  <TypeSignature Language="F#" Value="type JobPropertyIds = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the identifiers that uniquely identify the properties of a job.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected JobPropertyIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedCores">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AllocatedCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AllocatedCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AllocatedCores" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AllocatedCores As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AllocatedCores : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AllocatedCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The cores that were allocated to the job the last time the job ran.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AllocatedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AllocatedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AllocatedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AllocatedNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AllocatedNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AllocatedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The nodes that were allocated to the job the last time the job ran.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedSockets">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AllocatedSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AllocatedSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AllocatedSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AllocatedSockets As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AllocatedSockets : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AllocatedSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The sockets that were allocated to the job the last time the job ran.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AskedNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AskedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AskedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AskedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AskedNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AskedNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AskedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The nodes that you requested for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoCalculateMax">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AutoCalculateMax { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AutoCalculateMax" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AutoCalculateMax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AutoCalculateMax As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AutoCalculateMax : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AutoCalculateMax" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the server automatically calculates the maximum resource value.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoCalculateMin">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AutoCalculateMin { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AutoCalculateMin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AutoCalculateMin" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AutoCalculateMin As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AutoCalculateMin : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AutoCalculateMin" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the server automatically calculates the minimum resource value.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoRequeueCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId AutoRequeueCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId AutoRequeueCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AutoRequeueCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AutoRequeueCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.AutoRequeueCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.AutoRequeueCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of times that the system reran the job when a system error occurred.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CallDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CallDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CallDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CallDuration As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CallDuration : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CallDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The average duration of a web-service message call in the session.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallsPerSecond">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CallsPerSecond { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CallsPerSecond" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CallsPerSecond" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CallsPerSecond As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CallsPerSecond : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CallsPerSecond" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of web-service calls made in the session in the last second.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanceledTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CanceledTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CanceledTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CanceledTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CanceledTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CanceledTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CanceledTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks that were canceled the last time the job ran.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelingTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CancelingTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CancelingTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CancelingTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CancelingTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CancelingTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CancelingTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks that are being canceled.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanGrow">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CanGrow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CanGrow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CanGrow" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CanGrow As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CanGrow : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CanGrow" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the job resources can grow.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanShrink">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CanShrink { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CanShrink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CanShrink" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CanShrink As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CanShrink : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CanShrink" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the job resources can shrink.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ChangeTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ChangeTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ChangeTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChangeTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ChangeTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ChangeTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The date and time that the job was last touched.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildJobId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ChildJobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ChildJobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ChildJobId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChildJobId As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ChildJobId : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ChildJobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An identifier that uniquely identifies the child job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildJobIds">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ChildJobIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ChildJobIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ChildJobIds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChildJobIds As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ChildJobIds : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ChildJobIds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientSource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ClientSource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ClientSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ClientSource" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ClientSource As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ClientSource : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ClientSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of the process that created the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientSubSource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ClientSubSource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ClientSubSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ClientSubSource" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ClientSubSource As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ClientSubSource : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ClientSubSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates whether the source was an XML file, executable, DLL, or a script.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedMaxCores">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMaxCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMaxCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMaxCores" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedMaxCores As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedMaxCores : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMaxCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of cores that the server has currently allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedMaxNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMaxNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMaxNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMaxNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedMaxNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedMaxNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMaxNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of nodes that the server has currently allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedMaxSockets">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMaxSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMaxSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMaxSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedMaxSockets As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedMaxSockets : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMaxSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of sockets that the server has currently allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedMinCores">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMinCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMinCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMinCores" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedMinCores As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedMinCores : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMinCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of cores that the server has currently allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedMinNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMinNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMinNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMinNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedMinNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedMinNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMinNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of nodes that the server has currently allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedMinSockets">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMinSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedMinSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMinSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedMinSockets As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedMinSockets : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedMinSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of sockets that the server has currently allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputedNodeList">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedNodeList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ComputedNodeList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedNodeList" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ComputedNodeList As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ComputedNodeList : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ComputedNodeList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The list of nodes currently allocated to your running job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfiguringTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ConfiguringTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ConfiguringTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ConfiguringTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ConfiguringTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ConfiguringTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ConfiguringTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks in the job that are being configured and have not yet been added to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CreateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CreateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CreateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CreateTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CreateTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CreateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The date and time that the job was created.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentCoreCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CurrentCoreCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CurrentCoreCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CurrentCoreCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CurrentCoreCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CurrentCoreCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CurrentCoreCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of cores allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentNodeCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CurrentNodeCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CurrentNodeCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CurrentNodeCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CurrentNodeCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CurrentNodeCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CurrentNodeCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of nodes allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentSocketCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId CurrentSocketCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId CurrentSocketCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CurrentSocketCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CurrentSocketCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.CurrentSocketCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.CurrentSocketCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of sockets allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultTaskGroupId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId DefaultTaskGroupId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId DefaultTaskGroupId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.DefaultTaskGroupId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultTaskGroupId As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.DefaultTaskGroupId : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.DefaultTaskGroupId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default task group for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DispatchingTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId DispatchingTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId DispatchingTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.DispatchingTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DispatchingTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.DispatchingTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.DispatchingTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId EmailAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId EmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EmailAddress As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.EmailAddress : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EmailAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedPassword">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId EncryptedPassword { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId EncryptedPassword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EncryptedPassword" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EncryptedPassword As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.EncryptedPassword : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EncryptedPassword" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The encrypted password of the RunAs user.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndpointReference">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId EndpointReference { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId EndpointReference" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EndpointReference" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EndpointReference As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.EndpointReference : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EndpointReference" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The endpoint references that a SOA-based client can connect to.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EndTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.EndTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The date and time that the job finished, failed or was canceled. </summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Error { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Error" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Error" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Error As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Error : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The reason why the property returned null.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ErrorCode As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ErrorCode : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ErrorCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An error code that identifies an error message string.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ErrorMessage As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ErrorMessage : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ErrorMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A description of the error that caused the job to fail, or the reason the job was canceled. </summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorParams">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ErrorParams { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ErrorParams" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ErrorParams" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ErrorParams As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ErrorParams : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ErrorParams" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The insert strings that are applied to the error message string.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EstimatedProcessMemory">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId EstimatedProcessMemory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId EstimatedProcessMemory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EstimatedProcessMemory" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EstimatedProcessMemory As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.EstimatedProcessMemory : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.EstimatedProcessMemory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludedNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ExcludedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ExcludedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ExcludedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ExcludedNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ExcludedNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ExcludedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandedPriority">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ExpandedPriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ExpandedPriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ExpandedPriority" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ExpandedPriority As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ExpandedPriority : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ExpandedPriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailDependentTasks">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId FailDependentTasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId FailDependentTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailDependentTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FailDependentTasks As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.FailDependentTasks : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailDependentTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId FailedTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId FailedTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailedTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FailedTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.FailedTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailedTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks in the job that failed the last time the job ran.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailOnTaskFailure">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId FailOnTaskFailure { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId FailOnTaskFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailOnTaskFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FailOnTaskFailure As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.FailOnTaskFailure : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailOnTaskFailure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the job fails when one of the tasks in the job fails.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailureReason">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId FailureReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId FailureReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailureReason" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FailureReason As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.FailureReason : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FailureReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The reason the task failed.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishedTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId FinishedTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId FinishedTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FinishedTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FinishedTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.FinishedTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FinishedTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks that finished running.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishingTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId FinishingTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId FinishingTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FinishingTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FinishingTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.FinishingTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.FinishingTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasGrown">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId HasGrown { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId HasGrown" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HasGrown" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HasGrown As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.HasGrown : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HasGrown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates whether the number of resources allocated to the job has grown since resources were last allocated.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasRuntime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId HasRuntime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId HasRuntime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HasRuntime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HasRuntime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.HasRuntime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HasRuntime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates whether the run-time limit for the job is set.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasShrunk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId HasShrunk { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId HasShrunk" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HasShrunk" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HasShrunk As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.HasShrunk : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HasShrunk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates whether the number of resources allocated to the job has shrunk since resources were last allocated.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoldUntil">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId HoldUntil { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId HoldUntil" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HoldUntil" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HoldUntil As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.HoldUntil : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.HoldUntil" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Id As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Id : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The identifier that uniquely identifies the job in the scheduler.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBackfill">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId IsBackfill { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId IsBackfill" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.IsBackfill" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsBackfill As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.IsBackfill : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.IsBackfill" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the job is running as a backfill job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExclusive">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId IsExclusive { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId IsExclusive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.IsExclusive" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsExclusive As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.IsExclusive : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.IsExclusive" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether nodes should be exclusively allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobGpuCustomPropertyName">
+      <MemberSignature Language="C#" Value="public static readonly string JobGpuCustomPropertyName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string JobGpuCustomPropertyName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobGpuCustomPropertyName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly JobGpuCustomPropertyName As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable JobGpuCustomPropertyName : string" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobGpuCustomPropertyName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobObject">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId JobObject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId JobObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobObject" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property JobObject As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.JobObject : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The internal job object.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTemplate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId JobTemplate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId JobTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property JobTemplate As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.JobTemplate : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The template that is applied to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobType">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId JobType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId JobType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property JobType As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.JobType : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The type of job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobValidExitCodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId JobValidExitCodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId JobValidExitCodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobValidExitCodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property JobValidExitCodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.JobValidExitCodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.JobValidExitCodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxCores">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MaxCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MaxCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxCores" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MaxCores As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MaxCores : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of cores that the scheduler may allocate for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxCoresPerNode">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MaxCoresPerNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MaxCoresPerNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxCoresPerNode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MaxCoresPerNode As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MaxCoresPerNode : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxCoresPerNode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of cores that a node can have for the job to run on it.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxMemory">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MaxMemory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MaxMemory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxMemory" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MaxMemory As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MaxMemory : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxMemory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum amount of memory that a node may have for the job to run on it.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MaxNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MaxNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MaxNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MaxNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of nodes that the scheduler may allocate for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxSockets">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MaxSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MaxSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MaxSockets As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MaxSockets : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MaxSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum number of sockets that the scheduler may allocate for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinCores">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MinCores { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MinCores" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinCores" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MinCores As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MinCores : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinCores" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of cores that the job requires.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinCoresPerNode">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MinCoresPerNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MinCoresPerNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinCoresPerNode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MinCoresPerNode As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MinCoresPerNode : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinCoresPerNode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of cores that must exist on the node for the job to run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinMaxUpdateTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MinMaxUpdateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MinMaxUpdateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinMaxUpdateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MinMaxUpdateTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MinMaxUpdateTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinMaxUpdateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The last time that the server checked the computed minimum and maximum resource values for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinMemory">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MinMemory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MinMemory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinMemory" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MinMemory As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MinMemory : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinMemory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum amount of memory that the job requires.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MinNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MinNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MinNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MinNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of nodes that the job requires.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinSockets">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId MinSockets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId MinSockets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinSockets" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MinSockets As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.MinSockets : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.MinSockets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum number of sockets that the job requires.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NA">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NA { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NA" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NA" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NA As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NA : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NA" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Used as an unknown property identifier.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Name As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Name : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The display name of the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextJobTaskId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NextJobTaskId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NextJobTaskId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NextJobTaskId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NextJobTaskId As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NextJobTaskId : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NextJobTaskId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The sequential task identifier that will be given to the next task that is added to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeGroupOp">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NodeGroupOp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NodeGroupOp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodeGroupOp" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NodeGroupOp As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NodeGroupOp : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodeGroupOp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeGroups">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NodeGroups { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NodeGroups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodeGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NodeGroups As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NodeGroups : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodeGroups" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The names of the node groups that defines the nodes on which the job can run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodePrepareTask">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NodePrepareTask { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NodePrepareTask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodePrepareTask" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NodePrepareTask As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NodePrepareTask : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodePrepareTask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeReleaseTask">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NodeReleaseTask { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NodeReleaseTask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodeReleaseTask" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NodeReleaseTask As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NodeReleaseTask : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NodeReleaseTask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyOnCompletion">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NotifyOnCompletion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NotifyOnCompletion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NotifyOnCompletion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NotifyOnCompletion As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NotifyOnCompletion : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NotifyOnCompletion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyOnStart">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NotifyOnStart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NotifyOnStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NotifyOnStart" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NotifyOnStart As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NotifyOnStart : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NotifyOnStart" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfCalls">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NumberOfCalls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NumberOfCalls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NumberOfCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NumberOfCalls As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NumberOfCalls : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NumberOfCalls" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of web-service calls made in the session.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfOutstandingCalls">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId NumberOfOutstandingCalls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId NumberOfOutstandingCalls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NumberOfOutstandingCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NumberOfOutstandingCalls As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.NumberOfOutstandingCalls : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.NumberOfOutstandingCalls" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of web-service calls to which the broker as not yet replied to the client.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OrderBy As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.OrderBy : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.OrderBy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The preference given to criteria used to choose the nodes that are allocated to the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Owner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Owner As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Owner : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Owner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of the user who created, submitted, or queued the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OwnerSID">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId OwnerSID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId OwnerSID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.OwnerSID" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OwnerSID As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.OwnerSID : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.OwnerSID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ParentJobId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ParentJobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ParentJobId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ParentJobId As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ParentJobId : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ParentJobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An identifier that uniquely identifies the parent job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobIds">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ParentJobIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ParentJobIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ParentJobIds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ParentJobIds As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ParentJobIds : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ParentJobIds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Password">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Password { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Password" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Password" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Password As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Password : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Password" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The password of the RunAs user.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingReason">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId PendingReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId PendingReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.PendingReason" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PendingReason As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.PendingReason : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.PendingReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The reason the job has not yet run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlannedCoreCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId PlannedCoreCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId PlannedCoreCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.PlannedCoreCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PlannedCoreCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.PlannedCoreCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.PlannedCoreCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pool">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Pool { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Pool" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Pool" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Pool As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Pool : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Pool" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preemptable">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Preemptable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Preemptable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Preemptable" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Preemptable As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Preemptable : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Preemptable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the job can be preempted by a higher priority job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousState">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId PreviousState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId PreviousState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.PreviousState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PreviousState As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.PreviousState : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.PreviousState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The previous state of the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Priority As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Priority : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The priority of the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessIds">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ProcessIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ProcessIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ProcessIds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ProcessIds As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ProcessIds : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ProcessIds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A comma-delimited list of the process identifiers associated with the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Progress">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Progress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Progress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Progress" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Progress As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Progress : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Progress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgressMessage">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ProgressMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ProgressMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ProgressMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ProgressMessage As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ProgressMessage : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ProgressMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Project">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Project { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Project" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Project" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Project As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Project : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Project" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The project name associated with the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueuedTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId QueuedTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId QueuedTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.QueuedTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property QueuedTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.QueuedTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.QueuedTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks in the job that are queued to run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestCancel">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RequestCancel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RequestCancel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequestCancel" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequestCancel As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RequestCancel : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequestCancel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that a cancel request is pending for the job. </summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RequestedNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RequestedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequestedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequestedNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RequestedNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequestedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The list of nodes on which the job can run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequeueCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RequeueCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RequeueCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequeueCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequeueCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RequeueCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequeueCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of times that the job has been queued again.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredNodes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RequiredNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RequiredNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequiredNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequiredNodes As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RequiredNodes : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RequiredNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The nodes on which the tasks in the job are required to run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunningTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RunningTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RunningTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RunningTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RunningTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RunningTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RunningTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks that are running.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuntimeSeconds">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RuntimeSeconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RuntimeSeconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RuntimeSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RuntimeSeconds As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RuntimeSeconds : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RuntimeSeconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The run-time limit for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuntimeType">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RuntimeType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RuntimeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RuntimeType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RuntimeType As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RuntimeType : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RuntimeType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunUntilCanceled">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId RunUntilCanceled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId RunUntilCanceled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RunUntilCanceled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RunUntilCanceled As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.RunUntilCanceled : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.RunUntilCanceled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the job runs until the user cancels it.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceName">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ServiceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ServiceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ServiceName As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ServiceName : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ServiceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of the service that runs on the nodes of the cluster.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SingleNode">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId SingleNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId SingleNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SingleNode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SingleNode As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.SingleNode : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SingleNode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftwareLicense">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId SoftwareLicense { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId SoftwareLicense" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SoftwareLicense" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SoftwareLicense As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.SoftwareLicense : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SoftwareLicense" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The software licenses that must exist on the nodes for the job to run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StartTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The date and time that the job started running.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.State" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property State As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The state of the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmittedTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId SubmittedTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId SubmittedTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SubmittedTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SubmittedTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.SubmittedTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SubmittedTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks that have been submitted to the scheduling queue.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId SubmitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId SubmitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SubmitTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.SubmitTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.SubmitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The date and time that the job was submitted to the scheduling queue.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetResourceCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TargetResourceCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TargetResourceCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TargetResourceCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TargetResourceCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TargetResourceCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TargetResourceCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks in the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskExecutionFailureRetryLimit">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TaskExecutionFailureRetryLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TaskExecutionFailureRetryLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TaskExecutionFailureRetryLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TaskExecutionFailureRetryLimit As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TaskExecutionFailureRetryLimit : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TaskExecutionFailureRetryLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskLevelUpdateTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TaskLevelUpdateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TaskLevelUpdateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TaskLevelUpdateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TaskLevelUpdateTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TaskLevelUpdateTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TaskLevelUpdateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The last time that the Scheduler computed the maximum and minimum resource values.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Timestamp As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The SQL time stamp that identifies when the row was last changed.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCpuTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TotalCpuTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TotalCpuTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TotalCpuTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalCpuTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TotalCpuTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TotalCpuTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The total CPU time that the job used.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalKernelTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TotalKernelTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TotalKernelTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TotalKernelTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalKernelTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TotalKernelTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TotalKernelTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The elapsed execution time for kernel-mode instructions (the total time that the job spent in kernel-mode).</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalUserTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId TotalUserTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId TotalUserTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TotalUserTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalUserTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.TotalUserTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.TotalUserTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The elapsed execution time for user-mode instructions (the total time that the job spent in user-mode).</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnitType">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId UnitType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId UnitType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.UnitType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UnitType As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.UnitType : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.UnitType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether cores, nodes, or sockets are used to allocate resources for the job.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId UserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UserName As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.UserName : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.UserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The RunAs user for the job</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSID">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId UserSID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId UserSID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.UserSID" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UserSID As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.UserSID : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.UserSID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidatingTaskCount">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId ValidatingTaskCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId ValidatingTaskCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ValidatingTaskCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ValidatingTaskCount As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.ValidatingTaskCount : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.ValidatingTaskCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of tasks being validated.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitTime">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId WaitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Hpc.Scheduler.Properties.PropertyId WaitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.WaitTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WaitTime As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.WaitTime : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Properties.JobPropertyIds.WaitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How long the job has been or is waiting to run.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId"></see> object that identifies this property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

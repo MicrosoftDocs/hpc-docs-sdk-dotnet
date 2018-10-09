@@ -1,0 +1,123 @@
+﻿<Type Name="TaskType" FullName="Microsoft.Hpc.Scheduler.Properties.TaskType">
+  <TypeSignature Language="C#" Value="public enum TaskType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.TaskType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskType" />
+  <TypeSignature Language="F#" Value="type TaskType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("E0165E48-568A-43bd-BE2D-C2FE864F2C67")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines how to run the command for a task.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Basic">
+      <MemberSignature Language="C#" Value="Basic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.TaskType Basic = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.TaskType.Basic" />
+      <MemberSignature Language="VB.NET" Value="Basic" />
+      <MemberSignature Language="F#" Value="Basic = 0" Usage="Microsoft.Hpc.Scheduler.Properties.TaskType.Basic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Runs a single instance of a serial application or a Message Passing Interface (MPI) application. An MPI application typically runs concurrently on multiple cores and can span multiple nodes. This task type is the default. This enumeration member represents a value of 0.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NodePrep">
+      <MemberSignature Language="C#" Value="NodePrep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.TaskType NodePrep = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.TaskType.NodePrep" />
+      <MemberSignature Language="VB.NET" Value="NodePrep" />
+      <MemberSignature Language="F#" Value="NodePrep = 2" Usage="Microsoft.Hpc.Scheduler.Properties.TaskType.NodePrep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Runs a command or script on each compute node as it is allocated to the job. The Node Prep task runs on a node before any other task in the job. If the Node Prep task fails to run on a node, then that node is not added to the job. This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeRelease">
+      <MemberSignature Language="C#" Value="NodeRelease" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.TaskType NodeRelease = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.TaskType.NodeRelease" />
+      <MemberSignature Language="VB.NET" Value="NodeRelease" />
+      <MemberSignature Language="F#" Value="NodeRelease = 3" Usage="Microsoft.Hpc.Scheduler.Properties.TaskType.NodeRelease" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Runs a command or script on compute each node as it is released from the job. Node Release tasks run when the job is canceled by the user or by graceful preemption. Node Release tasks do not run when the job is canceled by immediate preemption.  This enumeration member represents a value of 3.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ParametricSweep">
+      <MemberSignature Language="C#" Value="ParametricSweep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.TaskType ParametricSweep = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.TaskType.ParametricSweep" />
+      <MemberSignature Language="VB.NET" Value="ParametricSweep" />
+      <MemberSignature Language="F#" Value="ParametricSweep = 1" Usage="Microsoft.Hpc.Scheduler.Properties.TaskType.ParametricSweep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Runs a command a specified number of times as indicated by the start, end, and increment values, generally across indexed input and output files. The steps of the sweep may or may not run in parallel, depending on the resources that are available on the HPC cluster when the task is running. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Service">
+      <MemberSignature Language="C#" Value="Service" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.TaskType Service = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.TaskType.Service" />
+      <MemberSignature Language="VB.NET" Value="Service" />
+      <MemberSignature Language="F#" Value="Service = 4" Usage="Microsoft.Hpc.Scheduler.Properties.TaskType.Service" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Runs a command or service on all resources that are assigned to the job. New instances of the command are started when new resources are added to the job, or if a previously running instance exits and the resource that the previously running instance was running on is still allocated to the job. A service task continues to start new instances until the task is canceled, the maximum run time expires, or the maximum number of instances is reached. A service task can create up to 1,000,000 sub-tasks. Tasks that you submit through a Service Oriented Architecture (SOA) client run as service tasks. You cannot add a basic task or a parametric sweep task to a job that contains a service task. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

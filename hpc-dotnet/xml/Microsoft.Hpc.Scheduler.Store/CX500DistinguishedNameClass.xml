@@ -1,0 +1,186 @@
+﻿<Type Name="CX500DistinguishedNameClass" FullName="Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass">
+  <TypeSignature Language="C#" Value="public class CX500DistinguishedNameClass : Microsoft.Hpc.Scheduler.Store.CX500DistinguishedName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CX500DistinguishedNameClass extends System.Object implements class Microsoft.Hpc.Scheduler.Store.CX500DistinguishedName, class Microsoft.Hpc.Scheduler.Store.IX500DistinguishedName" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CX500DistinguishedNameClass&#xA;Implements CX500DistinguishedName" />
+  <TypeSignature Language="F#" Value="type CX500DistinguishedNameClass = class&#xA;    interface IX500DistinguishedName&#xA;    interface CX500DistinguishedName" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.CX500DistinguishedName</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("884E2003-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CX500DistinguishedNameClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Decode">
+      <MemberSignature Language="C#" Value="public virtual void Decode (string strEncodedName, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64, Microsoft.Hpc.Scheduler.Store.X500NameFlags NameFlags = Microsoft.Hpc.Scheduler.Store.X500NameFlags.XCN_CERT_NAME_STR_NONE);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Decode([in]string strEncodedName, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding, [in]valuetype Microsoft.Hpc.Scheduler.Store.X500NameFlags NameFlags) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.Decode(System.String,Microsoft.Hpc.Scheduler.Store.EncodingType,Microsoft.Hpc.Scheduler.Store.X500NameFlags)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Decode (strEncodedName As String, Optional Encoding As EncodingType = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64, Optional NameFlags As X500NameFlags = Microsoft.Hpc.Scheduler.Store.X500NameFlags.XCN_CERT_NAME_STR_NONE)" />
+      <MemberSignature Language="F#" Value="abstract member Decode : string * Microsoft.Hpc.Scheduler.Store.EncodingType * Microsoft.Hpc.Scheduler.Store.X500NameFlags -&gt; unit&#xA;override this.Decode : string * Microsoft.Hpc.Scheduler.Store.EncodingType * Microsoft.Hpc.Scheduler.Store.X500NameFlags -&gt; unit" Usage="cX500DistinguishedNameClass.Decode (strEncodedName, Encoding, NameFlags)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX500DistinguishedName.Decode(System.String,Microsoft.Hpc.Scheduler.Store.EncodingType,Microsoft.Hpc.Scheduler.Store.X500NameFlags)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strEncodedName" Type="System.String" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="NameFlags" Type="Microsoft.Hpc.Scheduler.Store.X500NameFlags" />
+      </Parameters>
+      <Docs>
+        <param name="strEncodedName">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <param name="NameFlags">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Encode">
+      <MemberSignature Language="C#" Value="public virtual void Encode (string strName, Microsoft.Hpc.Scheduler.Store.X500NameFlags NameFlags = Microsoft.Hpc.Scheduler.Store.X500NameFlags.XCN_CERT_NAME_STR_NONE);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Encode([in]string strName, [in]valuetype Microsoft.Hpc.Scheduler.Store.X500NameFlags NameFlags) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.Encode(System.String,Microsoft.Hpc.Scheduler.Store.X500NameFlags)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Encode (strName As String, Optional NameFlags As X500NameFlags = Microsoft.Hpc.Scheduler.Store.X500NameFlags.XCN_CERT_NAME_STR_NONE)" />
+      <MemberSignature Language="F#" Value="abstract member Encode : string * Microsoft.Hpc.Scheduler.Store.X500NameFlags -&gt; unit&#xA;override this.Encode : string * Microsoft.Hpc.Scheduler.Store.X500NameFlags -&gt; unit" Usage="cX500DistinguishedNameClass.Encode (strName, NameFlags)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.Store.IX500DistinguishedName.Encode(System.String,Microsoft.Hpc.Scheduler.Store.X500NameFlags)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strName" Type="System.String" />
+        <Parameter Name="NameFlags" Type="Microsoft.Hpc.Scheduler.Store.X500NameFlags" />
+      </Parameters>
+      <Docs>
+        <param name="strName">To be added.</param>
+        <param name="NameFlags">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual string this[Microsoft.Hpc.Scheduler.Store.EncodingType Encoding] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Encoding As EncodingType) As String" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Hpc.Scheduler.Store.EncodingType) : string" Usage="Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX500DistinguishedName.Item(Microsoft.Hpc.Scheduler.Store.EncodingType)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.Store.CX500DistinguishedNameClass.Name" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.Store.IX500DistinguishedName.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

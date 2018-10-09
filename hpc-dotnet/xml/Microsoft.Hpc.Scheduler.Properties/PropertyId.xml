@@ -1,0 +1,269 @@
+﻿<Type Name="PropertyId" FullName="Microsoft.Hpc.Scheduler.Properties.PropertyId">
+  <TypeSignature Language="C#" Value="public class PropertyId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PropertyId extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+  <TypeSignature Language="VB.NET" Value="Public Class PropertyId" />
+  <TypeSignature Language="F#" Value="type PropertyId = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a property.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertyId (Microsoft.Hpc.Scheduler.Properties.StorePropertyType propType, string propName, int propIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.StorePropertyType propType, string propName, int32 propIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.#ctor(Microsoft.Hpc.Scheduler.Properties.StorePropertyType,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propType As StorePropertyType, propName As String, propIndex As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.PropertyId : Microsoft.Hpc.Scheduler.Properties.StorePropertyType * string * int -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="new Microsoft.Hpc.Scheduler.Properties.PropertyId (propType, propName, propIndex)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propType" Type="Microsoft.Hpc.Scheduler.Properties.StorePropertyType" />
+        <Parameter Name="propName" Type="System.String" />
+        <Parameter Name="propIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="propType">The property type. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StorePropertyType"></see> enumeration.</param>
+        <param name="propName">The name of the property.</param>
+        <param name="propIndex">To be added.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId" /> class using the property type, name, and index.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertyId (Microsoft.Hpc.Scheduler.Properties.StorePropertyType propType, string propName, int propIndex, Microsoft.Hpc.Scheduler.Properties.PropFlags flags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.StorePropertyType propType, string propName, int32 propIndex, valuetype Microsoft.Hpc.Scheduler.Properties.PropFlags flags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.#ctor(Microsoft.Hpc.Scheduler.Properties.StorePropertyType,System.String,System.Int32,Microsoft.Hpc.Scheduler.Properties.PropFlags)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propType As StorePropertyType, propName As String, propIndex As Integer, flags As PropFlags)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Properties.PropertyId : Microsoft.Hpc.Scheduler.Properties.StorePropertyType * string * int * Microsoft.Hpc.Scheduler.Properties.PropFlags -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="new Microsoft.Hpc.Scheduler.Properties.PropertyId (propType, propName, propIndex, flags)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propType" Type="Microsoft.Hpc.Scheduler.Properties.StorePropertyType" />
+        <Parameter Name="propName" Type="System.String" />
+        <Parameter Name="propIndex" Type="System.Int32" />
+        <Parameter Name="flags" Type="Microsoft.Hpc.Scheduler.Properties.PropFlags" />
+      </Parameters>
+      <Docs>
+        <param name="propType">The property type. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StorePropertyType"></see> enumeration.</param>
+        <param name="propName">The name of the property.</param>
+        <param name="propIndex">To be added.</param>
+        <param name="flags">One or more flags that define the attributes of the property. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropFlags"></see> enumeration.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyId" /> class using the property type, name, index, and flags.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="propertyId.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The property object to compare to this property object.</param>
+        <summary>Determines whether the two property objects are equal.</summary>
+        <returns>Is true if the objects are equal; otherwise, false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropFlags Flags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.PropFlags Flags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyId.Flags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Flags As PropFlags" />
+      <MemberSignature Language="F#" Value="member this.Flags : Microsoft.Hpc.Scheduler.Properties.PropFlags" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyId.Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves one or more flags that define the attributes of the property.</summary>
+        <value>One or more flags that define the attributes of the property. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropFlags"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="propertyId.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves a unique hash code for the object.</summary>
+        <returns>A unique hash code for the object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyId.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyId.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the name of the property.</summary>
+        <value>The name of the property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Hpc.Scheduler.Properties.PropertyId a, Microsoft.Hpc.Scheduler.Properties.PropertyId b);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Hpc.Scheduler.Properties.PropertyId a, class Microsoft.Hpc.Scheduler.Properties.PropertyId b) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.op_Equality(Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (a As PropertyId, b As PropertyId) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Hpc.Scheduler.Properties.PropertyId * Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; bool" Usage="a = b" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="a" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="b" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="a">The property to be compared to the property in b.</param>
+        <param name="b">The property to be compared to the property in a.</param>
+        <summary>Determines whether the two property objects are equal.</summary>
+        <returns>Is true if the objects are equal; otherwise, false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Hpc.Scheduler.Properties.PropertyId a, Microsoft.Hpc.Scheduler.Properties.PropertyId b);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Hpc.Scheduler.Properties.PropertyId a, class Microsoft.Hpc.Scheduler.Properties.PropertyId b) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.op_Inequality(Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (a As PropertyId, b As PropertyId) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Hpc.Scheduler.Properties.PropertyId * Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyId.op_Inequality (a, b)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="a" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="b" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <param name="a">The property to be compared to the property in b.</param>
+        <param name="b">The property to be compared to the property in a.</param>
+        <summary>Determines whether the two property objects are not equal.</summary>
+        <returns>Is true if the objects are not equal; otherwise, false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.PropertyId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="propertyId.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves a string that represents the object.</summary>
+        <returns>A string that represents the object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.StorePropertyType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.StorePropertyType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyId.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As StorePropertyType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Scheduler.Properties.StorePropertyType" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyId.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StorePropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the data type of the property.</summary>
+        <value>The data type of the property. For possible values, see the <see cref="T:Microsoft.Hpc.Scheduler.Properties.StorePropertyType"></see> fields.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public int UniqueId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Properties.PropertyId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueId As Integer" />
+      <MemberSignature Language="F#" Value="member this.UniqueId : int" Usage="Microsoft.Hpc.Scheduler.Properties.PropertyId.UniqueId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

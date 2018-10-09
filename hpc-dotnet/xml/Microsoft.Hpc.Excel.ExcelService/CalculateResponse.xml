@@ -1,0 +1,92 @@
+﻿<Type Name="CalculateResponse" FullName="Microsoft.Hpc.Excel.ExcelService.CalculateResponse">
+  <TypeSignature Language="C#" Value="public class CalculateResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalculateResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Excel.ExcelService.CalculateResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalculateResponse" />
+  <TypeSignature Language="F#" Value="type CalculateResponse = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("System.ServiceModel", "3.0.0.0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ServiceModel.MessageContract(IsWrapped=true, WrapperName="CalculateResponse", WrapperNamespace="http://tempuri.org/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a response from the built-in Excel SOA service that includes the results of a calculation for an Excel workbook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalculateResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.CalculateResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateResponse" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalculateResponse (byte[] CalculateResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] CalculateResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Excel.ExcelService.CalculateResponse.#ctor(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (CalculateResult As Byte())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Excel.ExcelService.CalculateResponse : byte[] -&gt; Microsoft.Hpc.Excel.ExcelService.CalculateResponse" Usage="new Microsoft.Hpc.Excel.ExcelService.CalculateResponse CalculateResult" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="CalculateResult" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="CalculateResult">To be added.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateResponse" /> class with the specified serialized form of the results of the calculation.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculateResult">
+      <MemberSignature Language="C#" Value="public byte[] CalculateResult;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int8[] CalculateResult" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Excel.ExcelService.CalculateResponse.CalculateResult" />
+      <MemberSignature Language="VB.NET" Value="Public CalculateResult As Byte() " />
+      <MemberSignature Language="F#" Value="val mutable CalculateResult : byte[]" Usage="Microsoft.Hpc.Excel.ExcelService.CalculateResponse.CalculateResult" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Excel</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.MessageBodyMember(Namespace="http://tempuri.org/", Order=0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Contains an array of bytes that is a serialized form of a <see cref="T:Microsoft.Hpc.Excel.WorkItem" /> object. This object represents the results of a calculation that you initiated by calling the <see cref="Overload:Microsoft.Hpc.Scheduler.Session.BrokerClient`1.SendRequest``1" /> method for the with a type parameter of <see cref="T:Microsoft.Hpc.Excel.ExcelService.CalculateRequest" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

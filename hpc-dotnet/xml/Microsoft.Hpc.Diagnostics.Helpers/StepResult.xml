@@ -1,0 +1,609 @@
+﻿<Type Name="StepResult" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult">
+  <TypeSignature Language="C#" Value="public class StepResult : IComparable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable StepResult extends System.Object implements class System.IComparable`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult&#xA;Implements IComparable(Of StepResult)" />
+  <TypeSignature Language="F#" Value="type StepResult = class&#xA;    interface IComparable&lt;StepResult&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Contains information about the result of a stage in a diagnostic test.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StepResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBulletPoint">
+      <MemberSignature Language="C#" Value="public void AddBulletPoint (Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType severity, string message, params object[] args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddBulletPoint(valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/InformationType severity, string message, object[] args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.AddBulletPoint(Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddBulletPoint (severity As StepResult.InformationType, message As String, ParamArray args As Object())" />
+      <MemberSignature Language="F#" Value="member this.AddBulletPoint : Microsoft.Hpc.Diagnostics.Helpers.StepResult.InformationType * string * obj[] -&gt; unit" Usage="stepResult.AddBulletPoint (severity, message, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="severity" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+InformationType" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="severity">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Adds an item to the bulleted list for the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object with the specified type and message.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTable">
+      <MemberSignature Language="C#" Value="public void AddTable (Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table table);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddTable(class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Table table) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.AddTable(Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table)" />
+      <MemberSignature Language="F#" Value="member this.AddTable : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table -&gt; unit" Usage="stepResult.AddTable table" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="table" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Table" />
+      </Parameters>
+      <Docs>
+        <param name="table">To be added.</param>
+        <summary>Adds the specified table to the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BulletPoints">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information&gt; BulletPoints { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Information&gt; BulletPoints" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.BulletPoints" />
+      <MemberSignature Language="VB.NET" Value="Public Property BulletPoints As List(Of StepResult.Information)" />
+      <MemberSignature Language="F#" Value="member this.BulletPoints : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.BulletPoints" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("BulletPoints", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Information&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the set of items in a bulleted list in the report for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Information"></see> objects that represent the items in the bulleted list.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Hpc.Diagnostics.Helpers.StepResult other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(class Microsoft.Hpc.Diagnostics.Helpers.StepResult other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.CompareTo(Microsoft.Hpc.Diagnostics.Helpers.StepResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As StepResult) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; int&#xA;override this.CompareTo : Microsoft.Hpc.Diagnostics.Helpers.StepResult -&gt; int" Usage="stepResult.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>Compares this instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object with another specified <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object and indicates whether this instance precedes, follows, or appears in the same position in the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode" /> order as the specified <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object. The order of the possible <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode" /> values from first to last is <see cref="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Failure" />, <see cref="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Warning" />, <see cref="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Success" />, <see cref="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.Complete" />, and <see cref="F:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode.NoResult" />.</summary>
+        <returns>An <see cref="T:System.Int32"></see> object that indicates whether this instance precedes, follows, or appears in the same position in the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode"></see> order as the specified <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object.A value of less than zero indicates that this instance precedes the specified <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object in <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode"></see> order. Zero indicates that this instance appears in the same position as the specified <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object in <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode"></see> order. A value of greater than zero indicates that this instance follows the specified <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object in <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode"></see> order.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeSerializeFromFile">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Diagnostics.Helpers.StepResult DeSerializeFromFile (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Diagnostics.Helpers.StepResult DeSerializeFromFile(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.DeSerializeFromFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeSerializeFromFile (fileName As String) As StepResult" />
+      <MemberSignature Language="F#" Value="static member DeSerializeFromFile : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.DeSerializeFromFile fileName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">To be added.</param>
+        <summary>Deserializes the XML in the specified file and creates a <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object with property values that match the information in the file.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object with property values that match the information in the specified StepResult XML file.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeSerializeFromString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Diagnostics.Helpers.StepResult DeSerializeFromString (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Diagnostics.Helpers.StepResult DeSerializeFromString(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.DeSerializeFromString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeSerializeFromString (value As String) As StepResult" />
+      <MemberSignature Language="F#" Value="static member DeSerializeFromString : string -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.DeSerializeFromString value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Deserializes the XML in the specified string and creates a <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object with property values that match the information in the string.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object with property values that match the information in the specified StepResult XML.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Environment">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable&gt; Environment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/EnvironmentVariable&gt; Environment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Environment" />
+      <MemberSignature Language="VB.NET" Value="Public Property Environment As List(Of StepResult.EnvironmentVariable)" />
+      <MemberSignature Language="F#" Value="member this.Environment : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Environment" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("Environment", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+EnvironmentVariable&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the set of environment variables that a diagnostic test should use set for the RunStep stage of the test.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable"></see> objects that represent the environment variables that the diagnostic test should set for the RunStep stage of the test.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionMessage">
+      <MemberSignature Language="C#" Value="public string ExceptionMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExceptionMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ExceptionMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExceptionMessage As String" />
+      <MemberSignature Language="F#" Value="member this.ExceptionMessage : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ExceptionMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the exception message that is generated by the command that created the Step Result XML.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the exception message.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedNodes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node&gt; FailedNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Node&gt; FailedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.FailedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedNodes As List(Of StepResult.Node)" />
+      <MemberSignature Language="F#" Value="member this.FailedNodes : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.FailedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("FailedNodes", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Node&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the list of failed nodes for a diagnostic test run.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node"></see> objects that represent the nodes for which the diagnostic test failed.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullPath">
+      <MemberSignature Language="C#" Value="public string FullPath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.FullPath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullPath As String" />
+      <MemberSignature Language="F#" Value="member this.FullPath : string" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.FullPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResultsFromDirectory">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt; GetResultsFromDirectory (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt; GetResultsFromDirectory(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.GetResultsFromDirectory(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetResultsFromDirectory (path As String) As List(Of StepResult)" />
+      <MemberSignature Language="F#" Value="static member GetResultsFromDirectory : string -&gt; System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.GetResultsFromDirectory path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Deserializes the XML in the set of node_name.out files in the specified directory and creates a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> objects with property values that match the information in the files.</summary>
+        <returns>A <see cref="T:System.Collections.Generic.List`1"></see> that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> objects with property values that match the information in the StepResult XML files in the specified directory.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSummary">
+      <MemberSignature Language="C#" Value="public bool IsSummary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSummary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.IsSummary" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSummary As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSummary : bool with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.IsSummary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object represents a summary of the results for all of the nodes in the test or the results for just one node.</summary>
+        <value>A <see cref="T:System.Boolean"></see> that indicates whether the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object represents a summary of the test results for all of the nodes in the test or the test results for just one node. True indicates that the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object represents a summary of the test results for all of the nodes in the test. False indicates that the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object represents the test results for just one node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the message for a stage in a diagnostic test.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the message.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeName">
+      <MemberSignature Language="C#" Value="public string NodeName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NodeName As String" />
+      <MemberSignature Language="F#" Value="member this.NodeName : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.NodeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the name of the node for which the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object contains the results of a diagnostic test run.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the name of the node for which the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object contains the results of a diagnostic test run. The string can also have a value of Summary, which indicates that the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult"></see> object contains a summary of the results for all of the nodes on which the diagnostic test ran.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node[] Nodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Node[] Nodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Nodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nodes As StepResult.Node()" />
+      <MemberSignature Language="F#" Value="member this.Nodes : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node[] with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Nodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("Nodes", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+Node[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the list of nodes on which the RunStep stage of a diagnostic test should run.</summary>
+        <value>An array of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Node"></see> objects that represent the nodes on which the RunStep stage of the diagnostic test should run.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter&gt; Parameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Parameter&gt; Parameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parameters As List(Of StepResult.Parameter)" />
+      <MemberSignature Language="F#" Value="member this.Parameters : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("Parameters", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Parameter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the list of parameters that the diagnostic test should include in the RunStep command for all of the nodes in the diagnostic test.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Parameter"></see> objects that represent the parameters that the diagnostic test should include in the RunStep command.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentPath">
+      <MemberSignature Language="C#" Value="public string ParentPath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ParentPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ParentPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentPath As String" />
+      <MemberSignature Language="F#" Value="member this.ParentPath : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.ParentPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RaiseResultLevel">
+      <MemberSignature Language="C#" Value="public void RaiseResultLevel (Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode targetLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RaiseResultLevel(valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode targetLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RaiseResultLevel(Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RaiseResultLevel (targetLevel As StepResult.ResultCode)" />
+      <MemberSignature Language="F#" Value="member this.RaiseResultLevel : Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode -&gt; unit" Usage="stepResult.RaiseResultLevel targetLevel" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetLevel" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode" />
+      </Parameters>
+      <Docs>
+        <param name="targetLevel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode Result { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Diagnostics.Helpers.StepResult/ResultCode Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Result" />
+      <MemberSignature Language="VB.NET" Value="Public Property Result As StepResult.ResultCode" />
+      <MemberSignature Language="F#" Value="member this.Result : Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Result" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Diagnostics.Helpers.StepResult+ResultCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the result of the diagnostic test run for the node that the <see cref="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.NodeName" /> property specifies, or for the entire diagnostic test run if <see cref="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.NodeName" /> is Summary.</summary>
+        <value>A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.ResultCode"></see> value that specifies the result of the diagnostic test run.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tables">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table&gt; Tables { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Table&gt; Tables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Tables" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tables As List(Of StepResult.Table)" />
+      <MemberSignature Language="F#" Value="member this.Tables : System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table&gt; with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.Tables" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("Tables", IsNullable=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Table&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the list of tables that the report for the diagnostic test run should include for the result.</summary>
+        <value>A <see cref="T:System.Collections.Generic.List`1"></see> object that contains a list of <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Table"></see> objects that represent the tables that the report for the diagnostic test run should include for the result.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlSerializeToFile">
+      <MemberSignature Language="C#" Value="public void XmlSerializeToFile (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void XmlSerializeToFile(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.XmlSerializeToFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XmlSerializeToFile (path As String)" />
+      <MemberSignature Language="F#" Value="member this.XmlSerializeToFile : string -&gt; unit" Usage="stepResult.XmlSerializeToFile path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Serializes the properties of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object into XML and saves the result in the specified file.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlSerializeToStandardOut">
+      <MemberSignature Language="C#" Value="public void XmlSerializeToStandardOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void XmlSerializeToStandardOut() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.XmlSerializeToStandardOut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XmlSerializeToStandardOut ()" />
+      <MemberSignature Language="F#" Value="member this.XmlSerializeToStandardOut : unit -&gt; unit" Usage="stepResult.XmlSerializeToStandardOut " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Serializes the properties of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object into XML and sends the result to standard output.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlSerializeToStream">
+      <MemberSignature Language="C#" Value="public void XmlSerializeToStream (System.IO.Stream stm);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void XmlSerializeToStream(class System.IO.Stream stm) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.XmlSerializeToStream(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XmlSerializeToStream (stm As Stream)" />
+      <MemberSignature Language="F#" Value="member this.XmlSerializeToStream : System.IO.Stream -&gt; unit" Usage="stepResult.XmlSerializeToStream stm" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stm" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="stm">To be added.</param>
+        <summary>Serializes the properties of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult" /> object into XML and saves the results by using the specified <see cref="System.IO.Stream" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

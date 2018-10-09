@@ -1,0 +1,167 @@
+﻿<Type Name="CustomPropContainer" FullName="Microsoft.Hpc.Scheduler.CustomPropContainer">
+  <TypeSignature Language="C#" Value="public class CustomPropContainer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CustomPropContainer extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.CustomPropContainer" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomPropContainer" />
+  <TypeSignature Language="F#" Value="type CustomPropContainer = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CustomPropContainer (Microsoft.Hpc.Scheduler.Properties.ObjectType obType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType obType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.CustomPropContainer.#ctor(Microsoft.Hpc.Scheduler.Properties.ObjectType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (obType As ObjectType)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.CustomPropContainer : Microsoft.Hpc.Scheduler.Properties.ObjectType -&gt; Microsoft.Hpc.Scheduler.CustomPropContainer" Usage="new Microsoft.Hpc.Scheduler.CustomPropContainer obType" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="obType" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+      </Parameters>
+      <Docs>
+        <param name="obType">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPropsToList">
+      <MemberSignature Language="C#" Value="public void AddPropsToList (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; propsList);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPropsToList(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; propsList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.CustomPropContainer.AddPropsToList(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,System.Collections.Generic.List{Microsoft.Hpc.Scheduler.Properties.StoreProperty})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPropsToList (store As ISchedulerStore, propsList As List(Of StoreProperty))" />
+      <MemberSignature Language="F#" Value="member this.AddPropsToList : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; -&gt; unit" Usage="customPropContainer.AddPropsToList (store, propsList)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="propsList" Type="System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="propsList">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Commit">
+      <MemberSignature Language="C#" Value="public void Commit (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Commit(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.CustomPropContainer.Commit(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,Microsoft.Hpc.Scheduler.Store.IClusterStoreObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Commit (store As ISchedulerStore, obj As IClusterStoreObject)" />
+      <MemberSignature Language="F#" Value="member this.Commit : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * Microsoft.Hpc.Scheduler.Store.IClusterStoreObject -&gt; unit" Usage="customPropContainer.Commit (store, obj)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="obj" Type="Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.NameValueCollection GetCustomProperties (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Scheduler.NameValueCollection GetCustomProperties(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.CustomPropContainer.GetCustomProperties(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,Microsoft.Hpc.Scheduler.Store.IClusterStoreObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCustomProperties (store As ISchedulerStore, obj As IClusterStoreObject) As NameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.GetCustomProperties : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * Microsoft.Hpc.Scheduler.Store.IClusterStoreObject -&gt; Microsoft.Hpc.Scheduler.NameValueCollection" Usage="customPropContainer.GetCustomProperties (store, obj)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.NameValueCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="obj" Type="Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public void Refresh (Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Refresh(class Microsoft.Hpc.Scheduler.Store.ISchedulerStore store, class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.CustomPropContainer.Refresh(Microsoft.Hpc.Scheduler.Store.ISchedulerStore,Microsoft.Hpc.Scheduler.Store.IClusterStoreObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh (store As ISchedulerStore, obj As IClusterStoreObject)" />
+      <MemberSignature Language="F#" Value="member this.Refresh : Microsoft.Hpc.Scheduler.Store.ISchedulerStore * Microsoft.Hpc.Scheduler.Store.IClusterStoreObject -&gt; unit" Usage="customPropContainer.Refresh (store, obj)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="store" Type="Microsoft.Hpc.Scheduler.Store.ISchedulerStore" />
+        <Parameter Name="obj" Type="Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+      </Parameters>
+      <Docs>
+        <param name="store">To be added.</param>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCustomProperty">
+      <MemberSignature Language="C#" Value="public void SetCustomProperty (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetCustomProperty(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.CustomPropContainer.SetCustomProperty(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCustomProperty (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="member this.SetCustomProperty : string * string -&gt; unit" Usage="customPropContainer.SetCustomProperty (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,539 @@
+﻿<Type Name="RollingListener" FullName="Microsoft.Hpc.Azure.Common.RollingListener">
+  <TypeSignature Language="C#" Value="public abstract class RollingListener : System.Diagnostics.TraceListener" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit RollingListener extends System.Diagnostics.TraceListener" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.Common.RollingListener" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RollingListener&#xA;Inherits TraceListener" />
+  <TypeSignature Language="F#" Value="type RollingListener = class&#xA;    inherit TraceListener" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Diagnostics.TraceListener</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RollingListener (string initializeData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string initializeData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (initializeData As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.Common.RollingListener : string -&gt; Microsoft.Hpc.Azure.Common.RollingListener" Usage="new Microsoft.Hpc.Azure.Common.RollingListener initializeData" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="initializeData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="initializeData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public override void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Close ()" />
+      <MemberSignature Language="F#" Value="override this.Close : unit -&gt; unit" Usage="rollingListener.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseTraceListener">
+      <MemberSignature Language="C#" Value="protected abstract void CloseTraceListener (System.Diagnostics.TraceListener listener);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void CloseTraceListener(class System.Diagnostics.TraceListener listener) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.CloseTraceListener(System.Diagnostics.TraceListener)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub CloseTraceListener (listener As TraceListener)" />
+      <MemberSignature Language="F#" Value="abstract member CloseTraceListener : System.Diagnostics.TraceListener -&gt; unit" Usage="rollingListener.CloseTraceListener listener" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="listener" Type="System.Diagnostics.TraceListener" />
+      </Parameters>
+      <Docs>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="rollingListener.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fail">
+      <MemberSignature Language="C#" Value="public override void Fail (string message, string detailMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Fail(string message, string detailMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.Fail(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Fail (message As String, detailMessage As String)" />
+      <MemberSignature Language="F#" Value="override this.Fail : string * string -&gt; unit" Usage="rollingListener.Fail (message, detailMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="detailMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="detailMessage">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public override void Flush ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Flush() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.Flush" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Flush ()" />
+      <MemberSignature Language="F#" Value="override this.Flush : unit -&gt; unit" Usage="rollingListener.Flush " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSupportedAttributes">
+      <MemberSignature Language="C#" Value="protected override string[] GetSupportedAttributes ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string[] GetSupportedAttributes() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.GetSupportedAttributes" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetSupportedAttributes () As String()" />
+      <MemberSignature Language="F#" Value="override this.GetSupportedAttributes : unit -&gt; string[]" Usage="rollingListener.GetSupportedAttributes " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsThreadSafe">
+      <MemberSignature Language="C#" Value="public override bool IsThreadSafe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsThreadSafe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.Common.RollingListener.IsThreadSafe" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsThreadSafe As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsThreadSafe : bool" Usage="Microsoft.Hpc.Azure.Common.RollingListener.IsThreadSafe" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLogFiles">
+      <MemberSignature Language="C#" Value="public int MaxLogFiles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLogFiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.Common.RollingListener.MaxLogFiles" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxLogFiles As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxLogFiles : int with get, set" Usage="Microsoft.Hpc.Azure.Common.RollingListener.MaxLogFiles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLogFilesKeyword">
+      <MemberSignature Language="C#" Value="public const string MaxLogFilesKeyword;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MaxLogFilesKeyword" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Azure.Common.RollingListener.MaxLogFilesKeyword" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxLogFilesKeyword As String " />
+      <MemberSignature Language="F#" Value="val mutable MaxLogFilesKeyword : string" Usage="Microsoft.Hpc.Azure.Common.RollingListener.MaxLogFilesKeyword" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxSize">
+      <MemberSignature Language="C#" Value="public long MaxSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 MaxSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.Common.RollingListener.MaxSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxSize As Long" />
+      <MemberSignature Language="F#" Value="member this.MaxSize : int64 with get, set" Usage="Microsoft.Hpc.Azure.Common.RollingListener.MaxSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxSizeKeyword">
+      <MemberSignature Language="C#" Value="public const string MaxSizeKeyword;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MaxSizeKeyword" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Azure.Common.RollingListener.MaxSizeKeyword" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxSizeKeyword As String " />
+      <MemberSignature Language="F#" Value="val mutable MaxSizeKeyword : string" Usage="Microsoft.Hpc.Azure.Common.RollingListener.MaxSizeKeyword" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTraceListener">
+      <MemberSignature Language="C#" Value="protected abstract System.Diagnostics.TraceListener OpenTraceListener (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Diagnostics.TraceListener OpenTraceListener(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.OpenTraceListener(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OpenTraceListener (path As String) As TraceListener" />
+      <MemberSignature Language="F#" Value="abstract member OpenTraceListener : string -&gt; System.Diagnostics.TraceListener" Usage="rollingListener.OpenTraceListener path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.TraceListener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceData">
+      <MemberSignature Language="C#" Value="public override void TraceData (System.Diagnostics.TraceEventCache eventCache, string source, System.Diagnostics.TraceEventType eventType, int id, object data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void TraceData(class System.Diagnostics.TraceEventCache eventCache, string source, valuetype System.Diagnostics.TraceEventType eventType, int32 id, object data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub TraceData (eventCache As TraceEventCache, source As String, eventType As TraceEventType, id As Integer, data As Object)" />
+      <MemberSignature Language="F#" Value="override this.TraceData : System.Diagnostics.TraceEventCache * string * System.Diagnostics.TraceEventType * int * obj -&gt; unit" Usage="rollingListener.TraceData (eventCache, source, eventType, id, data)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventCache" Type="System.Diagnostics.TraceEventCache" />
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="eventType" Type="System.Diagnostics.TraceEventType" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="data" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="eventCache">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="eventType">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceData">
+      <MemberSignature Language="C#" Value="public override void TraceData (System.Diagnostics.TraceEventCache eventCache, string source, System.Diagnostics.TraceEventType eventType, int id, params object[] data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void TraceData(class System.Diagnostics.TraceEventCache eventCache, string source, valuetype System.Diagnostics.TraceEventType eventType, int32 id, object[] data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub TraceData (eventCache As TraceEventCache, source As String, eventType As TraceEventType, id As Integer, ParamArray data As Object())" />
+      <MemberSignature Language="F#" Value="override this.TraceData : System.Diagnostics.TraceEventCache * string * System.Diagnostics.TraceEventType * int * obj[] -&gt; unit" Usage="rollingListener.TraceData (eventCache, source, eventType, id, data)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventCache" Type="System.Diagnostics.TraceEventCache" />
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="eventType" Type="System.Diagnostics.TraceEventType" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="data" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="eventCache">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="eventType">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEvent">
+      <MemberSignature Language="C#" Value="public override void TraceEvent (System.Diagnostics.TraceEventCache eventCache, string source, System.Diagnostics.TraceEventType eventType, int id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void TraceEvent(class System.Diagnostics.TraceEventCache eventCache, string source, valuetype System.Diagnostics.TraceEventType eventType, int32 id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub TraceEvent (eventCache As TraceEventCache, source As String, eventType As TraceEventType, id As Integer)" />
+      <MemberSignature Language="F#" Value="override this.TraceEvent : System.Diagnostics.TraceEventCache * string * System.Diagnostics.TraceEventType * int -&gt; unit" Usage="rollingListener.TraceEvent (eventCache, source, eventType, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventCache" Type="System.Diagnostics.TraceEventCache" />
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="eventType" Type="System.Diagnostics.TraceEventType" />
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="eventCache">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="eventType">To be added.</param>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEvent">
+      <MemberSignature Language="C#" Value="public override void TraceEvent (System.Diagnostics.TraceEventCache eventCache, string source, System.Diagnostics.TraceEventType eventType, int id, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void TraceEvent(class System.Diagnostics.TraceEventCache eventCache, string source, valuetype System.Diagnostics.TraceEventType eventType, int32 id, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub TraceEvent (eventCache As TraceEventCache, source As String, eventType As TraceEventType, id As Integer, message As String)" />
+      <MemberSignature Language="F#" Value="override this.TraceEvent : System.Diagnostics.TraceEventCache * string * System.Diagnostics.TraceEventType * int * string -&gt; unit" Usage="rollingListener.TraceEvent (eventCache, source, eventType, id, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventCache" Type="System.Diagnostics.TraceEventCache" />
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="eventType" Type="System.Diagnostics.TraceEventType" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="eventCache">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="eventType">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEvent">
+      <MemberSignature Language="C#" Value="public override void TraceEvent (System.Diagnostics.TraceEventCache eventCache, string source, System.Diagnostics.TraceEventType eventType, int id, string format, params object[] args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void TraceEvent(class System.Diagnostics.TraceEventCache eventCache, string source, valuetype System.Diagnostics.TraceEventType eventType, int32 id, string format, object[] args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub TraceEvent (eventCache As TraceEventCache, source As String, eventType As TraceEventType, id As Integer, format As String, ParamArray args As Object())" />
+      <MemberSignature Language="F#" Value="override this.TraceEvent : System.Diagnostics.TraceEventCache * string * System.Diagnostics.TraceEventType * int * string * obj[] -&gt; unit" Usage="rollingListener.TraceEvent (eventCache, source, eventType, id, format, args)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventCache" Type="System.Diagnostics.TraceEventCache" />
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="eventType" Type="System.Diagnostics.TraceEventType" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="format" Type="System.String" />
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="eventCache">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="eventType">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="format">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceTransfer">
+      <MemberSignature Language="C#" Value="public override void TraceTransfer (System.Diagnostics.TraceEventCache eventCache, string source, int id, string message, Guid relatedActivityId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void TraceTransfer(class System.Diagnostics.TraceEventCache eventCache, string source, int32 id, string message, valuetype System.Guid relatedActivityId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.TraceTransfer(System.Diagnostics.TraceEventCache,System.String,System.Int32,System.String,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub TraceTransfer (eventCache As TraceEventCache, source As String, id As Integer, message As String, relatedActivityId As Guid)" />
+      <MemberSignature Language="F#" Value="override this.TraceTransfer : System.Diagnostics.TraceEventCache * string * int * string * Guid -&gt; unit" Usage="rollingListener.TraceTransfer (eventCache, source, id, message, relatedActivityId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventCache" Type="System.Diagnostics.TraceEventCache" />
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="relatedActivityId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="eventCache">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="relatedActivityId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="public override void Write (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Write(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.Write(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Write (message As String)" />
+      <MemberSignature Language="F#" Value="override this.Write : string -&gt; unit" Usage="rollingListener.Write message" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteLine">
+      <MemberSignature Language="C#" Value="public override void WriteLine (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void WriteLine(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.Common.RollingListener.WriteLine(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WriteLine (message As String)" />
+      <MemberSignature Language="F#" Value="override this.WriteLine : string -&gt; unit" Usage="rollingListener.WriteLine message" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

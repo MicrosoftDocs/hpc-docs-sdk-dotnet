@@ -1,0 +1,74 @@
+﻿<Type Name="HpcContextExtension" FullName="Microsoft.Hpc.HpcContextExtension">
+  <TypeSignature Language="C#" Value="public static class HpcContextExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HpcContextExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.HpcContextExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module HpcContextExtension" />
+  <TypeSignature Language="F#" Value="type HpcContextExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetConnectionString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.EndpointsConnectionString GetConnectionString (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.EndpointsConnectionString GetConnectionString(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContextExtension.GetConnectionString(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConnectionString (context As IHpcContext) As EndpointsConnectionString" />
+      <MemberSignature Language="F#" Value="static member GetConnectionString : Microsoft.Hpc.IHpcContext -&gt; Microsoft.Hpc.EndpointsConnectionString" Usage="Microsoft.Hpc.HpcContextExtension.GetConnectionString context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.EndpointsConnectionString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNodesAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;string&gt;&gt; GetNodesAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;string&gt;&gt; GetNodesAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.HpcContextExtension.GetNodesAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNodesAsync (context As IHpcContext) As Task(Of IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="static member GetNodesAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;seq&lt;string&gt;&gt;" Usage="Microsoft.Hpc.HpcContextExtension.GetNodesAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.HpcContextExtension/&lt;GetNodesAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

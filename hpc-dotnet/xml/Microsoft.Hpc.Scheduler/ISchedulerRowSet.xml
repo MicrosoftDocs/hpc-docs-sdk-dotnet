@@ -1,0 +1,121 @@
+﻿<Type Name="ISchedulerRowSet" FullName="Microsoft.Hpc.Scheduler.ISchedulerRowSet">
+  <TypeSignature Language="C#" Value="public interface ISchedulerRowSet : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerRowSet implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerRowSet" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerRowSet&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type ISchedulerRowSet = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Defines a rowset object that you can use to retrieve data from the rowset.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetCount">
+      <MemberSignature Language="C#" Value="public int GetCount ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetCount() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerRowSet.GetCount" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCount () As Integer" />
+      <MemberSignature Language="F#" Value="abstract member GetCount : unit -&gt; int" Usage="iSchedulerRowSet.GetCount " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retrieves the number of rows in the rowset.</summary>
+        <returns>The number of rows in the rowset.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectIndex">
+      <MemberSignature Language="C#" Value="public int GetObjectIndex (int itemId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetObjectIndex(int32 itemId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerRowSet.GetObjectIndex(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetObjectIndex (itemId As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member GetObjectIndex : int -&gt; int" Usage="iSchedulerRowSet.GetObjectIndex itemId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="itemId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="itemId">An identifier that identifies an object in the rowset. For example, if the rowset contains job objects, specify a job identifier (see the <see cref="P:Microsoft.Hpc.Scheduler.ISchedulerJob.Id"></see> property).</param>
+        <summary>Retrieves the rowset index for the specified object.</summary>
+        <returns>The index for the specified object in the rowset.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRows">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRowSet GetRows (int firstRow, int lastRow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRowSet GetRows(int32 firstRow, int32 lastRow) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerRowSet.GetRows(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRows (firstRow As Integer, lastRow As Integer) As PropertyRowSet" />
+      <MemberSignature Language="F#" Value="abstract member GetRows : int * int -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRowSet" Usage="iSchedulerRowSet.GetRows (firstRow, lastRow)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="firstRow" Type="System.Int32" />
+        <Parameter Name="lastRow" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="firstRow">The zero-based index to the first row to retrieve.</param>
+        <param name="lastRow">The zero-based index to the last row to retrieve.</param>
+        <summary>Retrieve the specified range of rows from the rowset.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet"></see> object that contains the specified rows.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRows">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRowSet GetRows (int firstRow, int lastRow, out int rowCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRowSet GetRows(int32 firstRow, int32 lastRow, [out] int32&amp; rowCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerRowSet.GetRows(System.Int32,System.Int32,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRows (firstRow As Integer, lastRow As Integer, ByRef rowCount As Integer) As PropertyRowSet" />
+      <MemberSignature Language="F#" Value="abstract member GetRows : int * int *  -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRowSet" Usage="iSchedulerRowSet.GetRows (firstRow, lastRow, rowCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="firstRow" Type="System.Int32" />
+        <Parameter Name="lastRow" Type="System.Int32" />
+        <Parameter Name="rowCount" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="firstRow">The zero-based index to the first row to retrieve.</param>
+        <param name="lastRow">The zero-based index to the last row to retrieve.</param>
+        <param name="rowCount">The number of rows in the rowset (the same as if you called the <see cref="M:Microsoft.Hpc.Scheduler.ISchedulerRowSet.GetCount"></see> method).</param>
+        <summary>Retrieves the specified range of rows from the rowset and returns a count of the number of rows in the rowset.</summary>
+        <returns>A <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet"></see> object that contains the specified rows.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

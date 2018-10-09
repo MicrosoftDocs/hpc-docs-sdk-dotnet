@@ -1,0 +1,325 @@
+﻿<Type Name="BlobTransferFileTransferEntry" FullName="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry">
+  <TypeSignature Language="C#" Value="public class BlobTransferFileTransferEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BlobTransferFileTransferEntry extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Class BlobTransferFileTransferEntry" />
+  <TypeSignature Language="F#" Value="type BlobTransferFileTransferEntry = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferFileTransferEntry (byte[] infoBuffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] infoBuffer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.#ctor(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (infoBuffer As Byte())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry : byte[] -&gt; Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry" Usage="new Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry infoBuffer" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="infoBuffer" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="infoBuffer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobTransferFileTransferEntry (string sourceRelativePath, string destinationRelativePath, Nullable&lt;DateTimeOffset&gt; lastModified, Nullable&lt;DateTimeOffset&gt; sourceSnapshotTime, Microsoft.WindowsAzure.Storage.Blob.BlobType sourceBlobType, string copyId, string etag, string blockIdPrefix, Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus status, Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint checkPoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string sourceRelativePath, string destinationRelativePath, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModified, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; sourceSnapshotTime, valuetype Microsoft.WindowsAzure.Storage.Blob.BlobType sourceBlobType, string copyId, string etag, string blockIdPrefix, valuetype Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus status, class Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint checkPoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.#ctor(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},Microsoft.WindowsAzure.Storage.Blob.BlobType,System.String,System.String,System.String,Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus,Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (sourceRelativePath As String, destinationRelativePath As String, lastModified As Nullable(Of DateTimeOffset), sourceSnapshotTime As Nullable(Of DateTimeOffset), sourceBlobType As BlobType, copyId As String, etag As String, blockIdPrefix As String, status As BlobTransferEntryStatus, checkPoint As BlobTransferFileTransferEntryCheckPoint)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Microsoft.WindowsAzure.Storage.Blob.BlobType * string * string * string * Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus * Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint -&gt; Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry" Usage="new Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry (sourceRelativePath, destinationRelativePath, lastModified, sourceSnapshotTime, sourceBlobType, copyId, etag, blockIdPrefix, status, checkPoint)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="sourceRelativePath" Type="System.String" />
+        <Parameter Name="destinationRelativePath" Type="System.String" />
+        <Parameter Name="lastModified" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="sourceSnapshotTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="sourceBlobType" Type="Microsoft.WindowsAzure.Storage.Blob.BlobType" />
+        <Parameter Name="copyId" Type="System.String" />
+        <Parameter Name="etag" Type="System.String" />
+        <Parameter Name="blockIdPrefix" Type="System.String" />
+        <Parameter Name="status" Type="Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus" />
+        <Parameter Name="checkPoint" Type="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint" />
+      </Parameters>
+      <Docs>
+        <param name="sourceRelativePath">To be added.</param>
+        <param name="destinationRelativePath">To be added.</param>
+        <param name="lastModified">To be added.</param>
+        <param name="sourceSnapshotTime">To be added.</param>
+        <param name="sourceBlobType">To be added.</param>
+        <param name="copyId">To be added.</param>
+        <param name="etag">To be added.</param>
+        <param name="blockIdPrefix">To be added.</param>
+        <param name="status">To be added.</param>
+        <param name="checkPoint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockIdPrefix">
+      <MemberSignature Language="C#" Value="public string BlockIdPrefix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BlockIdPrefix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.BlockIdPrefix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BlockIdPrefix As String" />
+      <MemberSignature Language="F#" Value="member this.BlockIdPrefix : string" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.BlockIdPrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyId">
+      <MemberSignature Language="C#" Value="public string CopyId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CopyId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.CopyId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CopyId As String" />
+      <MemberSignature Language="F#" Value="member this.CopyId : string" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.CopyId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestinationRelativePath">
+      <MemberSignature Language="C#" Value="public string DestinationRelativePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DestinationRelativePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.DestinationRelativePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DestinationRelativePath As String" />
+      <MemberSignature Language="F#" Value="member this.DestinationRelativePath : string" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.DestinationRelativePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntryTransferFinished">
+      <MemberSignature Language="C#" Value="public bool EntryTransferFinished { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EntryTransferFinished" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.EntryTransferFinished" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntryTransferFinished As Boolean" />
+      <MemberSignature Language="F#" Value="member this.EntryTransferFinished : bool" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.EntryTransferFinished" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ETag">
+      <MemberSignature Language="C#" Value="public string ETag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ETag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.ETag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ETag As String" />
+      <MemberSignature Language="F#" Value="member this.ETag : string" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.ETag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCheckPoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint GetCheckPoint ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint GetCheckPoint() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.GetCheckPoint" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCheckPoint () As BlobTransferFileTransferEntryCheckPoint" />
+      <MemberSignature Language="F#" Value="member this.GetCheckPoint : unit -&gt; Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint" Usage="blobTransferFileTransferEntry.GetCheckPoint " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntryCheckPoint</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInfoBuffer">
+      <MemberSignature Language="C#" Value="public void GetInfoBuffer (ref byte[] entryBuffer, out int infoLength);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GetInfoBuffer(unsigned int8[]&amp; entryBuffer, [out] int32&amp; infoLength) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.GetInfoBuffer(System.Byte[]@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetInfoBuffer (ByRef entryBuffer As Byte(), ByRef infoLength As Integer)" />
+      <MemberSignature Language="F#" Value="member this.GetInfoBuffer :  *  -&gt; unit" Usage="blobTransferFileTransferEntry.GetInfoBuffer (entryBuffer, infoLength)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entryBuffer" Type="System.Byte[]&amp;" RefType="ref" />
+        <Parameter Name="infoLength" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="entryBuffer">To be added.</param>
+        <param name="infoLength">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModified">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTimeOffset&gt; LastModified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; LastModified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.LastModified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModified As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.LastModified : Nullable&lt;DateTimeOffset&gt;" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.LastModified" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceBlobType">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.BlobType SourceBlobType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Storage.Blob.BlobType SourceBlobType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.SourceBlobType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceBlobType As BlobType" />
+      <MemberSignature Language="F#" Value="member this.SourceBlobType : Microsoft.WindowsAzure.Storage.Blob.BlobType" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.SourceBlobType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.BlobType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceRelativePath">
+      <MemberSignature Language="C#" Value="public string SourceRelativePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceRelativePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.SourceRelativePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceRelativePath As String" />
+      <MemberSignature Language="F#" Value="member this.SourceRelativePath : string" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.SourceRelativePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceSnapshotTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTimeOffset&gt; SourceSnapshotTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; SourceSnapshotTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.SourceSnapshotTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceSnapshotTime As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.SourceSnapshotTime : Nullable&lt;DateTimeOffset&gt;" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.SourceSnapshotTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As BlobTransferEntryStatus" />
+      <MemberSignature Language="F#" Value="member this.Status : Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus" Usage="Microsoft.Hpc.Azure.DataMovement.BlobTransferFileTransferEntry.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.DataMovement</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Azure.DataMovement.BlobTransferEntryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

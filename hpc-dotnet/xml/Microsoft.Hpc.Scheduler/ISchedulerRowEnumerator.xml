@@ -1,0 +1,49 @@
+﻿<Type Name="ISchedulerRowEnumerator" FullName="Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator">
+  <TypeSignature Language="C#" Value="public interface ISchedulerRowEnumerator : IDisposable, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyRow&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerRowEnumerator implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyRow&gt;, class System.Collections.IEnumerable, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerRowEnumerator&#xA;Implements IDisposable, IEnumerable(Of PropertyRow)" />
+  <TypeSignature Language="F#" Value="type ISchedulerRowEnumerator = interface&#xA;    interface seq&lt;PropertyRow&gt;&#xA;    interface IEnumerable&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyRow&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Contains the methods used to retrieve rows from the enumerator.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetRows">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyRowSet GetRows (int numberOfRows);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyRowSet GetRows(int32 numberOfRows) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator.GetRows(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRows (numberOfRows As Integer) As PropertyRowSet" />
+      <MemberSignature Language="F#" Value="abstract member GetRows : int -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyRowSet" Usage="iSchedulerRowEnumerator.GetRows numberOfRows" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="numberOfRows" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="numberOfRows">The number of rows to retrieve from the enumerator.</param>
+        <summary>Retrieves one or more rows from the enumerator.</summary>
+        <returns>An <see cref="T:Microsoft.Hpc.Scheduler.Properties.PropertyRowSet"></see> object that contains the rows from the enumerator.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

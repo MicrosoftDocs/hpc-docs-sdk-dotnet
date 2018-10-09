@@ -1,0 +1,295 @@
+﻿<Type Name="StoreTransaction+TransactionItem" FullName="Microsoft.Hpc.Scheduler.Store.StoreTransaction+TransactionItem">
+  <TypeSignature Language="C#" Value="public class StoreTransaction.TransactionItem : IComparable&lt;Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StoreTransaction/TransactionItem extends System.Object implements class System.IComparable`1&lt;class Microsoft.Hpc.Scheduler.Store.StoreTransaction/TransactionItem&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class StoreTransaction.TransactionItem&#xA;Implements IComparable(Of StoreTransaction.TransactionItem)" />
+  <TypeSignature Language="F#" Value="type StoreTransaction.TransactionItem = class&#xA;    interface IComparable&lt;StoreTransaction.TransactionItem&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Hpc.Scheduler.Store.StoreTransaction+TransactionItem&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransactionItem (Microsoft.Hpc.Scheduler.Properties.ObjectType obType, int id, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType obType, int32 id, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.#ctor(Microsoft.Hpc.Scheduler.Properties.ObjectType,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (obType As ObjectType, id As Integer, props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem : Microsoft.Hpc.Scheduler.Properties.ObjectType * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem" Usage="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem (obType, id, props)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="obType" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="obType">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransactionItem (Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action type, int id, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Store.StoreTransaction/Action type, int32 id, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.#ctor(Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As StoreTransaction.Action, id As Integer, props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem : Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem" Usage="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem (type, id, props)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.StoreTransaction+Action" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransactionItem (Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action type, int id, int id2, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Store.StoreTransaction/Action type, int32 id, int32 id2, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.#ctor(Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action,System.Int32,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As StoreTransaction.Action, id As Integer, id2 As Integer, props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem : Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action * int * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem" Usage="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem (type, id, id2, props)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.StoreTransaction+Action" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="id2" Type="System.Int32" />
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="id2">To be added.</param>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransactionItem (Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action type, int id, int id2, int id3, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.Scheduler.Store.StoreTransaction/Action type, int32 id, int32 id2, int32 id3, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.#ctor(Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action,System.Int32,System.Int32,System.Int32,Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As StoreTransaction.Action, id As Integer, id2 As Integer, id3 As Integer, props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem : Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action * int * int * int * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem" Usage="new Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem (type, id, id2, id3, props)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.StoreTransaction+Action" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="id2" Type="System.Int32" />
+        <Parameter Name="id3" Type="System.Int32" />
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="id2">To be added.</param>
+        <param name="id3">To be added.</param>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionType">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action ActionType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Store.StoreTransaction/Action ActionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ActionType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActionType As StoreTransaction.Action" />
+      <MemberSignature Language="F#" Value="member this.ActionType : Microsoft.Hpc.Scheduler.Store.StoreTransaction.Action" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ActionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.StoreTransaction+Action</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(class Microsoft.Hpc.Scheduler.Store.StoreTransaction/TransactionItem other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.CompareTo(Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As StoreTransaction.TransactionItem) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem -&gt; int&#xA;override this.CompareTo : Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem -&gt; int" Usage="transactionItem.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Hpc.Scheduler.Store.StoreTransaction+TransactionItem" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectId">
+      <MemberSignature Language="C#" Value="public int ObjectId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ObjectId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObjectId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ObjectId : int" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObjectId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectId2">
+      <MemberSignature Language="C#" Value="public int ObjectId2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ObjectId2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObjectId2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObjectId2 As Integer" />
+      <MemberSignature Language="F#" Value="member this.ObjectId2 : int" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObjectId2" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectId3">
+      <MemberSignature Language="C#" Value="public int ObjectId3 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ObjectId3" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObjectId3" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObjectId3 As Integer" />
+      <MemberSignature Language="F#" Value="member this.ObjectId3 : int" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObjectId3" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObType">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ObjectType ObType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType ObType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObType As ObjectType" />
+      <MemberSignature Language="F#" Value="member this.ObType : Microsoft.Hpc.Scheduler.Properties.ObjectType" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ObType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ObjectType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.StoreProperty[] Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As StoreProperty()" />
+      <MemberSignature Language="F#" Value="member this.Properties : Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" Usage="Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.Properties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.StoreTransaction.TransactionItem.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="transactionItem.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

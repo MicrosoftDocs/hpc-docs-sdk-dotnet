@@ -1,0 +1,48 @@
+﻿<Type Name="IHpcServiceHost" FullName="Microsoft.Hpc.Scheduler.Session.Interface.IHpcServiceHost">
+  <TypeSignature Language="C#" Value="public interface IHpcServiceHost" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IHpcServiceHost" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Interface.IHpcServiceHost" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IHpcServiceHost" />
+  <TypeSignature Language="F#" Value="type IHpcServiceHost = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Name="IHpcServiceHost", Namespace="http://hpc.microsoft.com/hpcservicehost/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="public void Exit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Exit() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Interface.IHpcServiceHost.Exit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Exit ()" />
+      <MemberSignature Language="F#" Value="abstract member Exit : unit -&gt; unit" Usage="iHpcServiceHost.Exit " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/hpcservicehost/exit", IsOneWay=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

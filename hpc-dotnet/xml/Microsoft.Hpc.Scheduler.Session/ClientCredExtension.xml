@@ -1,0 +1,320 @@
+﻿<Type Name="ClientCredExtension" FullName="Microsoft.Hpc.Scheduler.Session.ClientCredExtension">
+  <TypeSignature Language="C#" Value="public static class ClientCredExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ClientCredExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.ClientCredExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module ClientCredExtension" />
+  <TypeSignature Language="F#" Value="type ClientCredExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AuthByKerberosOrNtlmOrBasic">
+      <MemberSignature Language="C#" Value="public static bool AuthByKerberosOrNtlmOrBasic (this System.Security.Principal.IIdentity identity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool AuthByKerberosOrNtlmOrBasic(class System.Security.Principal.IIdentity identity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.AuthByKerberosOrNtlmOrBasic(System.Security.Principal.IIdentity)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AuthByKerberosOrNtlmOrBasic (identity As IIdentity) As Boolean" />
+      <MemberSignature Language="F#" Value="static member AuthByKerberosOrNtlmOrBasic : System.Security.Principal.IIdentity -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.AuthByKerberosOrNtlmOrBasic identity" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="identity" Type="System.Security.Principal.IIdentity" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="identity">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanImpersonate">
+      <MemberSignature Language="C#" Value="public static bool CanImpersonate (this System.Security.Principal.WindowsIdentity identity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CanImpersonate(class System.Security.Principal.WindowsIdentity identity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.CanImpersonate(System.Security.Principal.WindowsIdentity)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CanImpersonate (identity As WindowsIdentity) As Boolean" />
+      <MemberSignature Language="F#" Value="static member CanImpersonate : System.Security.Principal.WindowsIdentity -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.CanImpersonate identity" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="identity" Type="System.Security.Principal.WindowsIdentity" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="identity">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolveSessionLauncherNodeOnIaasAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; ResolveSessionLauncherNodeOnIaasAsync (this Microsoft.Hpc.IHpcContext context, string headnode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; ResolveSessionLauncherNodeOnIaasAsync(class Microsoft.Hpc.IHpcContext context, string headnode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.ResolveSessionLauncherNodeOnIaasAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ResolveSessionLauncherNodeOnIaasAsync (context As IHpcContext, headnode As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member ResolveSessionLauncherNodeOnIaasAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.ResolveSessionLauncherNodeOnIaasAsync (context, headnode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.ClientCredExtension/&lt;ResolveSessionLauncherNodeOnIaasAsync&gt;d__8))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="headnode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="headnode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseAadClientBehaviors">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;&gt; UseAadClientBehaviors (this System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt; behaviors, Microsoft.Hpc.Scheduler.Session.SessionInitInfoBase sessionInitInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.KeyedByTypeCollection`1&lt;class System.ServiceModel.Description.IEndpointBehavior&gt;&gt; UseAadClientBehaviors(class System.Collections.Generic.KeyedByTypeCollection`1&lt;class System.ServiceModel.Description.IEndpointBehavior&gt; behaviors, class Microsoft.Hpc.Scheduler.Session.SessionInitInfoBase sessionInitInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseAadClientBehaviors(System.Collections.Generic.KeyedByTypeCollection{System.ServiceModel.Description.IEndpointBehavior},Microsoft.Hpc.Scheduler.Session.SessionInitInfoBase)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseAadClientBehaviors (behaviors As KeyedByTypeCollection(Of IEndpointBehavior), sessionInitInfo As SessionInitInfoBase) As Task(Of KeyedByTypeCollection(Of IEndpointBehavior))" />
+      <MemberSignature Language="F#" Value="static member UseAadClientBehaviors : System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt; * Microsoft.Hpc.Scheduler.Session.SessionInitInfoBase -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;&gt;" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseAadClientBehaviors (behaviors, sessionInitInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="behaviors" Type="System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;" RefType="this" />
+        <Parameter Name="sessionInitInfo" Type="Microsoft.Hpc.Scheduler.Session.SessionInitInfoBase" />
+      </Parameters>
+      <Docs>
+        <param name="behaviors">To be added.</param>
+        <param name="sessionInitInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseAadClientBehaviors">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;&gt; UseAadClientBehaviors (this System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt; behaviors, string headnode, string username = null, string password = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.KeyedByTypeCollection`1&lt;class System.ServiceModel.Description.IEndpointBehavior&gt;&gt; UseAadClientBehaviors(class System.Collections.Generic.KeyedByTypeCollection`1&lt;class System.ServiceModel.Description.IEndpointBehavior&gt; behaviors, string headnode, string username, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseAadClientBehaviors(System.Collections.Generic.KeyedByTypeCollection{System.ServiceModel.Description.IEndpointBehavior},System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseAadClientBehaviors (behaviors As KeyedByTypeCollection(Of IEndpointBehavior), headnode As String, Optional username As String = null, Optional password As String = null) As Task(Of KeyedByTypeCollection(Of IEndpointBehavior))" />
+      <MemberSignature Language="F#" Value="static member UseAadClientBehaviors : System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt; * string * string * string -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;&gt;" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseAadClientBehaviors (behaviors, headnode, username, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.ClientCredExtension/&lt;UseAadClientBehaviors&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="behaviors" Type="System.Collections.Generic.KeyedByTypeCollection&lt;System.ServiceModel.Description.IEndpointBehavior&gt;" RefType="this" />
+        <Parameter Name="headnode" Type="System.String" />
+        <Parameter Name="username" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="behaviors">To be added.</param>
+        <param name="headnode">To be added.</param>
+        <param name="username">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInternalAuthentication">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.Description.ClientCredentials UseInternalAuthentication (this System.ServiceModel.Description.ClientCredentials clientCredentials, string thumbprint);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ServiceModel.Description.ClientCredentials UseInternalAuthentication(class System.ServiceModel.Description.ClientCredentials clientCredentials, string thumbprint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthentication(System.ServiceModel.Description.ClientCredentials,System.String)" />
+      <MemberSignature Language="F#" Value="static member UseInternalAuthentication : System.ServiceModel.Description.ClientCredentials * string -&gt; System.ServiceModel.Description.ClientCredentials" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthentication (clientCredentials, thumbprint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Description.ClientCredentials</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clientCredentials" Type="System.ServiceModel.Description.ClientCredentials" RefType="this" />
+        <Parameter Name="thumbprint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="clientCredentials">To be added.</param>
+        <param name="thumbprint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInternalAuthenticationAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.Description.ClientCredentials&gt; UseInternalAuthenticationAsync (this System.ServiceModel.Description.ClientCredentials clientCredentials, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.Description.ClientCredentials&gt; UseInternalAuthenticationAsync(class System.ServiceModel.Description.ClientCredentials clientCredentials, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthenticationAsync(System.ServiceModel.Description.ClientCredentials,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UseInternalAuthenticationAsync : System.ServiceModel.Description.ClientCredentials * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.Description.ClientCredentials&gt;" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthenticationAsync (clientCredentials, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.ClientCredExtension/&lt;UseInternalAuthenticationAsync&gt;d__2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.Description.ClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clientCredentials" Type="System.ServiceModel.Description.ClientCredentials" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="clientCredentials">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInternalAuthenticationAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.Description.ServiceCredentials&gt; UseInternalAuthenticationAsync (this System.ServiceModel.Description.ServiceCredentials serviceCredentials, bool winService = false, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.Description.ServiceCredentials&gt; UseInternalAuthenticationAsync(class System.ServiceModel.Description.ServiceCredentials serviceCredentials, bool winService, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthenticationAsync(System.ServiceModel.Description.ServiceCredentials,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UseInternalAuthenticationAsync : System.ServiceModel.Description.ServiceCredentials * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.Description.ServiceCredentials&gt;" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthenticationAsync (serviceCredentials, winService, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.ClientCredExtension/&lt;UseInternalAuthenticationAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.Description.ServiceCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceCredentials" Type="System.ServiceModel.Description.ServiceCredentials" RefType="this" />
+        <Parameter Name="winService" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceCredentials">To be added.</param>
+        <param name="winService">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInternalAuthenticationAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ClientBase&lt;T&gt;&gt; UseInternalAuthenticationAsync&lt;T&gt; (this System.ServiceModel.ClientBase&lt;T&gt; client, System.Threading.CancellationToken cancellationToken = null) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ClientBase`1&lt;!!T&gt;&gt; UseInternalAuthenticationAsync&lt;class T&gt;(class System.ServiceModel.ClientBase`1&lt;!!T&gt; client, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthenticationAsync``1(System.ServiceModel.ClientBase{``0},System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UseInternalAuthenticationAsync : System.ServiceModel.ClientBase&lt;'T (requires 'T : null)&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ClientBase&lt;'T&gt;&gt; (requires 'T : null)" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseInternalAuthenticationAsync (client, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.ClientCredExtension/&lt;UseInternalAuthenticationAsync&gt;d__1`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ClientBase&lt;T&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="client" Type="System.ServiceModel.ClientBase&lt;T&gt;" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="client">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseServiceAuthorizationManagerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt; UseServiceAuthorizationManagerAsync (this System.ServiceModel.ServiceHost serviceHost, System.ServiceModel.ServiceAuthorizationManager authorizationManager, bool winService = false, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.ServiceHost&gt; UseServiceAuthorizationManagerAsync(class System.ServiceModel.ServiceHost serviceHost, class System.ServiceModel.ServiceAuthorizationManager authorizationManager, bool winService, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseServiceAuthorizationManagerAsync(System.ServiceModel.ServiceHost,System.ServiceModel.ServiceAuthorizationManager,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UseServiceAuthorizationManagerAsync : System.ServiceModel.ServiceHost * System.ServiceModel.ServiceAuthorizationManager * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;" Usage="Microsoft.Hpc.Scheduler.Session.ClientCredExtension.UseServiceAuthorizationManagerAsync (serviceHost, authorizationManager, winService, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.ClientCredExtension/&lt;UseServiceAuthorizationManagerAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ServiceModel.ServiceHost&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceHost" Type="System.ServiceModel.ServiceHost" RefType="this" />
+        <Parameter Name="authorizationManager" Type="System.ServiceModel.ServiceAuthorizationManager" />
+        <Parameter Name="winService" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceHost">To be added.</param>
+        <param name="authorizationManager">To be added.</param>
+        <param name="winService">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

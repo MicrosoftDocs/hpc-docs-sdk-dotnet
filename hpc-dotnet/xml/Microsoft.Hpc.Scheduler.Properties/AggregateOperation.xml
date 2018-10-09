@@ -1,0 +1,153 @@
+﻿<Type Name="AggregateOperation" FullName="Microsoft.Hpc.Scheduler.Properties.AggregateOperation">
+  <TypeSignature Language="C#" Value="public enum AggregateOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed AggregateOperation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.AggregateOperation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AggregateOperation" />
+  <TypeSignature Language="F#" Value="type AggregateOperation = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the aggregate operation to perform on a column (property) in a rowset.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="Count" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation Count = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Count" />
+      <MemberSignature Language="VB.NET" Value="Count" />
+      <MemberSignature Language="F#" Value="Count = 4" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Count" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Count all occurrences of a property.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CountDistinct">
+      <MemberSignature Language="C#" Value="CountDistinct" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation CountDistinct = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.CountDistinct" />
+      <MemberSignature Language="VB.NET" Value="CountDistinct" />
+      <MemberSignature Language="F#" Value="CountDistinct = 5" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.CountDistinct" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Count all distinct property values (for example, count the number of distinct names of users that submitted jobs).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Distinct">
+      <MemberSignature Language="C#" Value="Distinct" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation Distinct = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Distinct" />
+      <MemberSignature Language="VB.NET" Value="Distinct" />
+      <MemberSignature Language="F#" Value="Distinct = 6" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Distinct" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Get the distinct property values (for example, get the distinct names of users that submitted jobs).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="Max" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation Max = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Max" />
+      <MemberSignature Language="VB.NET" Value="Max" />
+      <MemberSignature Language="F#" Value="Max = 3" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Max" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>For integer properties, find the object with the maximum value (for example, the task with the longest run-time).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Min">
+      <MemberSignature Language="C#" Value="Min" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation Min = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Min" />
+      <MemberSignature Language="VB.NET" Value="Min" />
+      <MemberSignature Language="F#" Value="Min = 2" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Min" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>For integer properties, find the object with the minimum value (for example, the task with the shortest run-time).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Do not perform aggregation on this column (property).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sum">
+      <MemberSignature Language="C#" Value="Sum" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.AggregateOperation Sum = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Sum" />
+      <MemberSignature Language="VB.NET" Value="Sum" />
+      <MemberSignature Language="F#" Value="Sum = 1" Usage="Microsoft.Hpc.Scheduler.Properties.AggregateOperation.Sum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.AggregateOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>For integer properties, sum the values for all objects (for example, sum the run-time for all tasks).</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,898 @@
+﻿<Type Name="RegistryExtension" FullName="Microsoft.Hpc.RegistryExtension">
+  <TypeSignature Language="C#" Value="public static class RegistryExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RegistryExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.RegistryExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module RegistryExtension" />
+  <TypeSignature Language="F#" Value="type RegistryExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAzureADAuthorityUriAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureADAuthorityUriAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureADAuthorityUriAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureADAuthorityUriAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureADAuthorityUriAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureADAuthorityUriAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureADAuthorityUriAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureADAuthorityUriAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureADResourceUriAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureADResourceUriAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureADResourceUriAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureADResourceUriAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureADResourceUriAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureADResourceUriAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureADResourceUriAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureADResourceUriAsync&gt;d__16))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureBatchResourceUri">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureBatchResourceUri (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureBatchResourceUri(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureBatchResourceUri(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureBatchResourceUri (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureBatchResourceUri : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureBatchResourceUri context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureBatchResourceUri&gt;d__14))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureBlobStorageDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureBlobStorageDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureBlobStorageDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureBlobStorageDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureBlobStorageDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureBlobStorageDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureBlobStorageDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureBlobStorageDomainAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureFileStorageDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureFileStorageDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureFileStorageDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureFileStorageDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureFileStorageDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureFileStorageDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureFileStorageDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureFileStorageDomainAsync&gt;d__12))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureManagementDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureManagementDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureManagementDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureManagementDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureManagementDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureManagementDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureManagementDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureManagementDomainAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureQueueStorageDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureQueueStorageDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureQueueStorageDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureQueueStorageDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureQueueStorageDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureQueueStorageDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureQueueStorageDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureQueueStorageDomainAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureServiceDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureServiceDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureServiceDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureServiceDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureServiceDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureServiceDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureServiceDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureServiceDomainAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureSQLManagementDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureSQLManagementDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureSQLManagementDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureSQLManagementDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureSQLManagementDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureSQLManagementDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureSQLManagementDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureSQLManagementDomainAsync&gt;d__8))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureStorageConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureStorageConnectionStringAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureStorageConnectionStringAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureStorageConnectionStringAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureStorageConnectionStringAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureStorageConnectionStringAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureStorageConnectionStringAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureStorageConnectionStringAsync&gt;d__24))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureTableStorageDomainAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAzureTableStorageDomainAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAzureTableStorageDomainAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetAzureTableStorageDomainAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzureTableStorageDomainAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAzureTableStorageDomainAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetAzureTableStorageDomainAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetAzureTableStorageDomainAsync&gt;d__10))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCertificateValidationTypeAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.CertificateValidationType&gt; GetCertificateValidationTypeAsync (this Microsoft.Hpc.NonHARegistry registry);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.Hpc.CertificateValidationType&gt; GetCertificateValidationTypeAsync(class Microsoft.Hpc.NonHARegistry registry) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetCertificateValidationTypeAsync(Microsoft.Hpc.NonHARegistry)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCertificateValidationTypeAsync (registry As NonHARegistry) As Task(Of CertificateValidationType)" />
+      <MemberSignature Language="F#" Value="static member GetCertificateValidationTypeAsync : Microsoft.Hpc.NonHARegistry -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.CertificateValidationType&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetCertificateValidationTypeAsync registry" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetCertificateValidationTypeAsync&gt;d__27))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.CertificateValidationType&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="registry" Type="Microsoft.Hpc.NonHARegistry" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="registry">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterDiagnosticsShareAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetClusterDiagnosticsShareAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetClusterDiagnosticsShareAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterDiagnosticsShareAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterDiagnosticsShareAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetClusterDiagnosticsShareAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterDiagnosticsShareAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterDiagnosticsShareAsync&gt;d__32))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Guid&gt; GetClusterIdAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;valuetype System.Guid&gt; GetClusterIdAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterIdAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterIdAsync (context As IHpcContext) As Task(Of Guid)" />
+      <MemberSignature Language="F#" Value="static member GetClusterIdAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;Guid&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterIdAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterIdAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterInstallShareAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetClusterInstallShareAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetClusterInstallShareAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterInstallShareAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterInstallShareAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetClusterInstallShareAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterInstallShareAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterInstallShareAsync&gt;d__31))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterNameAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetClusterNameAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetClusterNameAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterNameAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterNameAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetClusterNameAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterNameAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterNameAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterRuntimeDataShareAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetClusterRuntimeDataShareAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetClusterRuntimeDataShareAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterRuntimeDataShareAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterRuntimeDataShareAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetClusterRuntimeDataShareAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterRuntimeDataShareAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterRuntimeDataShareAsync&gt;d__28))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterServiceRegistrationShareAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetClusterServiceRegistrationShareAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetClusterServiceRegistrationShareAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterServiceRegistrationShareAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterServiceRegistrationShareAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetClusterServiceRegistrationShareAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterServiceRegistrationShareAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterServiceRegistrationShareAsync&gt;d__30))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClusterSpoolDirShareAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetClusterSpoolDirShareAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetClusterSpoolDirShareAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetClusterSpoolDirShareAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterSpoolDirShareAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetClusterSpoolDirShareAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetClusterSpoolDirShareAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetClusterSpoolDirShareAsync&gt;d__29))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDatabaseConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetDatabaseConnectionStringAsync (this Microsoft.Hpc.IHpcContext context, string stringKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetDatabaseConnectionStringAsync(class Microsoft.Hpc.IHpcContext context, string stringKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetDatabaseConnectionStringAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDatabaseConnectionStringAsync (context As IHpcContext, stringKey As String) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetDatabaseConnectionStringAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetDatabaseConnectionStringAsync (context, stringKey)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetDatabaseConnectionStringAsync&gt;d__17))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="stringKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="stringKey">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiagnosticsDatabaseConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetDiagnosticsDatabaseConnectionStringAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetDiagnosticsDatabaseConnectionStringAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetDiagnosticsDatabaseConnectionStringAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDiagnosticsDatabaseConnectionStringAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetDiagnosticsDatabaseConnectionStringAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetDiagnosticsDatabaseConnectionStringAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetDiagnosticsDatabaseConnectionStringAsync&gt;d__21))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsLinuxHttpsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;int&gt; GetIsLinuxHttpsAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;int32&gt; GetIsLinuxHttpsAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetIsLinuxHttpsAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIsLinuxHttpsAsync (context As IHpcContext) As Task(Of Integer)" />
+      <MemberSignature Language="F#" Value="static member GetIsLinuxHttpsAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;int&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetIsLinuxHttpsAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetIsLinuxHttpsAsync&gt;d__23))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetManagementDatabaseConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetManagementDatabaseConnectionStringAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetManagementDatabaseConnectionStringAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetManagementDatabaseConnectionStringAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetManagementDatabaseConnectionStringAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetManagementDatabaseConnectionStringAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetManagementDatabaseConnectionStringAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetManagementDatabaseConnectionStringAsync&gt;d__22))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMonitoringDatabaseConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetMonitoringDatabaseConnectionStringAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetMonitoringDatabaseConnectionStringAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetMonitoringDatabaseConnectionStringAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetMonitoringDatabaseConnectionStringAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetMonitoringDatabaseConnectionStringAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetMonitoringDatabaseConnectionStringAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetMonitoringDatabaseConnectionStringAsync&gt;d__19))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetReportingDatabaseConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetReportingDatabaseConnectionStringAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetReportingDatabaseConnectionStringAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetReportingDatabaseConnectionStringAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetReportingDatabaseConnectionStringAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetReportingDatabaseConnectionStringAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetReportingDatabaseConnectionStringAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetReportingDatabaseConnectionStringAsync&gt;d__20))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSchedulerDatabaseConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetSchedulerDatabaseConnectionStringAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetSchedulerDatabaseConnectionStringAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetSchedulerDatabaseConnectionStringAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSchedulerDatabaseConnectionStringAsync (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetSchedulerDatabaseConnectionStringAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetSchedulerDatabaseConnectionStringAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetSchedulerDatabaseConnectionStringAsync&gt;d__18))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSSLThumbprint">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetSSLThumbprint (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetSSLThumbprint(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetSSLThumbprint(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSSLThumbprint (context As IHpcContext) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetSSLThumbprint : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetSSLThumbprint context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetSSLThumbprint&gt;d__25))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSSLThumbprint">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetSSLThumbprint (this Microsoft.Hpc.IRegistry registry, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetSSLThumbprint(class Microsoft.Hpc.IRegistry registry, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.GetSSLThumbprint(Microsoft.Hpc.IRegistry,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetSSLThumbprint : Microsoft.Hpc.IRegistry * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.RegistryExtension.GetSSLThumbprint (registry, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;GetSSLThumbprint&gt;d__26))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="registry" Type="Microsoft.Hpc.IRegistry" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="registry">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetClusterIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetClusterIdAsync (this Microsoft.Hpc.IHpcContext context, Guid clusterId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetClusterIdAsync(class Microsoft.Hpc.IHpcContext context, valuetype System.Guid clusterId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.SetClusterIdAsync(Microsoft.Hpc.IHpcContext,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetClusterIdAsync (context As IHpcContext, clusterId As Guid) As Task" />
+      <MemberSignature Language="F#" Value="static member SetClusterIdAsync : Microsoft.Hpc.IHpcContext * Guid -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.RegistryExtension.SetClusterIdAsync (context, clusterId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;SetClusterIdAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="clusterId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="clusterId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetClusterNameAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetClusterNameAsync (this Microsoft.Hpc.IHpcContext context, string clusterName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetClusterNameAsync(class Microsoft.Hpc.IHpcContext context, string clusterName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.RegistryExtension.SetClusterNameAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetClusterNameAsync (context As IHpcContext, clusterName As String) As Task" />
+      <MemberSignature Language="F#" Value="static member SetClusterNameAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Hpc.RegistryExtension.SetClusterNameAsync (context, clusterName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.RegistryExtension/&lt;SetClusterNameAsync&gt;d__6))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="clusterName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="clusterName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

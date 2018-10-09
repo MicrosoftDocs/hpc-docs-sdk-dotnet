@@ -1,0 +1,1425 @@
+﻿<Type Name="IClusterJob" FullName="Microsoft.Hpc.Scheduler.Store.IClusterJob">
+  <TypeSignature Language="C#" Value="public interface IClusterJob : Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClusterJob implements class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IClusterJob" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClusterJob&#xA;Implements IClusterStoreObject" />
+  <TypeSignature Language="F#" Value="type IClusterJob = interface&#xA;    interface IClusterStoreObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.Store.IClusterStoreObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddExcludedNodes">
+      <MemberSignature Language="C#" Value="public void AddExcludedNodes (string[] nodeNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddExcludedNodes(string[] nodeNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.AddExcludedNodes(System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddExcludedNodes (nodeNames As String())" />
+      <MemberSignature Language="F#" Value="abstract member AddExcludedNodes : string[] -&gt; unit" Usage="iClusterJob.AddExcludedNodes nodeNames" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeNames" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="nodeNames">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancel">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancel (AsyncCallback callback, object state, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancel(class System.AsyncCallback callback, object state, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancel(System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCancel (callback As AsyncCallback, state As Object, message As String) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancel : AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancel (callback, state, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancel">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancel (AsyncCallback callback, object state, Microsoft.Hpc.Scheduler.Properties.CancelRequest request, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancel(class System.AsyncCallback callback, object state, valuetype Microsoft.Hpc.Scheduler.Properties.CancelRequest request, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancel(System.AsyncCallback,System.Object,Microsoft.Hpc.Scheduler.Properties.CancelRequest,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCancel (callback As AsyncCallback, state As Object, request As CancelRequest, message As String) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancel : AsyncCallback * obj * Microsoft.Hpc.Scheduler.Properties.CancelRequest * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancel (callback, state, request, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+        <Parameter Name="request" Type="Microsoft.Hpc.Scheduler.Properties.CancelRequest" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancelTask">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancelTask (Microsoft.Hpc.Scheduler.Properties.TaskId taskId, AsyncCallback callback, object param, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancelTask(class Microsoft.Hpc.Scheduler.Properties.TaskId taskId, class System.AsyncCallback callback, object param, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancelTask(Microsoft.Hpc.Scheduler.Properties.TaskId,System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancelTask : Microsoft.Hpc.Scheduler.Properties.TaskId * AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancelTask (taskId, callback, param, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="Microsoft.Hpc.Scheduler.Properties.TaskId" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancelTask">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancelTask (int taskSystemId, AsyncCallback callback, object param, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancelTask(int32 taskSystemId, class System.AsyncCallback callback, object param, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancelTask(System.Int32,System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCancelTask (taskSystemId As Integer, callback As AsyncCallback, param As Object, message As String) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancelTask : int * AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancelTask (taskSystemId, callback, param, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskSystemId" Type="System.Int32" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskSystemId">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancelTask">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancelTask (Microsoft.Hpc.Scheduler.Properties.TaskId taskId, Microsoft.Hpc.Scheduler.Properties.CancelRequest request, AsyncCallback callback, object param, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancelTask(class Microsoft.Hpc.Scheduler.Properties.TaskId taskId, valuetype Microsoft.Hpc.Scheduler.Properties.CancelRequest request, class System.AsyncCallback callback, object param, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancelTask(Microsoft.Hpc.Scheduler.Properties.TaskId,Microsoft.Hpc.Scheduler.Properties.CancelRequest,System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancelTask : Microsoft.Hpc.Scheduler.Properties.TaskId * Microsoft.Hpc.Scheduler.Properties.CancelRequest * AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancelTask (taskId, request, callback, param, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="Microsoft.Hpc.Scheduler.Properties.TaskId" />
+        <Parameter Name="request" Type="Microsoft.Hpc.Scheduler.Properties.CancelRequest" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancelTask">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancelTask (int taskSystemId, Microsoft.Hpc.Scheduler.Properties.CancelRequest request, AsyncCallback callback, object param, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancelTask(int32 taskSystemId, valuetype Microsoft.Hpc.Scheduler.Properties.CancelRequest request, class System.AsyncCallback callback, object param, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancelTask(System.Int32,Microsoft.Hpc.Scheduler.Properties.CancelRequest,System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCancelTask (taskSystemId As Integer, request As CancelRequest, callback As AsyncCallback, param As Object, message As String) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancelTask : int * Microsoft.Hpc.Scheduler.Properties.CancelRequest * AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancelTask (taskSystemId, request, callback, param, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskSystemId" Type="System.Int32" />
+        <Parameter Name="request" Type="Microsoft.Hpc.Scheduler.Properties.CancelRequest" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskSystemId">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancelTaskNiceId">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancelTaskNiceId (int taskNiceId, AsyncCallback callback, object param, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancelTaskNiceId(int32 taskNiceId, class System.AsyncCallback callback, object param, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancelTaskNiceId(System.Int32,System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCancelTaskNiceId (taskNiceId As Integer, callback As AsyncCallback, param As Object, message As String) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancelTaskNiceId : int * AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancelTaskNiceId (taskNiceId, callback, param, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskNiceId" Type="System.Int32" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskNiceId">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCancelTaskNiceId">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCancelTaskNiceId (int taskNiceId, Microsoft.Hpc.Scheduler.Properties.CancelRequest request, AsyncCallback callback, object param, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginCancelTaskNiceId(int32 taskNiceId, valuetype Microsoft.Hpc.Scheduler.Properties.CancelRequest request, class System.AsyncCallback callback, object param, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginCancelTaskNiceId(System.Int32,Microsoft.Hpc.Scheduler.Properties.CancelRequest,System.AsyncCallback,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCancelTaskNiceId (taskNiceId As Integer, request As CancelRequest, callback As AsyncCallback, param As Object, message As String) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginCancelTaskNiceId : int * Microsoft.Hpc.Scheduler.Properties.CancelRequest * AsyncCallback * obj * string -&gt; IAsyncResult" Usage="iClusterJob.BeginCancelTaskNiceId (taskNiceId, request, callback, param, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskNiceId" Type="System.Int32" />
+        <Parameter Name="request" Type="Microsoft.Hpc.Scheduler.Properties.CancelRequest" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="param" Type="System.Object" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskNiceId">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="param">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSubmit">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSubmit (Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IAsyncResult BeginSubmit(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.BeginSubmit(Microsoft.Hpc.Scheduler.Properties.StoreProperty[],System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSubmit (props As StoreProperty(), callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="F#" Value="abstract member BeginSubmit : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] * AsyncCallback * obj -&gt; IAsyncResult" Usage="iClusterJob.BeginSubmit (props, callback, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="props">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public void Cancel (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cancel(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Cancel(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel (message As String)" />
+      <MemberSignature Language="F#" Value="abstract member Cancel : string -&gt; unit" Usage="iClusterJob.Cancel message" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public void Cancel (string message, bool isForced, bool isGraceful);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cancel(string message, bool isForced, bool isGraceful) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Cancel(System.String,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel (message As String, isForced As Boolean, isGraceful As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Cancel : string * bool * bool -&gt; unit" Usage="iClusterJob.Cancel (message, isForced, isGraceful)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isForced" Type="System.Boolean" />
+        <Parameter Name="isGraceful" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="isForced">To be added.</param>
+        <param name="isGraceful">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelTask">
+      <MemberSignature Language="C#" Value="public void CancelTask (int taskId, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelTask(int32 taskId, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.CancelTask(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelTask (taskId As Integer, message As String)" />
+      <MemberSignature Language="F#" Value="abstract member CancelTask : int * string -&gt; unit" Usage="iClusterJob.CancelTask (taskId, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelTask">
+      <MemberSignature Language="C#" Value="public void CancelTask (int taskId, string message, bool isForced);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelTask(int32 taskId, string message, bool isForced) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.CancelTask(System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelTask (taskId As Integer, message As String, isForced As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CancelTask : int * string * bool -&gt; unit" Usage="iClusterJob.CancelTask (taskId, message, isForced)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isForced" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="isForced">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearExcludedNodes">
+      <MemberSignature Language="C#" Value="public void ClearExcludedNodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearExcludedNodes() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.ClearExcludedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearExcludedNodes ()" />
+      <MemberSignature Language="F#" Value="abstract member ClearExcludedNodes : unit -&gt; unit" Usage="iClusterJob.ClearExcludedNodes " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterJob Clone ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterJob Clone() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Clone" />
+      <MemberSignature Language="VB.NET" Value="Public Function Clone () As IClusterJob" />
+      <MemberSignature Language="F#" Value="abstract member Clone : unit -&gt; Microsoft.Hpc.Scheduler.Store.IClusterJob" Usage="iClusterJob.Clone " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterJob</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Configure">
+      <MemberSignature Language="C#" Value="public void Configure ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Configure() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Configure" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Configure ()" />
+      <MemberSignature Language="F#" Value="abstract member Configure : unit -&gt; unit" Usage="iClusterJob.Configure " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateChildJob">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterJob CreateChildJob (params Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterJob CreateChildJob(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] jobProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.CreateChildJob(Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateChildJob (ParamArray jobProps As StoreProperty()) As IClusterJob" />
+      <MemberSignature Language="F#" Value="abstract member CreateChildJob : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.IClusterJob" Usage="iClusterJob.CreateChildJob jobProps" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobProps" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="jobProps">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTask">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTask CreateTask (params Microsoft.Hpc.Scheduler.Properties.StoreProperty[] taskProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTask CreateTask(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] taskProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.CreateTask(Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateTask (ParamArray taskProperties As StoreProperty()) As IClusterTask" />
+      <MemberSignature Language="F#" Value="abstract member CreateTask : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="iClusterJob.CreateTask taskProperties" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskProperties" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="taskProperties">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTaskGroupsAndDependencies">
+      <MemberSignature Language="C#" Value="public void CreateTaskGroupsAndDependencies (System.Collections.Generic.List&lt;string&gt; newGroups, System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int,int&gt;&gt; newDependencies, int groupIdBase, out System.Collections.Generic.List&lt;int&gt; newGroupIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateTaskGroupsAndDependencies(class System.Collections.Generic.List`1&lt;string&gt; newGroups, class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, int32&gt;&gt; newDependencies, int32 groupIdBase, [out] class System.Collections.Generic.List`1&lt;int32&gt;&amp; newGroupIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.CreateTaskGroupsAndDependencies(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int32,System.Int32}},System.Int32,System.Collections.Generic.List{System.Int32}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreateTaskGroupsAndDependencies (newGroups As List(Of String), newDependencies As List(Of KeyValuePair(Of Integer, Integer)), groupIdBase As Integer, ByRef newGroupIds As List(Of Integer))" />
+      <MemberSignature Language="F#" Value="abstract member CreateTaskGroupsAndDependencies : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;int, int&gt;&gt; * int *  -&gt; unit" Usage="iClusterJob.CreateTaskGroupsAndDependencies (newGroups, newDependencies, groupIdBase, newGroupIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newGroups" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="newDependencies" Type="System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Int32&gt;&gt;" />
+        <Parameter Name="groupIdBase" Type="System.Int32" />
+        <Parameter Name="newGroupIds" Type="System.Collections.Generic.List&lt;System.Int32&gt;&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="newGroups">To be added.</param>
+        <param name="newDependencies">To be added.</param>
+        <param name="groupIdBase">To be added.</param>
+        <param name="newGroupIds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTasks">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Store.IClusterTask&gt; CreateTasks (System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty[]&gt; taskPropertyList);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Store.IClusterTask&gt; CreateTasks(class System.Collections.Generic.List`1&lt;class Microsoft.Hpc.Scheduler.Properties.StoreProperty[]&gt; taskPropertyList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.CreateTasks(System.Collections.Generic.List{Microsoft.Hpc.Scheduler.Properties.StoreProperty[]})" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateTasks (taskPropertyList As List(Of StoreProperty())) As List(Of IClusterTask)" />
+      <MemberSignature Language="F#" Value="abstract member CreateTasks : System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty[]&gt; -&gt; System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Store.IClusterTask&gt;" Usage="iClusterJob.CreateTasks taskPropertyList" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Store.IClusterTask&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskPropertyList" Type="System.Collections.Generic.List&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty[]&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="taskPropertyList">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteTask">
+      <MemberSignature Language="C#" Value="public int DeleteTask (int taskSystemId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DeleteTask(int32 taskSystemId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.DeleteTask(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteTask (taskSystemId As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member DeleteTask : int -&gt; int" Usage="iClusterJob.DeleteTask taskSystemId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskSystemId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="taskSystemId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteTaskGroup">
+      <MemberSignature Language="C#" Value="public void DeleteTaskGroup (int groupId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteTaskGroup(int32 groupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.DeleteTaskGroup(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteTaskGroup (groupId As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteTaskGroup : int -&gt; unit" Usage="iClusterJob.DeleteTaskGroup groupId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="groupId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCancel">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobState EndCancel (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.Properties.JobState EndCancel(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.EndCancel(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndCancel (result As IAsyncResult) As JobState" />
+      <MemberSignature Language="F#" Value="abstract member EndCancel : IAsyncResult -&gt; Microsoft.Hpc.Scheduler.Properties.JobState" Usage="iClusterJob.EndCancel result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCancelTask">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.TaskState EndCancelTask (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.Properties.TaskState EndCancelTask(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.EndCancelTask(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndCancelTask (result As IAsyncResult) As TaskState" />
+      <MemberSignature Language="F#" Value="abstract member EndCancelTask : IAsyncResult -&gt; Microsoft.Hpc.Scheduler.Properties.TaskState" Usage="iClusterJob.EndCancelTask result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.TaskState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSubmit">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.JobState EndSubmit (IAsyncResult result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.Properties.JobState EndSubmit(class System.IAsyncResult result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.EndSubmit(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSubmit (result As IAsyncResult) As JobState" />
+      <MemberSignature Language="F#" Value="abstract member EndSubmit : IAsyncResult -&gt; Microsoft.Hpc.Scheduler.Properties.JobState" Usage="iClusterJob.EndSubmit result" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finish">
+      <MemberSignature Language="C#" Value="public void Finish (string message, bool isForced, bool isGraceful);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Finish(string message, bool isForced, bool isGraceful) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Finish(System.String,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Finish (message As String, isForced As Boolean, isGraceful As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Finish : string * bool * bool -&gt; unit" Usage="iClusterJob.Finish (message, isForced, isGraceful)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isForced" Type="System.Boolean" />
+        <Parameter Name="isGraceful" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="isForced">To be added.</param>
+        <param name="isGraceful">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishTask">
+      <MemberSignature Language="C#" Value="public void FinishTask (int taskId, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void FinishTask(int32 taskId, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.FinishTask(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FinishTask (taskId As Integer, message As String)" />
+      <MemberSignature Language="F#" Value="abstract member FinishTask : int * string -&gt; unit" Usage="iClusterJob.FinishTask (taskId, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishTaskByNiceId">
+      <MemberSignature Language="C#" Value="public void FinishTaskByNiceId (int taskNiceId, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void FinishTaskByNiceId(int32 taskNiceId, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.FinishTaskByNiceId(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FinishTaskByNiceId (taskNiceId As Integer, message As String)" />
+      <MemberSignature Language="F#" Value="abstract member FinishTaskByNiceId : int * string -&gt; unit" Usage="iClusterJob.FinishTaskByNiceId (taskNiceId, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskNiceId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskNiceId">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllTaskCustomProperties">
+      <MemberSignature Language="C#" Value="public void GetAllTaskCustomProperties (out Microsoft.Hpc.Scheduler.Properties.PropertyRow[] resultRow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetAllTaskCustomProperties([out] class Microsoft.Hpc.Scheduler.Properties.PropertyRow[]&amp; resultRow) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.GetAllTaskCustomProperties(Microsoft.Hpc.Scheduler.Properties.PropertyRow[]@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetAllTaskCustomProperties (ByRef resultRow As PropertyRow())" />
+      <MemberSignature Language="F#" Value="abstract member GetAllTaskCustomProperties :  -&gt; unit" Usage="iClusterJob.GetAllTaskCustomProperties resultRow" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resultRow" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow[]&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="resultRow">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnvironmentVariables">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; GetEnvironmentVariables ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; GetEnvironmentVariables() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.GetEnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnvironmentVariables () As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="abstract member GetEnvironmentVariables : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="iClusterJob.GetEnvironmentVariables " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRootTaskGroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup GetRootTaskGroup ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup GetRootTaskGroup() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.GetRootTaskGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRootTaskGroup () As IClusterTaskGroup" />
+      <MemberSignature Language="F#" Value="abstract member GetRootTaskGroup : unit -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup" Usage="iClusterJob.GetRootTaskGroup " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTaskGroup</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenAllocationEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenAllocationEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenAllocationEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenAllocationEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenAllocationEnumerator () As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenAllocationEnumerator : unit -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iClusterJob.OpenAllocationEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenAllocationRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IAllocationRowSet OpenAllocationRowSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IAllocationRowSet OpenAllocationRowSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenAllocationRowSet" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenAllocationRowSet () As IAllocationRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenAllocationRowSet : unit -&gt; Microsoft.Hpc.Scheduler.Store.IAllocationRowSet" Usage="iClusterJob.OpenAllocationRowSet " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IAllocationRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenMessageEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenMessageEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenMessageEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenMessageEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenMessageEnumerator () As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenMessageEnumerator : unit -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iClusterJob.OpenMessageEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenMessageRowset">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet OpenMessageRowset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet OpenMessageRowset() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenMessageRowset" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenMessageRowset () As IJobMessageRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenMessageRowset : unit -&gt; Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet" Usage="iClusterJob.OpenMessageRowset " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenMessageRowset">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet OpenMessageRowset (Microsoft.Hpc.Scheduler.Store.RowSetType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet OpenMessageRowset(valuetype Microsoft.Hpc.Scheduler.Store.RowSetType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenMessageRowset(Microsoft.Hpc.Scheduler.Store.RowSetType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenMessageRowset (type As RowSetType) As IJobMessageRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenMessageRowset : Microsoft.Hpc.Scheduler.Store.RowSetType -&gt; Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet" Usage="iClusterJob.OpenMessageRowset type" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IJobMessageRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.RowSetType" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTask">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTask (Microsoft.Hpc.Scheduler.Properties.TaskId taskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTask(class Microsoft.Hpc.Scheduler.Properties.TaskId taskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTask(Microsoft.Hpc.Scheduler.Properties.TaskId)" />
+      <MemberSignature Language="F#" Value="abstract member OpenTask : Microsoft.Hpc.Scheduler.Properties.TaskId -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="iClusterJob.OpenTask taskId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskId" Type="Microsoft.Hpc.Scheduler.Properties.TaskId" />
+      </Parameters>
+      <Docs>
+        <param name="taskId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTask">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTask (int taskSystemId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTask(int32 taskSystemId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTask(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTask (taskSystemId As Integer) As IClusterTask" />
+      <MemberSignature Language="F#" Value="abstract member OpenTask : int -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="iClusterJob.OpenTask taskSystemId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskSystemId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="taskSystemId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskByNiceId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTaskByNiceId (int taskNiceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTaskByNiceId(int32 taskNiceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskByNiceId(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskByNiceId (taskNiceId As Integer) As IClusterTask" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskByNiceId : int -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="iClusterJob.OpenTaskByNiceId taskNiceId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskNiceId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="taskNiceId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskByNiceId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTaskByNiceId (string taskNiceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IClusterTask OpenTaskByNiceId(string taskNiceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskByNiceId(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskByNiceId (taskNiceId As String) As IClusterTask" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskByNiceId : string -&gt; Microsoft.Hpc.Scheduler.Store.IClusterTask" Usage="iClusterJob.OpenTaskByNiceId taskNiceId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IClusterTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskNiceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="taskNiceId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskGroupRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ITaskGroupRowSet OpenTaskGroupRowSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ITaskGroupRowSet OpenTaskGroupRowSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskGroupRowSet" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskGroupRowSet () As ITaskGroupRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskGroupRowSet : unit -&gt; Microsoft.Hpc.Scheduler.Store.ITaskGroupRowSet" Usage="iClusterJob.OpenTaskGroupRowSet " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ITaskGroupRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskRowEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenTaskRowEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenTaskRowEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskRowEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskRowEnumerator () As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskRowEnumerator : unit -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iClusterJob.OpenTaskRowEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskRowEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenTaskRowEnumerator (Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.IRowEnumerator OpenTaskRowEnumerator(valuetype Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskRowEnumerator(Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskRowEnumerator (options As TaskRowSetOptions) As IRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskRowEnumerator : Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions -&gt; Microsoft.Hpc.Scheduler.Store.IRowEnumerator" Usage="iClusterJob.OpenTaskRowEnumerator options" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.IRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenTaskRowSet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenTaskRowSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskRowSet" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskRowSet () As ITaskRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskRowSet : unit -&gt; Microsoft.Hpc.Scheduler.Store.ITaskRowSet" Usage="iClusterJob.OpenTaskRowSet " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ITaskRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenTaskRowSet (Microsoft.Hpc.Scheduler.Store.RowSetType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenTaskRowSet(valuetype Microsoft.Hpc.Scheduler.Store.RowSetType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskRowSet(Microsoft.Hpc.Scheduler.Store.RowSetType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskRowSet (type As RowSetType) As ITaskRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskRowSet : Microsoft.Hpc.Scheduler.Store.RowSetType -&gt; Microsoft.Hpc.Scheduler.Store.ITaskRowSet" Usage="iClusterJob.OpenTaskRowSet type" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ITaskRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.RowSetType" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenTaskRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenTaskRowSet (Microsoft.Hpc.Scheduler.Store.RowSetType type, Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Store.ITaskRowSet OpenTaskRowSet(valuetype Microsoft.Hpc.Scheduler.Store.RowSetType type, valuetype Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.OpenTaskRowSet(Microsoft.Hpc.Scheduler.Store.RowSetType,Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenTaskRowSet (type As RowSetType, options As TaskRowSetOptions) As ITaskRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenTaskRowSet : Microsoft.Hpc.Scheduler.Store.RowSetType * Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions -&gt; Microsoft.Hpc.Scheduler.Store.ITaskRowSet" Usage="iClusterJob.OpenTaskRowSet (type, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.ITaskRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Hpc.Scheduler.Store.RowSetType" />
+        <Parameter Name="options" Type="Microsoft.Hpc.Scheduler.Store.TaskRowSetOptions" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExcludedNodes">
+      <MemberSignature Language="C#" Value="public void RemoveExcludedNodes (string[] nodeNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveExcludedNodes(string[] nodeNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.RemoveExcludedNodes(System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveExcludedNodes (nodeNames As String())" />
+      <MemberSignature Language="F#" Value="abstract member RemoveExcludedNodes : string[] -&gt; unit" Usage="iClusterJob.RemoveExcludedNodes nodeNames" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeNames" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="nodeNames">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Requeue">
+      <MemberSignature Language="C#" Value="public void Requeue ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Requeue() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Requeue" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Requeue ()" />
+      <MemberSignature Language="F#" Value="abstract member Requeue : unit -&gt; unit" Usage="iClusterJob.Requeue " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduleOnPhantomResources">
+      <MemberSignature Language="C#" Value="public void ScheduleOnPhantomResources (int[] nodeIds, Microsoft.Hpc.Scheduler.Properties.StoreProperty[] phantomResourceProps);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScheduleOnPhantomResources(int32[] nodeIds, class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] phantomResourceProps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.ScheduleOnPhantomResources(System.Int32[],Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScheduleOnPhantomResources (nodeIds As Integer(), phantomResourceProps As StoreProperty())" />
+      <MemberSignature Language="F#" Value="abstract member ScheduleOnPhantomResources : int[] * Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="iClusterJob.ScheduleOnPhantomResources (nodeIds, phantomResourceProps)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeIds" Type="System.Int32[]" />
+        <Parameter Name="phantomResourceProps" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="nodeIds">To be added.</param>
+        <param name="phantomResourceProps">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnvironmentVariable">
+      <MemberSignature Language="C#" Value="public void SetEnvironmentVariable (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetEnvironmentVariable(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.SetEnvironmentVariable(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnvironmentVariable (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetEnvironmentVariable : string * string -&gt; unit" Usage="iClusterJob.SetEnvironmentVariable (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetHoldUntil">
+      <MemberSignature Language="C#" Value="public void SetHoldUntil (DateTime holdUntil);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHoldUntil(valuetype System.DateTime holdUntil) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.SetHoldUntil(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetHoldUntil (holdUntil As DateTime)" />
+      <MemberSignature Language="F#" Value="abstract member SetHoldUntil : DateTime -&gt; unit" Usage="iClusterJob.SetHoldUntil holdUntil" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="holdUntil" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="holdUntil">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Submit">
+      <MemberSignature Language="C#" Value="public void Submit (params Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Submit(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.Submit(Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Submit (ParamArray props As StoreProperty())" />
+      <MemberSignature Language="F#" Value="abstract member Submit : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; unit" Usage="iClusterJob.Submit props" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTasks">
+      <MemberSignature Language="C#" Value="public void SubmitTasks (int[] taskIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitTasks(int32[] taskIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.SubmitTasks(System.Int32[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitTasks (taskIds As Integer())" />
+      <MemberSignature Language="F#" Value="abstract member SubmitTasks : int[] -&gt; unit" Usage="iClusterJob.SubmitTasks taskIds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="taskIds" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="taskIds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskEvent">
+      <MemberSignature Language="C#" Value="event Microsoft.Hpc.Scheduler.Store.SchedulerTaskEventDelegate TaskEvent;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Hpc.Scheduler.Store.SchedulerTaskEventDelegate TaskEvent" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.Store.IClusterJob.TaskEvent" />
+      <MemberSignature Language="VB.NET" Value="Event TaskEvent As SchedulerTaskEventDelegate " />
+      <MemberSignature Language="F#" Value="member this.TaskEvent : Microsoft.Hpc.Scheduler.Store.SchedulerTaskEventDelegate " Usage="member this.TaskEvent : Microsoft.Hpc.Scheduler.Store.SchedulerTaskEventDelegate " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Store.SchedulerTaskEventDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateTaskGroup">
+      <MemberSignature Language="C#" Value="public void UpdateTaskGroup (int groupId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateTaskGroup(int32 groupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.UpdateTaskGroup(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateTaskGroup (groupId As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateTaskGroup : int -&gt; unit" Usage="iClusterJob.UpdateTaskGroup groupId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="groupId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateTaskGroups">
+      <MemberSignature Language="C#" Value="public void UpdateTaskGroups (System.Collections.Generic.IList&lt;int&gt; groupIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateTaskGroups(class System.Collections.Generic.IList`1&lt;int32&gt; groupIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IClusterJob.UpdateTaskGroups(System.Collections.Generic.IList{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateTaskGroups (groupIds As IList(Of Integer))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateTaskGroups : System.Collections.Generic.IList&lt;int&gt; -&gt; unit" Usage="iClusterJob.UpdateTaskGroups groupIds" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupIds" Type="System.Collections.Generic.IList&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="groupIds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

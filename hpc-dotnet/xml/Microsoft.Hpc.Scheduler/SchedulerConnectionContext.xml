@@ -1,0 +1,285 @@
+﻿<Type Name="SchedulerConnectionContext" FullName="Microsoft.Hpc.Scheduler.SchedulerConnectionContext">
+  <TypeSignature Language="C#" Value="public class SchedulerConnectionContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SchedulerConnectionContext extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.SchedulerConnectionContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class SchedulerConnectionContext" />
+  <TypeSignature Language="F#" Value="type SchedulerConnectionContext = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchedulerConnectionContext (Microsoft.Hpc.IHpcContext hpcContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.IHpcContext hpcContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.#ctor(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (hpcContext As IHpcContext)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext : Microsoft.Hpc.IHpcContext -&gt; Microsoft.Hpc.Scheduler.SchedulerConnectionContext" Usage="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext hpcContext" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="hpcContext" Type="Microsoft.Hpc.IHpcContext" />
+      </Parameters>
+      <Docs>
+        <param name="hpcContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchedulerConnectionContext (Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;string&gt;&gt; resolver);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;string&gt;&gt; resolver) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.String}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (resolver As Func(Of CancellationToken, Task(Of String)))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext : Func&lt;System.Threading.CancellationToken, System.Threading.Tasks.Task&lt;string&gt;&gt; -&gt; Microsoft.Hpc.Scheduler.SchedulerConnectionContext" Usage="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext resolver" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="resolver" Type="System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;System.String&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="resolver">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchedulerConnectionContext (Microsoft.Hpc.EndpointsConnectionString connectionString, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Hpc.EndpointsConnectionString connectionString, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.#ctor(Microsoft.Hpc.EndpointsConnectionString,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As EndpointsConnectionString, token As CancellationToken)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext : Microsoft.Hpc.EndpointsConnectionString * System.Threading.CancellationToken -&gt; Microsoft.Hpc.Scheduler.SchedulerConnectionContext" Usage="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext (connectionString, token)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connectionString" Type="Microsoft.Hpc.EndpointsConnectionString" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SchedulerConnectionContext (string oldMultiFormatString, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string oldMultiFormatString, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.#ctor(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (oldMultiFormatString As String, token As CancellationToken)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext : string * System.Threading.CancellationToken -&gt; Microsoft.Hpc.Scheduler.SchedulerConnectionContext" Usage="new Microsoft.Hpc.Scheduler.SchedulerConnectionContext (oldMultiFormatString, token)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="oldMultiFormatString" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="oldMultiFormatString">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainName">
+      <MemberSignature Language="C#" Value="public string DomainName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DomainName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.DomainName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DomainName As String" />
+      <MemberSignature Language="F#" Value="member this.DomainName : string" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.DomainName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdentityProvider">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.ServiceAsClientIdentityProvider IdentityProvider { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.ServiceAsClientIdentityProvider IdentityProvider" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.IdentityProvider" />
+      <MemberSignature Language="VB.NET" Value="Public Property IdentityProvider As ServiceAsClientIdentityProvider" />
+      <MemberSignature Language="F#" Value="member this.IdentityProvider : Microsoft.Hpc.ServiceAsClientIdentityProvider with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.IdentityProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.ServiceAsClientIdentityProvider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHttp">
+      <MemberSignature Language="C#" Value="public bool IsHttp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsHttp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.IsHttp" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsHttp As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsHttp : bool with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.IsHttp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Password">
+      <MemberSignature Language="C#" Value="public string Password { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Password" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.Password" />
+      <MemberSignature Language="VB.NET" Value="Public Property Password As String" />
+      <MemberSignature Language="F#" Value="member this.Password : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.Password" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Port">
+      <MemberSignature Language="C#" Value="public int Port { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Port" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.Port" />
+      <MemberSignature Language="VB.NET" Value="Public Property Port As Integer" />
+      <MemberSignature Language="F#" Value="member this.Port : int with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.Port" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrincipalProvider">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.ServiceAsClientPrincipalProvider PrincipalProvider { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.ServiceAsClientPrincipalProvider PrincipalProvider" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.PrincipalProvider" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrincipalProvider As ServiceAsClientPrincipalProvider" />
+      <MemberSignature Language="F#" Value="member this.PrincipalProvider : Microsoft.Hpc.ServiceAsClientPrincipalProvider with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.PrincipalProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.ServiceAsClientPrincipalProvider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawUserName">
+      <MemberSignature Language="C#" Value="public string RawUserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RawUserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.RawUserName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawUserName As String" />
+      <MemberSignature Language="F#" Value="member this.RawUserName : string" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.RawUserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceAsClient">
+      <MemberSignature Language="C#" Value="public bool ServiceAsClient { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ServiceAsClient" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.ServiceAsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceAsClient As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ServiceAsClient : bool with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.ServiceAsClient" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public string UserName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.SchedulerConnectionContext.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserName As String" />
+      <MemberSignature Language="F#" Value="member this.UserName : string with get, set" Usage="Microsoft.Hpc.Scheduler.SchedulerConnectionContext.UserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

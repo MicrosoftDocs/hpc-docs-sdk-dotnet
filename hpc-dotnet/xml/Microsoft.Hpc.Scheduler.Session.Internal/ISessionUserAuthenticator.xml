@@ -1,0 +1,44 @@
+﻿<Type Name="ISessionUserAuthenticator" FullName="Microsoft.Hpc.Scheduler.Session.Internal.ISessionUserAuthenticator">
+  <TypeSignature Language="C#" Value="public interface ISessionUserAuthenticator" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISessionUserAuthenticator" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.Internal.ISessionUserAuthenticator" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISessionUserAuthenticator" />
+  <TypeSignature Language="F#" Value="type ISessionUserAuthenticator = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AuthenticateUser">
+      <MemberSignature Language="C#" Value="public bool AuthenticateUser (int sessionId, System.Security.Principal.WindowsIdentity identity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AuthenticateUser(int32 sessionId, class System.Security.Principal.WindowsIdentity identity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.Internal.ISessionUserAuthenticator.AuthenticateUser(System.Int32,System.Security.Principal.WindowsIdentity)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AuthenticateUser (sessionId As Integer, identity As WindowsIdentity) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member AuthenticateUser : int * System.Security.Principal.WindowsIdentity -&gt; bool" Usage="iSessionUserAuthenticator.AuthenticateUser (sessionId, identity)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sessionId" Type="System.Int32" />
+        <Parameter Name="identity" Type="System.Security.Principal.WindowsIdentity" />
+      </Parameters>
+      <Docs>
+        <param name="sessionId">To be added.</param>
+        <param name="identity">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

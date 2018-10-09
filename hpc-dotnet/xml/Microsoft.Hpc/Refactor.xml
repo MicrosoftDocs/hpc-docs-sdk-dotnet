@@ -1,0 +1,46 @@
+﻿<Type Name="Refactor" FullName="Microsoft.Hpc.Refactor">
+  <TypeSignature Language="C#" Value="public class Refactor : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Refactor extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Refactor" />
+  <TypeSignature Language="VB.NET" Value="Public Class Refactor&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type Refactor = class&#xA;    inherit Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Obsolete("Please consider refactor the logic here. It might be a bug")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Refactor (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Refactor.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Refactor : string -&gt; Microsoft.Hpc.Refactor" Usage="new Microsoft.Hpc.Refactor message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

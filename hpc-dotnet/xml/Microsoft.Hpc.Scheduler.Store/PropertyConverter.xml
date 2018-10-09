@@ -1,0 +1,196 @@
+﻿<Type Name="PropertyConverter" FullName="Microsoft.Hpc.Scheduler.Store.PropertyConverter">
+  <TypeSignature Language="C#" Value="public abstract class PropertyConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit PropertyConverter extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.PropertyConverter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class PropertyConverter" />
+  <TypeSignature Language="F#" Value="type PropertyConverter = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected PropertyConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFilter">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Properties.FilterProperty[] ConvertFilter (Microsoft.Hpc.Scheduler.Properties.FilterProperty filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.FilterProperty[] ConvertFilter(class Microsoft.Hpc.Scheduler.Properties.FilterProperty filter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.ConvertFilter(Microsoft.Hpc.Scheduler.Properties.FilterProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertFilter (filter As FilterProperty) As FilterProperty()" />
+      <MemberSignature Language="F#" Value="abstract member ConvertFilter : Microsoft.Hpc.Scheduler.Properties.FilterProperty -&gt; Microsoft.Hpc.Scheduler.Properties.FilterProperty[]&#xA;override this.ConvertFilter : Microsoft.Hpc.Scheduler.Properties.FilterProperty -&gt; Microsoft.Hpc.Scheduler.Properties.FilterProperty[]" Usage="propertyConverter.ConvertFilter filter" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.FilterProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.Properties.FilterProperty" />
+      </Parameters>
+      <Docs>
+        <param name="filter">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertSetProp">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.Hpc.Scheduler.Properties.StoreProperty[] ConvertSetProp (Microsoft.Hpc.Scheduler.Properties.StoreProperty prop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] ConvertSetProp(class Microsoft.Hpc.Scheduler.Properties.StoreProperty prop) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.ConvertSetProp(Microsoft.Hpc.Scheduler.Properties.StoreProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function ConvertSetProp (prop As StoreProperty) As StoreProperty()" />
+      <MemberSignature Language="F#" Value="abstract member ConvertSetProp : Microsoft.Hpc.Scheduler.Properties.StoreProperty -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" Usage="propertyConverter.ConvertSetProp prop" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="prop" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+      </Parameters>
+      <Docs>
+        <param name="prop">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertSort">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Properties.SortProperty[] ConvertSort (Microsoft.Hpc.Scheduler.Properties.SortProperty sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.SortProperty[] ConvertSort(class Microsoft.Hpc.Scheduler.Properties.SortProperty sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.ConvertSort(Microsoft.Hpc.Scheduler.Properties.SortProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertSort (sort As SortProperty) As SortProperty()" />
+      <MemberSignature Language="F#" Value="abstract member ConvertSort : Microsoft.Hpc.Scheduler.Properties.SortProperty -&gt; Microsoft.Hpc.Scheduler.Properties.SortProperty[]&#xA;override this.ConvertSort : Microsoft.Hpc.Scheduler.Properties.SortProperty -&gt; Microsoft.Hpc.Scheduler.Properties.SortProperty[]" Usage="propertyConverter.ConvertSort sort" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.SortProperty[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.Properties.SortProperty" />
+      </Parameters>
+      <Docs>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeconvertGetProps">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.Hpc.Scheduler.Properties.StoreProperty DeconvertGetProps (Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.StoreProperty DeconvertGetProps(class Microsoft.Hpc.Scheduler.Properties.StoreProperty[] props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.DeconvertGetProps(Microsoft.Hpc.Scheduler.Properties.StoreProperty[])" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function DeconvertGetProps (props As StoreProperty()) As StoreProperty" />
+      <MemberSignature Language="F#" Value="abstract member DeconvertGetProps : Microsoft.Hpc.Scheduler.Properties.StoreProperty[] -&gt; Microsoft.Hpc.Scheduler.Properties.StoreProperty" Usage="propertyConverter.DeconvertGetProps props" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.StoreProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+      </Parameters>
+      <Docs>
+        <param name="props">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllServerReplacementPropIds">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetAllServerReplacementPropIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetAllServerReplacementPropIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.GetAllServerReplacementPropIds" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetAllServerReplacementPropIds () As PropertyId()" />
+      <MemberSignature Language="F#" Value="abstract member GetAllServerReplacementPropIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="propertyConverter.GetAllServerReplacementPropIds " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropId">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.Hpc.Scheduler.Properties.PropertyId GetPropId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId GetPropId() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.GetPropId" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetPropId () As PropertyId" />
+      <MemberSignature Language="F#" Value="abstract member GetPropId : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="propertyConverter.GetPropId " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRequiredServerReplacementPropIds">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetRequiredServerReplacementPropIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetRequiredServerReplacementPropIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyConverter.GetRequiredServerReplacementPropIds" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRequiredServerReplacementPropIds () As PropertyId()" />
+      <MemberSignature Language="F#" Value="abstract member GetRequiredServerReplacementPropIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]&#xA;override this.GetRequiredServerReplacementPropIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="propertyConverter.GetRequiredServerReplacementPropIds " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,80 @@
+﻿<Type Name="FileCache" FullName="Microsoft.Hpc.AADAuthUtil.FileCache">
+  <TypeSignature Language="C#" Value="public class FileCache : Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileCache extends Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.AADAuthUtil.FileCache" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileCache&#xA;Inherits TokenCache" />
+  <TypeSignature Language="F#" Value="type FileCache = class&#xA;    inherit TokenCache" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileCache (string filePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string filePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.FileCache.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (filePath As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.AADAuthUtil.FileCache : string -&gt; Microsoft.Hpc.AADAuthUtil.FileCache" Usage="new Microsoft.Hpc.AADAuthUtil.FileCache filePath" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheFilePath">
+      <MemberSignature Language="C#" Value="public string CacheFilePath;" />
+      <MemberSignature Language="ILAsm" Value=".field public string CacheFilePath" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.AADAuthUtil.FileCache.CacheFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public CacheFilePath As String " />
+      <MemberSignature Language="F#" Value="val mutable CacheFilePath : string" Usage="Microsoft.Hpc.AADAuthUtil.FileCache.CacheFilePath" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public override void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AADAuthUtil.FileCache.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Clear ()" />
+      <MemberSignature Language="F#" Value="override this.Clear : unit -&gt; unit" Usage="fileCache.Clear " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.AADAuthUtil</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

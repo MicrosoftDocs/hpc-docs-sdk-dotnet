@@ -1,0 +1,92 @@
+﻿<Type Name="ReflectionHelper" FullName="Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper">
+  <TypeSignature Language="C#" Value="public class ReflectionHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ReflectionHelper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper" />
+  <TypeSignature Language="VB.NET" Value="Public Class ReflectionHelper" />
+  <TypeSignature Language="F#" Value="type ReflectionHelper = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReflectionHelper ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindAllInterfaces">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;Type&gt; FindAllInterfaces (System.Reflection.Assembly assembly, Type desiredInterface);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;class System.Type&gt; FindAllInterfaces(class System.Reflection.Assembly assembly, class System.Type desiredInterface) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper.FindAllInterfaces(System.Reflection.Assembly,System.Type)" />
+      <MemberSignature Language="F#" Value="static member FindAllInterfaces : System.Reflection.Assembly * Type -&gt; System.Collections.Generic.List&lt;Type&gt;" Usage="Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper.FindAllInterfaces (assembly, desiredInterface)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Type&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assembly" Type="System.Reflection.Assembly" />
+        <Parameter Name="desiredInterface" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="assembly">To be added.</param>
+        <param name="desiredInterface">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadSingleInterface&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static object LoadSingleInterface&lt;T&gt; (System.Reflection.Assembly filterAssembly, string filename);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LoadSingleInterface&lt;T&gt;(class System.Reflection.Assembly filterAssembly, string filename) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper.LoadSingleInterface``1(System.Reflection.Assembly,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadSingleInterface(Of T) (filterAssembly As Assembly, filename As String) As Object" />
+      <MemberSignature Language="F#" Value="static member LoadSingleInterface : System.Reflection.Assembly * string -&gt; obj" Usage="Microsoft.Hpc.Scheduler.AddInFilter.HpcServer.ReflectionHelper.LoadSingleInterface (filterAssembly, filename)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="filterAssembly" Type="System.Reflection.Assembly" />
+        <Parameter Name="filename" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="filterAssembly">To be added.</param>
+        <param name="filename">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

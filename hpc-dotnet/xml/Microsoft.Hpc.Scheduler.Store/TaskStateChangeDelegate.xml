@@ -1,0 +1,33 @@
+﻿<Type Name="TaskStateChangeDelegate" FullName="Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate">
+  <TypeSignature Language="C#" Value="public delegate void TaskStateChangeDelegate(int jobId, JobState jobState, int taskId, TaskState prevState, TaskState newState);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskStateChangeDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.TaskStateChangeDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub TaskStateChangeDelegate(jobId As Integer, jobState As JobState, taskId As Integer, prevState As TaskState, newState As TaskState)" />
+  <TypeSignature Language="F#" Value="type TaskStateChangeDelegate = delegate of int * JobState * int * TaskState * TaskState -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="jobId" Type="System.Int32" />
+    <Parameter Name="jobState" Type="Microsoft.Hpc.Scheduler.Properties.JobState" />
+    <Parameter Name="taskId" Type="System.Int32" />
+    <Parameter Name="prevState" Type="Microsoft.Hpc.Scheduler.Properties.TaskState" />
+    <Parameter Name="newState" Type="Microsoft.Hpc.Scheduler.Properties.TaskState" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="jobId">To be added.</param>
+    <param name="jobState">To be added.</param>
+    <param name="taskId">To be added.</param>
+    <param name="prevState">To be added.</param>
+    <param name="newState">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

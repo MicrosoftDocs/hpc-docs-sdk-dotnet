@@ -1,0 +1,845 @@
+﻿<Type Name="PropertyUtil" FullName="Microsoft.Hpc.Scheduler.Store.PropertyUtil">
+  <TypeSignature Language="C#" Value="public class PropertyUtil" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PropertyUtil extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.PropertyUtil" />
+  <TypeSignature Language="VB.NET" Value="Public Class PropertyUtil" />
+  <TypeSignature Language="F#" Value="type PropertyUtil = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertyUtil ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddUpPropertyValuesFromRow">
+      <MemberSignature Language="C#" Value="public static int AddUpPropertyValuesFromRow (Microsoft.Hpc.Scheduler.Properties.PropertyRow row, System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt; pids);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 AddUpPropertyValuesFromRow(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId&gt; pids) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.AddUpPropertyValuesFromRow(Microsoft.Hpc.Scheduler.Properties.PropertyRow,System.Collections.Generic.IEnumerable{Microsoft.Hpc.Scheduler.Properties.PropertyId})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AddUpPropertyValuesFromRow (row As PropertyRow, pids As IEnumerable(Of PropertyId)) As Integer" />
+      <MemberSignature Language="F#" Value="static member AddUpPropertyValuesFromRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow * seq&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt; -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.AddUpPropertyValuesFromRow (row, pids)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+        <Parameter Name="pids" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="row">To be added.</param>
+        <param name="pids">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BitSet">
+      <MemberSignature Language="C#" Value="public static bool BitSet (Microsoft.Hpc.Scheduler.Properties.StoreProperty filterBits, Microsoft.Hpc.Scheduler.Properties.StoreProperty item);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool BitSet(class Microsoft.Hpc.Scheduler.Properties.StoreProperty filterBits, class Microsoft.Hpc.Scheduler.Properties.StoreProperty item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.BitSet(Microsoft.Hpc.Scheduler.Properties.StoreProperty,Microsoft.Hpc.Scheduler.Properties.StoreProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BitSet (filterBits As StoreProperty, item As StoreProperty) As Boolean" />
+      <MemberSignature Language="F#" Value="static member BitSet : Microsoft.Hpc.Scheduler.Properties.StoreProperty * Microsoft.Hpc.Scheduler.Properties.StoreProperty -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.BitSet (filterBits, item)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filterBits" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+        <Parameter Name="item" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+      </Parameters>
+      <Docs>
+        <param name="filterBits">To be added.</param>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckCustomPropertiesArgumentFormat">
+      <MemberSignature Language="C#" Value="public static void CheckCustomPropertiesArgumentFormat (string input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CheckCustomPropertiesArgumentFormat(string input) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.CheckCustomPropertiesArgumentFormat(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub CheckCustomPropertiesArgumentFormat (input As String)" />
+      <MemberSignature Language="F#" Value="static member CheckCustomPropertiesArgumentFormat : string -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.CheckCustomPropertiesArgumentFormat input" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckParentJobIdsArgumentFormat">
+      <MemberSignature Language="C#" Value="public static bool CheckParentJobIdsArgumentFormat (string input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CheckParentJobIdsArgumentFormat(string input) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.CheckParentJobIdsArgumentFormat(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CheckParentJobIdsArgumentFormat (input As String) As Boolean" />
+      <MemberSignature Language="F#" Value="static member CheckParentJobIdsArgumentFormat : string -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.CheckParentJobIdsArgumentFormat input" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckValidExitCodesArgumentFormat">
+      <MemberSignature Language="C#" Value="public static bool CheckValidExitCodesArgumentFormat (string input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CheckValidExitCodesArgumentFormat(string input) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.CheckValidExitCodesArgumentFormat(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CheckValidExitCodesArgumentFormat (input As String) As Boolean" />
+      <MemberSignature Language="F#" Value="static member CheckValidExitCodesArgumentFormat : string -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.CheckValidExitCodesArgumentFormat input" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareProperties">
+      <MemberSignature Language="C#" Value="public static int CompareProperties (Microsoft.Hpc.Scheduler.Properties.StoreProperty left, Microsoft.Hpc.Scheduler.Properties.StoreProperty right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 CompareProperties(class Microsoft.Hpc.Scheduler.Properties.StoreProperty left, class Microsoft.Hpc.Scheduler.Properties.StoreProperty right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.CompareProperties(Microsoft.Hpc.Scheduler.Properties.StoreProperty,Microsoft.Hpc.Scheduler.Properties.StoreProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareProperties (left As StoreProperty, right As StoreProperty) As Integer" />
+      <MemberSignature Language="F#" Value="static member CompareProperties : Microsoft.Hpc.Scheduler.Properties.StoreProperty * Microsoft.Hpc.Scheduler.Properties.StoreProperty -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.CompareProperties (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+        <Parameter Name="right" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputeJobMax">
+      <MemberSignature Language="C#" Value="public static int ComputeJobMax (int userMax, int computedMax, bool isAutoCalc, bool canGrow, int profileMax);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ComputeJobMax(int32 userMax, int32 computedMax, bool isAutoCalc, bool canGrow, int32 profileMax) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.ComputeJobMax(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ComputeJobMax (userMax As Integer, computedMax As Integer, isAutoCalc As Boolean, canGrow As Boolean, profileMax As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="static member ComputeJobMax : int * int * bool * bool * int -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.ComputeJobMax (userMax, computedMax, isAutoCalc, canGrow, profileMax)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userMax" Type="System.Int32" />
+        <Parameter Name="computedMax" Type="System.Int32" />
+        <Parameter Name="isAutoCalc" Type="System.Boolean" />
+        <Parameter Name="canGrow" Type="System.Boolean" />
+        <Parameter Name="profileMax" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="userMax">To be added.</param>
+        <param name="computedMax">To be added.</param>
+        <param name="isAutoCalc">To be added.</param>
+        <param name="canGrow">To be added.</param>
+        <param name="profileMax">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputeJobMin">
+      <MemberSignature Language="C#" Value="public static int ComputeJobMin (int userMin, int computedMin, bool isAutoCalc, bool canShrink, int profileMin);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ComputeJobMin(int32 userMin, int32 computedMin, bool isAutoCalc, bool canShrink, int32 profileMin) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.ComputeJobMin(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ComputeJobMin (userMin As Integer, computedMin As Integer, isAutoCalc As Boolean, canShrink As Boolean, profileMin As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="static member ComputeJobMin : int * int * bool * bool * int -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.ComputeJobMin (userMin, computedMin, isAutoCalc, canShrink, profileMin)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userMin" Type="System.Int32" />
+        <Parameter Name="computedMin" Type="System.Int32" />
+        <Parameter Name="isAutoCalc" Type="System.Boolean" />
+        <Parameter Name="canShrink" Type="System.Boolean" />
+        <Parameter Name="profileMin" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="userMin">To be added.</param>
+        <param name="computedMin">To be added.</param>
+        <param name="isAutoCalc">To be added.</param>
+        <param name="canShrink">To be added.</param>
+        <param name="profileMin">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultPlannedCoreCount">
+      <MemberSignature Language="C#" Value="public const int DefaultPlannedCoreCount = -1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DefaultPlannedCoreCount = (-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.PropertyUtil.DefaultPlannedCoreCount" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultPlannedCoreCount As Integer  = -1" />
+      <MemberSignature Language="F#" Value="val mutable DefaultPlannedCoreCount : int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.DefaultPlannedCoreCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultTaskExecutionFailureRetryLimit">
+      <MemberSignature Language="C#" Value="public const int DefaultTaskExecutionFailureRetryLimit = 0;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 DefaultTaskExecutionFailureRetryLimit = (0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.PropertyUtil.DefaultTaskExecutionFailureRetryLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultTaskExecutionFailureRetryLimit As Integer  = 0" />
+      <MemberSignature Language="F#" Value="val mutable DefaultTaskExecutionFailureRetryLimit : int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.DefaultTaskExecutionFailureRetryLimit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllocatedNodeList">
+      <MemberSignature Language="C#" Value="public static string GetAllocatedNodeList (System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;string,int&gt;&gt; allocatedNodes, char separator);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAllocatedNodeList(class System.Collections.Generic.ICollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, int32&gt;&gt; allocatedNodes, char separator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetAllocatedNodeList(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Int32}},System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetAllocatedNodeList (allocatedNodes As ICollection(Of KeyValuePair(Of String, Integer)), separator As Char) As String" />
+      <MemberSignature Language="F#" Value="static member GetAllocatedNodeList : System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;string, int&gt;&gt; * char -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetAllocatedNodeList (allocatedNodes, separator)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="allocatedNodes" Type="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Int32&gt;&gt;" />
+        <Parameter Name="separator" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="allocatedNodes">To be added.</param>
+        <param name="separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCertFromStore">
+      <MemberSignature Language="C#" Value="public static byte[] GetCertFromStore (string thumbprint, string templateName, out System.Security.SecureString pfxPassword);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] GetCertFromStore(string thumbprint, string templateName, [out] class System.Security.SecureString&amp; pfxPassword) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetCertFromStore(System.String,System.String,System.Security.SecureString@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCertFromStore (thumbprint As String, templateName As String, ByRef pfxPassword As SecureString) As Byte()" />
+      <MemberSignature Language="F#" Value="static member GetCertFromStore : string * string *  -&gt; byte[]" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetCertFromStore (thumbprint, templateName, pfxPassword)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="thumbprint" Type="System.String" />
+        <Parameter Name="templateName" Type="System.String" />
+        <Parameter Name="pfxPassword" Type="System.Security.SecureString&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="thumbprint">To be added.</param>
+        <param name="templateName">To be added.</param>
+        <param name="pfxPassword">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobMaxFromRow">
+      <MemberSignature Language="C#" Value="public static int GetJobMaxFromRow (Microsoft.Hpc.Scheduler.Properties.PropertyRow row);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetJobMaxFromRow(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMaxFromRow(Microsoft.Hpc.Scheduler.Properties.PropertyRow)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobMaxFromRow (row As PropertyRow) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetJobMaxFromRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMaxFromRow row" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+      </Parameters>
+      <Docs>
+        <param name="row">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobMaxFromRow">
+      <MemberSignature Language="C#" Value="public static int GetJobMaxFromRow (Microsoft.Hpc.Scheduler.Properties.PropertyRow row, bool userOnly);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetJobMaxFromRow(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row, bool userOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMaxFromRow(Microsoft.Hpc.Scheduler.Properties.PropertyRow,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobMaxFromRow (row As PropertyRow, userOnly As Boolean) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetJobMaxFromRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow * bool -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMaxFromRow (row, userOnly)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+        <Parameter Name="userOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="row">To be added.</param>
+        <param name="userOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobMaxPropId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId GetJobMaxPropId (Microsoft.Hpc.Scheduler.Properties.JobUnitType unitType, bool computed);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Properties.PropertyId GetJobMaxPropId(valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType unitType, bool computed) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMaxPropId(Microsoft.Hpc.Scheduler.Properties.JobUnitType,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobMaxPropId (unitType As JobUnitType, computed As Boolean) As PropertyId" />
+      <MemberSignature Language="F#" Value="static member GetJobMaxPropId : Microsoft.Hpc.Scheduler.Properties.JobUnitType * bool -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMaxPropId (unitType, computed)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unitType" Type="Microsoft.Hpc.Scheduler.Properties.JobUnitType" />
+        <Parameter Name="computed" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="unitType">To be added.</param>
+        <param name="computed">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobMinFromRow">
+      <MemberSignature Language="C#" Value="public static int GetJobMinFromRow (Microsoft.Hpc.Scheduler.Properties.PropertyRow row);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetJobMinFromRow(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMinFromRow(Microsoft.Hpc.Scheduler.Properties.PropertyRow)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobMinFromRow (row As PropertyRow) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetJobMinFromRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMinFromRow row" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+      </Parameters>
+      <Docs>
+        <param name="row">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobMinFromRow">
+      <MemberSignature Language="C#" Value="public static int GetJobMinFromRow (Microsoft.Hpc.Scheduler.Properties.PropertyRow row, bool userOnly);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetJobMinFromRow(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row, bool userOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMinFromRow(Microsoft.Hpc.Scheduler.Properties.PropertyRow,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobMinFromRow (row As PropertyRow, userOnly As Boolean) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetJobMinFromRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow * bool -&gt; int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMinFromRow (row, userOnly)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+        <Parameter Name="userOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="row">To be added.</param>
+        <param name="userOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobMinPropId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId GetJobMinPropId (Microsoft.Hpc.Scheduler.Properties.JobUnitType unitType, bool computed);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Properties.PropertyId GetJobMinPropId(valuetype Microsoft.Hpc.Scheduler.Properties.JobUnitType unitType, bool computed) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMinPropId(Microsoft.Hpc.Scheduler.Properties.JobUnitType,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobMinPropId (unitType As JobUnitType, computed As Boolean) As PropertyId" />
+      <MemberSignature Language="F#" Value="static member GetJobMinPropId : Microsoft.Hpc.Scheduler.Properties.JobUnitType * bool -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobMinPropId (unitType, computed)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="unitType" Type="Microsoft.Hpc.Scheduler.Properties.JobUnitType" />
+        <Parameter Name="computed" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="unitType">To be added.</param>
+        <param name="computed">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobPropIdsForFindingMinMax">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetJobPropIdsForFindingMinMax ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetJobPropIdsForFindingMinMax() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobPropIdsForFindingMinMax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetJobPropIdsForFindingMinMax () As PropertyId()" />
+      <MemberSignature Language="F#" Value="static member GetJobPropIdsForFindingMinMax : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetJobPropIdsForFindingMinMax " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMpiHostsString">
+      <MemberSignature Language="C#" Value="public static string GetMpiHostsString (System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;string,int&gt;&gt; allocationList);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetMpiHostsString(class System.Collections.Generic.ICollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, int32&gt;&gt; allocationList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetMpiHostsString(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Int32}})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetMpiHostsString (allocationList As ICollection(Of KeyValuePair(Of String, Integer))) As String" />
+      <MemberSignature Language="F#" Value="static member GetMpiHostsString : System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;string, int&gt;&gt; -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetMpiHostsString allocationList" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="allocationList" Type="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Int32&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="allocationList">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRequiredValueFromProp&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetRequiredValueFromProp&lt;T&gt; (Microsoft.Hpc.Scheduler.Properties.StoreProperty prop, Microsoft.Hpc.Scheduler.Properties.PropertyId pid);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetRequiredValueFromProp&lt;T&gt;(class Microsoft.Hpc.Scheduler.Properties.StoreProperty prop, class Microsoft.Hpc.Scheduler.Properties.PropertyId pid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetRequiredValueFromProp``1(Microsoft.Hpc.Scheduler.Properties.StoreProperty,Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetRequiredValueFromProp(Of T) (prop As StoreProperty, pid As PropertyId) As T" />
+      <MemberSignature Language="F#" Value="static member GetRequiredValueFromProp : Microsoft.Hpc.Scheduler.Properties.StoreProperty * Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; 'T" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetRequiredValueFromProp (prop, pid)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="prop" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="prop">To be added.</param>
+        <param name="pid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRequiredValueFromPropRow&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetRequiredValueFromPropRow&lt;T&gt; (Microsoft.Hpc.Scheduler.Properties.PropertyRow row, Microsoft.Hpc.Scheduler.Properties.PropertyId pid);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetRequiredValueFromPropRow&lt;T&gt;(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row, class Microsoft.Hpc.Scheduler.Properties.PropertyId pid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetRequiredValueFromPropRow``1(Microsoft.Hpc.Scheduler.Properties.PropertyRow,Microsoft.Hpc.Scheduler.Properties.PropertyId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetRequiredValueFromPropRow(Of T) (row As PropertyRow, pid As PropertyId) As T" />
+      <MemberSignature Language="F#" Value="static member GetRequiredValueFromPropRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow * Microsoft.Hpc.Scheduler.Properties.PropertyId -&gt; 'T" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetRequiredValueFromPropRow (row, pid)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="row">To be added.</param>
+        <param name="pid">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueFromProp&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetValueFromProp&lt;T&gt; (Microsoft.Hpc.Scheduler.Properties.StoreProperty prop, Microsoft.Hpc.Scheduler.Properties.PropertyId pid, T defaultValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetValueFromProp&lt;T&gt;(class Microsoft.Hpc.Scheduler.Properties.StoreProperty prop, class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, !!T defaultValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetValueFromProp``1(Microsoft.Hpc.Scheduler.Properties.StoreProperty,Microsoft.Hpc.Scheduler.Properties.PropertyId,``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetValueFromProp(Of T) (prop As StoreProperty, pid As PropertyId, defaultValue As T) As T" />
+      <MemberSignature Language="F#" Value="static member GetValueFromProp : Microsoft.Hpc.Scheduler.Properties.StoreProperty * Microsoft.Hpc.Scheduler.Properties.PropertyId * 'T -&gt; 'T" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetValueFromProp (prop, pid, defaultValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="prop" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="defaultValue" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="prop">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueFromPropRow&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetValueFromPropRow&lt;T&gt; (Microsoft.Hpc.Scheduler.Properties.PropertyRow row, Microsoft.Hpc.Scheduler.Properties.PropertyId pid, T defaultValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetValueFromPropRow&lt;T&gt;(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row, class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, !!T defaultValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetValueFromPropRow``1(Microsoft.Hpc.Scheduler.Properties.PropertyRow,Microsoft.Hpc.Scheduler.Properties.PropertyId,``0)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetValueFromPropRow(Of T) (row As PropertyRow, pid As PropertyId, defaultValue As T) As T" />
+      <MemberSignature Language="F#" Value="static member GetValueFromPropRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow * Microsoft.Hpc.Scheduler.Properties.PropertyId * 'T -&gt; 'T" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.GetValueFromPropRow (row, pid, defaultValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="defaultValue" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="row">To be added.</param>
+        <param name="pid">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDatabaseError">
+      <MemberSignature Language="C#" Value="public static bool IsDatabaseError (int errorCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsDatabaseError(int32 errorCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.IsDatabaseError(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsDatabaseError (errorCode As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsDatabaseError : int -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.IsDatabaseError errorCode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="errorCode" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="errorCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNullOrEmptyString">
+      <MemberSignature Language="C#" Value="public static bool IsNullOrEmptyString (string input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsNullOrEmptyString(string input) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.IsNullOrEmptyString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsNullOrEmptyString (input As String) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsNullOrEmptyString : string -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.IsNullOrEmptyString input" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLengthOfCustomPropertyNameAndValue">
+      <MemberSignature Language="C#" Value="public const int MaxLengthOfCustomPropertyNameAndValue = 128;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxLengthOfCustomPropertyNameAndValue = (128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.PropertyUtil.MaxLengthOfCustomPropertyNameAndValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxLengthOfCustomPropertyNameAndValue As Integer  = 128" />
+      <MemberSignature Language="F#" Value="val mutable MaxLengthOfCustomPropertyNameAndValue : int" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.MaxLengthOfCustomPropertyNameAndValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyIdFromPropIndex">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.PropertyId PropertyIdFromPropIndex (int propIdx);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Hpc.Scheduler.Properties.PropertyId PropertyIdFromPropIndex(int32 propIdx) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.PropertyIdFromPropIndex(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PropertyIdFromPropIndex (propIdx As Integer) As PropertyId" />
+      <MemberSignature Language="F#" Value="static member PropertyIdFromPropIndex : int -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.PropertyIdFromPropIndex propIdx" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propIdx" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="propIdx">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="regexForCustomProperties">
+      <MemberSignature Language="C#" Value="public const string regexForCustomProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string regexForCustomProperties" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.PropertyUtil.regexForCustomProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Const regexForCustomProperties As String " />
+      <MemberSignature Language="F#" Value="val mutable regexForCustomProperties : string" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.regexForCustomProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="regexForCustomProperty">
+      <MemberSignature Language="C#" Value="public const string regexForCustomProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string regexForCustomProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.PropertyUtil.regexForCustomProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Const regexForCustomProperty As String " />
+      <MemberSignature Language="F#" Value="val mutable regexForCustomProperty : string" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.regexForCustomProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveDuplicateItems">
+      <MemberSignature Language="C#" Value="public static string RemoveDuplicateItems (string input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string RemoveDuplicateItems(string input) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.RemoveDuplicateItems(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RemoveDuplicateItems (input As String) As String" />
+      <MemberSignature Language="F#" Value="static member RemoveDuplicateItems : string -&gt; string" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.RemoveDuplicateItems input" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TestPropAgainstFilter">
+      <MemberSignature Language="C#" Value="public static bool TestPropAgainstFilter (Microsoft.Hpc.Scheduler.Properties.FilterProperty filter, Microsoft.Hpc.Scheduler.Properties.StoreProperty prop);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TestPropAgainstFilter(class Microsoft.Hpc.Scheduler.Properties.FilterProperty filter, class Microsoft.Hpc.Scheduler.Properties.StoreProperty prop) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.PropertyUtil.TestPropAgainstFilter(Microsoft.Hpc.Scheduler.Properties.FilterProperty,Microsoft.Hpc.Scheduler.Properties.StoreProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TestPropAgainstFilter (filter As FilterProperty, prop As StoreProperty) As Boolean" />
+      <MemberSignature Language="F#" Value="static member TestPropAgainstFilter : Microsoft.Hpc.Scheduler.Properties.FilterProperty * Microsoft.Hpc.Scheduler.Properties.StoreProperty -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Store.PropertyUtil.TestPropAgainstFilter (filter, prop)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.Properties.FilterProperty" />
+        <Parameter Name="prop" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty" />
+      </Parameters>
+      <Docs>
+        <param name="filter">To be added.</param>
+        <param name="prop">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

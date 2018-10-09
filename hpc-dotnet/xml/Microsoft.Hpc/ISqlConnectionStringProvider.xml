@@ -1,0 +1,44 @@
+﻿<Type Name="ISqlConnectionStringProvider" FullName="Microsoft.Hpc.ISqlConnectionStringProvider">
+  <TypeSignature Language="C#" Value="public interface ISqlConnectionStringProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISqlConnectionStringProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.ISqlConnectionStringProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISqlConnectionStringProvider" />
+  <TypeSignature Language="F#" Value="type ISqlConnectionStringProvider = interface" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetConnectionStringAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetConnectionStringAsync (string key, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetConnectionStringAsync(string key, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ISqlConnectionStringProvider.GetConnectionStringAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConnectionStringAsync (key As String, token As CancellationToken) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetConnectionStringAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iSqlConnectionStringProvider.GetConnectionStringAsync (key, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

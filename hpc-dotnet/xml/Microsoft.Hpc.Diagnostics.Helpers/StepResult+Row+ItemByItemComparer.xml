@@ -1,0 +1,97 @@
+﻿<Type Name="StepResult+Row+ItemByItemComparer" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row+ItemByItemComparer">
+  <TypeSignature Language="C#" Value="public class StepResult.Row.ItemByItemComparer : System.Collections.Generic.IEqualityComparer&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit StepResult/Row/ItemByItemComparer extends System.Object implements class System.Collections.Generic.IEqualityComparer`1&lt;class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Row&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.ItemByItemComparer" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.Row.ItemByItemComparer&#xA;Implements IEqualityComparer(Of StepResult.Row)" />
+  <TypeSignature Language="F#" Value="type StepResult.Row.ItemByItemComparer = class&#xA;    interface IEqualityComparer&lt;StepResult.Row&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEqualityComparer&lt;Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Defines methods to support comparing rows in a table for equality.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemByItemComparer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.ItemByItemComparer.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.ItemByItemComparer" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row x, Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Row x, class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Row y) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.ItemByItemComparer.Equals(Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row,Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (x As StepResult.Row, y As StepResult.Row) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row * Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row -&gt; bool" Usage="itemByItemComparer.Equals (x, y)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row" />
+        <Parameter Name="y" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row" />
+      </Parameters>
+      <Docs>
+        <param name="x">A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem"></see> object that corresponds to the first row that you want to compare.</param>
+        <param name="y">A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem"></see> object that corresponds to the second row that you want to compare.</param>
+        <summary>Determines whether the specified table rows are equal.</summary>
+        <returns>A <see cref="T:System.Boolean"></see> object. A True value indicates that the rows are equal. A False value indicates that the rows are not equal.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public int GetHashCode (Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetHashCode(class Microsoft.Hpc.Diagnostics.Helpers.StepResult/Row obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row.ItemByItemComparer.GetHashCode(Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHashCode (obj As StepResult.Row) As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : Microsoft.Hpc.Diagnostics.Helpers.StepResult.Row -&gt; int" Usage="itemByItemComparer.GetHashCode obj" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.Hpc.Diagnostics.Helpers.StepResult+Row" />
+      </Parameters>
+      <Docs>
+        <param name="obj">A <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.RowItem"></see> object that corresponds to the row for which you want to obtain a hash code.</param>
+        <summary>Returns a hash code for the specified table row.</summary>
+        <returns>A <see cref="T:System.Int32"></see> object that contains the hash code.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,125 @@
+﻿<Type Name="HpcContextExtension" FullName="Microsoft.Hpc.Scheduler.Store.HpcContextExtension">
+  <TypeSignature Language="C#" Value="public static class HpcContextExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HpcContextExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.HpcContextExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module HpcContextExtension" />
+  <TypeSignature Language="F#" Value="type HpcContextExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetSchedulerStoreAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSchedulerStoreAsync (context As IHpcContext) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member GetSchedulerStoreAsync : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSchedulerStoreAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync (this Microsoft.Hpc.IHpcContext context, bool isOverHttp);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync(class Microsoft.Hpc.IHpcContext context, bool isOverHttp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync(Microsoft.Hpc.IHpcContext,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSchedulerStoreAsync (context As IHpcContext, isOverHttp As Boolean) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member GetSchedulerStoreAsync : Microsoft.Hpc.IHpcContext * bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync (context, isOverHttp)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="isOverHttp" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="isOverHttp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSchedulerStoreAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync (this Microsoft.Hpc.IHpcContext context, int port);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync(class Microsoft.Hpc.IHpcContext context, int32 port) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync(Microsoft.Hpc.IHpcContext,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSchedulerStoreAsync (context As IHpcContext, port As Integer) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member GetSchedulerStoreAsync : Microsoft.Hpc.IHpcContext * int -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync (context, port)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="port" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="port">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSchedulerStoreAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync (this Microsoft.Hpc.IHpcContext context, Microsoft.Hpc.ServiceAsClientIdentityProvider identityProvider, Microsoft.Hpc.ServiceAsClientPrincipalProvider principalProvider = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt; GetSchedulerStoreAsync(class Microsoft.Hpc.IHpcContext context, class Microsoft.Hpc.ServiceAsClientIdentityProvider identityProvider, class Microsoft.Hpc.ServiceAsClientPrincipalProvider principalProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync(Microsoft.Hpc.IHpcContext,Microsoft.Hpc.ServiceAsClientIdentityProvider,Microsoft.Hpc.ServiceAsClientPrincipalProvider)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSchedulerStoreAsync (context As IHpcContext, identityProvider As ServiceAsClientIdentityProvider, Optional principalProvider As ServiceAsClientPrincipalProvider = null) As Task(Of ISchedulerStore)" />
+      <MemberSignature Language="F#" Value="static member GetSchedulerStoreAsync : Microsoft.Hpc.IHpcContext * Microsoft.Hpc.ServiceAsClientIdentityProvider * Microsoft.Hpc.ServiceAsClientPrincipalProvider -&gt; System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;" Usage="Microsoft.Hpc.Scheduler.Store.HpcContextExtension.GetSchedulerStoreAsync (context, identityProvider, principalProvider)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Hpc.Scheduler.Store.ISchedulerStore&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="identityProvider" Type="Microsoft.Hpc.ServiceAsClientIdentityProvider" />
+        <Parameter Name="principalProvider" Type="Microsoft.Hpc.ServiceAsClientPrincipalProvider" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="identityProvider">To be added.</param>
+        <param name="principalProvider">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,86 @@
+﻿<Type Name="ICommandRawOutputEventArg" FullName="Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg">
+  <TypeSignature Language="C#" Value="public interface ICommandRawOutputEventArg" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICommandRawOutputEventArg" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommandRawOutputEventArg" />
+  <TypeSignature Language="F#" Value="type ICommandRawOutputEventArg = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("5a570dc3-8ec6-42a3-8dbb-4da8d98f39d0")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the arguments that are passed to your event handler when the command generates output on a node in the cluster. The output is passed as a byte blob.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NodeName">
+      <MemberSignature Language="C#" Value="public string NodeName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeName As String" />
+      <MemberSignature Language="F#" Value="member this.NodeName : string" Usage="Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.NodeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the name of the node that ran the command that generated the output.</summary>
+        <value>The name of the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Output">
+      <MemberSignature Language="C#" Value="public byte[] Output { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Output" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.Output" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Output As Byte()" />
+      <MemberSignature Language="F#" Value="member this.Output : byte[]" Usage="Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.Output" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the output from the command.</summary>
+        <value>The output from the command. The <see cref="P:Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.Type"></see> property determines whether the output is from the command or is the message text that describes why the command failed.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.CommandOutputType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.CommandOutputType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As CommandOutputType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Scheduler.CommandOutputType" Usage="Microsoft.Hpc.Scheduler.ICommandRawOutputEventArg.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.CommandOutputType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the source of the output.</summary>
+        <value>Identifies the source of the output. For possible values, see <see cref="T:Microsoft.Hpc.Scheduler.CommandOutputType"></see> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,256 @@
+﻿<Type Name="IntCollection" FullName="Microsoft.Hpc.Scheduler.IntCollection">
+  <TypeSignature Language="C#" Value="public class IntCollection : Microsoft.Hpc.Scheduler.SchedulerCollection&lt;int&gt;, Microsoft.Hpc.Scheduler.IIntCollection, System.Collections.Generic.ICollection&lt;int&gt;, System.Collections.Generic.IEnumerable&lt;int&gt;, System.Collections.ICollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IntCollection extends Microsoft.Hpc.Scheduler.SchedulerCollection`1&lt;int32&gt; implements class Microsoft.Hpc.Scheduler.IIntCollection, class Microsoft.Hpc.Scheduler.ISchedulerCollection, class System.Collections.Generic.ICollection`1&lt;int32&gt;, class System.Collections.Generic.IEnumerable`1&lt;int32&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.IntCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class IntCollection&#xA;Inherits SchedulerCollection(Of Integer)&#xA;Implements ICollection, ICollection(Of Integer), IEnumerable(Of Integer), IIntCollection" />
+  <TypeSignature Language="F#" Value="type IntCollection = class&#xA;    inherit SchedulerCollection&lt;int&gt;&#xA;    interface IIntCollection&#xA;    interface ISchedulerCollection&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ICollection&lt;int&gt;&#xA;    interface seq&lt;int&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.Scheduler.SchedulerCollection&lt;System.Int32&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">System.Int32</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.IIntCollection</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Int32&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Int32&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.ICollection</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("46fe2eba-f456-4284-a3bd-d3fdf6521012")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a collection of integer values. Typically, the collection contains job or node identifiers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IntCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of this class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IntCollection (System.Collections.Generic.IEnumerable&lt;int&gt; list);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;int32&gt; list) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.#ctor(System.Collections.Generic.IEnumerable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (list As IEnumerable(Of Integer))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.IntCollection : seq&lt;int&gt; -&gt; Microsoft.Hpc.Scheduler.IntCollection" Usage="new Microsoft.Hpc.Scheduler.IntCollection list" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="list" Type="System.Collections.Generic.IEnumerable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="list">An enumerable whose contents are used to initialize this collection.</param>
+        <summary>Initializes a new instance of this class using the specified collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.Add">
+      <MemberSignature Language="C#" Value="void IIntCollection.Add (int item);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Hpc.Scheduler.IIntCollection.Add(int32 item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#Add(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Sub Add (item As Integer) Implements IIntCollection.Add" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IIntCollection.Add(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.Clear">
+      <MemberSignature Language="C#" Value="void IIntCollection.Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Hpc.Scheduler.IIntCollection.Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#Clear" />
+      <MemberSignature Language="VB.NET" Value="Sub Clear () Implements IIntCollection.Clear" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IIntCollection.Clear</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.Contains">
+      <MemberSignature Language="C#" Value="bool IIntCollection.Contains (int item);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Hpc.Scheduler.IIntCollection.Contains(int32 item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#Contains(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Function Contains (item As Integer) As Boolean Implements IIntCollection.Contains" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IIntCollection.Contains(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.Count">
+      <MemberSignature Language="C#" Value="int Microsoft.Hpc.Scheduler.IIntCollection.Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Hpc.Scheduler.IIntCollection.Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#Count" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Count As Integer Implements IIntCollection.Count" />
+      <MemberSignature Language="F#" Usage="Microsoft.Hpc.Scheduler.IntCollection.Microsoft.Hpc.Scheduler.IIntCollection.Count" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IIntCollection.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IIntCollection.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator Microsoft.Hpc.Scheduler.IIntCollection.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IIntCollection.GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IIntCollection.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.Item">
+      <MemberSignature Language="C#" Value="int Microsoft.Hpc.Scheduler.IIntCollection.Item[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Hpc.Scheduler.IIntCollection.Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Item(index As Integer) As Integer Implements IIntCollection.Item" />
+      <MemberSignature Language="F#" Usage="Microsoft.Hpc.Scheduler.IntCollection.Microsoft.Hpc.Scheduler.IIntCollection.Item" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Hpc.Scheduler.IIntCollection.Item(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Hpc.Scheduler.IIntCollection.Remove">
+      <MemberSignature Language="C#" Value="bool IIntCollection.Remove (int item);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Hpc.Scheduler.IIntCollection.Remove(int32 item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.IntCollection.Microsoft#Hpc#Scheduler#IIntCollection#Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Function Remove (item As Integer) As Boolean Implements IIntCollection.Remove" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Hpc.Scheduler.IIntCollection.Remove(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

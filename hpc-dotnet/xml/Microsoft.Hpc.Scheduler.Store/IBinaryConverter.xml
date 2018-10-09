@@ -1,0 +1,121 @@
+﻿<Type Name="IBinaryConverter" FullName="Microsoft.Hpc.Scheduler.Store.IBinaryConverter">
+  <TypeSignature Language="C#" Value="public interface IBinaryConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBinaryConverter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.IBinaryConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBinaryConverter" />
+  <TypeSignature Language="F#" Value="type IBinaryConverter = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("728AB302-217D-11DA-B2A4-000E7BBB2B09")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="StringToString">
+      <MemberSignature Language="C#" Value="public string StringToString (string strEncodedIn, Microsoft.Hpc.Scheduler.Store.EncodingType EncodingIn, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string StringToString([in]string strEncodedIn, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType EncodingIn, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IBinaryConverter.StringToString(System.String,Microsoft.Hpc.Scheduler.Store.EncodingType,Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StringToString (strEncodedIn As String, EncodingIn As EncodingType, Optional Encoding As EncodingType = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64) As String" />
+      <MemberSignature Language="F#" Value="abstract member StringToString : string * Microsoft.Hpc.Scheduler.Store.EncodingType * Microsoft.Hpc.Scheduler.Store.EncodingType -&gt; string" Usage="iBinaryConverter.StringToString (strEncodedIn, EncodingIn, Encoding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strEncodedIn" Type="System.String" />
+        <Parameter Name="EncodingIn" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="strEncodedIn">To be added.</param>
+        <param name="EncodingIn">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringToVariantByteArray">
+      <MemberSignature Language="C#" Value="public object StringToVariantByteArray (string strEncoded, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object StringToVariantByteArray([in]string strEncoded, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IBinaryConverter.StringToVariantByteArray(System.String,Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StringToVariantByteArray (strEncoded As String, Optional Encoding As EncodingType = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64) As Object" />
+      <MemberSignature Language="F#" Value="abstract member StringToVariantByteArray : string * Microsoft.Hpc.Scheduler.Store.EncodingType -&gt; obj" Usage="iBinaryConverter.StringToVariantByteArray (strEncoded, Encoding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strEncoded" Type="System.String" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="strEncoded">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VariantByteArrayToString">
+      <MemberSignature Language="C#" Value="public string VariantByteArrayToString (ref object pvarByteArray, Microsoft.Hpc.Scheduler.Store.EncodingType Encoding = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string VariantByteArrayToString([in]object&amp; pvarByteArray, [in]valuetype Microsoft.Hpc.Scheduler.Store.EncodingType Encoding) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.IBinaryConverter.VariantByteArrayToString(System.Object@,Microsoft.Hpc.Scheduler.Store.EncodingType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function VariantByteArrayToString (ByRef pvarByteArray As Object, Optional Encoding As EncodingType = Microsoft.Hpc.Scheduler.Store.EncodingType.XCN_CRYPT_STRING_BASE64) As String" />
+      <MemberSignature Language="F#" Value="abstract member VariantByteArrayToString :  * Microsoft.Hpc.Scheduler.Store.EncodingType -&gt; string" Usage="iBinaryConverter.VariantByteArrayToString (pvarByteArray, Encoding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pvarByteArray" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Encoding" Type="Microsoft.Hpc.Scheduler.Store.EncodingType" />
+      </Parameters>
+      <Docs>
+        <param name="pvarByteArray">To be added.</param>
+        <param name="Encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

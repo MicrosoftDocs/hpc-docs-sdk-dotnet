@@ -1,0 +1,1606 @@
+﻿<Type Name="ISchedulerV3SP4" FullName="Microsoft.Hpc.Scheduler.ISchedulerV3SP4">
+  <TypeSignature Language="C#" Value="public interface ISchedulerV3SP4 : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISchedulerV3SP4 implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ISchedulerV3SP4" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISchedulerV3SP4&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type ISchedulerV3SP4 = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2B2E7861-777D-4C00-9CAE-38F83E1C7B53")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddJob">
+      <MemberSignature Language="C#" Value="public void AddJob (Microsoft.Hpc.Scheduler.ISchedulerJob job);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddJob(class Microsoft.Hpc.Scheduler.ISchedulerJob job) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.AddJob(Microsoft.Hpc.Scheduler.ISchedulerJob)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddJob (job As ISchedulerJob)" />
+      <MemberSignature Language="F#" Value="abstract member AddJob : Microsoft.Hpc.Scheduler.ISchedulerJob -&gt; unit" Usage="iSchedulerV3SP4.AddJob job" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.Hpc.Scheduler.ISchedulerJob" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelJob">
+      <MemberSignature Language="C#" Value="public void CancelJob (int jobId, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelJob(int32 jobId, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CancelJob(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelJob (jobId As Integer, message As String)" />
+      <MemberSignature Language="F#" Value="abstract member CancelJob : int * string -&gt; unit" Usage="iSchedulerV3SP4.CancelJob (jobId, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelJob">
+      <MemberSignature Language="C#" Value="public void CancelJob (int jobId, string message, bool isForced);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelJob(int32 jobId, string message, bool isForced) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CancelJob(System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CancelJob (jobId As Integer, message As String, isForced As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CancelJob : int * string * bool -&gt; unit" Usage="iSchedulerV3SP4.CancelJob (jobId, message, isForced)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="isForced" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="isForced">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloneJob">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerJob CloneJob (int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerJob CloneJob(int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CloneJob(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CloneJob (jobId As Integer) As ISchedulerJob" />
+      <MemberSignature Language="F#" Value="abstract member CloneJob : int -&gt; Microsoft.Hpc.Scheduler.ISchedulerJob" Usage="iSchedulerV3SP4.CloneJob jobId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit" Usage="iSchedulerV3SP4.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClusterParameters">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.INameValueCollection ClusterParameters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.INameValueCollection ClusterParameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.ClusterParameters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClusterParameters As INameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.ClusterParameters : Microsoft.Hpc.Scheduler.INameValueCollection" Usage="Microsoft.Hpc.Scheduler.ISchedulerV3SP4.ClusterParameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfigureJob">
+      <MemberSignature Language="C#" Value="public void ConfigureJob (int jobId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConfigureJob(int32 jobId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.ConfigureJob(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ConfigureJob (jobId As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member ConfigureJob : int -&gt; unit" Usage="iSchedulerV3SP4.ConfigureJob jobId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public void Connect (string cluster);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Connect(string cluster) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.Connect(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Connect (cluster As String)" />
+      <MemberSignature Language="F#" Value="abstract member Connect : string -&gt; unit" Usage="iSchedulerV3SP4.Connect cluster" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cluster" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cluster">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectServiceAsClient">
+      <MemberSignature Language="C#" Value="public void ConnectServiceAsClient (string cluster, Microsoft.Hpc.ServiceAsClientIdentityProvider identityProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConnectServiceAsClient(string cluster, class Microsoft.Hpc.ServiceAsClientIdentityProvider identityProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.ConnectServiceAsClient(System.String,Microsoft.Hpc.ServiceAsClientIdentityProvider)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ConnectServiceAsClient (cluster As String, identityProvider As ServiceAsClientIdentityProvider)" />
+      <MemberSignature Language="F#" Value="abstract member ConnectServiceAsClient : string * Microsoft.Hpc.ServiceAsClientIdentityProvider -&gt; unit" Usage="iSchedulerV3SP4.ConnectServiceAsClient (cluster, identityProvider)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cluster" Type="System.String" />
+        <Parameter Name="identityProvider" Type="Microsoft.Hpc.ServiceAsClientIdentityProvider" />
+      </Parameters>
+      <Docs>
+        <param name="cluster">To be added.</param>
+        <param name="identityProvider">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectServiceAsClient">
+      <MemberSignature Language="C#" Value="public void ConnectServiceAsClient (string cluster, Microsoft.Hpc.ServiceAsClientIdentityProvider identityProvider, string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConnectServiceAsClient(string cluster, class Microsoft.Hpc.ServiceAsClientIdentityProvider identityProvider, string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.ConnectServiceAsClient(System.String,Microsoft.Hpc.ServiceAsClientIdentityProvider,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ConnectServiceAsClient (cluster As String, identityProvider As ServiceAsClientIdentityProvider, userName As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member ConnectServiceAsClient : string * Microsoft.Hpc.ServiceAsClientIdentityProvider * string * string -&gt; unit" Usage="iSchedulerV3SP4.ConnectServiceAsClient (cluster, identityProvider, userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cluster" Type="System.String" />
+        <Parameter Name="identityProvider" Type="Microsoft.Hpc.ServiceAsClientIdentityProvider" />
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cluster">To be added.</param>
+        <param name="identityProvider">To be added.</param>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IRemoteCommand CreateCommand (string commandLine, Microsoft.Hpc.Scheduler.ICommandInfo info, Microsoft.Hpc.Scheduler.IStringCollection nodes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IRemoteCommand CreateCommand(string commandLine, class Microsoft.Hpc.Scheduler.ICommandInfo info, class Microsoft.Hpc.Scheduler.IStringCollection nodes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateCommand(System.String,Microsoft.Hpc.Scheduler.ICommandInfo,Microsoft.Hpc.Scheduler.IStringCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCommand (commandLine As String, info As ICommandInfo, nodes As IStringCollection) As IRemoteCommand" />
+      <MemberSignature Language="F#" Value="abstract member CreateCommand : string * Microsoft.Hpc.Scheduler.ICommandInfo * Microsoft.Hpc.Scheduler.IStringCollection -&gt; Microsoft.Hpc.Scheduler.IRemoteCommand" Usage="iSchedulerV3SP4.CreateCommand (commandLine, info, nodes)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IRemoteCommand</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandLine" Type="System.String" />
+        <Parameter Name="info" Type="Microsoft.Hpc.Scheduler.ICommandInfo" />
+        <Parameter Name="nodes" Type="Microsoft.Hpc.Scheduler.IStringCollection" />
+      </Parameters>
+      <Docs>
+        <param name="commandLine">To be added.</param>
+        <param name="info">To be added.</param>
+        <param name="nodes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IRemoteCommand CreateCommand (string commandLine, Microsoft.Hpc.Scheduler.ICommandInfo info, Microsoft.Hpc.Scheduler.IStringCollection nodes, bool redirectOutput);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IRemoteCommand CreateCommand(string commandLine, class Microsoft.Hpc.Scheduler.ICommandInfo info, class Microsoft.Hpc.Scheduler.IStringCollection nodes, bool redirectOutput) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateCommand(System.String,Microsoft.Hpc.Scheduler.ICommandInfo,Microsoft.Hpc.Scheduler.IStringCollection,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCommand (commandLine As String, info As ICommandInfo, nodes As IStringCollection, redirectOutput As Boolean) As IRemoteCommand" />
+      <MemberSignature Language="F#" Value="abstract member CreateCommand : string * Microsoft.Hpc.Scheduler.ICommandInfo * Microsoft.Hpc.Scheduler.IStringCollection * bool -&gt; Microsoft.Hpc.Scheduler.IRemoteCommand" Usage="iSchedulerV3SP4.CreateCommand (commandLine, info, nodes, redirectOutput)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IRemoteCommand</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandLine" Type="System.String" />
+        <Parameter Name="info" Type="Microsoft.Hpc.Scheduler.ICommandInfo" />
+        <Parameter Name="nodes" Type="Microsoft.Hpc.Scheduler.IStringCollection" />
+        <Parameter Name="redirectOutput" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="commandLine">To be added.</param>
+        <param name="info">To be added.</param>
+        <param name="nodes">To be added.</param>
+        <param name="redirectOutput">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCommandInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ICommandInfo CreateCommandInfo (Microsoft.Hpc.Scheduler.INameValueCollection envs, string workDir, string stdIn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ICommandInfo CreateCommandInfo(class Microsoft.Hpc.Scheduler.INameValueCollection envs, string workDir, string stdIn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateCommandInfo(Microsoft.Hpc.Scheduler.INameValueCollection,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCommandInfo (envs As INameValueCollection, workDir As String, stdIn As String) As ICommandInfo" />
+      <MemberSignature Language="F#" Value="abstract member CreateCommandInfo : Microsoft.Hpc.Scheduler.INameValueCollection * string * string -&gt; Microsoft.Hpc.Scheduler.ICommandInfo" Usage="iSchedulerV3SP4.CreateCommandInfo (envs, workDir, stdIn)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ICommandInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="envs" Type="Microsoft.Hpc.Scheduler.INameValueCollection" />
+        <Parameter Name="workDir" Type="System.String" />
+        <Parameter Name="stdIn" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="envs">To be added.</param>
+        <param name="workDir">To be added.</param>
+        <param name="stdIn">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFilterCollection">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IFilterCollection CreateFilterCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IFilterCollection CreateFilterCollection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateFilterCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateFilterCollection () As IFilterCollection" />
+      <MemberSignature Language="F#" Value="abstract member CreateFilterCollection : unit -&gt; Microsoft.Hpc.Scheduler.IFilterCollection" Usage="iSchedulerV3SP4.CreateFilterCollection " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IFilterCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateIntCollection">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IIntCollection CreateIntCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IIntCollection CreateIntCollection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateIntCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateIntCollection () As IIntCollection" />
+      <MemberSignature Language="F#" Value="abstract member CreateIntCollection : unit -&gt; Microsoft.Hpc.Scheduler.IIntCollection" Usage="iSchedulerV3SP4.CreateIntCollection " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IIntCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJob">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerJob CreateJob ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerJob CreateJob() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateJob" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateJob () As ISchedulerJob" />
+      <MemberSignature Language="F#" Value="abstract member CreateJob : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerJob" Usage="iSchedulerV3SP4.CreateJob " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerJob</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateNameValueCollection">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.INameValueCollection CreateNameValueCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.INameValueCollection CreateNameValueCollection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateNameValueCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateNameValueCollection () As INameValueCollection" />
+      <MemberSignature Language="F#" Value="abstract member CreateNameValueCollection : unit -&gt; Microsoft.Hpc.Scheduler.INameValueCollection" Usage="iSchedulerV3SP4.CreateNameValueCollection " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateParametricTaskId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ITaskId CreateParametricTaskId (int jobTaskId, int instanceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.ITaskId CreateParametricTaskId(int32 jobTaskId, int32 instanceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateParametricTaskId(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateParametricTaskId (jobTaskId As Integer, instanceId As Integer) As ITaskId" />
+      <MemberSignature Language="F#" Value="abstract member CreateParametricTaskId : int * int -&gt; Microsoft.Hpc.Scheduler.Properties.ITaskId" Usage="iSchedulerV3SP4.CreateParametricTaskId (jobTaskId, instanceId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ITaskId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobTaskId" Type="System.Int32" />
+        <Parameter Name="instanceId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobTaskId">To be added.</param>
+        <param name="instanceId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePool">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerPool CreatePool (string poolName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerPool CreatePool(string poolName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreatePool(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreatePool (poolName As String) As ISchedulerPool" />
+      <MemberSignature Language="F#" Value="abstract member CreatePool : string -&gt; Microsoft.Hpc.Scheduler.ISchedulerPool" Usage="iSchedulerV3SP4.CreatePool poolName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerPool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="poolName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="poolName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePool">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerPool CreatePool (string poolName, int poolWeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerPool CreatePool(string poolName, int32 poolWeight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreatePool(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreatePool (poolName As String, poolWeight As Integer) As ISchedulerPool" />
+      <MemberSignature Language="F#" Value="abstract member CreatePool : string * int -&gt; Microsoft.Hpc.Scheduler.ISchedulerPool" Usage="iSchedulerV3SP4.CreatePool (poolName, poolWeight)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerPool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="poolName" Type="System.String" />
+        <Parameter Name="poolWeight" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="poolName">To be added.</param>
+        <param name="poolWeight">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSortCollection">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISortCollection CreateSortCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISortCollection CreateSortCollection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateSortCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateSortCollection () As ISortCollection" />
+      <MemberSignature Language="F#" Value="abstract member CreateSortCollection : unit -&gt; Microsoft.Hpc.Scheduler.ISortCollection" Usage="iSchedulerV3SP4.CreateSortCollection " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISortCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateStringCollection">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection CreateStringCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IStringCollection CreateStringCollection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateStringCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateStringCollection () As IStringCollection" />
+      <MemberSignature Language="F#" Value="abstract member CreateStringCollection : unit -&gt; Microsoft.Hpc.Scheduler.IStringCollection" Usage="iSchedulerV3SP4.CreateStringCollection " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTaskId">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ITaskId CreateTaskId (int jobTaskId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.ITaskId CreateTaskId(int32 jobTaskId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.CreateTaskId(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateTaskId (jobTaskId As Integer) As ITaskId" />
+      <MemberSignature Language="F#" Value="abstract member CreateTaskId : int -&gt; Microsoft.Hpc.Scheduler.Properties.ITaskId" Usage="iSchedulerV3SP4.CreateTaskId jobTaskId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ITaskId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobTaskId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobTaskId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteCachedCredentials">
+      <MemberSignature Language="C#" Value="public void DeleteCachedCredentials (string userName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteCachedCredentials(string userName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.DeleteCachedCredentials(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteCachedCredentials (userName As String)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteCachedCredentials : string -&gt; unit" Usage="iSchedulerV3SP4.DeleteCachedCredentials userName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletePool">
+      <MemberSignature Language="C#" Value="public void DeletePool (string poolName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeletePool(string poolName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.DeletePool(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeletePool (poolName As String)" />
+      <MemberSignature Language="F#" Value="abstract member DeletePool : string -&gt; unit" Usage="iSchedulerV3SP4.DeletePool poolName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="poolName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="poolName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletePool">
+      <MemberSignature Language="C#" Value="public void DeletePool (string poolName, bool force);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeletePool(string poolName, bool force) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.DeletePool(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeletePool (poolName As String, force As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member DeletePool : string * bool -&gt; unit" Usage="iSchedulerV3SP4.DeletePool (poolName, force)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="poolName" Type="System.String" />
+        <Parameter Name="force" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="poolName">To be added.</param>
+        <param name="force">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnrollCertificate">
+      <MemberSignature Language="C#" Value="public string EnrollCertificate (string templateName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EnrollCertificate(string templateName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.EnrollCertificate(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EnrollCertificate (templateName As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member EnrollCertificate : string -&gt; string" Usage="iSchedulerV3SP4.EnrollCertificate templateName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="templateName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="templateName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvironmentVariables">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.INameValueCollection EnvironmentVariables { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.INameValueCollection EnvironmentVariables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.EnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnvironmentVariables As INameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.EnvironmentVariables : Microsoft.Hpc.Scheduler.INameValueCollection" Usage="Microsoft.Hpc.Scheduler.ISchedulerV3SP4.EnvironmentVariables" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.INameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetActiveHeadNode">
+      <MemberSignature Language="C#" Value="public string GetActiveHeadNode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetActiveHeadNode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetActiveHeadNode" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetActiveHeadNode () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetActiveHeadNode : unit -&gt; string" Usage="iSchedulerV3SP4.GetActiveHeadNode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCertificateFromStore">
+      <MemberSignature Language="C#" Value="public byte[] GetCertificateFromStore (string thumbprint, out System.Security.SecureString pfxPassword);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int8[] GetCertificateFromStore(string thumbprint, [out] class System.Security.SecureString&amp; pfxPassword) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetCertificateFromStore(System.String,System.Security.SecureString@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCertificateFromStore (thumbprint As String, ByRef pfxPassword As SecureString) As Byte()" />
+      <MemberSignature Language="F#" Value="abstract member GetCertificateFromStore : string *  -&gt; byte[]" Usage="iSchedulerV3SP4.GetCertificateFromStore (thumbprint, pfxPassword)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="thumbprint" Type="System.String" />
+        <Parameter Name="pfxPassword" Type="System.Security.SecureString&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="thumbprint">To be added.</param>
+        <param name="pfxPassword">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCounters">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerCounters GetCounters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerCounters GetCounters() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetCounters" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCounters () As ISchedulerCounters" />
+      <MemberSignature Language="F#" Value="abstract member GetCounters : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerCounters" Usage="iSchedulerV3SP4.GetCounters " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerCounters</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobIdList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IIntCollection GetJobIdList (Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IIntCollection GetJobIdList(class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetJobIdList(Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobIdList (filter As IFilterCollection, sort As ISortCollection) As IIntCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetJobIdList : Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.IIntCollection" Usage="iSchedulerV3SP4.GetJobIdList (filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IIntCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerCollection GetJobList (Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerCollection GetJobList(class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetJobList(Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobList (filter As IFilterCollection, sort As ISortCollection) As ISchedulerCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetJobList : Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerCollection" Usage="iSchedulerV3SP4.GetJobList (filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobTemplateInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.JobTemplateInfo GetJobTemplateInfo (string jobTemplateName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.JobTemplateInfo GetJobTemplateInfo(string jobTemplateName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetJobTemplateInfo(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobTemplateInfo (jobTemplateName As String) As JobTemplateInfo" />
+      <MemberSignature Language="F#" Value="abstract member GetJobTemplateInfo : string -&gt; Microsoft.Hpc.Scheduler.JobTemplateInfo" Usage="iSchedulerV3SP4.GetJobTemplateInfo jobTemplateName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.JobTemplateInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobTemplateName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobTemplateName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobTemplateList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection GetJobTemplateList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IStringCollection GetJobTemplateList() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetJobTemplateList" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobTemplateList () As IStringCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetJobTemplateList : unit -&gt; Microsoft.Hpc.Scheduler.IStringCollection" Usage="iSchedulerV3SP4.GetJobTemplateList " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobTemplateXml">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlReader GetJobTemplateXml (string jobTemplateName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlReader GetJobTemplateXml(string jobTemplateName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetJobTemplateXml(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetJobTemplateXml (jobTemplateName As String) As XmlReader" />
+      <MemberSignature Language="F#" Value="abstract member GetJobTemplateXml : string -&gt; System.Xml.XmlReader" Usage="iSchedulerV3SP4.GetJobTemplateXml jobTemplateName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlReader</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobTemplateName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobTemplateName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNodeGroupList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection GetNodeGroupList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IStringCollection GetNodeGroupList() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetNodeGroupList" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNodeGroupList () As IStringCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetNodeGroupList : unit -&gt; Microsoft.Hpc.Scheduler.IStringCollection" Usage="iSchedulerV3SP4.GetNodeGroupList " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNodeIdList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IIntCollection GetNodeIdList (Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IIntCollection GetNodeIdList(class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetNodeIdList(Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNodeIdList (filter As IFilterCollection, sort As ISortCollection) As IIntCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetNodeIdList : Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.IIntCollection" Usage="iSchedulerV3SP4.GetNodeIdList (filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IIntCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNodeList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerCollection GetNodeList (Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerCollection GetNodeList(class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetNodeList(Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNodeList (filter As IFilterCollection, sort As ISortCollection) As ISchedulerCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetNodeList : Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerCollection" Usage="iSchedulerV3SP4.GetNodeList (filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNodesInNodeGroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IStringCollection GetNodesInNodeGroup (string nodeGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IStringCollection GetNodesInNodeGroup(string nodeGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetNodesInNodeGroup(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNodesInNodeGroup (nodeGroup As String) As IStringCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetNodesInNodeGroup : string -&gt; Microsoft.Hpc.Scheduler.IStringCollection" Usage="iSchedulerV3SP4.GetNodesInNodeGroup nodeGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IStringCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeGroup" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="nodeGroup">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPoolList">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerCollection GetPoolList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerCollection GetPoolList() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetPoolList" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPoolList () As ISchedulerCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetPoolList : unit -&gt; Microsoft.Hpc.Scheduler.ISchedulerCollection" Usage="iSchedulerV3SP4.GetPoolList " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServerVersion">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.IServerVersion GetServerVersion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.IServerVersion GetServerVersion() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetServerVersion () As IServerVersion" />
+      <MemberSignature Language="F#" Value="abstract member GetServerVersion : unit -&gt; Microsoft.Hpc.Scheduler.IServerVersion" Usage="iSchedulerV3SP4.GetServerVersion " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.IServerVersion</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserPrivilege">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.UserPrivilege GetUserPrivilege ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Hpc.Scheduler.Properties.UserPrivilege GetUserPrivilege() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.GetUserPrivilege" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetUserPrivilege () As UserPrivilege" />
+      <MemberSignature Language="F#" Value="abstract member GetUserPrivilege : unit -&gt; Microsoft.Hpc.Scheduler.Properties.UserPrivilege" Usage="iSchedulerV3SP4.GetUserPrivilege " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.UserPrivilege</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSchedulerReconnect">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.Hpc.Scheduler.ConnectionEventArg&gt; OnSchedulerReconnect;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Hpc.Scheduler.ConnectionEventArg&gt; OnSchedulerReconnect" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OnSchedulerReconnect" />
+      <MemberSignature Language="VB.NET" Value="Event OnSchedulerReconnect As EventHandler(Of ConnectionEventArg) " />
+      <MemberSignature Language="F#" Value="member this.OnSchedulerReconnect : EventHandler&lt;Microsoft.Hpc.Scheduler.ConnectionEventArg&gt; " Usage="member this.OnSchedulerReconnect : System.EventHandler&lt;Microsoft.Hpc.Scheduler.ConnectionEventArg&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Hpc.Scheduler.ConnectionEventArg&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenJob">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerJob OpenJob (int id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerJob OpenJob(int32 id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenJob(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenJob (id As Integer) As ISchedulerJob" />
+      <MemberSignature Language="F#" Value="abstract member OpenJob : int -&gt; Microsoft.Hpc.Scheduler.ISchedulerJob" Usage="iSchedulerV3SP4.OpenJob id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerJob</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenJobEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenJobEnumerator (Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenJobEnumerator(class Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenJobEnumerator(Microsoft.Hpc.Scheduler.IPropertyIdCollection,Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenJobEnumerator (properties As IPropertyIdCollection, filter As IFilterCollection, sort As ISortCollection) As ISchedulerRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenJobEnumerator : Microsoft.Hpc.Scheduler.IPropertyIdCollection * Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator" Usage="iSchedulerV3SP4.OpenJobEnumerator (properties, filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.IPropertyIdCollection" />
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenJobHistoryEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenJobHistoryEnumerator (Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenJobHistoryEnumerator(class Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenJobHistoryEnumerator(Microsoft.Hpc.Scheduler.IPropertyIdCollection,Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenJobHistoryEnumerator (properties As IPropertyIdCollection, filter As IFilterCollection, sort As ISortCollection) As ISchedulerRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenJobHistoryEnumerator : Microsoft.Hpc.Scheduler.IPropertyIdCollection * Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator" Usage="iSchedulerV3SP4.OpenJobHistoryEnumerator (properties, filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.IPropertyIdCollection" />
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenJobRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerRowSet OpenJobRowSet (Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerRowSet OpenJobRowSet(class Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenJobRowSet(Microsoft.Hpc.Scheduler.IPropertyIdCollection,Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenJobRowSet (properties As IPropertyIdCollection, filter As IFilterCollection, sort As ISortCollection) As ISchedulerRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenJobRowSet : Microsoft.Hpc.Scheduler.IPropertyIdCollection * Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerRowSet" Usage="iSchedulerV3SP4.OpenJobRowSet (properties, filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.IPropertyIdCollection" />
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerNode OpenNode (int nodeId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerNode OpenNode(int32 nodeId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenNode(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenNode (nodeId As Integer) As ISchedulerNode" />
+      <MemberSignature Language="F#" Value="abstract member OpenNode : int -&gt; Microsoft.Hpc.Scheduler.ISchedulerNode" Usage="iSchedulerV3SP4.OpenNode nodeId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="nodeId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenNodeByName">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerNode OpenNodeByName (string nodeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerNode OpenNodeByName(string nodeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenNodeByName(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenNodeByName (nodeName As String) As ISchedulerNode" />
+      <MemberSignature Language="F#" Value="abstract member OpenNodeByName : string -&gt; Microsoft.Hpc.Scheduler.ISchedulerNode" Usage="iSchedulerV3SP4.OpenNodeByName nodeName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nodeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="nodeName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenNodeEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenNodeEnumerator (Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenNodeEnumerator(class Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenNodeEnumerator(Microsoft.Hpc.Scheduler.IPropertyIdCollection,Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenNodeEnumerator (properties As IPropertyIdCollection, filter As IFilterCollection, sort As ISortCollection) As ISchedulerRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenNodeEnumerator : Microsoft.Hpc.Scheduler.IPropertyIdCollection * Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator" Usage="iSchedulerV3SP4.OpenNodeEnumerator (properties, filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.IPropertyIdCollection" />
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenNodeHistoryEnumerator">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenNodeHistoryEnumerator (Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, Microsoft.Hpc.Scheduler.IFilterCollection filter, Microsoft.Hpc.Scheduler.ISortCollection sort);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator OpenNodeHistoryEnumerator(class Microsoft.Hpc.Scheduler.IPropertyIdCollection properties, class Microsoft.Hpc.Scheduler.IFilterCollection filter, class Microsoft.Hpc.Scheduler.ISortCollection sort) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenNodeHistoryEnumerator(Microsoft.Hpc.Scheduler.IPropertyIdCollection,Microsoft.Hpc.Scheduler.IFilterCollection,Microsoft.Hpc.Scheduler.ISortCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenNodeHistoryEnumerator (properties As IPropertyIdCollection, filter As IFilterCollection, sort As ISortCollection) As ISchedulerRowEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member OpenNodeHistoryEnumerator : Microsoft.Hpc.Scheduler.IPropertyIdCollection * Microsoft.Hpc.Scheduler.IFilterCollection * Microsoft.Hpc.Scheduler.ISortCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator" Usage="iSchedulerV3SP4.OpenNodeHistoryEnumerator (properties, filter, sort)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerRowEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.IPropertyIdCollection" />
+        <Parameter Name="filter" Type="Microsoft.Hpc.Scheduler.IFilterCollection" />
+        <Parameter Name="sort" Type="Microsoft.Hpc.Scheduler.ISortCollection" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="sort">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenPool">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerPool OpenPool (string poolName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerPool OpenPool(string poolName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenPool(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenPool (poolName As String) As ISchedulerPool" />
+      <MemberSignature Language="F#" Value="abstract member OpenPool : string -&gt; Microsoft.Hpc.Scheduler.ISchedulerPool" Usage="iSchedulerV3SP4.OpenPool poolName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerPool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="poolName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="poolName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenPoolRowSet">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.ISchedulerRowSet OpenPoolRowSet (Microsoft.Hpc.Scheduler.IPropertyIdCollection properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.ISchedulerRowSet OpenPoolRowSet(class Microsoft.Hpc.Scheduler.IPropertyIdCollection properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.OpenPoolRowSet(Microsoft.Hpc.Scheduler.IPropertyIdCollection)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenPoolRowSet (properties As IPropertyIdCollection) As ISchedulerRowSet" />
+      <MemberSignature Language="F#" Value="abstract member OpenPoolRowSet : Microsoft.Hpc.Scheduler.IPropertyIdCollection -&gt; Microsoft.Hpc.Scheduler.ISchedulerRowSet" Usage="iSchedulerV3SP4.OpenPoolRowSet properties" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.ISchedulerRowSet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Hpc.Scheduler.IPropertyIdCollection" />
+      </Parameters>
+      <Docs>
+        <param name="properties">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCachedCredentials">
+      <MemberSignature Language="C#" Value="public void SetCachedCredentials (string userName, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCachedCredentials(string userName, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SetCachedCredentials(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCachedCredentials (userName As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetCachedCredentials : string * string -&gt; unit" Usage="iSchedulerV3SP4.SetCachedCredentials (userName, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCertificateCredentials">
+      <MemberSignature Language="C#" Value="public void SetCertificateCredentials (string userName, string thumbprint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCertificateCredentials(string userName, string thumbprint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SetCertificateCredentials(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCertificateCredentials (userName As String, thumbprint As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetCertificateCredentials : string * string -&gt; unit" Usage="iSchedulerV3SP4.SetCertificateCredentials (userName, thumbprint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="thumbprint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userName">To be added.</param>
+        <param name="thumbprint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCertificateCredentialsPfx">
+      <MemberSignature Language="C#" Value="public void SetCertificateCredentialsPfx (string userName, string pfxPassword, byte[] certBytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCertificateCredentialsPfx(string userName, string pfxPassword, unsigned int8[] certBytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SetCertificateCredentialsPfx(System.String,System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCertificateCredentialsPfx (userName As String, pfxPassword As String, certBytes As Byte())" />
+      <MemberSignature Language="F#" Value="abstract member SetCertificateCredentialsPfx : string * string * byte[] -&gt; unit" Usage="iSchedulerV3SP4.SetCertificateCredentialsPfx (userName, pfxPassword, certBytes)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="pfxPassword" Type="System.String" />
+        <Parameter Name="certBytes" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="userName">To be added.</param>
+        <param name="pfxPassword">To be added.</param>
+        <param name="certBytes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetClusterParameter">
+      <MemberSignature Language="C#" Value="public void SetClusterParameter (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetClusterParameter(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SetClusterParameter(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetClusterParameter (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetClusterParameter : string * string -&gt; unit" Usage="iSchedulerV3SP4.SetClusterParameter (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnvironmentVariable">
+      <MemberSignature Language="C#" Value="public void SetEnvironmentVariable (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetEnvironmentVariable(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SetEnvironmentVariable(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnvironmentVariable (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetEnvironmentVariable : string * string -&gt; unit" Usage="iSchedulerV3SP4.SetEnvironmentVariable (name, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetInterfaceMode">
+      <MemberSignature Language="C#" Value="public void SetInterfaceMode (bool isConsole, IntPtr hwnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetInterfaceMode(bool isConsole, native int hwnd) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SetInterfaceMode(System.Boolean,System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetInterfaceMode (isConsole As Boolean, hwnd As IntPtr)" />
+      <MemberSignature Language="F#" Value="abstract member SetInterfaceMode : bool * nativeint -&gt; unit" Usage="iSchedulerV3SP4.SetInterfaceMode (isConsole, hwnd)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isConsole" Type="System.Boolean" />
+        <Parameter Name="hwnd" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="isConsole">To be added.</param>
+        <param name="hwnd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJob">
+      <MemberSignature Language="C#" Value="public void SubmitJob (Microsoft.Hpc.Scheduler.ISchedulerJob job, string username, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitJob(class Microsoft.Hpc.Scheduler.ISchedulerJob job, string username, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SubmitJob(Microsoft.Hpc.Scheduler.ISchedulerJob,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitJob (job As ISchedulerJob, username As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SubmitJob : Microsoft.Hpc.Scheduler.ISchedulerJob * string * string -&gt; unit" Usage="iSchedulerV3SP4.SubmitJob (job, username, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="job" Type="Microsoft.Hpc.Scheduler.ISchedulerJob" />
+        <Parameter Name="username" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="job">To be added.</param>
+        <param name="username">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitJobById">
+      <MemberSignature Language="C#" Value="public void SubmitJobById (int jobId, string username, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitJobById(int32 jobId, string username, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.SubmitJobById(System.Int32,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitJobById (jobId As Integer, username As String, password As String)" />
+      <MemberSignature Language="F#" Value="abstract member SubmitJobById : int * string * string -&gt; unit" Usage="iSchedulerV3SP4.SubmitJobById (jobId, username, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.Int32" />
+        <Parameter Name="username" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jobId">To be added.</param>
+        <param name="username">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAzureUser">
+      <MemberSignature Language="C#" Value="public bool ValidateAzureUser (string username, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ValidateAzureUser(string username, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.ISchedulerV3SP4.ValidateAzureUser(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateAzureUser (username As String, password As String) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ValidateAzureUser : string * string -&gt; bool" Usage="iSchedulerV3SP4.ValidateAzureUser (username, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="username" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="username">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,58 @@
+﻿<Type Name="IGenericService" FullName="Microsoft.Hpc.Scheduler.Session.GenericService.IGenericService">
+  <TypeSignature Language="C#" Value="public interface IGenericService" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericService" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericService" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericService" />
+  <TypeSignature Language="F#" Value="type IGenericService = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ServiceModel.ServiceContract(Name="IGenericService", Namespace="http://hpc.microsoft.com/GenericService")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GenericOperation">
+      <MemberSignature Language="C#" Value="public string GenericOperation (string args);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenericOperation(string args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.GenericService.IGenericService.GenericOperation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenericOperation (args As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member GenericOperation : string -&gt; string" Usage="iGenericService.GenericOperation args" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.RetryOperationError), Action="http://hpc.microsoft.com/session/RetryOperationError")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.FaultContract(typeof(Microsoft.Hpc.Scheduler.Session.AuthenticationFailure), Action="http://hpc.microsoft.com/session/AuthenticationFailure")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ServiceModel.OperationContract(Action="http://hpc.microsoft.com/GenericService/IGenericService/GenericOperation", ReplyAction="http://hpc.microsoft.com/GenericService/IGenericService/GenericOperationResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,110 @@
+﻿<Type Name="ICommandTaskStateEventArg" FullName="Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg">
+  <TypeSignature Language="C#" Value="public interface ICommandTaskStateEventArg : Microsoft.Hpc.Scheduler.ITaskStateEventArg" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICommandTaskStateEventArg implements class Microsoft.Hpc.Scheduler.ITaskStateEventArg" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommandTaskStateEventArg&#xA;Implements ITaskStateEventArg" />
+  <TypeSignature Language="F#" Value="type ICommandTaskStateEventArg = interface&#xA;    interface ITaskStateEventArg" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Hpc.Scheduler.ITaskStateEventArg</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2db7b40d-ae72-4b01-8846-82fb252b9e82")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the arguments that are passed to your event handler when the state of the command changes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="F#" Value="member this.ErrorMessage : string" Usage="Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.ErrorMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the error message associated with the error that occurred while running the command.</summary>
+        <value>The error message.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public int ExitCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : int" Usage="Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.ExitCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the exit code that the command set.</summary>
+        <value>The exit code that the command set.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProxy">
+      <MemberSignature Language="C#" Value="public bool IsProxy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsProxy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.IsProxy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsProxy As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsProxy : bool" Usage="Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.IsProxy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the output is coming from a proxy task.</summary>
+        <value>Is true if the output is from a proxy; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeName">
+      <MemberSignature Language="C#" Value="public string NodeName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeName As String" />
+      <MemberSignature Language="F#" Value="member this.NodeName : string" Usage="Microsoft.Hpc.Scheduler.ICommandTaskStateEventArg.NodeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves the name of the node that is running the command.</summary>
+        <value>The name of the node.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

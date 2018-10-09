@@ -1,0 +1,127 @@
+﻿<Type Name="ServerPropertyDescriptor" FullName="Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor">
+  <TypeSignature Language="C#" Value="public class ServerPropertyDescriptor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServerPropertyDescriptor extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServerPropertyDescriptor" />
+  <TypeSignature Language="F#" Value="type ServerPropertyDescriptor = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerPropertyDescriptor (Microsoft.Hpc.Scheduler.Properties.PropertyId pid, Microsoft.Hpc.Scheduler.Properties.ObjectType obType, string name, string description);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Hpc.Scheduler.Properties.PropertyId pid, valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType obType, string name, string description) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.#ctor(Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.ObjectType,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pid As PropertyId, obType As ObjectType, name As String, description As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor : Microsoft.Hpc.Scheduler.Properties.PropertyId * Microsoft.Hpc.Scheduler.Properties.ObjectType * string * string -&gt; Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor" Usage="new Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor (pid, obType, name, description)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pid" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId" />
+        <Parameter Name="obType" Type="Microsoft.Hpc.Scheduler.Properties.ObjectType" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pid">To be added.</param>
+        <param name="obType">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="description">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Description" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.PropertyId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Hpc.Scheduler.Properties.PropertyId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As PropertyId" />
+      <MemberSignature Language="F#" Value="member this.Id : Microsoft.Hpc.Scheduler.Properties.PropertyId" Usage="Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Hpc.Scheduler.Properties.ObjectType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Hpc.Scheduler.Properties.ObjectType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As ObjectType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Hpc.Scheduler.Properties.ObjectType" Usage="Microsoft.Hpc.Scheduler.Store.ServerPropertyDescriptor.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.ObjectType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

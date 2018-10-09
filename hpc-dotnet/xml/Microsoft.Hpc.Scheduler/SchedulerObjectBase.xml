@@ -1,0 +1,190 @@
+﻿<Type Name="SchedulerObjectBase" FullName="Microsoft.Hpc.Scheduler.SchedulerObjectBase">
+  <TypeSignature Language="C#" Value="public abstract class SchedulerObjectBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SchedulerObjectBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.SchedulerObjectBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SchedulerObjectBase" />
+  <TypeSignature Language="F#" Value="type SchedulerObjectBase = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>The abstract class from which the HPC objects inherit.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SchedulerObjectBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of this class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_InitFromRow">
+      <MemberSignature Language="C#" Value="protected internal void _InitFromRow (Microsoft.Hpc.Scheduler.Properties.PropertyRow row);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance void _InitFromRow(class Microsoft.Hpc.Scheduler.Properties.PropertyRow row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase._InitFromRow(Microsoft.Hpc.Scheduler.Properties.PropertyRow)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub _InitFromRow (row As PropertyRow)" />
+      <MemberSignature Language="F#" Value="member this._InitFromRow : Microsoft.Hpc.Scheduler.Properties.PropertyRow -&gt; unit" Usage="schedulerObjectBase._InitFromRow row" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="row" Type="Microsoft.Hpc.Scheduler.Properties.PropertyRow" />
+      </Parameters>
+      <Docs>
+        <param name="row">The property row used to initialize the object.</param>
+        <summary>Initializes the object using the contents of the specified property row.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_props">
+      <MemberSignature Language="C#" Value="protected internal System.Collections.Generic.Dictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; _props;" />
+      <MemberSignature Language="ILAsm" Value=".field familyorassembly class System.Collections.Generic.Dictionary`2&lt;class Microsoft.Hpc.Scheduler.Properties.PropertyId, class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; _props" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.SchedulerObjectBase._props" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend _props As Dictionary(Of PropertyId, StoreProperty) " />
+      <MemberSignature Language="F#" Value="val mutable _props : System.Collections.Generic.Dictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId, Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" Usage="Microsoft.Hpc.Scheduler.SchedulerObjectBase._props" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;Microsoft.Hpc.Scheduler.Properties.PropertyId,Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>All the properties that have been cached for the object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCurrentPropsToReload">
+      <MemberSignature Language="C#" Value="protected Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetCurrentPropsToReload ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetCurrentPropsToReload() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase.GetCurrentPropsToReload" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetCurrentPropsToReload () As PropertyId()" />
+      <MemberSignature Language="F#" Value="member this.GetCurrentPropsToReload : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="schedulerObjectBase.GetCurrentPropsToReload " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPropertyIds">
+      <MemberSignature Language="C#" Value="protected internal virtual Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetPropertyIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetPropertyIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase.GetPropertyIds" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Function GetPropertyIds () As PropertyId()" />
+      <MemberSignature Language="F#" Value="abstract member GetPropertyIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]&#xA;override this.GetPropertyIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="schedulerObjectBase.GetPropertyIds " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>An array of properties to query from the store when refreshing the job object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWriteOnlyPropertyIds">
+      <MemberSignature Language="C#" Value="protected virtual Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetWriteOnlyPropertyIds ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.Hpc.Scheduler.Properties.PropertyId[] GetWriteOnlyPropertyIds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase.GetWriteOnlyPropertyIds" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetWriteOnlyPropertyIds () As PropertyId()" />
+      <MemberSignature Language="F#" Value="abstract member GetWriteOnlyPropertyIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]&#xA;override this.GetWriteOnlyPropertyIds : unit -&gt; Microsoft.Hpc.Scheduler.Properties.PropertyId[]" Usage="schedulerObjectBase.GetWriteOnlyPropertyIds " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.PropertyId[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitFromObject">
+      <MemberSignature Language="C#" Value="protected internal void InitFromObject (Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj, Microsoft.Hpc.Scheduler.Properties.PropertyId[] propIds);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance void InitFromObject(class Microsoft.Hpc.Scheduler.Store.IClusterStoreObject obj, class Microsoft.Hpc.Scheduler.Properties.PropertyId[] propIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase.InitFromObject(Microsoft.Hpc.Scheduler.Store.IClusterStoreObject,Microsoft.Hpc.Scheduler.Properties.PropertyId[])" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub InitFromObject (obj As IClusterStoreObject, propIds As PropertyId())" />
+      <MemberSignature Language="F#" Value="member this.InitFromObject : Microsoft.Hpc.Scheduler.Store.IClusterStoreObject * Microsoft.Hpc.Scheduler.Properties.PropertyId[] -&gt; unit" Usage="schedulerObjectBase.InitFromObject (obj, propIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Microsoft.Hpc.Scheduler.Store.IClusterStoreObject" />
+        <Parameter Name="propIds" Type="Microsoft.Hpc.Scheduler.Properties.PropertyId[]" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object that contains the properties used to initialize this object.</param>
+        <param name="propIds">The properties to initialize.</param>
+        <summary>Initializes the object using the properties from the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadProps">
+      <MemberSignature Language="C#" Value="protected void LoadProps (System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; props);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void LoadProps(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; props) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.SchedulerObjectBase.LoadProps(System.Collections.Generic.IEnumerable{Microsoft.Hpc.Scheduler.Properties.StoreProperty})" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub LoadProps (props As IEnumerable(Of StoreProperty))" />
+      <MemberSignature Language="F#" Value="member this.LoadProps : seq&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt; -&gt; unit" Usage="schedulerObjectBase.LoadProps props" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="props" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Hpc.Scheduler.Properties.StoreProperty&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="props">The properties to load from the store.</param>
+        <summary>Loads the specified properties from the store.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

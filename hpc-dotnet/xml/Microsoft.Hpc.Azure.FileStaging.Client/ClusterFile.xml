@@ -1,0 +1,221 @@
+﻿<Type Name="ClusterFile" FullName="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile">
+  <TypeSignature Language="C#" Value="public class ClusterFile" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ClusterFile extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClusterFile" />
+  <TypeSignature Language="F#" Value="type ClusterFile = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClusterFile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFromNode">
+      <MemberSignature Language="C#" Value="public static void CopyFromNode (string headNode, string targetNode, string path, string localFilePath, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CopyFromNode(string headNode, string targetNode, string path, string localFilePath, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.CopyFromNode(System.String,System.String,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub CopyFromNode (headNode As String, targetNode As String, path As String, localFilePath As String, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="static member CopyFromNode : string * string * string * string * bool -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.CopyFromNode (headNode, targetNode, path, localFilePath, overwrite)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="localFilePath" Type="System.String" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="localFilePath">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyToNode">
+      <MemberSignature Language="C#" Value="public static void CopyToNode (string headNode, string targetNode, string path, string localFilePath, bool overwrite);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CopyToNode(string headNode, string targetNode, string path, string localFilePath, bool overwrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.CopyToNode(System.String,System.String,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub CopyToNode (headNode As String, targetNode As String, path As String, localFilePath As String, overwrite As Boolean)" />
+      <MemberSignature Language="F#" Value="static member CopyToNode : string * string * string * string * bool -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.CopyToNode (headNode, targetNode, path, localFilePath, overwrite)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="localFilePath" Type="System.String" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="localFilePath">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static void Delete (string connectionString, string targetNode, string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(string connectionString, string targetNode, string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Delete(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Delete (connectionString As String, targetNode As String, path As String)" />
+      <MemberSignature Language="F#" Value="static member Delete : string * string * string -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Delete (connectionString, targetNode, path)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public static System.IO.Stream Read (string connectionString, string targetNode, string path, long position);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Stream Read(string connectionString, string targetNode, string path, int64 position) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Read(System.String,System.String,System.String,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Read (connectionString As String, targetNode As String, path As String, position As Long) As Stream" />
+      <MemberSignature Language="F#" Value="static member Read : string * string * string * int64 -&gt; System.IO.Stream" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Read (connectionString, targetNode, path, position)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="position" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tail">
+      <MemberSignature Language="C#" Value="public static System.IO.Stream Tail (string connectionString, string targetNode, string path, long nLines, string encoding);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Stream Tail(string connectionString, string targetNode, string path, int64 nLines, string encoding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Tail(System.String,System.String,System.String,System.Int64,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Tail (connectionString As String, targetNode As String, path As String, nLines As Long, encoding As String) As Stream" />
+      <MemberSignature Language="F#" Value="static member Tail : string * string * string * int64 * string -&gt; System.IO.Stream" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Tail (connectionString, targetNode, path, nLines, encoding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="nLines" Type="System.Int64" />
+        <Parameter Name="encoding" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="nLines">To be added.</param>
+        <param name="encoding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="public static void Write (string connectionString, string targetNode, string path, System.IO.FileMode mode, long position, System.IO.Stream contents);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(string connectionString, string targetNode, string path, valuetype System.IO.FileMode mode, int64 position, class System.IO.Stream contents) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Write(System.String,System.String,System.String,System.IO.FileMode,System.Int64,System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (connectionString As String, targetNode As String, path As String, mode As FileMode, position As Long, contents As Stream)" />
+      <MemberSignature Language="F#" Value="static member Write : string * string * string * System.IO.FileMode * int64 * System.IO.Stream -&gt; unit" Usage="Microsoft.Hpc.Azure.FileStaging.Client.ClusterFile.Write (connectionString, targetNode, path, mode, position, contents)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Azure.FileStaging.Client</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="targetNode" Type="System.String" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="mode" Type="System.IO.FileMode" />
+        <Parameter Name="position" Type="System.Int64" />
+        <Parameter Name="contents" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="targetNode">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="contents">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

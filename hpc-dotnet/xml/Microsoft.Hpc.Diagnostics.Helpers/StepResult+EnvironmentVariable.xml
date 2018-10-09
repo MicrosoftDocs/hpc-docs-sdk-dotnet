@@ -1,0 +1,109 @@
+﻿<Type Name="StepResult+EnvironmentVariable" FullName="Microsoft.Hpc.Diagnostics.Helpers.StepResult+EnvironmentVariable">
+  <TypeSignature Language="C#" Value="public class StepResult.EnvironmentVariable" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit StepResult/EnvironmentVariable extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable" />
+  <TypeSignature Language="VB.NET" Value="Public Class StepResult.EnvironmentVariable" />
+  <TypeSignature Language="F#" Value="type StepResult.EnvironmentVariable = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an environment variable that a diagnostic test should set for the RunStep stage of the test.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnvironmentVariable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable" /> class without specifying the name or value of the environment variable that the diagnostic test should set.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnvironmentVariable (string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, value As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable : string * string -&gt; Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable" Usage="new Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable (name, value)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">String that specifies the name of the environment variable that the diagnostic test should set for the RunStep stage.</param>
+        <param name="value">String that specifies the value that the diagnostic test should set for the environment variable for the RunStep stage.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable" /> class for an environment variable with the specified name and value.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the name of the environment variable that the diagnostic test should set for the RunStep stage.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the name of the environment variable.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string with get, set" Usage="Microsoft.Hpc.Diagnostics.Helpers.StepResult.EnvironmentVariable.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Diagnostics.Helpers</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves or sets the value that the diagnostic test should set for the environment variable for the RunStep stage.</summary>
+        <value>A <see cref="T:System.String"></see> object that contains the value for the environment variable.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

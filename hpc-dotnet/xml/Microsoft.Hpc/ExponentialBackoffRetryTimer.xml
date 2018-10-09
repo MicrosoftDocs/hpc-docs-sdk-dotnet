@@ -1,0 +1,111 @@
+﻿<Type Name="ExponentialBackoffRetryTimer" FullName="Microsoft.Hpc.ExponentialBackoffRetryTimer">
+  <TypeSignature Language="C#" Value="public class ExponentialBackoffRetryTimer : Microsoft.Hpc.BoundedBackoffRetryTimer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExponentialBackoffRetryTimer extends Microsoft.Hpc.BoundedBackoffRetryTimer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.ExponentialBackoffRetryTimer" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExponentialBackoffRetryTimer&#xA;Inherits BoundedBackoffRetryTimer" />
+  <TypeSignature Language="F#" Value="type ExponentialBackoffRetryTimer = class&#xA;    inherit BoundedBackoffRetryTimer" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Hpc.BoundedBackoffRetryTimer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExponentialBackoffRetryTimer (int initialWait);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 initialWait) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ExponentialBackoffRetryTimer.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (initialWait As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.ExponentialBackoffRetryTimer : int -&gt; Microsoft.Hpc.ExponentialBackoffRetryTimer" Usage="new Microsoft.Hpc.ExponentialBackoffRetryTimer initialWait" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="initialWait" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="initialWait">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExponentialBackoffRetryTimer (int initialWait, int waitUpperBound);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 initialWait, int32 waitUpperBound) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ExponentialBackoffRetryTimer.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (initialWait As Integer, waitUpperBound As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.ExponentialBackoffRetryTimer : int * int -&gt; Microsoft.Hpc.ExponentialBackoffRetryTimer" Usage="new Microsoft.Hpc.ExponentialBackoffRetryTimer (initialWait, waitUpperBound)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="initialWait" Type="System.Int32" />
+        <Parameter Name="waitUpperBound" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="initialWait">To be added.</param>
+        <param name="waitUpperBound">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExponentialBackoffRetryTimer (int initialWait, int waitUpperBound, double growthFactor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 initialWait, int32 waitUpperBound, float64 growthFactor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ExponentialBackoffRetryTimer.#ctor(System.Int32,System.Int32,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (initialWait As Integer, waitUpperBound As Integer, growthFactor As Double)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.ExponentialBackoffRetryTimer : int * int * double -&gt; Microsoft.Hpc.ExponentialBackoffRetryTimer" Usage="new Microsoft.Hpc.ExponentialBackoffRetryTimer (initialWait, waitUpperBound, growthFactor)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="initialWait" Type="System.Int32" />
+        <Parameter Name="waitUpperBound" Type="System.Int32" />
+        <Parameter Name="growthFactor" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="initialWait">To be added.</param>
+        <param name="waitUpperBound">To be added.</param>
+        <param name="growthFactor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBackOffValue">
+      <MemberSignature Language="C#" Value="protected override int GetBackOffValue (int currentValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance int32 GetBackOffValue(int32 currentValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.ExponentialBackoffRetryTimer.GetBackOffValue(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetBackOffValue (currentValue As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetBackOffValue : int -&gt; int" Usage="exponentialBackoffRetryTimer.GetBackOffValue currentValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="currentValue" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="currentValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

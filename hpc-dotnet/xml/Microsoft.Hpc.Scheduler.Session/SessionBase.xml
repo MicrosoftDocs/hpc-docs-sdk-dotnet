@@ -1,0 +1,529 @@
+﻿<Type Name="SessionBase" FullName="Microsoft.Hpc.Scheduler.Session.SessionBase">
+  <TypeSignature Language="C#" Value="public class SessionBase : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi SessionBase extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Session.SessionBase" />
+  <TypeSignature Language="VB.NET" Value="Public Class SessionBase&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type SessionBase = class&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BatchId">
+      <MemberSignature Language="C#" Value="public static int BatchId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static int32 BatchId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Session.SessionBase.BatchId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared BatchId As Integer " />
+      <MemberSignature Language="F#" Value=" staticval mutable BatchId : int" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.BatchId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientVersion">
+      <MemberSignature Language="C#" Value="public Version ClientVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version ClientVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.ClientVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.ClientVersion : Version" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.ClientVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="F#" Value="member this.Close : unit -&gt; unit" Usage="sessionBase.Close " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (bool purge);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close(bool purge) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.Close(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (purge As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Close : bool -&gt; unit" Usage="sessionBase.Close purge" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="purge" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="purge">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (bool purge, int timeoutMilliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close(bool purge, int32 timeoutMilliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.Close(System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (purge As Boolean, timeoutMilliseconds As Integer)" />
+      <MemberSignature Language="F#" Value="member this.Close : bool * int -&gt; unit" Usage="sessionBase.Close (purge, timeoutMilliseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="purge" Type="System.Boolean" />
+        <Parameter Name="timeoutMilliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="purge">To be added.</param>
+        <param name="timeoutMilliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="sessionBase.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sessionBase.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndpointReference">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.EndpointAddress EndpointReference { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.EndpointAddress EndpointReference" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.EndpointReference" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndpointReference As EndpointAddress" />
+      <MemberSignature Language="F#" Value="member this.EndpointReference : System.ServiceModel.EndpointAddress" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.EndpointReference" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.EndpointAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProperty&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T GetProperty&lt;T&gt; (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T GetProperty&lt;T&gt;(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetProperty``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProperty(Of T) (name As String) As T" />
+      <MemberSignature Language="F#" Value="member this.GetProperty : string -&gt; 'T" Usage="sessionBase.GetProperty name" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceVersions">
+      <MemberSignature Language="C#" Value="public static Version[] GetServiceVersions (string headNode, string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Version[] GetServiceVersions(string headNode, string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetServiceVersions (headNode As String, serviceName As String) As Version()" />
+      <MemberSignature Language="F#" Value="static member GetServiceVersions : string * string -&gt; Version[]" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions (headNode, serviceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceVersions">
+      <MemberSignature Language="C#" Value="public static Version[] GetServiceVersions (string headNode, string serviceName, Microsoft.Hpc.Scheduler.Session.TransportScheme scheme);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Version[] GetServiceVersions(string headNode, string serviceName, valuetype Microsoft.Hpc.Scheduler.Session.TransportScheme scheme) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions(System.String,System.String,Microsoft.Hpc.Scheduler.Session.TransportScheme)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetServiceVersions (headNode As String, serviceName As String, scheme As TransportScheme) As Version()" />
+      <MemberSignature Language="F#" Value="static member GetServiceVersions : string * string * Microsoft.Hpc.Scheduler.Session.TransportScheme -&gt; Version[]" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions (headNode, serviceName, scheme)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="scheme" Type="Microsoft.Hpc.Scheduler.Session.TransportScheme" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="scheme">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceVersions">
+      <MemberSignature Language="C#" Value="public static Version[] GetServiceVersions (string headNode, string serviceName, System.ServiceModel.Channels.Binding binding);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Version[] GetServiceVersions(string headNode, string serviceName, class System.ServiceModel.Channels.Binding binding) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions(System.String,System.String,System.ServiceModel.Channels.Binding)" />
+      <MemberSignature Language="F#" Value="static member GetServiceVersions : string * string * System.ServiceModel.Channels.Binding -&gt; Version[]" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions (headNode, serviceName, binding)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="binding">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceVersions">
+      <MemberSignature Language="C#" Value="public static Version[] GetServiceVersions (string headNode, string serviceName, Microsoft.Hpc.Scheduler.Session.TransportScheme scheme, string username, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Version[] GetServiceVersions(string headNode, string serviceName, valuetype Microsoft.Hpc.Scheduler.Session.TransportScheme scheme, string username, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions(System.String,System.String,Microsoft.Hpc.Scheduler.Session.TransportScheme,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetServiceVersions (headNode As String, serviceName As String, scheme As TransportScheme, username As String, password As String) As Version()" />
+      <MemberSignature Language="F#" Value="static member GetServiceVersions : string * string * Microsoft.Hpc.Scheduler.Session.TransportScheme * string * string -&gt; Version[]" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersions (headNode, serviceName, scheme, username, password)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="scheme" Type="Microsoft.Hpc.Scheduler.Session.TransportScheme" />
+        <Parameter Name="username" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="scheme">To be added.</param>
+        <param name="username">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceVersionsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Version[]&gt; GetServiceVersionsAsync (string headNode, string serviceName, System.ServiceModel.Channels.Binding binding, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Version[]&gt; GetServiceVersionsAsync(string headNode, string serviceName, class System.ServiceModel.Channels.Binding binding, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersionsAsync(System.String,System.String,System.ServiceModel.Channels.Binding,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetServiceVersionsAsync : string * string * System.ServiceModel.Channels.Binding * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Version[]&gt;" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersionsAsync (headNode, serviceName, binding, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Version[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="binding">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceVersionsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Version[]&gt; GetServiceVersionsAsync (string headNode, string serviceName, System.ServiceModel.Channels.Binding binding, bool useWindowsAuthentication, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Version[]&gt; GetServiceVersionsAsync(string headNode, string serviceName, class System.ServiceModel.Channels.Binding binding, bool useWindowsAuthentication, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersionsAsync(System.String,System.String,System.ServiceModel.Channels.Binding,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetServiceVersionsAsync : string * string * System.ServiceModel.Channels.Binding * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Version[]&gt;" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.GetServiceVersionsAsync (headNode, serviceName, binding, useWindowsAuthentication, token)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.Scheduler.Session.SessionBase/&lt;GetServiceVersionsAsync&gt;d__83))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Version[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headNode" Type="System.String" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" />
+        <Parameter Name="useWindowsAuthentication" Type="System.Boolean" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="headNode">To be added.</param>
+        <param name="serviceName">To be added.</param>
+        <param name="binding">To be added.</param>
+        <param name="useWindowsAuthentication">To be added.</param>
+        <param name="token">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoServiceVersion">
+      <MemberSignature Language="C#" Value="public static Version NoServiceVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Version NoServiceVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.NoServiceVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NoServiceVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.NoServiceVersion : Version" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.NoServiceVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerVersion">
+      <MemberSignature Language="C#" Value="public Version ServerVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version ServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.ServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServerVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.ServerVersion : Version" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.ServerVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceVersion">
+      <MemberSignature Language="C#" Value="public Version ServiceVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version ServiceVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.ServiceVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.ServiceVersion : Version" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.ServiceVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionHash">
+      <MemberSignature Language="C#" Value="public int SessionHash { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SessionHash" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Session.SessionBase.SessionHash" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionHash As Integer" />
+      <MemberSignature Language="F#" Value="member this.SessionHash : int" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.SessionHash" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetInterfaceMode">
+      <MemberSignature Language="C#" Value="public static void SetInterfaceMode (bool console, IntPtr wnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetInterfaceMode(bool console, native int wnd) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Session.SessionBase.SetInterfaceMode(System.Boolean,System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetInterfaceMode (console As Boolean, wnd As IntPtr)" />
+      <MemberSignature Language="F#" Value="static member SetInterfaceMode : bool * nativeint -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Session.SessionBase.SetInterfaceMode (console, wnd)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Session</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="console" Type="System.Boolean" />
+        <Parameter Name="wnd" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="console">To be added.</param>
+        <param name="wnd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

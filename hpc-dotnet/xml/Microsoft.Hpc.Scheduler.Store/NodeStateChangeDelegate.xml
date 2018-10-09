@@ -1,0 +1,29 @@
+﻿<Type Name="NodeStateChangeDelegate" FullName="Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate">
+  <TypeSignature Language="C#" Value="public delegate void NodeStateChangeDelegate(int nodeId, NodeState prevState, NodeState newState);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed NodeStateChangeDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.NodeStateChangeDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub NodeStateChangeDelegate(nodeId As Integer, prevState As NodeState, newState As NodeState)" />
+  <TypeSignature Language="F#" Value="type NodeStateChangeDelegate = delegate of int * NodeState * NodeState -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="nodeId" Type="System.Int32" />
+    <Parameter Name="prevState" Type="Microsoft.Hpc.Scheduler.Properties.NodeState" />
+    <Parameter Name="newState" Type="Microsoft.Hpc.Scheduler.Properties.NodeState" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="nodeId">To be added.</param>
+    <param name="prevState">To be added.</param>
+    <param name="newState">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

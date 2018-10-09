@@ -1,0 +1,889 @@
+﻿<Type Name="Task" FullName="Microsoft.ComputeCluster.Task">
+  <TypeSignature Language="C#" Value="public class Task : Microsoft.ComputeCluster.ITask" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit Task extends System.Object implements class Microsoft.ComputeCluster.ITask" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ComputeCluster.Task" />
+  <TypeSignature Language="VB.NET" Value="Public Class Task&#xA;Implements ITask" />
+  <TypeSignature Language="F#" Value="type Task = class&#xA;    interface ITask" />
+  <AssemblyInfo>
+    <AssemblyName>CcpAPI</AssemblyName>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.ComputeCluster.ITask</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CLSCompliant(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("60650A6E-F4F0-4a1c-BBC7-399A3EFAAB8D")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType("Task", Namespace="http://www.microsoft.com/ComputeCluster/")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Task ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.Task.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Task (Microsoft.ComputeCluster.ITask task);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.ComputeCluster.ITask task) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.Task.#ctor(Microsoft.ComputeCluster.ITask)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (task As ITask)" />
+      <MemberSignature Language="F#" Value="new Microsoft.ComputeCluster.Task : Microsoft.ComputeCluster.ITask -&gt; Microsoft.ComputeCluster.Task" Usage="new Microsoft.ComputeCluster.Task task" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="task" Type="Microsoft.ComputeCluster.ITask" />
+      </Parameters>
+      <Docs>
+        <param name="task">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocatedNodes">
+      <MemberSignature Language="C#" Value="public string AllocatedNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AllocatedNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.AllocatedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllocatedNodes As String" />
+      <MemberSignature Language="F#" Value="member this.AllocatedNodes : string with get, set" Usage="Microsoft.ComputeCluster.Task.AllocatedNodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandLine">
+      <MemberSignature Language="C#" Value="public string CommandLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CommandLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.CommandLine" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandLine As String" />
+      <MemberSignature Language="F#" Value="member this.CommandLine : string with get, set" Usage="Microsoft.ComputeCluster.Task.CommandLine" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.CommandLine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTime">
+      <MemberSignature Language="C#" Value="public DateTime CreateTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.CreateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.CreateTime : DateTime with get, set" Usage="Microsoft.ComputeCluster.Task.CreateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Depend">
+      <MemberSignature Language="C#" Value="public string Depend { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Depend" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Depend" />
+      <MemberSignature Language="VB.NET" Value="Public Property Depend As String" />
+      <MemberSignature Language="F#" Value="member this.Depend : string with get, set" Usage="Microsoft.ComputeCluster.Task.Depend" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.Depend</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.EndTime : DateTime with get, set" Usage="Microsoft.ComputeCluster.Task.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvironmentVariables">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.NameValueCollection EnvironmentVariables { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ComputeCluster.NameValueCollection EnvironmentVariables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.EnvironmentVariables" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnvironmentVariables As NameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.EnvironmentVariables : Microsoft.ComputeCluster.NameValueCollection" Usage="Microsoft.ComputeCluster.Task.EnvironmentVariables" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.EnvironmentVariables</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("EnvironmentVariables", IsNullable=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Variable", Type=typeof(Microsoft.ComputeCluster.NameValue))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.NameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
+      <MemberSignature Language="F#" Value="member this.ErrorMessage : string with get, set" Usage="Microsoft.ComputeCluster.Task.ErrorMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public int ExitCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExitCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : int with get, set" Usage="Microsoft.ComputeCluster.Task.ExitCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedTaskTerms">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.NameValueCollection ExtendedTaskTerms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ComputeCluster.NameValueCollection ExtendedTaskTerms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.ExtendedTaskTerms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedTaskTerms As NameValueCollection" />
+      <MemberSignature Language="F#" Value="member this.ExtendedTaskTerms : Microsoft.ComputeCluster.NameValueCollection" Usage="Microsoft.ComputeCluster.Task.ExtendedTaskTerms" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.ExtendedTaskTerms</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArray("ExtendedTerms", IsNullable=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Term", Type=typeof(Microsoft.ComputeCluster.NameValue))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.NameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int with get, set" Usage="Microsoft.ComputeCluster.Task.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExclusive">
+      <MemberSignature Language="C#" Value="public bool IsExclusive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExclusive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.IsExclusive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExclusive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExclusive : bool with get, set" Usage="Microsoft.ComputeCluster.Task.IsExclusive" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.IsExclusive</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRerunnable">
+      <MemberSignature Language="C#" Value="public bool IsRerunnable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRerunnable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.IsRerunnable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRerunnable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRerunnable : bool with get, set" Usage="Microsoft.ComputeCluster.Task.IsRerunnable" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.IsRerunnable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNumberOfProcessors">
+      <MemberSignature Language="C#" Value="public int MaximumNumberOfProcessors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNumberOfProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.MaximumNumberOfProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNumberOfProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaximumNumberOfProcessors : int with get, set" Usage="Microsoft.ComputeCluster.Task.MaximumNumberOfProcessors" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.MaximumNumberOfProcessors</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumNumberOfProcessors">
+      <MemberSignature Language="C#" Value="public int MinimumNumberOfProcessors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumNumberOfProcessors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.MinimumNumberOfProcessors" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumNumberOfProcessors As Integer" />
+      <MemberSignature Language="F#" Value="member this.MinimumNumberOfProcessors : int with get, set" Usage="Microsoft.ComputeCluster.Task.MinimumNumberOfProcessors" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.MinimumNumberOfProcessors</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.ComputeCluster.Task.Name" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentJobId">
+      <MemberSignature Language="C#" Value="public int ParentJobId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ParentJobId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.ParentJobId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentJobId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ParentJobId : int with get, set" Usage="Microsoft.ComputeCluster.Task.ParentJobId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredNodes">
+      <MemberSignature Language="C#" Value="public string RequiredNodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequiredNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.RequiredNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequiredNodes As String" />
+      <MemberSignature Language="F#" Value="member this.RequiredNodes : string with get, set" Usage="Microsoft.ComputeCluster.Task.RequiredNodes" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.RequiredNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Runtime">
+      <MemberSignature Language="C#" Value="public string Runtime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Runtime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Runtime" />
+      <MemberSignature Language="VB.NET" Value="Public Property Runtime As String" />
+      <MemberSignature Language="F#" Value="member this.Runtime : string with get, set" Usage="Microsoft.ComputeCluster.Task.Runtime" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.Runtime</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("Infinite")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnvironmentVariable">
+      <MemberSignature Language="C#" Value="public void SetEnvironmentVariable (string variableName, string variableValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetEnvironmentVariable(string variableName, string variableValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.Task.SetEnvironmentVariable(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnvironmentVariable (variableName As String, variableValue As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetEnvironmentVariable : string * string -&gt; unit&#xA;override this.SetEnvironmentVariable : string * string -&gt; unit" Usage="task.SetEnvironmentVariable (variableName, variableValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.ITask.SetEnvironmentVariable(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variableName" Type="System.String" />
+        <Parameter Name="variableValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variableName">To be added.</param>
+        <param name="variableValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedTaskTerm">
+      <MemberSignature Language="C#" Value="public void SetExtendedTaskTerm (string termName, string termValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetExtendedTaskTerm(string termName, string termValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ComputeCluster.Task.SetExtendedTaskTerm(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetExtendedTaskTerm (termName As String, termValue As String)" />
+      <MemberSignature Language="F#" Value="abstract member SetExtendedTaskTerm : string * string -&gt; unit&#xA;override this.SetExtendedTaskTerm : string * string -&gt; unit" Usage="task.SetExtendedTaskTerm (termName, termValue)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ComputeCluster.ITask.SetExtendedTaskTerm(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="termName" Type="System.String" />
+        <Parameter Name="termValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="termName">To be added.</param>
+        <param name="termValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.StartTime : DateTime with get, set" Usage="Microsoft.ComputeCluster.Task.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.ComputeCluster.TaskStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.ComputeCluster.TaskStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As TaskStatus" />
+      <MemberSignature Language="F#" Value="member this.Status : Microsoft.ComputeCluster.TaskStatus with get, set" Usage="Microsoft.ComputeCluster.Task.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.ComputeCluster.TaskStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stderr">
+      <MemberSignature Language="C#" Value="public string Stderr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Stderr" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Stderr" />
+      <MemberSignature Language="VB.NET" Value="Public Property Stderr As String" />
+      <MemberSignature Language="F#" Value="member this.Stderr : string with get, set" Usage="Microsoft.ComputeCluster.Task.Stderr" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.Stderr</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stdin">
+      <MemberSignature Language="C#" Value="public string Stdin { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Stdin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Stdin" />
+      <MemberSignature Language="VB.NET" Value="Public Property Stdin As String" />
+      <MemberSignature Language="F#" Value="member this.Stdin : string with get, set" Usage="Microsoft.ComputeCluster.Task.Stdin" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.Stdin</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stdout">
+      <MemberSignature Language="C#" Value="public string Stdout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Stdout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Stdout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Stdout As String" />
+      <MemberSignature Language="F#" Value="member this.Stdout : string with get, set" Usage="Microsoft.ComputeCluster.Task.Stdout" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.Stdout</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTime">
+      <MemberSignature Language="C#" Value="public DateTime SubmitTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SubmitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.SubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubmitTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.SubmitTime : DateTime with get, set" Usage="Microsoft.ComputeCluster.Task.SubmitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public byte[] Timestamp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timestamp As Byte()" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : byte[] with get, set" Usage="Microsoft.ComputeCluster.Task.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkDirectory">
+      <MemberSignature Language="C#" Value="public string WorkDirectory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkDirectory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ComputeCluster.Task.WorkDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkDirectory As String" />
+      <MemberSignature Language="F#" Value="member this.WorkDirectory : string with get, set" Usage="Microsoft.ComputeCluster.Task.WorkDirectory" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ComputeCluster.ITask.WorkDirectory</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>CcpAPI</AssemblyName>
+        <AssemblyVersion>1.0.2.3</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

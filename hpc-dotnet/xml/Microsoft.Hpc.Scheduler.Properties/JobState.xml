@@ -1,0 +1,259 @@
+﻿<Type Name="JobState" FullName="Microsoft.Hpc.Scheduler.Properties.JobState">
+  <TypeSignature Language="C#" Value="public enum JobState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.JobState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum JobState" />
+  <TypeSignature Language="F#" Value="type JobState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("BEDCD0AF-C2E1-40DB-96A8-65478CE50C6C")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the state of the job.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState All = int32(2047)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="F#" Value="All = 2047" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2047</MemberValue>
+      <Docs>
+        <summary>A mask used to indicate all states. This enumeration member represents a value of 2047.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="Canceled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Canceled = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Canceled" />
+      <MemberSignature Language="VB.NET" Value="Canceled" />
+      <MemberSignature Language="F#" Value="Canceled = 512" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Canceled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>The job was canceled (see <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.CancelJob(System.Int32,System.String)" />). If the caller provided the reason for canceling the job, then the <see cref="P:Microsoft.Hpc.Scheduler.ISchedulerJob.ErrorMessage" /> property will contain the reason. This enumeration member represents a value of 512.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Canceling">
+      <MemberSignature Language="C#" Value="Canceling" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Canceling = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Canceling" />
+      <MemberSignature Language="VB.NET" Value="Canceling" />
+      <MemberSignature Language="F#" Value="Canceling = 1024" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Canceling" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>The job is being canceled. This enumeration member represents a value of 1024.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Configuring">
+      <MemberSignature Language="C#" Value="Configuring" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Configuring = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Configuring" />
+      <MemberSignature Language="VB.NET" Value="Configuring" />
+      <MemberSignature Language="F#" Value="Configuring = 1" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Configuring" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The job is being configured. The application called the <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.CreateJob" /> method to create the job but has not called the <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.AddJob(Microsoft.Hpc.Scheduler.ISchedulerJob)" /> or <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.SubmitJob(Microsoft.Hpc.Scheduler.ISchedulerJob,System.String,System.String)" /> method to add the job to the scheduler or submit the job to the scheduling queue. This enumeration member represents a value of 1.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalValidation">
+      <MemberSignature Language="C#" Value="ExternalValidation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState ExternalValidation = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.ExternalValidation" />
+      <MemberSignature Language="VB.NET" Value="ExternalValidation" />
+      <MemberSignature Language="F#" Value="ExternalValidation = 8" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.ExternalValidation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>A submission filter is determining if the job can run. For details, see the SubmissionFilterProgram cluster parameter in the Remarks section of <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.SetClusterParameter(System.String,System.String)" />. This enumeration member represents a value of 8.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Failed = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 256" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>One or more of the tasks in the job failed or a system error occurred on the compute node. To get a description of the error, access the <see cref="P:Microsoft.Hpc.Scheduler.ISchedulerJob.ErrorMessage" /> property. This enumeration member represents a value of 256.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Finished">
+      <MemberSignature Language="C#" Value="Finished" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Finished = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Finished" />
+      <MemberSignature Language="VB.NET" Value="Finished" />
+      <MemberSignature Language="F#" Value="Finished = 128" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Finished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>The job successfully finished (all the tasks in the job finished successfully). This enumeration member represents a value of 128.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Finishing">
+      <MemberSignature Language="C#" Value="Finishing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Finishing = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Finishing" />
+      <MemberSignature Language="VB.NET" Value="Finishing" />
+      <MemberSignature Language="F#" Value="Finishing = 64" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Finishing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>The server is cleaning up the resources that were allocated to the job. This enumeration member represents a value of 64.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Queued">
+      <MemberSignature Language="C#" Value="Queued" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Queued = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Queued" />
+      <MemberSignature Language="VB.NET" Value="Queued" />
+      <MemberSignature Language="F#" Value="Queued = 16" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Queued" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>The job passed validation and was added to the scheduling queue. This enumeration member represents a value of 16.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Running">
+      <MemberSignature Language="C#" Value="Running" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Running = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Running" />
+      <MemberSignature Language="VB.NET" Value="Running" />
+      <MemberSignature Language="F#" Value="Running = 32" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Running" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>The job is running. This enumeration member represents a value of 32.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Submitted">
+      <MemberSignature Language="C#" Value="Submitted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Submitted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Submitted" />
+      <MemberSignature Language="VB.NET" Value="Submitted" />
+      <MemberSignature Language="F#" Value="Submitted = 2" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Submitted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The job was submitted to the scheduling queue (see <see cref="M:Microsoft.Hpc.Scheduler.IScheduler.SubmitJob(Microsoft.Hpc.Scheduler.ISchedulerJob,System.String,System.String)" />). This enumeration member represents a value of 2.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Validating">
+      <MemberSignature Language="C#" Value="Validating" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Hpc.Scheduler.Properties.JobState Validating = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.JobState.Validating" />
+      <MemberSignature Language="VB.NET" Value="Validating" />
+      <MemberSignature Language="F#" Value="Validating = 4" Usage="Microsoft.Hpc.Scheduler.Properties.JobState.Validating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The server is determining if the job can run. This enumeration member represents a value of 4.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

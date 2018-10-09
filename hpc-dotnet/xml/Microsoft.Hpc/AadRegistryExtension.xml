@@ -1,0 +1,267 @@
+﻿<Type Name="AadRegistryExtension" FullName="Microsoft.Hpc.AadRegistryExtension">
+  <TypeSignature Language="C#" Value="public static class AadRegistryExtension" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AadRegistryExtension extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.AadRegistryExtension" />
+  <TypeSignature Language="VB.NET" Value="Public Module AadRegistryExtension" />
+  <TypeSignature Language="F#" Value="type AadRegistryExtension = class" />
+  <AssemblyInfo>
+    <AssemblyName>HpcCommon</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAADAppNameAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADAppNameAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADAppNameAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADAppNameAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADAppNameAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADAppNameAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADAppNameAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADAppNameAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADClientAppIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADClientAppIdAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADClientAppIdAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADClientAppIdAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADClientAppIdAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADClientAppIdAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADClientAppIdAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADClientAppIdAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADClientAppKeyAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADClientAppKeyAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADClientAppKeyAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADClientAppKeyAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADClientAppKeyAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADClientAppKeyAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADClientAppKeyAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADClientAppKeyAsync&gt;d__6))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADClientAppRedirectUriAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADClientAppRedirectUriAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADClientAppRedirectUriAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADClientAppRedirectUriAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADClientAppRedirectUriAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADClientAppRedirectUriAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADClientAppRedirectUriAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADClientAppRedirectUriAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADInstanceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADInstanceAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADInstanceAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADInstanceAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADInstanceAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADInstanceAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADInstanceAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADInstanceAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADTenantAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADTenantAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADTenantAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADTenantAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADTenantAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADTenantAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADTenantAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADTenantAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAADTenantIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetAADTenantIdAsync (this Microsoft.Hpc.IHpcContext context, string aadInfoNode = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetAADTenantIdAsync(class Microsoft.Hpc.IHpcContext context, string aadInfoNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.GetAADTenantIdAsync(Microsoft.Hpc.IHpcContext,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAADTenantIdAsync (context As IHpcContext, Optional aadInfoNode As String = null) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetAADTenantIdAsync : Microsoft.Hpc.IHpcContext * string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.GetAADTenantIdAsync (context, aadInfoNode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;GetAADTenantIdAsync&gt;d__2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+        <Parameter Name="aadInfoNode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="aadInfoNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSupportAAD">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; IsSupportAAD (this Microsoft.Hpc.IHpcContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; IsSupportAAD(class Microsoft.Hpc.IHpcContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.AadRegistryExtension.IsSupportAAD(Microsoft.Hpc.IHpcContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsSupportAAD (context As IHpcContext) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="static member IsSupportAAD : Microsoft.Hpc.IHpcContext -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Hpc.AadRegistryExtension.IsSupportAAD context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>HpcCommon</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Hpc.AadRegistryExtension/&lt;IsSupportAAD&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Hpc.IHpcContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

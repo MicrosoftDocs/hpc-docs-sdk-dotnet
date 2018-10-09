@@ -1,0 +1,35 @@
+﻿<Type Name="OnRowSetChange" FullName="Microsoft.Hpc.Scheduler.Store.OnRowSetChange">
+  <TypeSignature Language="C#" Value="public delegate void OnRowSetChange(int rowCount, int objectId, int objectIndex, int objectPreviousIndex, EventType eventType, StoreProperty[] props);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OnRowSetChange extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.OnRowSetChange" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OnRowSetChange(rowCount As Integer, objectId As Integer, objectIndex As Integer, objectPreviousIndex As Integer, eventType As EventType, props As StoreProperty())" />
+  <TypeSignature Language="F#" Value="type OnRowSetChange = delegate of int * int * int * int * EventType * StoreProperty[] -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="rowCount" Type="System.Int32" />
+    <Parameter Name="objectId" Type="System.Int32" />
+    <Parameter Name="objectIndex" Type="System.Int32" />
+    <Parameter Name="objectPreviousIndex" Type="System.Int32" />
+    <Parameter Name="eventType" Type="Microsoft.Hpc.Scheduler.Properties.EventType" />
+    <Parameter Name="props" Type="Microsoft.Hpc.Scheduler.Properties.StoreProperty[]" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="rowCount">To be added.</param>
+    <param name="objectId">To be added.</param>
+    <param name="objectIndex">To be added.</param>
+    <param name="objectPreviousIndex">To be added.</param>
+    <param name="eventType">To be added.</param>
+    <param name="props">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

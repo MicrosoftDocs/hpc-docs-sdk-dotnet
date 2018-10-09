@@ -1,0 +1,428 @@
+﻿<Type Name="VersionControl" FullName="Microsoft.Hpc.Scheduler.Store.VersionControl">
+  <TypeSignature Language="C#" Value="public class VersionControl" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VersionControl extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Store.VersionControl" />
+  <TypeSignature Language="VB.NET" Value="Public Class VersionControl" />
+  <TypeSignature Language="F#" Value="type VersionControl = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VersionControl (Version version);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Version version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Store.VersionControl.#ctor(System.Version)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Hpc.Scheduler.Store.VersionControl : Version -&gt; Microsoft.Hpc.Scheduler.Store.VersionControl" Usage="new Microsoft.Hpc.Scheduler.Store.VersionControl version" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="version" Type="System.Version" />
+      </Parameters>
+      <Docs>
+        <param name="version">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNewerThanV5RTM">
+      <MemberSignature Language="C#" Value="public bool IsNewerThanV5RTM { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNewerThanV5RTM" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsNewerThanV5RTM" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNewerThanV5RTM As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNewerThanV5RTM : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsNewerThanV5RTM" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOlderThanV3SP1">
+      <MemberSignature Language="C#" Value="public bool IsOlderThanV3SP1 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOlderThanV3SP1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsOlderThanV3SP1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOlderThanV3SP1 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOlderThanV3SP1 : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsOlderThanV3SP1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOlderThanV4SP5QFE">
+      <MemberSignature Language="C#" Value="public bool IsOlderThanV4SP5QFE { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOlderThanV4SP5QFE" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsOlderThanV4SP5QFE" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOlderThanV4SP5QFE As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOlderThanV4SP5QFE : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsOlderThanV4SP5QFE" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsV2">
+      <MemberSignature Language="C#" Value="public bool IsV2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsV2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsV2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsV2 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsV2 : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsV2" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsV3">
+      <MemberSignature Language="C#" Value="public bool IsV3 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsV3" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsV3" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsV3 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsV3 : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsV3" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsV4">
+      <MemberSignature Language="C#" Value="public bool IsV4 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsV4" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsV4" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsV4 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsV4 : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsV4" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsV5">
+      <MemberSignature Language="C#" Value="public bool IsV5 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsV5" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.IsV5" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsV5 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsV5 : bool" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.IsV5" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V2">
+      <MemberSignature Language="C#" Value="public static readonly Version V2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V2 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V2 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V3">
+      <MemberSignature Language="C#" Value="public static readonly Version V3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V3 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V3 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V3SP1">
+      <MemberSignature Language="C#" Value="public static readonly Version V3SP1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V3SP1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V3SP1 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V3SP1 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V3SP2">
+      <MemberSignature Language="C#" Value="public static readonly Version V3SP2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V3SP2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V3SP2 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V3SP2 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V3SP3">
+      <MemberSignature Language="C#" Value="public static readonly Version V3SP3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V3SP3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V3SP3 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V3SP3 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V3SP4">
+      <MemberSignature Language="C#" Value="public static readonly Version V3SP4;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V3SP4" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP4" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V3SP4 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V3SP4 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V3SP4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V4">
+      <MemberSignature Language="C#" Value="public static readonly Version V4;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V4" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V4" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V4 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V4 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V4SP1">
+      <MemberSignature Language="C#" Value="public static readonly Version V4SP1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V4SP1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V4SP1 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V4SP1 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V4SP3">
+      <MemberSignature Language="C#" Value="public static readonly Version V4SP3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V4SP3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V4SP3 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V4SP3 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V4SP4">
+      <MemberSignature Language="C#" Value="public static readonly Version V4SP4;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V4SP4" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP4" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V4SP4 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V4SP4 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V4SP5">
+      <MemberSignature Language="C#" Value="public static readonly Version V4SP5;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V4SP5" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP5" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V4SP5 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V4SP5 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V4SP5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V5">
+      <MemberSignature Language="C#" Value="public static readonly Version V5;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Version V5" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Store.VersionControl.V5" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V5 As Version " />
+      <MemberSignature Language="F#" Value=" staticval mutable V5 : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.V5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public Version Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Hpc.Scheduler.Store.VersionControl.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As Version" />
+      <MemberSignature Language="F#" Value="member this.Version : Version" Usage="Microsoft.Hpc.Scheduler.Store.VersionControl.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Store</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

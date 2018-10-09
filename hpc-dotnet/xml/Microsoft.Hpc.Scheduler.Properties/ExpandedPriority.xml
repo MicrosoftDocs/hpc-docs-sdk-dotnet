@@ -1,0 +1,290 @@
+﻿<Type Name="ExpandedPriority" FullName="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority">
+  <TypeSignature Language="C#" Value="public static class ExpandedPriority" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed ExpandedPriority extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpandedPriority" />
+  <TypeSignature Language="F#" Value="type ExpandedPriority = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Provides methods and fields for working with the expanded scale of job priority values available in Windows HPC Server 2008 R2.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AboveNormal">
+      <MemberSignature Language="C#" Value="public const int AboveNormal = 3000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 AboveNormal = (3000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.AboveNormal" />
+      <MemberSignature Language="VB.NET" Value="Public Const AboveNormal As Integer  = 3000" />
+      <MemberSignature Language="F#" Value="val mutable AboveNormal : int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.AboveNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>3000</MemberValue>
+      <Docs>
+        <summary>Represents the minimum expanded priority value that corresponds to an AboveNormal priority and has a value of 3000.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BelowNormal">
+      <MemberSignature Language="C#" Value="public const int BelowNormal = 1000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 BelowNormal = (1000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.BelowNormal" />
+      <MemberSignature Language="VB.NET" Value="Public Const BelowNormal As Integer  = 1000" />
+      <MemberSignature Language="F#" Value="val mutable BelowNormal : int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.BelowNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000</MemberValue>
+      <Docs>
+        <summary>Represents the minimum expanded priority value that corresponds to a BelowNormal priority and has a value of 1000.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CeilingOfPriorityBucket">
+      <MemberSignature Language="C#" Value="public static int CeilingOfPriorityBucket (int expandedPriority);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 CeilingOfPriorityBucket(int32 expandedPriority) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.CeilingOfPriorityBucket(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CeilingOfPriorityBucket (expandedPriority As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="static member CeilingOfPriorityBucket : int -&gt; int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.CeilingOfPriorityBucket expandedPriority" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expandedPriority" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="expandedPriority">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandedPriorityToJobPriority">
+      <MemberSignature Language="C#" Value="public static Microsoft.Hpc.Scheduler.Properties.JobPriority ExpandedPriorityToJobPriority (int expandedPriority);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Hpc.Scheduler.Properties.JobPriority ExpandedPriorityToJobPriority(int32 expandedPriority) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.ExpandedPriorityToJobPriority(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ExpandedPriorityToJobPriority (expandedPriority As Integer) As JobPriority" />
+      <MemberSignature Language="F#" Value="static member ExpandedPriorityToJobPriority : int -&gt; Microsoft.Hpc.Scheduler.Properties.JobPriority" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.ExpandedPriorityToJobPriority expandedPriority" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Hpc.Scheduler.Properties.JobPriority</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expandedPriority" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="expandedPriority">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobPriorityAndOffsetString">
+      <MemberSignature Language="C#" Value="public static void GetJobPriorityAndOffsetString (int expandedPriority, out Nullable&lt;Microsoft.Hpc.Scheduler.Properties.JobPriority&gt; jobPriority, out string offsetString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void GetJobPriorityAndOffsetString(int32 expandedPriority, [out] valuetype System.Nullable`1&lt;valuetype Microsoft.Hpc.Scheduler.Properties.JobPriority&gt;&amp; jobPriority, [out] string&amp; offsetString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.GetJobPriorityAndOffsetString(System.Int32,System.Nullable{Microsoft.Hpc.Scheduler.Properties.JobPriority}@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub GetJobPriorityAndOffsetString (expandedPriority As Integer, ByRef jobPriority As Nullable(Of JobPriority), ByRef offsetString As String)" />
+      <MemberSignature Language="F#" Value="static member GetJobPriorityAndOffsetString : int *  *  -&gt; unit" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.GetJobPriorityAndOffsetString (expandedPriority, jobPriority, offsetString)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expandedPriority" Type="System.Int32" />
+        <Parameter Name="jobPriority" Type="System.Nullable&lt;Microsoft.Hpc.Scheduler.Properties.JobPriority&gt;&amp;" RefType="out" />
+        <Parameter Name="offsetString" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="expandedPriority">To be added.</param>
+        <param name="jobPriority">To be added.</param>
+        <param name="offsetString">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Highest">
+      <MemberSignature Language="C#" Value="public const int Highest = 4000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 Highest = (4000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.Highest" />
+      <MemberSignature Language="VB.NET" Value="Public Const Highest As Integer  = 4000" />
+      <MemberSignature Language="F#" Value="val mutable Highest : int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.Highest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>4000</MemberValue>
+      <Docs>
+        <summary>Represents the Highest priority and has a value of 4000.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobPriorityToExpandedPriority">
+      <MemberSignature Language="C#" Value="public static int JobPriorityToExpandedPriority (int jobPriority);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 JobPriorityToExpandedPriority(int32 jobPriority) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.JobPriorityToExpandedPriority(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function JobPriorityToExpandedPriority (jobPriority As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="static member JobPriorityToExpandedPriority : int -&gt; int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.JobPriorityToExpandedPriority jobPriority" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobPriority" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="jobPriority">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LevelsPerPriorityBucket">
+      <MemberSignature Language="C#" Value="public const int LevelsPerPriorityBucket = 1000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 LevelsPerPriorityBucket = (1000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.LevelsPerPriorityBucket" />
+      <MemberSignature Language="VB.NET" Value="Public Const LevelsPerPriorityBucket As Integer  = 1000" />
+      <MemberSignature Language="F#" Value="val mutable LevelsPerPriorityBucket : int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.LevelsPerPriorityBucket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000</MemberValue>
+      <Docs>
+        <summary>Represents the number of values in the expanded priority scale that are in the range of values that are associated with each named priority value. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lowest">
+      <MemberSignature Language="C#" Value="public const int Lowest = 0;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 Lowest = (0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.Lowest" />
+      <MemberSignature Language="VB.NET" Value="Public Const Lowest As Integer  = 0" />
+      <MemberSignature Language="F#" Value="val mutable Lowest : int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.Lowest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Represents the minimum expanded priority value that corresponds to a Lowest priority and has a value of 0.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="public const int Normal = 2000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 Normal = (2000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.Normal" />
+      <MemberSignature Language="VB.NET" Value="Public Const Normal As Integer  = 2000" />
+      <MemberSignature Language="F#" Value="val mutable Normal : int" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.Normal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>2000</MemberValue>
+      <Docs>
+        <summary>Represents the minimum expanded priority value that corresponds to a Normal priority and has a value of 2000.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public static string ToString (int expandedPriority);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToString(int32 expandedPriority) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.ToString(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ToString (expandedPriority As Integer) As String" />
+      <MemberSignature Language="F#" Value="static member ToString : int -&gt; string" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.ToString expandedPriority" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expandedPriority" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="expandedPriority">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryParse">
+      <MemberSignature Language="C#" Value="public static bool TryParse (string value, out int expandedPriority);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string value, [out] int32&amp; expandedPriority) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.TryParse(System.String,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (value As String, ByRef expandedPriority As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="static member TryParse : string *  -&gt; bool" Usage="Microsoft.Hpc.Scheduler.Properties.ExpandedPriority.TryParse (value, expandedPriority)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Hpc.Scheduler.Properties</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="expandedPriority" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="expandedPriority">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
