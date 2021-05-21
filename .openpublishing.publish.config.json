@@ -11,15 +11,18 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "base_path": "dotnet",
       "site_name": "Docs",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
+      "customized_template_paths": [],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -34,7 +37,8 @@
         "SourceXmlFolder": "hpc-dotnet/xml",
         "OutputYamlFolder": "hpc-dotnet/api",
         "Flatten": true,
-        "id": "hpc-dotnet"
+        "id": "hpc-dotnet",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "hpc-dotnet/api/hpc-dotnet/toc.yml"
@@ -85,5 +89,8 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ]
+  ],
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }
